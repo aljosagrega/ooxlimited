@@ -1,0 +1,186 @@
+{
+  "entries": [
+    {
+      "id": "e1",
+      "kind": "text",
+      "label": "H2: “Marko Štrba”",
+      "group": "Page",
+      "value": "Marko Štrba"
+    },
+    {
+      "id": "e2",
+      "kind": "html",
+      "label": "P: “Marko Štrba is the CEO and Founder of OOX Limited, leading …”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">Marko Štrba is the CEO and Founder of <a href=\"/\">OOX Limited</a>, leading the company with clarity, ownership, and disciplined execution.</span>He builds scalable systems and independent teams. He believes strong culture comes from hiring people who take ownership and work independently."
+    },
+    {
+      "id": "e3",
+      "kind": "html",
+      "label": "P: “Marko focuses on financial discipline, rapid validation, an…”",
+      "group": "Page",
+      "value": "Marko focuses on financial discipline, rapid validation, and long-term adaptability. He drives strategy across game prototyping, <a href=\"https://en.wikipedia.org/wiki/Video_game_development\">mobile game development</a>, and full-cycle production. He leads with calm accountability and a bias toward action over theory."
+    },
+    {
+      "id": "e4",
+      "kind": "text",
+      "label": "H4: “SKILLS”",
+      "group": "Page",
+      "value": "SKILLS"
+    },
+    {
+      "id": "e5",
+      "kind": "text",
+      "label": "LI: “Leadership & Strategy”",
+      "group": "Page",
+      "value": "Leadership & Strategy"
+    },
+    {
+      "id": "e6",
+      "kind": "text",
+      "label": "LI: “Company Building”",
+      "group": "Page",
+      "value": "Company Building"
+    },
+    {
+      "id": "e7",
+      "kind": "text",
+      "label": "LI: “Financial Discipline”",
+      "group": "Page",
+      "value": "Financial Discipline"
+    },
+    {
+      "id": "e8",
+      "kind": "text",
+      "label": "LI: “Rapid Prototyping Strategy”",
+      "group": "Page",
+      "value": "Rapid Prototyping Strategy"
+    },
+    {
+      "id": "e9",
+      "kind": "text",
+      "label": "LI: “Operational Systems”",
+      "group": "Page",
+      "value": "Operational Systems"
+    },
+    {
+      "id": "e10",
+      "kind": "text",
+      "label": "H2: “Q&A”",
+      "group": "Page",
+      "value": "Q&A"
+    },
+    {
+      "id": "e11",
+      "kind": "html",
+      "label": "Button: “What motivates you more, building syste…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">What motivates you more, building systems or building people?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e12",
+      "kind": "html",
+      "label": "Button: “What’s the hardest leadership lesson yo…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">What’s the hardest leadership lesson you’ve learned so far?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e13",
+      "kind": "html",
+      "label": "Button: “How do you prefer to spend your days of…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">How do you prefer to spend your days off?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e14",
+      "kind": "html",
+      "label": "Button: “Favorite quote?”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">Favorite quote?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e15",
+      "kind": "html",
+      "label": "Button: “Top three life highlights?”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">Top three life highlights?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e16",
+      "kind": "html",
+      "label": "Button: “How did your academic journey influence…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">How did your academic journey influence your leadership style?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e17",
+      "kind": "html",
+      "label": "Button: “Have you invested in executive educatio…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">Have you invested in executive education or mentorship?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e18",
+      "kind": "html",
+      "label": "Button: “How do you build a scalable company cul…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">How do you build a scalable company culture?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e19",
+      "kind": "html",
+      "label": "Button: “What financial or operational metrics d…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">What financial or operational metrics do you monitor most closely?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e20",
+      "kind": "html",
+      "label": "Button: “How do you balance innovation with oper…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">How do you balance innovation with operational discipline?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e21",
+      "kind": "html",
+      "label": "Button: “How do you prepare the company for long…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">How do you prepare the company for long-term sustainability?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e22",
+      "kind": "html",
+      "label": "Button: “If mentoring a future CEO, what would y…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">If mentoring a future CEO, what would you advise?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e23",
+      "kind": "text",
+      "label": "Button: “Login”",
+      "group": "Page",
+      "value": "Login"
+    },
+    {
+      "id": "e24",
+      "kind": "html",
+      "label": "LI: “oox menu”",
+      "group": "Page",
+      "value": "<span>oox menu</span>"
+    },
+    {
+      "id": "e25",
+      "kind": "image",
+      "label": "Image: Marko Štrba",
+      "group": "Page",
+      "value": "/wp-content/uploads/2026/03/1ae0674b6b580c7dba0bb88ce3450fb326b67324.jpg"
+    },
+    {
+      "id": "e26",
+      "kind": "imageAlt",
+      "label": "Alt for Marko Štrba",
+      "group": "Page",
+      "value": "Marko Štrba"
+    }
+  ]
+}

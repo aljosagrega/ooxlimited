@@ -1,0 +1,95 @@
+{
+  "entries": [
+    {
+      "id": "e1",
+      "kind": "text",
+      "label": "H1: “Contact”",
+      "group": "Contact",
+      "value": "Contact"
+    },
+    {
+      "id": "e2",
+      "kind": "html",
+      "label": "H2: “Contact Us”",
+      "group": "Contact Us",
+      "value": "<span class=\"text-gradient-oox\">Contact Us</span>"
+    },
+    {
+      "id": "e3",
+      "kind": "text",
+      "label": "P: “Have a game or app idea you want to validate or build? Reac…”",
+      "group": "Contact Us",
+      "value": "Have a game or app idea you want to validate or build? Reach out to OOX Limited and tell us what you’re working on."
+    },
+    {
+      "id": "e4",
+      "kind": "text",
+      "label": "P: “We help teams move from concept to a working plan, from ear…”",
+      "group": "Contact Us",
+      "value": "We help teams move from concept to a working plan, from early playable prototypes to full production. If you’re not sure what the right next step is, that’s fine — a short conversation is usually enough to clarify scope, priorities, and the fastest path forward."
+    },
+    {
+      "id": "e5",
+      "kind": "html",
+      "label": "P: “77 Lower Camden Street, Suite 7, Dublin 2, DUBLIN, Ireland,…”",
+      "group": "Contact Us",
+      "value": "<span style=\"white-space-collapse: preserve;\">77 Lower Camden Street, Suite 7, Dublin 2, DUBLIN, Ireland, D02XE80<br>Reg. Number: 719529</span>"
+    },
+    {
+      "id": "e6",
+      "kind": "html",
+      "label": "P: “admin@ooxcit.com”",
+      "group": "Contact Us",
+      "value": "<a href=\"mailto:admin@ooxcit.com\">admin@ooxcit.com</a>"
+    },
+    {
+      "id": "e7",
+      "kind": "html",
+      "label": "P: “Yes! Please send me info on events and specials.”",
+      "group": "Page",
+      "value": "<span class=\"wpcf7-form-control-wrap\" data-name=\"checkbox-895\"><span class=\"wpcf7-form-control wpcf7-checkbox\"><span class=\"wpcf7-list-item first last\"><label><input type=\"checkbox\" name=\"checkbox-895[]\" value=\"Yes! Please send me info on events and specials.\"><span class=\"wpcf7-list-item-label\">Yes! Please send me info on events and specials.</span></label></span></span></span>"
+    },
+    {
+      "id": "e8",
+      "kind": "html",
+      "label": "Button: “send request”",
+      "group": "Page",
+      "value": "<span class=\"elementor-button-content-wrapper\"><span><span>send request</span></span></span>"
+    },
+    {
+      "id": "e9",
+      "kind": "text",
+      "label": "H2: “Let’s Discuss Your Game or App Development Project”",
+      "group": "Let’s Discuss Your Game or App Developm…",
+      "value": "Let’s Discuss Your Game or App Development Project"
+    },
+    {
+      "id": "e10",
+      "kind": "text",
+      "label": "P: “Contact OOX Limited to discuss rapid prototyping, mobile ga…”",
+      "group": "Let’s Discuss Your Game or App Developm…",
+      "value": "Contact OOX Limited to discuss rapid prototyping, mobile game development, app development, or full-cycle production support. We work with startups, studios, publishers, and product teams that need a reliable development partner to turn ideas into playable prototypes and scalable digital products."
+    },
+    {
+      "id": "e11",
+      "kind": "text",
+      "label": "P: “Whether you want to validate a game idea, scope a mobile ap…”",
+      "group": "Let’s Discuss Your Game or App Developm…",
+      "value": "Whether you want to validate a game idea, scope a mobile app, continue an existing build, or move from prototype to full production, our team can help define the next step clearly. We focus on practical planning, fast iteration, and development workflows that reduce risk before larger investment."
+    },
+    {
+      "id": "e12",
+      "kind": "text",
+      "label": "Button: “Login”",
+      "group": "Page",
+      "value": "Login"
+    },
+    {
+      "id": "e13",
+      "kind": "html",
+      "label": "LI: “oox menu”",
+      "group": "Page",
+      "value": "<span>oox menu</span>"
+    }
+  ]
+}

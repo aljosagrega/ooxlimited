@@ -1,0 +1,1033 @@
+[
+  {
+    "id": 7259,
+    "slug": "team-marko-strba",
+    "ord": 0,
+    "name": "Marko Štrba",
+    "position": "CEO",
+    "job": "Lead Developer, Co-Founder",
+    "experience": "10+ Years",
+    "responsibility": "Design, Interior",
+    "email": "info@example.com",
+    "bio": "A developer at core and a builder by mindset, Luka is a key part of our game development team, combining deep technical expertise with strong product ownership. As a co-founder, he bridges engineering and strategy, turning ideas into shipped features and prototypes into scalable systems.\r\n\r\nFocused on clean architecture, practical solutions, and fast validation, Luka plays a critical role in building reliable systems across mobile game development and app development projects.",
+    "photo": {
+      "url": "/wp-content/uploads/2026/03/1ae0674b6b580c7dba0bb88ce3450fb326b67324.jpg",
+      "alt": "Marko Štrba"
+    },
+    "socials": {
+      "fb": "https://www.facebook.com/themelexus/",
+      "x": "https://x.com/themelexus",
+      "ig": "https://www.instagram.com/themelexus/"
+    },
+    "skills": [
+      "Leadership & Strategy",
+      "Company Building",
+      "Financial Discipline",
+      "Rapid Prototyping Strategy",
+      "Operational Systems"
+    ],
+    "programs": [],
+    "qa": [
+      {
+        "question": "What motivates you more, building systems or building people?",
+        "answer": "<span>Both. Strong systems create clarity. They define standards, align expectations, and allow a company to execute consistently. Over time, that consistency compounds into measurable results. Systems reduce noise and remove ambiguity.</span>\r\n\r\n<span>At the same time, systems only evolve when people challenge them. When individuals think independently and question assumptions, the organization improves. A solid system makes work easier. Exceptional people make the system exceptional.</span>"
+      },
+      {
+        "question": "What’s the hardest leadership lesson you’ve learned so far?",
+        "answer": "<span>Ownership. If a predictable problem happens and we were not prepared, that responsibility sits with me. Leadership is not about taking credit when things go well, it’s about absorbing responsibility when they don’t.</span>\r\n\r\n<span>If something breaks in a way that could have been anticipated, that’s a systems failure. And systems are ultimately my responsibility.</span>"
+      },
+      {
+        "question": "How do you prefer to spend your days off?",
+        "answer": "<span>Quietly. Time in nature, long walks with my three dogs, and the occasional nap. Silence restores perspective.</span>\r\n\r\n<span>Leadership requires constant decision-making. Resetting mentally allows for sharper judgment.</span>"
+      },
+      {
+        "question": "Favorite quote?",
+        "answer": "<span>“If you don’t know to which port you’re sailing, no wind is favorable.”</span>\r\n\r\n<span>Direction matters more than speed.</span>"
+      },
+      {
+        "question": "Top three life highlights?",
+        "answer": "<span>I don’t see life as highlights. It’s progress, setbacks, doubt, clarity. As the Zen story says: “Maybe.”</span>\r\n\r\n<span>What feels like success today may not be long-term. What feels like failure often carries the lesson you needed. The key is staying grounded and continuing forward.</span>"
+      },
+      {
+        "question": "How did your academic journey influence your leadership style?",
+        "answer": "<span>My academic path was cut short due to financial circumstances. That experience strengthened my accountability and pushed me toward entrepreneurship, ultimately leading to the creation of OOX Limited.</span>\r\n\r\n<span>Because of that journey, I value resilience, ownership, and execution more than formal titles. Education matters. Hunger and discipline matter more.</span>"
+      },
+      {
+        "question": "Have you invested in executive education or mentorship?",
+        "answer": "<span>Yes. I consistently invest in growth through conferences, industry discussions, mentorship, reading, and physical discipline.</span>\r\n\r\n<span>Leadership requires exposure to new ideas, honest feedback, and intentional evolution. Growth is never accidental.</span>"
+      },
+      {
+        "question": "How do you build a scalable company culture?",
+        "answer": "<span>By hiring people who don’t need to be managed, and then getting out of their way.</span>\r\n\r\n<span>At OOX, we hire for initiative and ownership. We document what works, remove what doesn’t, and trust the team to execute. Culture scales through behavior reinforcement, not bureaucracy.</span>"
+      },
+      {
+        "question": "What financial or operational metrics do you monitor most closely?",
+        "answer": "<span>Cash flow, burn rate, revenue predictability, and time from idea to playable prototype.</span>\r\n\r\n<span>Rapid prototyping is one of our core strengths. We turn ideas into playable builds quickly, test them, and provide clear direction. Early validation reduces risk and unnecessary spend. Speed in validation creates immediate value.</span>"
+      },
+      {
+        "question": "How do you balance innovation with operational discipline?",
+        "answer": "<span>By separating them intentionally.</span>\r\n\r\n<span>Innovation requires room to experiment. Operations require consistency. Mixing the two creates chaos. We protect exploration time while maintaining disciplined delivery systems.</span>"
+      },
+      {
+        "question": "How do you prepare the company for long-term sustainability?",
+        "answer": "<span>You don’t predict the future. You build adaptability.</span>\r\n\r\n<span>Short feedback loops, financial discipline, strong talent, and market awareness create resilience. The company that adapts faster than the market shifts survives.</span>"
+      },
+      {
+        "question": "If mentoring a future CEO, what would you advise?",
+        "answer": "<span>Learn to sell. Not manipulation, communication.</span>\r\n\r\n<span>As a CEO, you are always selling: vision to investors, clarity to the team, opportunity to partners. If you cannot articulate value simply and honestly, nothing else matters.</span>\r\n\r\n<span>Second, get uncomfortable early. Start something. Fail at something. Judgment is built through execution, not theory.</span>"
+      }
+    ]
+  },
+  {
+    "id": 7266,
+    "slug": "konstantin-durickovic",
+    "ord": 1,
+    "name": "Konstantin Đuričković",
+    "position": "Product Owner, Co-Founder",
+    "job": "Lead Developer, Co-Founder",
+    "experience": "10+ Years",
+    "responsibility": "Design, Interior",
+    "email": "info@example.com",
+    "bio": "A developer at core and a builder by mindset, Luka is a key part of our game development team, combining deep technical expertise with strong product ownership. As a co-founder, he bridges engineering and strategy, turning ideas into shipped features and prototypes into scalable systems.\r\n\r\nFocused on clean architecture, practical solutions, and fast validation, Luka plays a critical role in building reliable systems across mobile game development and app development projects.",
+    "photo": {
+      "url": "/wp-content/uploads/2026/03/DSC06574k-scaled.webp",
+      "alt": "Konstantin Đuričković"
+    },
+    "socials": {
+      "fb": "https://www.facebook.com/themelexus/",
+      "x": "https://x.com/themelexus",
+      "ig": "https://www.instagram.com/themelexus/"
+    },
+    "skills": [
+      "System Architecture",
+      "Mobile Game Development",
+      "Backend & Game Logic",
+      "Performance Optimization",
+      "Scalable Systems Design"
+    ],
+    "programs": [],
+    "qa": [
+      {
+        "question": "Do you see product more as logic or intuition?",
+        "answer": "<span>Intuition to notice.</span><span> Logic to decide.</span><span> Data to confirm.</span>"
+      },
+      {
+        "question": "What was the first product decision you made that taught you something the hard way?",
+        "answer": "<span>Anyone can point at a flaw. Few can remove it without creating three new ones.</span>\r\n\r\n<span>Problems are often obvious. Good solutions are not.</span>"
+      },
+      {
+        "question": "How do you prefer to spend your days off?",
+        "answer": "<span>With my family.</span>"
+      },
+      {
+        "question": "Favorite quote?",
+        "answer": "<span>“Ask, and it will be given to you; seek, and you will find; knock, and the door will be opened to you.”</span>"
+      },
+      {
+        "question": "Top three life highlights?",
+        "answer": "<span>Birth of my first child.</span><span> Birth of my second child.</span><span> Last year’s 140kg bench press PR.</span>"
+      },
+      {
+        "question": "How did your formal education prepare you for product ownership?",
+        "answer": "<span>Very little. Most learning happened after shipping.</span>"
+      },
+      {
+        "question": "Were there academic experiences that translate into how you design games today?",
+        "answer": "<span>Academia gave me language.</span><span> Books gave me lenses.</span><span> Users gave me constraints.</span>"
+      },
+      {
+        "question": "How do you validate a concept before allocating serious development resources?",
+        "answer": "<span>Small bets.</span><span> Fast signals.</span><span> Kill early.</span>\r\n\r\n<span>Early validation through rapid prototyping prevents unnecessary development spend and reduces strategic risk.</span>"
+      },
+      {
+        "question": "What frameworks do you use for prioritization?",
+        "answer": "<span>Rules of thumb.</span>\r\n\r\n<span>Frameworks don’t survive contact with reality. Context always matters more.</span>"
+      },
+      {
+        "question": "How do you balance retention mechanics with monetization strategy?",
+        "answer": "<span>Retention first.</span>\r\n\r\n<span>Monetization that harms trust compounds failure. Sustainable product strategy requires user value before revenue extraction.</span>"
+      },
+      {
+        "question": "How do you handle post-launch data interpretation and iteration?",
+        "answer": "<span>If it’s good, proceed.</span><span> If it’s bad, iterate.</span><span> If it’s really bad, delete.</span>\r\n\r\n<span>Speed of decision-making matters more than ego.</span>"
+      },
+      {
+        "question": "What advice would you give students who want to transition into product leadership?",
+        "answer": "<span>Learn to do a real job first. Then lead.</span>\r\n\r\n<span>Product leadership without execution experience lacks depth. Real judgment comes from shipping, failing, and refining.</span>"
+      }
+    ]
+  },
+  {
+    "id": 7271,
+    "slug": "vukasin-despotovic",
+    "ord": 2,
+    "name": "Vukašin Despotović",
+    "position": "Business Developer, Co-Founder",
+    "job": "Lead Developer, Co-Founder",
+    "experience": "10+ Years",
+    "responsibility": "Design, Interior",
+    "email": "info@example.com",
+    "bio": "A developer at core and a builder by mindset, Luka is a key part of our game development team, combining deep technical expertise with strong product ownership. As a co-founder, he bridges engineering and strategy, turning ideas into shipped features and prototypes into scalable systems.\r\n\r\nFocused on clean architecture, practical solutions, and fast validation, Luka plays a critical role in building reliable systems across mobile game development and app development projects.",
+    "photo": {
+      "url": "/wp-content/uploads/2026/03/ChatGPT-Image-14.-мај-2026.-15_19_50.png",
+      "alt": "Vukašin Despotović"
+    },
+    "socials": {
+      "fb": "https://www.facebook.com/themelexus/",
+      "x": "https://x.com/themelexus",
+      "ig": "https://www.instagram.com/themelexus/"
+    },
+    "skills": [
+      "Business Development",
+      "Product–Market Fit Strategy",
+      "Growth Systems Design",
+      "Market Analysis",
+      "Validation & Monetization Strategy"
+    ],
+    "programs": [],
+    "qa": [
+      {
+        "question": "If you weren’t in the gaming industry, what would you be building today?",
+        "answer": "<span>I’d focus on SaaS or performance-driven e-commerce. I enjoy building systems where growth is measurable and repeatable—where customer value, acquisition, and profitability can be engineered with discipline.</span>\r\n\r\n<span>The appeal isn’t the industry itself. It’s the system behind it.</span>"
+      },
+      {
+        "question": "How do you prefer to spend your days off?",
+        "answer": "<span>enjoy discovering new restaurants and traveling when time allows.</span>\r\n\r\n<span>I don’t get to game as much as I’d like these days, but I stay connected to the industry whenever possible.</span>"
+      },
+      {
+        "question": "How did your academic background shape your approach to business development?",
+        "answer": "<span>Studying Business Economics gave me a strong foundation in microeconomics and market behavior—understanding how incentives shape decisions and how value is created and captured.</span>\r\n\r\n<span>During my Master’s and PhD work, I explored business systems and strategic frameworks. That trained me to analyze opportunities from multiple perspectives: market structure, competitive positioning, execution models, and long-term sustainability. Today, that systems-based thinking guides how I evaluate partnerships and growth strategies.</span>"
+      },
+      {
+        "question": "Were there early ventures that influenced your entrepreneurial mindset?",
+        "answer": "<span>When I was a kid, I wanted an Xbox 360 but couldn’t afford it. My first instinct was to search for shortcuts—“free Xbox 360”—which quickly exposed me to scams and unrealistic promises.</span>\r\n\r\n<span>That was my first lesson: nothing meaningful is free.</span>\r\n\r\n<span>So I shifted the question to “how to earn money for an Xbox 360.” I taught myself basic online marketing and began promoting CPA offers through YouTube. I was earning a few dollars a day—small money, but huge confidence.</span>\r\n\r\n<span>Even though I couldn’t withdraw it at first due to banking limitations, I learned how digital value chains function. That curiosity and habit of building from scratch stayed with me.</span>"
+      },
+      {
+        "question": "What are the most common early-stage mistakes founders make when bringing a game to market?",
+        "answer": "<span>The biggest mistake is investing heavily before validating the concept.</span>\r\n\r\n<span>Founders fall in love with ideas and spend months building without evidence that players actually want the product. Strong teams treat assumptions as hypotheses and validate them early.</span>\r\n\r\n<span>The faster you kill weak ideas, the more resources you preserve for the one that can genuinely break out. Speed of validation protects capital and increases probability of success.</span>"
+      }
+    ]
+  },
+  {
+    "id": 728,
+    "slug": "luka-miljus",
+    "ord": 3,
+    "name": "Luka Miljuš",
+    "position": "Senior Lead Developer, Co-Founder",
+    "job": "Lead Developer, Co-Founder",
+    "experience": "10+ Years",
+    "responsibility": "Design, Interior",
+    "email": "info@example.com",
+    "bio": "A developer at core and a builder by mindset, Luka is a key part of our game development team, combining deep technical expertise with strong product ownership. As a co-founder, he bridges engineering and strategy, turning ideas into shipped features and prototypes into scalable systems.\r\n\r\nFocused on clean architecture, practical solutions, and fast validation, Luka plays a critical role in building reliable systems across mobile game development and app development projects.",
+    "photo": {
+      "url": "/wp-content/uploads/2026/01/0314e21573a5d458249630664716e2ea54d22e21-2.jpg",
+      "alt": "Luka Miljuš"
+    },
+    "socials": {
+      "fb": "https://www.facebook.com/themelexus/",
+      "x": "https://x.com/themelexus",
+      "ig": "https://www.instagram.com/themelexus/"
+    },
+    "skills": [
+      "Unity",
+      "Leadership",
+      "Teaching",
+      "Full-stack web development",
+      "Tooling & Automation"
+    ],
+    "programs": [
+      "Unity",
+      "Jetbrains Rider",
+      "Git",
+      "Discord (pro user)"
+    ],
+    "qa": [
+      {
+        "question": "What first sparked your interest in programming?",
+        "answer": "A strong desire to create and to understand how things work under the hood. I was never satisfied with just using software, I wanted to understand the logic behind it.\r\nProgramming felt like the perfect balance between creativity and structure. You build something from nothing, but through logic and precision."
+      },
+      {
+        "question": "Was there a moment when you realized this would be your long-term career path?",
+        "answer": "The first time I worked on a paid project. Until then, programming was something I enjoyed, but it still felt like a hobby.\r\nOnce I saw that my skills could create real value, and that someone was willing to invest in that value, it shifted my perspective completely."
+      },
+      {
+        "question": "How do you prefer to spend your days off?",
+        "answer": "<span>Spending time with friends and family, traveling, and taking care of plants. Stepping away from screens helps reset mentally.</span>\r\n\r\n<span>Traveling brings new perspectives, while simple routines like plant care bring patience and balance.</span>"
+      },
+      {
+        "question": "Favorite quote?",
+        "answer": "<span>“A man cannot remake himself without suffering, for he is both the marble and the sculptor.” – Alexis Carrel</span>\r\n\r\n<span>Growth requires effort, discipline, and discomfort. That applies both personally and professionally.</span>"
+      },
+      {
+        "question": "Top three life highlights?",
+        "answer": "<span>Turning a hobby into a profession.</span><span> Getting engaged.</span><span> Graduating from university.</span>\r\n\r\n<span>Each represents commitment to craft, personal life, and long-term goals.</span>"
+      },
+      {
+        "question": "How did your academic training shape your approach to system architecture and problem-solving?",
+        "answer": "<span>It gave me a strong foundation in structured thinking, modularity, and long-term maintainability.</span>\r\n\r\n<span>Later experience in fast-paced environments taught me how to balance that structure with flexibility and rapid iteration.</span>"
+      },
+      {
+        "question": "Were there specific technical projects during university that pushed your limits?",
+        "answer": "<span>Not a single one, but many projects pushed me by introducing completely new concepts.</span>\r\n\r\n<span>That constant exposure to unfamiliar challenges shaped my growth the most.</span>"
+      },
+      {
+        "question": "How do you design scalable architecture for mobile games from day one?",
+        "answer": "<span>I focus on building loosely coupled systems that can evolve independently.</span>\r\n\r\n<span>Scalability comes from designing systems that can adapt over time, not from trying to predict everything upfront.</span>"
+      },
+      {
+        "question": "What’s the biggest misconception about game development?",
+        "answer": "<span>That choosing the right engine solves most problems.</span>\r\n\r\n<span>In reality, system design, architecture, and engineering decisions matter far more than the tool itself.</span>"
+      },
+      {
+        "question": "How do you manage technical debt while keeping timelines realistic?",
+        "answer": "<span>Technical debt is inevitable, especially in fast-paced environments.</span>\r\n\r\n<span>The key is making conscious decisions, keeping core systems stable, and planning refactoring when needed.</span>"
+      },
+      {
+        "question": "How do you mentor junior developers?",
+        "answer": "<span>I focus on mindset. Mistakes are part of learning, not failure.</span>\r\n\r\n<span>Understanding why something didn’t work is more valuable than just fixing it.</span>"
+      },
+      {
+        "question": "What technical skill should every aspiring developer master?",
+        "answer": "<span>Debugging and problem-solving.</span>\r\n\r\n<span>Technologies change, but the ability to analyze and solve problems remains constant.</span>"
+      }
+    ]
+  },
+  {
+    "id": 7273,
+    "slug": "luka-pikula",
+    "ord": 4,
+    "name": "Luka Pikula",
+    "position": "Senior Unity Developer, Co-Founder",
+    "job": "Lead Developer, Co-Founder",
+    "experience": "10+ Years",
+    "responsibility": "Design, Interior",
+    "email": "info@example.com",
+    "bio": "A developer at core and a builder by mindset, Luka is a key part of our game development team, combining deep technical expertise with strong product ownership. As a co-founder, he bridges engineering and strategy, turning ideas into shipped features and prototypes into scalable systems.\r\n\r\nFocused on clean architecture, practical solutions, and fast validation, Luka plays a critical role in building reliable systems across mobile game development and app development projects.",
+    "photo": {
+      "url": "/wp-content/uploads/2026/03/DSC06305p-scaled.webp",
+      "alt": "PIKULA"
+    },
+    "socials": {
+      "fb": "https://www.facebook.com/themelexus/",
+      "x": "https://x.com/themelexus",
+      "ig": "https://www.instagram.com/themelexus/"
+    },
+    "skills": [
+      "System Architecture",
+      "Mobile Game Development",
+      "Backend & Game Logic",
+      "Performance Optimization",
+      "Scalable Systems Design"
+    ],
+    "programs": [
+      "Unity",
+      "Unreal Engine",
+      "Git",
+      "Firebase",
+      "REST APIs"
+    ],
+    "qa": [
+      {
+        "question": "What first sparked your interest in programming?",
+        "answer": "A strong desire to create and to understand how things work under the hood. I was never satisfied with just using software, I wanted to understand the logic behind it.\r\nProgramming felt like the perfect balance between creativity and structure. You build something from nothing, but through logic and precision."
+      },
+      {
+        "question": "Was there a moment when you realized this would be your long-term career path?",
+        "answer": "The first time I worked on a paid project. Until then, programming was something I enjoyed, but it still felt like a hobby.\r\nOnce I saw that my skills could create real value, and that someone was willing to invest in that value, it shifted my perspective completely."
+      },
+      {
+        "question": "How do you prefer to spend your days off?",
+        "answer": "<span>Drinking good coffee, traveling when possible, and going out with friends. I like switching off completely from work when I can.</span>"
+      },
+      {
+        "question": "Favorite quote?",
+        "answer": "<span>“There is nothing more permanent than a temporary solution.”</span><span> My own quote.</span>"
+      },
+      {
+        "question": "Top three life highlights?",
+        "answer": "<span>Graduating.</span><span> Releasing our first commercial game.</span><span> Starting my master’s studies in game development.</span>\r\n\r\n<span>Each milestone marked a step forward in turning long-term goals into tangible results.</span>"
+      },
+      {
+        "question": "How did your academic journey influence your technical mindset?",
+        "answer": "<span>I focused on programming from high school through my bachelor’s and now master’s studies at the Faculty of Technical Sciences in Novi Sad. I’ve always known what I wanted to do, so my education was structured around building depth rather than exploring different directions. That consistency helped me develop discipline and a structured approach to problem-solving.</span>"
+      },
+      {
+        "question": "Were there key projects or research areas that shaped your coding style?",
+        "answer": "<span>Idle Hooligans: Club Fights was my first large-scale production project. It taught me how to write production-ready code, collaborate within a team, and work under real-world constraints. Academic projects are controlled environments; production teaches you about trade-offs, deadlines, and maintainability.</span>"
+      },
+      {
+        "question": "How do you approach writing maintainable and scalable code?",
+        "answer": "<span>In fast prototyping phases, speed is important, but readability still matters. Even quick solutions need to be understandable by the rest of the team. We rely on peer reviews and internal standards to maintain consistency. Scalability comes from modular systems and avoiding unnecessary complexity early on.</span>"
+      },
+      {
+        "question": "What’s your method for testing and debugging new features?",
+        "answer": "<span>I start with functional testing to confirm expected behavior. After that, I involve testers or external feedback. In mobile game development, UX validation is just as important as technical correctness. A feature can work perfectly from a technical standpoint but still feel wrong to the player.</span>"
+      },
+      {
+        "question": "How do you stay updated with evolving technologies in game development?",
+        "answer": "<span>I follow industry-focused YouTube channels, LinkedIn discussions, and Reddit communities. Recently, I’ve been especially interested in AI tools and workflow optimization within game development processes.</span>"
+      },
+      {
+        "question": "What’s the most challenging bug you’ve encountered?",
+        "answer": "<span>A simple typo in a bundle ID that took two days to track down. It was a small mistake with a disproportionately large impact. That experience reinforced how critical attention to detail is in production environments.</span>"
+      },
+      {
+        "question": "How do you collaborate within cross-functional teams?",
+        "answer": "<span>Clear communication and early alignment are essential. I aim to understand the intent behind design and art decisions before implementation to reduce rework. Transparent discussion about technical constraints helps teams make better decisions and keeps development efficient.</span>"
+      },
+      {
+        "question": "What’s one technical skill every developer should constantly refine?",
+        "answer": "<span>Learning how to use AI tools effectively. They won’t replace developers, but they already improve productivity and automate repetitive tasks. Developers who understand how to leverage AI will simply work smarter.</span>"
+      }
+    ]
+  },
+  {
+    "id": 7348,
+    "slug": "andela-stupar-2",
+    "ord": 5,
+    "name": "Anđela Stupar",
+    "position": "UI/UX Designer",
+    "job": "Lead Developer, Co-Founder",
+    "experience": "10+ Years",
+    "responsibility": "Design, Interior",
+    "email": "info@example.com",
+    "bio": "A developer at core and a builder by mindset, Luka is a key part of our game development team, combining deep technical expertise with strong product ownership. As a co-founder, he bridges engineering and strategy, turning ideas into shipped features and prototypes into scalable systems.\r\n\r\nFocused on clean architecture, practical solutions, and fast validation, Luka plays a critical role in building reliable systems across mobile game development and app development projects.",
+    "photo": {
+      "url": "/wp-content/uploads/2026/04/DSC06325-scaled.webp",
+      "alt": "Anđela Stupar"
+    },
+    "socials": {
+      "fb": "https://www.facebook.com/themelexus/",
+      "x": "https://x.com/themelexus",
+      "ig": "https://www.instagram.com/themelexus/"
+    },
+    "skills": [
+      "UI/UX Design",
+      "Graphic Design",
+      "Photography",
+      "Motion Graphics"
+    ],
+    "programs": [
+      "Figma",
+      "Photoshop",
+      "Illustrator",
+      "Lightroom",
+      "Unity",
+      "After Effects",
+      "VS Code"
+    ],
+    "qa": [
+      {
+        "question": "What originally drew you to UI/UX design?",
+        "answer": "<span>After studying graphic design, UI/UX felt like a more practical direction where you can solve real-world problems through design. </span><span>Game UI design, in particular, stood out as the most exciting field. It combines interaction, feedback, visual clarity, and player psychology in a way that feels dynamic and rewarding.</span>"
+      },
+      {
+        "question": "At what point did you realize you wanted to expand into technical art?",
+        "answer": "<span>I enjoy combining strong design with technical understanding. Technical artists sometimes lack aesthetic intuition, so developing those hybrid skills felt like a natural progression. </span><span>Understanding how visuals function inside the engine makes design decisions smarter and more production-ready.</span>"
+      },
+      {
+        "question": "Do you see yourself more as a designer who codes, or a technical mind with strong aesthetics?",
+        "answer": "<span>I love polishing visuals, but I also enjoy understanding how systems work under the hood. </span><span>That combination allows me to design UI systems that are visually refined but also technically practical for mobile game development.</span>"
+      },
+      {
+        "question": "How do you prefer to spend your days off?",
+        "answer": "<span>Riding my bike, walking, spending time with loved ones, and photographing events with my partner. It’s a creative outlet outside of digital work.</span>"
+      },
+      {
+        "question": "Favorite quote?",
+        "answer": "<span>Less is more.</span>"
+      },
+      {
+        "question": "Top three life highlights?",
+        "answer": "<span>Creative work.</span><span> Being an aunt.</span><span> Traveling, especially by bike.</span>"
+      },
+      {
+        "question": "How did your academic background shape your understanding of user behavior and visual systems?",
+        "answer": "<span>It helped me understand visual hierarchy, user psychology, and why certain patterns feel intuitive. </span><span>Strong UI/UX design is not just about aesthetics; it’s about guiding user behavior through structure and clarity.</span>"
+      },
+      {
+        "question": "Were there specific projects that sparked your interest in technical art?",
+        "answer": "<span>I’ve been creating small duck-themed game concepts independently, experimenting with how design ideas translate into functional systems. </span><span>That experimentation pushed me to understand more about shaders, interactions, and implementation logic.</span>"
+      },
+      {
+        "question": "Are you currently pursuing technical training?",
+        "answer": "<span>Yes, I’m currently taking a course on Udemy focused on expanding my technical art knowledge. </span><span>Continuous learning is part of my transition into a hybrid creative-technical role.</span>"
+      },
+      {
+        "question": "How are you structuring your learning process while working full-time?",
+        "answer": "<span>I integrate learning into my work process whenever possible. </span><span>Applying new knowledge directly in production helps solidify understanding faster.</span>"
+      },
+      {
+        "question": "How do you approach designing intuitive UI for mobile games?",
+        "answer": "<span>It starts with understanding the target audience, the client’s goals, and user behavior. </span><span>From there, I focus on clarity, hierarchy, and minimizing friction. Mobile UI design must be readable, accessible, and responsive.</span>"
+      },
+      {
+        "question": "What’s your process from wireframe to implementation-ready design?",
+        "answer": "<span>I begin by analyzing requirements and researching user needs. Then I create wireframes and explore multiple visual variations. </span><span>After testing interactions and refining layouts, I polish the final UI to ensure it’s consistent, usable, and ready for developer implementation.</span>"
+      },
+      {
+        "question": "What’s a common UI mistake in mobile games?",
+        "answer": "<span>Prioritizing aesthetics over functionality. </span><span>A beautiful interface that confuses users ultimately harms the player experience.</span>"
+      },
+      {
+        "question": "What excites you most about technical art compared to traditional UI/UX?",
+        "answer": "<span>Seeing something I designed actually react inside the game world. </span><span>When a visual system responds to input or interacts dynamically, it feels more complete and immersive.</span>"
+      },
+      {
+        "question": "What’s the biggest challenge in transitioning into technical art?",
+        "answer": "<span>Shifting from purely visual thinking to systematic thinking. </span><span>Learning how to code and understand engine logic requires a different mental framework.</span>"
+      },
+      {
+        "question": "Where do you see your role evolving in the next few years?",
+        "answer": "<span>Right between art and engineering.</span>\r\n\r\n<span>My goal is to become a hybrid creative-technical profile, someone who can design, prototype, implement, and optimize visual systems while understanding how they function inside the engine.</span>"
+      }
+    ]
+  },
+  {
+    "id": 7353,
+    "slug": "nemanja-havlovic",
+    "ord": 6,
+    "name": "Nemanja Havlović",
+    "position": "Game Developer",
+    "job": "Lead Developer, Co-Founder",
+    "experience": "10+ Years",
+    "responsibility": "Design, Interior",
+    "email": "info@example.com",
+    "bio": "A developer at core and a builder by mindset, Luka is a key part of our game development team, combining deep technical expertise with strong product ownership. As a co-founder, he bridges engineering and strategy, turning ideas into shipped features and prototypes into scalable systems.\r\n\r\nFocused on clean architecture, practical solutions, and fast validation, Luka plays a critical role in building reliable systems across mobile game development and app development projects.",
+    "photo": {
+      "url": "/wp-content/uploads/2026/04/Havla.webp",
+      "alt": "Nemanja Havlović"
+    },
+    "socials": {
+      "fb": "https://www.facebook.com/themelexus/",
+      "x": "https://x.com/themelexus",
+      "ig": "https://www.instagram.com/themelexus/"
+    },
+    "skills": [
+      "Gameplay Systems Development",
+      "Mobile Game Development",
+      "Creative System Design",
+      "Problem-Solving & Debugging",
+      "Performance Optimization"
+    ],
+    "programs": [
+      "Unity",
+      "Visual Studio",
+      "Git",
+      "Mobile Profiling Tools"
+    ],
+    "qa": [
+      {
+        "question": "What first got you into game development?",
+        "answer": "<span>I’ve been playing games my whole life, and I’ve always wondered how they were made.</span>\r\n\r\n<span>Over time, that curiosity turned into a real desire to create my own games — not just play them, but build experiences that other people can enjoy.</span>"
+      },
+      {
+        "question": "Do you approach game systems more analytically or creatively?",
+        "answer": "<span>Definitely creatively. I usually start by thinking about how the system should feel to the player and what kind of experience it should create.</span>\r\n\r\n<span>After that, I structure it in a logical way so it functions properly and remains stable in production.</span>"
+      },
+      {
+        "question": "How do you prefer to spend your days off?",
+        "answer": "<span>It depends on the mood. Sometimes I spend time with my partner or family to recharge. Other times I hang out with friends, go on a road trip, or relax at home watching movies or playing games.</span>\r\n\r\n<span>I like having a mix — it keeps things balanced and inspiring.</span>"
+      },
+      {
+        "question": "How did your academic background prepare you for real-world game production?",
+        "answer": "<span>My studies weren’t directly related to game development, but engineering taught me structured thinking and systematic problem-solving.</span>\r\n\r\n<span>Breaking complex systems into smaller parts and debugging step by step are skills that translate directly into mobile game development.</span>"
+      },
+      {
+        "question": "What part of game development do you enjoy the most?",
+        "answer": "<span>Gameplay systems.</span>\r\n\r\n<span>I enjoy designing mechanics and seeing how they interact with one another. When a system “clicks” and improves the overall experience, that’s the most satisfying part.</span>"
+      },
+      {
+        "question": "How do you approach problem-solving when a system doesn’t behave as expected?",
+        "answer": "<span>I break it down to the smallest possible parts and look for the root cause.</span>\r\n\r\n<span>Testing components individually and iterating gradually helps isolate issues. It’s like solving a puzzle - sometimes frustrating, but rewarding when it finally works.</span>"
+      },
+      {
+        "question": "What’s your process for balancing performance with feature complexity?",
+        "answer": "<span>I focus first on features that truly impact the player experience.</span>\r\n\r\n<span>Then I add complexity gradually while monitoring performance. If something creates unnecessary strain, I look for simpler implementations that achieve the same effect. That way, the game remains smooth without sacrificing fun.</span>"
+      }
+    ]
+  },
+  {
+    "id": 7350,
+    "slug": "aleksandra-bulajic",
+    "ord": 7,
+    "name": "Aleksandra Bulajić",
+    "position": "3D Artist",
+    "job": "Lead Developer, Co-Founder",
+    "experience": "10+ Years",
+    "responsibility": "Design, Interior",
+    "email": "info@example.com",
+    "bio": "A developer at core and a builder by mindset, Luka is a key part of our game development team, combining deep technical expertise with strong product ownership. As a co-founder, he bridges engineering and strategy, turning ideas into shipped features and prototypes into scalable systems.\r\n\r\nFocused on clean architecture, practical solutions, and fast validation, Luka plays a critical role in building reliable systems across mobile game development and app development projects.",
+    "photo": {
+      "url": "/wp-content/uploads/2026/03/Saja-1.webp",
+      "alt": "Aleksandra Bulajić"
+    },
+    "socials": {
+      "fb": "https://www.facebook.com/themelexus/",
+      "x": "https://x.com/themelexus",
+      "ig": "https://www.instagram.com/themelexus/"
+    },
+    "skills": [
+      "3D modeling",
+      "Texturing",
+      "UV unwrapping",
+      "3D animation",
+      "Rigging",
+      "Set dressing",
+      "Level Design"
+    ],
+    "programs": [
+      "Blender",
+      "Unity",
+      "Substance Painter",
+      "Photoshop"
+    ],
+    "qa": [
+      {
+        "question": "When did you realize 3D art was more than just a creative hobby for you?",
+        "answer": "<span>I realized it when I understood that I didn’t want to just “get by.” 3D art stopped being a hobby when I saw that it could shape my future. It became less about creating something cool in my free time and more about building a skill set with direction and long-term value.</span>\r\n\r\n<span>That shift in mindset made me approach learning with discipline. I began thinking not just as an artist, but as someone preparing for professional game production.</span>"
+      },
+      {
+        "question": "Do you find more inspiration in games, films, or real-world environments?",
+        "answer": "<span>Films, especially animated films and series. I’m inspired by the way they build emotionally rich and visually cohesive worlds. Animated productions push stylization and storytelling through design in a way that deeply resonates with me.</span>\r\n\r\n<span>I pay close attention to lighting, color scripts, environment storytelling, and small visual details that make scenes feel alive. Those principles translate directly into 3D environment art for games.</span>"
+      },
+      {
+        "question": "How did your formal education influence your artistic style and technical skills?",
+        "answer": "<span>While university didn’t focus heavily on industry-standard 3D tools, it significantly strengthened my artistic foundation. I developed a deeper understanding of composition, color theory, form, and visual balance.</span>\r\n\r\n<span>Technical software can always be learned independently. Understanding visual language and artistic structure is what creates strong, consistent 3D game art.</span>"
+      },
+      {
+        "question": "How do you balance artistic vision with technical limitations in game production?",
+        "answer": "<span>By keeping it simple. Simplicity doesn’t mean lowering quality, it means improving clarity. In mobile game development especially, overcomplicated assets can create performance issues.</span>\r\n\r\n<span>I focus on clean silhouettes, readable shapes, and intentional detailing. Strong design doesn’t require excessive geometry. It requires thoughtful execution.</span>"
+      },
+      {
+        "question": "What’s your approach to optimizing assets for mobile performance?",
+        "answer": "<span>Optimization starts at the beginning. I consider polycount, texture sizes, and asset efficiency during the creation phase rather than trying to fix performance issues later.</span>\r\n\r\n<span>Planning early makes the entire game art pipeline smoother. The goal is to maintain visual quality while respecting mobile platform constraints.</span>"
+      },
+      {
+        "question": "How closely do you collaborate with developers during asset implementation?",
+        "answer": "<span>We follow a structured workflow, which reduces unnecessary friction. Proper naming, exporting, importing, and organization allow assets to integrate smoothly into the engine.</span>\r\n\r\n<span>Clear processes allow everyone to focus on their responsibilities efficiently. And when challenges arise, strong developer collaboration ensures quick solutions.</span>"
+      },
+      {
+        "question": "What’s the most complex asset or environment you’ve worked on?",
+        "answer": "<span>Fusion Brawl was the first project where I created and animated characters, making it particularly meaningful. I also designed and textured the environment, including hand-painted details.</span>\r\n\r\n<span>It was a full creative process, from modeling to final presentation, combining technical execution with artistic storytelling.</span>"
+      }
+    ]
+  },
+  {
+    "id": 7291,
+    "slug": "srdan-radujko",
+    "ord": 8,
+    "name": "Srđan Radujko",
+    "position": "Unity Developer",
+    "job": "Lead Developer, Co-Founder",
+    "experience": "10+ Years",
+    "responsibility": "Design, Interior",
+    "email": "info@example.com",
+    "bio": "A developer at core and a builder by mindset, Luka is a key part of our game development team, combining deep technical expertise with strong product ownership. As a co-founder, he bridges engineering and strategy, turning ideas into shipped features and prototypes into scalable systems.\r\n\r\nFocused on clean architecture, practical solutions, and fast validation, Luka plays a critical role in building reliable systems across mobile game development and app development projects.",
+    "photo": {
+      "url": "/wp-content/uploads/2026/03/DSC06380-scaled.jpg",
+      "alt": "Srđan Radujko"
+    },
+    "socials": {
+      "fb": "https://www.facebook.com/themelexus/",
+      "x": "https://x.com/themelexus",
+      "ig": "https://www.instagram.com/themelexus/"
+    },
+    "skills": [
+      "Unity Development & C# Engineering",
+      "Game Design & Systems Thinking",
+      "Automation & Tooling (Developer Efficiency)",
+      "Project Leadership & Agile Management",
+      "Cross-Disciplinary Collaboration"
+    ],
+    "programs": [
+      "Unity",
+      "Visual Studio",
+      "Mobile Profiling Tools",
+      "ChatGPT (wisely used)"
+    ],
+    "qa": [
+      {
+        "question": "What made you choose Unity as your primary engine?",
+        "answer": "<span>Accessibility. Unity was the first engine that came up when I googled “how to make a game.”</span>\r\n\r\n<span>It became a natural starting point, and over time, a professional focus.</span>"
+      },
+      {
+        "question": "Do you prefer building systems from scratch or refining existing ones?",
+        "answer": "<span>It depends on the system.</span>\r\n\r\n<span>Building from scratch gives more freedom and control. But refining and improving an existing system has its own satisfaction. Optimization and clarity often come from iteration.</span>"
+      },
+      {
+        "question": "How do you prefer to spend your days off?",
+        "answer": "<span>Traveling, visiting friends, going to band gigs, and playing music.</span>"
+      },
+      {
+        "question": "Favorite quote?",
+        "answer": "<span>,,Nek bude borba neprestana.”</span>"
+      },
+      {
+        "question": "Top three life highlights?",
+        "answer": "<span>Bungee jumping (skydiving is next).</span><span> First live show with a band.</span><span> Being a best man to my best friend.</span><span> First big trip.</span>\r\n\r\n<span>Yes, that’s four.</span>"
+      },
+      {
+        "question": "How did your academic training shape your approach to programming?",
+        "answer": "<span>Old-school Fortran helped me understand the fundamentals of programming logic and object-oriented principles.</span>\r\n\r\n<span>The rest of my technical development came from self-learning, online resources, and hands-on experimentation.</span>"
+      },
+      {
+        "question": "Were there competitions or projects that influenced your career?",
+        "answer": "<span>Game jams.</span>\r\n\r\n<span>They taught me how to balance ambition with deadlines. Perfectionism can sabotage delivery, especially in fast-paced environments like game development.</span>\r\n\r\n<span>Shipping matters.</span>"
+      },
+      {
+        "question": "How do you structure scalable systems within Unity?",
+        "answer": "<span>You don’t start with scalability.</span>\r\n\r\n<span>You build a system that solves the current problem. Scalability becomes relevant once the idea proves itself. Overengineering early can slow everything down in a rapid development cycle.</span>"
+      },
+      {
+        "question": "What’s your approach to performance optimization on mobile devices?",
+        "answer": "<span>First, make it work.</span>\r\n\r\n<span>Then optimize once the game idea is validated. Premature optimization wastes time if the core concept doesn’t survive testing.</span>"
+      },
+      {
+        "question": "How do you manage debugging complex interactions between systems?",
+        "answer": "<span>Break it down. Identify which system is responsible for which behavior.</span>\r\n\r\n<span>Testing components independently helps isolate problems. Logging and step-by-step validation reduce guesswork and speed up debugging.</span>"
+      },
+      {
+        "question": "What’s your strategy for maintaining clean and maintainable code?",
+        "answer": "<span>Following principles like KISS and SOLID. Keeping systems readable and understandable for whoever has to work on them later.</span>\r\n\r\n<span>Clean code isn’t about being perfect. It’s about being understandable.</span>"
+      },
+      {
+        "question": "What’s one misconception about Unity development you’d like to clarify?",
+        "answer": "<span>Game development is still product development.</span>\r\n\r\n<span>People think making games is just fun. It’s work like any other product-based industry. The difference is that the end result is entertainment.</span>"
+      },
+      {
+        "question": "What’s a technical skill every Unity developer should master early?",
+        "answer": "<span>Googling. Or now — “ChatGPT-ing.”</span>\r\n\r\n<span>But not copy-pasting blindly. Understanding why something works is more important than having code that compiles.</span>\r\n\r\n<span>Also, building small games from start to finish teaches more than endless tutorials. Going through the entire development cycle reveals how systems truly connect.</span>"
+      }
+    ]
+  },
+  {
+    "id": 7365,
+    "slug": "bojan-marjanovic",
+    "ord": 9,
+    "name": "Bojan Marjanović",
+    "position": "Senior Technical Artist",
+    "job": "Lead Developer, Co-Founder",
+    "experience": "10+ Years",
+    "responsibility": "Design, Interior",
+    "email": "info@example.com",
+    "bio": "A developer at core and a builder by mindset, Luka is a key part of our game development team, combining deep technical expertise with strong product ownership. As a co-founder, he bridges engineering and strategy, turning ideas into shipped features and prototypes into scalable systems.\r\n\r\nFocused on clean architecture, practical solutions, and fast validation, Luka plays a critical role in building reliable systems across mobile game development and app development projects.",
+    "photo": {
+      "url": "/wp-content/uploads/2026/04/DSC06354-scaled.webp",
+      "alt": "Bojan Marjanović"
+    },
+    "socials": {
+      "fb": "https://www.facebook.com/themelexus/",
+      "x": "https://x.com/themelexus",
+      "ig": "https://www.instagram.com/themelexus/"
+    },
+    "skills": [
+      "Illustration",
+      "3D modeling",
+      "Texturing",
+      "Rigging",
+      "Houdini",
+      "VFX",
+      "Procedural generation",
+      "Scipriting/Programming"
+    ],
+    "programs": [
+      "Adobe",
+      "Blender",
+      "Unity",
+      "Substance",
+      "Houdini"
+    ],
+    "qa": [
+      {
+        "question": "What first attracted you to technical art instead of choosing a purely artistic or purely engineering path?",
+        "answer": "<span>I initially moved into technical responsibilities almost by coincidence. My first company didn’t have a dedicated technical artist, only artists and programmers. Those of us who were comfortable stepping outside traditional art tools naturally began handling more technical tasks.</span>\r\n\r\n<span>Once I became more comfortable with scripting, I realized this hybrid space gave me a level of control that pure art didn’t. Technical understanding empowers artists, not only for personal expression, but for building tools, improving pipelines, and supporting teams.</span>"
+      },
+      {
+        "question": "Was there a specific moment when you realized this is your long-term direction?",
+        "answer": "<span>There wasn’t a single defining moment. It was gradual. Over time, scripting and implementation filled a gap in my creative process.</span>\r\n\r\n<span>Eventually, it became clear that the space between art and technology is where I function best.</span>"
+      },
+      {
+        "question": "How do you prefer to spend your days off?",
+        "answer": "<span>Friends, family, hobbies, and personal projects.</span>"
+      },
+      {
+        "question": "Favorite quote?",
+        "answer": "<span>“Svako je lud na svoj način.”</span>"
+      },
+      {
+        "question": "Top three life highlights?",
+        "answer": "<span>Revelations.</span><span> Overcoming hardships and the self.</span><span> Taking ownership of my own failings.</span>"
+      },
+      {
+        "question": "How did your self-taught journey shape your approach to rendering and systems thinking?",
+        "answer": "<span>It was chaotic. I didn’t have a single mentor with a complete understanding of Technical Art. Knowledge came piece by piece, from coworkers, tutorials, blog posts, research papers, and experimentation.</span>\r\n\r\n<span>Testing concepts in practice was the only way to truly understand them. The industry evolves constantly, and keeping up requires continuous learning.</span>"
+      },
+      {
+        "question": "How do you approach building scalable art pipelines in production?",
+        "answer": "<span>First, usability matters. There’s no value in creating systems that people don’t understand.</span>\r\n\r\n<span>Second, existing habits and architecture must be respected, naming conventions, documentation, and workflow clarity are critical.</span>\r\n\r\n<span>Finally, alignment is key. Building scalable pipelines requires permission, resources, and time, which production environments rarely prioritize. Ideally, R&amp;D would happen early, but reality often demands compromises.</span>"
+      },
+      {
+        "question": "How do you balance visual quality with performance constraints, especially on mobile?",
+        "answer": "<span>Ideally, optimization should happen continuously throughout production. Keeping the game below minimum requirements early reduces long-term profiling overhead.</span>\r\n\r\n<span>In reality, optimization is often postponed until late stages, which forces removal or modification of VFX and visual features. Sustainable development requires early system definition and technical R&amp;D.</span>"
+      },
+      {
+        "question": "What’s the most technically complex problem you’ve solved?",
+        "answer": "<span>In personal work:</span><span> Procedural foliage generation with procedural materials.</span><span> Procedural optimized skybox with lighting and weather support.</span><span> Stylized and realistic fire shaders.</span>\r\n\r\n<span>In production:</span><span> Stylized lit matcap shading with atlas support.</span><span> Fake 3D rendering in a 2D engine with simulated lighting and VFX.</span><span> Procedural curve-based Unity assets created in Houdini.</span>"
+      },
+      {
+        "question": "What tools are central to your workflow?",
+        "answer": "<span>Blender</span><span> Photoshop</span><span> After Effects</span><span> Unity</span>\r\n\r\n<span>For shaders, I prefer writing them manually. Node-based tools like Shader Graph or Amplify are used when appropriate, but manual control comes first.</span>"
+      },
+      {
+        "question": "What separates a good technical artist from a great one?",
+        "answer": "<span>It’s difficult to define. The technical artists I respect often operate like researchers or experimental artists, investing personal time into exploration and innovation.</span>\r\n\r\n<span>At the same time, delivering within constraints is equally valuable. Great technical art balances innovation with production reality.</span>"
+      },
+      {
+        "question": "Where do you see your role evolving?",
+        "answer": "<span>Possibly toward graphics programming, procedural generation, advanced materials, assets, animation, characters, and VFX.</span>\r\n\r\n<span>I could see transitioning into a more programming-centric role with further training, or even a generalist or production-support role, given my broad understanding of game development systems.</span>"
+      }
+    ]
+  },
+  {
+    "id": 7360,
+    "slug": "ozren-kolaic",
+    "ord": 10,
+    "name": "Ozren Kolaić",
+    "position": "Senior Unity Developer",
+    "job": "Lead Developer, Co-Founder",
+    "experience": "10+ Years",
+    "responsibility": "Design, Interior",
+    "email": "info@example.com",
+    "bio": "A developer at core and a builder by mindset, Luka is a key part of our game development team, combining deep technical expertise with strong product ownership. As a co-founder, he bridges engineering and strategy, turning ideas into shipped features and prototypes into scalable systems.\r\n\r\nFocused on clean architecture, practical solutions, and fast validation, Luka plays a critical role in building reliable systems across mobile game development and app development projects.",
+    "photo": {
+      "url": "/wp-content/uploads/2026/04/DSC065362-1-scaled.jpg",
+      "alt": "Ozren Kolaic"
+    },
+    "socials": {
+      "fb": "https://www.facebook.com/themelexus/",
+      "x": "https://x.com/themelexus",
+      "ig": "https://www.instagram.com/themelexus/"
+    },
+    "skills": [
+      "Unity",
+      "C#",
+      "WebGL",
+      "Netcode",
+      "Game Flow",
+      "Gameplay Logic",
+      "Multiplayer (PVP) Games",
+      "Narrative Games"
+    ],
+    "programs": [
+      "Unity",
+      "Visual Studio",
+      "XCode",
+      "Android Studio",
+      "GitLab",
+      "Adventure Creator",
+      "Spine",
+      "Jira"
+    ],
+    "qa": [
+      {
+        "question": "What originally drew you to Unity as your primary engine?",
+        "answer": "<span> As a passionate gamer since childhood, I’ve always had a natural desire not just to play, but to understand how the worlds behind the screen are created.</span>\r\n\r\n<span>I started my journey from the artistic side, focusing on 3D modeling of weapons and props, which I then tried to implement into various engines.</span>\r\n\r\n<span>Although I experimented with Unreal Engine and CryEngine to test my models, Unity stood out for its flexibility and accessibility at the moment my professional career began to gain momentum over eight years ago. Once I started working professionally in Unity, its prototyping efficiency and the power of the C# language became the foundation of my further development as an engineer.</span>"
+      },
+      {
+        "question": "Was there a moment when you realized you wanted to specialize at a senior level in game development?",
+        "answer": "<span>For me, it was a completely natural progression because, by nature, I dislike stagnating. I always strive to improve my knowledge and test the limits of what I can achieve. That transition to senior-level specialization happened when simply solving tasks was no longer enough; I felt the need to take broader responsibility for system architecture and to directly contribute to the stability and longevity of entire projects through my experience.</span>"
+      },
+      {
+        "question": "Do you enjoy more building systems from scratch or scaling and improving existing ones?",
+        "answer": "<span> I enjoy both, but in different ways. Building systems from scratch gives me the creative freedom to implement a clean and scalable architecture from the very start, which is crucial for rapid prototyping. On the other hand, working on existing systems is like solving a complex puzzle – it requires deep analysis and precision to implement new features and elevate performance without compromising the game's stability.</span>"
+      },
+      {
+        "question": "How do you prefer to spend your days off?",
+        "answer": "<span>I prefer to spend my free time with my family and my dogs, and you can often find me on road trips. Besides enjoying games privately, I am passionate about 3D printing and sport shooting, as I enjoy hobbies that require precision and a high degree of focus.</span>"
+      },
+      {
+        "question": "Favorite quote",
+        "answer": "<span>\"Obstacles are those frightful things you see when you take your eyes off your goal.\" — Henry Ford</span>"
+      },
+      {
+        "question": "Top three life highlights?",
+        "answer": "Evolution from Technical Artist to Lead Developer\r\n<b></b>Specialization in Multiplayer and Mobile Platforms\r\n<b></b>Mentorship and Technical Leadership"
+      },
+      {
+        "question": "How did your academic or self-taught journey shape your approach to software architecture?",
+        "answer": "<span> My approach to software architecture was shaped by balancing formal education at the Faculty of Technical Sciences and an early entry into the industry. Studying Information Systems Engineering established a solid foundation for programmatic thinking, while working on real-world projects allowed me to apply those theoretical basics in practice immediately. This enabled me to view architecture not just as a set of rules, but as a tool that must support development speed while ensuring long-term code stability over years of progress.</span>"
+      },
+      {
+        "question": "Were there specific projects that pushed you toward thinking beyond just implementation and into system design?",
+        "answer": "<span>The turning point was working at large studios where we developed complex architectures for live service mobile games, intended for hundreds of thousands of players. Working on systems that must be flawlessly scalable and sustainable over many years taught me to view every module through the lens of system design, rather than just immediate implementation. Additionally, developing multiplayer iGaming products for WebGL was a massive challenge that required a high degree of precision in data synchronization and security, which further directed me toward creating robust and resilient technical solutions.</span>"
+      },
+      {
+        "question": "How do you approach designing scalable and maintainable systems in Unity?",
+        "answer": "<span>My design philosophy is based on decomposition: breaking down complex systems into small, autonomous, and highly specialized units that communicate with each other but do not directly depend on one another. Using standard tools such as C#, Unity, and Visual Studio, I focus on creating a modular architecture where each component has a clear and isolated responsibility. This approach, often planned through visualization in Miro, ensures the system remains stable and easy to upgrade, regardless of how complex the project becomes over time.</span>"
+      },
+      {
+        "question": "What’s your philosophy when balancing speed of development with code quality?",
+        "answer": "<span>My approach is a balance between establishing a solid, clean system core and the fastest possible implementation of functionality, depending on the current needs of the project. Through years of working on various titles – from rapid prototypes to complex productions – one develops a specific sense of priority. The key is to set up critical parts of the architecture correctly from day one to avoid technical debt, while applying maximum speed to less critical elements for quick idea validation.</span>"
+      },
+      {
+        "question": "How do you handle performance optimization on mobile or lower-end devices?",
+        "answer": "<span>My strategy is proactive: I apply best practices for optimization from the very start of the project, without compromise, to minimize the need for reactive optimization in later stages. When a problem does arise, the approach is strictly analytical – the first stop depends on the nature of the bottleneck. Whether it’s memory management, rendering efficiency, or CPU execution, I use profiling to precisely isolate the cause before moving to a solution, ensuring the game runs smoothly on a wide range of devices.</span>"
+      },
+      {
+        "question": "Where do you see your role evolving?",
+        "answer": "<span>Possibly toward graphics programming, procedural generation, advanced materials, assets, animation, characters, and VFX.</span>\r\n\r\n<span>I could see transitioning into a more programming-centric role with further training, or even a generalist or production-support role, given my broad understanding of game development systems.</span>"
+      },
+      {
+        "question": "How do you structure communication between systems (events, messaging, architecture patterns)?",
+        "answer": ""
+      }
+    ]
+  },
+  {
+    "id": 8224,
+    "slug": "milica-raketic",
+    "ord": 10,
+    "name": "Milica Raketić",
+    "position": "Brand & Growth Lead",
+    "job": "Lead Developer, Co-Founder",
+    "experience": "10+ Years",
+    "responsibility": "Design, Interior",
+    "email": "info@example.com",
+    "bio": "A developer at core and a builder by mindset, Luka is a key part of our game development team, combining deep technical expertise with strong product ownership. As a co-founder, he bridges engineering and strategy, turning ideas into shipped features and prototypes into scalable systems.\r\n\r\nFocused on clean architecture, practical solutions, and fast validation, Luka plays a critical role in building reliable systems across mobile game development and app development projects.",
+    "photo": {
+      "url": "/wp-content/uploads/2026/03/DSC06480-1-scaled.jpg",
+      "alt": "Milica Raketić"
+    },
+    "socials": {
+      "fb": "https://www.facebook.com/themelexus/",
+      "x": "https://x.com/themelexus",
+      "ig": "https://www.instagram.com/themelexus/"
+    },
+    "skills": [
+      "Brand Strategy",
+      "Creative Direction",
+      "Growth Strategy",
+      "Linkedin Marketing",
+      "Concept Art",
+      "Social Media Managment"
+    ],
+    "programs": [
+      "Adobe Photoshop",
+      "Figma",
+      "Google Analytics",
+      "Meta Business Suite",
+      "Affinity"
+    ],
+    "qa": [
+      {
+        "question": "What originally drew you to concept and character design?",
+        "answer": "<p data-start=\"836\" data-end=\"1209\">I stumbled into it completely by accident. At the time, I was studying mathematics while drawing in my free time. One day, a colleague mentioned a brand-new university program focused on concept and character design. That same day, I left math school and started preparing for the entrance exam. Looking back, it was probably the easiest major life decision I’ve ever made.</p>"
+      },
+      {
+        "question": "At what point did you realize you were equally interested in branding and growth?",
+        "answer": "<p data-start=\"90\" data-end=\"446\" data-is-last-node=\"\" data-is-only-node=\"\">Probably when I realized I enjoy building the bigger picture just as much as creating the visuals themselves. I became interested in how ideas grow, how people connect with them, and why some projects stay memorable while others disappear, even if they look good. Branding and growth felt like the place where creativity, psychology, and strategy all meet.</p>"
+      },
+      {
+        "question": "Do you approach branding more emotionally or strategically?",
+        "answer": "<p data-start=\"1583\" data-end=\"1782\">Both. Good branding cannot exist without emotion, but emotion without strategy rarely survives. People connect emotionally first, while strategy determines how, when, and why that connection happens.</p>"
+      },
+      {
+        "question": "Favorite quote?",
+        "answer": "“I am and always will be the optimist, the hoper of far-flung hopes and the dreamer of improbable dreams.”"
+      },
+      {
+        "question": "How did your background in concept art shape the way you approach branding today?",
+        "answer": "<p data-start=\"2018\" data-end=\"2322\">Concept art teaches you far more than drawing. It teaches you how to think, how to communicate emotion, movement, atmosphere, and vision. I think it shaped my ability to hear an idea and immediately start visualizing how to bring it into the real world in a way people can actually feel and connect with.</p>"
+      },
+      {
+        "question": "Were there specific projects or experiences that pushed you toward marketing and growth work?",
+        "answer": "<p data-start=\"2432\" data-end=\"2671\">Honestly, every single one of them. I didn’t learn marketing in a traditional way. I started as an assistant without really knowing much, and learned everything through hands-on work, problem-solving, and figuring things out along the way.</p>"
+      },
+      {
+        "question": "What makes a studio brand feel authentic instead of “corporate”?",
+        "answer": "<p data-start=\"2752\" data-end=\"2877\">This might sound overly simple, but honestly; the courage not to look and sound exactly like everyone else.</p>"
+      },
+      {
+        "question": "How do you balance creativity with consistency in brand communication?",
+        "answer": "<p data-start=\"2964\" data-end=\"3109\">Strong branding creates enough structure to stay recognizable, while still leaving room for creativity and experimentation inside that structure.</p>"
+      },
+      {
+        "question": "What advice would you give to artists who want to transition into broader creative or strategic roles?",
+        "answer": "<p data-start=\"4180\" data-end=\"4420\">Stop thinking only about execution and start thinking about creation. Execution is completing the task you were given. Creation is asking yourself how you can push the idea further, improve it, reshape it, or make people see it differently.</p>"
+      },
+      {
+        "question": "Where do you see your role evolving in the next few years?",
+        "answer": "<p data-start=\"4495\" data-end=\"4736\" data-is-last-node=\"\" data-is-only-node=\"\"> Five years ago, I had no idea I’d end up where I am today. As long as I keep following my intuition, working with good people, and staying true to my principles, I’m happy to let the wind decide the direction.</p>"
+      }
+    ]
+  },
+  {
+    "id": 7358,
+    "slug": "debela",
+    "ord": 11,
+    "name": "Debela",
+    "position": "Chief Security Officer",
+    "job": "Lead Developer, Co-Founder",
+    "experience": "10+ Years",
+    "responsibility": "Design, Interior",
+    "email": "info@example.com",
+    "bio": "A developer at core and a builder by mindset, Luka is a key part of our game development team, combining deep technical expertise with strong product ownership. As a co-founder, he bridges engineering and strategy, turning ideas into shipped features and prototypes into scalable systems.\r\n\r\nFocused on clean architecture, practical solutions, and fast validation, Luka plays a critical role in building reliable systems across mobile game development and app development projects.",
+    "photo": {
+      "url": "/wp-content/uploads/2026/04/DSC06494-scaled.webp",
+      "alt": "Debela"
+    },
+    "socials": {
+      "fb": "https://www.facebook.com/themelexus/",
+      "x": "https://x.com/themelexus",
+      "ig": "https://www.instagram.com/themelexus/"
+    },
+    "skills": [
+      "Advanced Snack Detection",
+      "Office Security Patrol",
+      "Morale Boosting",
+      "Tail-Based Communication",
+      "Strategic Food Monitoring"
+    ],
+    "programs": [
+      "BarkOS",
+      "TreatFinder 3.0",
+      "Nap Scheduler",
+      "Walk Reminder System"
+    ],
+    "qa": [
+      {
+        "question": "What inspired you to become Chief Security Officer?",
+        "answer": "<span>Woof. Woof woof. WOOF.</span>\r\n\r\n<span>Translation:</span><span> Someone had to take responsibility for food safety and snack monitoring in this office.</span>"
+      },
+      {
+        "question": "What does a typical day in the office look like?",
+        "answer": "<span>Woof woof.</span><span> Woof.</span><span> Woof woof woof woof.</span> <i><span>Nap.</span></i><i></i><span> Woof.</span>\r\n\r\n<span>Translation:</span><span> Morning patrol, snack detection, strategic nap, morale boosting, and afternoon security rounds.</span>"
+      },
+      {
+        "question": "What is your biggest professional challenge?",
+        "answer": "<span>Wooooof… woof. WOOF.</span>\r\n\r\n<span>Translation:</span><span> Maintaining professionalism when someone is eating nearby.</span>"
+      },
+      {
+        "question": "How do you approach office security?",
+        "answer": "<span>Woof. Woof woof woof.</span><span> WOOF.</span><span> Woof woof.</span>\r\n\r\n<span>Translation:</span><span> Advanced smell-based monitoring, doorbell detection, and immediate response to snack-related activity.</span>"
+      },
+      {
+        "question": "What motivates you the most at work?",
+        "answer": "<span>Woof woof woof.</span><span> WOOF.</span>\r\n\r\n<span>Translation:</span><span> Food. The possibility of food. The distant hope of food.</span>"
+      },
+      {
+        "question": "How do you collaborate with the development team?",
+        "answer": "<span>Woof.</span><span> Woof woof.</span>\r\n\r\n<span>Translation:</span><span> I attend meetings silently and provide emotional support. If meetings go too long, I remind everyone it’s time for a walk.</span>"
+      },
+      {
+        "question": "Favorite quote",
+        "answer": "<span>Woof.</span>\r\n\r\n<span>Translation:</span><span> “If you can smell it, you should probably eat it.” - Debela</span>"
+      },
+      {
+        "question": "Top three life highlights",
+        "answer": "<span>Woof.</span><span>WOOF.</span><span>Woof woof.</span>\r\n\r\n<span>Translation:</span>\r\n\r\n<span>Becoming Chief Security Officer</span><span>Successfully detecting food from three rooms away</span><span>Being called a good dog</span>"
+      }
+    ]
+  }
+]

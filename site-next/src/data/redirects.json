@@ -1,0 +1,52 @@
+[
+  {
+    "from": "/team/marko-strba",
+    "to": "team/team-marko-strba",
+    "type": 301
+  },
+  {
+    "from": "/our-team",
+    "to": "game-development-team",
+    "type": 301
+  },
+  {
+    "from": "/elementor-7988",
+    "to": "blog-mobile-game-prototype-cost",
+    "type": 301
+  },
+  {
+    "from": "/elementor-8272",
+    "to": "how-much-does-a-mobile-game-prototype-cost-2-2",
+    "type": 301
+  },
+  {
+    "from": "/elementor-8385",
+    "to": "mobile-game-development-outsourcing",
+    "type": 301
+  },
+  {
+    "from": "/elementor-8398",
+    "to": "rapid-prototyping-game-development",
+    "type": 301
+  },
+  {
+    "from": "/elementor-8529",
+    "to": "co-development-vs-outsourcing",
+    "type": 301
+  },
+  {
+    "from": "/elementor-8593",
+    "to": "game-prototyping-studio-deliverables-3",
+    "type": 301
+  },
+  {
+    "from": "/elementor-8650",
+    "to": "rapid-prototyping-game-development-2",
+    "type": 301
+  },
+  {
+    "from": "/elementor-8660",
+    "to": "mobile-game-vertical-slice-prove-before-production-2",
+    "type": 301
+  }
+]

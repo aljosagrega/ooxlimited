@@ -1,0 +1,86 @@
+[
+  {
+    "id": 22,
+    "slug": "home",
+    "path": "/",
+    "title": "Home",
+    "isFront": true,
+    "isBlog": false,
+    "edits": {},
+    "metaTitle": "Game Prototyping & Mobile Game Development Studio",
+    "metaTitleRaw": "Game Prototyping & Mobile Game Development Studio",
+    "metaDescription": "OOX Limited is a game prototyping studio that builds playable prototypes in 2–6 weeks. We help studios, startups and investors validate ideas before full development. Get in touch."
+  },
+  {
+    "id": 24,
+    "slug": "services",
+    "path": "/services/",
+    "title": "Services",
+    "isFront": false,
+    "isBlog": false,
+    "edits": {},
+    "metaTitle": "Game Development Services | Mobile Games & Apps",
+    "metaTitleRaw": "Game Development Services | Mobile Games & Apps",
+    "metaDescription": "Explore OOX Limited game development services including game prototyping, mobile game and app development, game art and VFX."
+  },
+  {
+    "id": 28,
+    "slug": "game-development-team",
+    "path": "/game-development-team/",
+    "title": "Our Team",
+    "isFront": false,
+    "isBlog": false,
+    "edits": {},
+    "metaTitle": "Game Development Team: Building Great Games Together",
+    "metaTitleRaw": "Game Development Team: Building Great Games Together",
+    "metaDescription": "Meet our game development team. Designers, developers, and artists building mobile games, apps, and prototypes from concept to production."
+  },
+  {
+    "id": 29,
+    "slug": "about-us",
+    "path": "/about-us/",
+    "title": "About us",
+    "isFront": false,
+    "isBlog": false,
+    "edits": {},
+    "metaTitle": "About Oox Limited | Game & App Development Studio",
+    "metaTitleRaw": "About Oox Limited | Game & App Development Studio",
+    "metaDescription": "Learn how Oox Limited helps teams build better games and apps through structured discovery, prototyping, and reliable full-cycle development."
+  },
+  {
+    "id": 30,
+    "slug": "contact-us",
+    "path": "/contact-us/",
+    "title": "Contact us",
+    "isFront": false,
+    "isBlog": false,
+    "edits": {},
+    "metaTitle": "Contact Us | Game & App Development Studio | OOX Limited",
+    "metaTitleRaw": "Contact Us | Game & App Development Studio | OOX Limited",
+    "metaDescription": "Contact OOX Limited for game and app development services. Let’s discuss your project, from rapid prototyping to full-cycle development."
+  },
+  {
+    "id": 7111,
+    "slug": "newsletter",
+    "path": "/newsletter/",
+    "title": "Newsletter",
+    "isFront": false,
+    "isBlog": false,
+    "edits": {},
+    "metaTitle": "Newsletter | Game & App Development Insights | OOX Limited",
+    "metaTitleRaw": "Newsletter | Game & App Development Insights | OOX Limited",
+    "metaDescription": "Subscribe to get insights on game and app development, rapid prototyping, Unity workflows, UX/UI design, and building interactive products."
+  },
+  {
+    "id": 7189,
+    "slug": "blog",
+    "path": "/blog/",
+    "title": "Blog",
+    "isFront": false,
+    "isBlog": false,
+    "edits": {},
+    "metaTitle": "Game & App Development Blog | Prototyping & Product Insights",
+    "metaTitleRaw": "Game & App Development Blog | Prototyping & Product Insights",
+    "metaDescription": "Insights on game and app development, rapid prototyping, Unity, and UX/UI design. Learn how to design, test, and scale interactive products."
+  }
+]

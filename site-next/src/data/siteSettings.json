@@ -1,0 +1,40 @@
+{
+  "title": "OOX Limited",
+  "tagline": "Game & App Development Studio",
+  "contactEmail": "info@ooxlimited.com",
+  "contactRecipients": [
+    "info@ooxlimited.com",
+    "janbazik@live.com"
+  ],
+  "mailFromName": "OOX Limited",
+  "mailchimpListId": "",
+  "gaId": "G-8QKZFXM96F",
+  "headScripts": "",
+  "socialLinks": [
+    {
+      "label": "Facebook",
+      "href": "https://www.facebook.com/profile.php?id=61554545769964",
+      "icon": "fa-facebook-f"
+    },
+    {
+      "label": "Pinterest",
+      "href": "https://www.pinterest.com/ooxlimited/",
+      "icon": "fa-pinterest"
+    },
+    {
+      "label": "LinkedIn",
+      "href": "https://www.linkedin.com/company/oox-limited/",
+      "icon": "fa-linkedin-in"
+    },
+    {
+      "label": "Instagram",
+      "href": "https://www.instagram.com/oox_limited",
+      "icon": "fa-instagram"
+    },
+    {
+      "label": "YouTube",
+      "href": "https://www.youtube.com/channel/UCEDVT4burooJglkJU_n4omw",
+      "icon": "fa-youtube"
+    }
+  ]
+}

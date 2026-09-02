@@ -1,0 +1,249 @@
+{
+  "entries": [
+    {
+      "id": "e1",
+      "kind": "html",
+      "label": "H2: “Game DevelopmentBlog”",
+      "group": "Game DevelopmentBlog",
+      "value": "Game Development<br>Blog"
+    },
+    {
+      "id": "e2",
+      "kind": "html",
+      "label": "LI: “Game Development”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "<a href=\"/category/game-development/\">Game Development</a>"
+    },
+    {
+      "id": "e3",
+      "kind": "html",
+      "label": "LI: “Game Tips”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "<a href=\"/category/game-tips/\">Game Tips</a>"
+    },
+    {
+      "id": "e4",
+      "kind": "html",
+      "label": "H2: “What a Mobile Game Vertical Slice Should Prove Before Produ…”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "<a href=\"/mobile-game-vertical-slice-prove-before-production-2/\" rel=\"bookmark\">What a Mobile Game Vertical Slice Should Prove Before Production</a>"
+    },
+    {
+      "id": "e5",
+      "kind": "html",
+      "label": "H3: “Rapid Prototyping in Game Development: A Studio’s Guide”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "<a href=\"/rapid-prototyping-game-development-2/\" rel=\"bookmark\">Rapid Prototyping in Game Development: A Studio’s Guide</a>"
+    },
+    {
+      "id": "e6",
+      "kind": "html",
+      "label": "H3: “The Prototyping-First Studio: Why Validation Comes Before”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "<a href=\"/prototyping-first-studio-validation-before-building-2026/\" rel=\"bookmark\">The Prototyping-First Studio: Why Validation Comes Before</a>"
+    },
+    {
+      "id": "e7",
+      "kind": "html",
+      "label": "H3: “Mobile Game Vertical Slice: What to Prove Before Production”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "<a href=\"/mobile-game-vertical-slice-prove-before-production/\" rel=\"bookmark\">Mobile Game Vertical Slice: What to Prove Before Production</a>"
+    },
+    {
+      "id": "e8",
+      "kind": "html",
+      "label": "H3: “How a Mobile Game Development Team Works: Roles, Handoffs”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "<a href=\"/mobile-game-development-team-roles-workflow-handoffs/\" rel=\"bookmark\">How a Mobile Game Development Team Works: Roles, Handoffs</a>"
+    },
+    {
+      "id": "e9",
+      "kind": "html",
+      "label": "H3: “Mobile Game Narrative Design: Stories in 47 Seconds”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "<a href=\"/game-narrative-design-mobile-games-2026/\" rel=\"bookmark\">Mobile Game Narrative Design: Stories in 47 Seconds</a>"
+    },
+    {
+      "id": "e10",
+      "kind": "html",
+      "label": "H3: “Game Prototyping Studio Deliverables: A Founder’s Guide”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "<a href=\"/game-prototyping-studio-deliverables-3/\" rel=\"bookmark\">Game Prototyping Studio Deliverables: A Founder’s Guide</a>"
+    },
+    {
+      "id": "e11",
+      "kind": "html",
+      "label": "H3: “Indie Game Funding in 2026: The Post-VC Playbook”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "<a href=\"/indie-game-funding-2026/\" rel=\"bookmark\">Indie Game Funding in 2026: The Post-VC Playbook</a>"
+    },
+    {
+      "id": "e12",
+      "kind": "html",
+      "label": "H3: “From Idea to Playable: What a Game Prototyping Studio Actua…”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "<a href=\"/game-prototyping-studio-deliverables/\" rel=\"bookmark\">From Idea to Playable: What a Game Prototyping Studio Actually Delivers</a>"
+    },
+    {
+      "id": "e13",
+      "kind": "html",
+      "label": "H3: “Game Co-Development vs. Outsourcing – The Model Shift Every…”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "<a href=\"/co-development-vs-outsourcing/\" rel=\"bookmark\">Game Co-Development vs. Outsourcing – The Model Shift Every Studio Leader Should Understand</a>"
+    },
+    {
+      "id": "e14",
+      "kind": "text",
+      "label": "H2: “Insights on game prototyping, mobile game development, and …”",
+      "group": "Insights on game prototyping, mobile ga…",
+      "value": "Insights on game prototyping, mobile game development, and product validation"
+    },
+    {
+      "id": "e15",
+      "kind": "text",
+      "label": "P: “The OOX Limited blog focuses on rapid prototyping, mobile g…”",
+      "group": "Insights on game prototyping, mobile ga…",
+      "value": "The OOX Limited blog focuses on rapid prototyping, mobile game development, product validation, and scalable production workflows. We share practical insights on building playable prototypes, testing game ideas, improving development efficiency, and reducing production risk before full-scale development begins."
+    },
+    {
+      "id": "e16",
+      "kind": "html",
+      "label": "P: “Our articles explore topics such as mobile game prototype c…”",
+      "group": "Insights on game prototyping, mobile ga…",
+      "value": "Our articles explore topics such as mobile game prototype cost, gameplay validation, MVP development, retention testing, <a href=\"\" https:=\"\" unity.com''=\"\">Unity</a> workflows, and full-cycle game production. Whether you are a startup founder, publisher, investor, or game studio, our goal is to provide clear and actionable insights that support smarter product decisions."
+    },
+    {
+      "id": "e17",
+      "kind": "text",
+      "label": "Button: “Login”",
+      "group": "Page",
+      "value": "Login"
+    },
+    {
+      "id": "e18",
+      "kind": "html",
+      "label": "LI: “oox menu”",
+      "group": "Page",
+      "value": "<span>oox menu</span>"
+    },
+    {
+      "id": "e19",
+      "kind": "image",
+      "label": "Image: mobile game vertical slice",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "/wp-content/uploads/2026/08/DSC06517-683x1024.jpg"
+    },
+    {
+      "id": "e20",
+      "kind": "imageAlt",
+      "label": "Alt for mobile game vertical slice",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "mobile game vertical slice"
+    },
+    {
+      "id": "e21",
+      "kind": "image",
+      "label": "Image (zgrada.png)",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "/wp-content/uploads/2026/03/zgrada.png"
+    },
+    {
+      "id": "e22",
+      "kind": "image",
+      "label": "Image: mobile game development team",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "/wp-content/uploads/2026/07/DSC06489-768x1152.jpg"
+    },
+    {
+      "id": "e23",
+      "kind": "imageAlt",
+      "label": "Alt for mobile game development team",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "mobile game development team"
+    },
+    {
+      "id": "e24",
+      "kind": "image",
+      "label": "Image: Office Photos OOX Limited",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "/wp-content/uploads/2026/03/d8d70c6789c6b5f6ea12d48bc4006f64f8be8019-768x512.jpg"
+    },
+    {
+      "id": "e25",
+      "kind": "imageAlt",
+      "label": "Alt for Office Photos OOX Limited",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "Office Photos OOX Limited"
+    },
+    {
+      "id": "e26",
+      "kind": "image",
+      "label": "Image: mobile game vertical slice",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "/wp-content/uploads/2026/07/20260226-DSC06235-768x512.jpg"
+    },
+    {
+      "id": "e27",
+      "kind": "imageAlt",
+      "label": "Alt for mobile game vertical slice",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "mobile game vertical slice"
+    },
+    {
+      "id": "e28",
+      "kind": "image",
+      "label": "Image: game narrative design",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "/wp-content/uploads/2026/07/20260226-DSC06231-768x512.jpg"
+    },
+    {
+      "id": "e29",
+      "kind": "imageAlt",
+      "label": "Alt for game narrative design",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "game narrative design"
+    },
+    {
+      "id": "e30",
+      "kind": "image",
+      "label": "Image: Office Photos OOX Limited",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "/wp-content/uploads/2026/03/d6d71c6353cced4487ab6479f6fd13b4e188519d-768x512.jpg"
+    },
+    {
+      "id": "e31",
+      "kind": "imageAlt",
+      "label": "Alt for Office Photos OOX Limited",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "Office Photos OOX Limited"
+    },
+    {
+      "id": "e32",
+      "kind": "image",
+      "label": "Image: Office Photos OOX Limited",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "/wp-content/uploads/2026/03/c7f806ba5aa0b941cf5c248e564b0d3d12a19406-768x512.jpg"
+    },
+    {
+      "id": "e33",
+      "kind": "imageAlt",
+      "label": "Alt for Office Photos OOX Limited",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "Office Photos OOX Limited"
+    },
+    {
+      "id": "e34",
+      "kind": "image",
+      "label": "Image: co-development-vs-outsourcing",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "/wp-content/uploads/2026/06/20260226-DSC06246-768x512.jpg"
+    },
+    {
+      "id": "e35",
+      "kind": "imageAlt",
+      "label": "Alt for co-development-vs-outsourcing",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "co-development-vs-outsourcing"
+    }
+  ]
+}

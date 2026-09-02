@@ -1,0 +1,522 @@
+{
+  "entries": [
+    {
+      "id": "e1",
+      "kind": "text",
+      "label": "H2: “App Development”",
+      "group": "App Development",
+      "value": "App Development"
+    },
+    {
+      "id": "e2",
+      "kind": "text",
+      "label": "H2: “Table of Contents”",
+      "group": "Page",
+      "value": "Table of Contents"
+    },
+    {
+      "id": "e3",
+      "kind": "text",
+      "label": "H2: “Recent posts”",
+      "group": "Recent posts",
+      "value": "Recent posts"
+    },
+    {
+      "id": "e4",
+      "kind": "html",
+      "label": "H3: “What a Mobile Game Vertical Slice Should Prove Before Produ…”",
+      "group": "Recent posts",
+      "value": "<a href=\"/mobile-game-vertical-slice-prove-before-production-2/\">What a Mobile Game Vertical Slice Should Prove Before Production</a>"
+    },
+    {
+      "id": "e5",
+      "kind": "html",
+      "label": "H3: “Rapid Prototyping in Game Development: A Studio’s Guide”",
+      "group": "Recent posts",
+      "value": "<a href=\"/rapid-prototyping-game-development-2/\">Rapid Prototyping in Game Development: A Studio’s Guide</a>"
+    },
+    {
+      "id": "e6",
+      "kind": "html",
+      "label": "H3: “The Prototyping-First Studio: Why Validation Comes Before”",
+      "group": "Recent posts",
+      "value": "<a href=\"/prototyping-first-studio-validation-before-building-2026/\">The Prototyping-First Studio: Why Validation Comes Before</a>"
+    },
+    {
+      "id": "e7",
+      "kind": "text",
+      "label": "H1: “App Development”",
+      "group": "App Development",
+      "value": "App Development"
+    },
+    {
+      "id": "e8",
+      "kind": "html",
+      "label": "P: “We are a mobile app development company focused on building…”",
+      "group": "App Development",
+      "value": "<span style=\"font-weight: 400;\">We are a </span><span style=\"font-weight: 400;\">mobile app development company </span><span style=\"font-weight: 400;\">focused on building scalable, user-friendly applications for iOS and Android. From early product ideas to fully launched solutions, we help teams turn concepts into real, functional products.</span>"
+    },
+    {
+      "id": "e9",
+      "kind": "html",
+      "label": "P: “Our mobile app development services combine product thinkin…”",
+      "group": "App Development",
+      "value": "<span style=\"font-weight: 400;\">Our </span><span style=\"font-weight: 400;\">mobile app development services</span><span style=\"font-weight: 400;\"> combine product thinking, UX design, and engineering to create applications that are stable, intuitive, and built for long-term growth. Whether you’re building a new product or improving an existing one, we deliver </span><span style=\"font-weight: 400;\">custom mobile app developmen</span><b>t</b><span style=\"font-weight: 400;\"> tailored to your needs.</span>"
+    },
+    {
+      "id": "e10",
+      "kind": "html",
+      "label": "H2: “Types of App Development We Offer”",
+      "group": "Types of App Development We Offer",
+      "value": "Types of <span class=\"text-gradient-oox\">App Development</span> We Offer"
+    },
+    {
+      "id": "e11",
+      "kind": "text",
+      "label": "H2: “iOS App Development”",
+      "group": "iOS App Development",
+      "value": "iOS App Development"
+    },
+    {
+      "id": "e12",
+      "kind": "html",
+      "label": "P: “We build high-performance iOS applications optimized for Ap…”",
+      "group": "iOS App Development",
+      "value": "<span style=\"font-weight: 400;\">We build high-performance iOS applications optimized for Apple devices, ensuring smooth functionality, strong UX, and long-term reliability.<br><br></span>"
+    },
+    {
+      "id": "e13",
+      "kind": "text",
+      "label": "H2: “Android App Development”",
+      "group": "Android App Development",
+      "value": "Android App Development"
+    },
+    {
+      "id": "e14",
+      "kind": "html",
+      "label": "P: “Our team develops Android apps that perform consistently ac…”",
+      "group": "Android App Development",
+      "value": "<span style=\"font-weight: 400;\">Our team develops Android apps that perform consistently across a wide range of devices, screen sizes, and operating environments.<br><br></span>"
+    },
+    {
+      "id": "e15",
+      "kind": "text",
+      "label": "H2: “Cross-Platform App Development”",
+      "group": "Cross-Platform App Development",
+      "value": "Cross-Platform App Development"
+    },
+    {
+      "id": "e16",
+      "kind": "html",
+      "label": "P: “We create cross-platform solutions that reduce development …”",
+      "group": "Cross-Platform App Development",
+      "value": "<span style=\"font-weight: 400;\">We create cross-platform solutions that reduce development time while maintaining quality across both iOS and Android platforms.<br><br></span>"
+    },
+    {
+      "id": "e17",
+      "kind": "text",
+      "label": "H2: “Custom Mobile App Development”",
+      "group": "Custom Mobile App Development",
+      "value": "Custom Mobile App Development"
+    },
+    {
+      "id": "e18",
+      "kind": "html",
+      "label": "P: “We provide custom mobile app development tailored to your b…”",
+      "group": "Custom Mobile App Development",
+      "value": "<span style=\"font-weight: 400;\">We provide </span><span style=\"font-weight: 400;\">custom mobile app development </span><span style=\"font-weight: 400;\">tailored to your business model, user needs, and technical requirements.</span>"
+    },
+    {
+      "id": "e19",
+      "kind": "text",
+      "label": "H2: “What Will You Get”",
+      "group": "What Will You Get",
+      "value": "What Will You Get"
+    },
+    {
+      "id": "e20",
+      "kind": "html",
+      "label": "H4: “Scalable Mobile Application”",
+      "group": "Page",
+      "value": "<span class=\"accordion-image-wrapper-title\">Scalable Mobile Application </span>"
+    },
+    {
+      "id": "e21",
+      "kind": "html",
+      "label": "P: “We build applications that are designed to grow, with clean…”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400\">We build applications that are designed to grow, with clean architecture and flexible systems that support future updates.</span>"
+    },
+    {
+      "id": "e22",
+      "kind": "html",
+      "label": "H4: “Strong User Experience”",
+      "group": "Page",
+      "value": "<span class=\"accordion-image-wrapper-title\">Strong User Experience </span>"
+    },
+    {
+      "id": "e23",
+      "kind": "html",
+      "label": "P: “Our apps are built with a focus on usability, clarity, and …”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400\">Our apps are built with a focus on usability, clarity, and intuitive navigation, ensuring a better experience for end users.</span>"
+    },
+    {
+      "id": "e24",
+      "kind": "html",
+      "label": "H4: “Reliable Development Process”",
+      "group": "Page",
+      "value": "<span class=\"accordion-image-wrapper-title\">Reliable Development Process </span>"
+    },
+    {
+      "id": "e25",
+      "kind": "text",
+      "label": "P: “With clear milestones and transparent communication, our mo…”",
+      "group": "Page",
+      "value": "With clear milestones and transparent communication, our mobile app development services ensure predictable delivery and consistent results."
+    },
+    {
+      "id": "e26",
+      "kind": "text",
+      "label": "H2: “We Develop For”",
+      "group": "We Develop For",
+      "value": "We Develop For"
+    },
+    {
+      "id": "e27",
+      "kind": "text",
+      "label": "H2: “iOS Mobile Applications”",
+      "group": "iOS Mobile Applications",
+      "value": "iOS Mobile Applications"
+    },
+    {
+      "id": "e28",
+      "kind": "html",
+      "label": "P: “Optimized applications for Apple devices with high performa…”",
+      "group": "iOS Mobile Applications",
+      "value": "<span style=\"font-weight: 400;\">Optimized applications for Apple devices with high performance and polished user experience.<br><br></span>"
+    },
+    {
+      "id": "e29",
+      "kind": "text",
+      "label": "H2: “Android Mobile Applications”",
+      "group": "Android Mobile Applications",
+      "value": "Android Mobile Applications"
+    },
+    {
+      "id": "e30",
+      "kind": "html",
+      "label": "P: “Stable and scalable apps built for the diverse Android ecos…”",
+      "group": "Android Mobile Applications",
+      "value": "<span style=\"font-weight: 400;\">Stable and scalable apps built for the diverse Android ecosystem.</span>"
+    },
+    {
+      "id": "e31",
+      "kind": "text",
+      "label": "H2: “Cross-Platform Interactive Products”",
+      "group": "Cross-Platform Interactive Products",
+      "value": "Cross-Platform Interactive Products"
+    },
+    {
+      "id": "e32",
+      "kind": "html",
+      "label": "P: “Efficient development for apps that need to work across mul…”",
+      "group": "Cross-Platform Interactive Products",
+      "value": "<span style=\"font-weight: 400;\">Efficient development for apps that need to work across multiple platforms with consistent quality.</span>"
+    },
+    {
+      "id": "e33",
+      "kind": "text",
+      "label": "H2: “Our Team”",
+      "group": "Our Team",
+      "value": "Our Team"
+    },
+    {
+      "id": "e34",
+      "kind": "html",
+      "label": "P: “Our mobile app development company includes frontend and ba…”",
+      "group": "Our Team",
+      "value": "<span style=\"font-weight: 400;\">Our </span><span style=\"font-weight: 400;\">mobile app development company</span><span style=\"font-weight: 400;\"> includes frontend and backend developers, UI/UX designers, product specialists, and QA engineers.<br><br></span><span style=\"font-weight: 400;\"> We work together to deliver applications that are technically strong, visually consistent, and ready for real users.</span>"
+    },
+    {
+      "id": "e35",
+      "kind": "text",
+      "label": "H2: “Frequently Asked Questions”",
+      "group": "Frequently Asked Questions",
+      "value": "Frequently Asked Questions"
+    },
+    {
+      "id": "e36",
+      "kind": "html",
+      "label": "P: “The timeline for mobile application development depends on …”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">The timeline for </span><span style=\"font-weight: 400;\">mobile application development </span><span style=\"font-weight: 400;\">depends on the project scope and features. Smaller apps may take a few months, while larger platforms require longer development cycles.</span>"
+    },
+    {
+      "id": "e37",
+      "kind": "html",
+      "label": "P: “We structure projects into phases to maintain efficiency an…”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">We structure projects into phases to maintain efficiency and provide clear progress tracking.</span>"
+    },
+    {
+      "id": "e38",
+      "kind": "html",
+      "label": "P: “Yes, we specialize in custom mobile app development tailore…”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">Yes, we specialize in </span><span style=\"font-weight: 400;\">custom mobile app development</span><span style=\"font-weight: 400;\"> tailored to your specific business goals and user needs.</span>"
+    },
+    {
+      "id": "e39",
+      "kind": "html",
+      "label": "P: “Every application is built from scratch to ensure flexibili…”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">Every application is built from scratch to ensure flexibility, scalability, and long-term performance.</span>"
+    },
+    {
+      "id": "e40",
+      "kind": "html",
+      "label": "P: “Yes, our mobile app development company provides developmen…”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">Yes, our </span><span style=\"font-weight: 400;\">mobile app development company</span><span style=\"font-weight: 400;\"> provides development for both iOS and Android platforms.</span>"
+    },
+    {
+      "id": "e41",
+      "kind": "html",
+      "label": "P: “We also offer cross-platform solutions to reduce developmen…”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">We also offer cross-platform solutions to reduce development time and cost while maintaining quality.</span>"
+    },
+    {
+      "id": "e42",
+      "kind": "html",
+      "label": "P: “Yes, UI/UX design is a key part of our mobile app developme…”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">Yes, UI/UX design is a key part of our </span><span style=\"font-weight: 400;\">mobile app development services.</span>"
+    },
+    {
+      "id": "e43",
+      "kind": "html",
+      "label": "P: “We focus on creating intuitive interfaces that improve usab…”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">We focus on creating intuitive interfaces that improve usability and user engagement.</span>"
+    },
+    {
+      "id": "e44",
+      "kind": "html",
+      "label": "P: “Yes, we build applications with scalability in mind, allowi…”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">Yes, we build applications with scalability in mind, allowing for future updates, feature expansion, and performance improvements.</span>"
+    },
+    {
+      "id": "e45",
+      "kind": "html",
+      "label": "P: “This ensures your product can grow alongside your business.”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">This ensures your product can grow alongside your business.</span>"
+    },
+    {
+      "id": "e46",
+      "kind": "html",
+      "label": "P: “In addition to mobile app development, we are also a mobile…”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">In addition to </span>mobile app development<span style=\"font-weight: 400;\">, we are also a</span><span style=\"font-weight: 400;\"> mobile game development company </span><span style=\"font-weight: 400;\">providing full-cycle game development services.</span>"
+    },
+    {
+      "id": "e47",
+      "kind": "html",
+      "label": "P: “This allows us to support a wide range of digital products,…”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">This allows us to support a wide range of digital products, from apps to complex game systems.</span>"
+    },
+    {
+      "id": "e48",
+      "kind": "html",
+      "label": "P: “Mobile app development focuses on functionality, workflows,…”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">Mobile app development </span><span style=\"font-weight: 400;\">focuses on functionality, workflows, and usability, while </span><span style=\"font-weight: 400;\">mobile game development </span><span style=\"font-weight: 400;\">focuses on gameplay, mechanics, and player experience.</span>"
+    },
+    {
+      "id": "e49",
+      "kind": "html",
+      "label": "P: “Both require strong engineering and design, but differ in e…”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">Both require strong engineering and design, but differ in execution and user expectations.</span>"
+    },
+    {
+      "id": "e50",
+      "kind": "text",
+      "label": "Button: “Login”",
+      "group": "Page",
+      "value": "Login"
+    },
+    {
+      "id": "e51",
+      "kind": "html",
+      "label": "LI: “oox menu”",
+      "group": "Page",
+      "value": "<span>oox menu</span>"
+    },
+    {
+      "id": "e52",
+      "kind": "image",
+      "label": "Image (ser-game-6.png)",
+      "group": "Page",
+      "value": "/wp-content/uploads/2026/01/ser-game-6.png"
+    },
+    {
+      "id": "e53",
+      "kind": "image",
+      "label": "Image: mobile game vertical slice",
+      "group": "Recent posts",
+      "value": "/wp-content/uploads/2026/08/DSC06517-768x1152.jpg"
+    },
+    {
+      "id": "e54",
+      "kind": "imageAlt",
+      "label": "Alt for mobile game vertical slice",
+      "group": "Recent posts",
+      "value": "mobile game vertical slice"
+    },
+    {
+      "id": "e55",
+      "kind": "image",
+      "label": "Image: Read more",
+      "group": "Recent posts",
+      "value": "/wp-content/uploads/2026/03/arrowr.png"
+    },
+    {
+      "id": "e56",
+      "kind": "imageAlt",
+      "label": "Alt for Read more",
+      "group": "Recent posts",
+      "value": "Read more"
+    },
+    {
+      "id": "e57",
+      "kind": "image",
+      "label": "Image: mobile game development team",
+      "group": "Recent posts",
+      "value": "/wp-content/uploads/2026/07/DSC06489-768x1152.jpg"
+    },
+    {
+      "id": "e58",
+      "kind": "imageAlt",
+      "label": "Alt for mobile game development team",
+      "group": "Recent posts",
+      "value": "mobile game development team"
+    },
+    {
+      "id": "e59",
+      "kind": "image",
+      "label": "Image: Office Photos OOX Limited",
+      "group": "Recent posts",
+      "value": "/wp-content/uploads/2026/03/d8d70c6789c6b5f6ea12d48bc4006f64f8be8019-768x512.jpg"
+    },
+    {
+      "id": "e60",
+      "kind": "imageAlt",
+      "label": "Alt for Office Photos OOX Limited",
+      "group": "Recent posts",
+      "value": "Office Photos OOX Limited"
+    },
+    {
+      "id": "e61",
+      "kind": "image",
+      "label": "Image: building factory oox limited",
+      "group": "Types of App Development We Offer",
+      "value": "/wp-content/uploads/2026/01/factory.png"
+    },
+    {
+      "id": "e62",
+      "kind": "imageAlt",
+      "label": "Alt for building factory oox limited",
+      "group": "Types of App Development We Offer",
+      "value": "building factory oox limited"
+    },
+    {
+      "id": "e63",
+      "kind": "image",
+      "label": "Image: image",
+      "group": "Page",
+      "value": "/wp-content/uploads/2026/01/targets.png"
+    },
+    {
+      "id": "e64",
+      "kind": "imageAlt",
+      "label": "Alt for image",
+      "group": "Page",
+      "value": "image"
+    },
+    {
+      "id": "e65",
+      "kind": "image",
+      "label": "Image: image",
+      "group": "Page",
+      "value": "/wp-content/uploads/2026/01/mine.png"
+    },
+    {
+      "id": "e66",
+      "kind": "imageAlt",
+      "label": "Alt for image",
+      "group": "Page",
+      "value": "image"
+    },
+    {
+      "id": "e67",
+      "kind": "image",
+      "label": "Image: image",
+      "group": "Page",
+      "value": "/wp-content/uploads/2026/01/rocks.png"
+    },
+    {
+      "id": "e68",
+      "kind": "imageAlt",
+      "label": "Alt for image",
+      "group": "Page",
+      "value": "image"
+    },
+    {
+      "id": "e69",
+      "kind": "image",
+      "label": "Image: game prototyping studio",
+      "group": "iOS Mobile Applications",
+      "value": "/wp-content/uploads/2026/01/apple.png"
+    },
+    {
+      "id": "e70",
+      "kind": "imageAlt",
+      "label": "Alt for game prototyping studio",
+      "group": "iOS Mobile Applications",
+      "value": "game prototyping studio"
+    },
+    {
+      "id": "e71",
+      "kind": "image",
+      "label": "Image: game prototyping studio",
+      "group": "Android Mobile Applications",
+      "value": "/wp-content/uploads/2026/01/android.png"
+    },
+    {
+      "id": "e72",
+      "kind": "imageAlt",
+      "label": "Alt for game prototyping studio",
+      "group": "Android Mobile Applications",
+      "value": "game prototyping studio"
+    },
+    {
+      "id": "e73",
+      "kind": "image",
+      "label": "Image: game prototyping studio",
+      "group": "Cross-Platform Interactive Products",
+      "value": "/wp-content/uploads/2026/01/layers.png"
+    },
+    {
+      "id": "e74",
+      "kind": "imageAlt",
+      "label": "Alt for game prototyping studio",
+      "group": "Cross-Platform Interactive Products",
+      "value": "game prototyping studio"
+    }
+  ]
+}

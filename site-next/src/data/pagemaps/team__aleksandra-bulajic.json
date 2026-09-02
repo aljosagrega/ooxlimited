@@ -1,0 +1,200 @@
+{
+  "entries": [
+    {
+      "id": "e1",
+      "kind": "text",
+      "label": "H2: “Aleksandra Bulajić”",
+      "group": "Page",
+      "value": "Aleksandra Bulajić"
+    },
+    {
+      "id": "e2",
+      "kind": "html",
+      "label": "P: “Aleksandra Bulajić is a 3D Artist within our game developme…”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">Aleksandra Bulajić is a 3D Artist within our game development team, specializing in 3D game art, environment design, and asset creation for mobile game development. With a strong foundation in art fundamentals and a practical understanding of production constraints, she focuses on clarity, clean silhouettes, and cohesive visual storytelling.</span>"
+    },
+    {
+      "id": "e3",
+      "kind": "html",
+      "label": "P: “Her work balances artistic intention with technical efficie…”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">Her work balances artistic intention with technical efficiency, ensuring that assets not only look polished but perform well within real-time game environments. Simplicity, consistency, and immersion define her approach to game art design.</span>"
+    },
+    {
+      "id": "e4",
+      "kind": "text",
+      "label": "H4: “SKILLS”",
+      "group": "Page",
+      "value": "SKILLS"
+    },
+    {
+      "id": "e5",
+      "kind": "text",
+      "label": "LI: “3D modeling”",
+      "group": "Page",
+      "value": "3D modeling"
+    },
+    {
+      "id": "e6",
+      "kind": "text",
+      "label": "LI: “Texturing”",
+      "group": "Page",
+      "value": "Texturing"
+    },
+    {
+      "id": "e7",
+      "kind": "text",
+      "label": "LI: “UV unwrapping”",
+      "group": "Page",
+      "value": "UV unwrapping"
+    },
+    {
+      "id": "e8",
+      "kind": "text",
+      "label": "LI: “3D animation”",
+      "group": "Page",
+      "value": "3D animation"
+    },
+    {
+      "id": "e9",
+      "kind": "text",
+      "label": "LI: “Rigging”",
+      "group": "Page",
+      "value": "Rigging"
+    },
+    {
+      "id": "e10",
+      "kind": "text",
+      "label": "LI: “Set dressing”",
+      "group": "Page",
+      "value": "Set dressing"
+    },
+    {
+      "id": "e11",
+      "kind": "text",
+      "label": "LI: “Level Design”",
+      "group": "Page",
+      "value": "Level Design"
+    },
+    {
+      "id": "e12",
+      "kind": "text",
+      "label": "H4: “PROGRAMS”",
+      "group": "Page",
+      "value": "PROGRAMS"
+    },
+    {
+      "id": "e13",
+      "kind": "text",
+      "label": "LI: “Blender”",
+      "group": "Page",
+      "value": "Blender"
+    },
+    {
+      "id": "e14",
+      "kind": "text",
+      "label": "LI: “Unity”",
+      "group": "Page",
+      "value": "Unity"
+    },
+    {
+      "id": "e15",
+      "kind": "text",
+      "label": "LI: “Substance Painter”",
+      "group": "Page",
+      "value": "Substance Painter"
+    },
+    {
+      "id": "e16",
+      "kind": "text",
+      "label": "LI: “Photoshop”",
+      "group": "Page",
+      "value": "Photoshop"
+    },
+    {
+      "id": "e17",
+      "kind": "text",
+      "label": "H2: “Q&A”",
+      "group": "Page",
+      "value": "Q&A"
+    },
+    {
+      "id": "e18",
+      "kind": "html",
+      "label": "Button: “When did you realize 3D art was more th…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">When did you realize 3D art was more than just a creative hobby for you?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e19",
+      "kind": "html",
+      "label": "Button: “Do you find more inspiration in games, …”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">Do you find more inspiration in games, films, or real-world environments?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e20",
+      "kind": "html",
+      "label": "Button: “How did your formal education influence…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">How did your formal education influence your artistic style and technical skills?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e21",
+      "kind": "html",
+      "label": "Button: “How do you balance artistic vision with…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">How do you balance artistic vision with technical limitations in game production?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e22",
+      "kind": "html",
+      "label": "Button: “What’s your approach to optimizing asse…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">What’s your approach to optimizing assets for mobile performance?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e23",
+      "kind": "html",
+      "label": "Button: “How closely do you collaborate with dev…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">How closely do you collaborate with developers during asset implementation?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e24",
+      "kind": "html",
+      "label": "Button: “What’s the most complex asset or enviro…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">What’s the most complex asset or environment you’ve worked on?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e25",
+      "kind": "text",
+      "label": "Button: “Login”",
+      "group": "Page",
+      "value": "Login"
+    },
+    {
+      "id": "e26",
+      "kind": "html",
+      "label": "LI: “oox menu”",
+      "group": "Page",
+      "value": "<span>oox menu</span>"
+    },
+    {
+      "id": "e27",
+      "kind": "image",
+      "label": "Image: Aleksandra Bulajić",
+      "group": "Page",
+      "value": "/wp-content/uploads/2026/03/Saja-1.webp"
+    },
+    {
+      "id": "e28",
+      "kind": "imageAlt",
+      "label": "Alt for Aleksandra Bulajić",
+      "group": "Page",
+      "value": "Aleksandra Bulajić"
+    }
+  ]
+}

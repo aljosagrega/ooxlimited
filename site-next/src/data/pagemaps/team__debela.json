@@ -1,0 +1,193 @@
+{
+  "entries": [
+    {
+      "id": "e1",
+      "kind": "text",
+      "label": "H2: “Debela”",
+      "group": "Page",
+      "value": "Debela"
+    },
+    {
+      "id": "e2",
+      "kind": "html",
+      "label": "P: “Debela serves as the Chief Security Officer at OOX Limited …”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">Debela serves as the Chief Security Officer at OOX Limited and brings unmatched enthusiasm to the studio. As a proud pug and full-time office mascot, she specializes in security patrols, morale boosting, and extremely advanced snack detection.</span>"
+    },
+    {
+      "id": "e3",
+      "kind": "html",
+      "label": "P: “Her main responsibility is ensuring that no food-related ac…”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">Her main responsibility is ensuring that no food-related activity goes unnoticed inside the office. While the development team focuses on building games and apps, Debela focuses on monitoring sandwiches, detecting snack movement, and appearing next to anyone who opens food within a five-meter radius.</span>"
+    },
+    {
+      "id": "e4",
+      "kind": "text",
+      "label": "H4: “SKILLS”",
+      "group": "Page",
+      "value": "SKILLS"
+    },
+    {
+      "id": "e5",
+      "kind": "text",
+      "label": "LI: “Advanced Snack Detection”",
+      "group": "Page",
+      "value": "Advanced Snack Detection"
+    },
+    {
+      "id": "e6",
+      "kind": "text",
+      "label": "LI: “Office Security Patrol”",
+      "group": "Page",
+      "value": "Office Security Patrol"
+    },
+    {
+      "id": "e7",
+      "kind": "text",
+      "label": "LI: “Morale Boosting”",
+      "group": "Page",
+      "value": "Morale Boosting"
+    },
+    {
+      "id": "e8",
+      "kind": "text",
+      "label": "LI: “Tail-Based Communication”",
+      "group": "Page",
+      "value": "Tail-Based Communication"
+    },
+    {
+      "id": "e9",
+      "kind": "text",
+      "label": "LI: “Strategic Food Monitoring”",
+      "group": "Page",
+      "value": "Strategic Food Monitoring"
+    },
+    {
+      "id": "e10",
+      "kind": "text",
+      "label": "H4: “PROGRAMS”",
+      "group": "Page",
+      "value": "PROGRAMS"
+    },
+    {
+      "id": "e11",
+      "kind": "text",
+      "label": "LI: “BarkOS”",
+      "group": "Page",
+      "value": "BarkOS"
+    },
+    {
+      "id": "e12",
+      "kind": "text",
+      "label": "LI: “TreatFinder 3.0”",
+      "group": "Page",
+      "value": "TreatFinder 3.0"
+    },
+    {
+      "id": "e13",
+      "kind": "text",
+      "label": "LI: “Nap Scheduler”",
+      "group": "Page",
+      "value": "Nap Scheduler"
+    },
+    {
+      "id": "e14",
+      "kind": "text",
+      "label": "LI: “Walk Reminder System”",
+      "group": "Page",
+      "value": "Walk Reminder System"
+    },
+    {
+      "id": "e15",
+      "kind": "text",
+      "label": "H2: “Q&A”",
+      "group": "Page",
+      "value": "Q&A"
+    },
+    {
+      "id": "e16",
+      "kind": "html",
+      "label": "Button: “What inspired you to become Chief Secur…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">What inspired you to become Chief Security Officer?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e17",
+      "kind": "html",
+      "label": "Button: “What does a typical day in the office l…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">What does a typical day in the office look like?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e18",
+      "kind": "html",
+      "label": "Button: “What is your biggest professional chall…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">What is your biggest professional challenge?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e19",
+      "kind": "html",
+      "label": "Button: “How do you approach office security?”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">How do you approach office security?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e20",
+      "kind": "html",
+      "label": "Button: “What motivates you the most at work?”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">What motivates you the most at work?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e21",
+      "kind": "html",
+      "label": "Button: “How do you collaborate with the develop…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">How do you collaborate with the development team?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e22",
+      "kind": "html",
+      "label": "Button: “Favorite quote”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">Favorite quote</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e23",
+      "kind": "html",
+      "label": "Button: “Top three life highlights”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">Top three life highlights</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e24",
+      "kind": "text",
+      "label": "Button: “Login”",
+      "group": "Page",
+      "value": "Login"
+    },
+    {
+      "id": "e25",
+      "kind": "html",
+      "label": "LI: “oox menu”",
+      "group": "Page",
+      "value": "<span>oox menu</span>"
+    },
+    {
+      "id": "e26",
+      "kind": "image",
+      "label": "Image: Debela",
+      "group": "Page",
+      "value": "/wp-content/uploads/2026/04/DSC06494-scaled.webp"
+    },
+    {
+      "id": "e27",
+      "kind": "imageAlt",
+      "label": "Alt for Debela",
+      "group": "Page",
+      "value": "Debela"
+    }
+  ]
+}

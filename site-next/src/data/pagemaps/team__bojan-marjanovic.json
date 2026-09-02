@@ -1,0 +1,242 @@
+{
+  "entries": [
+    {
+      "id": "e1",
+      "kind": "text",
+      "label": "H2: “Bojan Marjanović”",
+      "group": "Page",
+      "value": "Bojan Marjanović"
+    },
+    {
+      "id": "e2",
+      "kind": "html",
+      "label": "P: “Bojan Marjanović is a Technical Artist within our game deve…”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">Bojan Marjanović is a Technical Artist within our game development team, operating at the intersection of art and engineering. With over a decade of production experience, he specializes in shaders, procedural systems, scalable art pipelines, and performance optimization.</span>"
+    },
+    {
+      "id": "e3",
+      "kind": "text",
+      "label": "P: “His work connects visual quality with technical feasibility…”",
+      "group": "Page",
+      "value": "His work connects visual quality with technical feasibility. He builds art systems that stay expressive and efficient. As a result, these systems remain stable and scalable in real-time environments, especially in mobile game development."
+    },
+    {
+      "id": "e4",
+      "kind": "text",
+      "label": "H4: “SKILLS”",
+      "group": "Page",
+      "value": "SKILLS"
+    },
+    {
+      "id": "e5",
+      "kind": "text",
+      "label": "LI: “Illustration”",
+      "group": "Page",
+      "value": "Illustration"
+    },
+    {
+      "id": "e6",
+      "kind": "text",
+      "label": "LI: “3D modeling”",
+      "group": "Page",
+      "value": "3D modeling"
+    },
+    {
+      "id": "e7",
+      "kind": "text",
+      "label": "LI: “Texturing”",
+      "group": "Page",
+      "value": "Texturing"
+    },
+    {
+      "id": "e8",
+      "kind": "text",
+      "label": "LI: “Rigging”",
+      "group": "Page",
+      "value": "Rigging"
+    },
+    {
+      "id": "e9",
+      "kind": "text",
+      "label": "LI: “Houdini”",
+      "group": "Page",
+      "value": "Houdini"
+    },
+    {
+      "id": "e10",
+      "kind": "text",
+      "label": "LI: “VFX”",
+      "group": "Page",
+      "value": "VFX"
+    },
+    {
+      "id": "e11",
+      "kind": "text",
+      "label": "LI: “Procedural generation”",
+      "group": "Page",
+      "value": "Procedural generation"
+    },
+    {
+      "id": "e12",
+      "kind": "text",
+      "label": "LI: “Scipriting/Programming”",
+      "group": "Page",
+      "value": "Scipriting/Programming"
+    },
+    {
+      "id": "e13",
+      "kind": "text",
+      "label": "H4: “PROGRAMS”",
+      "group": "Page",
+      "value": "PROGRAMS"
+    },
+    {
+      "id": "e14",
+      "kind": "text",
+      "label": "LI: “Adobe”",
+      "group": "Page",
+      "value": "Adobe"
+    },
+    {
+      "id": "e15",
+      "kind": "text",
+      "label": "LI: “Blender”",
+      "group": "Page",
+      "value": "Blender"
+    },
+    {
+      "id": "e16",
+      "kind": "text",
+      "label": "LI: “Unity”",
+      "group": "Page",
+      "value": "Unity"
+    },
+    {
+      "id": "e17",
+      "kind": "text",
+      "label": "LI: “Substance”",
+      "group": "Page",
+      "value": "Substance"
+    },
+    {
+      "id": "e18",
+      "kind": "text",
+      "label": "H2: “Q&A”",
+      "group": "Page",
+      "value": "Q&A"
+    },
+    {
+      "id": "e19",
+      "kind": "html",
+      "label": "Button: “What first attracted you to technical a…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">What first attracted you to technical art instead of choosing a purely artistic or purely engineering path?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e20",
+      "kind": "html",
+      "label": "Button: “Was there a specific moment when you re…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">Was there a specific moment when you realized this is your long-term direction?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e21",
+      "kind": "html",
+      "label": "Button: “How do you prefer to spend your days of…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">How do you prefer to spend your days off?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e22",
+      "kind": "html",
+      "label": "Button: “Favorite quote?”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">Favorite quote?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e23",
+      "kind": "html",
+      "label": "Button: “Top three life highlights?”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">Top three life highlights?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e24",
+      "kind": "html",
+      "label": "Button: “How did your self-taught journey shape …”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">How did your self-taught journey shape your approach to rendering and systems thinking?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e25",
+      "kind": "html",
+      "label": "Button: “How do you approach building scalable a…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">How do you approach building scalable art pipelines in production?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e26",
+      "kind": "html",
+      "label": "Button: “How do you balance visual quality with …”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">How do you balance visual quality with performance constraints, especially on mobile?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e27",
+      "kind": "html",
+      "label": "Button: “What’s the most technically complex pro…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">What’s the most technically complex problem you’ve solved?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e28",
+      "kind": "html",
+      "label": "Button: “What tools are central to your workflow?”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">What tools are central to your workflow?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e29",
+      "kind": "html",
+      "label": "Button: “What separates a good technical artist …”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">What separates a good technical artist from a great one?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e30",
+      "kind": "html",
+      "label": "Button: “Where do you see your role evolving?”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">Where do you see your role evolving?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e31",
+      "kind": "text",
+      "label": "Button: “Login”",
+      "group": "Page",
+      "value": "Login"
+    },
+    {
+      "id": "e32",
+      "kind": "html",
+      "label": "LI: “oox menu”",
+      "group": "Page",
+      "value": "<span>oox menu</span>"
+    },
+    {
+      "id": "e33",
+      "kind": "image",
+      "label": "Image: Bojan Marjanović",
+      "group": "Page",
+      "value": "/wp-content/uploads/2026/04/DSC06354-scaled.webp"
+    },
+    {
+      "id": "e34",
+      "kind": "imageAlt",
+      "label": "Alt for Bojan Marjanović",
+      "group": "Page",
+      "value": "Bojan Marjanović"
+    }
+  ]
+}

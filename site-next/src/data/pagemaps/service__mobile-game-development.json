@@ -1,0 +1,508 @@
+{
+  "entries": [
+    {
+      "id": "e1",
+      "kind": "text",
+      "label": "H2: “Mobile Game Development”",
+      "group": "Mobile Game Development",
+      "value": "Mobile Game Development"
+    },
+    {
+      "id": "e2",
+      "kind": "text",
+      "label": "H2: “Table of Contents”",
+      "group": "Page",
+      "value": "Table of Contents"
+    },
+    {
+      "id": "e3",
+      "kind": "text",
+      "label": "H2: “Recent posts”",
+      "group": "Recent posts",
+      "value": "Recent posts"
+    },
+    {
+      "id": "e4",
+      "kind": "html",
+      "label": "H3: “What a Mobile Game Vertical Slice Should Prove Before Produ…”",
+      "group": "Recent posts",
+      "value": "<a href=\"/mobile-game-vertical-slice-prove-before-production-2/\">What a Mobile Game Vertical Slice Should Prove Before Production</a>"
+    },
+    {
+      "id": "e5",
+      "kind": "html",
+      "label": "H3: “Rapid Prototyping in Game Development: A Studio’s Guide”",
+      "group": "Recent posts",
+      "value": "<a href=\"/rapid-prototyping-game-development-2/\">Rapid Prototyping in Game Development: A Studio’s Guide</a>"
+    },
+    {
+      "id": "e6",
+      "kind": "html",
+      "label": "H3: “The Prototyping-First Studio: Why Validation Comes Before”",
+      "group": "Recent posts",
+      "value": "<a href=\"/prototyping-first-studio-validation-before-building-2026/\">The Prototyping-First Studio: Why Validation Comes Before</a>"
+    },
+    {
+      "id": "e7",
+      "kind": "text",
+      "label": "H1: “Mobile Game Development”",
+      "group": "Mobile Game Development",
+      "value": "Mobile Game Development"
+    },
+    {
+      "id": "e8",
+      "kind": "text",
+      "label": "P: “We are a mobile game development company focused on buildin…”",
+      "group": "Mobile Game Development",
+      "value": "We are a mobile game development company focused on building high-quality, scalable games for iOS and Android. From core gameplay systems to full production, we help teams turn ideas into engaging mobile experiences."
+    },
+    {
+      "id": "e9",
+      "kind": "text",
+      "label": "P: “Our approach combines game design, engineering, and product…”",
+      "group": "Mobile Game Development",
+      "value": "Our approach combines game design, engineering, and production workflows to ensure strong performance, usability, and long-term growth in every project. Whether you’re starting from scratch or scaling an existing concept, we deliver mobile game development services that move projects forward efficiently."
+    },
+    {
+      "id": "e10",
+      "kind": "html",
+      "label": "H2: “Types of Mobile Game Development We Offer”",
+      "group": "Types of Mobile Game Development We Off…",
+      "value": "Types of <span class=\"text-gradient-oox\"> Mobile Game Development</span> We Offer"
+    },
+    {
+      "id": "e11",
+      "kind": "text",
+      "label": "H2: “Unity Mobile Game Development”",
+      "group": "Unity Mobile Game Development",
+      "value": "Unity Mobile Game Development"
+    },
+    {
+      "id": "e12",
+      "kind": "html",
+      "label": "P: “We use Unity to build flexible, high-performance mobile gam…”",
+      "group": "Unity Mobile Game Development",
+      "value": "<span style=\"font-weight: 400;\">We use Unity to build flexible, high-performance mobile games with strong gameplay systems and cross-platform capabilities. It is ideal for most mobile game genres and scalable production.</span>"
+    },
+    {
+      "id": "e13",
+      "kind": "text",
+      "label": "H2: “2D and 3D Mobile Game Development”",
+      "group": "2D and 3D Mobile Game Development",
+      "value": "2D and 3D Mobile Game Development"
+    },
+    {
+      "id": "e14",
+      "kind": "html",
+      "label": "P: “We develop both 2D and 3D mobile games, depending on gamepl…”",
+      "group": "2D and 3D Mobile Game Development",
+      "value": "<span style=\"font-weight: 400;\">We develop both 2D and 3D mobile games, depending on gameplay requirements, style, and target audience.</span>"
+    },
+    {
+      "id": "e15",
+      "kind": "text",
+      "label": "H2: “Multiplayer Mobile Game Development”",
+      "group": "Multiplayer Mobile Game Development",
+      "value": "Multiplayer Mobile Game Development"
+    },
+    {
+      "id": "e16",
+      "kind": "html",
+      "label": "P: “We build multiplayer systems that support real-time interac…”",
+      "group": "Multiplayer Mobile Game Development",
+      "value": "<span style=\"white-space-collapse: preserve;\"><span style=\"font-weight: 400;\">We build multiplayer systems that support real-time interaction, synchronization, and scalable backend solutions.</span></span>"
+    },
+    {
+      "id": "e17",
+      "kind": "text",
+      "label": "H2: “What Will You Get”",
+      "group": "What Will You Get",
+      "value": "What Will You Get"
+    },
+    {
+      "id": "e18",
+      "kind": "html",
+      "label": "H4: “Full Mobile Game Development”",
+      "group": "Page",
+      "value": "<span class=\"accordion-image-wrapper-title\">Full Mobile Game Development </span>"
+    },
+    {
+      "id": "e19",
+      "kind": "text",
+      "label": "P: “We handle complete development from concept to launch, cove…”",
+      "group": "Page",
+      "value": "We handle complete development from concept to launch, covering gameplay systems, UI, and production-ready builds."
+    },
+    {
+      "id": "e20",
+      "kind": "html",
+      "label": "H4: “Optimized Performance”",
+      "group": "Page",
+      "value": "<span class=\"accordion-image-wrapper-title\">Optimized Performance </span>"
+    },
+    {
+      "id": "e21",
+      "kind": "html",
+      "label": "P: “We ensure that mobile games run smoothly across different d…”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400\">We ensure that mobile games run smoothly across different devices, screen sizes, and operating systems.</span>"
+    },
+    {
+      "id": "e22",
+      "kind": "html",
+      "label": "H4: “Scalable Game Architecture”",
+      "group": "Page",
+      "value": "<span class=\"accordion-image-wrapper-title\">Scalable Game Architecture </span>"
+    },
+    {
+      "id": "e23",
+      "kind": "html",
+      "label": "P: “Our development approach supports future updates, feature e…”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400\">Our development approach supports future updates, feature expansion, and long-term growth.</span>"
+    },
+    {
+      "id": "e24",
+      "kind": "text",
+      "label": "H2: “We Develop For”",
+      "group": "We Develop For",
+      "value": "We Develop For"
+    },
+    {
+      "id": "e25",
+      "kind": "text",
+      "label": "H2: “iOS Mobile Games”",
+      "group": "iOS Mobile Games",
+      "value": "iOS Mobile Games"
+    },
+    {
+      "id": "e26",
+      "kind": "html",
+      "label": "P: “High-performance mobile games optimized for Apple devices w…”",
+      "group": "iOS Mobile Games",
+      "value": "<span style=\"font-weight: 400;\">High-performance mobile games optimized for Apple devices with smooth gameplay and intuitive user experience.</span>"
+    },
+    {
+      "id": "e27",
+      "kind": "text",
+      "label": "H2: “Android Mobile Games”",
+      "group": "Android Mobile Games",
+      "value": "Android Mobile Games"
+    },
+    {
+      "id": "e28",
+      "kind": "html",
+      "label": "P: “Reliable development across a wide range of Android devices…”",
+      "group": "Android Mobile Games",
+      "value": "<span style=\"font-weight: 400;\">Reliable development across a wide range of Android devices, ensuring compatibility and stability.</span>"
+    },
+    {
+      "id": "e29",
+      "kind": "text",
+      "label": "H2: “Cross-Platform Mobile Games”",
+      "group": "Cross-Platform Mobile Games",
+      "value": "Cross-Platform Mobile Games"
+    },
+    {
+      "id": "e30",
+      "kind": "html",
+      "label": "P: “We create mobile games that can scale across multiple platf…”",
+      "group": "Cross-Platform Mobile Games",
+      "value": "<span style=\"font-weight: 400;\">We create mobile games that can scale across multiple platforms, maximizing reach and efficiency.</span>"
+    },
+    {
+      "id": "e31",
+      "kind": "text",
+      "label": "H2: “Our Team”",
+      "group": "Our Team",
+      "value": "Our Team"
+    },
+    {
+      "id": "e32",
+      "kind": "html",
+      "label": "P: “Our mobile game development team includes Unity developers,…”",
+      "group": "Our Team",
+      "value": "<span style=\"font-weight: 400;\">Our </span><span style=\"font-weight: 400;\">mobile game development team</span><span style=\"font-weight: 400;\"> includes Unity developers, Unreal developers, game designers, backend engineers, UI/UX designers, and QA specialists.</span><span style=\"font-weight: 400;\"><br></span><span style=\"font-weight: 400;\"> We work together to ensure every game is technically solid, visually consistent, and ready for launch.</span>"
+    },
+    {
+      "id": "e33",
+      "kind": "text",
+      "label": "H2: “Frequently Asked Questions”",
+      "group": "Frequently Asked Questions",
+      "value": "Frequently Asked Questions"
+    },
+    {
+      "id": "e34",
+      "kind": "html",
+      "label": "P: “The cost of mobile game development depends on the scope, f…”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">The cost of </span><span style=\"font-weight: 400;\">mobile game development </span><span style=\"font-weight: 400;\">depends on the scope, features, complexity, and platform. Simple mobile games can cost significantly less, while complex multiplayer or 3D games require larger budgets.</span>"
+    },
+    {
+      "id": "e35",
+      "kind": "html",
+      "label": "P: “As a mobile game development company, we work with clear sc…”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">As a</span><span style=\"font-weight: 400;\"> mobile game development company, </span><span style=\"font-weight: 400;\">we work with clear scope and milestones to provide accurate estimates and avoid unexpected costs. Our goal is to align development with your budget and business goals.</span>"
+    },
+    {
+      "id": "e36",
+      "kind": "html",
+      "label": "P: “Mobile game development timelines vary depending on the com…”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">Mobile game development </span><span style=\"font-weight: 400;\">timelines vary depending on the complexity of the project. Smaller games can take a few months, while larger productions may take significantly longer.</span>"
+    },
+    {
+      "id": "e37",
+      "kind": "html",
+      "label": "P: “We structure development into clear phases, allowing teams …”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">We structure development into clear phases, allowing teams to track progress and make decisions at each stage. This ensures efficiency and transparency throughout the process.</span>"
+    },
+    {
+      "id": "e38",
+      "kind": "html",
+      "label": "P: “Unity is the most commonly used engine for mobile game deve…”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">Unity is the most commonly used engine for</span><span style=\"font-weight: 400;\"> mobile game development</span><span style=\"font-weight: 400;\"> due to its flexibility and performance. Unreal Engine is also used for more visually complex games.</span>"
+    },
+    {
+      "id": "e39",
+      "kind": "html",
+      "label": "P: “The best choice depends on the project’s requirements, incl…”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">The best choice depends on the project’s requirements, including gameplay, performance needs, and visual quality.</span>"
+    },
+    {
+      "id": "e40",
+      "kind": "html",
+      "label": "P: “Yes, we provide mobile game development services for both i…”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">Yes, we provide</span><span style=\"font-weight: 400;\"> mobile game development</span><span style=\"font-weight: 400;\"> services for both iOS and Android platforms. We ensure that the game performs well across different devices and environments.</span>"
+    },
+    {
+      "id": "e41",
+      "kind": "html",
+      "label": "P: “We also support cross-platform development to maximize reac…”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">We also support cross-platform development to maximize reach and reduce development time.</span>"
+    },
+    {
+      "id": "e42",
+      "kind": "html",
+      "label": "P: “Yes, we specialize in custom mobile game development tailor…”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">Yes, we specialize in custom</span><span style=\"font-weight: 400;\"> mobile game development</span><span style=\"font-weight: 400;\"> tailored to your specific idea, audience, and business goals.</span>"
+    },
+    {
+      "id": "e43",
+      "kind": "html",
+      "label": "P: “Every project is built from the ground up with a focus on g…”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">Every project is built from the ground up with a focus on gameplay quality, performance, and scalability.</span>"
+    },
+    {
+      "id": "e44",
+      "kind": "html",
+      "label": "P: “Yes, we support both game design and development as part of…”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">Yes, we support both game design and development as part of our</span><span style=\"font-weight: 400;\"> mobile game development services.</span>"
+    },
+    {
+      "id": "e45",
+      "kind": "html",
+      "label": "P: “We ensure that gameplay mechanics, progression systems, and…”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">We ensure that gameplay mechanics, progression systems, and user experience are aligned with the technical implementation.</span>"
+    },
+    {
+      "id": "e46",
+      "kind": "html",
+      "label": "P: “Yes, we offer post-launch support including updates, bug fi…”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">Yes, we offer post-launch support including updates, bug fixing, optimization, and feature development.</span>"
+    },
+    {
+      "id": "e47",
+      "kind": "html",
+      "label": "P: “Mobile games require continuous improvement, and we help en…”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">Mobile games require continuous improvement, and we help ensure long-term performance and user engagement.</span>"
+    },
+    {
+      "id": "e48",
+      "kind": "text",
+      "label": "Button: “Login”",
+      "group": "Page",
+      "value": "Login"
+    },
+    {
+      "id": "e49",
+      "kind": "html",
+      "label": "LI: “oox menu”",
+      "group": "Page",
+      "value": "<span>oox menu</span>"
+    },
+    {
+      "id": "e50",
+      "kind": "image",
+      "label": "Image (ser-game-6.png)",
+      "group": "Page",
+      "value": "/wp-content/uploads/2026/01/ser-game-6.png"
+    },
+    {
+      "id": "e51",
+      "kind": "image",
+      "label": "Image: mobile game vertical slice",
+      "group": "Recent posts",
+      "value": "/wp-content/uploads/2026/08/DSC06517-768x1152.jpg"
+    },
+    {
+      "id": "e52",
+      "kind": "imageAlt",
+      "label": "Alt for mobile game vertical slice",
+      "group": "Recent posts",
+      "value": "mobile game vertical slice"
+    },
+    {
+      "id": "e53",
+      "kind": "image",
+      "label": "Image: Read more",
+      "group": "Recent posts",
+      "value": "/wp-content/uploads/2026/03/arrowr.png"
+    },
+    {
+      "id": "e54",
+      "kind": "imageAlt",
+      "label": "Alt for Read more",
+      "group": "Recent posts",
+      "value": "Read more"
+    },
+    {
+      "id": "e55",
+      "kind": "image",
+      "label": "Image: mobile game development team",
+      "group": "Recent posts",
+      "value": "/wp-content/uploads/2026/07/DSC06489-768x1152.jpg"
+    },
+    {
+      "id": "e56",
+      "kind": "imageAlt",
+      "label": "Alt for mobile game development team",
+      "group": "Recent posts",
+      "value": "mobile game development team"
+    },
+    {
+      "id": "e57",
+      "kind": "image",
+      "label": "Image: Office Photos OOX Limited",
+      "group": "Recent posts",
+      "value": "/wp-content/uploads/2026/03/d8d70c6789c6b5f6ea12d48bc4006f64f8be8019-768x512.jpg"
+    },
+    {
+      "id": "e58",
+      "kind": "imageAlt",
+      "label": "Alt for Office Photos OOX Limited",
+      "group": "Recent posts",
+      "value": "Office Photos OOX Limited"
+    },
+    {
+      "id": "e59",
+      "kind": "image",
+      "label": "Image: building factory oox limited",
+      "group": "Types of Mobile Game Development We Off…",
+      "value": "/wp-content/uploads/2026/01/factory.png"
+    },
+    {
+      "id": "e60",
+      "kind": "imageAlt",
+      "label": "Alt for building factory oox limited",
+      "group": "Types of Mobile Game Development We Off…",
+      "value": "building factory oox limited"
+    },
+    {
+      "id": "e61",
+      "kind": "image",
+      "label": "Image: image",
+      "group": "Page",
+      "value": "/wp-content/uploads/2026/01/targets.png"
+    },
+    {
+      "id": "e62",
+      "kind": "imageAlt",
+      "label": "Alt for image",
+      "group": "Page",
+      "value": "image"
+    },
+    {
+      "id": "e63",
+      "kind": "image",
+      "label": "Image: image",
+      "group": "Page",
+      "value": "/wp-content/uploads/2026/01/mine.png"
+    },
+    {
+      "id": "e64",
+      "kind": "imageAlt",
+      "label": "Alt for image",
+      "group": "Page",
+      "value": "image"
+    },
+    {
+      "id": "e65",
+      "kind": "image",
+      "label": "Image: image",
+      "group": "Page",
+      "value": "/wp-content/uploads/2026/01/rocks.png"
+    },
+    {
+      "id": "e66",
+      "kind": "imageAlt",
+      "label": "Alt for image",
+      "group": "Page",
+      "value": "image"
+    },
+    {
+      "id": "e67",
+      "kind": "image",
+      "label": "Image: game prototyping studio",
+      "group": "iOS Mobile Games",
+      "value": "/wp-content/uploads/2026/01/apple.png"
+    },
+    {
+      "id": "e68",
+      "kind": "imageAlt",
+      "label": "Alt for game prototyping studio",
+      "group": "iOS Mobile Games",
+      "value": "game prototyping studio"
+    },
+    {
+      "id": "e69",
+      "kind": "image",
+      "label": "Image: game prototyping studio",
+      "group": "Android Mobile Games",
+      "value": "/wp-content/uploads/2026/01/android.png"
+    },
+    {
+      "id": "e70",
+      "kind": "imageAlt",
+      "label": "Alt for game prototyping studio",
+      "group": "Android Mobile Games",
+      "value": "game prototyping studio"
+    },
+    {
+      "id": "e71",
+      "kind": "image",
+      "label": "Image: game prototyping studio",
+      "group": "Cross-Platform Mobile Games",
+      "value": "/wp-content/uploads/2026/01/layers.png"
+    },
+    {
+      "id": "e72",
+      "kind": "imageAlt",
+      "label": "Alt for game prototyping studio",
+      "group": "Cross-Platform Mobile Games",
+      "value": "game prototyping studio"
+    }
+  ]
+}

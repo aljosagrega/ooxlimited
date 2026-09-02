@@ -1,0 +1,725 @@
+{
+  "entries": [
+    {
+      "id": "e1",
+      "kind": "text",
+      "label": "H2: “Table of Contents”",
+      "group": "Page",
+      "value": "Table of Contents"
+    },
+    {
+      "id": "e2",
+      "kind": "text",
+      "label": "H2: “Recent posts”",
+      "group": "Recent posts",
+      "value": "Recent posts"
+    },
+    {
+      "id": "e3",
+      "kind": "html",
+      "label": "H3: “What a Mobile Game Vertical Slice Should Prove Before Produ…”",
+      "group": "Recent posts",
+      "value": "<a href=\"/mobile-game-vertical-slice-prove-before-production-2/\">What a Mobile Game Vertical Slice Should Prove Before Production</a>"
+    },
+    {
+      "id": "e4",
+      "kind": "html",
+      "label": "H3: “The Prototyping-First Studio: Why Validation Comes Before”",
+      "group": "Recent posts",
+      "value": "<a href=\"/prototyping-first-studio-validation-before-building-2026/\">The Prototyping-First Studio: Why Validation Comes Before</a>"
+    },
+    {
+      "id": "e5",
+      "kind": "html",
+      "label": "H3: “Mobile Game Vertical Slice: What to Prove Before Production”",
+      "group": "Recent posts",
+      "value": "<a href=\"/mobile-game-vertical-slice-prove-before-production/\">Mobile Game Vertical Slice: What to Prove Before Production</a>"
+    },
+    {
+      "id": "e6",
+      "kind": "text",
+      "label": "H1: “Rapid Prototyping in Game Development: How Indie Studios Va…”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "Rapid Prototyping in Game Development: How Indie Studios Validate Game Ideas Before Building"
+    },
+    {
+      "id": "e7",
+      "kind": "text",
+      "label": "H2: “Introduction: Why Most Game Ideas Fail”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "Introduction: Why Most Game Ideas Fail"
+    },
+    {
+      "id": "e8",
+      "kind": "text",
+      "label": "P: “Every indie developer starts with the same thing: an exciti…”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "Every indie developer starts with the same thing: an exciting idea."
+    },
+    {
+      "id": "e9",
+      "kind": "text",
+      "label": "P: “You imagine the gameplay, the mechanics, and the experience…”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "You imagine the gameplay, the mechanics, and the experience players will have. You believe the idea could become something successful. At the same time, most indie studios face the same reality. Budgets are limited, teams are small, and development resources must be used carefully."
+    },
+    {
+      "id": "e10",
+      "kind": "text",
+      "label": "P: “This creates a difficult question for founders and indie de…”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "This creates a difficult question for founders and indie developers:"
+    },
+    {
+      "id": "e11",
+      "kind": "text",
+      "label": "P: “How do you know if your game idea will actually work before…”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "How do you know if your game idea will actually work before spending months building it?"
+    },
+    {
+      "id": "e12",
+      "kind": "text",
+      "label": "P: “Many teams answer this question in the most risky way possi…”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "Many teams answer this question in the most risky way possible. They begin full development immediately. Months later, sometimes after launch, they discover that players simply do not engage with the core mechanic."
+    },
+    {
+      "id": "e13",
+      "kind": "text",
+      "label": "P: “This situation is extremely common. Across the startup and …”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "This situation is extremely common. Across the startup and gaming ecosystem, it is widely estimated that around 90% of digital products fail commercially. Most of these failures are not caused by a lack of talent or creativity. Instead, they happen because teams build too much before they learn whether the idea actually works in the market."
+    },
+    {
+      "id": "e14",
+      "kind": "text",
+      "label": "P: “This is where rapid prototyping in game development becomes…”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "This is where rapid prototyping in game development becomes incredibly valuable."
+    },
+    {
+      "id": "e15",
+      "kind": "text",
+      "label": "P: “Rapid prototyping allows indie studios and startups to test…”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "Rapid prototyping allows indie studios and startups to test their ideas early, reduce development risk, and make smarter product decisions before committing large amounts of time and money."
+    },
+    {
+      "id": "e16",
+      "kind": "html",
+      "label": "P: “Related reading: How Much Does a Mobile Game Prototype Cost?”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "<strong>Related reading:</strong><br> <a href=\"/how-much-does-a-mobile-game-prototype-cost-2-2/\">How Much Does a Mobile Game Prototype Cost?</a>"
+    },
+    {
+      "id": "e17",
+      "kind": "text",
+      "label": "H2: “What Is Rapid Prototyping in Game Development?”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "What Is Rapid Prototyping in Game Development?"
+    },
+    {
+      "id": "e18",
+      "kind": "text",
+      "label": "P: “Rapid prototyping is a development approach focused on lear…”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "Rapid prototyping is a development approach focused on learning early rather than building everything first."
+    },
+    {
+      "id": "e19",
+      "kind": "text",
+      "label": "P: “Instead of creating the entire game, developers build a sim…”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "Instead of creating the entire game, developers build a simplified version that focuses only on the core gameplay mechanic. This version is called a prototype."
+    },
+    {
+      "id": "e20",
+      "kind": "text",
+      "label": "P: “A prototype is not meant to be a finished game. It is desig…”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "A prototype is not meant to be a finished game. It is designed to answer one critical question:"
+    },
+    {
+      "id": "e21",
+      "kind": "text",
+      "label": "P: “Does the core idea of the game actually work?”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "Does the core idea of the game actually work?"
+    },
+    {
+      "id": "e22",
+      "kind": "text",
+      "label": "P: “In most cases, a game prototype includes:”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "In most cases, a game prototype includes:"
+    },
+    {
+      "id": "e23",
+      "kind": "text",
+      "label": "LI: “the core gameplay loop”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "the core gameplay loop"
+    },
+    {
+      "id": "e24",
+      "kind": "text",
+      "label": "LI: “basic interaction mechanics”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "basic interaction mechanics"
+    },
+    {
+      "id": "e25",
+      "kind": "text",
+      "label": "LI: “simplified visuals or placeholder assets”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "simplified visuals or placeholder assets"
+    },
+    {
+      "id": "e26",
+      "kind": "text",
+      "label": "LI: “minimal systems required for testing”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "minimal systems required for testing"
+    },
+    {
+      "id": "e27",
+      "kind": "text",
+      "label": "P: “What prototypes intentionally avoid are complex systems suc…”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "What prototypes intentionally avoid are complex systems such as advanced graphics, large content libraries, monetization systems, or full game progression."
+    },
+    {
+      "id": "e28",
+      "kind": "text",
+      "label": "P: “The goal of a prototype is not polish.”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "The goal of a prototype is not polish."
+    },
+    {
+      "id": "e29",
+      "kind": "text",
+      "label": "P: “The goal is learning whether the idea is worth building.”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "The goal is learning whether the idea is worth building."
+    },
+    {
+      "id": "e30",
+      "kind": "text",
+      "label": "P: “This approach has become increasingly popular among indie g…”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "This approach has become increasingly popular among indie game developers, startups, and game studios that want to validate ideas quickly and avoid expensive mistakes."
+    },
+    {
+      "id": "e31",
+      "kind": "text",
+      "label": "H2: “Why Indie Game Studios Use Rapid Prototyping”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "Why Indie Game Studios Use Rapid Prototyping"
+    },
+    {
+      "id": "e32",
+      "kind": "text",
+      "label": "P: “For indie studios with limited budgets, development decisio…”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "For indie studios with limited budgets, development decisions carry real financial risk. Building a full game without validating the core mechanic can easily result in months of wasted development."
+    },
+    {
+      "id": "e33",
+      "kind": "text",
+      "label": "P: “Rapid prototyping helps teams answer critical questions muc…”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "Rapid prototyping helps teams answer critical questions much earlier in the process."
+    },
+    {
+      "id": "e34",
+      "kind": "text",
+      "label": "P: “For example:”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "For example:"
+    },
+    {
+      "id": "e35",
+      "kind": "text",
+      "label": "LI: “Does the gameplay loop feel engaging?”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "Does the gameplay loop feel engaging?"
+    },
+    {
+      "id": "e36",
+      "kind": "text",
+      "label": "LI: “Do players understand the mechanic immediately?”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "Do players understand the mechanic immediately?"
+    },
+    {
+      "id": "e37",
+      "kind": "text",
+      "label": "LI: “Will players continue playing after the first session?”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "Will players continue playing after the first session?"
+    },
+    {
+      "id": "e38",
+      "kind": "text",
+      "label": "P: “Instead of relying on internal opinions or assumptions, tea…”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "Instead of relying on internal opinions or assumptions, teams can observe how real players interact with the game. This allows studios to optimize the game development process, reduce unnecessary work, and make decisions based on real user behavior."
+    },
+    {
+      "id": "e39",
+      "kind": "text",
+      "label": "P: “For small teams, this approach can dramatically improve the…”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "For small teams, this approach can dramatically improve the chances of building a successful product."
+    },
+    {
+      "id": "e40",
+      "kind": "html",
+      "label": "P: “Related reading: How to Choose the Right Mobile Game Develo…”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "<strong>Related reading:</strong><br> <a href=\"/how-to-choose-the-right-mobile-game-development-partner-in-2026-oox/\">How to Choose the Right Mobile Game Development Partner in 2026</a>"
+    },
+    {
+      "id": "e41",
+      "kind": "text",
+      "label": "H2: “How to Validate a Game Idea Before Development”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "How to Validate a Game Idea Before Development"
+    },
+    {
+      "id": "e42",
+      "kind": "text",
+      "label": "P: “One of the most common questions indie developers ask is:”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "One of the most common questions indie developers ask is:"
+    },
+    {
+      "id": "e43",
+      "kind": "text",
+      "label": "P: “How can you test a game idea before investing months into d…”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "How can you test a game idea before investing months into development?"
+    },
+    {
+      "id": "e44",
+      "kind": "text",
+      "label": "P: “The answer usually involves building a playable MVP prototy…”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "The answer usually involves building a playable MVP prototype and collecting data from real players."
+    },
+    {
+      "id": "e45",
+      "kind": "text",
+      "label": "P: “This process typically follows several key stages.”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "This process typically follows several key stages."
+    },
+    {
+      "id": "e46",
+      "kind": "text",
+      "label": "H3: “Step 1: Define the Core Game Mechanic”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "Step 1: Define the Core Game Mechanic"
+    },
+    {
+      "id": "e47",
+      "kind": "text",
+      "label": "P: “Before building a prototype, the team must clearly define t…”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "Before building a prototype, the team must clearly define the core idea of the game. This stage is often called scoping, and it determines what the prototype will actually test."
+    },
+    {
+      "id": "e48",
+      "kind": "text",
+      "label": "P: “During this phase, developers typically define:”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "During this phase, developers typically define:"
+    },
+    {
+      "id": "e49",
+      "kind": "text",
+      "label": "LI: “the target audience”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "the target audience"
+    },
+    {
+      "id": "e50",
+      "kind": "text",
+      "label": "LI: “the main interaction mechanic”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "the main interaction mechanic"
+    },
+    {
+      "id": "e51",
+      "kind": "text",
+      "label": "LI: “the value the game delivers to players”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "the value the game delivers to players"
+    },
+    {
+      "id": "e52",
+      "kind": "text",
+      "label": "P: “Getting this stage right is critical. If the core idea is u…”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "Getting this stage right is critical. If the core idea is unclear, the prototype may test the wrong concept entirely."
+    },
+    {
+      "id": "e53",
+      "kind": "text",
+      "label": "P: “For indie developers trying to optimize their development p…”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "For indie developers trying to optimize their development process, proper scoping can save significant time and resources."
+    },
+    {
+      "id": "e54",
+      "kind": "text",
+      "label": "H3: “Step 2: Build a Playable Prototype”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "Step 2: Build a Playable Prototype"
+    },
+    {
+      "id": "e55",
+      "kind": "text",
+      "label": "P: “Once the core mechanic is defined, developers build a simpl…”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "Once the core mechanic is defined, developers build a simplified version of the game that allows players to experience the core interaction."
+    },
+    {
+      "id": "e56",
+      "kind": "text",
+      "label": "P: “The prototype focuses only on functionality. Most visual po…”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "The prototype focuses only on functionality. Most visual polish and advanced systems are intentionally excluded in order to speed up development."
+    },
+    {
+      "id": "e57",
+      "kind": "text",
+      "label": "P: “For example, the prototype may include:”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "For example, the prototype may include:"
+    },
+    {
+      "id": "e58",
+      "kind": "text",
+      "label": "LI: “basic placeholder graphics”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "basic placeholder graphics"
+    },
+    {
+      "id": "e59",
+      "kind": "text",
+      "label": "LI: “a simplified user interface”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "a simplified user interface"
+    },
+    {
+      "id": "e60",
+      "kind": "text",
+      "label": "LI: “the core gameplay mechanic”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "the core gameplay mechanic"
+    },
+    {
+      "id": "e61",
+      "kind": "text",
+      "label": "LI: “minimal progression systems”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "minimal progression systems"
+    },
+    {
+      "id": "e62",
+      "kind": "text",
+      "label": "P: “The goal is to create a playable version of the idea as qui…”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "The goal is to create a playable version of the idea as quickly as possible."
+    },
+    {
+      "id": "e63",
+      "kind": "text",
+      "label": "P: “In many cases, experienced studios can build these prototyp…”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "In many cases, experienced studios can build these prototypes within a few weeks."
+    },
+    {
+      "id": "e64",
+      "kind": "text",
+      "label": "H3: “Step 3: Test With Real Players”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "Step 3: Test With Real Players"
+    },
+    {
+      "id": "e65",
+      "kind": "text",
+      "label": "P: “Once the prototype exists, the next step is validation.”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "Once the prototype exists, the next step is validation."
+    },
+    {
+      "id": "e66",
+      "kind": "text",
+      "label": "P: “In modern game development, validation usually involves run…”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "In modern game development, validation usually involves running paid user acquisition campaigns and measuring real player behavior."
+    },
+    {
+      "id": "e67",
+      "kind": "text",
+      "label": "P: “Three metrics are especially important:”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "Three metrics are especially important:"
+    },
+    {
+      "id": "e68",
+      "kind": "html",
+      "label": "LI: “CPI (Cost Per Install) — This measures how expensive it is …”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "<strong>CPI (Cost Per Install)</strong> — This measures how expensive it is to acquire players."
+    },
+    {
+      "id": "e69",
+      "kind": "html",
+      "label": "LI: “Day 1 Retention — This shows whether players return to the …”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "<strong>Day 1 Retention</strong> — This shows whether players return to the game after their first session."
+    },
+    {
+      "id": "e70",
+      "kind": "html",
+      "label": "LI: “Playtime — This indicates how engaging the gameplay actuall…”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "<strong>Playtime</strong> — This indicates how engaging the gameplay actually is."
+    },
+    {
+      "id": "e71",
+      "kind": "text",
+      "label": "P: “Together, these metrics provide strong signals about whethe…”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "Together, these metrics provide strong signals about whether the core game mechanic has real potential."
+    },
+    {
+      "id": "e72",
+      "kind": "text",
+      "label": "H3: “Step 4: Decide Whether to Continue”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "Step 4: Decide Whether to Continue"
+    },
+    {
+      "id": "e73",
+      "kind": "text",
+      "label": "P: “After enough data has been collected, the team must make a …”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "After enough data has been collected, the team must make a decision about the future of the project."
+    },
+    {
+      "id": "e74",
+      "kind": "text",
+      "label": "P: “If the metrics show strong engagement, the game can move fo…”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "If the metrics show strong engagement, the game can move forward into full development with much greater confidence."
+    },
+    {
+      "id": "e75",
+      "kind": "text",
+      "label": "P: “If the numbers are weak, the smartest decision may be to st…”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "If the numbers are weak, the smartest decision may be to stop development early."
+    },
+    {
+      "id": "e76",
+      "kind": "text",
+      "label": "P: “Although this can feel disappointing, it is often one of th…”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "Although this can feel disappointing, it is often one of the biggest advantages of rapid prototyping. Discovering a weak idea early can save months of development and significant financial resources."
+    },
+    {
+      "id": "e77",
+      "kind": "text",
+      "label": "P: “Instead of continuing with a failing concept, teams can reu…”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "Instead of continuing with a failing concept, teams can reuse assets, recycle code, and apply the lessons learned to the next idea."
+    },
+    {
+      "id": "e78",
+      "kind": "text",
+      "label": "H2: “Explore More”",
+      "group": "Explore More",
+      "value": "Explore More"
+    },
+    {
+      "id": "e79",
+      "kind": "html",
+      "label": "LI: “How to Choose the Right Mobile Game Development Partner in …”",
+      "group": "Explore More",
+      "value": "<a href=\"/how-to-choose-the-right-mobile-game-development-partner-in-2026-oox/\">How to Choose the Right Mobile Game Development Partner in 2026</a>"
+    },
+    {
+      "id": "e80",
+      "kind": "html",
+      "label": "LI: “How Much Does a Mobile Game Prototype Cost?”",
+      "group": "Explore More",
+      "value": "<a href=\"/how-much-does-a-mobile-game-prototype-cost-2-2/\">How Much Does a Mobile Game Prototype Cost?</a>"
+    },
+    {
+      "id": "e81",
+      "kind": "html",
+      "label": "LI: “Mobile Game Development Outsourcing: Benefits, Risks, and S…”",
+      "group": "Explore More",
+      "value": "<a href=\"/mobile-game-development-outsourcing/\">Mobile Game Development Outsourcing: Benefits, Risks, and Smarter Alternatives</a>"
+    },
+    {
+      "id": "e82",
+      "kind": "html",
+      "label": "LI: “Mobile Game Development with Unity”",
+      "group": "Explore More",
+      "value": "<a href=\"https://unity.com/solutions/mobile\" target=\"_blank\" rel=\"noopener\">Mobile Game Development with Unity</a>"
+    },
+    {
+      "id": "e83",
+      "kind": "text",
+      "label": "H2: “How Rapid Prototyping Saves Time and Money”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "How Rapid Prototyping Saves Time and Money"
+    },
+    {
+      "id": "e84",
+      "kind": "text",
+      "label": "P: “For indie game developers and startups, rapid prototyping o…”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "For indie game developers and startups, rapid prototyping offers several important benefits."
+    },
+    {
+      "id": "e85",
+      "kind": "text",
+      "label": "P: “First, it significantly reduces financial risk. By validati…”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "First, it significantly reduces financial risk. By validating ideas early, teams avoid investing large budgets into concepts that may ultimately fail."
+    },
+    {
+      "id": "e86",
+      "kind": "text",
+      "label": "P: “Second, it accelerates learning cycles. Developers can test…”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "Second, it accelerates learning cycles. Developers can test multiple ideas within a shorter timeframe rather than committing to one long development process."
+    },
+    {
+      "id": "e87",
+      "kind": "text",
+      "label": "P: “Third, it improves product decisions. Instead of relying on…”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "Third, it improves product decisions. Instead of relying on intuition alone, teams can analyze real player behavior and adjust their ideas accordingly."
+    },
+    {
+      "id": "e88",
+      "kind": "text",
+      "label": "P: “For studios trying to build smarter games with limited reso…”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "For studios trying to build smarter games with limited resources, rapid prototyping can be one of the most effective strategies available."
+    },
+    {
+      "id": "e89",
+      "kind": "html",
+      "label": "P: “Learn more: Mobile game co-development services”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "<strong>Learn more:</strong><br> <a href=\"/service/co-development/\">Mobile game co-development services</a>"
+    },
+    {
+      "id": "e90",
+      "kind": "text",
+      "label": "H2: “Final Thoughts”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "Final Thoughts"
+    },
+    {
+      "id": "e91",
+      "kind": "text",
+      "label": "P: “Building a game has never been easier from a technical pers…”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "Building a game has never been easier from a technical perspective. Modern engines and development tools make it possible for small teams to create impressive products."
+    },
+    {
+      "id": "e92",
+      "kind": "text",
+      "label": "P: “However, building the right game remains one of the hardest…”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "However, building the right game remains one of the hardest challenges in the industry."
+    },
+    {
+      "id": "e93",
+      "kind": "text",
+      "label": "P: “Rapid prototyping in game development allows studios to ans…”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "Rapid prototyping in game development allows studios to answer the most important question early:"
+    },
+    {
+      "id": "e94",
+      "kind": "text",
+      "label": "P: “Is this game idea actually worth building?”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "Is this game idea actually worth building?"
+    },
+    {
+      "id": "e95",
+      "kind": "text",
+      "label": "P: “By testing ideas quickly, collecting real player data, and …”",
+      "group": "Rapid Prototyping in Game Development: …",
+      "value": "By testing ideas quickly, collecting real player data, and making informed decisions, indie studios can dramatically improve their chances of building successful games while avoiding expensive development mistakes."
+    },
+    {
+      "id": "e96",
+      "kind": "image",
+      "label": "Image: mobile game vertical slice",
+      "group": "Recent posts",
+      "value": "/wp-content/uploads/2026/08/DSC06517-768x1152.jpg"
+    },
+    {
+      "id": "e97",
+      "kind": "imageAlt",
+      "label": "Alt for mobile game vertical slice",
+      "group": "Recent posts",
+      "value": "mobile game vertical slice"
+    },
+    {
+      "id": "e98",
+      "kind": "image",
+      "label": "Image: Read more",
+      "group": "Recent posts",
+      "value": "/wp-content/uploads/2026/03/arrowr.png"
+    },
+    {
+      "id": "e99",
+      "kind": "imageAlt",
+      "label": "Alt for Read more",
+      "group": "Recent posts",
+      "value": "Read more"
+    },
+    {
+      "id": "e100",
+      "kind": "image",
+      "label": "Image: Office Photos OOX Limited",
+      "group": "Recent posts",
+      "value": "/wp-content/uploads/2026/03/d8d70c6789c6b5f6ea12d48bc4006f64f8be8019-768x512.jpg"
+    },
+    {
+      "id": "e101",
+      "kind": "imageAlt",
+      "label": "Alt for Office Photos OOX Limited",
+      "group": "Recent posts",
+      "value": "Office Photos OOX Limited"
+    },
+    {
+      "id": "e102",
+      "kind": "image",
+      "label": "Image: mobile game vertical slice",
+      "group": "Recent posts",
+      "value": "/wp-content/uploads/2026/07/20260226-DSC06235-768x512.jpg"
+    },
+    {
+      "id": "e103",
+      "kind": "imageAlt",
+      "label": "Alt for mobile game vertical slice",
+      "group": "Recent posts",
+      "value": "mobile game vertical slice"
+    }
+  ]
+}

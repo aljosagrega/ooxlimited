@@ -1,0 +1,263 @@
+{
+  "entries": [
+    {
+      "id": "e1",
+      "kind": "text",
+      "label": "H2: “Anđela Stupar”",
+      "group": "Page",
+      "value": "Anđela Stupar"
+    },
+    {
+      "id": "e2",
+      "kind": "html",
+      "label": "P: “Anđela Stupar is a UI/UX Designer within our game developme…”",
+      "group": "Page",
+      "value": "Anđela Stupar is a UI/UX Designer within our <a href=\"/our-team/\">game development team</a>. She specializes in mobile game UI design and user experience systems. With a background in graphic design, she combines strong aesthetic sensitivity with a clear interest in how visual systems function inside the engine."
+    },
+    {
+      "id": "e3",
+      "kind": "text",
+      "label": "P: “She is currently expanding toward technical art. She aims t…”",
+      "group": "Page",
+      "value": "She is currently expanding toward technical art. She aims to bridge design and implementation while building interfaces that stay visually polished, technically efficient, and ready for engine integration."
+    },
+    {
+      "id": "e4",
+      "kind": "text",
+      "label": "H4: “SKILLS”",
+      "group": "Page",
+      "value": "SKILLS"
+    },
+    {
+      "id": "e5",
+      "kind": "text",
+      "label": "LI: “UI/UX Design”",
+      "group": "Page",
+      "value": "UI/UX Design"
+    },
+    {
+      "id": "e6",
+      "kind": "text",
+      "label": "LI: “Graphic Design”",
+      "group": "Page",
+      "value": "Graphic Design"
+    },
+    {
+      "id": "e7",
+      "kind": "text",
+      "label": "LI: “Photography”",
+      "group": "Page",
+      "value": "Photography"
+    },
+    {
+      "id": "e8",
+      "kind": "text",
+      "label": "LI: “Motion Graphics”",
+      "group": "Page",
+      "value": "Motion Graphics"
+    },
+    {
+      "id": "e9",
+      "kind": "text",
+      "label": "H4: “PROGRAMS”",
+      "group": "Page",
+      "value": "PROGRAMS"
+    },
+    {
+      "id": "e10",
+      "kind": "text",
+      "label": "LI: “Figma”",
+      "group": "Page",
+      "value": "Figma"
+    },
+    {
+      "id": "e11",
+      "kind": "text",
+      "label": "LI: “Photoshop”",
+      "group": "Page",
+      "value": "Photoshop"
+    },
+    {
+      "id": "e12",
+      "kind": "text",
+      "label": "LI: “Illustrator”",
+      "group": "Page",
+      "value": "Illustrator"
+    },
+    {
+      "id": "e13",
+      "kind": "text",
+      "label": "LI: “Lightroom”",
+      "group": "Page",
+      "value": "Lightroom"
+    },
+    {
+      "id": "e14",
+      "kind": "text",
+      "label": "LI: “Unity”",
+      "group": "Page",
+      "value": "Unity"
+    },
+    {
+      "id": "e15",
+      "kind": "text",
+      "label": "LI: “After Effects”",
+      "group": "Page",
+      "value": "After Effects"
+    },
+    {
+      "id": "e16",
+      "kind": "text",
+      "label": "LI: “VS Code”",
+      "group": "Page",
+      "value": "VS Code"
+    },
+    {
+      "id": "e17",
+      "kind": "text",
+      "label": "H2: “Q&A”",
+      "group": "Page",
+      "value": "Q&A"
+    },
+    {
+      "id": "e18",
+      "kind": "html",
+      "label": "Button: “What originally drew you to UI/UX desig…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">What originally drew you to UI/UX design?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e19",
+      "kind": "html",
+      "label": "Button: “At what point did you realize you wante…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">At what point did you realize you wanted to expand into technical art?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e20",
+      "kind": "html",
+      "label": "Button: “Do you see yourself more as a designer …”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">Do you see yourself more as a designer who codes, or a technical mind with strong aesthetics?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e21",
+      "kind": "html",
+      "label": "Button: “How do you prefer to spend your days of…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">How do you prefer to spend your days off?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e22",
+      "kind": "html",
+      "label": "Button: “Favorite quote?”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">Favorite quote?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e23",
+      "kind": "html",
+      "label": "Button: “Top three life highlights?”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">Top three life highlights?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e24",
+      "kind": "html",
+      "label": "Button: “How did your academic background shape …”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">How did your academic background shape your understanding of user behavior and visual systems?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e25",
+      "kind": "html",
+      "label": "Button: “Were there specific projects that spark…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">Were there specific projects that sparked your interest in technical art?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e26",
+      "kind": "html",
+      "label": "Button: “Are you currently pursuing technical tr…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">Are you currently pursuing technical training?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e27",
+      "kind": "html",
+      "label": "Button: “How are you structuring your learning p…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">How are you structuring your learning process while working full-time?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e28",
+      "kind": "html",
+      "label": "Button: “How do you approach designing intuitive…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">How do you approach designing intuitive UI for mobile games?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e29",
+      "kind": "html",
+      "label": "Button: “What’s your process from wireframe to i…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">What’s your process from wireframe to implementation-ready design?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e30",
+      "kind": "html",
+      "label": "Button: “What’s a common UI mistake in mobile ga…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">What’s a common UI mistake in mobile games?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e31",
+      "kind": "html",
+      "label": "Button: “What excites you most about technical a…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">What excites you most about technical art compared to traditional UI/UX?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e32",
+      "kind": "html",
+      "label": "Button: “What’s the biggest challenge in transit…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">What’s the biggest challenge in transitioning into technical art?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e33",
+      "kind": "html",
+      "label": "Button: “Where do you see your role evolving in …”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">Where do you see your role evolving in the next few years?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e34",
+      "kind": "text",
+      "label": "Button: “Login”",
+      "group": "Page",
+      "value": "Login"
+    },
+    {
+      "id": "e35",
+      "kind": "html",
+      "label": "LI: “oox menu”",
+      "group": "Page",
+      "value": "<span>oox menu</span>"
+    },
+    {
+      "id": "e36",
+      "kind": "image",
+      "label": "Image: Anđela Stupar",
+      "group": "Page",
+      "value": "/wp-content/uploads/2026/04/DSC06325-scaled.webp"
+    },
+    {
+      "id": "e37",
+      "kind": "imageAlt",
+      "label": "Alt for Anđela Stupar",
+      "group": "Page",
+      "value": "Anđela Stupar"
+    }
+  ]
+}

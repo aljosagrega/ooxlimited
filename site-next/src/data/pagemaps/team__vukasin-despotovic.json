@@ -1,0 +1,137 @@
+{
+  "entries": [
+    {
+      "id": "e1",
+      "kind": "text",
+      "label": "H2: “Vukašin Despotović”",
+      "group": "Page",
+      "value": "Vukašin Despotović"
+    },
+    {
+      "id": "e2",
+      "kind": "html",
+      "label": "P: “Vukašin Despotović is Co-Founder and Head of Business Devel…”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">Vukašin Despotović is Co-Founder and Head of Business Development at OOX Limited, focused on product–market fit, scalable growth systems, and strategic validation in mobile game development.</span>"
+    },
+    {
+      "id": "e3",
+      "kind": "html",
+      "label": "P: “With a background in Business Economics and advanced resear…”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">With a background in Business Economics and advanced research in business systems, he approaches growth analytically—treating customer acquisition, retention, and profitability as measurable systems rather than guesswork. His work centers on aligning market opportunity with disciplined execution and long-term sustainability.</span>"
+    },
+    {
+      "id": "e4",
+      "kind": "text",
+      "label": "H4: “SKILLS”",
+      "group": "Page",
+      "value": "SKILLS"
+    },
+    {
+      "id": "e5",
+      "kind": "text",
+      "label": "LI: “Business Development”",
+      "group": "Page",
+      "value": "Business Development"
+    },
+    {
+      "id": "e6",
+      "kind": "text",
+      "label": "LI: “Product–Market Fit Strategy”",
+      "group": "Page",
+      "value": "Product–Market Fit Strategy"
+    },
+    {
+      "id": "e7",
+      "kind": "text",
+      "label": "LI: “Growth Systems Design”",
+      "group": "Page",
+      "value": "Growth Systems Design"
+    },
+    {
+      "id": "e8",
+      "kind": "text",
+      "label": "LI: “Market Analysis”",
+      "group": "Page",
+      "value": "Market Analysis"
+    },
+    {
+      "id": "e9",
+      "kind": "text",
+      "label": "LI: “Validation & Monetization Strategy”",
+      "group": "Page",
+      "value": "Validation & Monetization Strategy"
+    },
+    {
+      "id": "e10",
+      "kind": "text",
+      "label": "H2: “Q&A”",
+      "group": "Page",
+      "value": "Q&A"
+    },
+    {
+      "id": "e11",
+      "kind": "html",
+      "label": "Button: “If you weren’t in the gaming industry, …”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">If you weren’t in the gaming industry, what would you be building today?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e12",
+      "kind": "html",
+      "label": "Button: “How do you prefer to spend your days of…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">How do you prefer to spend your days off?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e13",
+      "kind": "html",
+      "label": "Button: “How did your academic background shape …”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">How did your academic background shape your approach to business development?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e14",
+      "kind": "html",
+      "label": "Button: “Were there early ventures that influenc…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">Were there early ventures that influenced your entrepreneurial mindset?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e15",
+      "kind": "html",
+      "label": "Button: “What are the most common early-stage mi…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">What are the most common early-stage mistakes founders make when bringing a game to market?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e16",
+      "kind": "text",
+      "label": "Button: “Login”",
+      "group": "Page",
+      "value": "Login"
+    },
+    {
+      "id": "e17",
+      "kind": "html",
+      "label": "LI: “oox menu”",
+      "group": "Page",
+      "value": "<span>oox menu</span>"
+    },
+    {
+      "id": "e18",
+      "kind": "image",
+      "label": "Image: Vukašin Despotović",
+      "group": "Page",
+      "value": "/wp-content/uploads/2026/03/ChatGPT-Image-14.-мај-2026.-15_19_50.png"
+    },
+    {
+      "id": "e19",
+      "kind": "imageAlt",
+      "label": "Alt for Vukašin Despotović",
+      "group": "Page",
+      "value": "Vukašin Despotović"
+    }
+  ]
+}

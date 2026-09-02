@@ -1,0 +1,228 @@
+{
+  "entries": [
+    {
+      "id": "e1",
+      "kind": "text",
+      "label": "H2: “Srđan Radujko”",
+      "group": "Page",
+      "value": "Srđan Radujko"
+    },
+    {
+      "id": "e2",
+      "kind": "html",
+      "label": "P: “Srđan Radujko is a Unity Developer within our game developm…”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">Srđan Radujko is a Unity Developer within our <a href=\"/our-team/\">game development team</a>, specializing in mobile game development and real-time system implementation.</span>"
+    },
+    {
+      "id": "e3",
+      "kind": "html",
+      "label": "P: “With a practical mindset and a focus on clean, maintainable…”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">With a practical mindset and a focus on clean, maintainable code, he balances speed and structure in fast-paced production environments. His approach favors solving real problems efficiently while keeping systems understandable and adaptable.</span>"
+    },
+    {
+      "id": "e4",
+      "kind": "text",
+      "label": "H4: “SKILLS”",
+      "group": "Page",
+      "value": "SKILLS"
+    },
+    {
+      "id": "e5",
+      "kind": "text",
+      "label": "LI: “Unity Development & C# Engineering”",
+      "group": "Page",
+      "value": "Unity Development & C# Engineering"
+    },
+    {
+      "id": "e6",
+      "kind": "text",
+      "label": "LI: “Game Design & Systems Thinking”",
+      "group": "Page",
+      "value": "Game Design & Systems Thinking"
+    },
+    {
+      "id": "e7",
+      "kind": "text",
+      "label": "LI: “Automation & Tooling (Developer Efficiency)”",
+      "group": "Page",
+      "value": "Automation & Tooling (Developer Efficiency)"
+    },
+    {
+      "id": "e8",
+      "kind": "text",
+      "label": "LI: “Project Leadership & Agile Management”",
+      "group": "Page",
+      "value": "Project Leadership & Agile Management"
+    },
+    {
+      "id": "e9",
+      "kind": "text",
+      "label": "LI: “Cross-Disciplinary Collaboration”",
+      "group": "Page",
+      "value": "Cross-Disciplinary Collaboration"
+    },
+    {
+      "id": "e10",
+      "kind": "text",
+      "label": "H4: “PROGRAMS”",
+      "group": "Page",
+      "value": "PROGRAMS"
+    },
+    {
+      "id": "e11",
+      "kind": "text",
+      "label": "LI: “Unity”",
+      "group": "Page",
+      "value": "Unity"
+    },
+    {
+      "id": "e12",
+      "kind": "text",
+      "label": "LI: “Visual Studio”",
+      "group": "Page",
+      "value": "Visual Studio"
+    },
+    {
+      "id": "e13",
+      "kind": "text",
+      "label": "LI: “Mobile Profiling Tools”",
+      "group": "Page",
+      "value": "Mobile Profiling Tools"
+    },
+    {
+      "id": "e14",
+      "kind": "text",
+      "label": "LI: “ChatGPT (wisely used)”",
+      "group": "Page",
+      "value": "ChatGPT (wisely used)"
+    },
+    {
+      "id": "e15",
+      "kind": "text",
+      "label": "H2: “Q&A”",
+      "group": "Page",
+      "value": "Q&A"
+    },
+    {
+      "id": "e16",
+      "kind": "html",
+      "label": "Button: “What made you choose Unity as your prim…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">What made you choose Unity as your primary engine?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e17",
+      "kind": "html",
+      "label": "Button: “Do you prefer building systems from scr…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">Do you prefer building systems from scratch or refining existing ones?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e18",
+      "kind": "html",
+      "label": "Button: “How do you prefer to spend your days of…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">How do you prefer to spend your days off?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e19",
+      "kind": "html",
+      "label": "Button: “Favorite quote?”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">Favorite quote?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e20",
+      "kind": "html",
+      "label": "Button: “Top three life highlights?”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">Top three life highlights?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e21",
+      "kind": "html",
+      "label": "Button: “How did your academic training shape yo…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">How did your academic training shape your approach to programming?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e22",
+      "kind": "html",
+      "label": "Button: “Were there competitions or projects tha…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">Were there competitions or projects that influenced your career?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e23",
+      "kind": "html",
+      "label": "Button: “How do you structure scalable systems w…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">How do you structure scalable systems within Unity?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e24",
+      "kind": "html",
+      "label": "Button: “What’s your approach to performance opt…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">What’s your approach to performance optimization on mobile devices?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e25",
+      "kind": "html",
+      "label": "Button: “How do you manage debugging complex int…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">How do you manage debugging complex interactions between systems?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e26",
+      "kind": "html",
+      "label": "Button: “What’s your strategy for maintaining cl…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">What’s your strategy for maintaining clean and maintainable code?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e27",
+      "kind": "html",
+      "label": "Button: “What’s one misconception about Unity de…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">What’s one misconception about Unity development you’d like to clarify?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e28",
+      "kind": "html",
+      "label": "Button: “What’s a technical skill every Unity de…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">What’s a technical skill every Unity developer should master early?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e29",
+      "kind": "text",
+      "label": "Button: “Login”",
+      "group": "Page",
+      "value": "Login"
+    },
+    {
+      "id": "e30",
+      "kind": "html",
+      "label": "LI: “oox menu”",
+      "group": "Page",
+      "value": "<span>oox menu</span>"
+    },
+    {
+      "id": "e31",
+      "kind": "image",
+      "label": "Image: Srđan Radujko",
+      "group": "Page",
+      "value": "/wp-content/uploads/2026/03/DSC06380-scaled.jpg"
+    },
+    {
+      "id": "e32",
+      "kind": "imageAlt",
+      "label": "Alt for Srđan Radujko",
+      "group": "Page",
+      "value": "Srđan Radujko"
+    }
+  ]
+}

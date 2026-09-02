@@ -1,0 +1,214 @@
+{
+  "entries": [
+    {
+      "id": "e1",
+      "kind": "text",
+      "label": "H2: “Luka Miljuš”",
+      "group": "Page",
+      "value": "Luka Miljuš"
+    },
+    {
+      "id": "e2",
+      "kind": "html",
+      "label": "P: “A developer at core and a builder by mindset, Luka Miljuš, …”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">A developer at core and a builder by mindset, </span><span style=\"font-weight: 400;\">Luka Miljuš, </span><span style=\"font-weight: 400;\">is a key part of our </span><a href=\"/our-team/\">game development team</a><span style=\"font-weight: 400;\">, combining deep technical expertise with strong product ownership. As a co-founder, he bridges engineering and strategy, turning ideas into shipped features and prototypes into scalable systems.</span>"
+    },
+    {
+      "id": "e3",
+      "kind": "html",
+      "label": "P: “Focused on clean architecture, practical solutions, and fas…”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">Focused on clean architecture, practical solutions, and fast validation, Luka plays a critical role in building reliable systems across </span>mobile game development and app development projects."
+    },
+    {
+      "id": "e4",
+      "kind": "text",
+      "label": "H4: “SKILLS”",
+      "group": "Page",
+      "value": "SKILLS"
+    },
+    {
+      "id": "e5",
+      "kind": "text",
+      "label": "LI: “Unity”",
+      "group": "Page",
+      "value": "Unity"
+    },
+    {
+      "id": "e6",
+      "kind": "text",
+      "label": "LI: “Leadership”",
+      "group": "Page",
+      "value": "Leadership"
+    },
+    {
+      "id": "e7",
+      "kind": "text",
+      "label": "LI: “Teaching”",
+      "group": "Page",
+      "value": "Teaching"
+    },
+    {
+      "id": "e8",
+      "kind": "text",
+      "label": "LI: “Full-stack web development”",
+      "group": "Page",
+      "value": "Full-stack web development"
+    },
+    {
+      "id": "e9",
+      "kind": "text",
+      "label": "LI: “Tooling & Automation”",
+      "group": "Page",
+      "value": "Tooling & Automation"
+    },
+    {
+      "id": "e10",
+      "kind": "text",
+      "label": "H4: “PROGRAMS”",
+      "group": "Page",
+      "value": "PROGRAMS"
+    },
+    {
+      "id": "e11",
+      "kind": "text",
+      "label": "LI: “Jetbrains Rider”",
+      "group": "Page",
+      "value": "Jetbrains Rider"
+    },
+    {
+      "id": "e12",
+      "kind": "text",
+      "label": "LI: “Git”",
+      "group": "Page",
+      "value": "Git"
+    },
+    {
+      "id": "e13",
+      "kind": "text",
+      "label": "LI: “Discord (pro user)”",
+      "group": "Page",
+      "value": "Discord (pro user)"
+    },
+    {
+      "id": "e14",
+      "kind": "text",
+      "label": "H2: “Q&A”",
+      "group": "Page",
+      "value": "Q&A"
+    },
+    {
+      "id": "e15",
+      "kind": "html",
+      "label": "Button: “What first sparked your interest in pro…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">What first sparked your interest in programming?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e16",
+      "kind": "html",
+      "label": "Button: “Was there a moment when you realized th…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">Was there a moment when you realized this would be your long-term career path?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e17",
+      "kind": "html",
+      "label": "Button: “How do you prefer to spend your days of…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">How do you prefer to spend your days off?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e18",
+      "kind": "html",
+      "label": "Button: “Favorite quote?”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">Favorite quote?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e19",
+      "kind": "html",
+      "label": "Button: “Top three life highlights?”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">Top three life highlights?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e20",
+      "kind": "html",
+      "label": "Button: “How did your academic training shape yo…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">How did your academic training shape your approach to system architecture and problem-solving?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e21",
+      "kind": "html",
+      "label": "Button: “Were there specific technical projects …”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">Were there specific technical projects during university that pushed your limits?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e22",
+      "kind": "html",
+      "label": "Button: “How do you design scalable architecture…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">How do you design scalable architecture for mobile games from day one?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e23",
+      "kind": "html",
+      "label": "Button: “What’s the biggest misconception about …”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">What’s the biggest misconception about game development?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e24",
+      "kind": "html",
+      "label": "Button: “How do you manage technical debt while …”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">How do you manage technical debt while keeping timelines realistic?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e25",
+      "kind": "html",
+      "label": "Button: “How do you mentor junior developers?”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">How do you mentor junior developers?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e26",
+      "kind": "html",
+      "label": "Button: “What technical skill should every aspir…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">What technical skill should every aspiring developer master?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e27",
+      "kind": "text",
+      "label": "Button: “Login”",
+      "group": "Page",
+      "value": "Login"
+    },
+    {
+      "id": "e28",
+      "kind": "html",
+      "label": "LI: “oox menu”",
+      "group": "Page",
+      "value": "<span>oox menu</span>"
+    },
+    {
+      "id": "e29",
+      "kind": "image",
+      "label": "Image: Luka Miljuš",
+      "group": "Page",
+      "value": "/wp-content/uploads/2026/01/0314e21573a5d458249630664716e2ea54d22e21-2.jpg"
+    },
+    {
+      "id": "e30",
+      "kind": "imageAlt",
+      "label": "Alt for Luka Miljuš",
+      "group": "Page",
+      "value": "Luka Miljuš"
+    }
+  ]
+}
