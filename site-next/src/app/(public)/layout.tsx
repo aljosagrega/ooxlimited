@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import "./globals.css";
 import { getSiteSettings } from "@/lib/content";
+import { organizationJsonLd, websiteJsonLd, renderJsonLd } from "@/lib/jsonLd";
 import ExtraScripts from "@/components/ExtraScripts";
 
 const settings = getSiteSettings();
@@ -10,6 +11,13 @@ export const metadata: Metadata = {
   metadataBase: new URL(process.env.SITE_URL || "https://ooxlimited.com"),
   title: { default: settings.title, template: "%s" },
   description: settings.tagline,
+  openGraph: {
+    siteName: settings.title,
+    locale: "en_US",
+    type: "website",
+    images: [{ url: "/og-default.png", width: 1200, height: 630 }],
+  },
+  twitter: { card: "summary_large_image" },
 };
 
 export default function PublicLayout({ children }: { children: React.ReactNode }) {
@@ -17,6 +25,14 @@ export default function PublicLayout({ children }: { children: React.ReactNode }
   return (
     <html lang="en-US">
       <body>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: renderJsonLd(organizationJsonLd()) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: renderJsonLd(websiteJsonLd()) }}
+        />
         {children}
 
         {s.gaId && (

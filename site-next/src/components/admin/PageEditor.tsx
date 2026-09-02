@@ -8,28 +8,30 @@ import { Field, FocusInput, FocusTextarea } from "./fields/FormPrimitives";
 import ImageUploadField from "./fields/ImageUploadField";
 import RichTextEditor from "./RichTextEditor";
 
-interface PageRecord {
-  id: number;
-  title: string;
-  path: string;
-  metaTitle?: string;
-  metaDescription?: string;
-  noindex?: boolean;
-  edits?: Record<string, string>;
-}
+/** SEO overrides ride in the same edits map under reserved keys. */
+const SEO_KEYS = { title: "__seoTitle", desc: "__seoDesc", noindex: "__seoNoindex" } as const;
 
 export default function PageEditor({
-  record,
+  routeKey,
+  routePath,
+  title,
   pagemap,
+  edits: initialEdits,
 }: {
-  record: PageRecord;
+  routeKey: string;
+  routePath: string;
+  title: string;
   pagemap: PagemapEntry[];
+  edits: Record<string, string>;
 }) {
-  const [edits, setEdits] = useState<Record<string, string>>(record.edits ?? {});
+  const contentEdits0 = Object.fromEntries(
+    Object.entries(initialEdits).filter(([k]) => !k.startsWith("__seo")),
+  );
+  const [edits, setEdits] = useState<Record<string, string>>(contentEdits0);
   const [meta, setMeta] = useState({
-    metaTitle: record.metaTitle ?? "",
-    metaDescription: record.metaDescription ?? "",
-    noindex: !!record.noindex,
+    metaTitle: initialEdits[SEO_KEYS.title] ?? "",
+    metaDescription: initialEdits[SEO_KEYS.desc] ?? "",
+    noindex: initialEdits[SEO_KEYS.noindex] === "1",
   });
   const [saving, setSaving] = useState(false);
   const [q, setQ] = useState("");
@@ -54,21 +56,29 @@ export default function PageEditor({
     });
 
   const dirty =
-    JSON.stringify(edits) !== JSON.stringify(record.edits ?? {}) ||
-    meta.metaTitle !== (record.metaTitle ?? "") ||
-    meta.metaDescription !== (record.metaDescription ?? "") ||
-    meta.noindex !== !!record.noindex;
+    JSON.stringify(edits) !== JSON.stringify(contentEdits0) ||
+    meta.metaTitle !== (initialEdits[SEO_KEYS.title] ?? "") ||
+    meta.metaDescription !== (initialEdits[SEO_KEYS.desc] ?? "") ||
+    meta.noindex !== (initialEdits[SEO_KEYS.noindex] === "1");
 
   async function save(e: React.FormEvent) {
     e.preventDefault();
     setSaving(true);
     try {
-      const res = await fetch(`/api/admin/pages/${record.id}`, {
+      const res = await fetch(`/api/admin/page-edits/${encodeURIComponent(routeKey)}/`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ edits, ...meta }),
+        body: JSON.stringify({
+          edits,
+          seo: {
+            metaTitle: meta.metaTitle,
+            metaDescription: meta.metaDescription,
+            noindex: meta.noindex,
+          },
+          routePath,
+        }),
       });
-      if (res.ok) toast.success("Page saved");
+      if (res.ok) toast.success("Page saved — live now");
       else toast.error((await res.json()).error ?? "Save failed");
     } catch {
       toast.error("Connection error");
@@ -77,19 +87,21 @@ export default function PageEditor({
     }
   }
 
+  const changedCount = Object.keys(edits).length;
+
   return (
     <form onSubmit={save} className="admin-content-pad" style={{ maxWidth: 780, display: "flex", flexDirection: "column", gap: 18 }}>
       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap", gap: 12 }}>
         <div>
           <h1 style={{ fontSize: 20, fontWeight: 600, color: "var(--at-text)", margin: 0 }}>
-            {record.title}
-            <span style={{ color: "var(--at-faint)", fontWeight: 400, fontSize: 13 }}> — {record.path}</span>
+            {title}
+            <span style={{ color: "var(--at-faint)", fontWeight: 400, fontSize: 13 }}> — {routePath}</span>
           </h1>
           <p style={{ fontSize: 12.5, color: "var(--at-muted)", marginTop: 4 }}>
-            {pagemap.length} editable text & image fields. Layout is fixed; only content changes.
+            {pagemap.length} editable text &amp; image fields. Layout is fixed; only content changes.
           </p>
         </div>
-        <a href={record.path} target="_blank" rel="noreferrer" className="btn btn-secondary btn-sm">
+        <a href={routePath} target="_blank" rel="noreferrer" className="btn btn-secondary btn-sm">
           <ExternalLink size={13} /> View page
         </a>
       </div>
@@ -101,7 +113,7 @@ export default function PageEditor({
 
       {tab === "seo" ? (
         <div className="at-card" style={{ display: "flex", flexDirection: "column", gap: 16 }}>
-          <Field label="Meta title"><FocusInput value={meta.metaTitle} onChange={(v) => setMeta({ ...meta, metaTitle: v })} placeholder={record.title} /></Field>
+          <Field label="Meta title"><FocusInput value={meta.metaTitle} onChange={(v) => setMeta({ ...meta, metaTitle: v })} placeholder={title} /></Field>
           <Field label="Meta description"><FocusTextarea value={meta.metaDescription} onChange={(v) => setMeta({ ...meta, metaDescription: v })} rows={2} /></Field>
           <label style={{ display: "flex", alignItems: "center", gap: 8, fontSize: 13, color: "var(--at-text)" }}>
             <input type="checkbox" checked={meta.noindex} onChange={(e) => setMeta({ ...meta, noindex: e.target.checked })} />
@@ -152,7 +164,7 @@ export default function PageEditor({
         <button type="submit" disabled={saving || !dirty} className="btn btn-primary">
           <Save size={13} /> {saving ? "Saving…" : "Save page"}
         </button>
-        {dirty && !saving && <span style={{ fontSize: 12, color: "var(--at-muted)" }}>{Object.keys(edits).length} field(s) changed</span>}
+        {dirty && !saving && <span style={{ fontSize: 12, color: "var(--at-muted)" }}>{changedCount} field(s) changed</span>}
       </div>
     </form>
   );

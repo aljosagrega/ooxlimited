@@ -1,11 +1,10 @@
 # ooxlimited.com WordPress → Next.js — plan, status & everything learned
 
-Full background: `/Users/aljosagrega/.claude/plans/stateless-beaming-brooks.md`.
-
 ## Goal
 
-Replace WordPress + Elementor with this Next.js 16 app + a custom admin, ported
-from `wikiwallet-next`. **The public design must stay pixel-identical** — it is
+Replace WordPress + Elementor with this Next.js 16 app + a custom admin, whose
+schema-driven CMS was ported from a sibling Next.js project.
+**The public design must stay pixel-identical** — it is
 the exact HTML + CSS WordPress renders, frozen and served through the app. Only
 the framework and administration are new. **All text and images must be
 editable in the admin.**
@@ -23,7 +22,7 @@ editable in the admin.**
 | `src/components/FrozenScripts.tsx` | client: replays the frozen `<script>` stack **once** (`window.__frozenScriptsRun` guard), sequential, then `kickLegacyRuntime()` → `elementorFrontend.init()` + GSAP `ScrollTrigger.refresh()`. |
 | `src/lib/fieldMap.ts` | `getPagemap`, `applyPageEdits` (cheerio patch by `data-oox-e`). |
 | `src/lib/chromePatch.ts` | rewrites nav menu items + footer social hrefs from `menus.json` / `siteSettings.json` onto every frozen page. Footer email left frozen (`admin@ooxcit.com`, not an admin field). |
-| Admin | `wikiwallet-next` admin ported — `posts`/`team`/`services`/`pages`/`submissions`. `pages` uses `<PageEditor>` (pagemap form), the rest use `<SchemaForm>`. `next.config.ts` has `reactStrictMode:false` (frozen scripts aren't idempotent). |
+| Admin | schema-driven CMS ported from a sibling project — `posts`/`team`/`services`/`pages`/`submissions`. `pages` uses `<PageEditor>` (pagemap form), the rest use `<SchemaForm>`. `next.config.ts` has `reactStrictMode:false` (frozen scripts aren't idempotent). |
 
 ## HARD-WON LESSONS (bugs found while the user reviewed live)
 

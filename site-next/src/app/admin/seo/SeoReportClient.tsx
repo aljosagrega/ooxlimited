@@ -8,6 +8,7 @@ import { SegmentedBar } from "@/components/admin/charts";
 import { STATUS } from "@/lib/chartPalette";
 import { usePagination } from "@/components/admin/Pagination";
 import Select from "@/components/admin/fields/Select";
+import { routeKey } from "@/lib/routeKey";
 
 type Filter = "all" | "poor" | "thin" | "no-title" | "no-description" | "noindex";
 type Sort = "score" | "issues" | "words" | "title";
@@ -22,10 +23,9 @@ const FILTERS: { key: Filter; label: string }[] = [
   { key: "noindex", label: "Noindexed" },
 ];
 
-const COLLECTION: Record<Kind, string> = { page: "pages", post: "posts", service: "services" };
-
 function editHref(r: SeoRow) {
-  return `/admin/${COLLECTION[r.kind]}/${r.id}/edit`;
+  if (r.kind === "page") return `/admin/pages/${routeKey(r.url)}/edit`;
+  return `/admin/${r.kind === "post" ? "posts" : "services"}/${r.id}/edit`;
 }
 
 function recommendations(r: SeoRow): string[] {

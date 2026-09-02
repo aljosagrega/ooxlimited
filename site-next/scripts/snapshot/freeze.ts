@@ -29,7 +29,8 @@ const PUBLIC = path.join(ROOT, "public");
  * that carries an absolute origin gets a rewritten copy under `public/_css/`
  * with the frozen `<link href>` repointed.
  */
-const WP_DOCROOT = "/Users/aljosagrega/Sites/ooxlimited/site";
+// The WordPress docroot that Docker serves (repo-root `site/`), or an override.
+const WP_DOCROOT = process.env.OOX_WP_DOCROOT || path.join(ROOT, "../site");
 const CSS_DEST = path.join(PUBLIC, "_css");
 
 /** Map a site-absolute CSS path to its file on disk. */

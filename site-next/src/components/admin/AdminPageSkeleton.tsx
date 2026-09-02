@@ -320,21 +320,46 @@ function StatsListSkeleton({ statCards = 2, maxWidth = 860 }: { statCards?: numb
   );
 }
 
+/* ── Generic ─────────────────────────────────────────────────────────────
+
+   Neutral fallback for admin routes without their own loading.tsx. Must not
+   resemble any specific page — a header plus a few plain blocks, nothing that
+   reads as "dashboard" or "table" before the real page swaps in. */
+
+function GenericSkeleton() {
+  return (
+    <div className="admin-content-pad" style={{ maxWidth: 900 }}>
+      <B w={190} h={22} r={6} />
+      <B w={360} h={11} r={4} style={{ marginTop: 10, marginBottom: 28, opacity: 0.6 }} />
+
+      <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
+        {Array.from({ length: 5 }).map((_, i) => (
+          <div key={i} className={`sk-card sk-r${(i % 8) + 1}`} style={{ padding: "18px 20px", display: "flex", flexDirection: "column", gap: 10 }}>
+            <B w={[160, 220, 140, 190, 170][i]} h={13} r={4} />
+            <B h={i % 2 ? 56 : 40} r={8} style={{ opacity: 0.5 }} />
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
 /* ── Root ─────────────────────────────────────────────────────────────── */
 
-export default function AdminPageSkeleton({ variant = "dashboard" }: {
-  variant?: "dashboard" | "list" | "form" | "translations" | "settings" | "sync" | "seo";
+export default function AdminPageSkeleton({ variant = "generic" }: {
+  variant?: "generic" | "dashboard" | "list" | "form" | "translations" | "settings" | "sync" | "seo";
 }) {
   return (
     <AdminShell>
       <style>{CSS}</style>
-      {variant === "list" ? <ListSkeleton />
+      {variant === "dashboard" ? <DashboardSkeleton />
+        : variant === "list" ? <ListSkeleton />
         : variant === "form" ? <FormSkeleton />
         : variant === "translations" ? <TranslationsSkeleton />
         : variant === "settings" ? <PanelFormSkeleton />
         : variant === "sync" ? <StatsListSkeleton statCards={2} maxWidth={860} />
         : variant === "seo" ? <StatsListSkeleton statCards={3} maxWidth={1000} />
-        : <DashboardSkeleton />}
+        : <GenericSkeleton />}
     </AdminShell>
   );
 }

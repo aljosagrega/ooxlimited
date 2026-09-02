@@ -38,8 +38,15 @@ export function applyChromePatch(bodyHtml: string): string {
   }
 
   /* ---- nav menus -------------------------------------------------------- */
-  patchMenu($, "nav.main-navigation ul.menu, .hfe-nav-menu__layout-horizontal .menu, ul#menu-1-bffea36", menus.main);
-  patchMenu($, ".elementor-widget-footer .menu, footer ul.menu, .site-footer ul.menu", menus.footer);
+  // The header carries several copies of the primary menu (desktop HFE nav +
+  // the mobile canvas menu); patch every one. The footer menu lives inside the
+  // footer region only.
+  patchMenus(
+    $,
+    'header .menu, .elementor-location-header .menu, .hfe-nav-menu .menu, .omero-menu-canvas .menu, nav.main-navigation ul.menu, ul[id^="menu-"]',
+    menus.main,
+  );
+  patchMenus($, ".elementor-location-footer .menu, footer .menu, .site-footer .menu", menus.footer);
 
   // NOTE: footer contact email is left as frozen — the studio's footer address
   // (admin@ooxcit.com) differs from the form recipient and isn't an admin field.
@@ -47,12 +54,23 @@ export function applyChromePatch(bodyHtml: string): string {
   return $.html();
 }
 
-/** Rewrite an existing frozen <ul> menu's top-level items in place from a tree.
- *  Only touches items that line up 1:1 by position; never adds/removes DOM to
- *  avoid disturbing Elementor's submenu markup + JS hooks. */
-function patchMenu($: cheerio.CheerioAPI, selector: string, tree: MenuItem[]) {
+/** Patch every frozen <ul> menu matched by `selector`. */
+function patchMenus($: cheerio.CheerioAPI, selector: string, tree: MenuItem[]) {
   if (!tree.length) return;
-  const ul = $(selector).first();
+  const seen = new Set<unknown>();
+  $(selector).each((_, ul) => {
+    // a nested submenu <ul> also matches `.menu` sometimes — skip if its parent
+    // <li> is inside another matched menu (handled by that menu's child pass).
+    if ($(ul).parents("li").length && $(ul).closest(".sub-menu, .elementor-nav-menu--dropdown").length) return;
+    if (seen.has(ul)) return;
+    seen.add(ul);
+    patchOneMenu($, $(ul), tree);
+  });
+}
+
+/** Rewrite one frozen <ul> menu's items in place from a tree. Only touches
+ *  items that line up 1:1 by position; never adds/removes DOM. */
+function patchOneMenu($: cheerio.CheerioAPI, ul: ReturnType<cheerio.CheerioAPI>, tree: MenuItem[]) {
   if (!ul.length) return;
 
   const topItems = ul.children("li").toArray();

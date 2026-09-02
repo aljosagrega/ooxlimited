@@ -4,12 +4,16 @@ import FrozenView from "@/components/FrozenView";
 import FrozenBodyClass from "@/components/FrozenBodyClass";
 import { hasFrozen, getFrozen, routeKey } from "@/lib/frozen";
 import { applyPageEdits, getPagemap } from "@/lib/fieldMap";
+import { getPageEdits } from "@/lib/pageEdits";
 import { applyChromePatch } from "@/lib/chromePatch";
 import { applySingleContent } from "@/lib/singleContent";
+import { applyImageAlt } from "@/lib/imageAlt";
+import { applyFrozenFixups } from "@/lib/frozenFixups";
 import {
   getAllPages, getAllPosts, getServices, getTeam, getPageByPath, getPost,
   getService, getTeamMember, getSiteSettings,
 } from "@/lib/content";
+import { pageJsonLd, renderJsonLd } from "@/lib/jsonLd";
 import type { SeoFields } from "@/lib/types";
 
 type Props = { params: Promise<{ slug?: string[] }> };
@@ -50,9 +54,27 @@ function seoFor(path: string): { seo: SeoFields; title: string } | null {
   const tm = path.match(/^\/team\/([^/]+)\/$/);
   if (tm) {
     const t = getTeamMember(tm[1]);
-    if (t) return { seo: {}, title: `${t.name} — ${t.position || "OOX Limited"}` };
+    if (t) {
+      const role = t.position ? `${t.position} at OOX Limited` : "part of the OOX Limited team";
+      return {
+        seo: {
+          metaDescription:
+            `${t.name} is ${role} — a game and app development studio building mobile ` +
+            `games, apps and playable prototypes from concept to launch.`,
+        },
+        title: `${t.name} — ${t.position || "OOX Limited"}`,
+      };
+    }
   }
   return null;
+}
+
+/** Open Graph object type for a route: article for posts, profile for team. */
+function ogTypeFor(path: string): "article" | "profile" | "website" {
+  const slug = path.replace(/\//g, "");
+  if (path.match(/^\/[^/]+\/$/) && getPost(slug)) return "article";
+  if (path.match(/^\/team\/[^/]+\/$/)) return "profile";
+  return "website";
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -63,12 +85,28 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     ? `${info.title}${path === "/" ? "" : " – " + settings.title}`
     : settings.title;
 
-  const seo = info?.seo ?? {};
+  // Per-page overrides set in /admin/pages win over the migrated record values.
+  const pe = getPageEdits(routeKey(path));
+  const seo: SeoFields = {
+    ...(info?.seo ?? {}),
+    ...(pe.__seoTitle ? { metaTitle: pe.__seoTitle } : {}),
+    ...(pe.__seoDesc ? { metaDescription: pe.__seoDesc } : {}),
+    ...(pe.__seoNoindex === "1" ? { noindex: true } : {}),
+  };
   const canonical = seo.canonicalUrl
     ? seo.canonicalUrl.startsWith("http")
       ? seo.canonicalUrl
       : `${SITE_URL}${seo.canonicalUrl}`
     : `${SITE_URL}${path === "/" ? "/" : path}`;
+
+  const post = getPost(path.replace(/\//g, ""));
+  const ogType = ogTypeFor(path);
+  const abs = (u: string) => (u.startsWith("http") ? u : `${SITE_URL}${u}`);
+  const ogImage = seo.ogImage
+    ? abs(seo.ogImage)
+    : post?.featuredImage?.url
+      ? abs(post.featuredImage.url)
+      : `${SITE_URL}/og-default.png`;
 
   return {
     title: seo.metaTitle || fallbackTitle,
@@ -80,8 +118,22 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: seo.ogDesc || seo.metaDescription || settings.tagline,
       url: canonical,
       siteName: settings.title,
-      type: path.match(/^\/[^/]+\/$/) && getPost(path.replace(/\//g, "")) ? "article" : "website",
-      images: seo.ogImage ? [seo.ogImage.startsWith("http") ? seo.ogImage : `${SITE_URL}${seo.ogImage}`] : undefined,
+      locale: "en_US",
+      type: ogType,
+      images: [ogImage],
+      ...(ogType === "article" && post
+        ? {
+            publishedTime: post.date || undefined,
+            modifiedTime: post.modified || post.date || undefined,
+            authors: [post.author || settings.title],
+          }
+        : {}),
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: seo.ogTitle || seo.metaTitle || fallbackTitle,
+      description: seo.ogDesc || seo.metaDescription || settings.tagline,
+      images: [ogImage],
     },
   };
 }
@@ -91,17 +143,27 @@ export default async function CatchAll({ params }: Props) {
   if (!hasFrozen(path)) notFound();
 
   const frozen = getFrozen(path)!;
-  const page = getPageByPath(path);
+  const key = routeKey(path);
   let body = applyChromePatch(frozen.bodyHtml);
   body = applySingleContent(path, body);
-  if (page?.edits && Object.keys(page.edits).length) {
-    body = applyPageEdits(body, getPagemap(routeKey(path)), page.edits);
+  body = applyFrozenFixups(path, body);
+  body = applyImageAlt(body);
+  const edits = getPageEdits(key);
+  if (Object.keys(edits).length) {
+    body = applyPageEdits(body, getPagemap(key), edits);
   }
   const patched = body === frozen.bodyHtml ? undefined : body;
 
   return (
     <>
       <FrozenBodyClass className={frozen.bodyClass} lang={frozen.lang} />
+      {pageJsonLd(path).map((node, i) => (
+        <script
+          key={i}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: renderJsonLd(node) }}
+        />
+      ))}
       <FrozenView routePath={path} patchedBody={patched} />
     </>
   );

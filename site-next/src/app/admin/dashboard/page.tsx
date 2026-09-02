@@ -3,14 +3,19 @@ import Link from "next/link";
 import { requireAuth } from "@/lib/session";
 import { collectionCounts } from "@/lib/adminCollections";
 import { getDashboardStats } from "@/lib/adminStats";
+import { listEditablePages } from "@/lib/pageList";
 import { SCHEMAS } from "@/lib/adminSchema";
 import AdminShell from "@/components/admin/AdminShell";
 import {
   ChartCard, BarChart, SegmentedBar, HBars, StatList, CountCard, SectionLabel,
 } from "@/components/admin/charts";
 import { STATUS } from "@/lib/chartPalette";
+import { routeKey } from "@/lib/routeKey";
 
-const KIND_COLLECTION: Record<string, string> = { page: "pages", post: "posts", service: "services" };
+function seoEditHref(kind: string, id: number, url: string): string {
+  if (kind === "page") return `/admin/pages/${routeKey(url)}/edit`;
+  return `/admin/${kind === "post" ? "posts" : "services"}/${id}/edit`;
+}
 
 export default async function AdminDashboardPage() {
   const user = await requireAuth();
@@ -19,6 +24,8 @@ export default async function AdminDashboardPage() {
   const counts = collectionCounts();
   const stats = getDashboardStats();
   const seoTotal = stats.seoBuckets.good + stats.seoBuckets.ok + stats.seoBuckets.poor;
+  const editablePages = listEditablePages();
+  const pagesEdited = editablePages.filter((p) => p.edited > 0).length;
 
   return (
     <AdminShell>
@@ -33,6 +40,12 @@ export default async function AdminDashboardPage() {
         </div>
 
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(190px, 1fr))", gap: 14 }}>
+          <CountCard
+            href="/admin/pages"
+            label="Pages"
+            total={editablePages.length}
+            sub={pagesEdited ? `${pagesEdited} customised` : undefined}
+          />
           {Object.values(SCHEMAS).map((s) => {
             const c = counts[s.slug] ?? { total: 0, published: 0 };
             return (
@@ -74,7 +87,7 @@ export default async function AdminDashboardPage() {
                 <StatList rows={stats.worstSeo.map((w) => ({
                   key: `${w.kind}-${w.id}`,
                   title: w.title,
-                  href: `/admin/${KIND_COLLECTION[w.kind]}/${w.id}/edit`,
+                  href: seoEditHref(w.kind, w.id, w.url),
                   value: w.score,
                   tone: "danger" as const,
                 }))} />

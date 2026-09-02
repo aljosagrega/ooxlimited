@@ -20,7 +20,6 @@ const CONFIG: Record<string, CollectionConfig> = {
   posts: { file: "posts", save: saver(content.savePosts), htmlFields: ["bodyHtml"] },
   team: { file: "team", save: saver(content.saveTeam), htmlFields: [] },
   services: { file: "services", save: saver(content.saveServices), htmlFields: [] },
-  pages: { file: "pages", save: saver(content.savePages), htmlFields: [] },
   submissions: { file: "submissions", save: saver(content.saveSubmissions), htmlFields: [] },
 };
 
