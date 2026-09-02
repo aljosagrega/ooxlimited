@@ -160,21 +160,9 @@ export const SCHEMAS: Record<string, CollectionSchema> = {
     columns: [],
   },
 
-  pages: {
-    slug: "pages",
-    file: "pages",
-    label: "Pages",
-    singular: "page",
-    icon: "PanelsTopLeft",
-    titleField: "title",
-    noCreate: true, // pages are the frozen marketing pages — content-edited, not created
-    columns: [{ key: "path", label: "Path" }],
-    // edit form is <PageEditor>, not <SchemaForm> — see admin/[collection]/[id]/edit
-    fields: [
-      { key: "title", label: "Title", type: "text" },
-      { key: "path", label: "Path", type: "text" },
-    ],
-  },
+  // "pages" is NOT a generic collection — the frozen public pages (marketing,
+  // team, service, blog) are content-edited via /admin/pages + <PageEditor>,
+  // which write per-route to src/data/pageEdits.json.
 
   submissions: {
     slug: "submissions",
