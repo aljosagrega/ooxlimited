@@ -21,7 +21,7 @@ site-next/   ← this app
 | `src/components/FrozenForms.tsx` | client: rebinds the frozen contact + newsletter forms to the API routes |
 | `src/data/*.json` | the editable content store (`posts`, `team`, `services`, `pages`, `menus`, `siteSettings`, `redirects`) — migrated from the WP DB by `npm run migrate` |
 | `src/app/[[...slug]]` | one catch-all that serves the frozen page for a route, applying any `pages.json` field-map edits |
-| `src/app/admin` | the CMS — schema-driven, ported from wikiwallet-next, no database |
+| `src/app/admin` | the CMS — schema-driven, ported from a sibling project, no database |
 | `src/middleware.ts` | redirects: `/wp-admin` → `/admin`, old slugs → canonical, legacy sitemaps, `robots.txt` |
 
 ## Local setup

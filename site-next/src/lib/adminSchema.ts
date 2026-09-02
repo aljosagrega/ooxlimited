@@ -3,7 +3,7 @@
  * admin form renders and which list columns show. The server write layer
  * (`adminCollections.ts`) keys off the same slugs and owns HTML sanitisation.
  *
- * Adapted from wikiwallet-next for the ooxlimited content model. There is no
+ * Adapted from a sibling project for the ooxlimited content model. There is no
  * per-locale editing here (single-locale site) so the `i18n` machinery is unused.
  */
 
