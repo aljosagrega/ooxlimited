@@ -1,0 +1,270 @@
+{
+  "entries": [
+    {
+      "id": "e1",
+      "kind": "text",
+      "label": "H2: “Ozren Kolaić”",
+      "group": "Page",
+      "value": "Ozren Kolaić"
+    },
+    {
+      "id": "e2",
+      "kind": "html",
+      "label": "P: “Ozren Kolaić is a Senior Unity Developer with over 8 years …”",
+      "group": "Page",
+      "value": "Ozren Kolaić is a Senior <a href=\"https://unity.com/\">Unity</a> Developer with over 8 years of experience. He started in 3D modeling and technical art before moving into system architecture and technical leadership. Ozren specializes in multiplayer (PVP) games, mobile platforms, and WebGL. He has strong expertise in C# and the Unity ecosystem."
+    },
+    {
+      "id": "e3",
+      "kind": "text",
+      "label": "P: “His background connects both artistic and engineering sides…”",
+      "group": "Page",
+      "value": "His background connects both artistic and engineering sides of game development. He leads multidisciplinary teams, runs code reviews, and mentors developers. He believes that clean architecture and strong team communication are key to a project’s success."
+    },
+    {
+      "id": "e4",
+      "kind": "text",
+      "label": "H4: “SKILLS”",
+      "group": "Page",
+      "value": "SKILLS"
+    },
+    {
+      "id": "e5",
+      "kind": "text",
+      "label": "LI: “Unity”",
+      "group": "Page",
+      "value": "Unity"
+    },
+    {
+      "id": "e6",
+      "kind": "text",
+      "label": "LI: “C#”",
+      "group": "Page",
+      "value": "C#"
+    },
+    {
+      "id": "e7",
+      "kind": "text",
+      "label": "LI: “WebGL”",
+      "group": "Page",
+      "value": "WebGL"
+    },
+    {
+      "id": "e8",
+      "kind": "text",
+      "label": "LI: “Netcode”",
+      "group": "Page",
+      "value": "Netcode"
+    },
+    {
+      "id": "e9",
+      "kind": "text",
+      "label": "LI: “Game Flow”",
+      "group": "Page",
+      "value": "Game Flow"
+    },
+    {
+      "id": "e10",
+      "kind": "text",
+      "label": "LI: “Gameplay Logic”",
+      "group": "Page",
+      "value": "Gameplay Logic"
+    },
+    {
+      "id": "e11",
+      "kind": "text",
+      "label": "LI: “Multiplayer (PVP) Games”",
+      "group": "Page",
+      "value": "Multiplayer (PVP) Games"
+    },
+    {
+      "id": "e12",
+      "kind": "text",
+      "label": "LI: “Narrative Games”",
+      "group": "Page",
+      "value": "Narrative Games"
+    },
+    {
+      "id": "e13",
+      "kind": "text",
+      "label": "H4: “PROGRAMS”",
+      "group": "Page",
+      "value": "PROGRAMS"
+    },
+    {
+      "id": "e14",
+      "kind": "text",
+      "label": "LI: “Visual Studio”",
+      "group": "Page",
+      "value": "Visual Studio"
+    },
+    {
+      "id": "e15",
+      "kind": "text",
+      "label": "LI: “XCode”",
+      "group": "Page",
+      "value": "XCode"
+    },
+    {
+      "id": "e16",
+      "kind": "text",
+      "label": "LI: “Android Studio”",
+      "group": "Page",
+      "value": "Android Studio"
+    },
+    {
+      "id": "e17",
+      "kind": "text",
+      "label": "LI: “GitLab”",
+      "group": "Page",
+      "value": "GitLab"
+    },
+    {
+      "id": "e18",
+      "kind": "text",
+      "label": "LI: “Adventure Creator”",
+      "group": "Page",
+      "value": "Adventure Creator"
+    },
+    {
+      "id": "e19",
+      "kind": "text",
+      "label": "LI: “Spine”",
+      "group": "Page",
+      "value": "Spine"
+    },
+    {
+      "id": "e20",
+      "kind": "text",
+      "label": "LI: “Jira”",
+      "group": "Page",
+      "value": "Jira"
+    },
+    {
+      "id": "e21",
+      "kind": "text",
+      "label": "H2: “Q&A”",
+      "group": "Page",
+      "value": "Q&A"
+    },
+    {
+      "id": "e22",
+      "kind": "html",
+      "label": "Button: “What originally drew you to Unity as yo…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">What originally drew you to Unity as your primary engine?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e23",
+      "kind": "html",
+      "label": "Button: “Was there a moment when you realized yo…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">Was there a moment when you realized you wanted to specialize at a senior level in game development?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e24",
+      "kind": "html",
+      "label": "Button: “Do you enjoy more building systems from…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">Do you enjoy more building systems from scratch or scaling and improving existing ones?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e25",
+      "kind": "html",
+      "label": "Button: “How do you prefer to spend your days of…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">How do you prefer to spend your days off?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e26",
+      "kind": "html",
+      "label": "Button: “Favorite quote”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">Favorite quote</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e27",
+      "kind": "html",
+      "label": "Button: “Top three life highlights?”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">Top three life highlights?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e28",
+      "kind": "html",
+      "label": "Button: “How did your academic or self-taught jo…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">How did your academic or self-taught journey shape your approach to software architecture?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e29",
+      "kind": "html",
+      "label": "Button: “Were there specific projects that pushe…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">Were there specific projects that pushed you toward thinking beyond just implementation and into system design?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e30",
+      "kind": "html",
+      "label": "Button: “How do you approach designing scalable …”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">How do you approach designing scalable and maintainable systems in Unity?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e31",
+      "kind": "html",
+      "label": "Button: “What’s your philosophy when balancing s…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">What’s your philosophy when balancing speed of development with code quality?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e32",
+      "kind": "html",
+      "label": "Button: “How do you handle performance optimizat…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">How do you handle performance optimization on mobile or lower-end devices?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e33",
+      "kind": "html",
+      "label": "Button: “Where do you see your role evolving?”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">Where do you see your role evolving?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e34",
+      "kind": "html",
+      "label": "Button: “How do you structure communication betw…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">How do you structure communication between systems (events, messaging, architecture patterns)?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e35",
+      "kind": "text",
+      "label": "Button: “Login”",
+      "group": "Page",
+      "value": "Login"
+    },
+    {
+      "id": "e36",
+      "kind": "html",
+      "label": "LI: “oox menu”",
+      "group": "Page",
+      "value": "<span>oox menu</span>"
+    },
+    {
+      "id": "e37",
+      "kind": "image",
+      "label": "Image: Ozren Kolaic",
+      "group": "Page",
+      "value": "/wp-content/uploads/2026/04/DSC065362-1-scaled.jpg"
+    },
+    {
+      "id": "e38",
+      "kind": "imageAlt",
+      "label": "Alt for Ozren Kolaic",
+      "group": "Page",
+      "value": "Ozren Kolaic"
+    }
+  ]
+}

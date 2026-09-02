@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+build/
+dist/
+tsconfig.tsbuildinfo
+next-env.d.ts
+
+# Environment
+.env
+.env*.local
+.env.production
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Admin login credentials (hashed) — bootstrapped from env on first use
+src/data/adminAuth.json
+
+# Captured form submissions — runtime PII (emails)
+src/data/submissions.json
+
+# Admin-uploaded media (runtime state)
+public/media/uploads/
+
+# Frozen asset mirror + snapshots are build products of `npm run freeze`
+# against the local WordPress. ~110 MB. Regenerate, don't commit.
+# These are local symlinks into ../site — in production they are real rsynced
+# directories (see DEPLOYMENT.md). Ignore the symlink itself, hence no trailing slash.
+/public/wp-content
+/public/wp-includes
+src/data/frozen/
+
+# Local working files — screenshots, ad-hoc probe scripts. Regenerate, don't commit.
+scratchpad/
+
+# Debug logs
+npm-debug.log*
+public/_css/

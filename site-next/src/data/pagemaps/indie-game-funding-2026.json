@@ -1,0 +1,459 @@
+{
+  "entries": [
+    {
+      "id": "e1",
+      "kind": "text",
+      "label": "H2: “Table of Contents”",
+      "group": "Page",
+      "value": "Table of Contents"
+    },
+    {
+      "id": "e2",
+      "kind": "text",
+      "label": "H2: “Recent posts”",
+      "group": "Recent posts",
+      "value": "Recent posts"
+    },
+    {
+      "id": "e3",
+      "kind": "html",
+      "label": "H3: “Rapid Prototyping in Game Development: How Indie Studios Va…”",
+      "group": "Recent posts",
+      "value": "<a href=\"/rapid-prototyping-game-development/\">Rapid Prototyping in Game Development: How Indie Studios Validate Game Ideas</a>"
+    },
+    {
+      "id": "e4",
+      "kind": "text",
+      "label": "H1: “Game Studio Funding in 2026: Revenue-Share, Grants, and the…”",
+      "group": "Game Studio Funding in 2026: Revenue-Sh…",
+      "value": "Game Studio Funding in 2026: Revenue-Share, Grants, and the Post-VC Playbook"
+    },
+    {
+      "id": "e5",
+      "kind": "text",
+      "label": "P: “Games revenue hit an all-time high of $195.6 billion in 202…”",
+      "group": "Game Studio Funding in 2026: Revenue-Sh…",
+      "value": "Games revenue hit an all-time high of $195.6 billion in 2025. Paradoxically, private investment in game companies fell 55% the same year, per Epyllion’s State of Video Gaming 2026 report. Consequently, the old funding playbook - pitch deck, seed round, vertical slice, Series A - stopped working."
+    },
+    {
+      "id": "e6",
+      "kind": "text",
+      "label": "P: “Between the rate hikes of 2022 and a layoff wave that has t…”",
+      "group": "Game Studio Funding in 2026: Revenue-Sh…",
+      "value": "Between the rate hikes of 2022 and a layoff wave that has touched 28% of developers according to the GDC 2026 State of the Industry, macro pipeline pressures intensified. Therefore, the VC pipeline that once funded studios from prototype to launch has contracted by roughly 90% from its 2021 peak."
+    },
+    {
+      "id": "e7",
+      "kind": "text",
+      "label": "P: “The traditional venture capital path has collapsed, forcing…”",
+      "group": "Game Studio Funding in 2026: Revenue-Sh…",
+      "value": "The traditional venture capital path has collapsed, forcing a structural shift in how games get financed."
+    },
+    {
+      "id": "e8",
+      "kind": "html",
+      "label": "P: “The GDC survey captures the new reality clearly: 35% of dev…”",
+      "group": "Game Studio Funding in 2026: Revenue-Sh…",
+      "value": "The GDC survey captures the new reality clearly: 35% of developers now self-fund, a number that jumps to 86% among solo devs. Meanwhile, only 5% rely on venture capital, and publishing deals account for roughly 20%. The founders succeeding in 2026 are not the ones who land one big deal. Instead, they assemble a deliberate stack from a new menu. Here are five <strong>indie game funding</strong> paths that do not require a Silicon Valley term sheet."
+    },
+    {
+      "id": "e9",
+      "kind": "text",
+      "label": "H2: “1. Revenue-Share Publishing - The Griffin $100 Million Model”",
+      "group": "Game Studio Funding in 2026: Revenue-Sh…",
+      "value": "1. Revenue-Share Publishing - The Griffin $100 Million Model"
+    },
+    {
+      "id": "e10",
+      "kind": "text",
+      "label": "P: “The biggest funding story of 2026 is not a traditional vent…”",
+      "group": "Game Studio Funding in 2026: Revenue-Sh…",
+      "value": "The biggest funding story of 2026 is not a traditional venture capital fund. Rather, it is a revenue-share vehicle that takes zero equity and does not demand full recoup before the developer earns. Griffin Gaming Partners, holding $1.5B under management, launched a $100 million Special Opportunities Fund in May 2026, led by Hooded Horse CEO Tim Bender."
+    },
+    {
+      "id": "e11",
+      "kind": "html",
+      "label": "P: “Per GameDeveloper.com, the fund provides financing from hun…”",
+      "group": "Game Studio Funding in 2026: Revenue-Sh…",
+      "value": "Per <a href=\"https://www.gamedeveloper.com\" target=\"_blank\" rel=\"noopener\">GameDeveloper.com</a>, the fund provides financing from hundreds of thousands to low millions per deal. The core terms feature a flat revenue share, no equity dilution, and no 100% recoup clause. A publisher that must recover 100% of its investment before the developer earns anything has no incentive alignment with the team that built the game - a structure Bender calls “fundamentally stupid”."
+    },
+    {
+      "id": "e12",
+      "kind": "text",
+      "label": "P: “Consequently, the fund gets paid when the developer gets pa…”",
+      "group": "Game Studio Funding in 2026: Revenue-Sh…",
+      "value": "Consequently, the fund gets paid when the developer gets paid. It has already deployed to 15 titles, including Menace (a tactical-RPG that sold over 250,000 copies in its first three months on Steam) and Darkwood 2. Bender specifically targets systems-driven games with long revenue tails - strategy, simulation, RPG, and management genres. While every deal is negotiated individually, the framework establishes flat share, no equity, and no recoup."
+    },
+    {
+      "id": "e13",
+      "kind": "text",
+      "label": "H2: “2. Non-Dilutive Grants - Free Money, Real Requirements”",
+      "group": "Game Studio Funding in 2026: Revenue-Sh…",
+      "value": "2. Non-Dilutive Grants - Free Money, Real Requirements"
+    },
+    {
+      "id": "e14",
+      "kind": "text",
+      "label": "P: “Grants are the only funding source that takes nothing from …”",
+      "group": "Game Studio Funding in 2026: Revenue-Sh…",
+      "value": "Grants are the only funding source that takes nothing from you - no equity, no revenue share, no repayment. However, they are also highly competitive, slow, and demand a playable build before the deadline closes. Epic MegaGrants stands as the largest programme of its kind. Since 2019, it has deployed more than $42 million across 3,000-plus projects, offering grants from $5,000 to $500,000. These are non-recourse: you keep your IP and publish on any platform."
+    },
+    {
+      "id": "e15",
+      "kind": "text",
+      "label": "P: “Cycle 2 opens on June 29-30, 2026 and accepts submissions t…”",
+      "group": "Game Studio Funding in 2026: Revenue-Sh…",
+      "value": "Cycle 2 opens on June 29-30, 2026 and accepts submissions through September 4, per the official MegaGrants portal. The hard requirement is strict: your project must use Unreal Engine, and you must submit a playable build. In this environment, ideas alone do not win."
+    },
+    {
+      "id": "e16",
+      "kind": "html",
+      "label": "P: “Concurrently, Supercell’s Africa grants programme, launchin…”",
+      "group": "Game Studio Funding in 2026: Revenue-Sh…",
+      "value": "Concurrently, Supercell’s Africa grants programme, launching in 2026, offers non-dilutive funding from $20,000 to $200,000. Per <a href=\"https://www.pocketgamer.biz\" target=\"_blank\" rel=\"noopener\">PocketGamer.biz</a>, the terms include no equity and no IP claim, though the full application timeline is still being finalised. Other options worth tracking include the UK Games Fund (up to £50,000), Canada Media Fund, Creative Europe MEDIA, IGDA Foundation ($300K pool), and Unity for Humanity."
+    },
+    {
+      "id": "e17",
+      "kind": "text",
+      "label": "P: “Crucially, grants fund specific costs - contract art, engin…”",
+      "group": "Game Studio Funding in 2026: Revenue-Sh…",
+      "value": "Crucially, grants fund specific costs - contract art, engine licensing, QA, or a platform port - not full production from concept to launch. The established success pattern requires you to start with smaller local grants, build a track record with each playable delivered, and then apply to Epic."
+    },
+    {
+      "id": "e18",
+      "kind": "text",
+      "label": "H2: “3. Game Accelerators - A Funding and Mentorship Bundle”",
+      "group": "Game Studio Funding in 2026: Revenue-Sh…",
+      "value": "3. Game Accelerators - A Funding and Mentorship Bundle"
+    },
+    {
+      "id": "e19",
+      "kind": "text",
+      "label": "P: “An accelerator writes a cheque and simultaneously teaches y…”",
+      "group": "Game Studio Funding in 2026: Revenue-Sh…",
+      "value": "An accelerator writes a cheque and simultaneously teaches you how to turn that cheque into a sustainable business. The leading programmes in 2026 are highly concentrated in the Middle East. Exel by Merak, backed by Saudi Arabia’s Merak Capital (~$82M fund), is the current flagship. They offer up to $300,000 per team ($150,000 cash, $150,000 in-kind), a 14-week Riyadh programme, and a formal Demo Day."
+    },
+    {
+      "id": "e20",
+      "kind": "text",
+      "label": "P: “Per PocketGamer.biz, Exel drew over 5,000 applications from…”",
+      "group": "Game Studio Funding in 2026: Revenue-Sh…",
+      "value": "Per PocketGamer.biz, Exel drew over 5,000 applications from 70-plus countries across two cohorts; Cohort 2 studios generated $1.2 million in early revenue. However, international studios must relocate to Riyadh, and part-time founders are ineligible. Cohort 3 closed in May 2026, and Cohort 4 is expected in H1 2027."
+    },
+    {
+      "id": "e21",
+      "kind": "text",
+      "label": "P: “Other programmes active in 2026 include:”",
+      "group": "Game Studio Funding in 2026: Revenue-Sh…",
+      "value": "Other programmes active in 2026 include:"
+    },
+    {
+      "id": "e22",
+      "kind": "html",
+      "label": "LI: “LVL Zero (India): Offers $10,000 equity-free, with a 100-da…”",
+      "group": "Game Studio Funding in 2026: Revenue-Sh…",
+      "value": "<strong>LVL Zero (India):</strong> Offers $10,000 equity-free, with a 100-day incubation by Nazara and MIXI."
+    },
+    {
+      "id": "e23",
+      "kind": "html",
+      "label": "LI: “Lorien (Istanbul): Takes 5% equity strictly on hitting succ…”",
+      "group": "Game Studio Funding in 2026: Revenue-Sh…",
+      "value": "<strong>Lorien (Istanbul):</strong> Takes 5% equity strictly on hitting success metrics."
+    },
+    {
+      "id": "e24",
+      "kind": "html",
+      "label": "LI: “Games Lift (Hamburg): Provides €15,000 per team plus dedica…”",
+      "group": "Game Studio Funding in 2026: Revenue-Sh…",
+      "value": "<strong>Games Lift (Hamburg):</strong> Provides €15,000 per team plus dedicated coaching."
+    },
+    {
+      "id": "e25",
+      "kind": "html",
+      "label": "LI: “NYU Game Center Incubator (New York): Deploys $15,000 per g…”",
+      "group": "Game Studio Funding in 2026: Revenue-Sh…",
+      "value": "<strong>NYU Game Center Incubator (New York):</strong> Deploys $15,000 per game."
+    },
+    {
+      "id": "e26",
+      "kind": "html",
+      "label": "LI: “NEOM Level Up (Saudi Arabia): Focuses on pre-seed funding s…”",
+      "group": "Game Studio Funding in 2026: Revenue-Sh…",
+      "value": "<strong>NEOM Level Up (Saudi Arabia):</strong> Focuses on pre-seed funding stages."
+    },
+    {
+      "id": "e27",
+      "kind": "text",
+      "label": "P: “The major trade-off remains structural: most accelerators d…”",
+      "group": "Game Studio Funding in 2026: Revenue-Sh…",
+      "value": "The major trade-off remains structural: most accelerators demand three to four months of full-time commitment in a specific city. Therefore, do not join for the money alone. Join for the strategic introductions and the validation signal to future investors."
+    },
+    {
+      "id": "e28",
+      "kind": "text",
+      "label": "H2: “4. The Hybrid Stack - Why No Single Source Is Enough”",
+      "group": "Game Studio Funding in 2026: Revenue-Sh…",
+      "value": "4. The Hybrid Stack - Why No Single Source Is Enough"
+    },
+    {
+      "id": "e29",
+      "kind": "html",
+      "label": "P: ““The days of the big deal are dead - hybrid funding stacks …”",
+      "group": "Game Studio Funding in 2026: Revenue-Sh…",
+      "value": "“The days of the big deal are dead - hybrid funding stacks are the future.” This definitive analysis from Bright Gambit’s Tim Browne in <a href=\"https://www.gamesindustry.biz\" target=\"_blank\" rel=\"noopener\">GamesIndustry.biz</a> is backed heavily by the numbers. Venture funding collapsed from a 2021 peak of $12.5 billion to roughly $627 million annualised in H1 2025. Consequently, no single cheque is large enough or reliable enough to fund a full production cycle."
+    },
+    {
+      "id": "e30",
+      "kind": "text",
+      "label": "P: “The studios successfully shipping in 2026 systematically ma…”",
+      "group": "Game Studio Funding in 2026: Revenue-Sh…",
+      "value": "The studios successfully shipping in 2026 systematically map distinct funding sources to development phases:"
+    },
+    {
+      "id": "e31",
+      "kind": "html",
+      "label": "LI: “Phase 1 (Prototype): An Epic MegaGrant or local cultural gr…”",
+      "group": "Game Studio Funding in 2026: Revenue-Sh…",
+      "value": "<strong>Phase 1 (Prototype):</strong> An Epic MegaGrant or local cultural grant funds the early playable build."
+    },
+    {
+      "id": "e32",
+      "kind": "html",
+      "label": "LI: “Phase 2 (Production): A Griffin SOF deal or publisher miles…”",
+      "group": "Game Studio Funding in 2026: Revenue-Sh…",
+      "value": "<strong>Phase 2 (Production):</strong> A Griffin SOF deal or publisher milestone arrangement finances asset creation and engineering."
+    },
+    {
+      "id": "e33",
+      "kind": "html",
+      "label": "LI: “Phase 3 (Marketing): A Kickstarter campaign or platform co-…”",
+      "group": "Game Studio Funding in 2026: Revenue-Sh…",
+      "value": "<strong>Phase 3 (Marketing):</strong> A Kickstarter campaign or platform co-marketing fund generates launch-window visibility."
+    },
+    {
+      "id": "e34",
+      "kind": "html",
+      "label": "LI: “Phase 4 (Post-launch): Early Access or live-ops revenue fun…”",
+      "group": "Game Studio Funding in 2026: Revenue-Sh…",
+      "value": "<strong>Phase 4 (Post-launch):</strong> Early Access or live-ops revenue funds the next major content update."
+    },
+    {
+      "id": "e35",
+      "kind": "text",
+      "label": "P: “The old model asked which single source will write the bigg…”",
+      "group": "Game Studio Funding in 2026: Revenue-Sh…",
+      "value": "The old model asked which single source will write the biggest cheque. The new model asks which combination can survive the failure of any one."
+    },
+    {
+      "id": "e36",
+      "kind": "text",
+      "label": "P: “If the publisher negotiation drags on, the grant has alread…”",
+      "group": "Game Studio Funding in 2026: Revenue-Sh…",
+      "value": "If the publisher negotiation drags on, the grant has already funded the prototype build. If the Kickstarter underperforms, the revenue-share deal has already safely covered production. Thus, no single failure kills the project. Funding is not a milestone you hit once - it is a continuous discipline most studios adopt only after a near-death experience with a single-source strategy."
+    },
+    {
+      "id": "e37",
+      "kind": "text",
+      "label": "H2: “5. How a Development Partner Stretches Every Dollar”",
+      "group": "Game Studio Funding in 2026: Revenue-Sh…",
+      "value": "5. How a Development Partner Stretches Every Dollar"
+    },
+    {
+      "id": "e38",
+      "kind": "text",
+      "label": "P: “The fastest way to reduce your external funding requirement…”",
+      "group": "Game Studio Funding in 2026: Revenue-Sh…",
+      "value": "The fastest way to reduce your external funding requirement is to build less before you know the idea works. Every month spent building the wrong thing is a month of runway you cannot recover. OOX Limited learned this through an 18-month original-title build that revealed how long cycles require heavy time and capital without early validation."
+    },
+    {
+      "id": "e39",
+      "kind": "text",
+      "label": "P: “That difficult lesson completely reshaped the studio: by 20…”",
+      "group": "Game Studio Funding in 2026: Revenue-Sh…",
+      "value": "That difficult lesson completely reshaped the studio: by 2022, OOX had adopted a more structured, data-driven approach using rapid prototyping, market testing, and MVPs, expanding the team by over 100%. Today, OOX builds playable mobile prototypes in 2 to 6 weeks using Unity Engine."
+    },
+    {
+      "id": "e40",
+      "kind": "text",
+      "label": "P: “The resulting output is clear evidence, not polish - testin…”",
+      "group": "Game Studio Funding in 2026: Revenue-Sh…",
+      "value": "The resulting output is clear evidence, not polish - testing whether the core loop engages and whether the monetization holds. A six-week prototype answers the same strategic questions as an 18-month build, leaving you with a playable demo for every funding source on this list."
+    },
+    {
+      "id": "e41",
+      "kind": "text",
+      "label": "P: “What a rapid prototype delivers for your funding effort:”",
+      "group": "Game Studio Funding in 2026: Revenue-Sh…",
+      "value": "What a rapid prototype delivers for your funding effort:"
+    },
+    {
+      "id": "e42",
+      "kind": "html",
+      "label": "LI: “A Playable Build for Investor Meetings: It demonstrates rea…”",
+      "group": "Game Studio Funding in 2026: Revenue-Sh…",
+      "value": "<strong>A Playable Build for Investor Meetings:</strong> It demonstrates real interaction on mobile devices instead of abstract concepts or text pitch decks."
+    },
+    {
+      "id": "e43",
+      "kind": "html",
+      "label": "LI: “Hard Validation Data: Direct metrics on retention, session …”",
+      "group": "Game Studio Funding in 2026: Revenue-Sh…",
+      "value": "<strong>Hard Validation Data:</strong> Direct metrics on retention, session length, and core loop engagement replace guessing with evidence before capital deployment."
+    },
+    {
+      "id": "e44",
+      "kind": "text",
+      "label": "P: “For founders weighing build vs. partner, the prototype phas…”",
+      "group": "Game Studio Funding in 2026: Revenue-Sh…",
+      "value": "For founders weighing build vs. partner, the prototype phase creates the most leverage. Costs vary by scope, but a studio that spends six weeks learning a core loop does not retain players has just saved itself 18 months of burn rate."
+    },
+    {
+      "id": "e45",
+      "kind": "text",
+      "label": "H2: “Final Thought”",
+      "group": "Game Studio Funding in 2026: Revenue-Sh…",
+      "value": "Final Thought"
+    },
+    {
+      "id": "e46",
+      "kind": "text",
+      "label": "P: “A funding strategy should not answer: “How do we raise enou…”",
+      "group": "Game Studio Funding in 2026: Revenue-Sh…",
+      "value": "A funding strategy should not answer: “How do we raise enough money to build the whole game?”. Instead, it should answer: “How do we raise just enough to learn whether the game is worth building?”."
+    },
+    {
+      "id": "e47",
+      "kind": "html",
+      "label": "P: “The post-VC indie game funding playbook is not about replac…”",
+      "group": "Game Studio Funding in 2026: Revenue-Sh…",
+      "value": "The post-VC <strong>indie game funding</strong> playbook is not about replacing venture capital with a different single source. It is about replacing the assumption that one big deal will cover everything with a deliberate sequence of smaller, complementary commitments - each de-risking the next, and none large enough to sink the studio if it fails."
+    },
+    {
+      "id": "e48",
+      "kind": "text",
+      "label": "H2: “Looking for a Funding-Savvy Development Partner?”",
+      "group": "Looking for a Funding-Savvy Development…",
+      "value": "Looking for a Funding-Savvy Development Partner?"
+    },
+    {
+      "id": "e49",
+      "kind": "text",
+      "label": "P: “If you are a founder or studio lead with a game concept and…”",
+      "group": "Looking for a Funding-Savvy Development…",
+      "value": "If you are a founder or studio lead with a game concept and a funding gap, a 2-to-6-week playable mobile prototype turns your idea into something funders can evaluate."
+    },
+    {
+      "id": "e50",
+      "kind": "text",
+      "label": "P: “Tell us what you are building - we help teams move from con…”",
+      "group": "Looking for a Funding-Savvy Development…",
+      "value": "Tell us what you are building - we help teams move from concept to a working plan, from early playable prototypes to full production."
+    },
+    {
+      "id": "e51",
+      "kind": "text",
+      "label": "P: “Let us discuss your project.”",
+      "group": "Looking for a Funding-Savvy Development…",
+      "value": "Let us discuss your project."
+    },
+    {
+      "id": "e52",
+      "kind": "html",
+      "label": "P: “Explore our validation solutions:”",
+      "group": "Looking for a Funding-Savvy Development…",
+      "value": "<strong>Explore our validation solutions:</strong>"
+    },
+    {
+      "id": "e53",
+      "kind": "html",
+      "label": "LI: “Rapid Prototyping Services”",
+      "group": "Looking for a Funding-Savvy Development…",
+      "value": "<a href=\"/service/rapid-prototyping/\">Rapid Prototyping Services</a>"
+    },
+    {
+      "id": "e54",
+      "kind": "html",
+      "label": "LI: “Mobile Game Production”",
+      "group": "Looking for a Funding-Savvy Development…",
+      "value": "<a href=\"/service/mobile-game-development/\">Mobile Game Production</a>"
+    },
+    {
+      "id": "e55",
+      "kind": "html",
+      "label": "LI: “Co-Development Partnerships”",
+      "group": "Looking for a Funding-Savvy Development…",
+      "value": "<a href=\"/service/co-development/\">Co-Development Partnerships</a>"
+    },
+    {
+      "id": "e56",
+      "kind": "text",
+      "label": "Button: “Login”",
+      "group": "Page",
+      "value": "Login"
+    },
+    {
+      "id": "e57",
+      "kind": "html",
+      "label": "LI: “oox menu”",
+      "group": "Page",
+      "value": "<span>oox menu</span>"
+    },
+    {
+      "id": "e58",
+      "kind": "image",
+      "label": "Image: rapid prototyping game development",
+      "group": "Recent posts",
+      "value": "/wp-content/uploads/2026/06/20260226-DSC06259-768x512.jpg"
+    },
+    {
+      "id": "e59",
+      "kind": "imageAlt",
+      "label": "Alt for rapid prototyping game develo…",
+      "group": "Recent posts",
+      "value": "rapid prototyping game development"
+    },
+    {
+      "id": "e60",
+      "kind": "image",
+      "label": "Image: Read more",
+      "group": "Recent posts",
+      "value": "/wp-content/uploads/2026/03/arrowr.png"
+    },
+    {
+      "id": "e61",
+      "kind": "imageAlt",
+      "label": "Alt for Read more",
+      "group": "Recent posts",
+      "value": "Read more"
+    },
+    {
+      "id": "e62",
+      "kind": "image",
+      "label": "Image: Game studio developers assessing grant …",
+      "group": "Game Studio Funding in 2026: Revenue-Sh…",
+      "value": "https://images.unsplash.com/photo-1563986768609-322da13575f3?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "e63",
+      "kind": "imageAlt",
+      "label": "Alt for Game studio developers assess…",
+      "group": "Game Studio Funding in 2026: Revenue-Sh…",
+      "value": "Game studio developers assessing grant proposals and non-dilutive indie game funding metrics"
+    },
+    {
+      "id": "e64",
+      "kind": "image",
+      "label": "Image: Mobile game developer testing a gamepla…",
+      "group": "Game Studio Funding in 2026: Revenue-Sh…",
+      "value": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "e65",
+      "kind": "imageAlt",
+      "label": "Alt for Mobile game developer testing…",
+      "group": "Game Studio Funding in 2026: Revenue-Sh…",
+      "value": "Mobile game developer testing a gameplay prototype on a mobile smartphone display screen"
+    }
+  ]
+}

@@ -1,0 +1,809 @@
+{
+  "entries": [
+    {
+      "id": "e1",
+      "kind": "text",
+      "label": "H1: “Game Prototyping Studio for Mobile Games & Apps”",
+      "group": "Game Prototyping Studio for Mobile Game…",
+      "value": "Game Prototyping Studio for Mobile Games & Apps"
+    },
+    {
+      "id": "e2",
+      "kind": "html",
+      "label": "Button: “get in touch”",
+      "group": "PROTOTYPING",
+      "value": "<span class=\"elementor-button-content-wrapper\"> <span class=\"elementor-button-text\">get in touch</span> </span>"
+    },
+    {
+      "id": "e3",
+      "kind": "text",
+      "label": "Button: “get in touch”",
+      "group": "PROTOTYPING",
+      "value": "get in touch"
+    },
+    {
+      "id": "e4",
+      "kind": "text",
+      "label": "H2: “PROTOTYPING”",
+      "group": "PROTOTYPING",
+      "value": "PROTOTYPING"
+    },
+    {
+      "id": "e5",
+      "kind": "text",
+      "label": "H2: “We help studios, startups, and investors reduce risk”",
+      "group": "We help studios, startups, and investor…",
+      "value": "We help studios, startups, and investors reduce risk"
+    },
+    {
+      "id": "e6",
+      "kind": "html",
+      "label": "P: “As a game and app prototyping studio, we build high-quality…”",
+      "group": "We help studios, startups, and investor…",
+      "value": "As a game and app prototyping studio, we build high-quality playable prototypes that help teams validate ideas before full development.<br data-start=\"831\" data-end=\"834\">Our rapid prototyping approach turns concepts into real, testable products in weeks, allowing teams to make better decisions early."
+    },
+    {
+      "id": "e7",
+      "kind": "html",
+      "label": "P: “Teams work with us when they need clarity before committing…”",
+      "group": "We help studios, startups, and investor…",
+      "value": "Teams work with us when they need clarity before committing to production. A strong prototype helps answer critical questions early:<br><br>"
+    },
+    {
+      "id": "e8",
+      "kind": "text",
+      "label": "LI: “whether the idea feels right in players’ hands”",
+      "group": "We help studios, startups, and investor…",
+      "value": "whether the idea feels right in players’ hands"
+    },
+    {
+      "id": "e9",
+      "kind": "text",
+      "label": "LI: “whether the experience works technically”",
+      "group": "We help studios, startups, and investor…",
+      "value": "whether the experience works technically"
+    },
+    {
+      "id": "e10",
+      "kind": "text",
+      "label": "LI: “whether the concept is worth full investment”",
+      "group": "We help studios, startups, and investor…",
+      "value": "whether the concept is worth full investment"
+    },
+    {
+      "id": "e11",
+      "kind": "text",
+      "label": "P: “Once validated, we scale the product through full-cycle dev…”",
+      "group": "We help studios, startups, and investor…",
+      "value": "Once validated, we scale the product through full-cycle development, from prototype to launch-ready experience."
+    },
+    {
+      "id": "e12",
+      "kind": "html",
+      "label": "Button: “about us”",
+      "group": "We help studios, startups, and investor…",
+      "value": "<span class=\"elementor-button-content-wrapper\"> <span class=\"elementor-button-text\">about us</span> </span>"
+    },
+    {
+      "id": "e13",
+      "kind": "text",
+      "label": "Button: “about us”",
+      "group": "We help studios, startups, and investor…",
+      "value": "about us"
+    },
+    {
+      "id": "e14",
+      "kind": "text",
+      "label": "H2: “WHAT WE OFFER:”",
+      "group": "WHAT WE OFFER:",
+      "value": "WHAT WE OFFER:"
+    },
+    {
+      "id": "e15",
+      "kind": "html",
+      "label": "Button: “Full Cycle Development”",
+      "group": "Page",
+      "value": "<span class=\"elementor-button-content-wrapper\"> <span class=\"elementor-button-text\">Full Cycle Development</span> </span>"
+    },
+    {
+      "id": "e16",
+      "kind": "text",
+      "label": "Button: “Full Cycle Development”",
+      "group": "Page",
+      "value": "Full Cycle Development"
+    },
+    {
+      "id": "e17",
+      "kind": "html",
+      "label": "Button: “Mobile Game development”",
+      "group": "Page",
+      "value": "<span class=\"elementor-button-content-wrapper\"> <span class=\"elementor-button-text\">Mobile Game development</span> </span>"
+    },
+    {
+      "id": "e18",
+      "kind": "text",
+      "label": "Button: “Mobile Game development”",
+      "group": "Page",
+      "value": "Mobile Game development"
+    },
+    {
+      "id": "e19",
+      "kind": "html",
+      "label": "Button: “Rapid Prototyping”",
+      "group": "Page",
+      "value": "<span class=\"elementor-button-content-wrapper\"> <span class=\"elementor-button-text\">Rapid Prototyping</span> </span>"
+    },
+    {
+      "id": "e20",
+      "kind": "text",
+      "label": "Button: “Rapid Prototyping”",
+      "group": "Page",
+      "value": "Rapid Prototyping"
+    },
+    {
+      "id": "e21",
+      "kind": "html",
+      "label": "Button: “Real-Time VFX”",
+      "group": "Page",
+      "value": "<span class=\"elementor-button-content-wrapper\"> <span class=\"elementor-button-text\">Real-Time VFX</span> </span>"
+    },
+    {
+      "id": "e22",
+      "kind": "text",
+      "label": "Button: “Real-Time VFX”",
+      "group": "Page",
+      "value": "Real-Time VFX"
+    },
+    {
+      "id": "e23",
+      "kind": "html",
+      "label": "Button: “Platform Porting”",
+      "group": "Page",
+      "value": "<span class=\"elementor-button-content-wrapper\"> <span class=\"elementor-button-text\">Platform Porting</span> </span>"
+    },
+    {
+      "id": "e24",
+      "kind": "text",
+      "label": "Button: “Platform Porting”",
+      "group": "Page",
+      "value": "Platform Porting"
+    },
+    {
+      "id": "e25",
+      "kind": "html",
+      "label": "Button: “Co development”",
+      "group": "Page",
+      "value": "<span class=\"elementor-button-content-wrapper\"> <span class=\"elementor-button-text\">Co development</span> </span>"
+    },
+    {
+      "id": "e26",
+      "kind": "text",
+      "label": "Button: “Co development”",
+      "group": "Page",
+      "value": "Co development"
+    },
+    {
+      "id": "e27",
+      "kind": "html",
+      "label": "Button: “Game Video ads”",
+      "group": "Page",
+      "value": "<span class=\"elementor-button-content-wrapper\"> <span class=\"elementor-button-text\">Game Video ads</span> </span>"
+    },
+    {
+      "id": "e28",
+      "kind": "text",
+      "label": "Button: “Game Video ads”",
+      "group": "Page",
+      "value": "Game Video ads"
+    },
+    {
+      "id": "e29",
+      "kind": "html",
+      "label": "Button: “Art Design & direction”",
+      "group": "Page",
+      "value": "<span class=\"elementor-button-content-wrapper\"> <span class=\"elementor-button-text\">Art Design &amp; direction</span> </span>"
+    },
+    {
+      "id": "e30",
+      "kind": "text",
+      "label": "Button: “Art Design & direction”",
+      "group": "Page",
+      "value": "Art Design & direction"
+    },
+    {
+      "id": "e31",
+      "kind": "html",
+      "label": "Button: “Animation & 3D modeling”",
+      "group": "Page",
+      "value": "<span class=\"elementor-button-content-wrapper\"> <span class=\"elementor-button-text\">Animation &amp; 3D modeling</span> </span>"
+    },
+    {
+      "id": "e32",
+      "kind": "text",
+      "label": "Button: “Animation & 3D modeling”",
+      "group": "Page",
+      "value": "Animation & 3D modeling"
+    },
+    {
+      "id": "e33",
+      "kind": "html",
+      "label": "Button: “App Development”",
+      "group": "Page",
+      "value": "<span class=\"elementor-button-content-wrapper\"> <span class=\"elementor-button-text\">App Development</span> </span>"
+    },
+    {
+      "id": "e34",
+      "kind": "text",
+      "label": "Button: “App Development”",
+      "group": "Page",
+      "value": "App Development"
+    },
+    {
+      "id": "e35",
+      "kind": "html",
+      "label": "Button: “see more services”",
+      "group": "WHAT WE OFFER:",
+      "value": "<span class=\"elementor-button-content-wrapper\"> <span class=\"elementor-button-text\">see more services</span> </span>"
+    },
+    {
+      "id": "e36",
+      "kind": "text",
+      "label": "Button: “see more services”",
+      "group": "WHAT WE OFFER:",
+      "value": "see more services"
+    },
+    {
+      "id": "e37",
+      "kind": "text",
+      "label": "H5: “WEEK 1”",
+      "group": "Page",
+      "value": "WEEK 1"
+    },
+    {
+      "id": "e38",
+      "kind": "text",
+      "label": "H5: “Concept Kickoff”",
+      "group": "Page",
+      "value": "Concept Kickoff"
+    },
+    {
+      "id": "e39",
+      "kind": "text",
+      "label": "P: “We start with a focused concept and a clear hypothesis arou…”",
+      "group": "Page",
+      "value": "We start with a focused concept and a clear hypothesis around the core gameplay loop."
+    },
+    {
+      "id": "e40",
+      "kind": "text",
+      "label": "H5: “WEEK 2”",
+      "group": "Page",
+      "value": "WEEK 2"
+    },
+    {
+      "id": "e41",
+      "kind": "text",
+      "label": "H5: “Mechanics First”",
+      "group": "Page",
+      "value": "Mechanics First"
+    },
+    {
+      "id": "e42",
+      "kind": "text",
+      "label": "P: “Core mechanics are implemented with simple visuals to test …”",
+      "group": "Page",
+      "value": "Core mechanics are implemented with simple visuals to test moment-to-moment gameplay feel."
+    },
+    {
+      "id": "e43",
+      "kind": "text",
+      "label": "H5: “WEEK 3”",
+      "group": "Page",
+      "value": "WEEK 3"
+    },
+    {
+      "id": "e44",
+      "kind": "text",
+      "label": "H5: “Playable Decision Point”",
+      "group": "Page",
+      "value": "Playable Decision Point"
+    },
+    {
+      "id": "e45",
+      "kind": "text",
+      "label": "P: “A playable prototype gives a clear signal whether the conce…”",
+      "group": "Page",
+      "value": "A playable prototype gives a clear signal whether the concept is worth iterating further."
+    },
+    {
+      "id": "e46",
+      "kind": "html",
+      "label": "H2: “What makes us stand out”",
+      "group": "What makes us stand out",
+      "value": "What&nbsp;makes us<br> <span class=\"oox-text-gradient\">stand out</span>"
+    },
+    {
+      "id": "e47",
+      "kind": "text",
+      "label": "H2: “Prototype-First Thinking”",
+      "group": "Prototype-First Thinking",
+      "value": "Prototype-First Thinking"
+    },
+    {
+      "id": "e48",
+      "kind": "text",
+      "label": "P: “Most game and mobile app ideas start as assumptions. As a g…”",
+      "group": "Prototype-First Thinking",
+      "value": "Most game and mobile app ideas start as assumptions. As a game development studio, we begin with game prototyping to turn those assumptions into evidence. Every prototype is built to answer real questions early, helping teams move forward with confidence instead of guesswork."
+    },
+    {
+      "id": "e49",
+      "kind": "text",
+      "label": "H2: “Structured Experimentation, Not Random Testing”",
+      "group": "Structured Experimentation, Not Random …",
+      "value": "Structured Experimentation, Not Random Testing"
+    },
+    {
+      "id": "e50",
+      "kind": "text",
+      "label": "P: “We treat prototyping as a focused experiment, not a creativ…”",
+      "group": "Structured Experimentation, Not Random …",
+      "value": "We treat prototyping as a focused experiment, not a creative gamble. Each build starts with a clear hypothesis, defined goals, and measurable outcomes. By keeping the process structured, we help clients understand what works before scaling into full development."
+    },
+    {
+      "id": "e51",
+      "kind": "text",
+      "label": "H2: “Clear Scope and Fast Decisions”",
+      "group": "Clear Scope and Fast Decisions",
+      "value": "Clear Scope and Fast Decisions"
+    },
+    {
+      "id": "e52",
+      "kind": "text",
+      "label": "P: “Strict timelines and clear constraints keep projects moving…”",
+      "group": "Clear Scope and Fast Decisions",
+      "value": "Strict timelines and clear constraints keep projects moving efficiently. At every milestone, teams get clarity on the next step, whether that means improving the concept, changing direction, or doubling down on what’s working. This approach saves both time and budget in the long run."
+    },
+    {
+      "id": "e53",
+      "kind": "text",
+      "label": "H2: “From Prototype to Full-Cycle Development”",
+      "group": "From Prototype to Full-Cycle Development",
+      "value": "From Prototype to Full-Cycle Development"
+    },
+    {
+      "id": "e54",
+      "kind": "text",
+      "label": "P: “A strong prototype builds trust quickly. Once the direction…”",
+      "group": "From Prototype to Full-Cycle Development",
+      "value": "A strong prototype builds trust quickly. Once the direction is validated, we transition into full-cycle development, covering production planning, engineering, game art, and long-term support. Clients don’t need to start over, they continue with the same team and shared understanding of the product."
+    },
+    {
+      "id": "e55",
+      "kind": "text",
+      "label": "H2: “Sophie Bennett”",
+      "group": "Sophie Bennett",
+      "value": "Sophie Bennett"
+    },
+    {
+      "id": "e56",
+      "kind": "text",
+      "label": "P: ““They don’t just execute tasks, they actually think with yo…”",
+      "group": "Sophie Bennett",
+      "value": "“They don’t just execute tasks, they actually think with you. From idea to prototype, everything felt collaborative and well thought-out. It’s rare to find a game prototyping studio this reliable and easy to work with.”"
+    },
+    {
+      "id": "e57",
+      "kind": "text",
+      "label": "H2: “Daniel Carter”",
+      "group": "Daniel Carter",
+      "value": "Daniel Carter"
+    },
+    {
+      "id": "e58",
+      "kind": "text",
+      "label": "P: ““What stood out the most was their speed and structure. The…”",
+      "group": "Daniel Carter",
+      "value": "“What stood out the most was their speed and structure. They move fast, but never at the expense of quality. You always know where things stand, which makes the whole process stress-free.”"
+    },
+    {
+      "id": "e59",
+      "kind": "text",
+      "label": "H2: “Alex Morgan”",
+      "group": "Alex Morgan",
+      "value": "Alex Morgan"
+    },
+    {
+      "id": "e60",
+      "kind": "text",
+      "label": "P: ““Working with this team was a genuinely smooth experience. …”",
+      "group": "Alex Morgan",
+      "value": "“Working with this team was a genuinely smooth experience. Communication was clear, deadlines were respected, and the final result exceeded expectations. It felt like working with people who really care about what they build.”"
+    },
+    {
+      "id": "e61",
+      "kind": "text",
+      "label": "H2: “Coming soon...”",
+      "group": "Coming soon...",
+      "value": "Coming soon..."
+    },
+    {
+      "id": "e62",
+      "kind": "html",
+      "label": "H2: “Our Team”",
+      "group": "Our Team",
+      "value": "<span class=\"text-gradient-oox2\">Our Team</span>"
+    },
+    {
+      "id": "e63",
+      "kind": "text",
+      "label": "P: “We are a team of experienced professionals focused on build…”",
+      "group": "Our Team",
+      "value": "We are a team of experienced professionals focused on building high-quality products through structured processes, strong collaboration, and efficient execution. Each team member brings a unique set of skills, contributing to a well-rounded and reliable development approach."
+    },
+    {
+      "id": "e64",
+      "kind": "html",
+      "label": "H2: “Book your Appointment”",
+      "group": "Book your Appointment",
+      "value": "Book <span class=\"text-gradient-oox\">your Appointment</span>"
+    },
+    {
+      "id": "e65",
+      "kind": "text",
+      "label": "P: “Whether you’re exploring a new idea or looking for a reliab…”",
+      "group": "Book your Appointment",
+      "value": "Whether you’re exploring a new idea or looking for a reliable game prototyping studio, reach out to us and we’ll help you define the next step with clarity."
+    },
+    {
+      "id": "e66",
+      "kind": "text",
+      "label": "P: “Our team supports game prototyping, mobile game development…”",
+      "group": "Book your Appointment",
+      "value": "Our team supports game prototyping, mobile game development, and full-cycle production, helping you move from concept to launch-ready product with less risk and better decision-making."
+    },
+    {
+      "id": "e67",
+      "kind": "html",
+      "label": "P: “Yes! Please send me info on events and specials.”",
+      "group": "Page",
+      "value": "<span class=\"wpcf7-form-control-wrap\" data-name=\"checkbox-895\"><span class=\"wpcf7-form-control wpcf7-checkbox\"><span class=\"wpcf7-list-item first last\"><label><input type=\"checkbox\" name=\"checkbox-895[]\" value=\"Yes! Please send me info on events and specials.\"><span class=\"wpcf7-list-item-label\">Yes! Please send me info on events and specials.</span></label></span></span></span>"
+    },
+    {
+      "id": "e68",
+      "kind": "html",
+      "label": "Button: “send request”",
+      "group": "Page",
+      "value": "<span class=\"elementor-button-content-wrapper\"><span><span>send request</span></span></span>"
+    },
+    {
+      "id": "e69",
+      "kind": "text",
+      "label": "H5: “Insights, Articles & Studio Learnings”",
+      "group": "Take a look at our latest blog",
+      "value": "Insights, Articles & Studio Learnings"
+    },
+    {
+      "id": "e70",
+      "kind": "html",
+      "label": "H2: “Take a look at our latest blog”",
+      "group": "Take a look at our latest blog",
+      "value": "Take a look at <span class=\"oox-gradient\">our latest blog</span>"
+    },
+    {
+      "id": "e71",
+      "kind": "text",
+      "label": "P: “Explore practical insights about game development, prototyp…”",
+      "group": "Take a look at our latest blog",
+      "value": "Explore practical insights about game development, prototyping, production workflows, and product decision-making. We share lessons learned from real projects to help teams build smarter and avoid common pitfalls."
+    },
+    {
+      "id": "e72",
+      "kind": "html",
+      "label": "H2: “Join our newsletter”",
+      "group": "Join our newsletter",
+      "value": "<span class=\"text-gradient-oox2\">Join&nbsp;our newsletter</span>"
+    },
+    {
+      "id": "e73",
+      "kind": "text",
+      "label": "P: “Get occasional updates about game development, prototyping …”",
+      "group": "Join our newsletter",
+      "value": "Get occasional updates about game development, prototyping strategies, and behind-the-scenes lessons from the projects we build. No spam, only useful content for teams who want to ship better products."
+    },
+    {
+      "id": "e74",
+      "kind": "text",
+      "label": "Button: “Login”",
+      "group": "Page",
+      "value": "Login"
+    },
+    {
+      "id": "e75",
+      "kind": "html",
+      "label": "LI: “oox menu”",
+      "group": "Page",
+      "value": "<span>oox menu</span>"
+    },
+    {
+      "id": "e76",
+      "kind": "image",
+      "label": "Image: game prototyping studio",
+      "group": "PROTOTYPING",
+      "value": "/wp-content/uploads/2026/01/targets.png"
+    },
+    {
+      "id": "e77",
+      "kind": "imageAlt",
+      "label": "Alt for game prototyping studio",
+      "group": "PROTOTYPING",
+      "value": "game prototyping studio"
+    },
+    {
+      "id": "e78",
+      "kind": "image",
+      "label": "Image: game prototyping studio",
+      "group": "Page",
+      "value": "/wp-content/uploads/2026/06/mob1.png"
+    },
+    {
+      "id": "e79",
+      "kind": "imageAlt",
+      "label": "Alt for game prototyping studio",
+      "group": "Page",
+      "value": "game prototyping studio"
+    },
+    {
+      "id": "e80",
+      "kind": "image",
+      "label": "Image: mobile game development",
+      "group": "Page",
+      "value": "/wp-content/uploads/2026/06/Ellipse-13.png"
+    },
+    {
+      "id": "e81",
+      "kind": "imageAlt",
+      "label": "Alt for mobile game development",
+      "group": "Page",
+      "value": "mobile game development"
+    },
+    {
+      "id": "e82",
+      "kind": "image",
+      "label": "Image: game prototyping studio",
+      "group": "Page",
+      "value": "/wp-content/uploads/2026/06/mob2.png"
+    },
+    {
+      "id": "e83",
+      "kind": "imageAlt",
+      "label": "Alt for game prototyping studio",
+      "group": "Page",
+      "value": "game prototyping studio"
+    },
+    {
+      "id": "e84",
+      "kind": "image",
+      "label": "Image: game prototyping studio",
+      "group": "Page",
+      "value": "/wp-content/uploads/2026/06/mob3.png"
+    },
+    {
+      "id": "e85",
+      "kind": "imageAlt",
+      "label": "Alt for game prototyping studio",
+      "group": "Page",
+      "value": "game prototyping studio"
+    },
+    {
+      "id": "e86",
+      "kind": "image",
+      "label": "Image: Shape for Frame OOX Limited",
+      "group": "Prototype-First Thinking",
+      "value": "/wp-content/uploads/2026/03/box1-1024x598.png"
+    },
+    {
+      "id": "e87",
+      "kind": "imageAlt",
+      "label": "Alt for Shape for Frame OOX Limited",
+      "group": "Prototype-First Thinking",
+      "value": "Shape for Frame OOX Limited"
+    },
+    {
+      "id": "e88",
+      "kind": "image",
+      "label": "Image: Shape for Frame OOX Limited",
+      "group": "Prototype-First Thinking",
+      "value": "/wp-content/uploads/2026/03/box2-1024x926.png"
+    },
+    {
+      "id": "e89",
+      "kind": "imageAlt",
+      "label": "Alt for Shape for Frame OOX Limited",
+      "group": "Prototype-First Thinking",
+      "value": "Shape for Frame OOX Limited"
+    },
+    {
+      "id": "e90",
+      "kind": "image",
+      "label": "Image: Shape for Frame OOX Limited",
+      "group": "Prototype-First Thinking",
+      "value": "/wp-content/uploads/2026/03/lbulb.svg"
+    },
+    {
+      "id": "e91",
+      "kind": "imageAlt",
+      "label": "Alt for Shape for Frame OOX Limited",
+      "group": "Prototype-First Thinking",
+      "value": "Shape for Frame OOX Limited"
+    },
+    {
+      "id": "e92",
+      "kind": "image",
+      "label": "Image: ooxlogo",
+      "group": "Structured Experimentation, Not Random …",
+      "value": "/wp-content/uploads/2026/03/lab.png"
+    },
+    {
+      "id": "e93",
+      "kind": "imageAlt",
+      "label": "Alt for ooxlogo",
+      "group": "Structured Experimentation, Not Random …",
+      "value": "ooxlogo"
+    },
+    {
+      "id": "e94",
+      "kind": "image",
+      "label": "Image: ooxlogo",
+      "group": "Clear Scope and Fast Decisions",
+      "value": "/wp-content/uploads/2026/03/rev.png"
+    },
+    {
+      "id": "e95",
+      "kind": "imageAlt",
+      "label": "Alt for ooxlogo",
+      "group": "Clear Scope and Fast Decisions",
+      "value": "ooxlogo"
+    },
+    {
+      "id": "e96",
+      "kind": "image",
+      "label": "Image: ooxlogo",
+      "group": "From Prototype to Full-Cycle Development",
+      "value": "/wp-content/uploads/2026/03/cogs.png"
+    },
+    {
+      "id": "e97",
+      "kind": "imageAlt",
+      "label": "Alt for ooxlogo",
+      "group": "From Prototype to Full-Cycle Development",
+      "value": "ooxlogo"
+    },
+    {
+      "id": "e98",
+      "kind": "image",
+      "label": "Image: game prototyping studio",
+      "group": "Sophie Bennett",
+      "value": "/wp-content/uploads/2026/03/Mask-group.png"
+    },
+    {
+      "id": "e99",
+      "kind": "imageAlt",
+      "label": "Alt for game prototyping studio",
+      "group": "Sophie Bennett",
+      "value": "game prototyping studio"
+    },
+    {
+      "id": "e100",
+      "kind": "image",
+      "label": "Image: game prototyping studio",
+      "group": "Daniel Carter",
+      "value": "/wp-content/uploads/2026/03/Mask-group-1.png"
+    },
+    {
+      "id": "e101",
+      "kind": "imageAlt",
+      "label": "Alt for game prototyping studio",
+      "group": "Daniel Carter",
+      "value": "game prototyping studio"
+    },
+    {
+      "id": "e102",
+      "kind": "image",
+      "label": "Image: game prototyping studio",
+      "group": "Alex Morgan",
+      "value": "/wp-content/uploads/2026/03/Mask-group-2.png"
+    },
+    {
+      "id": "e103",
+      "kind": "imageAlt",
+      "label": "Alt for game prototyping studio",
+      "group": "Alex Morgan",
+      "value": "game prototyping studio"
+    },
+    {
+      "id": "e104",
+      "kind": "image",
+      "label": "Image: Marko Štrba",
+      "group": "Our Team",
+      "value": "/wp-content/uploads/2026/03/1ae0674b6b580c7dba0bb88ce3450fb326b67324.jpg"
+    },
+    {
+      "id": "e105",
+      "kind": "imageAlt",
+      "label": "Alt for Marko Štrba",
+      "group": "Our Team",
+      "value": "Marko Štrba"
+    },
+    {
+      "id": "e106",
+      "kind": "image",
+      "label": "Image: Vukašin Despotović",
+      "group": "Our Team",
+      "value": "/wp-content/uploads/2026/03/ChatGPT-Image-14.-мај-2026.-15_19_50.png"
+    },
+    {
+      "id": "e107",
+      "kind": "imageAlt",
+      "label": "Alt for Vukašin Despotović",
+      "group": "Our Team",
+      "value": "Vukašin Despotović"
+    },
+    {
+      "id": "e108",
+      "kind": "image",
+      "label": "Image: Konstantin Đuričković",
+      "group": "Our Team",
+      "value": "/wp-content/uploads/2026/03/DSC06574k-scaled.webp"
+    },
+    {
+      "id": "e109",
+      "kind": "imageAlt",
+      "label": "Alt for Konstantin Đuričković",
+      "group": "Our Team",
+      "value": "Konstantin Đuričković"
+    },
+    {
+      "id": "e110",
+      "kind": "image",
+      "label": "Image: Luka Miljuš",
+      "group": "Our Team",
+      "value": "/wp-content/uploads/2026/01/0314e21573a5d458249630664716e2ea54d22e21-2.jpg"
+    },
+    {
+      "id": "e111",
+      "kind": "imageAlt",
+      "label": "Alt for Luka Miljuš",
+      "group": "Our Team",
+      "value": "Luka Miljuš"
+    },
+    {
+      "id": "e112",
+      "kind": "image",
+      "label": "Image: PIKULA",
+      "group": "Our Team",
+      "value": "/wp-content/uploads/2026/03/DSC06305p-scaled.webp"
+    },
+    {
+      "id": "e113",
+      "kind": "imageAlt",
+      "label": "Alt for PIKULA",
+      "group": "Our Team",
+      "value": "PIKULA"
+    },
+    {
+      "id": "e114",
+      "kind": "image",
+      "label": "Image: game prototyping studio",
+      "group": "Page",
+      "value": "/wp-content/uploads/2026/03/arrowr.png"
+    },
+    {
+      "id": "e115",
+      "kind": "imageAlt",
+      "label": "Alt for game prototyping studio",
+      "group": "Page",
+      "value": "game prototyping studio"
+    }
+  ]
+}

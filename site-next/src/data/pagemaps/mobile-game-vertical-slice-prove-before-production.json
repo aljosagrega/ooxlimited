@@ -1,0 +1,648 @@
+{
+  "entries": [
+    {
+      "id": "e1",
+      "kind": "text",
+      "label": "H2: “Table of Contents”",
+      "group": "Page",
+      "value": "Table of Contents"
+    },
+    {
+      "id": "e2",
+      "kind": "text",
+      "label": "H2: “Recent posts”",
+      "group": "Recent posts",
+      "value": "Recent posts"
+    },
+    {
+      "id": "e3",
+      "kind": "html",
+      "label": "H3: “What a Mobile Game Vertical Slice Should Prove Before Produ…”",
+      "group": "Recent posts",
+      "value": "<a href=\"/mobile-game-vertical-slice-prove-before-production-2/\">What a Mobile Game Vertical Slice Should Prove Before Production</a>"
+    },
+    {
+      "id": "e4",
+      "kind": "html",
+      "label": "H3: “The Prototyping-First Studio: Why Validation Comes Before”",
+      "group": "Recent posts",
+      "value": "<a href=\"/prototyping-first-studio-validation-before-building-2026/\">The Prototyping-First Studio: Why Validation Comes Before</a>"
+    },
+    {
+      "id": "e5",
+      "kind": "html",
+      "label": "H3: “How a Mobile Game Development Team Works: Roles, Handoffs”",
+      "group": "Recent posts",
+      "value": "<a href=\"/mobile-game-development-team-roles-workflow-handoffs/\">How a Mobile Game Development Team Works: Roles, Handoffs</a>"
+    },
+    {
+      "id": "e6",
+      "kind": "text",
+      "label": "H1: “What a Mobile Game Vertical Slice Should Prove Before Produ…”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "What a Mobile Game Vertical Slice Should Prove Before Production"
+    },
+    {
+      "id": "e7",
+      "kind": "html",
+      "label": "P: “by OOX Limited”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "<strong>by OOX Limited</strong>"
+    },
+    {
+      "id": "e8",
+      "kind": "text",
+      "label": "H2: “Introduction: Why most mobile games fail before they ship”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "Introduction: Why most mobile games fail before they ship"
+    },
+    {
+      "id": "e9",
+      "kind": "html",
+      "label": "P: “Forty-three percent of mobile games are cancelled before th…”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "Forty-three percent of mobile games are cancelled before they ever reach a player. Of those that do ship, 97 percent fail to achieve commercial success within three years of launch, according to AppMagic data analysed by <a href=\"https://app2top.com/news/analytics-97-of-mobile-games-released-in-the-last-three-years-have-failed-276561.html\">App2Top</a>."
+    },
+    {
+      "id": "e10",
+      "kind": "text",
+      "label": "P: “The problem is not talent. It is sequence.”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "The problem is not talent. It is sequence."
+    },
+    {
+      "id": "e11",
+      "kind": "text",
+      "label": "P: “Most studios build a prototype, get excited by a promising …”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "Most studios build a prototype, get excited by a promising core loop, and greenlight full production. Twelve to eighteen months later, art quality drifts because no reference standard was locked. The pipeline breaks under real content volume. Frame rates drop to 15 per second on the mid-tier phone that is most of the addressable market. Meanwhile, the publisher asks for evidence the team can ship - and the studio has none."
+    },
+    {
+      "id": "e12",
+      "kind": "text",
+      "label": "P: “A prototype proves the idea is worth building. A vertical s…”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "A prototype proves the idea is worth building. A vertical slice proves the team can ship it. Consequently, the gap between those two proofs is where mobile games die."
+    },
+    {
+      "id": "e13",
+      "kind": "html",
+      "label": "FIGCAPTION: “Photo by Tim van der Kuip on Unsplash”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "Photo by <a href=\"https://unsplash.com/@timmykp?utm_source=ooxlimited&amp;utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Tim van der Kuip</a> on <a href=\"https://unsplash.com/?utm_source=ooxlimited&amp;utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+    },
+    {
+      "id": "e14",
+      "kind": "text",
+      "label": "H2: “What is a mobile game vertical slice?”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "What is a mobile game vertical slice?"
+    },
+    {
+      "id": "e15",
+      "kind": "text",
+      "label": "P: “A vertical slice is a small, fully polished, playable cross…”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "A vertical slice is a small, fully polished, playable cross-section of a game demonstrating exactly what the shipped product will look and feel like. It is typically five to ten minutes of play containing at least one instance of every hard thing the team must repeat at scale: the most combat-heavy moment, the most UI-dense screen, the most technically complex asset."
+    },
+    {
+      "id": "e16",
+      "kind": "text",
+      "label": "P: “Three artefacts are often confused:”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "Three artefacts are often confused:"
+    },
+    {
+      "id": "e17",
+      "kind": "text",
+      "label": "P: “Prototype - answers \"Is the core loop fun?\" - low-fidelity,…”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "Prototype - answers \"Is the core loop fun?\" - low-fidelity, placeholder art, internal audience, days to weeks. The codebase is disposable."
+    },
+    {
+      "id": "e18",
+      "kind": "text",
+      "label": "P: “Vertical slice - answers \"Can we ship at this quality?\" - n…”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "Vertical slice - answers \"Can we ship at this quality?\" - near-final fidelity, publisher or investor audience, one to three months on a production-grade foundation. The codebase is the first real build of the game."
+    },
+    {
+      "id": "e19",
+      "kind": "text",
+      "label": "P: “Demo - answers \"Do you want to play this?\" - mixed fidelity…”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "Demo - answers \"Do you want to play this?\" - mixed fidelity, player or press audience, variable timeline. A demo can pull from any stage of the pipeline."
+    },
+    {
+      "id": "e20",
+      "kind": "text",
+      "label": "P: “A vertical slice is not an extended prototype. Prototypes a…”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "A vertical slice is not an extended prototype. Prototypes are built for speed; vertical slices, in contrast, are built for repeatability. Extending a prototype almost always fails because its foundation was never designed to sustain production velocity. You start clean."
+    },
+    {
+      "id": "e21",
+      "kind": "text",
+      "label": "H2: “Why studios use a vertical slice - the business case”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "Why studios use a vertical slice - the business case"
+    },
+    {
+      "id": "e22",
+      "kind": "text",
+      "label": "P: “Skipping the vertical slice is the most expensive mistake a…”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "Skipping the vertical slice is the most expensive mistake a mobile studio can make."
+    },
+    {
+      "id": "e23",
+      "kind": "text",
+      "label": "P: “Fixing a design or pipeline problem caught in a six-week ve…”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "Fixing a design or pipeline problem caught in a six-week vertical slice costs six weeks of a small team. In contrast, fixing the same problem twelve months into production costs twelve months of a full team - plus every asset built on the flawed foundation. As a result, research compiled by MoldStud indicates early validation reduces late-stage changes by up to 70 percent and cuts total costs by 15 to 50 percent."
+    },
+    {
+      "id": "e24",
+      "kind": "text",
+      "label": "P: “The publisher environment compounds the case. In 2025 and 2…”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "The publisher environment compounds the case. In 2025 and 2026, publishers require a playable vertical slice as table stakes. Paper pitches are dead. Without one demonstrating production quality, pipeline discipline, and device performance, a studio is not in the conversation."
+    },
+    {
+      "id": "e25",
+      "kind": "html",
+      "label": "P: “The broader trend confirms this. The Unity 2026 Game Develo…”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "The broader trend confirms this. The <a href=\"https://unity.com/cn/blog/2026-unity-game-development-report-trends\">Unity 2026 Game Development Report</a> found that 52 percent of studios now prioritise smaller-scope projects. Sixty-seven percent spend three months or less prototyping. The industry is converging on one principle: prove it small, then scale. The vertical slice is the endpoint of that discipline."
+    },
+    {
+      "id": "e26",
+      "kind": "text",
+      "label": "H2: “What a vertical slice should prove - four non-negotiable va…”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "What a vertical slice should prove - four non-negotiable validations"
+    },
+    {
+      "id": "e27",
+      "kind": "text",
+      "label": "P: “A vertical slice that only looks good has failed. Visual po…”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "A vertical slice that only looks good has failed. Visual polish without production validation is wasted effort. A properly executed vertical slice must answer four questions with evidence, not intuition."
+    },
+    {
+      "id": "e28",
+      "kind": "text",
+      "label": "H3: “1. Production quality - locking the definition of \"done\"”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "1. Production quality - locking the definition of \"done\""
+    },
+    {
+      "id": "e29",
+      "kind": "text",
+      "label": "P: “Quality drift is invisible until it is expensive. Without a…”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "Quality drift is invisible until it is expensive. Without a locked quality bar, the game eventually looks like two different studios built it."
+    },
+    {
+      "id": "e30",
+      "kind": "text",
+      "label": "P: “Therefore, the vertical slice sets the reference standard. …”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "Therefore, the vertical slice sets the reference standard. What gets locked: an art style reference pack any artist can follow; a complete UI flow for the slice; final-quality audio mix; and animation at the bar the full game must maintain."
+    },
+    {
+      "id": "e31",
+      "kind": "text",
+      "label": "P: “The practical test: hand the slice and reference pack to so…”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "The practical test: hand the slice and reference pack to someone who has never worked on the project. If they produce a new asset at the same quality within the expected time, the bar is locked. If quality depended on one person's unrepeatable effort, it is not."
+    },
+    {
+      "id": "e32",
+      "kind": "text",
+      "label": "H3: “2. Pipeline risk - proving you can repeat what you just bui…”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "2. Pipeline risk - proving you can repeat what you just built"
+    },
+    {
+      "id": "e33",
+      "kind": "text",
+      "label": "P: “The most dangerous discovery in game development is that th…”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "The most dangerous discovery in game development is that the team can build something beautiful once. However, the question is whether they can build it again, predictably, at production scale."
+    },
+    {
+      "id": "e34",
+      "kind": "text",
+      "label": "P: “Pipeline risk covers whether the studio's tools, workflows,…”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "Pipeline risk covers whether the studio's tools, workflows, and talent can sustain velocity across months of content. What gets tested: the asset pipeline - predictable steps, not per-asset scripts; team velocity - how long one polished unit actually takes, measured not guessed; and toolchain stability - whether builds run reliably."
+    },
+    {
+      "id": "e35",
+      "kind": "text",
+      "label": "P: “The critical failure mode is hero mode. A team crunches for…”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "The critical failure mode is hero mode. A team crunches for six weeks and produces an impressive artefact. Nothing about the process is repeatable, however. The pipeline was bypassed. A vertical slice built this way is theatre, not validation."
+    },
+    {
+      "id": "e36",
+      "kind": "text",
+      "label": "P: “The practical test: after the slice, build one more piece o…”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "The practical test: after the slice, build one more piece of content using only the documented pipeline. If it takes significantly longer or produces lower quality, the pipeline is not proven."
+    },
+    {
+      "id": "e37",
+      "kind": "text",
+      "label": "H3: “3. Performance - proving it runs on real devices”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "3. Performance - proving it runs on real devices"
+    },
+    {
+      "id": "e38",
+      "kind": "text",
+      "label": "P: “Mobile performance is a gate, not a polish pass. For exampl…”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "Mobile performance is a gate, not a polish pass. For example, a slice running at 60 frames per second on a flagship phone but stuttering on the mid-tier device that represents the addressable market proves the opposite of readiness."
+    },
+    {
+      "id": "e39",
+      "kind": "text",
+      "label": "P: “Performance validation covers frame pacing during worst-cas…”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "Performance validation covers frame pacing during worst-case moments, memory budget with no leaks, load times from cold start to interactive play, and thermal behaviour across a representative session."
+    },
+    {
+      "id": "e40",
+      "kind": "text",
+      "label": "P: “Emulators hide touch latency, render-pipeline differences, …”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "Emulators hide touch latency, render-pipeline differences, and thermal throttling. Test on the actual target mid-tier device - for Android, a 200-to-300-dollar phone from 2023, not a current flagship. Run the slice on the lowest-spec device in your budget. If it holds 30 frames per second during worst-case moments with no crashes, performance is proven."
+    },
+    {
+      "id": "e41",
+      "kind": "text",
+      "label": "H3: “4. Publisher readiness - proving the investment case”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "4. Publisher readiness - proving the investment case"
+    },
+    {
+      "id": "e42",
+      "kind": "text",
+      "label": "P: “In short, publishers fund evidence, not vibes. A polished v…”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "In short, publishers fund evidence, not vibes. A polished vertical slice replaces speculation with proof."
+    },
+    {
+      "id": "e43",
+      "kind": "text",
+      "label": "P: “What publishers evaluate: does the core loop hold beyond tw…”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "What publishers evaluate: does the core loop hold beyond two minutes? Is the quality bar feasible at scale? Does the team have the discipline to ship - clean build, documented pipeline, realistic scope?"
+    },
+    {
+      "id": "e44",
+      "kind": "text",
+      "label": "P: “The 2025-to-2026 shift is unambiguous. Publishers expect a …”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "The 2025-to-2026 shift is unambiguous. Publishers expect a playable vertical slice, gameplay capture, and store page wishlist data before the first meeting. Without one, a studio is not in the room."
+    },
+    {
+      "id": "e45",
+      "kind": "text",
+      "label": "P: “The practical test: hand the slice to a publisher with no e…”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "The practical test: hand the slice to a publisher with no explanation. If they understand the game, see the quality, and ask \"how much to finish it?\" - the slice has done its job."
+    },
+    {
+      "id": "e46",
+      "kind": "text",
+      "label": "H2: “How to build a mobile game vertical slice - a practical pro…”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "How to build a mobile game vertical slice - a practical process"
+    },
+    {
+      "id": "e47",
+      "kind": "text",
+      "label": "P: “The process is not mysterious. However, it demands a discip…”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "The process is not mysterious. However, it demands a discipline most studios find uncomfortable: saying no to scope."
+    },
+    {
+      "id": "e48",
+      "kind": "text",
+      "label": "H3: “Step 1 - Scope down to the riskiest slice”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "Step 1 - Scope down to the riskiest slice"
+    },
+    {
+      "id": "e49",
+      "kind": "text",
+      "label": "P: “Pick one or two core mechanics. Target five to ten minutes …”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "Pick one or two core mechanics. Target five to ten minutes of play. The slice must contain at least one instance of every hard thing the team will repeat: the heaviest combat, the most UI-dense screen, the most complex asset. Before writing production code, write the question the slice must answer - for example: \"Does one-thumb movement with auto-aim feel satisfying in 60-to-90-second runs on a mid-tier Android phone at 30 frames per second?\" If the slice does not answer that question definitively, the scope is wrong."
+    },
+    {
+      "id": "e50",
+      "kind": "text",
+      "label": "H3: “Step 2 - Lock features and set a hard deadline”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "Step 2 - Lock features and set a hard deadline"
+    },
+    {
+      "id": "e51",
+      "kind": "text",
+      "label": "P: “Feature lock by day 14. After week two, no new features exc…”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "Feature lock by day 14. After week two, no new features except show-stoppers. This rule is simple to state and hard to enforce, however. The temptation to add one more mechanic is the primary reason vertical slices lose their value."
+    },
+    {
+      "id": "e52",
+      "kind": "text",
+      "label": "P: “Timebox aggressively: a four-to-six-week build sprint, plus…”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "Timebox aggressively: a four-to-six-week build sprint, plus one to two weeks of QA. Total: six to eight weeks. Constraint forces scope discipline - the difference between studios that ship and studios that iterate forever."
+    },
+    {
+      "id": "e53",
+      "kind": "text",
+      "label": "H3: “Step 3 - Build on a production foundation”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "Step 3 - Build on a production foundation"
+    },
+    {
+      "id": "e54",
+      "kind": "text",
+      "label": "P: “Start clean. Do not extend the prototype - a vertical slice…”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "Start clean. Do not extend the prototype - a vertical slice on prototype foundations inherits every shortcut built for speed. Use the same engine version, pipeline tools, and asset conventions planned for production. Integrate all disciplines from day one: code, art, audio, UI, visual effects. The goal is to prove they work together - assets flowing from artist to engine without breaking, audio firing on correct frames, UI scaling across resolutions without manual fixes."
+    },
+    {
+      "id": "e55",
+      "kind": "text",
+      "label": "H3: “Step 4 - Playtest on real devices, with real players”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "Step 4 - Playtest on real devices, with real players"
+    },
+    {
+      "id": "e56",
+      "kind": "text",
+      "label": "P: “Mobile playtesting demands specific tests beyond \"does it w…”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "Mobile playtesting demands specific tests beyond \"does it work?\" The essential checklist:"
+    },
+    {
+      "id": "e57",
+      "kind": "text",
+      "label": "P: “One-thumb test: all primary actions reachable with one thum…”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "One-thumb test: all primary actions reachable with one thumb."
+    },
+    {
+      "id": "e58",
+      "kind": "text",
+      "label": "P: “Grip-switch test: playable when shifting grip - portrait to…”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "Grip-switch test: playable when shifting grip - portrait to landscape, left hand to right."
+    },
+    {
+      "id": "e59",
+      "kind": "text",
+      "label": "P: “Outdoor readability test: UI legible in direct sunlight at …”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "Outdoor readability test: UI legible in direct sunlight at 50 percent brightness."
+    },
+    {
+      "id": "e60",
+      "kind": "text",
+      "label": "P: “Audio-off test: all critical information communicated visua…”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "Audio-off test: all critical information communicated visually."
+    },
+    {
+      "id": "e61",
+      "kind": "text",
+      "label": "P: “Glance test: after looking away for three seconds, the play…”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "Glance test: after looking away for three seconds, the player re-orients within one to two seconds."
+    },
+    {
+      "id": "e62",
+      "kind": "text",
+      "label": "P: “Recruit five to eight testers who match the audience - your…”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "Recruit five to eight testers who match the audience - your team is not the audience. Instrument the build to capture time to gameplay, session results, and voluntary replay rate."
+    },
+    {
+      "id": "e63",
+      "kind": "text",
+      "label": "P: “Exit criteria: core loop understood within 60 seconds witho…”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "Exit criteria: core loop understood within 60 seconds without explanation; players voluntarily replay; art reference pack tested with a new artist; UI flow complete; performance targets met on target devices; pipeline proven by building one additional content piece using documented workflows."
+    },
+    {
+      "id": "e64",
+      "kind": "html",
+      "label": "FIGCAPTION: “Photo by Jonas Leupe on Unsplash”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "Photo by <a href=\"https://unsplash.com/@jonasleupe?utm_source=ooxlimited&amp;utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Jonas Leupe</a> on <a href=\"https://unsplash.com/?utm_source=ooxlimited&amp;utm_medium=referral\" target=\"_blank\" rel=\"noopener\">Unsplash</a>"
+    },
+    {
+      "id": "e65",
+      "kind": "text",
+      "label": "H2: “How a vertical slice saves time and money”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "How a vertical slice saves time and money"
+    },
+    {
+      "id": "e66",
+      "kind": "text",
+      "label": "P: “The most common objection is that a vertical slice feels li…”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "The most common objection is that a vertical slice feels like an expensive extra step. That framing is backwards."
+    },
+    {
+      "id": "e67",
+      "kind": "text",
+      "label": "P: “It is the cheapest production insurance a mobile studio can…”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "It is the cheapest production insurance a mobile studio can buy."
+    },
+    {
+      "id": "e68",
+      "kind": "text",
+      "label": "P: “A design flaw caught in a six-week vertical slice costs six…”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "A design flaw caught in a six-week vertical slice costs six weeks of a small team. The same flaw caught twelve months into production costs twelve months of a full team - plus everything built on the broken foundation. The 70 percent reduction in late-stage changes that early validation enables is the difference between shipping and running out of money."
+    },
+    {
+      "id": "e69",
+      "kind": "text",
+      "label": "P: “However, the real saving is often on the projects you decid…”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "However, the real saving is often on the projects you decide not to build. A vertical slice that reveals the game cannot hold frame rate on target devices has just saved twelve to twenty-four months of runway. That is not a failed slice. It surfaced the truth before the budget was committed."
+    },
+    {
+      "id": "e70",
+      "kind": "text",
+      "label": "P: “The studio that builds a vertical slice and decides not to …”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "The studio that builds a vertical slice and decides not to proceed has not failed. It has succeeded at the most valuable thing in game development: learning the truth before committing the budget."
+    },
+    {
+      "id": "e71",
+      "kind": "text",
+      "label": "H2: “Final thoughts”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "Final thoughts"
+    },
+    {
+      "id": "e72",
+      "kind": "text",
+      "label": "P: “A mobile game vertical slice should not answer: \"Does this …”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "A mobile game vertical slice should not answer: \"Does this look good?\" It should answer: \"Can we ship this, at this quality, on these devices, with this team - and can we prove it?\""
+    },
+    {
+      "id": "e73",
+      "kind": "text",
+      "label": "P: “Without a vertical slice, full production is a bet. With on…”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "Without a vertical slice, full production is a bet. With one properly executed, it is a plan."
+    },
+    {
+      "id": "e74",
+      "kind": "html",
+      "label": "LI: “Rapid Prototyping in Game Development: How Indie Studios Va…”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "<a href=\"/rapid-prototyping-game-development/\" target=\"_blank\" rel=\"noopener\">Rapid Prototyping in Game Development: How Indie Studios Validate Game Ideas Before Building</a>"
+    },
+    {
+      "id": "e75",
+      "kind": "html",
+      "label": "LI: “How to Choose the Right Mobile Game Development Partner in …”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "<a href=\"/how-to-choose-the-right-mobile-game-development-partner-in-2026-oox/\" target=\"_blank\" rel=\"noopener\">How to Choose the Right Mobile Game Development Partner in 2026</a>"
+    },
+    {
+      "id": "e76",
+      "kind": "html",
+      "label": "LI: “Game Co-Development vs. Outsourcing -- The Model Shift Ever…”",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "<a href=\"/co-development-vs-outsourcing/\" target=\"_blank\" rel=\"noopener\">Game Co-Development vs. Outsourcing -- The Model Shift Every Studio Leader Should Understand</a>"
+    },
+    {
+      "id": "e77",
+      "kind": "text",
+      "label": "H2: “Explore More”",
+      "group": "Explore More",
+      "value": "Explore More"
+    },
+    {
+      "id": "e78",
+      "kind": "html",
+      "label": "P: “OOX Limited builds rapid prototypes and production-grade ve…”",
+      "group": "Explore More",
+      "value": "OOX Limited builds rapid prototypes and production-grade vertical slices that help studios prove their game works on real devices, with real players, before committing to full production. A short conversation is usually enough to clarify scope, priorities, and the fastest path forward. <a href=\"/contact-us/\">Contact OOX Limited.</a>"
+    },
+    {
+      "id": "e79",
+      "kind": "text",
+      "label": "Button: “Login”",
+      "group": "Page",
+      "value": "Login"
+    },
+    {
+      "id": "e80",
+      "kind": "html",
+      "label": "LI: “oox menu”",
+      "group": "Page",
+      "value": "<span>oox menu</span>"
+    },
+    {
+      "id": "e81",
+      "kind": "image",
+      "label": "Image: mobile game vertical slice",
+      "group": "Recent posts",
+      "value": "/wp-content/uploads/2026/08/DSC06517-768x1152.jpg"
+    },
+    {
+      "id": "e82",
+      "kind": "imageAlt",
+      "label": "Alt for mobile game vertical slice",
+      "group": "Recent posts",
+      "value": "mobile game vertical slice"
+    },
+    {
+      "id": "e83",
+      "kind": "image",
+      "label": "Image: Read more",
+      "group": "Recent posts",
+      "value": "/wp-content/uploads/2026/03/arrowr.png"
+    },
+    {
+      "id": "e84",
+      "kind": "imageAlt",
+      "label": "Alt for Read more",
+      "group": "Recent posts",
+      "value": "Read more"
+    },
+    {
+      "id": "e85",
+      "kind": "image",
+      "label": "Image: Office Photos OOX Limited",
+      "group": "Recent posts",
+      "value": "/wp-content/uploads/2026/03/d8d70c6789c6b5f6ea12d48bc4006f64f8be8019-768x512.jpg"
+    },
+    {
+      "id": "e86",
+      "kind": "imageAlt",
+      "label": "Alt for Office Photos OOX Limited",
+      "group": "Recent posts",
+      "value": "Office Photos OOX Limited"
+    },
+    {
+      "id": "e87",
+      "kind": "image",
+      "label": "Image: mobile game development team",
+      "group": "Recent posts",
+      "value": "/wp-content/uploads/2026/07/DSC06489-768x1152.jpg"
+    },
+    {
+      "id": "e88",
+      "kind": "imageAlt",
+      "label": "Alt for mobile game development team",
+      "group": "Recent posts",
+      "value": "mobile game development team"
+    },
+    {
+      "id": "e89",
+      "kind": "image",
+      "label": "Image: Two developers collaborating at a desk …",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "https://images.unsplash.com/photo-1551434678-e076c223a692?ixid=M3w5OTQwMTJ8MHwxfHNlYXJjaHwxfHxzb2Z0d2FyZSUyMGRldmVsb3BlciUyMHdvcmtpbmclMjB0ZWFtJTIwbGFwdG9wJTIwb2ZmaWNlfGVufDF8MHx8fDE3ODQwNjQwMzl8MA&ixlib=rb-4.1.0&w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "e90",
+      "kind": "imageAlt",
+      "label": "Alt for Two developers collaborating …",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "Two developers collaborating at a desk in a modern office - one at a laptop, a smartphone on the desk beside a small figurine, natural light from a large window with greenery outside"
+    },
+    {
+      "id": "e91",
+      "kind": "image",
+      "label": "Image: A person holding a smartphone horizonta…",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "https://images.unsplash.com/photo-1592890288564-76628a30a657?ixid=M3w5OTQwMTJ8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjB0ZXN0aW5nJTIwc21hcnRwaG9uZSUyMG9uZSUyMGhhbmR8ZW58MXwwfHx8MTc4NDA2NDEzMXww&ixlib=rb-4.1.0&w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "e92",
+      "kind": "imageAlt",
+      "label": "Alt for A person holding a smartphone…",
+      "group": "What a Mobile Game Vertical Slice Shoul…",
+      "value": "A person holding a smartphone horizontally in both hands, actively interacting with the screen, blurred office workspace with desk and laptop in the background"
+    }
+  ]
+}

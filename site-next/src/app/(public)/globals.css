@@ -1,0 +1,14 @@
+/* The public site's visual design is carried entirely by the frozen WordPress
+ * stylesheet stack (see src/components/FrozenView.tsx). This file holds only the
+ * bare reset the Next shell needs so it doesn't fight the frozen CSS. */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Next injects a wrapper; make it transparent to layout. */
+#__next {
+  display: contents;
+}

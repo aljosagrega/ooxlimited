@@ -1,0 +1,186 @@
+{
+  "entries": [
+    {
+      "id": "e1",
+      "kind": "text",
+      "label": "H2: “Konstantin Đuričković”",
+      "group": "Page",
+      "value": "Konstantin Đuričković"
+    },
+    {
+      "id": "e2",
+      "kind": "html",
+      "label": "P: “Konstantin Đuričković is a Product Owner and Co-Founder at …”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">Konstantin Đuričković is a Product Owner and Co-Founder at <a href=\"/\">OOX Limited</a>, focused on product validation, rapid prototyping, and disciplined execution in mobile game development.</span>"
+    },
+    {
+      "id": "e3",
+      "kind": "html",
+      "label": "P: “Pragmatic by instinct and disciplined by choice, he doesn’t…”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">Pragmatic by instinct and disciplined by choice, he doesn’t romanticize product ideas — he tests them. For him, ideas earn the right to exist through measurable results, not enthusiasm. He builds steadily, removes what doesn’t serve the goal, and prioritizes long-term trust over short-term wins.</span>"
+    },
+    {
+      "id": "e4",
+      "kind": "text",
+      "label": "H4: “SKILLS”",
+      "group": "Page",
+      "value": "SKILLS"
+    },
+    {
+      "id": "e5",
+      "kind": "text",
+      "label": "LI: “System Architecture”",
+      "group": "Page",
+      "value": "System Architecture"
+    },
+    {
+      "id": "e6",
+      "kind": "text",
+      "label": "LI: “Mobile Game Development”",
+      "group": "Page",
+      "value": "Mobile Game Development"
+    },
+    {
+      "id": "e7",
+      "kind": "text",
+      "label": "LI: “Backend & Game Logic”",
+      "group": "Page",
+      "value": "Backend & Game Logic"
+    },
+    {
+      "id": "e8",
+      "kind": "text",
+      "label": "LI: “Performance Optimization”",
+      "group": "Page",
+      "value": "Performance Optimization"
+    },
+    {
+      "id": "e9",
+      "kind": "text",
+      "label": "LI: “Scalable Systems Design”",
+      "group": "Page",
+      "value": "Scalable Systems Design"
+    },
+    {
+      "id": "e10",
+      "kind": "text",
+      "label": "H2: “Q&A”",
+      "group": "Page",
+      "value": "Q&A"
+    },
+    {
+      "id": "e11",
+      "kind": "html",
+      "label": "Button: “Do you see product more as logic or int…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">Do you see product more as logic or intuition?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e12",
+      "kind": "html",
+      "label": "Button: “What was the first product decision you…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">What was the first product decision you made that taught you something the hard way?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e13",
+      "kind": "html",
+      "label": "Button: “How do you prefer to spend your days of…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">How do you prefer to spend your days off?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e14",
+      "kind": "html",
+      "label": "Button: “Favorite quote?”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">Favorite quote?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e15",
+      "kind": "html",
+      "label": "Button: “Top three life highlights?”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">Top three life highlights?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e16",
+      "kind": "html",
+      "label": "Button: “How did your formal education prepare y…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">How did your formal education prepare you for product ownership?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e17",
+      "kind": "html",
+      "label": "Button: “Were there academic experiences that tr…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">Were there academic experiences that translate into how you design games today?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e18",
+      "kind": "html",
+      "label": "Button: “How do you validate a concept before al…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">How do you validate a concept before allocating serious development resources?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e19",
+      "kind": "html",
+      "label": "Button: “What frameworks do you use for prioriti…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">What frameworks do you use for prioritization?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e20",
+      "kind": "html",
+      "label": "Button: “How do you balance retention mechanics …”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">How do you balance retention mechanics with monetization strategy?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e21",
+      "kind": "html",
+      "label": "Button: “How do you handle post-launch data inte…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">How do you handle post-launch data interpretation and iteration?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e22",
+      "kind": "html",
+      "label": "Button: “What advice would you give students who…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">What advice would you give students who want to transition into product leadership?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e23",
+      "kind": "text",
+      "label": "Button: “Login”",
+      "group": "Page",
+      "value": "Login"
+    },
+    {
+      "id": "e24",
+      "kind": "html",
+      "label": "LI: “oox menu”",
+      "group": "Page",
+      "value": "<span>oox menu</span>"
+    },
+    {
+      "id": "e25",
+      "kind": "image",
+      "label": "Image: Konstantin Đuričković",
+      "group": "Page",
+      "value": "/wp-content/uploads/2026/03/DSC06574k-scaled.webp"
+    },
+    {
+      "id": "e26",
+      "kind": "imageAlt",
+      "label": "Alt for Konstantin Đuričković",
+      "group": "Page",
+      "value": "Konstantin Đuričković"
+    }
+  ]
+}

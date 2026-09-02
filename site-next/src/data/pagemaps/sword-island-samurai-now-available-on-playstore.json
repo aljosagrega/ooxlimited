@@ -1,0 +1,382 @@
+{
+  "entries": [
+    {
+      "id": "e1",
+      "kind": "text",
+      "label": "H2: “Table of Contents”",
+      "group": "Page",
+      "value": "Table of Contents"
+    },
+    {
+      "id": "e2",
+      "kind": "text",
+      "label": "H2: “Recent posts”",
+      "group": "Recent posts",
+      "value": "Recent posts"
+    },
+    {
+      "id": "e3",
+      "kind": "html",
+      "label": "H3: “Rapid Prototyping in Game Development: A Studio’s Guide”",
+      "group": "Recent posts",
+      "value": "<a href=\"/rapid-prototyping-game-development-2/\">Rapid Prototyping in Game Development: A Studio’s Guide</a>"
+    },
+    {
+      "id": "e4",
+      "kind": "html",
+      "label": "H3: “From Idea to Playable: What a Game Prototyping Studio Actua…”",
+      "group": "Recent posts",
+      "value": "<a href=\"/game-prototyping-studio-deliverables/\">From Idea to Playable: What a Game Prototyping Studio Actually Delivers</a>"
+    },
+    {
+      "id": "e5",
+      "kind": "html",
+      "label": "H3: “Mobile Game Prototype Cost”",
+      "group": "Recent posts",
+      "value": "<a href=\"/how-much-does-a-mobile-game-prototype-cost-2-2/\">Mobile Game Prototype Cost</a>"
+    },
+    {
+      "id": "e6",
+      "kind": "text",
+      "label": "FIGCAPTION: “Sword Island: Samurai gameplay showcasing combat, enemies, …”",
+      "group": "Sword Island: Samurai Is Now Available …",
+      "value": "Sword Island: Samurai gameplay showcasing combat, enemies, and progression systems."
+    },
+    {
+      "id": "e7",
+      "kind": "text",
+      "label": "H2: “A New Mobile Game From OOX Limited”",
+      "group": "A New Mobile Game From OOX Limited",
+      "value": "A New Mobile Game From OOX Limited"
+    },
+    {
+      "id": "e8",
+      "kind": "html",
+      "label": "P: “At OOX Limited, we build games around simple, readable, and…”",
+      "group": "A New Mobile Game From OOX Limited",
+      "value": "At <a href=\"/\">OOX Limited</a>, we build games around simple, readable, and engaging player loops. With <strong>Sword Island: Samurai</strong>, the goal was to create a mobile game that feels easy to understand from the first session, but still gives players enough progression, challenge, and variety to keep coming back."
+    },
+    {
+      "id": "e9",
+      "kind": "text",
+      "label": "P: “The game takes players to Samurai Island, where every fight…”",
+      "group": "A New Mobile Game From OOX Limited",
+      "value": "The game takes players to Samurai Island, where every fight pushes them further through new enemies, tougher missions, and stronger upgrades. Instead of overcomplicating the experience, the design focuses on direct action, visible progress, and a clear sense of power growth."
+    },
+    {
+      "id": "e10",
+      "kind": "html",
+      "label": "P: “For us, this release also reflects how we approach mobile g…”",
+      "group": "A New Mobile Game From OOX Limited",
+      "value": "For us, this release also reflects how we approach <a href=\"/mobile-game-development/\">mobile game development</a>: build around a strong core mechanic, test the player experience, and keep improving the systems that make the game feel satisfying."
+    },
+    {
+      "id": "e11",
+      "kind": "text",
+      "label": "H2: “Built Around Fast, Satisfying Combat”",
+      "group": "Built Around Fast, Satisfying Combat",
+      "value": "Built Around Fast, Satisfying Combat"
+    },
+    {
+      "id": "e12",
+      "kind": "html",
+      "label": "P: “The core of Sword Island: Samurai is its dynamic combat sys…”",
+      "group": "Built Around Fast, Satisfying Combat",
+      "value": "The core of <strong>Sword Island: Samurai</strong> is its dynamic combat system. Each battle is designed to feel immediate and rewarding, with damage output increasing as players continue fighting and progressing through the game."
+    },
+    {
+      "id": "e13",
+      "kind": "text",
+      "label": "P: “This kind of combat loop works well for mobile because it g…”",
+      "group": "Built Around Fast, Satisfying Combat",
+      "value": "This kind of combat loop works well for mobile because it gives players quick feedback. Every strike, upgrade, and victory creates a visible sense of momentum. The player does not need a long tutorial to understand what matters. Fight, improve, progress, and take on the next challenge."
+    },
+    {
+      "id": "e14",
+      "kind": "text",
+      "label": "FIGCAPTION: “Dynamic combat designed for fast mobile gameplay and clear …”",
+      "group": "Built Around Fast, Satisfying Combat",
+      "value": "Dynamic combat designed for fast mobile gameplay and clear progression."
+    },
+    {
+      "id": "e15",
+      "kind": "text",
+      "label": "H2: “50+ Weapons for Different Play Styles”",
+      "group": "50+ Weapons for Different Play Styles",
+      "value": "50+ Weapons for Different Play Styles"
+    },
+    {
+      "id": "e16",
+      "kind": "html",
+      "label": "P: “One of the key parts of the game is the weapon system. Swor…”",
+      "group": "50+ Weapons for Different Play Styles",
+      "value": "One of the key parts of the game is the weapon system. <strong>Sword Island: Samurai</strong> includes more than 50 unique weapons, each created to give players a different sense of style, progression, and combat impact."
+    },
+    {
+      "id": "e17",
+      "kind": "text",
+      "label": "P: “Weapons are not only visual collectibles. They support the …”",
+      "group": "50+ Weapons for Different Play Styles",
+      "value": "Weapons are not only visual collectibles. They support the feeling of growth throughout the game, giving players more ways to shape how they move through Samurai Island and face stronger enemies."
+    },
+    {
+      "id": "e18",
+      "kind": "text",
+      "label": "P: “The game also includes stylish accessories, including hats,…”",
+      "group": "50+ Weapons for Different Play Styles",
+      "value": "The game also includes stylish accessories, including hats, that help boost damage while giving players another way to personalize their samurai."
+    },
+    {
+      "id": "e19",
+      "kind": "text",
+      "label": "FIGCAPTION: “Over 50 weapons and accessories support progression, strate…”",
+      "group": "50+ Weapons for Different Play Styles",
+      "value": "Over 50 weapons and accessories support progression, strategy, and player style."
+    },
+    {
+      "id": "e20",
+      "kind": "text",
+      "label": "H2: “Progression That Keeps the Game Moving”",
+      "group": "Progression That Keeps the Game Moving",
+      "value": "Progression That Keeps the Game Moving"
+    },
+    {
+      "id": "e21",
+      "kind": "text",
+      "label": "P: “The journey through Samurai Island becomes more challenging…”",
+      "group": "Progression That Keeps the Game Moving",
+      "value": "The journey through Samurai Island becomes more challenging as players advance. New enemies, obstacles, missions, and bosses are introduced across different levels, keeping the experience active and varied."
+    },
+    {
+      "id": "e22",
+      "kind": "text",
+      "label": "P: “This structure gives the game a simple but important rhythm…”",
+      "group": "Progression That Keeps the Game Moving",
+      "value": "This structure gives the game a simple but important rhythm: the player fights, improves, unlocks more power, and faces the next challenge. It is a progression loop that fits naturally with mobile play sessions because it rewards both short bursts of play and longer runs."
+    },
+    {
+      "id": "e23",
+      "kind": "text",
+      "label": "P: “For players who enjoy competition, the leaderboard adds ano…”",
+      "group": "Progression That Keeps the Game Moving",
+      "value": "For players who enjoy competition, the leaderboard adds another layer of motivation. Collecting fragments and building damage points creates a clear reason to keep improving and compare progress with others."
+    },
+    {
+      "id": "e24",
+      "kind": "text",
+      "label": "FIGCAPTION: “Level progression, missions, enemies, and bosses keep the e…”",
+      "group": "Progression That Keeps the Game Moving",
+      "value": "Level progression, missions, enemies, and bosses keep the experience evolving."
+    },
+    {
+      "id": "e25",
+      "kind": "text",
+      "label": "H2: “What This Release Means for Our Studio”",
+      "group": "What This Release Means for Our Studio",
+      "value": "What This Release Means for Our Studio"
+    },
+    {
+      "id": "e26",
+      "kind": "html",
+      "label": "P: “For OOX Limited, Sword Island: Samurai is more than a relea…”",
+      "group": "What This Release Means for Our Studio",
+      "value": "For OOX Limited, <strong>Sword Island: Samurai</strong> is more than a release announcement. It is a practical example of how our team approaches game production, mobile-first design, and player-focused iteration."
+    },
+    {
+      "id": "e27",
+      "kind": "html",
+      "label": "P: “As a game development studio, we work across different part…”",
+      "group": "What This Release Means for Our Studio",
+      "value": "As a <a href=\"/\">game development studio</a>, we work across different parts of the production process, from <a href=\"/rapid-prototyping/\">rapid prototyping</a> and early validation to full production and launch support. Projects like this help us keep improving the way we build, test, and refine mobile game systems."
+    },
+    {
+      "id": "e28",
+      "kind": "text",
+      "label": "P: “Build. Test. Improve. Launch.”",
+      "group": "What This Release Means for Our Studio",
+      "value": "Build. Test. Improve. Launch."
+    },
+    {
+      "id": "e29",
+      "kind": "text",
+      "label": "P: “That process is central to how we think about both games an…”",
+      "group": "What This Release Means for Our Studio",
+      "value": "That process is central to how we think about both games and apps. Strong products rarely come from adding more and more features. They come from understanding the core experience and making it work clearly."
+    },
+    {
+      "id": "e30",
+      "kind": "text",
+      "label": "H2: “Play Sword Island: Samurai”",
+      "group": "Play Sword Island: Samurai",
+      "value": "Play Sword Island: Samurai"
+    },
+    {
+      "id": "e31",
+      "kind": "html",
+      "label": "P: “Sword Island: Samurai is free to play and available now on …”",
+      "group": "Play Sword Island: Samurai",
+      "value": "<strong>Sword Island: Samurai</strong> is free to play and available now on Google Play."
+    },
+    {
+      "id": "e32",
+      "kind": "text",
+      "label": "P: “Step onto Samurai Island, collect weapons, defeat bosses, c…”",
+      "group": "Play Sword Island: Samurai",
+      "value": "Step onto Samurai Island, collect weapons, defeat bosses, climb the leaderboard, and build your path toward becoming the ultimate samurai warrior."
+    },
+    {
+      "id": "e33",
+      "kind": "text",
+      "label": "P: “Note: Replace this button link with the exact Sword Island:…”",
+      "group": "Play Sword Island: Samurai",
+      "value": "Note: Replace this button link with the exact Sword Island: Samurai Google Play URL from your Play Console or live store listing."
+    },
+    {
+      "id": "e34",
+      "kind": "text",
+      "label": "H2: “Building a Mobile Game or App?”",
+      "group": "Building a Mobile Game or App?",
+      "value": "Building a Mobile Game or App?"
+    },
+    {
+      "id": "e35",
+      "kind": "text",
+      "label": "P: “If you are working on a game idea, app concept, or early-st…”",
+      "group": "Building a Mobile Game or App?",
+      "value": "If you are working on a game idea, app concept, or early-stage product, OOX Limited can help you move from idea to playable prototype and from prototype to full production."
+    },
+    {
+      "id": "e36",
+      "kind": "html",
+      "label": "P: “Our team supports mobile game development, rapid prototypin…”",
+      "group": "Building a Mobile Game or App?",
+      "value": "Our team supports <a href=\"/mobile-game-development/\">mobile game development</a>, <a href=\"/rapid-prototyping/\">rapid prototyping</a>, <a href=\"/app-development/\">app development</a>, and <a href=\"/full-cycle-development/\">full-cycle development</a> for teams that want to build with more clarity from the start."
+    },
+    {
+      "id": "e37",
+      "kind": "text",
+      "label": "Button: “Login”",
+      "group": "Page",
+      "value": "Login"
+    },
+    {
+      "id": "e38",
+      "kind": "html",
+      "label": "LI: “oox menu”",
+      "group": "Page",
+      "value": "<span>oox menu</span>"
+    },
+    {
+      "id": "e39",
+      "kind": "image",
+      "label": "Image: mobile game development team",
+      "group": "Recent posts",
+      "value": "/wp-content/uploads/2026/07/DSC06489-768x1152.jpg"
+    },
+    {
+      "id": "e40",
+      "kind": "imageAlt",
+      "label": "Alt for mobile game development team",
+      "group": "Recent posts",
+      "value": "mobile game development team"
+    },
+    {
+      "id": "e41",
+      "kind": "image",
+      "label": "Image: Read more",
+      "group": "Recent posts",
+      "value": "/wp-content/uploads/2026/03/arrowr.png"
+    },
+    {
+      "id": "e42",
+      "kind": "imageAlt",
+      "label": "Alt for Read more",
+      "group": "Recent posts",
+      "value": "Read more"
+    },
+    {
+      "id": "e43",
+      "kind": "image",
+      "label": "Image: Office Photos OOX Limited",
+      "group": "Recent posts",
+      "value": "/wp-content/uploads/2026/03/c7f806ba5aa0b941cf5c248e564b0d3d12a19406-768x512.jpg"
+    },
+    {
+      "id": "e44",
+      "kind": "imageAlt",
+      "label": "Alt for Office Photos OOX Limited",
+      "group": "Recent posts",
+      "value": "Office Photos OOX Limited"
+    },
+    {
+      "id": "e45",
+      "kind": "image",
+      "label": "Image: Mobile Game Prototype Cost",
+      "group": "Recent posts",
+      "value": "/wp-content/uploads/2026/05/20260226-DSC06230-768x512.jpg"
+    },
+    {
+      "id": "e46",
+      "kind": "imageAlt",
+      "label": "Alt for Mobile Game Prototype Cost",
+      "group": "Recent posts",
+      "value": "Mobile Game Prototype Cost"
+    },
+    {
+      "id": "e47",
+      "kind": "image",
+      "label": "Image: Sword Island Samurai mobile game hero a…",
+      "group": "Sword Island: Samurai Is Now Available …",
+      "value": "/wp-content/uploads/2024/04/Sword-island-samurai-sajt-57.webp"
+    },
+    {
+      "id": "e48",
+      "kind": "imageAlt",
+      "label": "Alt for Sword Island Samurai mobile g…",
+      "group": "Sword Island: Samurai Is Now Available …",
+      "value": "Sword Island Samurai mobile game hero artwork by OOX Limited"
+    },
+    {
+      "id": "e49",
+      "kind": "image",
+      "label": "Image: Sword Island Samurai dynamic combat gam…",
+      "group": "Built Around Fast, Satisfying Combat",
+      "value": "/wp-content/uploads/2026/04/Samurai_Island_Store1.webp"
+    },
+    {
+      "id": "e50",
+      "kind": "imageAlt",
+      "label": "Alt for Sword Island Samurai dynamic …",
+      "group": "Built Around Fast, Satisfying Combat",
+      "value": "Sword Island Samurai dynamic combat gameplay on mobile"
+    },
+    {
+      "id": "e51",
+      "kind": "image",
+      "label": "Image: Sword Island Samurai weapon selection a…",
+      "group": "50+ Weapons for Different Play Styles",
+      "value": "/wp-content/uploads/2026/04/Samurai_Island_Store3.webp"
+    },
+    {
+      "id": "e52",
+      "kind": "imageAlt",
+      "label": "Alt for Sword Island Samurai weapon s…",
+      "group": "50+ Weapons for Different Play Styles",
+      "value": "Sword Island Samurai weapon selection and upgrade system"
+    },
+    {
+      "id": "e53",
+      "kind": "image",
+      "label": "Image: Sword Island Samurai mobile game level …",
+      "group": "Progression That Keeps the Game Moving",
+      "value": "/wp-content/uploads/2026/04/Samurai_Island_Store4.webp"
+    },
+    {
+      "id": "e54",
+      "kind": "imageAlt",
+      "label": "Alt for Sword Island Samurai mobile g…",
+      "group": "Progression That Keeps the Game Moving",
+      "value": "Sword Island Samurai mobile game level progression screen"
+    }
+  ]
+}

@@ -1,0 +1,284 @@
+{
+  "entries": [
+    {
+      "id": "e1",
+      "kind": "text",
+      "label": "H2: “Milica Raketić”",
+      "group": "Page",
+      "value": "Milica Raketić"
+    },
+    {
+      "id": "e2",
+      "kind": "html",
+      "label": "P: “Milica Raketić works across branding, growth, content, and …”",
+      "group": "Page",
+      "value": "Milica Raketić works across branding, growth, content, and internal operations at <a href=\"/\">OOX</a>, combining creative thinking with strategic execution. With a background in concept and c<a href=\"https://en.wikipedia.org/wiki/Character_design\">haracter design</a>, she approaches branding through storytelling, emotion, and strong visual identity, while keeping communication clear, human, and consistent."
+    },
+    {
+      "id": "e3",
+      "kind": "text",
+      "label": "P: “Her role naturally connects multiple parts of the studio, f…”",
+      "group": "Page",
+      "value": "Her role naturally connects multiple parts of the studio, from marketing and content to team coordination and day-to-day operations, making her one of the key people helping OOX stay both organized and recognizable."
+    },
+    {
+      "id": "e4",
+      "kind": "text",
+      "label": "H4: “SKILLS”",
+      "group": "Page",
+      "value": "SKILLS"
+    },
+    {
+      "id": "e5",
+      "kind": "text",
+      "label": "LI: “Brand Strategy”",
+      "group": "Page",
+      "value": "Brand Strategy"
+    },
+    {
+      "id": "e6",
+      "kind": "text",
+      "label": "LI: “Creative Direction”",
+      "group": "Page",
+      "value": "Creative Direction"
+    },
+    {
+      "id": "e7",
+      "kind": "text",
+      "label": "LI: “Growth Strategy”",
+      "group": "Page",
+      "value": "Growth Strategy"
+    },
+    {
+      "id": "e8",
+      "kind": "text",
+      "label": "LI: “Linkedin Marketing”",
+      "group": "Page",
+      "value": "Linkedin Marketing"
+    },
+    {
+      "id": "e9",
+      "kind": "text",
+      "label": "LI: “Concept Art”",
+      "group": "Page",
+      "value": "Concept Art"
+    },
+    {
+      "id": "e10",
+      "kind": "text",
+      "label": "LI: “Social Media Managment”",
+      "group": "Page",
+      "value": "Social Media Managment"
+    },
+    {
+      "id": "e11",
+      "kind": "text",
+      "label": "H4: “PROGRAMS”",
+      "group": "Page",
+      "value": "PROGRAMS"
+    },
+    {
+      "id": "e12",
+      "kind": "text",
+      "label": "LI: “Adobe Photoshop”",
+      "group": "Page",
+      "value": "Adobe Photoshop"
+    },
+    {
+      "id": "e13",
+      "kind": "text",
+      "label": "LI: “Figma”",
+      "group": "Page",
+      "value": "Figma"
+    },
+    {
+      "id": "e14",
+      "kind": "text",
+      "label": "LI: “Google Analytics”",
+      "group": "Page",
+      "value": "Google Analytics"
+    },
+    {
+      "id": "e15",
+      "kind": "text",
+      "label": "LI: “Meta Business Suite”",
+      "group": "Page",
+      "value": "Meta Business Suite"
+    },
+    {
+      "id": "e16",
+      "kind": "text",
+      "label": "LI: “Affinity”",
+      "group": "Page",
+      "value": "Affinity"
+    },
+    {
+      "id": "e17",
+      "kind": "text",
+      "label": "H2: “Q&A”",
+      "group": "Page",
+      "value": "Q&A"
+    },
+    {
+      "id": "e18",
+      "kind": "html",
+      "label": "Button: “What originally drew you to concept and…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">What originally drew you to concept and character design?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e19",
+      "kind": "text",
+      "label": "P: “I stumbled into it completely by accident. At the time, I w…”",
+      "group": "Page",
+      "value": "I stumbled into it completely by accident. At the time, I was studying mathematics while drawing in my free time. One day, a colleague mentioned a brand-new university program focused on concept and character design. That same day, I left math school and started preparing for the entrance exam. Looking back, it was probably the easiest major life decision I’ve ever made."
+    },
+    {
+      "id": "e20",
+      "kind": "html",
+      "label": "Button: “At what point did you realize you were …”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">At what point did you realize you were equally interested in branding and growth?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e21",
+      "kind": "text",
+      "label": "P: “Probably when I realized I enjoy building the bigger pictur…”",
+      "group": "Page",
+      "value": "Probably when I realized I enjoy building the bigger picture just as much as creating the visuals themselves. I became interested in how ideas grow, how people connect with them, and why some projects stay memorable while others disappear, even if they look good. Branding and growth felt like the place where creativity, psychology, and strategy all meet."
+    },
+    {
+      "id": "e22",
+      "kind": "html",
+      "label": "Button: “Do you approach branding more emotional…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">Do you approach branding more emotionally or strategically?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e23",
+      "kind": "text",
+      "label": "P: “Both. Good branding cannot exist without emotion, but emoti…”",
+      "group": "Page",
+      "value": "Both. Good branding cannot exist without emotion, but emotion without strategy rarely survives. People connect emotionally first, while strategy determines how, when, and why that connection happens."
+    },
+    {
+      "id": "e24",
+      "kind": "html",
+      "label": "Button: “Favorite quote?”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">Favorite quote?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e25",
+      "kind": "html",
+      "label": "Button: “How did your background in concept art …”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">How did your background in concept art shape the way you approach branding today?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e26",
+      "kind": "text",
+      "label": "P: “Concept art teaches you far more than drawing. It teaches y…”",
+      "group": "Page",
+      "value": "Concept art teaches you far more than drawing. It teaches you how to think, how to communicate emotion, movement, atmosphere, and vision. I think it shaped my ability to hear an idea and immediately start visualizing how to bring it into the real world in a way people can actually feel and connect with."
+    },
+    {
+      "id": "e27",
+      "kind": "html",
+      "label": "Button: “Were there specific projects or experie…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">Were there specific projects or experiences that pushed you toward marketing and growth work?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e28",
+      "kind": "text",
+      "label": "P: “Honestly, every single one of them. I didn’t learn marketin…”",
+      "group": "Page",
+      "value": "Honestly, every single one of them. I didn’t learn marketing in a traditional way. I started as an assistant without really knowing much, and learned everything through hands-on work, problem-solving, and figuring things out along the way."
+    },
+    {
+      "id": "e29",
+      "kind": "html",
+      "label": "Button: “What makes a studio brand feel authenti…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">What makes a studio brand feel authentic instead of “corporate”?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e30",
+      "kind": "text",
+      "label": "P: “This might sound overly simple, but honestly; the courage n…”",
+      "group": "Page",
+      "value": "This might sound overly simple, but honestly; the courage not to look and sound exactly like everyone else."
+    },
+    {
+      "id": "e31",
+      "kind": "html",
+      "label": "Button: “How do you balance creativity with cons…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">How do you balance creativity with consistency in brand communication?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e32",
+      "kind": "text",
+      "label": "P: “Strong branding creates enough structure to stay recognizab…”",
+      "group": "Page",
+      "value": "Strong branding creates enough structure to stay recognizable, while still leaving room for creativity and experimentation inside that structure."
+    },
+    {
+      "id": "e33",
+      "kind": "html",
+      "label": "Button: “What advice would you give to artists w…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">What advice would you give to artists who want to transition into broader creative or strategic roles?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e34",
+      "kind": "text",
+      "label": "P: “Stop thinking only about execution and start thinking about…”",
+      "group": "Page",
+      "value": "Stop thinking only about execution and start thinking about creation. Execution is completing the task you were given. Creation is asking yourself how you can push the idea further, improve it, reshape it, or make people see it differently."
+    },
+    {
+      "id": "e35",
+      "kind": "html",
+      "label": "Button: “Where do you see your role evolving in …”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">Where do you see your role evolving in the next few years?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e36",
+      "kind": "text",
+      "label": "P: “Five years ago, I had no idea I’d end up where I am today. …”",
+      "group": "Page",
+      "value": "Five years ago, I had no idea I’d end up where I am today. As long as I keep following my intuition, working with good people, and staying true to my principles, I’m happy to let the wind decide the direction."
+    },
+    {
+      "id": "e37",
+      "kind": "text",
+      "label": "Button: “Login”",
+      "group": "Page",
+      "value": "Login"
+    },
+    {
+      "id": "e38",
+      "kind": "html",
+      "label": "LI: “oox menu”",
+      "group": "Page",
+      "value": "<span>oox menu</span>"
+    },
+    {
+      "id": "e39",
+      "kind": "image",
+      "label": "Image: Milica Raketić",
+      "group": "Page",
+      "value": "/wp-content/uploads/2026/03/DSC06480-1-scaled.jpg"
+    },
+    {
+      "id": "e40",
+      "kind": "imageAlt",
+      "label": "Alt for Milica Raketić",
+      "group": "Page",
+      "value": "Milica Raketić"
+    }
+  ]
+}

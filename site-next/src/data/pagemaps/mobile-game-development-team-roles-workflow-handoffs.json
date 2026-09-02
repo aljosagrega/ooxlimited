@@ -1,0 +1,634 @@
+{
+  "entries": [
+    {
+      "id": "e1",
+      "kind": "text",
+      "label": "H2: “Table of Contents”",
+      "group": "Page",
+      "value": "Table of Contents"
+    },
+    {
+      "id": "e2",
+      "kind": "text",
+      "label": "H2: “Recent posts”",
+      "group": "Recent posts",
+      "value": "Recent posts"
+    },
+    {
+      "id": "e3",
+      "kind": "html",
+      "label": "H3: “What a Mobile Game Vertical Slice Should Prove Before Produ…”",
+      "group": "Recent posts",
+      "value": "<a href=\"/mobile-game-vertical-slice-prove-before-production-2/\">What a Mobile Game Vertical Slice Should Prove Before Production</a>"
+    },
+    {
+      "id": "e4",
+      "kind": "html",
+      "label": "H3: “The Prototyping-First Studio: Why Validation Comes Before”",
+      "group": "Recent posts",
+      "value": "<a href=\"/prototyping-first-studio-validation-before-building-2026/\">The Prototyping-First Studio: Why Validation Comes Before</a>"
+    },
+    {
+      "id": "e5",
+      "kind": "html",
+      "label": "H3: “Mobile Game Vertical Slice: What to Prove Before Production”",
+      "group": "Recent posts",
+      "value": "<a href=\"/mobile-game-vertical-slice-prove-before-production/\">Mobile Game Vertical Slice: What to Prove Before Production</a>"
+    },
+    {
+      "id": "e6",
+      "kind": "text",
+      "label": "H1: “How a Mobile Game Development Team Works: Roles, Workflow, …”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "How a Mobile Game Development Team Works: Roles, Workflow, and Handoffs"
+    },
+    {
+      "id": "e7",
+      "kind": "text",
+      "label": "P: “Most mobile games fail. Not because the ideas were bad. Not…”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "Most mobile games fail. Not because the ideas were bad. Not because the market was wrong. They fail because the team that built them could not move work between its own roles without losing time, clarity, and quality at every handoff."
+    },
+    {
+      "id": "e8",
+      "kind": "text",
+      "label": "P: “No one builds a mobile game by working in parallel. Roles p…”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "No one builds a mobile game by working in parallel. Roles pass work to each other - designer to engineer, artist to engineer, engineer to QA, production to live operations. Every one of those handoffs is a failure point."
+    },
+    {
+      "id": "e9",
+      "kind": "text",
+      "label": "P: “Fewer than one in ten mobile game projects reach commercial…”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "Fewer than one in ten mobile game projects reach commercial viability. A 2026 study of 112 completed projects found that teams investing 30 to 40 percent of development time in pre-production experienced 65 percent fewer rebuilds. The difference is not talent. The difference is process."
+    },
+    {
+      "id": "e10",
+      "kind": "text",
+      "label": "H2: “Introduction: Why Most Mobile Game Development Teams Underp…”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "Introduction: Why Most Mobile Game Development Teams Underperform"
+    },
+    {
+      "id": "e11",
+      "kind": "text",
+      "label": "P: “Most teams structure themselves around disciplines. The bes…”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "Most teams structure themselves around disciplines. The best teams structure themselves around handoffs. That distinction - invisible on an org chart, obvious in a post-mortem - is what separates projects that ship on time from projects that burn through runway."
+    },
+    {
+      "id": "e12",
+      "kind": "text",
+      "label": "P: “The common explanation points outward: the idea was not str…”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "The common explanation points outward: the idea was not strong enough, the market shifted, the marketing budget was insufficient. But a mobile game development team is a production system. Every handoff - designer to engineer, artist to engineer, QA to developer, production to live ops - is a point where clarity either survives or degrades."
+    },
+    {
+      "id": "e13",
+      "kind": "text",
+      "label": "P: “When teams do not protect these handoffs, timelines stretch…”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "When teams do not protect these handoffs, timelines stretch and features get rebuilt. Teams running two cross-discipline play-syncs per week delivered 1.45 times faster in the 2026 study. The variable is whether the team treats handoffs as first-class deliverables."
+    },
+    {
+      "id": "e14",
+      "kind": "text",
+      "label": "H2: “What Is a Mobile Game Development Team?”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "What Is a Mobile Game Development Team?"
+    },
+    {
+      "id": "e15",
+      "kind": "text",
+      "label": "P: “A mobile game development team is a cross-functional group …”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "A mobile game development team is a cross-functional group organised to design, build, test, and maintain a game for iOS and Android. The roles are standard. What separates functional teams from dysfunctional ones is how those roles connect."
+    },
+    {
+      "id": "e16",
+      "kind": "text",
+      "label": "P: “The core roles and what each one actually produces:”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "The core roles and what each one actually produces:"
+    },
+    {
+      "id": "e17",
+      "kind": "html",
+      "label": "LI: “Producer - Owns the timeline, budget, and scope. They run s…”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "<strong>Producer</strong> - Owns the timeline, budget, and scope. They run sprint planning, manage the backlog, and coordinate the release. An unrealistic plan compresses every subsequent handoff."
+    },
+    {
+      "id": "e18",
+      "kind": "html",
+      "label": "LI: “Game Designer - Defines what the player does and why it is …”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "<strong>Game Designer</strong> - Defines what the player does and why it is worth doing. The designer writes the game design document covering mechanics, progression, and monetisation. Everything else builds from their specification."
+    },
+    {
+      "id": "e19",
+      "kind": "html",
+      "label": "LI: “Engineer - Implements gameplay systems, integrates assets, …”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "<strong>Engineer</strong> - Implements gameplay systems, integrates assets, and optimises for device performance. In mobile, this is typically a Unity developer working in C#. The engineer is the integration point where design and art become a playable build."
+    },
+    {
+      "id": "e20",
+      "kind": "html",
+      "label": "LI: “Artist - Creates 2D and 3D assets, UI elements, characters,…”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "<strong>Artist</strong> - Creates 2D and 3D assets, UI elements, characters, and environments. Handoff quality - file formats, naming conventions, poly budgets - determines whether integration takes hours or days."
+    },
+    {
+      "id": "e21",
+      "kind": "html",
+      "label": "LI: “QA Tester - Validates every feature against the design spec…”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "<strong>QA Tester</strong> - Validates every feature against the design specification, tests across a device matrix, and logs bugs with reproduction steps. QA is the feedback loop that tells the team whether the build is ready."
+    },
+    {
+      "id": "e22",
+      "kind": "html",
+      "label": "LI: “Live Ops Specialist - Runs post-launch events, A/B tests, s…”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "<strong>Live Ops Specialist</strong> - Runs post-launch events, A/B tests, seasonal content, and retention systems. This is the fastest-growing role in mobile in 2026."
+    },
+    {
+      "id": "e23",
+      "kind": "text",
+      "label": "P: “Team size varies by studio type. An indie or prototype-stag…”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "Team size varies by studio type. An indie or prototype-stage team runs with 3 to 5 generalists. A mid-size studio operates at 8 to 15 people. A large live-service studio scales to 30 or more, with specialised sub-departments."
+    },
+    {
+      "id": "e24",
+      "kind": "html",
+      "label": "P: “The roles do not change across these sizes. The communicati…”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "The roles do not change across these sizes. The communication cost does. A <a href=\"/game-development-team/\">dedicated game development team</a> sharing a single process and toolchain avoids the fragmentation that inflates coordination overhead as headcount grows."
+    },
+    {
+      "id": "e25",
+      "kind": "text",
+      "label": "P: “The teams that ship on time and on quality are not the bigg…”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "The teams that ship on time and on quality are not the biggest. They are the ones that treat every handoff as a product in itself - something to be designed, agreed, and protected."
+    },
+    {
+      "id": "e26",
+      "kind": "text",
+      "label": "H2: “Why Team Structure Determines Your Game's Timeline”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "Why Team Structure Determines Your Game's Timeline"
+    },
+    {
+      "id": "e27",
+      "kind": "text",
+      "label": "P: “A team is a communication network, not a collection of tale…”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "A team is a communication network, not a collection of talent. Every additional role adds coordination cost. A team of 5 has 10 communication paths. A team of 9 has 36."
+    },
+    {
+      "id": "e28",
+      "kind": "text",
+      "label": "P: “The overhead is exponential. Brooks's Law applies directly:…”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "The overhead is exponential. Brooks's Law applies directly: adding people to a late project makes it later."
+    },
+    {
+      "id": "e29",
+      "kind": "text",
+      "label": "P: “When structure is unclear, specific failures compound:”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "When structure is unclear, specific failures compound:"
+    },
+    {
+      "id": "e30",
+      "kind": "text",
+      "label": "LI: “Designers write specifications engineers cannot implement b…”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "Designers write specifications engineers cannot implement because no technical validation happened during design."
+    },
+    {
+      "id": "e31",
+      "kind": "text",
+      "label": "LI: “Artists deliver assets that do not import cleanly because n…”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "Artists deliver assets that do not import cleanly because no one agreed on naming and format conventions."
+    },
+    {
+      "id": "e32",
+      "kind": "text",
+      "label": "LI: “Engineers build features QA cannot test because no one wrot…”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "Engineers build features QA cannot test because no one wrote acceptance criteria."
+    },
+    {
+      "id": "e33",
+      "kind": "text",
+      "label": "LI: “QA finds bugs in late builds that testing should have caugh…”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "QA finds bugs in late builds that testing should have caught earlier because the team deferred QA."
+    },
+    {
+      "id": "e34",
+      "kind": "text",
+      "label": "LI: “Producers cannot give accurate timelines because no single …”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "Producers cannot give accurate timelines because no single person owns the handoff points."
+    },
+    {
+      "id": "e35",
+      "kind": "text",
+      "label": "P: “Late-stage design changes ripple through art and code. Miss…”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "Late-stage design changes ripple through art and code. Missed soft-launch windows cascade into delayed revenue. Teams without cross-discipline playtests delivered 1.45 times slower. Teams without clear task-tracking missed 40 percent more sprint goals."
+    },
+    {
+      "id": "e36",
+      "kind": "text",
+      "label": "P: “Functional teams define exactly how work moves between role…”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "Functional teams define exactly how work moves between roles - and protect those handoffs with shared standards, written acceptance criteria, and regular cross-discipline synchronisation."
+    },
+    {
+      "id": "e37",
+      "kind": "text",
+      "label": "H2: “How a Mobile Game Development Team Operates”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "How a Mobile Game Development Team Operates"
+    },
+    {
+      "id": "e38",
+      "kind": "html",
+      "label": "P: “A mobile game moves through five stages. At each stage, dif…”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "A mobile game moves through five stages. At each stage, different roles lead, different handoffs dominate, and different failure modes emerge. The stages follow a structure <a href=\"https://learn.unity.com/pathway/game-development/unit/iterate-on-your-game/tutorial/the-games-production-cycle?version=6.3\">recognised across the industry</a>. What determines whether the game ships is the specificity with which a team manages the handoffs inside each stage."
+    },
+    {
+      "id": "e39",
+      "kind": "text",
+      "label": "H3: “Step 1: Pre-Production - The Producer, Designer, and Engine…”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "Step 1: Pre-Production - The Producer, Designer, and Engineer Align"
+    },
+    {
+      "id": "e40",
+      "kind": "text",
+      "label": "P: “Pre-production defines the game without building it. The de…”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "Pre-production defines the game without building it. The designer writes the game design document, the producer builds the production plan, and the engineer builds a prototype to validate the riskiest gameplay assumption."
+    },
+    {
+      "id": "e41",
+      "kind": "text",
+      "label": "P: “Three handoffs define this phase. First, designer to engine…”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "Three handoffs define this phase. First, designer to engineer: the GDD becomes a build task list. If the GDD is vague, the engineer guesses - and guesses compound."
+    },
+    {
+      "id": "e42",
+      "kind": "text",
+      "label": "P: “Second, engineer to designer and producer: the prototype pr…”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "Second, engineer to designer and producer: the prototype produces data. The decision at this point is kill, pivot, or scale. Third, producer to everyone: the production plan sets the timeline. An unrealistic timeline compresses every subsequent handoff."
+    },
+    {
+      "id": "e43",
+      "kind": "html",
+      "label": "P: “The dominant failure mode is skipping pre-production entire…”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "The dominant failure mode is skipping pre-production entirely. Teams that jump into production without validating the core loop build on an untested foundation - the single most expensive mistake in the <a href=\"/service/mobile-game-development/\">game development process</a>, leading to 65 percent more rebuilds. A <a href=\"/service/rapid-prototyping/\">2- to 6-week prototype</a> answers the feasibility question before anyone commits to full production."
+    },
+    {
+      "id": "e44",
+      "kind": "text",
+      "label": "H3: “Step 2: Production - Where Artists, Engineers, and QA Inter…”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "Step 2: Production - Where Artists, Engineers, and QA Interlock"
+    },
+    {
+      "id": "e45",
+      "kind": "text",
+      "label": "P: “Production is full-scale building - the longest phase, typi…”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "Production is full-scale building - the longest phase, typically 6 to 18 months for a mid-size title. The engineer is the integration bottleneck."
+    },
+    {
+      "id": "e46",
+      "kind": "text",
+      "label": "P: “Three handoffs dominate. First, artist to engineer: the hig…”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "Three handoffs dominate. First, artist to engineer: the highest-volume handoff in the cycle. Clean handoffs - agreed formats, engine-ready exports - prevent rework. Dirty handoffs cause cascading delays."
+    },
+    {
+      "id": "e47",
+      "kind": "text",
+      "label": "P: “Second, designer to engineer: feature specifications become…”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "Second, designer to engineer: feature specifications become code. Cross-functional pods keep this loop tight. Third, engineer to QA: every feature enters testing against acceptance criteria. Bugs loop back until the feature passes."
+    },
+    {
+      "id": "e48",
+      "kind": "text",
+      "label": "P: “The dominant failure mode is siloed teams. Artists throw as…”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "The dominant failure mode is siloed teams. Artists throw assets over the wall. Engineers discover import problems days later. A single cross-discipline team reduces these gaps."
+    },
+    {
+      "id": "e49",
+      "kind": "text",
+      "label": "H3: “Step 3: Testing and Iteration - QA Hands Findings Back to D…”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "Step 3: Testing and Iteration - QA Hands Findings Back to Developers"
+    },
+    {
+      "id": "e50",
+      "kind": "text",
+      "label": "P: “Formal QA begins at alpha - feature-complete but unpolished…”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "Formal QA begins at alpha - feature-complete but unpolished - and continues through beta. QA runs functional, compatibility, and regression tests on every build."
+    },
+    {
+      "id": "e51",
+      "kind": "text",
+      "label": "P: “Three handoffs define testing. First, QA to engineer: bug r…”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "Three handoffs define testing. First, QA to engineer: bug reports with reproduction steps and device context. A precise report takes minutes. A vague one costs hours."
+    },
+    {
+      "id": "e52",
+      "kind": "text",
+      "label": "P: “Second, QA to designer: bugs related to design intent. The …”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "Second, QA to designer: bugs related to design intent. The designer decides whether to tune or redesign."
+    },
+    {
+      "id": "e53",
+      "kind": "text",
+      "label": "P: “Third, producer to stakeholders: the go or no-go decision. …”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "Third, producer to stakeholders: the go or no-go decision. Is the crash-free rate above 99.5 percent? Is device coverage acceptable?"
+    },
+    {
+      "id": "e54",
+      "kind": "text",
+      "label": "P: “The dominant failure mode is deferring QA until the end. Bu…”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "The dominant failure mode is deferring QA until the end. Bugs found late are exponentially more expensive. A design flaw caught in pre-production costs hours; the same flaw caught in beta costs weeks."
+    },
+    {
+      "id": "e55",
+      "kind": "text",
+      "label": "H3: “Step 4: Launch and Live Operations - The Team Shifts to Sus…”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "Step 4: Launch and Live Operations - The Team Shifts to Sustain Mode"
+    },
+    {
+      "id": "e56",
+      "kind": "text",
+      "label": "P: “The game ships. A soft launch validates retention and monet…”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "The game ships. A soft launch validates retention and monetisation. Live operations takes over post-launch - events, A/B tests, seasonal content, KPI monitoring. Engineering and art shift to a support cadence."
+    },
+    {
+      "id": "e57",
+      "kind": "text",
+      "label": "P: “Three handoffs define the transition. First, production to …”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "Three handoffs define the transition. First, production to live ops: the codebase, build pipeline, and content calendar. Without documentation, onboarding takes weeks."
+    },
+    {
+      "id": "e58",
+      "kind": "text",
+      "label": "P: “Second, data to design: Day 1, Day 7, and Day 30 retention …”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "Second, data to design: Day 1, Day 7, and Day 30 retention data feeds the content roadmap. Third, engineering to platform: every store update requires certification. A failed review sends the build back."
+    },
+    {
+      "id": "e59",
+      "kind": "text",
+      "label": "P: “The dominant failure mode is treating launch as the finish …”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "The dominant failure mode is treating launch as the finish line. Post-launch update velocity is what retains audiences, not pre-launch polish."
+    },
+    {
+      "id": "e60",
+      "kind": "html",
+      "label": "LI: “Rapid Prototyping in Game Development: How Indie Studios Va…”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "<a href=\"/rapid-prototyping-game-development/\">Rapid Prototyping in Game Development: How Indie Studios Validate Game Ideas Before Building</a>"
+    },
+    {
+      "id": "e61",
+      "kind": "html",
+      "label": "LI: “Mobile Game Development Outsourcing: Benefits, Risks, and S…”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "<a href=\"/mobile-game-development-outsourcing/\">Mobile Game Development Outsourcing: Benefits, Risks, and Smarter Alternatives</a>"
+    },
+    {
+      "id": "e62",
+      "kind": "html",
+      "label": "LI: “How to Choose the Right Mobile Game Development Partner in …”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "<a href=\"/how-to-choose-the-right-mobile-game-development-partner-in-2026-oox/\">How to Choose the Right Mobile Game Development Partner in 2026</a>"
+    },
+    {
+      "id": "e63",
+      "kind": "text",
+      "label": "H2: “How the Right Workflow Saves Time and Budget”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "How the Right Workflow Saves Time and Budget"
+    },
+    {
+      "id": "e64",
+      "kind": "text",
+      "label": "P: “A well-structured team wastes less. Every hour spent clarif…”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "A well-structured team wastes less. Every hour spent clarifying a vague specification or re-exporting a misnamed asset is an hour not spent building the game."
+    },
+    {
+      "id": "e65",
+      "kind": "text",
+      "label": "P: “What the right workflow prevents:”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "What the right workflow prevents:"
+    },
+    {
+      "id": "e66",
+      "kind": "html",
+      "label": "LI: “Rebuilds. Pre-production validation reduces rebuilds by 65 …”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "<strong>Rebuilds.</strong> Pre-production validation reduces rebuilds by 65 percent. Production does not spend months building on a broken foundation."
+    },
+    {
+      "id": "e67",
+      "kind": "html",
+      "label": "LI: “Integration delays. Agreed asset standards before productio…”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "<strong>Integration delays.</strong> Agreed asset standards before production prevent import failures. Modular assets and shared shader templates accelerate art pipelines by 25 to 40 percent."
+    },
+    {
+      "id": "e68",
+      "kind": "html",
+      "label": "LI: “Missed milestones. Structured sprint planning with clear ac…”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "<strong>Missed milestones.</strong> Structured sprint planning with clear acceptance criteria reduces missed sprint goals by 40 percent."
+    },
+    {
+      "id": "e69",
+      "kind": "html",
+      "label": "LI: “Launch-day crises. Continuous QA keeps the build stable. Au…”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "<strong>Launch-day crises.</strong> Continuous QA keeps the build stable. Automated nightly builds reduce integration conflicts by approximately 15 percent."
+    },
+    {
+      "id": "e70",
+      "kind": "html",
+      "label": "LI: “Live-operations chaos. A documented pipeline lets the live-…”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "<strong>Live-operations chaos.</strong> A documented pipeline lets the live-ops team onboard in days instead of weeks."
+    },
+    {
+      "id": "e71",
+      "kind": "text",
+      "label": "P: “The principle is straightforward: a mobile game development…”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "The principle is straightforward: a mobile game development team that treats handoffs as first-class deliverables spends less money, ships faster, and retains more flexibility when conditions change."
+    },
+    {
+      "id": "e72",
+      "kind": "text",
+      "label": "H2: “Final Thoughts”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "Final Thoughts"
+    },
+    {
+      "id": "e73",
+      "kind": "text",
+      "label": "P: “Headcount does not measure a mobile game development team. …”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "Headcount does not measure a mobile game development team. The clarity of its handoffs does."
+    },
+    {
+      "id": "e74",
+      "kind": "text",
+      "label": "P: “You can hire the best designer, the most experienced engine…”",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "You can hire the best designer, the most experienced engineer, and the most meticulous QA lead - and still ship late and over budget if the points where their work connects lack definition. The question is not whether you have enough people. It is whether every person knows exactly what they receive, what they produce, and who receives it next."
+    },
+    {
+      "id": "e75",
+      "kind": "text",
+      "label": "H2: “Ready to Start Building?”",
+      "group": "Ready to Start Building?",
+      "value": "Ready to Start Building?"
+    },
+    {
+      "id": "e76",
+      "kind": "html",
+      "label": "P: “OOX Limited brings together developers, designers, artists,…”",
+      "group": "Ready to Start Building?",
+      "value": "OOX Limited brings together developers, designers, artists, and QA specialists as one unified team - from prototype through launch and live operations. <a href=\"/contact-us/\">Tell us about your project.</a>"
+    },
+    {
+      "id": "e77",
+      "kind": "text",
+      "label": "Button: “Login”",
+      "group": "Page",
+      "value": "Login"
+    },
+    {
+      "id": "e78",
+      "kind": "html",
+      "label": "LI: “oox menu”",
+      "group": "Page",
+      "value": "<span>oox menu</span>"
+    },
+    {
+      "id": "e79",
+      "kind": "image",
+      "label": "Image: mobile game vertical slice",
+      "group": "Recent posts",
+      "value": "/wp-content/uploads/2026/08/DSC06517-768x1152.jpg"
+    },
+    {
+      "id": "e80",
+      "kind": "imageAlt",
+      "label": "Alt for mobile game vertical slice",
+      "group": "Recent posts",
+      "value": "mobile game vertical slice"
+    },
+    {
+      "id": "e81",
+      "kind": "image",
+      "label": "Image: Read more",
+      "group": "Recent posts",
+      "value": "/wp-content/uploads/2026/03/arrowr.png"
+    },
+    {
+      "id": "e82",
+      "kind": "imageAlt",
+      "label": "Alt for Read more",
+      "group": "Recent posts",
+      "value": "Read more"
+    },
+    {
+      "id": "e83",
+      "kind": "image",
+      "label": "Image: Office Photos OOX Limited",
+      "group": "Recent posts",
+      "value": "/wp-content/uploads/2026/03/d8d70c6789c6b5f6ea12d48bc4006f64f8be8019-768x512.jpg"
+    },
+    {
+      "id": "e84",
+      "kind": "imageAlt",
+      "label": "Alt for Office Photos OOX Limited",
+      "group": "Recent posts",
+      "value": "Office Photos OOX Limited"
+    },
+    {
+      "id": "e85",
+      "kind": "image",
+      "label": "Image: mobile game vertical slice",
+      "group": "Recent posts",
+      "value": "/wp-content/uploads/2026/07/20260226-DSC06235-768x512.jpg"
+    },
+    {
+      "id": "e86",
+      "kind": "imageAlt",
+      "label": "Alt for mobile game vertical slice",
+      "group": "Recent posts",
+      "value": "mobile game vertical slice"
+    },
+    {
+      "id": "e87",
+      "kind": "image",
+      "label": "Image: Two developers at a workspace - one wit…",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "https://images.unsplash.com/photo-1551434678-e076c223a692?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5OTQwMTJ8MHwxfHNlYXJjaHwzfHxzb2Z0d2FyZSUyMGRldmVsb3BtZW50JTIwdGVhbSUyMG9mZmljZXxlbnwxfDB8fHwxNzgzNDM4NDY4fDA&ixlib=rb-4.1.0&q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "e88",
+      "kind": "imageAlt",
+      "label": "Alt for Two developers at a workspace…",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "Two developers at a workspace - one with glasses coding at a monitor, natural light from a window, a small figurine and plant on the desk"
+    },
+    {
+      "id": "e89",
+      "kind": "image",
+      "label": "Image: Three team members collaborating around…",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "https://images.unsplash.com/photo-1556761175-b413da4baf72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5OTQwMTJ8MHwxfHNlYXJjaHw0fHxwcm9kdWN0JTIwdGVhbSUyMGxhcHRvcCUyMG9mZmljZXxlbnwxfDB8fHwxNzgzNDM4NjA4fDA&ixlib=rb-4.1.0&q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+      "id": "e90",
+      "kind": "imageAlt",
+      "label": "Alt for Three team members collaborat…",
+      "group": "How a Mobile Game Development Team Work…",
+      "value": "Three team members collaborating around a desk in a modern industrial office with exposed ceilings and natural light"
+    }
+  ]
+}

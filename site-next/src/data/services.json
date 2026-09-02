@@ -1,0 +1,142 @@
+[
+  {
+    "id": 666,
+    "slug": "real-time-vfx",
+    "ord": 0,
+    "title": "Real-Time VFX",
+    "excerpt": "High-quality visual effects that enhance gameplay clarity, feedback, and overall player experience.",
+    "thumbnail": {
+      "url": "/wp-content/uploads/2026/01/Group-6361.png",
+      "alt": "Group 6361"
+    },
+    "metaTitle": "Real-Time VFX Services | Mobile & Interactive Visual Effects",
+    "metaTitleRaw": "Real-Time VFX Services | Mobile & Interactive Visual Effects",
+    "metaDescription": "Real-time VFX for mobile games and apps. We create optimized visual effects that improve gameplay clarity, feedback, and performance."
+  },
+  {
+    "id": 667,
+    "slug": "game-video-ads",
+    "ord": 1,
+    "title": "Game Video ads",
+    "excerpt": "Engaging video ads and creatives designed to showcase gameplay and improve user acquisition performance.",
+    "thumbnail": {
+      "url": "/wp-content/uploads/2026/01/Group-6361.png",
+      "alt": "Group 6361"
+    },
+    "metaTitle": "Game Video Ads Services | Mobile Game Ads & Creatives",
+    "metaTitleRaw": "Game Video Ads Services | Mobile Game Ads & Creatives",
+    "metaDescription": "Game video ads services for mobile games. We create high-performing ad creatives that improve user acquisition and test concepts."
+  },
+  {
+    "id": 668,
+    "slug": "rapid-prototyping",
+    "ord": 2,
+    "title": "Rapid Prototyping",
+    "excerpt": "Fast, high-quality prototypes designed to test gameplay, UX, and technical feasibility before full development begins.",
+    "thumbnail": {
+      "url": "/wp-content/uploads/2026/01/Group-6361.png",
+      "alt": "Group 6361"
+    },
+    "metaTitle": "Rapid Prototyping Services | Mobile Prototype Development",
+    "metaTitleRaw": "Rapid Prototyping Services | Mobile Prototype Development",
+    "metaDescription": "Game prototyping services for studios, startups and investors. We build playable prototypes in 2–6 weeks to validate ideas, test mechanics and reduce development risk."
+  },
+  {
+    "id": 669,
+    "slug": "mobile-game-development",
+    "ord": 3,
+    "title": "Mobile Game Development",
+    "excerpt": "We build mobile games with strong gameplay systems, optimized performance, and scalable production pipelines.",
+    "thumbnail": {
+      "url": "/wp-content/uploads/2026/01/Group-6361.png",
+      "alt": "Group 6361"
+    },
+    "metaTitle": "Mobile Game Development Company | Mobile Game Development",
+    "metaTitleRaw": "Mobile Game Development Company | Mobile Game Development",
+    "metaDescription": "Mobile game development company specializing in iOS and Android games. We build scalable, high-quality mobile games."
+  },
+  {
+    "id": 670,
+    "slug": "co-development",
+    "ord": 4,
+    "title": "Co development",
+    "excerpt": "We work as an extension of your team, supporting specific areas of development while staying aligned with your workflow and production goals.",
+    "thumbnail": {
+      "url": "/wp-content/uploads/2026/01/Group-6361.png",
+      "alt": "Group 6361"
+    },
+    "metaTitle": "Co-Development Services for Games | Game Development Partner",
+    "metaTitleRaw": "Co-Development Services for Games | Game Development Partner",
+    "metaDescription": "Co-development services for games and mobile apps. Scale your team with experienced developers and designers working with your studio."
+  },
+  {
+    "id": 672,
+    "slug": "full-cycle-development",
+    "ord": 5,
+    "title": "Full Cycle Development",
+    "excerpt": "End-to-end game development from planning to launch. We handle engineering, art, systems, and polish to deliver production-ready results.",
+    "thumbnail": {
+      "url": "/wp-content/uploads/2026/01/Group-6361.png",
+      "alt": "Group 6361"
+    },
+    "metaTitle": "Full-Cycle Game Development Company | OOX Limited",
+    "metaTitleRaw": "Full-Cycle Game Development Company | OOX Limited",
+    "metaDescription": "Full-cycle development services from concept to launch. OOX builds scalable mobile games & apps with planning, art, and long-term support."
+  },
+  {
+    "id": 6968,
+    "slug": "art-design-art-direction",
+    "ord": 6,
+    "title": "Art Design & direction",
+    "excerpt": "Complete art support including concept art, UI design, characters, environments, and production-ready assets.",
+    "thumbnail": {
+      "url": "/wp-content/uploads/2026/01/Group-6361.png",
+      "alt": "Group 6361"
+    },
+    "metaTitle": "Art Design & Direction Services | OOX Limited",
+    "metaTitleRaw": "Art Design & Direction Services | OOX Limited",
+    "metaDescription": "Game art design and art direction services for mobile games. We create characters, environments, UI, and visual identity."
+  },
+  {
+    "id": 6970,
+    "slug": "app-development",
+    "ord": 7,
+    "title": "App Development",
+    "excerpt": "Custom mobile app development focused on usability, performance, and scalable architecture.",
+    "thumbnail": {
+      "url": "/wp-content/uploads/2026/01/Group-6361.png",
+      "alt": "Group 6361"
+    },
+    "metaTitle": "Mobile App Development Company | Custom App Development",
+    "metaTitleRaw": "Mobile App Development Company | Custom App Development",
+    "metaDescription": "Mobile app development company building scalable iOS and Android apps. We deliver custom mobile app development."
+  },
+  {
+    "id": 6975,
+    "slug": "platform-porting",
+    "ord": 8,
+    "title": "Platform Porting",
+    "excerpt": "Adapt your game to new platforms while maintaining performance, stability, and user experience across devices.",
+    "thumbnail": {
+      "url": "/wp-content/uploads/2026/01/Group-6361.png",
+      "alt": "Group 6361"
+    },
+    "metaTitle": "Platform Porting Services | Mobile & Cross-Platform Adaptation",
+    "metaTitleRaw": "Platform Porting Services | Mobile & Cross-Platform Adaptation",
+    "metaDescription": "Platform porting services for games and interactive apps. Adapt your product to iOS, Android, and cross-platform environments"
+  },
+  {
+    "id": 7036,
+    "slug": "animation-3d-modeling",
+    "ord": 9,
+    "title": "Animation & 3D modeling",
+    "excerpt": "High-quality visual effects that enhance gameplay clarity, feedback, and overall player experience.",
+    "thumbnail": {
+      "url": "/wp-content/uploads/2026/01/Group-6361.png",
+      "alt": "Group 6361"
+    },
+    "metaTitle": "Animation & 3D Modeling Services | Game Assets & Mobile 3D Art",
+    "metaTitleRaw": "Animation & 3D Modeling Services | Game Assets & Mobile 3D Art",
+    "metaDescription": "Animation & 3D modeling services for mobile games and apps. Optimized assets and real-time Unity production."
+  }
+]

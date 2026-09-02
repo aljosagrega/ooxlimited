@@ -1,0 +1,522 @@
+{
+  "entries": [
+    {
+      "id": "e1",
+      "kind": "text",
+      "label": "H2: “Game Video ads”",
+      "group": "Game Video ads",
+      "value": "Game Video ads"
+    },
+    {
+      "id": "e2",
+      "kind": "text",
+      "label": "H2: “Table of Contents”",
+      "group": "Page",
+      "value": "Table of Contents"
+    },
+    {
+      "id": "e3",
+      "kind": "text",
+      "label": "H2: “Recent posts”",
+      "group": "Recent posts",
+      "value": "Recent posts"
+    },
+    {
+      "id": "e4",
+      "kind": "html",
+      "label": "H3: “What a Mobile Game Vertical Slice Should Prove Before Produ…”",
+      "group": "Recent posts",
+      "value": "<a href=\"/mobile-game-vertical-slice-prove-before-production-2/\">What a Mobile Game Vertical Slice Should Prove Before Production</a>"
+    },
+    {
+      "id": "e5",
+      "kind": "html",
+      "label": "H3: “Rapid Prototyping in Game Development: A Studio’s Guide”",
+      "group": "Recent posts",
+      "value": "<a href=\"/rapid-prototyping-game-development-2/\">Rapid Prototyping in Game Development: A Studio’s Guide</a>"
+    },
+    {
+      "id": "e6",
+      "kind": "html",
+      "label": "H3: “The Prototyping-First Studio: Why Validation Comes Before”",
+      "group": "Recent posts",
+      "value": "<a href=\"/prototyping-first-studio-validation-before-building-2026/\">The Prototyping-First Studio: Why Validation Comes Before</a>"
+    },
+    {
+      "id": "e7",
+      "kind": "text",
+      "label": "H1: “Game Video Ads”",
+      "group": "Game Video Ads",
+      "value": "Game Video Ads"
+    },
+    {
+      "id": "e8",
+      "kind": "html",
+      "label": "P: “We create game video ads services that help studios test id…”",
+      "group": "Game Video Ads",
+      "value": "<span style=\"font-weight: 400;\">We create </span><span style=\"font-weight: 400;\">game video ads services</span><span style=\"font-weight: 400;\"> that help studios test ideas, improve performance, and scale user acquisition. In mobile gaming, ad creatives are not just marketing — they are a key part of validating what works.</span>"
+    },
+    {
+      "id": "e9",
+      "kind": "html",
+      "label": "P: “Our approach to mobile game ads focuses on rapid testing an…”",
+      "group": "Game Video Ads",
+      "value": "<span style=\"font-weight: 400;\">Our approach to</span><span style=\"font-weight: 400;\"> mobile game ads</span><span style=\"font-weight: 400;\"> focuses on rapid testing and iteration. We produce</span><span style=\"font-weight: 400;\"> game ad creatives </span><span style=\"font-weight: 400;\">that reveal which concepts attract users and drive installs.</span>"
+    },
+    {
+      "id": "e10",
+      "kind": "html",
+      "label": "H2: “Types of Game Video Ads We Offer”",
+      "group": "Types of Game Video Ads We Offer",
+      "value": "Types of <span class=\"text-gradient-oox\">Game Video Ads</span> We Offer"
+    },
+    {
+      "id": "e11",
+      "kind": "text",
+      "label": "H2: “Short-Form Performance Ads”",
+      "group": "Short-Form Performance Ads",
+      "value": "Short-Form Performance Ads"
+    },
+    {
+      "id": "e12",
+      "kind": "html",
+      "label": "P: “Built for platforms like TikTok, Instagram, and YouTube Sho…”",
+      "group": "Short-Form Performance Ads",
+      "value": "<span style=\"font-weight: 400;\">Built for platforms like TikTok, Instagram, and YouTube Shorts. Fast, engaging, and designed to hook viewers within seconds.<br><br></span>"
+    },
+    {
+      "id": "e13",
+      "kind": "text",
+      "label": "H2: “Character & Story-Driven Videos”",
+      "group": "Character & Story-Driven Videos",
+      "value": "Character & Story-Driven Videos"
+    },
+    {
+      "id": "e14",
+      "kind": "html",
+      "label": "P: “Trailer-style content focused on characters, trends, or nar…”",
+      "group": "Character & Story-Driven Videos",
+      "value": "<span style=\"font-weight: 400;\">Trailer-style content focused on characters, trends, or narrative elements that create a stronger emotional connection.<br><br></span>"
+    },
+    {
+      "id": "e15",
+      "kind": "text",
+      "label": "H2: “Gameplay-Focused Creatives”",
+      "group": "Gameplay-Focused Creatives",
+      "value": "Gameplay-Focused Creatives"
+    },
+    {
+      "id": "e16",
+      "kind": "html",
+      "label": "P: “Highlighting core mechanics, progression, and satisfying mo…”",
+      "group": "Gameplay-Focused Creatives",
+      "value": "<span style=\"font-weight: 400;\">Highlighting core mechanics, progression, and satisfying moments that make players want to jump in.<br><br></span>"
+    },
+    {
+      "id": "e17",
+      "kind": "text",
+      "label": "H2: “Creative Variations”",
+      "group": "Creative Variations",
+      "value": "Creative Variations"
+    },
+    {
+      "id": "e18",
+      "kind": "html",
+      "label": "P: “We explore multiple ideas, hooks, and directions – not just…”",
+      "group": "Creative Variations",
+      "value": "<span style=\"font-weight: 400;\">We explore multiple ideas, hooks, and directions – not just one – to find what resonates best.</span>"
+    },
+    {
+      "id": "e19",
+      "kind": "text",
+      "label": "H2: “What Will You Get”",
+      "group": "What Will You Get",
+      "value": "What Will You Get"
+    },
+    {
+      "id": "e20",
+      "kind": "html",
+      "label": "H4: “Better User Acquisition”",
+      "group": "Page",
+      "value": "<span class=\"accordion-image-wrapper-title\">Better User Acquisition </span>"
+    },
+    {
+      "id": "e21",
+      "kind": "text",
+      "label": "P: “Our user acquisition game ads are designed to improve CTR, …”",
+      "group": "Page",
+      "value": "Our user acquisition game ads are designed to improve CTR, CPI, and conversion rates."
+    },
+    {
+      "id": "e22",
+      "kind": "html",
+      "label": "H4: “Validated Creative Direction”",
+      "group": "Page",
+      "value": "<span class=\"accordion-image-wrapper-title\">Validated Creative Direction </span>"
+    },
+    {
+      "id": "e23",
+      "kind": "html",
+      "label": "P: “We help identify which concepts resonate with players throu…”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400\">We help identify which concepts resonate with players through structured testing.</span>"
+    },
+    {
+      "id": "e24",
+      "kind": "html",
+      "label": "H4: “Scalable Ad Creatives”",
+      "group": "Page",
+      "value": "<span class=\"accordion-image-wrapper-title\">Scalable Ad Creatives </span>"
+    },
+    {
+      "id": "e25",
+      "kind": "html",
+      "label": "P: “We create game marketing creatives that can be iterated and…”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400\">We create </span><span style=\"font-weight: 400\">game marketing creatives</span><span style=\"font-weight: 400\"> that can be iterated and scaled across campaigns.</span>"
+    },
+    {
+      "id": "e26",
+      "kind": "text",
+      "label": "H2: “We Develop For”",
+      "group": "We Develop For",
+      "value": "We Develop For"
+    },
+    {
+      "id": "e27",
+      "kind": "text",
+      "label": "H2: “Mobile Game Marketing”",
+      "group": "Mobile Game Marketing",
+      "value": "Mobile Game Marketing"
+    },
+    {
+      "id": "e28",
+      "kind": "html",
+      "label": "P: “High-performing mobile game ads for iOS and Android user ac…”",
+      "group": "Mobile Game Marketing",
+      "value": "<span style=\"font-weight: 400;\">High-performing </span><span style=\"font-weight: 400;\">mobile game ads</span><span style=\"font-weight: 400;\"> for iOS and Android user acquisition campaigns.<br><br></span>"
+    },
+    {
+      "id": "e29",
+      "kind": "text",
+      "label": "H2: “Cross-Platform Campaigns”",
+      "group": "Cross-Platform Campaigns",
+      "value": "Cross-Platform Campaigns"
+    },
+    {
+      "id": "e30",
+      "kind": "html",
+      "label": "P: “Game video ads services that work across multiple ad networ…”",
+      "group": "Cross-Platform Campaigns",
+      "value": "<span style=\"font-weight: 400;\">Game video ads services</span><span style=\"font-weight: 400;\"> that work across multiple ad networks and platforms.</span>"
+    },
+    {
+      "id": "e31",
+      "kind": "text",
+      "label": "H2: “Early-Stage Testing”",
+      "group": "Early-Stage Testing",
+      "value": "Early-Stage Testing"
+    },
+    {
+      "id": "e32",
+      "kind": "html",
+      "label": "P: “Ad creatives used alongside game prototyping to validate co…”",
+      "group": "Early-Stage Testing",
+      "value": "<span style=\"font-weight: 400;\">Ad creatives used alongside </span><b>game prototyping</b><span style=\"font-weight: 400;\"> to validate concepts early.</span>"
+    },
+    {
+      "id": "e33",
+      "kind": "text",
+      "label": "H2: “Our Team”",
+      "group": "Our Team",
+      "value": "Our Team"
+    },
+    {
+      "id": "e34",
+      "kind": "html",
+      "label": "P: “Our team includes video editors, motion designers, marketer…”",
+      "group": "Our Team",
+      "value": "<span style=\"font-weight: 400;\">Our team includes video editors, motion designers, marketers, and game designers who specialize in </span><span style=\"font-weight: 400;\">game video ads services.</span><span style=\"font-weight: 400;\"><br></span><span style=\"font-weight: 400;\"> We combine creative thinking with performance data to deliver ads that actually convert.</span>"
+    },
+    {
+      "id": "e35",
+      "kind": "text",
+      "label": "H2: “Frequently Asked Questions”",
+      "group": "Frequently Asked Questions",
+      "value": "Frequently Asked Questions"
+    },
+    {
+      "id": "e36",
+      "kind": "html",
+      "label": "P: “Game video ads services involve creating video creatives us…”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">Game video ads services </span><span style=\"font-weight: 400;\">involve creating video creatives used to promote games and acquire users.</span>"
+    },
+    {
+      "id": "e37",
+      "kind": "html",
+      "label": "P: “These ads are designed to capture attention, communicate ga…”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">These ads are designed to capture attention, communicate gameplay, and drive installs. They are a key part of modern mobile game marketing strategies.</span>"
+    },
+    {
+      "id": "e38",
+      "kind": "html",
+      "label": "P: “Mobile game ads are one of the main drivers of user acquisi…”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">Mobile game ads </span><span style=\"font-weight: 400;\">are one of the main drivers of user acquisition.</span>"
+    },
+    {
+      "id": "e39",
+      "kind": "html",
+      "label": "P: “High-performing game ad creatives can significantly impact …”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">High-performing</span><span style=\"font-weight: 400;\"> game ad creatives</span><span style=\"font-weight: 400;\"> can significantly impact conversion rates, helping studios scale faster and more efficiently.</span>"
+    },
+    {
+      "id": "e40",
+      "kind": "html",
+      "label": "P: “Yes, video ads for games are often used to test concepts be…”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">Yes, </span><span style=\"font-weight: 400;\">video ads for games </span><span style=\"font-weight: 400;\">are often used to test concepts before development.</span>"
+    },
+    {
+      "id": "e41",
+      "kind": "html",
+      "label": "P: “This allows teams to validate demand and interest before in…”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">This allows teams to validate demand and interest before investing heavily in production, reducing risk.</span>"
+    },
+    {
+      "id": "e42",
+      "kind": "html",
+      "label": "P: “We create game marketing creatives for platforms like TikTo…”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">We create </span><span style=\"font-weight: 400;\">game marketing creatives</span><span style=\"font-weight: 400;\"> for platforms like TikTok, Meta (Facebook/Instagram), and Google Ads.</span>"
+    },
+    {
+      "id": "e43",
+      "kind": "html",
+      "label": "P: “Each platform has different requirements, and we tailor cre…”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">Each platform has different requirements, and we tailor creatives accordingly.</span>"
+    },
+    {
+      "id": "e44",
+      "kind": "html",
+      "label": "P: “Yes, our user acquisition game ads are designed with perfor…”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">Yes, our </span><span style=\"font-weight: 400;\">user acquisition game ads </span><span style=\"font-weight: 400;\">are designed with performance in mind.</span>"
+    },
+    {
+      "id": "e45",
+      "kind": "html",
+      "label": "P: “We focus on metrics like CTR, CPI, and retention to ensure …”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">We focus on metrics like CTR, CPI, and retention to ensure ads deliver results.</span>"
+    },
+    {
+      "id": "e46",
+      "kind": "html",
+      "label": "P: “Yes, we produce multiple game ad creatives for testing and …”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">Yes, we produce multiple </span><span style=\"font-weight: 400;\">game ad creatives </span><span style=\"font-weight: 400;\">for testing and iteration.</span>"
+    },
+    {
+      "id": "e47",
+      "kind": "html",
+      "label": "P: “This helps identify the best-performing concepts and scale …”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">This helps identify the best-performing concepts and scale successful campaigns.</span>"
+    },
+    {
+      "id": "e48",
+      "kind": "html",
+      "label": "P: “Game video ads services often work alongside game prototypi…”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">Game video ads services </span><span style=\"font-weight: 400;\">often work alongside</span><span style=\"font-weight: 400;\"> game prototyping </span><span style=\"font-weight: 400;\">to validate ideas early.</span>"
+    },
+    {
+      "id": "e49",
+      "kind": "html",
+      "label": "P: “This creates a feedback loop between marketing and developm…”",
+      "group": "Page",
+      "value": "<span style=\"font-weight: 400;\">This creates a feedback loop between marketing and development, improving overall product-market fit.</span>"
+    },
+    {
+      "id": "e50",
+      "kind": "text",
+      "label": "Button: “Login”",
+      "group": "Page",
+      "value": "Login"
+    },
+    {
+      "id": "e51",
+      "kind": "html",
+      "label": "LI: “oox menu”",
+      "group": "Page",
+      "value": "<span>oox menu</span>"
+    },
+    {
+      "id": "e52",
+      "kind": "image",
+      "label": "Image (ser-game-6.png)",
+      "group": "Page",
+      "value": "/wp-content/uploads/2026/01/ser-game-6.png"
+    },
+    {
+      "id": "e53",
+      "kind": "image",
+      "label": "Image: mobile game vertical slice",
+      "group": "Recent posts",
+      "value": "/wp-content/uploads/2026/08/DSC06517-768x1152.jpg"
+    },
+    {
+      "id": "e54",
+      "kind": "imageAlt",
+      "label": "Alt for mobile game vertical slice",
+      "group": "Recent posts",
+      "value": "mobile game vertical slice"
+    },
+    {
+      "id": "e55",
+      "kind": "image",
+      "label": "Image: Read more",
+      "group": "Recent posts",
+      "value": "/wp-content/uploads/2026/03/arrowr.png"
+    },
+    {
+      "id": "e56",
+      "kind": "imageAlt",
+      "label": "Alt for Read more",
+      "group": "Recent posts",
+      "value": "Read more"
+    },
+    {
+      "id": "e57",
+      "kind": "image",
+      "label": "Image: mobile game development team",
+      "group": "Recent posts",
+      "value": "/wp-content/uploads/2026/07/DSC06489-768x1152.jpg"
+    },
+    {
+      "id": "e58",
+      "kind": "imageAlt",
+      "label": "Alt for mobile game development team",
+      "group": "Recent posts",
+      "value": "mobile game development team"
+    },
+    {
+      "id": "e59",
+      "kind": "image",
+      "label": "Image: Office Photos OOX Limited",
+      "group": "Recent posts",
+      "value": "/wp-content/uploads/2026/03/d8d70c6789c6b5f6ea12d48bc4006f64f8be8019-768x512.jpg"
+    },
+    {
+      "id": "e60",
+      "kind": "imageAlt",
+      "label": "Alt for Office Photos OOX Limited",
+      "group": "Recent posts",
+      "value": "Office Photos OOX Limited"
+    },
+    {
+      "id": "e61",
+      "kind": "image",
+      "label": "Image: building factory oox limited",
+      "group": "Types of Game Video Ads We Offer",
+      "value": "/wp-content/uploads/2026/01/factory.png"
+    },
+    {
+      "id": "e62",
+      "kind": "imageAlt",
+      "label": "Alt for building factory oox limited",
+      "group": "Types of Game Video Ads We Offer",
+      "value": "building factory oox limited"
+    },
+    {
+      "id": "e63",
+      "kind": "image",
+      "label": "Image: image",
+      "group": "Page",
+      "value": "/wp-content/uploads/2026/01/targets.png"
+    },
+    {
+      "id": "e64",
+      "kind": "imageAlt",
+      "label": "Alt for image",
+      "group": "Page",
+      "value": "image"
+    },
+    {
+      "id": "e65",
+      "kind": "image",
+      "label": "Image: image",
+      "group": "Page",
+      "value": "/wp-content/uploads/2026/01/mine.png"
+    },
+    {
+      "id": "e66",
+      "kind": "imageAlt",
+      "label": "Alt for image",
+      "group": "Page",
+      "value": "image"
+    },
+    {
+      "id": "e67",
+      "kind": "image",
+      "label": "Image: image",
+      "group": "Page",
+      "value": "/wp-content/uploads/2026/01/rocks.png"
+    },
+    {
+      "id": "e68",
+      "kind": "imageAlt",
+      "label": "Alt for image",
+      "group": "Page",
+      "value": "image"
+    },
+    {
+      "id": "e69",
+      "kind": "image",
+      "label": "Image: game prototyping studio",
+      "group": "Mobile Game Marketing",
+      "value": "/wp-content/uploads/2026/01/apple.png"
+    },
+    {
+      "id": "e70",
+      "kind": "imageAlt",
+      "label": "Alt for game prototyping studio",
+      "group": "Mobile Game Marketing",
+      "value": "game prototyping studio"
+    },
+    {
+      "id": "e71",
+      "kind": "image",
+      "label": "Image: game prototyping studio",
+      "group": "Cross-Platform Campaigns",
+      "value": "/wp-content/uploads/2026/01/android.png"
+    },
+    {
+      "id": "e72",
+      "kind": "imageAlt",
+      "label": "Alt for game prototyping studio",
+      "group": "Cross-Platform Campaigns",
+      "value": "game prototyping studio"
+    },
+    {
+      "id": "e73",
+      "kind": "image",
+      "label": "Image: game prototyping studio",
+      "group": "Early-Stage Testing",
+      "value": "/wp-content/uploads/2026/01/layers.png"
+    },
+    {
+      "id": "e74",
+      "kind": "imageAlt",
+      "label": "Alt for game prototyping studio",
+      "group": "Early-Stage Testing",
+      "value": "game prototyping studio"
+    }
+  ]
+}

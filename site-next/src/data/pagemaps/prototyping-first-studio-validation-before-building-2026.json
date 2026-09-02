@@ -1,0 +1,508 @@
+{
+  "entries": [
+    {
+      "id": "e1",
+      "kind": "text",
+      "label": "H2: “Table of Contents”",
+      "group": "Page",
+      "value": "Table of Contents"
+    },
+    {
+      "id": "e2",
+      "kind": "text",
+      "label": "H2: “Recent posts”",
+      "group": "Recent posts",
+      "value": "Recent posts"
+    },
+    {
+      "id": "e3",
+      "kind": "html",
+      "label": "H3: “What a Mobile Game Vertical Slice Should Prove Before Produ…”",
+      "group": "Recent posts",
+      "value": "<a href=\"/mobile-game-vertical-slice-prove-before-production-2/\">What a Mobile Game Vertical Slice Should Prove Before Production</a>"
+    },
+    {
+      "id": "e4",
+      "kind": "html",
+      "label": "H3: “Mobile Game Vertical Slice: What to Prove Before Production”",
+      "group": "Recent posts",
+      "value": "<a href=\"/mobile-game-vertical-slice-prove-before-production/\">Mobile Game Vertical Slice: What to Prove Before Production</a>"
+    },
+    {
+      "id": "e5",
+      "kind": "html",
+      "label": "H3: “How a Mobile Game Development Team Works: Roles, Handoffs”",
+      "group": "Recent posts",
+      "value": "<a href=\"/mobile-game-development-team-roles-workflow-handoffs/\">How a Mobile Game Development Team Works: Roles, Handoffs</a>"
+    },
+    {
+      "id": "e6",
+      "kind": "text",
+      "label": "H1: “The Prototyping-First Studio: Why Validation Comes Before B…”",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "The Prototyping-First Studio: Why Validation Comes Before Building in 2026"
+    },
+    {
+      "id": "e7",
+      "kind": "text",
+      "label": "P: “by OOX Limited”",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "by OOX Limited"
+    },
+    {
+      "id": "e8",
+      "kind": "text",
+      "label": "P: “Most game ideas fail before a real player ever touches them…”",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "Most game ideas fail before a real player ever touches them. Not because the teams lacked skill or creativity. Because they committed months - sometimes years - of production budget to concepts never tested against anything but internal assumptions."
+    },
+    {
+      "id": "e9",
+      "kind": "text",
+      "label": "P: “In 2026, the studios that survive are not the ones with the…”",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "In 2026, the studios that survive are not the ones with the largest initial budgets. They are the ones that validate before they build. A structural shift is under way: prototype first, test with real players, measure hard KPIs, then decide whether to scale."
+    },
+    {
+      "id": "e10",
+      "kind": "text",
+      "label": "P: “GDC 2026 surfaced financing restructure and co-development …”",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "GDC 2026 surfaced financing restructure and co-development as two of the five defining themes of the year. Publisher behaviour has shifted from funding promises to demanding proof. The Unity 2026 Game Development Report and NipsApp's studio data tell the same story: validation-first is the production model of the studios that will still operate in 2027."
+    },
+    {
+      "id": "e11",
+      "kind": "text",
+      "label": "H2: “Why the Old Model Lost Ground”",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "Why the Old Model Lost Ground"
+    },
+    {
+      "id": "e12",
+      "kind": "text",
+      "label": "P: “The traditional development pipeline assumes the game works…”",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "The traditional development pipeline assumes the game works before it has been tested."
+    },
+    {
+      "id": "e13",
+      "kind": "text",
+      "label": "P: “The old sequence is familiar: a studio produces a full game…”",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "The old sequence is familiar: a studio produces a full game design document, builds a polished vertical slice, pitches publishers on creative vision and team pedigree, and - if funded - enters full production. Real players encounter the game only at soft launch, months or years into development, after most of the budget has been spent."
+    },
+    {
+      "id": "e14",
+      "kind": "text",
+      "label": "P: “The core assumption - the idea is right and the job is exec…”",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "The core assumption - the idea is right and the job is execution - is contradicted by the data. Approximately 90% of digital products fail commercially. Among mobile games, 83% fail within three years and 43% never make it past development, per SuperScale. Logic Simplified found that 70% of game companies burn through their budget before reaching launch."
+    },
+    {
+      "id": "e15",
+      "kind": "text",
+      "label": "P: “The root cause is not a shortage of talent. It is committin…”",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "The root cause is not a shortage of talent. It is committing to full production before evidence exists that the core loop engages players. Publishers funded on promise, not validated behaviour. By the time retention data surfaced, runway was gone."
+    },
+    {
+      "id": "e16",
+      "kind": "html",
+      "label": "P: “The 2022-2026 period exposed the model's fragility. Over 44…”",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "The 2022-2026 period exposed the model's fragility. Over 44,000 game developers were laid off globally across those four years - a period that also produced record industry revenues, the record-profits-record-layoffs paradox identified by Epyllion and the <a href=\"https://www.pocketgamer.biz/d2c-co-development-and-volume-over-viability-gdc-2026-trends-revealed/\">GDC 2026 Trends Report</a>. NipsApp's 2026 study found that studios skipping early prototyping spent two to three times longer debugging core gameplay after milestone three. The old model did not fail because the games were badly made. It failed because \"should we build this?\" was asked too late."
+    },
+    {
+      "id": "e17",
+      "kind": "text",
+      "label": "H2: “Why the New Model Works”",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "Why the New Model Works"
+    },
+    {
+      "id": "e18",
+      "kind": "text",
+      "label": "P: “A prototype answers the only question that matters before a…”",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "A prototype answers the only question that matters before a single unit of production budget is committed."
+    },
+    {
+      "id": "e19",
+      "kind": "text",
+      "label": "P: “The prototype-first model inverts the old sequence. A studi…”",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "The prototype-first model inverts the old sequence. A studio defines the riskiest assumption - the core mechanic, the session loop, the player motivation - and builds a stripped-down, playable version in weeks. That prototype goes in front of real players. Hard KPIs are measured: cost per install, Day 1 retention, playtime. Only when the numbers signal a viable product does production scaling begin."
+    },
+    {
+      "id": "e20",
+      "kind": "html",
+      "label": "P: “The Unity 2026 Game Development Report captures the shift i…”",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "The <a href=\"https://wccftech.com/unity-2026-game-development-report-points-to-smaller-teams-making-games-in-less-time-with-ai/\">Unity 2026 Game Development Report</a> captures the shift in hard numbers. Sixty-seven percent of developers now spend three months or less on prototyping. Forty-eight percent of studios have become more selective about which prototypes advance. Fifty-two percent prioritize smaller, scoped projects as their primary risk-reduction strategy."
+    },
+    {
+      "id": "e21",
+      "kind": "text",
+      "label": "P: “The outcome data is direct. NipsApp's 2026 study found that…”",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "The outcome data is direct. NipsApp's 2026 study found that teams investing 30 to 40% of their timeline in pre-production saw 65% fewer rebuilds after milestone three. Studios that validated the core loop before art direction or narrative shipped 20% faster. Weekly playable builds correlated with 1.45 times faster overall delivery."
+    },
+    {
+      "id": "e22",
+      "kind": "html",
+      "label": "P: “This is not a budgeting tactic. It is a production philosop…”",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "This is not a budgeting tactic. It is a production philosophy that treats assumptions as liabilities and player behaviour as the only reliable decision input. <a href=\"/rapid-prototyping-game-development/\">See OOX's validation process.</a>"
+    },
+    {
+      "id": "e23",
+      "kind": "text",
+      "label": "H2: “The Design and Philosophy Shift”",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "The Design and Philosophy Shift"
+    },
+    {
+      "id": "e24",
+      "kind": "text",
+      "label": "P: “Building less is not the goal.”",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "Building less is not the goal."
+    },
+    {
+      "id": "e25",
+      "kind": "text",
+      "label": "P: “Learning faster is the goal.”",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "Learning faster is the goal."
+    },
+    {
+      "id": "e26",
+      "kind": "text",
+      "label": "P: “The prototype-first model changes what a studio optimizes f…”",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "The prototype-first model changes what a studio optimizes for. The old model rewarded output. The new model rewards learning velocity: how quickly the team discovers which ideas deserve production investment and which do not."
+    },
+    {
+      "id": "e27",
+      "kind": "text",
+      "label": "P: “This has specific design implications. A validation prototy…”",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "This has specific design implications. A validation prototype is deliberately unpolished:"
+    },
+    {
+      "id": "e28",
+      "kind": "text",
+      "label": "P: “No advanced graphics”",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "No advanced graphics"
+    },
+    {
+      "id": "e29",
+      "kind": "text",
+      "label": "P: “No large content libraries”",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "No large content libraries"
+    },
+    {
+      "id": "e30",
+      "kind": "text",
+      "label": "P: “No monetization systems”",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "No monetization systems"
+    },
+    {
+      "id": "e31",
+      "kind": "text",
+      "label": "P: “No full progression architecture”",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "No full progression architecture"
+    },
+    {
+      "id": "e32",
+      "kind": "text",
+      "label": "P: “It tests exactly the core loop and nothing else - because i…”",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "It tests exactly the core loop and nothing else - because if the core loop does not hold a player, nothing layered on top of it matters."
+    },
+    {
+      "id": "e33",
+      "kind": "text",
+      "label": "P: “The tools enabling this approach have matured. AI-assisted …”",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "The tools enabling this approach have matured. AI-assisted coding - adopted by 62% of developers, per the Unity 2026 Report - accelerates iteration. Poki's playtesting platform enables 500-player tests twice daily with video footage and drop-off analytics. Itch.io provides concept validation at near-zero cost. The barrier is no longer technical. It is the willingness to test before building."
+    },
+    {
+      "id": "e34",
+      "kind": "text",
+      "label": "H2: “How OOX Approaches Prototyping-First Development”",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "How OOX Approaches Prototyping-First Development"
+    },
+    {
+      "id": "e35",
+      "kind": "text",
+      "label": "P: “OOX was built around the principle that validation comes be…”",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "OOX was built around the principle that validation comes before production."
+    },
+    {
+      "id": "e36",
+      "kind": "html",
+      "label": "P: “We deliver playable prototypes in 2 to 6 weeks, depending o…”",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "We deliver playable prototypes in 2 to 6 weeks, depending on scope and complexity. The team - Unity and Unreal developers, UI/UX designers, technical artists, and product specialists - works across <a href=\"/service/rapid-prototyping/\">five prototyping categories</a>: Unity rapid prototyping, game prototype development, 3D interactive prototyping, mobile app prototyping, and cross-platform builds from a single codebase."
+    },
+    {
+      "id": "e37",
+      "kind": "text",
+      "label": "P: “The output is not a slide deck. It is an interactive protot…”",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "The output is not a slide deck. It is an interactive prototype that tests core mechanics, user experience, and technical feasibility - one of the strongest tools available for pitching investors or publishers. Each prototype includes structured validation: what works, what needs revision, and what should be removed."
+    },
+    {
+      "id": "e38",
+      "kind": "text",
+      "label": "P: “The prototyping phase is a decision gate, not an upsell. OO…”",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "The prototyping phase is a decision gate, not an upsell. OOX can carry a validated prototype through to full-cycle production, but the two stages are distinct. The purpose of the prototype is to answer one question with data, not opinion: should we keep building this?"
+    },
+    {
+      "id": "e39",
+      "kind": "text",
+      "label": "H2: “What Validation-First Looks Like in Practice”",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "What Validation-First Looks Like in Practice"
+    },
+    {
+      "id": "e40",
+      "kind": "text",
+      "label": "H3: “Sword Island: Samurai”",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "Sword Island: Samurai"
+    },
+    {
+      "id": "e41",
+      "kind": "text",
+      "label": "P: “OOX's own shipped title - now available on Google Play - mo…”",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "OOX's own shipped title - now available on Google Play - moved from concept through prototype validation to full launch. The project tested its core combat loop early, before art production or content expansion, ensuring the fundamental experience was sound before resources scaled. The result was a completed title that reached the store."
+    },
+    {
+      "id": "e42",
+      "kind": "text",
+      "label": "H3: “Celeste”",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "Celeste"
+    },
+    {
+      "id": "e43",
+      "kind": "text",
+      "label": "P: “Celeste began as a four-day game jam build on Itch.io. The …”",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "Celeste began as a four-day game jam build on Itch.io. The core mechanic - a directional dash with a single-use reset - was playable and testable almost immediately. Player response to that prototype drove the decision to expand into a full title that became one of the most critically acclaimed indie releases of its generation. The prototype did not answer \"can we build a platformer?\" It answered \"does this specific mechanic feel good enough to build an entire game around?\""
+    },
+    {
+      "id": "e44",
+      "kind": "text",
+      "label": "P: “The studios that succeed are not the ones whose first idea …”",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "The studios that succeed are not the ones whose first idea was best. They are the ones that tested fastest."
+    },
+    {
+      "id": "e45",
+      "kind": "text",
+      "label": "H2: “What This Means for Publishers and Studios”",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "What This Means for Publishers and Studios"
+    },
+    {
+      "id": "e46",
+      "kind": "text",
+      "label": "P: “The publisher-developer relationship is being rewritten aro…”",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "The publisher-developer relationship is being rewritten around proof, not promise."
+    },
+    {
+      "id": "e47",
+      "kind": "text",
+      "label": "P: “At GDC 2026, the official trends report identified co-devel…”",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "At GDC 2026, the official trends report identified co-development, generative AI, and game financing as three of the five defining industry themes - a structural shift that rewrites the traditional publisher role."
+    },
+    {
+      "id": "e48",
+      "kind": "text",
+      "label": "P: “Jason Della Rocca's term \"Inception Publishing\" captures th…”",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "Jason Della Rocca's term \"Inception Publishing\" captures the new reality: developers must begin the publishing process themselves before any publisher will engage. The Minimum Viable Pitch in 2026 is a playable prototype, a live Steam page and trailer, community validation, and hard KPIs - essentially everything required to self-publish."
+    },
+    {
+      "id": "e49",
+      "kind": "html",
+      "label": "P: “At Pocket Gamer Connects Barcelona 2026, Tilting Point's As…”",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "At Pocket Gamer Connects Barcelona 2026, Tilting Point's Asi Burak stated that \"publishers need to earn their place\" and that the developer-publisher relationship \"should be grounded in outcomes, not promises,\" <a href=\"https://www.pocketgamer.biz/publishers-need-to-earn-their-place-how-publishers-are-redefining-their-value/\">as reported by PocketGamer.biz</a>. Traditional 30 to 50% revenue shares, GameBiz Consulting's Nikola Cavic noted, are increasingly difficult to justify."
+    },
+    {
+      "id": "e50",
+      "kind": "html",
+      "label": "P: “By the time a studio proves publisher-worthiness - validate…”",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "By the time a studio proves publisher-worthiness - validated prototype, community traction, measurable KPIs - it may be close enough to self-publish. <a href=\"/how-to-choose-the-right-mobile-game-development-partner-in-2026-oox/\">Choosing the right partner</a> in this environment becomes a strategic decision about what a publisher or development partner actually adds."
+    },
+    {
+      "id": "e51",
+      "kind": "text",
+      "label": "P: “For studios, the implication is clear: prototype validation…”",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "For studios, the implication is clear: prototype validation is not a preliminary step before the \"real work\" of production. It is the work. For publishers, the signal has flipped: a studio that arrives with validated prototypes and player data has already completed the hardest phase of development."
+    },
+    {
+      "id": "e52",
+      "kind": "html",
+      "label": "LI: “Rapid Prototyping Services”",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "<a href=\"/service/rapid-prototyping/\">Rapid Prototyping Services</a>"
+    },
+    {
+      "id": "e53",
+      "kind": "html",
+      "label": "LI: “Prototyping-First Game Development”",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "<a href=\"/rapid-prototyping-game-development/\">Prototyping-First Game Development</a>"
+    },
+    {
+      "id": "e54",
+      "kind": "html",
+      "label": "LI: “Choosing a Game Development Partner”",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "<a href=\"/how-to-choose-the-right-mobile-game-development-partner-in-2026-oox/\">Choosing a Game Development Partner</a>"
+    },
+    {
+      "id": "e55",
+      "kind": "text",
+      "label": "H2: “Ready to Validate Your Game Idea?”",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "Ready to Validate Your Game Idea?"
+    },
+    {
+      "id": "e56",
+      "kind": "html",
+      "label": "P: “OOX Limited can help you move from concept to playable prot…”",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "OOX Limited can help you move from concept to playable prototype in weeks, with the structured validation data needed to make a confident kill-or-scale decision. Whether you are preparing a publisher pitch or testing whether your core loop deserves production investment, <a href=\"/contact-us/\">a short conversation is usually enough to clarify scope, priorities, and the fastest path forward</a>."
+    },
+    {
+      "id": "e57",
+      "kind": "text",
+      "label": "P: “A prototype should not answer: \"Can we build this?\" It shou…”",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "A prototype should not answer: \"Can we build this?\" It should answer: \"Should we keep building this?\" In 2026, that distinction is not just smart process. It is survival."
+    },
+    {
+      "id": "e58",
+      "kind": "html",
+      "label": "P: “OOX Limited can help you move from concept to playable prot…”",
+      "group": "Ready to Validate Your Game Idea?",
+      "value": "OOX Limited can help you move from concept to playable prototype in weeks, with the structured validation data needed to make a confident kill-or-scale decision. <a href=\"/contact-us/\">Get in touch to discuss your project.</a>"
+    },
+    {
+      "id": "e59",
+      "kind": "text",
+      "label": "Button: “Login”",
+      "group": "Page",
+      "value": "Login"
+    },
+    {
+      "id": "e60",
+      "kind": "html",
+      "label": "LI: “oox menu”",
+      "group": "Page",
+      "value": "<span>oox menu</span>"
+    },
+    {
+      "id": "e61",
+      "kind": "image",
+      "label": "Image: mobile game vertical slice",
+      "group": "Recent posts",
+      "value": "/wp-content/uploads/2026/08/DSC06517-768x1152.jpg"
+    },
+    {
+      "id": "e62",
+      "kind": "imageAlt",
+      "label": "Alt for mobile game vertical slice",
+      "group": "Recent posts",
+      "value": "mobile game vertical slice"
+    },
+    {
+      "id": "e63",
+      "kind": "image",
+      "label": "Image: Read more",
+      "group": "Recent posts",
+      "value": "/wp-content/uploads/2026/03/arrowr.png"
+    },
+    {
+      "id": "e64",
+      "kind": "imageAlt",
+      "label": "Alt for Read more",
+      "group": "Recent posts",
+      "value": "Read more"
+    },
+    {
+      "id": "e65",
+      "kind": "image",
+      "label": "Image: mobile game vertical slice",
+      "group": "Recent posts",
+      "value": "/wp-content/uploads/2026/07/20260226-DSC06235-768x512.jpg"
+    },
+    {
+      "id": "e66",
+      "kind": "imageAlt",
+      "label": "Alt for mobile game vertical slice",
+      "group": "Recent posts",
+      "value": "mobile game vertical slice"
+    },
+    {
+      "id": "e67",
+      "kind": "image",
+      "label": "Image: mobile game development team",
+      "group": "Recent posts",
+      "value": "/wp-content/uploads/2026/07/DSC06489-768x1152.jpg"
+    },
+    {
+      "id": "e68",
+      "kind": "imageAlt",
+      "label": "Alt for mobile game development team",
+      "group": "Recent posts",
+      "value": "mobile game development team"
+    },
+    {
+      "id": "e69",
+      "kind": "image",
+      "label": "Image: Three game developers reviewing a greyb…",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "https://lh3.googleusercontent.com/d/1clfFXv_0EdTKWUWoaFaSYiMqs90MCVcb=w1200"
+    },
+    {
+      "id": "e70",
+      "kind": "imageAlt",
+      "label": "Alt for Three game developers reviewi…",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "Three game developers reviewing a greybox prototype with debug overlays and retention metrics on dual monitors in a modern studio with natural window light."
+    },
+    {
+      "id": "e71",
+      "kind": "image",
+      "label": "Image: Close-up of hands holding a smartphone …",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "https://lh3.googleusercontent.com/d/13f2MhQyOlnjoaEFU0h39OAKvfPn6AXWn=w1200"
+    },
+    {
+      "id": "e72",
+      "kind": "imageAlt",
+      "label": "Alt for Close-up of hands holding a s…",
+      "group": "The Prototyping-First Studio: Why Valid…",
+      "value": "Close-up of hands holding a smartphone in landscape orientation, the screen displaying a minimalist mobile game prototype with touch indicators and frame rate counter."
+    }
+  ]
+}

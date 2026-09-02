@@ -1,0 +1,494 @@
+{
+  "entries": [
+    {
+      "id": "e1",
+      "kind": "text",
+      "label": "H2: “Table of Contents”",
+      "group": "Page",
+      "value": "Table of Contents"
+    },
+    {
+      "id": "e2",
+      "kind": "text",
+      "label": "H2: “Recent posts”",
+      "group": "Recent posts",
+      "value": "Recent posts"
+    },
+    {
+      "id": "e3",
+      "kind": "html",
+      "label": "H3: “Rapid Prototyping in Game Development: A Studio’s Guide”",
+      "group": "Recent posts",
+      "value": "<a href=\"/rapid-prototyping-game-development-2/\">Rapid Prototyping in Game Development: A Studio’s Guide</a>"
+    },
+    {
+      "id": "e4",
+      "kind": "html",
+      "label": "H3: “From Idea to Playable: What a Game Prototyping Studio Actua…”",
+      "group": "Recent posts",
+      "value": "<a href=\"/game-prototyping-studio-deliverables/\">From Idea to Playable: What a Game Prototyping Studio Actually Delivers</a>"
+    },
+    {
+      "id": "e5",
+      "kind": "html",
+      "label": "H3: “Mobile Game Prototype Cost”",
+      "group": "Recent posts",
+      "value": "<a href=\"/how-much-does-a-mobile-game-prototype-cost-2-2/\">Mobile Game Prototype Cost</a>"
+    },
+    {
+      "id": "e6",
+      "kind": "text",
+      "label": "FIGCAPTION: “Hybrid casual games combine simple gameplay with deeper sys…”",
+      "group": "Hybrid Casual Gaming: Why Mobile Studio…",
+      "value": "Hybrid casual games combine simple gameplay with deeper systems that support retention and long-term engagement."
+    },
+    {
+      "id": "e7",
+      "kind": "text",
+      "label": "H2: “What Is Hybrid Casual Gaming?”",
+      "group": "What Is Hybrid Casual Gaming?",
+      "value": "What Is Hybrid Casual Gaming?"
+    },
+    {
+      "id": "e8",
+      "kind": "text",
+      "label": "P: “Hybrid casual games sit between hyper casual simplicity and…”",
+      "group": "What Is Hybrid Casual Gaming?",
+      "value": "Hybrid casual games sit between hyper casual simplicity and deeper mobile game systems. They are easy to understand in the first few seconds, but they include more structure than a traditional hyper casual title."
+    },
+    {
+      "id": "e9",
+      "kind": "text",
+      "label": "P: “That structure can come through progression, upgrades, coll…”",
+      "group": "What Is Hybrid Casual Gaming?",
+      "value": "That structure can come through progression, upgrades, collection systems, quests, monetization layers, customization, leaderboards, or light RPG mechanics. The goal is not to make the game complicated. The goal is to give players a reason to continue playing after the first session."
+    },
+    {
+      "id": "e10",
+      "kind": "text",
+      "label": "P: “In simple terms, hybrid casual gaming is about keeping the …”",
+      "group": "What Is Hybrid Casual Gaming?",
+      "value": "In simple terms, hybrid casual gaming is about keeping the entry point low while making the long-term experience stronger."
+    },
+    {
+      "id": "e11",
+      "kind": "text",
+      "label": "H2: “Why Hyper Casual Games Lost Momentum”",
+      "group": "Why Hyper Casual Games Lost Momentum",
+      "value": "Why Hyper Casual Games Lost Momentum"
+    },
+    {
+      "id": "e12",
+      "kind": "text",
+      "label": "P: “Hyper casual games grew quickly because they were simple, f…”",
+      "group": "Why Hyper Casual Games Lost Momentum",
+      "value": "Hyper casual games grew quickly because they were simple, fast to produce, and easy for players to understand. A good hyper casual game could communicate its mechanic almost instantly. That made the genre powerful for rapid testing and broad user acquisition."
+    },
+    {
+      "id": "e13",
+      "kind": "text",
+      "label": "P: “However, that same simplicity also created a problem. As mo…”",
+      "group": "Why Hyper Casual Games Lost Momentum",
+      "value": "However, that same simplicity also created a problem. As more studios entered the space, the market became crowded with similar ideas, similar mechanics, and similar visual styles. Standing out became harder, and player attention became more expensive."
+    },
+    {
+      "id": "e14",
+      "kind": "text",
+      "label": "P: “At the same time, mobile user acquisition became more chall…”",
+      "group": "Why Hyper Casual Games Lost Momentum",
+      "value": "At the same time, mobile user acquisition became more challenging. When CPI rises and retention is weak, a game needs more than a simple mechanic to become sustainable. This is one of the main reasons studios started moving toward hybrid casual design."
+    },
+    {
+      "id": "e15",
+      "kind": "html",
+      "label": "P: “For a wider industry view, sources like Deconstructor of Fu…”",
+      "group": "Why Hyper Casual Games Lost Momentum",
+      "value": "For a wider industry view, sources like <a href=\"https://www.deconstructoroffun.com/\" target=\"_blank\" rel=\"noopener\">Deconstructor of Fun</a> regularly cover how mobile game genres, monetization, and retention strategies are changing across the market."
+    },
+    {
+      "id": "e16",
+      "kind": "text",
+      "label": "H2: “Why Hybrid Casual Works Better for Long-Term Engagement”",
+      "group": "Why Hybrid Casual Works Better for Long…",
+      "value": "Why Hybrid Casual Works Better for Long-Term Engagement"
+    },
+    {
+      "id": "e17",
+      "kind": "text",
+      "label": "P: “Hybrid casual games work because they still respect the pla…”",
+      "group": "Why Hybrid Casual Works Better for Long…",
+      "value": "Hybrid casual games work because they still respect the player’s time. They do not require a heavy learning curve, but they offer more reasons to return."
+    },
+    {
+      "id": "e18",
+      "kind": "text",
+      "label": "P: “A player can understand the core loop quickly, then stay en…”",
+      "group": "Why Hybrid Casual Works Better for Long…",
+      "value": "A player can understand the core loop quickly, then stay engaged through goals, upgrades, unlocks, missions, rankings, or meta progression. This gives the game more depth without losing its accessibility."
+    },
+    {
+      "id": "e19",
+      "kind": "text",
+      "label": "P: “From a production perspective, this also gives studios more…”",
+      "group": "Why Hybrid Casual Works Better for Long…",
+      "value": "From a production perspective, this also gives studios more room to test. Instead of relying on one mechanic alone, teams can validate the core gameplay first, then test retention layers, progression systems, economy design, and monetization step by step."
+    },
+    {
+      "id": "e20",
+      "kind": "text",
+      "label": "H2: “The Design Shift: From Instant Fun to Repeatable Motivation”",
+      "group": "The Design Shift: From Instant Fun to R…",
+      "value": "The Design Shift: From Instant Fun to Repeatable Motivation"
+    },
+    {
+      "id": "e21",
+      "kind": "text",
+      "label": "P: “The biggest difference between hyper casual and hybrid casu…”",
+      "group": "The Design Shift: From Instant Fun to R…",
+      "value": "The biggest difference between hyper casual and hybrid casual is not just complexity. It is intention."
+    },
+    {
+      "id": "e22",
+      "kind": "text",
+      "label": "P: “Hyper casual design often focuses on one immediate action. …”",
+      "group": "The Design Shift: From Instant Fun to R…",
+      "value": "Hyper casual design often focuses on one immediate action. Hybrid casual design asks a second question: what makes the player come back tomorrow?"
+    },
+    {
+      "id": "e23",
+      "kind": "text",
+      "label": "P: “That question changes how teams think about development. It…”",
+      "group": "The Design Shift: From Instant Fun to R…",
+      "value": "That question changes how teams think about development. It brings retention, pacing, rewards, difficulty curves, and content structure into the conversation much earlier."
+    },
+    {
+      "id": "e24",
+      "kind": "html",
+      "label": "P: “This is where rapid prototyping becomes valuable. A studio …”",
+      "group": "The Design Shift: From Instant Fun to R…",
+      "value": "This is where <a href=\"/rapid-prototyping/\">rapid prototyping</a> becomes valuable. A studio does not need to build the full product before learning whether the core loop works. The smartest approach is to prototype, test, measure, and then decide what deserves more production time."
+    },
+    {
+      "id": "e25",
+      "kind": "text",
+      "label": "H2: “How OOX Limited Approaches Hybrid Casual Game Development”",
+      "group": "How OOX Limited Approaches Hybrid Casua…",
+      "value": "How OOX Limited Approaches Hybrid Casual Game Development"
+    },
+    {
+      "id": "e26",
+      "kind": "html",
+      "label": "P: “At OOX Limited, we approach hybrid casual game development …”",
+      "group": "How OOX Limited Approaches Hybrid Casua…",
+      "value": "At <a href=\"/\">OOX Limited</a>, we approach hybrid casual game development through fast validation and structured production. The goal is not to add more systems for the sake of it. The goal is to understand which systems actually improve the game."
+    },
+    {
+      "id": "e27",
+      "kind": "text",
+      "label": "P: “We start by identifying the core gameplay loop. Then we tes…”",
+      "group": "How OOX Limited Approaches Hybrid Casua…",
+      "value": "We start by identifying the core gameplay loop. Then we test whether the mechanic feels clear, satisfying, and repeatable. Once the core is working, we can explore progression, upgrades, economy, missions, content structure, and monetization design."
+    },
+    {
+      "id": "e28",
+      "kind": "text",
+      "label": "P: “Simple to start. Strong enough to return to.”",
+      "group": "How OOX Limited Approaches Hybrid Casua…",
+      "value": "Simple to start. Strong enough to return to."
+    },
+    {
+      "id": "e29",
+      "kind": "text",
+      "label": "P: “This approach helps reduce production waste. Instead of bui…”",
+      "group": "How OOX Limited Approaches Hybrid Casua…",
+      "value": "This approach helps reduce production waste. Instead of building a large game around assumptions, we validate the foundation first and expand only when the gameplay shows real potential."
+    },
+    {
+      "id": "e30",
+      "kind": "text",
+      "label": "H2: “Our Studio’s Work in Hybrid Casual Gaming”",
+      "group": "Our Studio’s Work in Hybrid Casual Gami…",
+      "value": "Our Studio’s Work in Hybrid Casual Gaming"
+    },
+    {
+      "id": "e31",
+      "kind": "text",
+      "label": "P: “Our team has worked across multiple mobile game concepts th…”",
+      "group": "Our Studio’s Work in Hybrid Casual Gami…",
+      "value": "Our team has worked across multiple mobile game concepts that combine accessible gameplay with deeper progression and player motivation. Each project approaches hybrid casual design differently, depending on the core loop, target audience, and production goals."
+    },
+    {
+      "id": "e32",
+      "kind": "text",
+      "label": "P: “Below are a few examples of mobile game projects connected …”",
+      "group": "Our Studio’s Work in Hybrid Casual Gami…",
+      "value": "Below are a few examples of mobile game projects connected to this direction."
+    },
+    {
+      "id": "e33",
+      "kind": "text",
+      "label": "H2: “Idle Hooligans”",
+      "group": "Idle Hooligans",
+      "value": "Idle Hooligans"
+    },
+    {
+      "id": "e34",
+      "kind": "html",
+      "label": "P: “Idle Hooligans combines idle clicker mechanics, city buildi…”",
+      "group": "Idle Hooligans",
+      "value": "<a href=\"https://linktr.ee/IdleHooligans\" target=\"_blank\" rel=\"noopener\">Idle Hooligans</a> combines idle clicker mechanics, city building, RPG elements, and multiplayer features. Players start as members of an ultras group and build recognition through activities across different cities."
+    },
+    {
+      "id": "e35",
+      "kind": "text",
+      "label": "P: “The game uses progression and competition to create a longe…”",
+      "group": "Idle Hooligans",
+      "value": "The game uses progression and competition to create a longer-term loop. Instead of relying only on simple clicking, it gives players a sense of growth, expansion, and ongoing challenge."
+    },
+    {
+      "id": "e36",
+      "kind": "text",
+      "label": "FIGCAPTION: “Idle Hooligans combines idle mechanics, city building, RPG …”",
+      "group": "Idle Hooligans",
+      "value": "Idle Hooligans combines idle mechanics, city building, RPG progression, and multiplayer elements."
+    },
+    {
+      "id": "e37",
+      "kind": "text",
+      "label": "H2: “Snare Lair”",
+      "group": "Snare Lair",
+      "value": "Snare Lair"
+    },
+    {
+      "id": "e38",
+      "kind": "html",
+      "label": "P: “Snare Lair focuses on strategy, resource collection, trap b…”",
+      "group": "Snare Lair",
+      "value": "<a href=\"https://play.google.com/store\" target=\"_blank\" rel=\"noopener\">Snare Lair</a> focuses on strategy, resource collection, trap building, and real-time decision-making. Players collect materials, create traps, and protect treasure from invading heroes."
+    },
+    {
+      "id": "e39",
+      "kind": "text",
+      "label": "P: “This kind of gameplay gives players a more active strategic…”",
+      "group": "Snare Lair",
+      "value": "This kind of gameplay gives players a more active strategic role. The game is still accessible, but the systems create more depth than a simple one-action hyper casual loop."
+    },
+    {
+      "id": "e40",
+      "kind": "text",
+      "label": "FIGCAPTION: “Snare Lair adds strategic decision-making through traps, ma…”",
+      "group": "Snare Lair",
+      "value": "Snare Lair adds strategic decision-making through traps, materials, and defensive gameplay."
+    },
+    {
+      "id": "e41",
+      "kind": "text",
+      "label": "H2: “Taxi Garage”",
+      "group": "Taxi Garage",
+      "value": "Taxi Garage"
+    },
+    {
+      "id": "e42",
+      "kind": "html",
+      "label": "P: “Taxi Garage turns car care into a mobile progression loop. …”",
+      "group": "Taxi Garage",
+      "value": "<a href=\"https://play.google.com/store\" target=\"_blank\" rel=\"noopener\">Taxi Garage</a> turns car care into a mobile progression loop. Players wash, repair, customize, and improve taxis while growing their garage business."
+    },
+    {
+      "id": "e43",
+      "kind": "text",
+      "label": "P: “The appeal comes from simple actions connected to visible p…”",
+      "group": "Taxi Garage",
+      "value": "The appeal comes from simple actions connected to visible progress. Customization, upgrades, and business growth give the player a reason to continue beyond the first session."
+    },
+    {
+      "id": "e44",
+      "kind": "text",
+      "label": "FIGCAPTION: “Taxi Garage combines simple interaction, customization, and…”",
+      "group": "Taxi Garage",
+      "value": "Taxi Garage combines simple interaction, customization, and business progression."
+    },
+    {
+      "id": "e45",
+      "kind": "text",
+      "label": "H2: “What Hybrid Casual Means for Publishers and Studios”",
+      "group": "What Hybrid Casual Means for Publishers…",
+      "value": "What Hybrid Casual Means for Publishers and Studios"
+    },
+    {
+      "id": "e46",
+      "kind": "text",
+      "label": "P: “For publishers and studios, hybrid casual gaming creates a …”",
+      "group": "What Hybrid Casual Means for Publishers…",
+      "value": "For publishers and studios, hybrid casual gaming creates a different production challenge. It is not only about generating many ideas quickly. It is about identifying which ideas can support both simple gameplay and long-term engagement."
+    },
+    {
+      "id": "e47",
+      "kind": "text",
+      "label": "P: “That means teams need to think about retention earlier. The…”",
+      "group": "What Hybrid Casual Means for Publishers…",
+      "value": "That means teams need to think about retention earlier. They need to test core mechanics, but also consider how progression, monetization, and content pacing will support the product if the first version shows promise."
+    },
+    {
+      "id": "e48",
+      "kind": "html",
+      "label": "P: “This is why OOX Limited focuses on full-cycle development, …”",
+      "group": "What Hybrid Casual Means for Publishers…",
+      "value": "This is why OOX Limited focuses on <a href=\"/full-cycle-development/\">full-cycle development</a>, <a href=\"/mobile-game-development/\">mobile game development</a>, and <a href=\"/rapid-prototyping/\">rapid prototyping</a> as connected services, not separate steps."
+    },
+    {
+      "id": "e49",
+      "kind": "text",
+      "label": "H2: “Building a Hybrid Casual Game?”",
+      "group": "Building a Hybrid Casual Game?",
+      "value": "Building a Hybrid Casual Game?"
+    },
+    {
+      "id": "e50",
+      "kind": "text",
+      "label": "P: “If you are exploring a mobile game concept, the strongest f…”",
+      "group": "Building a Hybrid Casual Game?",
+      "value": "If you are exploring a mobile game concept, the strongest first step is not full production. It is validation."
+    },
+    {
+      "id": "e51",
+      "kind": "text",
+      "label": "P: “OOX Limited helps studios, publishers, and product teams tu…”",
+      "group": "Building a Hybrid Casual Game?",
+      "value": "OOX Limited helps studios, publishers, and product teams turn early ideas into playable prototypes, test core loops, and move forward with clearer production decisions."
+    },
+    {
+      "id": "e52",
+      "kind": "text",
+      "label": "P: “Prototype first. Scale when the signal is clear.”",
+      "group": "Building a Hybrid Casual Game?",
+      "value": "Prototype first. Scale when the signal is clear."
+    },
+    {
+      "id": "e53",
+      "kind": "text",
+      "label": "Button: “Login”",
+      "group": "Page",
+      "value": "Login"
+    },
+    {
+      "id": "e54",
+      "kind": "html",
+      "label": "LI: “oox menu”",
+      "group": "Page",
+      "value": "<span>oox menu</span>"
+    },
+    {
+      "id": "e55",
+      "kind": "image",
+      "label": "Image: mobile game development team",
+      "group": "Recent posts",
+      "value": "/wp-content/uploads/2026/07/DSC06489-768x1152.jpg"
+    },
+    {
+      "id": "e56",
+      "kind": "imageAlt",
+      "label": "Alt for mobile game development team",
+      "group": "Recent posts",
+      "value": "mobile game development team"
+    },
+    {
+      "id": "e57",
+      "kind": "image",
+      "label": "Image: Read more",
+      "group": "Recent posts",
+      "value": "/wp-content/uploads/2026/03/arrowr.png"
+    },
+    {
+      "id": "e58",
+      "kind": "imageAlt",
+      "label": "Alt for Read more",
+      "group": "Recent posts",
+      "value": "Read more"
+    },
+    {
+      "id": "e59",
+      "kind": "image",
+      "label": "Image: Office Photos OOX Limited",
+      "group": "Recent posts",
+      "value": "/wp-content/uploads/2026/03/c7f806ba5aa0b941cf5c248e564b0d3d12a19406-768x512.jpg"
+    },
+    {
+      "id": "e60",
+      "kind": "imageAlt",
+      "label": "Alt for Office Photos OOX Limited",
+      "group": "Recent posts",
+      "value": "Office Photos OOX Limited"
+    },
+    {
+      "id": "e61",
+      "kind": "image",
+      "label": "Image: Mobile Game Prototype Cost",
+      "group": "Recent posts",
+      "value": "/wp-content/uploads/2026/05/20260226-DSC06230-768x512.jpg"
+    },
+    {
+      "id": "e62",
+      "kind": "imageAlt",
+      "label": "Alt for Mobile Game Prototype Cost",
+      "group": "Recent posts",
+      "value": "Mobile Game Prototype Cost"
+    },
+    {
+      "id": "e63",
+      "kind": "image",
+      "label": "Image: Hybrid casual mobile game development b…",
+      "group": "Hybrid Casual Gaming: Why Mobile Studio…",
+      "value": "PASTE-HERO-IMAGE-URL-HERE"
+    },
+    {
+      "id": "e64",
+      "kind": "imageAlt",
+      "label": "Alt for Hybrid casual mobile game dev…",
+      "group": "Hybrid Casual Gaming: Why Mobile Studio…",
+      "value": "Hybrid casual mobile game development by OOX Limited"
+    },
+    {
+      "id": "e65",
+      "kind": "image",
+      "label": "Image: Idle Hooligans hybrid casual mobile gam…",
+      "group": "Idle Hooligans",
+      "value": "PASTE-IDLE-HOOLIGANS-IMAGE-URL-HERE"
+    },
+    {
+      "id": "e66",
+      "kind": "imageAlt",
+      "label": "Alt for Idle Hooligans hybrid casual …",
+      "group": "Idle Hooligans",
+      "value": "Idle Hooligans hybrid casual mobile game with city building and RPG elements"
+    },
+    {
+      "id": "e67",
+      "kind": "image",
+      "label": "Image: Snare Lair mobile game featuring strate…",
+      "group": "Snare Lair",
+      "value": "PASTE-SNARE-LAIR-IMAGE-URL-HERE"
+    },
+    {
+      "id": "e68",
+      "kind": "imageAlt",
+      "label": "Alt for Snare Lair mobile game featur…",
+      "group": "Snare Lair",
+      "value": "Snare Lair mobile game featuring strategy, traps, and real-time gameplay"
+    },
+    {
+      "id": "e69",
+      "kind": "image",
+      "label": "Image: Taxi Garage mobile game with car custom…",
+      "group": "Taxi Garage",
+      "value": "PASTE-TAXI-GARAGE-IMAGE-URL-HERE"
+    },
+    {
+      "id": "e70",
+      "kind": "imageAlt",
+      "label": "Alt for Taxi Garage mobile game with …",
+      "group": "Taxi Garage",
+      "value": "Taxi Garage mobile game with car customization and garage progression"
+    }
+  ]
+}

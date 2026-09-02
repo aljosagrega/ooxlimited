@@ -1,0 +1,942 @@
+{
+  "entries": [
+    {
+      "id": "e1",
+      "kind": "text",
+      "label": "H2: “Table of Contents”",
+      "group": "Page",
+      "value": "Table of Contents"
+    },
+    {
+      "id": "e2",
+      "kind": "text",
+      "label": "H2: “Recent posts”",
+      "group": "Recent posts",
+      "value": "Recent posts"
+    },
+    {
+      "id": "e3",
+      "kind": "html",
+      "label": "H3: “What a Mobile Game Vertical Slice Should Prove Before Produ…”",
+      "group": "Recent posts",
+      "value": "<a href=\"/mobile-game-vertical-slice-prove-before-production-2/\">What a Mobile Game Vertical Slice Should Prove Before Production</a>"
+    },
+    {
+      "id": "e4",
+      "kind": "html",
+      "label": "H3: “The Prototyping-First Studio: Why Validation Comes Before”",
+      "group": "Recent posts",
+      "value": "<a href=\"/prototyping-first-studio-validation-before-building-2026/\">The Prototyping-First Studio: Why Validation Comes Before</a>"
+    },
+    {
+      "id": "e5",
+      "kind": "html",
+      "label": "H3: “Mobile Game Vertical Slice: What to Prove Before Production”",
+      "group": "Recent posts",
+      "value": "<a href=\"/mobile-game-vertical-slice-prove-before-production/\">Mobile Game Vertical Slice: What to Prove Before Production</a>"
+    },
+    {
+      "id": "e6",
+      "kind": "text",
+      "label": "P: “Choosing the wrong development partner doesn’t just slow yo…”",
+      "group": "Page",
+      "value": "Choosing the wrong development partner doesn’t just slow you down — it can sink the entire project. In this guide, we break down what most founders get wrong, why validation matters more than production speed, and what to actually look for in a mobile game development partner in 2026."
+    },
+    {
+      "id": "e7",
+      "kind": "text",
+      "label": "H1: “How to Choose the Right Mobile Game Development Partner in …”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "How to Choose the Right Mobile Game Development Partner in 2026"
+    },
+    {
+      "id": "e8",
+      "kind": "text",
+      "label": "P: “Most mobile games fail long before launch.”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "Most mobile games fail long before launch."
+    },
+    {
+      "id": "e9",
+      "kind": "text",
+      "label": "P: “Not because the team couldn't build them.”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "Not because the team couldn't build them."
+    },
+    {
+      "id": "e10",
+      "kind": "text",
+      "label": "P: “Because months - sometimes years; get invested into ideas t…”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "Because months - sometimes years; get invested into ideas that were never validated properly in the first place."
+    },
+    {
+      "id": "e11",
+      "kind": "text",
+      "label": "P: “That's the real risk in mobile gaming: committing too early.”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "That's the real risk in mobile gaming: committing too early."
+    },
+    {
+      "id": "e12",
+      "kind": "text",
+      "label": "P: “Many founders still approach development the wrong way:”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "Many founders still approach development the wrong way:"
+    },
+    {
+      "id": "e13",
+      "kind": "text",
+      "label": "LI: “build full systems”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "build full systems"
+    },
+    {
+      "id": "e14",
+      "kind": "text",
+      "label": "LI: “spend heavily on production”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "spend heavily on production"
+    },
+    {
+      "id": "e15",
+      "kind": "text",
+      "label": "LI: “polish features”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "polish features"
+    },
+    {
+      "id": "e16",
+      "kind": "text",
+      "label": "LI: “scale the team”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "scale the team"
+    },
+    {
+      "id": "e17",
+      "kind": "text",
+      "label": "LI: “and only then test whether the game actually works.”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "and only then test whether the game actually works."
+    },
+    {
+      "id": "e18",
+      "kind": "text",
+      "label": "P: “At that point, changing direction becomes expensive.”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "At that point, changing direction becomes expensive."
+    },
+    {
+      "id": "e19",
+      "kind": "text",
+      "label": "P: “A better approach is reducing uncertainty first.”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "A better approach is reducing uncertainty first."
+    },
+    {
+      "id": "e20",
+      "kind": "text",
+      "label": "H2: “Why Validation Matters More Than Production Speed”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "Why Validation Matters More Than Production Speed"
+    },
+    {
+      "id": "e21",
+      "kind": "text",
+      "label": "P: “The best mobile game development partner is not the one tha…”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "The best mobile game development partner is not the one that simply builds the fastest."
+    },
+    {
+      "id": "e22",
+      "kind": "text",
+      "label": "P: “It's the one that helps you:”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "It's the one that helps you:"
+    },
+    {
+      "id": "e23",
+      "kind": "text",
+      "label": "LI: “validate faster”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "validate faster"
+    },
+    {
+      "id": "e24",
+      "kind": "text",
+      "label": "LI: “test cheaper”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "test cheaper"
+    },
+    {
+      "id": "e25",
+      "kind": "text",
+      "label": "LI: “iterate quicker”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "iterate quicker"
+    },
+    {
+      "id": "e26",
+      "kind": "text",
+      "label": "LI: “and avoid wasting months on the wrong direction.”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "and avoid wasting months on the wrong direction."
+    },
+    {
+      "id": "e27",
+      "kind": "text",
+      "label": "P: “In mobile gaming, every major production decision should id…”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "In mobile gaming, every major production decision should ideally come after:"
+    },
+    {
+      "id": "e28",
+      "kind": "text",
+      "label": "LI: “retention testing”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "retention testing"
+    },
+    {
+      "id": "e29",
+      "kind": "text",
+      "label": "LI: “CPI validation”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "CPI validation"
+    },
+    {
+      "id": "e30",
+      "kind": "text",
+      "label": "LI: “gameplay iteration”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "gameplay iteration"
+    },
+    {
+      "id": "e31",
+      "kind": "text",
+      "label": "LI: “real user feedback”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "real user feedback"
+    },
+    {
+      "id": "e32",
+      "kind": "text",
+      "label": "LI: “creative testing”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "creative testing"
+    },
+    {
+      "id": "e33",
+      "kind": "text",
+      "label": "P: “Without this, development becomes guesswork.”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "Without this, development becomes guesswork."
+    },
+    {
+      "id": "e34",
+      "kind": "html",
+      "label": "P: “Related reading: How Much Does a Mobile Game Prototype Cost?”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "<strong>Related reading:</strong><br> <a href=\"/how-much-does-a-mobile-game-prototype-cost-2-2/\">How Much Does a Mobile Game Prototype Cost?</a>"
+    },
+    {
+      "id": "e35",
+      "kind": "text",
+      "label": "H2: “Why Founders Lose So Much Time”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "Why Founders Lose So Much Time"
+    },
+    {
+      "id": "e36",
+      "kind": "text",
+      "label": "P: “Many teams start with:”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "Many teams start with:"
+    },
+    {
+      "id": "e37",
+      "kind": "text",
+      "label": "LI: “large scopes”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "large scopes"
+    },
+    {
+      "id": "e38",
+      "kind": "text",
+      "label": "LI: “complex roadmaps”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "complex roadmaps"
+    },
+    {
+      "id": "e39",
+      "kind": "text",
+      "label": "LI: “backend systems”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "backend systems"
+    },
+    {
+      "id": "e40",
+      "kind": "text",
+      "label": "LI: “monetization”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "monetization"
+    },
+    {
+      "id": "e41",
+      "kind": "text",
+      "label": "LI: “live ops planning”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "live ops planning"
+    },
+    {
+      "id": "e42",
+      "kind": "text",
+      "label": "LI: “production pipelines”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "production pipelines"
+    },
+    {
+      "id": "e43",
+      "kind": "text",
+      "label": "P: “before proving the core gameplay loop.”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "before proving the core gameplay loop."
+    },
+    {
+      "id": "e44",
+      "kind": "text",
+      "label": "P: “This creates the illusion of progress.”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "This creates the illusion of progress."
+    },
+    {
+      "id": "e45",
+      "kind": "text",
+      "label": "P: “But in reality:”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "But in reality:"
+    },
+    {
+      "id": "e46",
+      "kind": "text",
+      "label": "P: “the highest-risk assumption often remains completely untest…”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "the highest-risk assumption often remains completely untested."
+    },
+    {
+      "id": "e47",
+      "kind": "text",
+      "label": "P: “If players do not retain, scaling becomes irrelevant.”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "If players do not retain, scaling becomes irrelevant."
+    },
+    {
+      "id": "e48",
+      "kind": "text",
+      "label": "H2: “The Better Approach: Test Multiple Ideas Quickly”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "The Better Approach: Test Multiple Ideas Quickly"
+    },
+    {
+      "id": "e49",
+      "kind": "text",
+      "label": "P: “Instead of committing heavily to one unproven concept, stro…”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "Instead of committing heavily to one unproven concept, strong studios optimize for:"
+    },
+    {
+      "id": "e50",
+      "kind": "text",
+      "label": "LI: “rapid prototyping”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "rapid prototyping"
+    },
+    {
+      "id": "e51",
+      "kind": "text",
+      "label": "LI: “modular systems”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "modular systems"
+    },
+    {
+      "id": "e52",
+      "kind": "text",
+      "label": "LI: “fast iteration”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "fast iteration"
+    },
+    {
+      "id": "e53",
+      "kind": "text",
+      "label": "LI: “low-cost testing”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "low-cost testing"
+    },
+    {
+      "id": "e54",
+      "kind": "text",
+      "label": "LI: “kill-or-scale decisions”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "kill-or-scale decisions"
+    },
+    {
+      "id": "e55",
+      "kind": "text",
+      "label": "P: “The goal is simple:”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "The goal is simple:"
+    },
+    {
+      "id": "e56",
+      "kind": "text",
+      "label": "P: “increase your chances of finding something that genuinely w…”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "increase your chances of finding something that genuinely works."
+    },
+    {
+      "id": "e57",
+      "kind": "text",
+      "label": "P: “Sometimes the difference between a scalable game and a fail…”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "Sometimes the difference between a scalable game and a failed one is discovered within the first few weeks of testing."
+    },
+    {
+      "id": "e58",
+      "kind": "text",
+      "label": "P: “That is why speed matters so much.”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "That is why speed matters so much."
+    },
+    {
+      "id": "e59",
+      "kind": "text",
+      "label": "P: “Not because rushing is good.”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "Not because rushing is good."
+    },
+    {
+      "id": "e60",
+      "kind": "text",
+      "label": "P: “Because fast feedback loops reduce expensive mistakes.”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "Because fast feedback loops reduce expensive mistakes."
+    },
+    {
+      "id": "e61",
+      "kind": "text",
+      "label": "H2: “What Founders Should Actually Look For”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "What Founders Should Actually Look For"
+    },
+    {
+      "id": "e62",
+      "kind": "text",
+      "label": "P: “A strong development partner should help you:”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "A strong development partner should help you:"
+    },
+    {
+      "id": "e63",
+      "kind": "text",
+      "label": "LI: “validate gameplay assumptions”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "validate gameplay assumptions"
+    },
+    {
+      "id": "e64",
+      "kind": "text",
+      "label": "LI: “structure production properly”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "structure production properly"
+    },
+    {
+      "id": "e65",
+      "kind": "text",
+      "label": "LI: “reduce technical risk”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "reduce technical risk"
+    },
+    {
+      "id": "e66",
+      "kind": "text",
+      "label": "LI: “test efficiently”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "test efficiently"
+    },
+    {
+      "id": "e67",
+      "kind": "text",
+      "label": "LI: “and evolve prototypes into scalable products later.”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "and evolve prototypes into scalable products later."
+    },
+    {
+      "id": "e68",
+      "kind": "text",
+      "label": "P: “Not simply build features on request.”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "Not simply build features on request."
+    },
+    {
+      "id": "e69",
+      "kind": "text",
+      "label": "P: “In many cases, founders do not need a \"full game\" yet.”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "In many cases, founders do not need a \"full game\" yet."
+    },
+    {
+      "id": "e70",
+      "kind": "text",
+      "label": "P: “They need:”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "They need:"
+    },
+    {
+      "id": "e71",
+      "kind": "text",
+      "label": "P: “clarity.”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "clarity."
+    },
+    {
+      "id": "e72",
+      "kind": "text",
+      "label": "H2: “What Makes OOX Different”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "What Makes OOX Different"
+    },
+    {
+      "id": "e73",
+      "kind": "text",
+      "label": "P: “At OOX Limited, we approach development through:”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "At OOX Limited, we approach development through:"
+    },
+    {
+      "id": "e74",
+      "kind": "text",
+      "label": "LI: “validation-first production”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "validation-first production"
+    },
+    {
+      "id": "e75",
+      "kind": "text",
+      "label": "LI: “modular architecture”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "modular architecture"
+    },
+    {
+      "id": "e76",
+      "kind": "text",
+      "label": "LI: “data-driven iteration”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "data-driven iteration"
+    },
+    {
+      "id": "e77",
+      "kind": "text",
+      "label": "P: “We help teams:”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "We help teams:"
+    },
+    {
+      "id": "e78",
+      "kind": "text",
+      "label": "LI: “test ideas quickly”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "test ideas quickly"
+    },
+    {
+      "id": "e79",
+      "kind": "text",
+      "label": "LI: “validate gameplay loops”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "validate gameplay loops"
+    },
+    {
+      "id": "e80",
+      "kind": "text",
+      "label": "LI: “analyze real user behavior”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "analyze real user behavior"
+    },
+    {
+      "id": "e81",
+      "kind": "text",
+      "label": "LI: “and decide where production should go before major investme…”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "and decide where production should go before major investments happen."
+    },
+    {
+      "id": "e82",
+      "kind": "text",
+      "label": "P: “Because our team handles:”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "Because our team handles:"
+    },
+    {
+      "id": "e83",
+      "kind": "text",
+      "label": "LI: “game design”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "game design"
+    },
+    {
+      "id": "e84",
+      "kind": "text",
+      "label": "LI: “development”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "development"
+    },
+    {
+      "id": "e85",
+      "kind": "text",
+      "label": "LI: “art”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "art"
+    },
+    {
+      "id": "e86",
+      "kind": "text",
+      "label": "LI: “UI/UX”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "UI/UX"
+    },
+    {
+      "id": "e87",
+      "kind": "text",
+      "label": "LI: “animation”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "animation"
+    },
+    {
+      "id": "e88",
+      "kind": "text",
+      "label": "LI: “technical implementation”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "technical implementation"
+    },
+    {
+      "id": "e89",
+      "kind": "text",
+      "label": "LI: “user acquisition”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "user acquisition"
+    },
+    {
+      "id": "e90",
+      "kind": "text",
+      "label": "P: “fully in-house, we can move from concept to playable protot…”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "fully in-house, we can move from concept to playable prototype in weeks — not months."
+    },
+    {
+      "id": "e91",
+      "kind": "text",
+      "label": "P: “And once validation becomes strong, we continue supporting …”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "And once validation becomes strong, we continue supporting projects through:"
+    },
+    {
+      "id": "e92",
+      "kind": "text",
+      "label": "LI: “full-scale production”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "full-scale production"
+    },
+    {
+      "id": "e93",
+      "kind": "text",
+      "label": "LI: “iteration”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "iteration"
+    },
+    {
+      "id": "e94",
+      "kind": "text",
+      "label": "LI: “optimization”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "optimization"
+    },
+    {
+      "id": "e95",
+      "kind": "text",
+      "label": "LI: “and scalable development pipelines.”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "and scalable development pipelines."
+    },
+    {
+      "id": "e96",
+      "kind": "html",
+      "label": "P: “Learn more: Mobile game co-development services”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "<strong>Learn more:</strong><br> <a href=\"/service/co-development/\">Mobile game co-development services</a>"
+    },
+    {
+      "id": "e97",
+      "kind": "text",
+      "label": "H2: “Why This Matters in 2026”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "Why This Matters in 2026"
+    },
+    {
+      "id": "e98",
+      "kind": "text",
+      "label": "P: “Mobile gaming is more competitive than ever.”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "Mobile gaming is more competitive than ever."
+    },
+    {
+      "id": "e99",
+      "kind": "html",
+      "label": "P: “According to data.ai's State of Mobile Gaming report, produ…”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "According to <a href=\"https://www.data.ai/en/go/state-of-mobile-gaming/\" target=\"_blank\" rel=\"noopener\">data.ai's State of Mobile Gaming report</a>, production costs are rising, user acquisition is harder, and player attention is shorter than ever before."
+    },
+    {
+      "id": "e100",
+      "kind": "text",
+      "label": "P: “The studios that survive are usually not the ones that buil…”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "The studios that survive are usually not the ones that build the biggest first."
+    },
+    {
+      "id": "e101",
+      "kind": "text",
+      "label": "P: “They are the ones that:”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "They are the ones that:"
+    },
+    {
+      "id": "e102",
+      "kind": "text",
+      "label": "LI: “validate early”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "validate early"
+    },
+    {
+      "id": "e103",
+      "kind": "text",
+      "label": "LI: “iterate quickly”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "iterate quickly"
+    },
+    {
+      "id": "e104",
+      "kind": "text",
+      "label": "LI: “learn faster than competitors”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "learn faster than competitors"
+    },
+    {
+      "id": "e105",
+      "kind": "text",
+      "label": "LI: “and commit heavily only after data supports it.”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "and commit heavily only after data supports it."
+    },
+    {
+      "id": "e106",
+      "kind": "text",
+      "label": "H2: “Explore More”",
+      "group": "Explore More",
+      "value": "Explore More"
+    },
+    {
+      "id": "e107",
+      "kind": "html",
+      "label": "LI: “Mobile Game Development Outsourcing: Benefits, Risks, and S…”",
+      "group": "Explore More",
+      "value": "<a href=\"/mobile-game-development-outsourcing/\">Mobile Game Development Outsourcing: Benefits, Risks, and Smarter Alternatives</a>"
+    },
+    {
+      "id": "e108",
+      "kind": "html",
+      "label": "LI: “How Much Does a Mobile Game Prototype Cost?”",
+      "group": "Explore More",
+      "value": "<a href=\"/how-much-does-a-mobile-game-prototype-cost-2-2/\">How Much Does a Mobile Game Prototype Cost?</a>"
+    },
+    {
+      "id": "e109",
+      "kind": "html",
+      "label": "LI: “Why Unity Remains the Leading Platform for Mobile Game Deve…”",
+      "group": "Explore More",
+      "value": "<a href=\"https://unity.com/solutions/mobile\" target=\"_blank\" rel=\"noopener\">Why Unity Remains the Leading Platform for Mobile Game Development</a>"
+    },
+    {
+      "id": "e110",
+      "kind": "text",
+      "label": "H2: “Final Thought”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "Final Thought"
+    },
+    {
+      "id": "e111",
+      "kind": "text",
+      "label": "P: “If you already know exactly what works, full production mak…”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "If you already know exactly what works, full production makes sense."
+    },
+    {
+      "id": "e112",
+      "kind": "text",
+      "label": "P: “But most teams don't.”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "But most teams don't."
+    },
+    {
+      "id": "e113",
+      "kind": "text",
+      "label": "P: “That's why the smartest investment early on is not usually:”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "That's why the smartest investment early on is not usually:"
+    },
+    {
+      "id": "e114",
+      "kind": "text",
+      "label": "P: “\"How much can we build?\"”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "\"How much can we build?\""
+    },
+    {
+      "id": "e115",
+      "kind": "text",
+      "label": "P: “It's:”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "It's:"
+    },
+    {
+      "id": "e116",
+      "kind": "text",
+      "label": "P: “\"How quickly can we learn what deserves scaling?\"”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "\"How quickly can we learn what deserves scaling?\""
+    },
+    {
+      "id": "e117",
+      "kind": "text",
+      "label": "P: “That distinction changes everything.”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "That distinction changes everything."
+    },
+    {
+      "id": "e118",
+      "kind": "text",
+      "label": "H2: “Looking for a Mobile Game Development Partner?”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "Looking for a Mobile Game Development Partner?"
+    },
+    {
+      "id": "e119",
+      "kind": "html",
+      "label": "P: “Before committing to a full development partner, many teams…”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "Before committing to a full development partner, many teams start with a <a href=\"/service/rapid-prototyping/\">rapid prototyping studio</a> to validate the core concept first."
+    },
+    {
+      "id": "e120",
+      "kind": "text",
+      "label": "P: “If you're exploring:”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "If you're exploring:"
+    },
+    {
+      "id": "e121",
+      "kind": "text",
+      "label": "LI: “gameplay validation”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "gameplay validation"
+    },
+    {
+      "id": "e122",
+      "kind": "text",
+      "label": "LI: “mobile game development”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "mobile game development"
+    },
+    {
+      "id": "e123",
+      "kind": "html",
+      "label": "LI: “scalable Unity production”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "scalable <a href=\"https://unity.com/solutions/mobile\" target=\"_blank\" rel=\"noopener\">Unity</a> production"
+    },
+    {
+      "id": "e124",
+      "kind": "text",
+      "label": "LI: “or co-development support”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "or co-development support"
+    },
+    {
+      "id": "e125",
+      "kind": "text",
+      "label": "P: “OOX Limited can help you move from idea to real market feed…”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "OOX Limited can help you move from idea to real market feedback faster."
+    },
+    {
+      "id": "e126",
+      "kind": "html",
+      "label": "P: “OOX Limited”",
+      "group": "How to Choose the Right Mobile Game Dev…",
+      "value": "<a href=\"/service/co-development/\">OOX Limited</a>"
+    },
+    {
+      "id": "e127",
+      "kind": "image",
+      "label": "Image: mobile game vertical slice",
+      "group": "Recent posts",
+      "value": "/wp-content/uploads/2026/08/DSC06517-768x1152.jpg"
+    },
+    {
+      "id": "e128",
+      "kind": "imageAlt",
+      "label": "Alt for mobile game vertical slice",
+      "group": "Recent posts",
+      "value": "mobile game vertical slice"
+    },
+    {
+      "id": "e129",
+      "kind": "image",
+      "label": "Image: Read more",
+      "group": "Recent posts",
+      "value": "/wp-content/uploads/2026/03/arrowr.png"
+    },
+    {
+      "id": "e130",
+      "kind": "imageAlt",
+      "label": "Alt for Read more",
+      "group": "Recent posts",
+      "value": "Read more"
+    },
+    {
+      "id": "e131",
+      "kind": "image",
+      "label": "Image: Office Photos OOX Limited",
+      "group": "Recent posts",
+      "value": "/wp-content/uploads/2026/03/d8d70c6789c6b5f6ea12d48bc4006f64f8be8019-768x512.jpg"
+    },
+    {
+      "id": "e132",
+      "kind": "imageAlt",
+      "label": "Alt for Office Photos OOX Limited",
+      "group": "Recent posts",
+      "value": "Office Photos OOX Limited"
+    },
+    {
+      "id": "e133",
+      "kind": "image",
+      "label": "Image: mobile game vertical slice",
+      "group": "Recent posts",
+      "value": "/wp-content/uploads/2026/07/20260226-DSC06235-768x512.jpg"
+    },
+    {
+      "id": "e134",
+      "kind": "imageAlt",
+      "label": "Alt for mobile game vertical slice",
+      "group": "Recent posts",
+      "value": "mobile game vertical slice"
+    }
+  ]
+}

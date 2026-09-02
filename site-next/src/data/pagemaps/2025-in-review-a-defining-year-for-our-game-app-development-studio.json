@@ -1,0 +1,494 @@
+{
+  "entries": [
+    {
+      "id": "e1",
+      "kind": "text",
+      "label": "H2: “Table of Contents”",
+      "group": "Page",
+      "value": "Table of Contents"
+    },
+    {
+      "id": "e2",
+      "kind": "text",
+      "label": "H2: “Recent posts”",
+      "group": "Recent posts",
+      "value": "Recent posts"
+    },
+    {
+      "id": "e3",
+      "kind": "html",
+      "label": "H3: “Rapid Prototyping in Game Development: A Studio’s Guide”",
+      "group": "Recent posts",
+      "value": "<a href=\"/rapid-prototyping-game-development-2/\">Rapid Prototyping in Game Development: A Studio’s Guide</a>"
+    },
+    {
+      "id": "e4",
+      "kind": "html",
+      "label": "H3: “From Idea to Playable: What a Game Prototyping Studio Actua…”",
+      "group": "Recent posts",
+      "value": "<a href=\"/game-prototyping-studio-deliverables/\">From Idea to Playable: What a Game Prototyping Studio Actually Delivers</a>"
+    },
+    {
+      "id": "e5",
+      "kind": "html",
+      "label": "H3: “Mobile Game Prototype Cost”",
+      "group": "Recent posts",
+      "value": "<a href=\"/how-much-does-a-mobile-game-prototype-cost-2-2/\">Mobile Game Prototype Cost</a>"
+    },
+    {
+      "id": "e6",
+      "kind": "text",
+      "label": "H2: “Global Momentum & Industry Recognition”",
+      "group": "Global Momentum & Industry Recognition",
+      "value": "Global Momentum & Industry Recognition"
+    },
+    {
+      "id": "e7",
+      "kind": "html",
+      "label": "P: “The year began with international visibility. Vukašin Despo…”",
+      "group": "Global Momentum & Industry Recognition",
+      "value": "The year began with international visibility. <a href=\"https://www.linkedin.com/in/vukasindespotovic/\" target=\"_blank\">Vukašin Despotović</a>, Business Developer at OOX Limited, represented our studio at the <a href=\"https://gdconf.com/\" target=\"_blank\">Game Developers Conference (GDC)</a> in San Francisco, one of the most influential global gatherings in the gaming industry. Participation in GDC provided direct exposure to evolving production methodologies, publishing models, and monetization trends shaping the future of mobile game development."
+    },
+    {
+      "id": "e8",
+      "kind": "html",
+      "label": "P: “In June, Marko Štrba attended the inaugural Pocket Gamer Co…”",
+      "group": "Global Momentum & Industry Recognition",
+      "value": "In June, <a href=\"https://www.linkedin.com/in/marko-strba-abb63b12a/\" target=\"_blank\">Marko Štrba</a> attended the inaugural <a href=\"https://www.pgconnects.com/barcelona/\" target=\"_blank\">Pocket Gamer Connects Barcelona</a> in Barcelona, a key event dedicated to leaders in mobile game development. The conference brought together publishers, developers, monetization experts, and growth specialists. For OOX Limited, it was an opportunity to deepen discussions around scalable production pipelines and sustainable player engagement strategies."
+    },
+    {
+      "id": "e9",
+      "kind": "text",
+      "label": "P: “These early milestones reinforced our international network…”",
+      "group": "Global Momentum & Industry Recognition",
+      "value": "These early milestones reinforced our international network and strengthened our position as a growing game development studio with a clear global outlook."
+    },
+    {
+      "id": "e10",
+      "kind": "text",
+      "label": "H2: “Mid-Year Reset”",
+      "group": "Mid-Year Reset",
+      "value": "Mid-Year Reset"
+    },
+    {
+      "id": "e11",
+      "kind": "text",
+      "label": "P: “July marked a brief but meaningful pause.”",
+      "group": "Mid-Year Reset",
+      "value": "July marked a brief but meaningful pause."
+    },
+    {
+      "id": "e12",
+      "kind": "text",
+      "label": "P: “After an intensive first half filled with production cycles…”",
+      "group": "Mid-Year Reset",
+      "value": "After an intensive first half filled with production cycles and international travel, the team stepped back to reset. We spent time together revisiting arcade classics, a reminder of the creative roots that drive both mobile game development and digital product innovation."
+    },
+    {
+      "id": "e13",
+      "kind": "text",
+      "label": "P: “For a scaling game development studio, moments like these a…”",
+      "group": "Mid-Year Reset",
+      "value": "For a scaling game development studio, moments like these are not about slowing down, they are about maintaining clarity, alignment, and sustainable creativity."
+    },
+    {
+      "id": "e14",
+      "kind": "text",
+      "label": "FIGCAPTION: “Mobile game development team playing arcade.”",
+      "group": "Mid-Year Reset",
+      "value": "Mobile game development team playing arcade."
+    },
+    {
+      "id": "e15",
+      "kind": "text",
+      "label": "H2: “Recharged and Back on the Road”",
+      "group": "Recharged and Back on the Road",
+      "value": "Recharged and Back on the Road"
+    },
+    {
+      "id": "e16",
+      "kind": "html",
+      "label": "P: “August brought one of the year’s most visible milestones. M…”",
+      "group": "Recharged and Back on the Road",
+      "value": "August brought one of the year’s most visible milestones. <a href=\"https://www.linkedin.com/in/marko-strba-abb63b12a/\" target=\"_blank\">Marko Štrba</a>, CEO at OOX Limited, represented the company and the <a href=\"https://sga.rs/en/\" target=\"_blank\">Serbian Games Association</a> at <a href=\"https://www.gamescom.global/en\" target=\"_blank\">Gamescom</a> in Cologne, the largest gaming event in Europe."
+    },
+    {
+      "id": "e17",
+      "kind": "text",
+      "label": "P: “This marked our second consecutive year exhibiting with our…”",
+      "group": "Recharged and Back on the Road",
+      "value": "This marked our second consecutive year exhibiting with our own booth as part of the Serbian delegation. Exhibiting at Gamescom signals more than attendance, it reflects production maturity and readiness for international collaboration within the global mobile game development ecosystem."
+    },
+    {
+      "id": "e18",
+      "kind": "text",
+      "label": "P: “In early September, international engagement continued at t…”",
+      "group": "Recharged and Back on the Road",
+      "value": "In early September, international engagement continued at the Creative Bridge: Korea & Serbia business event (September 9–10), held in Belgrade."
+    },
+    {
+      "id": "e19",
+      "kind": "html",
+      "label": "P: “The initiative was organized through collaboration between …”",
+      "group": "Recharged and Back on the Road",
+      "value": "The initiative was organized through collaboration between the <a href=\"https://www.busanit.or.kr/eng/\" target=\"_blank\">Busan IT Industry Promotion Agency (BIPA)</a>, <a href=\"https://serbiacreates.rs/\" target=\"_blank\">Serbia Creates</a>, the <a href=\"https://overseas.mofa.go.kr/rs-en/index.do\" target=\"_blank\">Embassy of the Republic of Korea in Serbia</a>, and the <a href=\"https://www.kotra.or.kr/english/index.do\" target=\"_blank\">Korea Trade-Investment Promotion Agency (KOTRA)</a> with local execution led by the Serbian Games Association and the Serbian IT Association."
+    },
+    {
+      "id": "e20",
+      "kind": "text",
+      "label": "P: “The event created a structured dialogue between two rapidly…”",
+      "group": "Recharged and Back on the Road",
+      "value": "The event created a structured dialogue between two rapidly developing tech ecosystems. For OOX Limited, participation represented another step toward expanding collaboration not only in mobile game development, but also across broader digital product innovation."
+    },
+    {
+      "id": "e21",
+      "kind": "text",
+      "label": "FIGCAPTION: “From left to right: Luka Pikula, Luka Miljuš, Marko Štrba, …”",
+      "group": "Recharged and Back on the Road",
+      "value": "From left to right: Luka Pikula, Luka Miljuš, Marko Štrba, Konstantin Đuričković."
+    },
+    {
+      "id": "e22",
+      "kind": "text",
+      "label": "H2: “Sharing Expertise at GameDev Rev”",
+      "group": "Sharing Expertise at GameDev Rev",
+      "value": "Sharing Expertise at GameDev Rev"
+    },
+    {
+      "id": "e23",
+      "kind": "html",
+      "label": "P: “In October, Marko Štrba joined a production and publishing …”",
+      "group": "Sharing Expertise at GameDev Rev",
+      "value": "In October, <a href=\"https://www.linkedin.com/in/marko-strba-abb63b12a/\" target=\"_blank\">Marko Štrba</a> joined a production and publishing panel at <a href=\"https://gamedevrev.com/\" target=\"_blank\">GameDev Rev</a>, the first gaming conference organized by the <a href=\"https://mgi.mk/\" target=\"_blank\">Macedonian Games Industry</a>."
+    },
+    {
+      "id": "e24",
+      "kind": "text",
+      "label": "P: “The discussion focused on production workflows and publishi…”",
+      "group": "Sharing Expertise at GameDev Rev",
+      "value": "The discussion focused on production workflows and publishing strategies for both mobile and PC titles. Fellow panelists included representatives from Not a Shark, Furious Avocado, and Windflower Games."
+    },
+    {
+      "id": "e25",
+      "kind": "text",
+      "label": "P: “Participating as a speaker positioned OOX Limited not only …”",
+      "group": "Sharing Expertise at GameDev Rev",
+      "value": "Participating as a speaker positioned OOX Limited not only as a delivery-focused game development studio, but as an active contributor to industry dialogue around scalable production and sustainable publishing models within the mobile game development space."
+    },
+    {
+      "id": "e26",
+      "kind": "text",
+      "label": "FIGCAPTION: “GameDev Rev production and publishing panel.”",
+      "group": "Sharing Expertise at GameDev Rev",
+      "value": "GameDev Rev production and publishing panel."
+    },
+    {
+      "id": "e27",
+      "kind": "text",
+      "label": "H2: “Production & Mobile Game Development Growth”",
+      "group": "Production & Mobile Game Development Gr…",
+      "value": "Production & Mobile Game Development Growth"
+    },
+    {
+      "id": "e28",
+      "kind": "text",
+      "label": "P: “While international conferences shaped our external presenc…”",
+      "group": "Production & Mobile Game Development Gr…",
+      "value": "While international conferences shaped our external presence, the core of 2025 unfolded inside the studio."
+    },
+    {
+      "id": "e29",
+      "kind": "html",
+      "label": "P: “Throughout the year, OOX Limited focused extensively on rap…”",
+      "group": "Production & Mobile Game Development Gr…",
+      "value": "Throughout the year, OOX Limited focused extensively on <a href=\"/#services\" target=\"_blank\">rapid prototyping</a> for multiple clients across both games and digital applications. Projects moved from early ideation and concept validation to playable MVPs and fully functional working prototypes, following a structured lifecycle designed to reduce uncertainty and accelerate testing."
+    },
+    {
+      "id": "e30",
+      "kind": "text",
+      "label": "P: “This iterative framework strengthened our internal processe…”",
+      "group": "Production & Mobile Game Development Gr…",
+      "value": "This iterative framework strengthened our internal processes and reinforced our role within the broader mobile game development ecosystem. By combining development and art production in-house, we streamlined collaboration and reduced iteration cycles."
+    },
+    {
+      "id": "e31",
+      "kind": "text",
+      "label": "P: “The year also marked significant internal growth. Our team …”",
+      "group": "Production & Mobile Game Development Gr…",
+      "value": "The year also marked significant internal growth. Our team expanded by over 100%, increasing production capacity and enabling us to support more complex and parallel initiatives. Scaling at this pace required deliberate investment in communication, structure, and long-term operational clarity."
+    },
+    {
+      "id": "e32",
+      "kind": "text",
+      "label": "H3: “Validation in Practice Across Mobile Games and Apps”",
+      "group": "Production & Mobile Game Development Gr…",
+      "value": "Validation in Practice Across Mobile Games and Apps"
+    },
+    {
+      "id": "e33",
+      "kind": "text",
+      "label": "P: “Our hybrid-casual framework continued evolving throughout 2…”",
+      "group": "Production & Mobile Game Development Gr…",
+      "value": "Our hybrid-casual framework continued evolving throughout 2025, expanding on previously shared insights into hybrid casual gaming."
+    },
+    {
+      "id": "e34",
+      "kind": "html",
+      "label": "P: “One practical example is Sword Island: Samurai, developed f…”",
+      "group": "Production & Mobile Game Development Gr…",
+      "value": "One practical example is <a href=\"/sword-island-samurai-now-available-on-playstore/\" target=\"_blank\">Sword Island: Samurai</a>, developed for Transsion: the fifth-largest mobile phone manufacturer globally. The project moved from structured validation to a production-ready build, demonstrating how early testing, iteration in Unity, and focused execution can translate into scalable market-ready experiences."
+    },
+    {
+      "id": "e35",
+      "kind": "text",
+      "label": "H2: “Looking Ahead”",
+      "group": "Looking Ahead",
+      "value": "Looking Ahead"
+    },
+    {
+      "id": "e36",
+      "kind": "html",
+      "label": "P: “While 2025 was intensive, it also meant revisiting prioriti…”",
+      "group": "Looking Ahead",
+      "value": "While 2025 was intensive, it also meant revisiting priorities for the year ahead. We were unable to attend several important industry events we participated in during 2024, including <a href=\"https://mobidictum.com/events/\" target=\"_blank\">Mobidictum Conference</a> in Istanbul and <a href=\"https://rebootdevelopblue.com/\" target=\"_blank\">Reboot Develop Blue</a> in Dubrovnik. We also missed <a href=\"https://digitaldragons.pl/\" target=\"_blank\">Digital Dragons</a> in Krakow, notably the only major regional industry event we have yet to attend."
+    },
+    {
+      "id": "e37",
+      "kind": "text",
+      "label": "P: “That changes in 2026.”",
+      "group": "Looking Ahead",
+      "value": "That changes in 2026."
+    },
+    {
+      "id": "e38",
+      "kind": "text",
+      "label": "H2: “Strategic Focus for 2026”",
+      "group": "Strategic Focus for 2026",
+      "value": "Strategic Focus for 2026"
+    },
+    {
+      "id": "e39",
+      "kind": "html",
+      "label": "P: “2026 is not about building more. It is about building smart…”",
+      "group": "Strategic Focus for 2026",
+      "value": "2026 is not about building more.<br> It is about building smarter."
+    },
+    {
+      "id": "e40",
+      "kind": "text",
+      "label": "P: “Our strategic focus remains clear: early market validation …”",
+      "group": "Strategic Focus for 2026",
+      "value": "Our strategic focus remains clear: early market validation before full-scale investment."
+    },
+    {
+      "id": "e41",
+      "kind": "text",
+      "label": "P: “Too many digital products fail not because they are poorly …”",
+      "group": "Strategic Focus for 2026",
+      "value": "Too many digital products fail not because they are poorly built, but because they are built too early, before real market signals are understood. As a game development studio, we position ourselves differently. We prioritize validation cycles, rapid iteration in Unity, and playable MVP development before committing partners to long-term production."
+    },
+    {
+      "id": "e42",
+      "kind": "text",
+      "label": "P: “Prototype. Test. Measure. Decide.”",
+      "group": "Strategic Focus for 2026",
+      "value": "Prototype. Test. Measure. Decide."
+    },
+    {
+      "id": "e43",
+      "kind": "html",
+      "label": "P: “Only when traction is confirmed do we transition into full-…”",
+      "group": "Strategic Focus for 2026",
+      "value": "Only when traction is confirmed do we transition into <a href=\"/#services\" target=\"_blank\">full-cycle development</a>, supported by integrated art and engineering teams working under one roof."
+    },
+    {
+      "id": "e44",
+      "kind": "text",
+      "label": "P: “This approach reduces risk, shortens feedback loops, and pr…”",
+      "group": "Strategic Focus for 2026",
+      "value": "This approach reduces risk, shortens feedback loops, and protects partner budgets by ensuring that time and capital are invested in ideas that demonstrate real potential."
+    },
+    {
+      "id": "e45",
+      "kind": "text",
+      "label": "P: “In line with this approach, our expansion into mobile appli…”",
+      "group": "Strategic Focus for 2026",
+      "value": "In line with this approach, our expansion into mobile applications follows the same philosophy. Whether in mobile game development or digital product innovation, validation comes first."
+    },
+    {
+      "id": "e46",
+      "kind": "text",
+      "label": "H2: “What Clients Can Expect in 2026”",
+      "group": "What Clients Can Expect in 2026",
+      "value": "What Clients Can Expect in 2026"
+    },
+    {
+      "id": "e47",
+      "kind": "text",
+      "label": "P: “Ultimately, clients can expect clarity before commitment.”",
+      "group": "What Clients Can Expect in 2026",
+      "value": "Ultimately, clients can expect clarity before commitment."
+    },
+    {
+      "id": "e48",
+      "kind": "text",
+      "label": "P: “More specifically, we help partners answer the most importa…”",
+      "group": "What Clients Can Expect in 2026",
+      "value": "More specifically, we help partners answer the most important question early:"
+    },
+    {
+      "id": "e49",
+      "kind": "text",
+      "label": "P: “Is this worth building?”",
+      "group": "What Clients Can Expect in 2026",
+      "value": "Is this worth building?"
+    },
+    {
+      "id": "e50",
+      "kind": "text",
+      "label": "P: “Through rapid, structured prototyping, we create playable M…”",
+      "group": "What Clients Can Expect in 2026",
+      "value": "Through rapid, structured prototyping, we create playable MVPs designed for real-world testing. Instead of months of assumption-driven production, we enable fast feedback and measurable validation. As a result, partners gain clarity before making long-term commitments."
+    },
+    {
+      "id": "e51",
+      "kind": "text",
+      "label": "P: “Everything is built in-house. Fast. With purpose.”",
+      "group": "What Clients Can Expect in 2026",
+      "value": "Everything is built in-house. Fast. With purpose."
+    },
+    {
+      "id": "e52",
+      "kind": "text",
+      "label": "P: “If validation confirms traction, we scale the product respo…”",
+      "group": "What Clients Can Expect in 2026",
+      "value": "If validation confirms traction, we scale the product responsibly, moving into full-cycle development with aligned expectations and stronger strategic direction."
+    },
+    {
+      "id": "e53",
+      "kind": "text",
+      "label": "P: “Our goal is simple:”",
+      "group": "What Clients Can Expect in 2026",
+      "value": "Our goal is simple:"
+    },
+    {
+      "id": "e54",
+      "kind": "text",
+      "label": "P: “Help partners invest smarter, not just build faster.”",
+      "group": "What Clients Can Expect in 2026",
+      "value": "Help partners invest smarter, not just build faster."
+    },
+    {
+      "id": "e55",
+      "kind": "text",
+      "label": "Button: “Login”",
+      "group": "Page",
+      "value": "Login"
+    },
+    {
+      "id": "e56",
+      "kind": "html",
+      "label": "LI: “oox menu”",
+      "group": "Page",
+      "value": "<span>oox menu</span>"
+    },
+    {
+      "id": "e57",
+      "kind": "image",
+      "label": "Image: mobile game development team",
+      "group": "Recent posts",
+      "value": "/wp-content/uploads/2026/07/DSC06489-768x1152.jpg"
+    },
+    {
+      "id": "e58",
+      "kind": "imageAlt",
+      "label": "Alt for mobile game development team",
+      "group": "Recent posts",
+      "value": "mobile game development team"
+    },
+    {
+      "id": "e59",
+      "kind": "image",
+      "label": "Image: Read more",
+      "group": "Recent posts",
+      "value": "/wp-content/uploads/2026/03/arrowr.png"
+    },
+    {
+      "id": "e60",
+      "kind": "imageAlt",
+      "label": "Alt for Read more",
+      "group": "Recent posts",
+      "value": "Read more"
+    },
+    {
+      "id": "e61",
+      "kind": "image",
+      "label": "Image: Office Photos OOX Limited",
+      "group": "Recent posts",
+      "value": "/wp-content/uploads/2026/03/c7f806ba5aa0b941cf5c248e564b0d3d12a19406-768x512.jpg"
+    },
+    {
+      "id": "e62",
+      "kind": "imageAlt",
+      "label": "Alt for Office Photos OOX Limited",
+      "group": "Recent posts",
+      "value": "Office Photos OOX Limited"
+    },
+    {
+      "id": "e63",
+      "kind": "image",
+      "label": "Image: Mobile Game Prototype Cost",
+      "group": "Recent posts",
+      "value": "/wp-content/uploads/2026/05/20260226-DSC06230-768x512.jpg"
+    },
+    {
+      "id": "e64",
+      "kind": "imageAlt",
+      "label": "Alt for Mobile Game Prototype Cost",
+      "group": "Recent posts",
+      "value": "Mobile Game Prototype Cost"
+    },
+    {
+      "id": "e65",
+      "kind": "image",
+      "label": "Image: OOX mobile game development team playin…",
+      "group": "Mid-Year Reset",
+      "value": "/wp-content/uploads/2026/01/216b79027cc7e8fa9c4521274c5c4dbeb51670d0.jpg"
+    },
+    {
+      "id": "e66",
+      "kind": "imageAlt",
+      "label": "Alt for OOX mobile game development t…",
+      "group": "Mid-Year Reset",
+      "value": "OOX mobile game development team playing arcade games during a mid-year reset"
+    },
+    {
+      "id": "e67",
+      "kind": "image",
+      "label": "Image: OOX team at Creative Bridge Korea and S…",
+      "group": "Recharged and Back on the Road",
+      "value": "/wp-content/uploads/2026/04/image.png"
+    },
+    {
+      "id": "e68",
+      "kind": "imageAlt",
+      "label": "Alt for OOX team at Creative Bridge K…",
+      "group": "Recharged and Back on the Road",
+      "value": "OOX team at Creative Bridge Korea and Serbia business event in Belgrade"
+    },
+    {
+      "id": "e69",
+      "kind": "image",
+      "label": "Image: Marko Štrba speaking at GameDev Rev pro…",
+      "group": "Sharing Expertise at GameDev Rev",
+      "value": "/wp-content/uploads/2026/04/image23.png"
+    },
+    {
+      "id": "e70",
+      "kind": "imageAlt",
+      "label": "Alt for Marko Štrba speaking at GameD…",
+      "group": "Sharing Expertise at GameDev Rev",
+      "value": "Marko Štrba speaking at GameDev Rev production and publishing panel"
+    }
+  ]
+}

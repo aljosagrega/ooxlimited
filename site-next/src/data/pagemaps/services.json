@@ -1,0 +1,179 @@
+{
+  "entries": [
+    {
+      "id": "e1",
+      "kind": "text",
+      "label": "H1: “Services”",
+      "group": "Services",
+      "value": "Services"
+    },
+    {
+      "id": "e2",
+      "kind": "html",
+      "label": "H2: “From Idea to Production, We Cover Every Step”",
+      "group": "From Idea to Production, We Cover Every…",
+      "value": "<span class=\"text-gradient-oox\">From Idea to Production, </span>We Cover Every Step"
+    },
+    {
+      "id": "e3",
+      "kind": "text",
+      "label": "P: “We provide game development services for studios, startups,…”",
+      "group": "From Idea to Production, We Cover Every…",
+      "value": "We provide game development services for studios, startups, and product teams, from early prototyping to full-cycle production and long-term support. Whether you need a focused build or a full team, we adapt to your project and help you move forward with clarity."
+    },
+    {
+      "id": "e4",
+      "kind": "text",
+      "label": "P: “End-to-end game development from planning to launch. We han…”",
+      "group": "From Idea to Production, We Cover Every…",
+      "value": "End-to-end game development from planning to launch. We handle engineering, art, systems, and polish to deliver production-ready results."
+    },
+    {
+      "id": "e5",
+      "kind": "text",
+      "label": "P: “We build mobile games with strong gameplay systems, optimiz…”",
+      "group": "From Idea to Production, We Cover Every…",
+      "value": "We build mobile games with strong gameplay systems, optimized performance, and scalable production pipelines."
+    },
+    {
+      "id": "e6",
+      "kind": "text",
+      "label": "P: “Fast, high-quality prototypes designed to test gameplay, UX…”",
+      "group": "From Idea to Production, We Cover Every…",
+      "value": "Fast, high-quality prototypes designed to test gameplay, UX, and technical feasibility before full development begins."
+    },
+    {
+      "id": "e7",
+      "kind": "text",
+      "label": "P: “High-quality visual effects that enhance gameplay clarity, …”",
+      "group": "From Idea to Production, We Cover Every…",
+      "value": "High-quality visual effects that enhance gameplay clarity, feedback, and overall player experience."
+    },
+    {
+      "id": "e8",
+      "kind": "text",
+      "label": "P: “Custom mobile app development focused on usability, perform…”",
+      "group": "From Idea to Production, We Cover Every…",
+      "value": "Custom mobile app development focused on usability, performance, and scalable architecture."
+    },
+    {
+      "id": "e9",
+      "kind": "text",
+      "label": "P: “We work as an extension of your team, supporting specific a…”",
+      "group": "From Idea to Production, We Cover Every…",
+      "value": "We work as an extension of your team, supporting specific areas of development while staying aligned with your workflow and production goals."
+    },
+    {
+      "id": "e10",
+      "kind": "text",
+      "label": "P: “Adapt your game to new platforms while maintaining performa…”",
+      "group": "From Idea to Production, We Cover Every…",
+      "value": "Adapt your game to new platforms while maintaining performance, stability, and user experience across devices."
+    },
+    {
+      "id": "e11",
+      "kind": "text",
+      "label": "P: “Engaging video ads and creatives designed to showcase gamep…”",
+      "group": "From Idea to Production, We Cover Every…",
+      "value": "Engaging video ads and creatives designed to showcase gameplay and improve user acquisition performance."
+    },
+    {
+      "id": "e12",
+      "kind": "text",
+      "label": "P: “Complete art support including concept art, UI design, char…”",
+      "group": "From Idea to Production, We Cover Every…",
+      "value": "Complete art support including concept art, UI design, characters, environments, and production-ready assets."
+    },
+    {
+      "id": "e13",
+      "kind": "text",
+      "label": "H2: “Coming soon...”",
+      "group": "Coming soon...",
+      "value": "Coming soon..."
+    },
+    {
+      "id": "e14",
+      "kind": "html",
+      "label": "H2: “Join our newsletter”",
+      "group": "Join our newsletter",
+      "value": "<span class=\"text-gradient-oox2\">Join&nbsp;our newsletter</span>"
+    },
+    {
+      "id": "e15",
+      "kind": "text",
+      "label": "P: “Get occasional updates about game development, prototyping …”",
+      "group": "Join our newsletter",
+      "value": "Get occasional updates about game development, prototyping strategies, and behind-the-scenes lessons from the projects we build. No spam, only useful content for teams who want to ship better products."
+    },
+    {
+      "id": "e16",
+      "kind": "text",
+      "label": "Button: “Login”",
+      "group": "Page",
+      "value": "Login"
+    },
+    {
+      "id": "e17",
+      "kind": "html",
+      "label": "LI: “oox menu”",
+      "group": "Page",
+      "value": "<span>oox menu</span>"
+    },
+    {
+      "id": "e18",
+      "kind": "image",
+      "label": "Image (arrowr.png)",
+      "group": "From Idea to Production, We Cover Every…",
+      "value": "/wp-content/uploads/2026/03/arrowr.png"
+    },
+    {
+      "id": "e19",
+      "kind": "image",
+      "label": "Image (Group-6361.png)",
+      "group": "From Idea to Production, We Cover Every…",
+      "value": "/wp-content/uploads/2026/01/Group-6361.png"
+    },
+    {
+      "id": "e20",
+      "kind": "image",
+      "label": "Image (oktopod0004.png)",
+      "group": "From Idea to Production, We Cover Every…",
+      "value": "/wp-content/uploads/2026/06/oktopod0004.png"
+    },
+    {
+      "id": "e21",
+      "kind": "image",
+      "label": "Image (croco0004.png)",
+      "group": "From Idea to Production, We Cover Every…",
+      "value": "/wp-content/uploads/2026/06/croco0004.png"
+    },
+    {
+      "id": "e22",
+      "kind": "image",
+      "label": "Image (kit0004.png)",
+      "group": "From Idea to Production, We Cover Every…",
+      "value": "/wp-content/uploads/2026/06/kit0004.png"
+    },
+    {
+      "id": "e23",
+      "kind": "image",
+      "label": "Image (medjed0004.png)",
+      "group": "From Idea to Production, We Cover Every…",
+      "value": "/wp-content/uploads/2026/06/medjed0004.png"
+    },
+    {
+      "id": "e24",
+      "kind": "image",
+      "label": "Image (carobnjak-render.png)",
+      "group": "From Idea to Production, We Cover Every…",
+      "value": "/wp-content/uploads/2026/06/carobnjak-render.png"
+    },
+    {
+      "id": "e25",
+      "kind": "image",
+      "label": "Image (malivitezrender.png)",
+      "group": "From Idea to Production, We Cover Every…",
+      "value": "/wp-content/uploads/2026/06/malivitezrender.png"
+    }
+  ]
+}

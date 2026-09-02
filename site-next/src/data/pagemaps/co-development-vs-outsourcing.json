@@ -1,0 +1,557 @@
+{
+  "entries": [
+    {
+      "id": "e1",
+      "kind": "text",
+      "label": "H2: “Table of Contents”",
+      "group": "Page",
+      "value": "Table of Contents"
+    },
+    {
+      "id": "e2",
+      "kind": "text",
+      "label": "H2: “Recent posts”",
+      "group": "Recent posts",
+      "value": "Recent posts"
+    },
+    {
+      "id": "e3",
+      "kind": "html",
+      "label": "H3: “What a Mobile Game Vertical Slice Should Prove Before Produ…”",
+      "group": "Recent posts",
+      "value": "<a href=\"/mobile-game-vertical-slice-prove-before-production-2/\">What a Mobile Game Vertical Slice Should Prove Before Production</a>"
+    },
+    {
+      "id": "e4",
+      "kind": "html",
+      "label": "H3: “The Prototyping-First Studio: Why Validation Comes Before”",
+      "group": "Recent posts",
+      "value": "<a href=\"/prototyping-first-studio-validation-before-building-2026/\">The Prototyping-First Studio: Why Validation Comes Before</a>"
+    },
+    {
+      "id": "e5",
+      "kind": "html",
+      "label": "H3: “Mobile Game Vertical Slice: What to Prove Before Production”",
+      "group": "Recent posts",
+      "value": "<a href=\"/mobile-game-vertical-slice-prove-before-production/\">Mobile Game Vertical Slice: What to Prove Before Production</a>"
+    },
+    {
+      "id": "e6",
+      "kind": "text",
+      "label": "H1: “Co-Development vs. Outsourcing Game Development: Which Mode…”",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "Co-Development vs. Outsourcing Game Development: Which Model Fits Your Studio in 2026?"
+    },
+    {
+      "id": "e7",
+      "kind": "html",
+      "label": "P: “Most game studios do not ship the wrong product. Instead, t…”",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "Most game studios do not ship the wrong product. Instead, they ship the right product the wrong way. When evaluating a production path, studio leads often fall back on traditional <strong>outsourcing game development</strong> processes. However, this choice is not a simple procurement decision. It represents a major production-strategy choice that determines how your studio absorbs financial risk and preserves creative momentum."
+    },
+    {
+      "id": "e8",
+      "kind": "text",
+      "label": "P: “Consequently, the gap between your paper plan and the game …”",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "Consequently, the gap between your paper plan and the game in motion can bleed a project dry. If you get the model wrong, downstream execution will not recover what the architecture lost. Therefore, studios must evaluate external development as a designed part of their production setup. Otherwise, you end up paying once for vendor invoices and again for schedule recovery."
+    },
+    {
+      "id": "e9",
+      "kind": "text",
+      "label": "H2: “The Structural Limitations of Outsourcing Game Development”",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "The Structural Limitations of Outsourcing Game Development"
+    },
+    {
+      "id": "e10",
+      "kind": "text",
+      "label": "P: “Outsourcing became the industry default because it feels fa…”",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "Outsourcing became the industry default because it feels familiar and transactional. On paper, the model appears cheaper since a studio writes a strict specification and a vendor delivers against it. Unfortunately, game production does not happen on paper. Furthermore, a procurement mindset treats external work as a simple line-item cost, which is exactly where production risks begin."
+    },
+    {
+      "id": "e11",
+      "kind": "text",
+      "label": "P: “A pure transactional mindset prioritizes contract complianc…”",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "A pure transactional mindset prioritizes contract compliance over creative alignment. That is where hidden costs accumulate."
+    },
+    {
+      "id": "e12",
+      "kind": "text",
+      "label": "P: “The core problem lies in the structural gap between your in…”",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "The core problem lies in the structural gap between your initial brief and the evolving game. By the time a deliverable arrives weeks later, production reality has already shifted. In addition, the incoming assets carry assumptions that your internal team did not make. This workflow mismatch inevitably causes integration debt and forces heavy rework."
+    },
+    {
+      "id": "e13",
+      "kind": "text",
+      "label": "P: “Consequently, the per-asset savings on the invoice disappea…”",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "Consequently, the per-asset savings on the invoice disappear into schedule recovery. This is a structural failure of the transactional model when applied to systems requiring creative judgment. Specs age immediately, while vendors naturally optimize for contract compliance rather than the actual player experience."
+    },
+    {
+      "id": "e14",
+      "kind": "text",
+      "label": "H3: “The Real Risks of the Transactional Model”",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "The Real Risks of the Transactional Model"
+    },
+    {
+      "id": "e15",
+      "kind": "html",
+      "label": "LI: “Obsolete specifications: Deliverables land against a versio…”",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "<strong>Obsolete specifications:</strong> Deliverables land against a version of the game that no longer exists."
+    },
+    {
+      "id": "e16",
+      "kind": "html",
+      "label": "LI: “Compounding integration debt: Isolated handoffs carry hidde…”",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "<strong>Compounding integration debt:</strong> Isolated handoffs carry hidden assumptions that break downstream systems."
+    },
+    {
+      "id": "e17",
+      "kind": "html",
+      "label": "LI: “No creative alignment: The vendor focuses on matching the b…”",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "<strong>No creative alignment:</strong> The vendor focuses on matching the brief, not on serving the player."
+    },
+    {
+      "id": "e18",
+      "kind": "html",
+      "label": "LI: “Unbalanced risk allocation: The studio absorbs all downstre…”",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "<strong>Unbalanced risk allocation:</strong> The studio absorbs all downstream integration and schedule recovery costs."
+    },
+    {
+      "id": "e19",
+      "kind": "text",
+      "label": "H2: “The Changing Economics of Outsourcing Game Development in 2…”",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "The Changing Economics of Outsourcing Game Development in 2026"
+    },
+    {
+      "id": "e20",
+      "kind": "text",
+      "label": "P: “The global market is shifting rapidly away from one-dimensi…”",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "The global market is shifting rapidly away from one-dimensional models. According to Epyllion’s State of Video Gaming 2026 report, developers outsourced 35.5% of total content investment in 2025. Analysts project the broader services market to reach $2.27 billion by 2032. Therefore, volume is not the core issue; strategic allocation is."
+    },
+    {
+      "id": "e21",
+      "kind": "html",
+      "label": "P: “As studio leaders navigate record industry revenues alongsi…”",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "As studio leaders navigate record industry revenues alongside structural volatility, fixed headcount has become a heavy liability. For example, studios that staff up for production peaks often face brutal hire-and-fire cycles during quiet intervals. Consequently, smart leaders look beyond basic <strong>outsourcing game development</strong> to protect their business health."
+    },
+    {
+      "id": "e22",
+      "kind": "text",
+      "label": "P: “Meanwhile, the GDC 2026 Trends Report via PocketGamer.biz r…”",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "Meanwhile, the GDC 2026 Trends Report via PocketGamer.biz recently named co-development as a defining industry shift. Today, 6% of studio employees work at dedicated co-development companies. Developers overwhelmingly prefer this model because it allows them to build foundational systems instead of isolated assets."
+    },
+    {
+      "id": "e23",
+      "kind": "text",
+      "label": "H2: “What Co-Development Means in Practice”",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "What Co-Development Means in Practice"
+    },
+    {
+      "id": "e24",
+      "kind": "text",
+      "label": "P: “Co-development embeds an external team directly inside your…”",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "Co-development embeds an external team directly inside your production pipeline. To illustrate, the partner works in your repository, joins your daily standups, and communicates on your Slack channels. Thus, they carry full context about the game's direction and technical constraints."
+    },
+    {
+      "id": "e25",
+      "kind": "text",
+      "label": "P: “Co-development builds what the game needs, while traditiona…”",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "Co-development builds what the game needs, while traditional outsourcing builds only what you specify."
+    },
+    {
+      "id": "e26",
+      "kind": "text",
+      "label": "P: “This structural shift dramatically changes how information …”",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "This structural shift dramatically changes how information flows. In an outsourcing contract, a vendor files a formal change request upon discovering an issue. However, in a co-development setup, the partner raises the problem in the morning standup alongside your core team."
+    },
+    {
+      "id": "e27",
+      "kind": "text",
+      "label": "H3: “Core Structural Advantages:”",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "Core Structural Advantages:"
+    },
+    {
+      "id": "e28",
+      "kind": "html",
+      "label": "LI: “Continuous pipeline integration: Eliminates milestone-based…”",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "<strong>Continuous pipeline integration:</strong> Eliminates milestone-based handoffs and reduces technical friction."
+    },
+    {
+      "id": "e29",
+      "kind": "html",
+      "label": "LI: “Shared problem-solving: The external team contributes genui…”",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "<strong>Shared problem-solving:</strong> The external team contributes genuine technical and design judgment."
+    },
+    {
+      "id": "e30",
+      "kind": "html",
+      "label": "LI: “Compounding institutional knowledge: The partner retains de…”",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "<strong>Compounding institutional knowledge:</strong> The partner retains deep context regarding your IP and tooling."
+    },
+    {
+      "id": "e31",
+      "kind": "html",
+      "label": "LI: “Shared feature ownership: Teams share accountability for en…”",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "<strong>Shared feature ownership:</strong> Teams share accountability for entire systems rather than separate assets."
+    },
+    {
+      "id": "e32",
+      "kind": "text",
+      "label": "H2: “Diagnostic Guide: When to Choose Each Engagement Model”",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "Diagnostic Guide: When to Choose Each Engagement Model"
+    },
+    {
+      "id": "e33",
+      "kind": "html",
+      "label": "P: “Neither model works perfectly for every scenario. To make t…”",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "Neither model works perfectly for every scenario. To make the right choice, studio leaders must ask: Does the specific work require ongoing creative judgment? Does it touch evolving codebases? If the answer is yes, a standard <strong>outsourcing game development</strong> agreement carries high structural risk."
+    },
+    {
+      "id": "e34",
+      "kind": "text",
+      "label": "H3: “When Outsourcing Makes Perfect Sense”",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "When Outsourcing Makes Perfect Sense"
+    },
+    {
+      "id": "e35",
+      "kind": "text",
+      "label": "P: “Outsourcing works brilliantly when the task is execution-on…”",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "Outsourcing works brilliantly when the task is execution-only and completely separable. The scope must remain stable throughout production, free from complex system dependencies. Under these conditions, the transactional model provides predictable costs and fast asset throughput."
+    },
+    {
+      "id": "e36",
+      "kind": "text",
+      "label": "P: “For example, if you need 200 environment props built to a l…”",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "For example, if you need 200 environment props built to a locked art guide, you gain nothing from embedding an external team in daily standups. The technical requirements are known, and deliverables can be checked on receipt. Here, outsourcing is the most efficient economic choice."
+    },
+    {
+      "id": "e37",
+      "kind": "html",
+      "label": "P: “Ideal scenarios for outsourcing:”",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "<strong>Ideal scenarios for outsourcing:</strong>"
+    },
+    {
+      "id": "e38",
+      "kind": "text",
+      "label": "LI: “Locked asset batches built against a finalized style guide.”",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "Locked asset batches built against a finalized style guide."
+    },
+    {
+      "id": "e39",
+      "kind": "text",
+      "label": "LI: “Platform ports with established, stable technical requireme…”",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "Platform ports with established, stable technical requirements."
+    },
+    {
+      "id": "e40",
+      "kind": "text",
+      "label": "LI: “Standard QA testing cycles run on a stable game build.”",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "Standard QA testing cycles run on a stable game build."
+    },
+    {
+      "id": "e41",
+      "kind": "text",
+      "label": "LI: “Short-term engagements measured in weeks rather than months.”",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "Short-term engagements measured in weeks rather than months."
+    },
+    {
+      "id": "e42",
+      "kind": "text",
+      "label": "H3: “When Co-Development is the Necessary Choice”",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "When Co-Development is the Necessary Choice"
+    },
+    {
+      "id": "e43",
+      "kind": "html",
+      "label": "P: “Co-development is essential when features require deep cont…”",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "Co-development is essential when features require deep context, continuous collaboration, and evolving systems. While the hourly rate is higher than traditional <strong>outsourcing game development</strong>, it eliminates downstream integration debt. Ultimately, the total cost of production from brief to launch is what matters."
+    },
+    {
+      "id": "e44",
+      "kind": "html",
+      "label": "P: “Ideal scenarios for co-development:”",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "<strong>Ideal scenarios for co-development:</strong>"
+    },
+    {
+      "id": "e45",
+      "kind": "text",
+      "label": "LI: “Core gameplay mechanics, meta-system balancing, or progress…”",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "Core gameplay mechanics, meta-system balancing, or progression tuning."
+    },
+    {
+      "id": "e46",
+      "kind": "text",
+      "label": "LI: “Original IP development where no clear reference titles exi…”",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "Original IP development where no clear reference titles exist."
+    },
+    {
+      "id": "e47",
+      "kind": "text",
+      "label": "LI: “Long-term engagements lasting six months or more that requi…”",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "Long-term engagements lasting six months or more that require collaborative design."
+    },
+    {
+      "id": "e48",
+      "kind": "text",
+      "label": "LI: “Studios looking to scale production capacity flexibly witho…”",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "Studios looking to scale production capacity flexibly without adding fixed headcount."
+    },
+    {
+      "id": "e49",
+      "kind": "text",
+      "label": "H2: “How OOX Structures Embedded Production Partnerships”",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "How OOX Structures Embedded Production Partnerships"
+    },
+    {
+      "id": "e50",
+      "kind": "text",
+      "label": "P: “At OOX Limited, we treat co-development as an integrated pr…”",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "At OOX Limited, we treat co-development as an integrated production partnership, not a staffing transaction. Our teams operate directly inside your architecture, participating in your sprints and working from your shared backlog. This ensures real-time decision-making and immediate build validation."
+    },
+    {
+      "id": "e51",
+      "kind": "html",
+      "label": "P: “Furthermore, we combine our rapid prototyping services with…”",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "Furthermore, we combine our <a href=\"/service/rapid-prototyping/\" target=\"_blank\" rel=\"noopener\">rapid prototyping services</a> with full co-development capacity under one roof. We deliver a validated, playable core loop in 2 to 6 weeks. This continuity ensures that the critical institutional knowledge built during prototyping transfers directly into full production. Consequently, there are no rocky handoffs, no re-onboarding delays, and no lost design context."
+    },
+    {
+      "id": "e52",
+      "kind": "text",
+      "label": "H3: “What We Bring to Your Pipeline:”",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "What We Bring to Your Pipeline:"
+    },
+    {
+      "id": "e53",
+      "kind": "text",
+      "label": "LI: “Full-cycle mobile game development using Unity and Unreal E…”",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "Full-cycle mobile game development using Unity and Unreal Engine."
+    },
+    {
+      "id": "e54",
+      "kind": "text",
+      "label": "LI: “Data-driven rapid prototyping to validate core concepts ear…”",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "Data-driven rapid prototyping to validate core concepts early."
+    },
+    {
+      "id": "e55",
+      "kind": "text",
+      "label": "LI: “Embedded engineering, design, and art capacity built to sca…”",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "Embedded engineering, design, and art capacity built to scale."
+    },
+    {
+      "id": "e56",
+      "kind": "text",
+      "label": "LI: “Comprehensive LiveOps and post-launch support.”",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "Comprehensive LiveOps and post-launch support."
+    },
+    {
+      "id": "e57",
+      "kind": "text",
+      "label": "H2: “Final Summary: Building Without Corners”",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "Final Summary: Building Without Corners"
+    },
+    {
+      "id": "e58",
+      "kind": "html",
+      "label": "P: “Your choice between co-development and traditional outsourc…”",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "Your choice between co-development and traditional <strong>outsourcing game development</strong> is a major architecture decision. Studios that treat external teams as a designed part of their ecosystem preserve creative control and remain highly agile. In a changing market, the winning studios are those that build relationships designed to bend without breaking."
+    },
+    {
+      "id": "e59",
+      "kind": "text",
+      "label": "H2: “Looking for an Embedded Production Partner?”",
+      "group": "Looking for an Embedded Production Part…",
+      "value": "Looking for an Embedded Production Partner?"
+    },
+    {
+      "id": "e60",
+      "kind": "text",
+      "label": "P: “OOX Limited works directly with studios and founders to sca…”",
+      "group": "Looking for an Embedded Production Part…",
+      "value": "OOX Limited works directly with studios and founders to scale engineering and art capacity while keeping you in full creative control. Let us help you select and deploy the perfect model for your upcoming pipeline."
+    },
+    {
+      "id": "e61",
+      "kind": "text",
+      "label": "P: “Let us discuss your project.”",
+      "group": "Looking for an Embedded Production Part…",
+      "value": "Let us discuss your project."
+    },
+    {
+      "id": "e62",
+      "kind": "html",
+      "label": "P: “Learn more about OOX services:”",
+      "group": "Looking for an Embedded Production Part…",
+      "value": "<strong>Learn more about OOX services:</strong>"
+    },
+    {
+      "id": "e63",
+      "kind": "html",
+      "label": "LI: “Co-Development Partnerships”",
+      "group": "Looking for an Embedded Production Part…",
+      "value": "<a href=\"/service/co-development/\">Co-Development Partnerships</a>"
+    },
+    {
+      "id": "e64",
+      "kind": "html",
+      "label": "LI: “Rapid Prototyping Solutions”",
+      "group": "Looking for an Embedded Production Part…",
+      "value": "<a href=\"/service/rapid-prototyping/\">Rapid Prototyping Solutions</a>"
+    },
+    {
+      "id": "e65",
+      "kind": "html",
+      "label": "LI: “Mobile Game Development”",
+      "group": "Looking for an Embedded Production Part…",
+      "value": "<a href=\"/service/mobile-game-development/\">Mobile Game Development</a>"
+    },
+    {
+      "id": "e66",
+      "kind": "text",
+      "label": "Button: “Login”",
+      "group": "Page",
+      "value": "Login"
+    },
+    {
+      "id": "e67",
+      "kind": "html",
+      "label": "LI: “oox menu”",
+      "group": "Page",
+      "value": "<span>oox menu</span>"
+    },
+    {
+      "id": "e68",
+      "kind": "image",
+      "label": "Image: mobile game vertical slice",
+      "group": "Recent posts",
+      "value": "/wp-content/uploads/2026/08/DSC06517-768x1152.jpg"
+    },
+    {
+      "id": "e69",
+      "kind": "imageAlt",
+      "label": "Alt for mobile game vertical slice",
+      "group": "Recent posts",
+      "value": "mobile game vertical slice"
+    },
+    {
+      "id": "e70",
+      "kind": "image",
+      "label": "Image: Read more",
+      "group": "Recent posts",
+      "value": "/wp-content/uploads/2026/03/arrowr.png"
+    },
+    {
+      "id": "e71",
+      "kind": "imageAlt",
+      "label": "Alt for Read more",
+      "group": "Recent posts",
+      "value": "Read more"
+    },
+    {
+      "id": "e72",
+      "kind": "image",
+      "label": "Image: Office Photos OOX Limited",
+      "group": "Recent posts",
+      "value": "/wp-content/uploads/2026/03/d8d70c6789c6b5f6ea12d48bc4006f64f8be8019-768x512.jpg"
+    },
+    {
+      "id": "e73",
+      "kind": "imageAlt",
+      "label": "Alt for Office Photos OOX Limited",
+      "group": "Recent posts",
+      "value": "Office Photos OOX Limited"
+    },
+    {
+      "id": "e74",
+      "kind": "image",
+      "label": "Image: mobile game vertical slice",
+      "group": "Recent posts",
+      "value": "/wp-content/uploads/2026/07/20260226-DSC06235-768x512.jpg"
+    },
+    {
+      "id": "e75",
+      "kind": "imageAlt",
+      "label": "Alt for mobile game vertical slice",
+      "group": "Recent posts",
+      "value": "mobile game vertical slice"
+    },
+    {
+      "id": "e76",
+      "kind": "image",
+      "label": "Image: Outsourcing game development vs co-deve…",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "/wp-content/uploads/2026/03/b362a45c39fc195034f2ab8c2aa20e616361e210.jpg"
+    },
+    {
+      "id": "e77",
+      "kind": "imageAlt",
+      "label": "Alt for Outsourcing game development …",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "Outsourcing game development vs co-development studio pipeline"
+    },
+    {
+      "id": "e78",
+      "kind": "image",
+      "label": "Image: Game development team analyzing product…",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "/wp-content/uploads/2026/03/2e1c47dbaff30e97e9ce2805680aded83fd7c1c3.jpg"
+    },
+    {
+      "id": "e79",
+      "kind": "imageAlt",
+      "label": "Alt for Game development team analyzi…",
+      "group": "Co-Development vs. Outsourcing Game Dev…",
+      "value": "Game development team analyzing production metrics in 2026"
+    }
+  ]
+}

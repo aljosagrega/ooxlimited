@@ -1,0 +1,186 @@
+{
+  "entries": [
+    {
+      "id": "e1",
+      "kind": "text",
+      "label": "H2: “Nemanja Havlović”",
+      "group": "Page",
+      "value": "Nemanja Havlović"
+    },
+    {
+      "id": "e2",
+      "kind": "html",
+      "label": "P: “Nemanja Havlović is a Game Developer within our game develo…”",
+      "group": "Page",
+      "value": "Nemanja Havlović is a Game Developer within our <a href=\"/our-team/\">game development team</a>. He focuses on building engaging gameplay systems for mobile game development projects."
+    },
+    {
+      "id": "e3",
+      "kind": "text",
+      "label": "P: “Driven by curiosity and creativity, he starts from the play…”",
+      "group": "Page",
+      "value": "Driven by curiosity and creativity, he starts from the player’s perspective. He designs experiences that feel clear and fun, then builds them for stability and performance. His engineering background supports a structured, step-by-step approach to solving problems in fast-paced production environments."
+    },
+    {
+      "id": "e4",
+      "kind": "text",
+      "label": "H4: “SKILLS”",
+      "group": "Page",
+      "value": "SKILLS"
+    },
+    {
+      "id": "e5",
+      "kind": "text",
+      "label": "LI: “Gameplay Systems Development”",
+      "group": "Page",
+      "value": "Gameplay Systems Development"
+    },
+    {
+      "id": "e6",
+      "kind": "text",
+      "label": "LI: “Mobile Game Development”",
+      "group": "Page",
+      "value": "Mobile Game Development"
+    },
+    {
+      "id": "e7",
+      "kind": "text",
+      "label": "LI: “Creative System Design”",
+      "group": "Page",
+      "value": "Creative System Design"
+    },
+    {
+      "id": "e8",
+      "kind": "text",
+      "label": "LI: “Problem-Solving & Debugging”",
+      "group": "Page",
+      "value": "Problem-Solving & Debugging"
+    },
+    {
+      "id": "e9",
+      "kind": "text",
+      "label": "LI: “Performance Optimization”",
+      "group": "Page",
+      "value": "Performance Optimization"
+    },
+    {
+      "id": "e10",
+      "kind": "text",
+      "label": "H4: “PROGRAMS”",
+      "group": "Page",
+      "value": "PROGRAMS"
+    },
+    {
+      "id": "e11",
+      "kind": "text",
+      "label": "LI: “Unity”",
+      "group": "Page",
+      "value": "Unity"
+    },
+    {
+      "id": "e12",
+      "kind": "text",
+      "label": "LI: “Visual Studio”",
+      "group": "Page",
+      "value": "Visual Studio"
+    },
+    {
+      "id": "e13",
+      "kind": "text",
+      "label": "LI: “Git”",
+      "group": "Page",
+      "value": "Git"
+    },
+    {
+      "id": "e14",
+      "kind": "text",
+      "label": "LI: “Mobile Profiling Tools”",
+      "group": "Page",
+      "value": "Mobile Profiling Tools"
+    },
+    {
+      "id": "e15",
+      "kind": "text",
+      "label": "H2: “Q&A”",
+      "group": "Page",
+      "value": "Q&A"
+    },
+    {
+      "id": "e16",
+      "kind": "html",
+      "label": "Button: “What first got you into game developmen…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">What first got you into game development?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e17",
+      "kind": "html",
+      "label": "Button: “Do you approach game systems more analy…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">Do you approach game systems more analytically or creatively?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e18",
+      "kind": "html",
+      "label": "Button: “How do you prefer to spend your days of…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">How do you prefer to spend your days off?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e19",
+      "kind": "html",
+      "label": "Button: “How did your academic background prepar…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">How did your academic background prepare you for real-world game production?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e20",
+      "kind": "html",
+      "label": "Button: “What part of game development do you en…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">What part of game development do you enjoy the most?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e21",
+      "kind": "html",
+      "label": "Button: “How do you approach problem-solving whe…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">How do you approach problem-solving when a system doesn’t behave as expected?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e22",
+      "kind": "html",
+      "label": "Button: “What’s your process for balancing perfo…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">What’s your process for balancing performance with feature complexity?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e23",
+      "kind": "text",
+      "label": "Button: “Login”",
+      "group": "Page",
+      "value": "Login"
+    },
+    {
+      "id": "e24",
+      "kind": "html",
+      "label": "LI: “oox menu”",
+      "group": "Page",
+      "value": "<span>oox menu</span>"
+    },
+    {
+      "id": "e25",
+      "kind": "image",
+      "label": "Image: Nemanja Havlović",
+      "group": "Page",
+      "value": "/wp-content/uploads/2026/04/Havla.webp"
+    },
+    {
+      "id": "e26",
+      "kind": "imageAlt",
+      "label": "Alt for Nemanja Havlović",
+      "group": "Page",
+      "value": "Nemanja Havlović"
+    }
+  ]
+}

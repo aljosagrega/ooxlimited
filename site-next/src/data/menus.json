@@ -1,0 +1,161 @@
+{
+  "main": [
+    {
+      "id": 6652,
+      "label": "Home",
+      "url": "/",
+      "parent": 0,
+      "children": []
+    },
+    {
+      "id": 6654,
+      "label": "About us",
+      "url": "/about-us/",
+      "parent": 0,
+      "children": []
+    },
+    {
+      "id": 6991,
+      "label": "Services",
+      "url": "/services/",
+      "parent": 0,
+      "children": [
+        {
+          "id": 7326,
+          "label": "Full Cycle Development",
+          "url": "/service/full-cycle-development/",
+          "parent": 6991,
+          "children": []
+        },
+        {
+          "id": 7328,
+          "label": "Mobile Game Development",
+          "url": "/service/mobile-game-development/",
+          "parent": 6991,
+          "children": []
+        },
+        {
+          "id": 7330,
+          "label": "Rapid Prototyping",
+          "url": "/service/rapid-prototyping/",
+          "parent": 6991,
+          "children": []
+        },
+        {
+          "id": 7331,
+          "label": "Real-Time VFX",
+          "url": "/service/real-time-vfx/",
+          "parent": 6991,
+          "children": []
+        },
+        {
+          "id": 7323,
+          "label": "App Development",
+          "url": "/service/app-development/",
+          "parent": 6991,
+          "children": []
+        },
+        {
+          "id": 7325,
+          "label": "Co development",
+          "url": "/service/co-development/",
+          "parent": 6991,
+          "children": []
+        },
+        {
+          "id": 7329,
+          "label": "Platform Porting",
+          "url": "/service/platform-porting/",
+          "parent": 6991,
+          "children": []
+        },
+        {
+          "id": 7327,
+          "label": "Game Video ads",
+          "url": "/service/game-video-ads/",
+          "parent": 6991,
+          "children": []
+        },
+        {
+          "id": 7324,
+          "label": "Art Design & direction",
+          "url": "/service/art-design-art-direction/",
+          "parent": 6991,
+          "children": []
+        },
+        {
+          "id": 7322,
+          "label": "Animation & 3D modeling",
+          "url": "/service/animation-3d-modeling/",
+          "parent": 6991,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 7204,
+      "label": "Our Team",
+      "url": "/game-development-team/",
+      "parent": 0,
+      "children": []
+    },
+    {
+      "id": 7203,
+      "label": "Blog",
+      "url": "/blog/",
+      "parent": 0,
+      "children": []
+    },
+    {
+      "id": 6655,
+      "label": "Contact",
+      "url": "/contact-us/",
+      "parent": 0,
+      "children": []
+    }
+  ],
+  "footer": [
+    {
+      "id": 7714,
+      "label": "Home",
+      "url": "/",
+      "parent": 0,
+      "children": []
+    },
+    {
+      "id": 7715,
+      "label": "About us",
+      "url": "/about-us/",
+      "parent": 0,
+      "children": []
+    },
+    {
+      "id": 7718,
+      "label": "Services",
+      "url": "/services/",
+      "parent": 0,
+      "children": []
+    },
+    {
+      "id": 7719,
+      "label": "Our Team",
+      "url": "/game-development-team/",
+      "parent": 0,
+      "children": []
+    },
+    {
+      "id": 7716,
+      "label": "Blog",
+      "url": "/blog/",
+      "parent": 0,
+      "children": []
+    },
+    {
+      "id": 7717,
+      "label": "Contact",
+      "url": "/contact-us/",
+      "parent": 0,
+      "children": []
+    }
+  ]
+}

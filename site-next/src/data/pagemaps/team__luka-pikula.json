@@ -1,0 +1,235 @@
+{
+  "entries": [
+    {
+      "id": "e1",
+      "kind": "text",
+      "label": "H2: “Luka Pikula”",
+      "group": "Page",
+      "value": "Luka Pikula"
+    },
+    {
+      "id": "e2",
+      "kind": "html",
+      "label": "P: “A developer at core and a builder by mindset, Luka Pikula i…”",
+      "group": "Page",
+      "value": "A developer at core and a builder by mindset, Luka Pikula is a key part of our <a href=\"/our-team/\">game development team</a>, combining deep technical expertise with strong product ownership. As a co-founder, he bridges engineering and strategy, turning ideas into shipped features and prototypes into scalable systems."
+    },
+    {
+      "id": "e3",
+      "kind": "text",
+      "label": "P: “Focused on clean architecture, practical solutions, and fas…”",
+      "group": "Page",
+      "value": "Focused on clean architecture, practical solutions, and fast validation, Luka plays a critical role in building reliable systems across mobile game development and app development projects."
+    },
+    {
+      "id": "e4",
+      "kind": "text",
+      "label": "H4: “SKILLS”",
+      "group": "Page",
+      "value": "SKILLS"
+    },
+    {
+      "id": "e5",
+      "kind": "text",
+      "label": "LI: “System Architecture”",
+      "group": "Page",
+      "value": "System Architecture"
+    },
+    {
+      "id": "e6",
+      "kind": "text",
+      "label": "LI: “Mobile Game Development”",
+      "group": "Page",
+      "value": "Mobile Game Development"
+    },
+    {
+      "id": "e7",
+      "kind": "text",
+      "label": "LI: “Backend & Game Logic”",
+      "group": "Page",
+      "value": "Backend & Game Logic"
+    },
+    {
+      "id": "e8",
+      "kind": "text",
+      "label": "LI: “Performance Optimization”",
+      "group": "Page",
+      "value": "Performance Optimization"
+    },
+    {
+      "id": "e9",
+      "kind": "text",
+      "label": "LI: “Scalable Systems Design”",
+      "group": "Page",
+      "value": "Scalable Systems Design"
+    },
+    {
+      "id": "e10",
+      "kind": "text",
+      "label": "H4: “PROGRAMS”",
+      "group": "Page",
+      "value": "PROGRAMS"
+    },
+    {
+      "id": "e11",
+      "kind": "text",
+      "label": "LI: “Unity”",
+      "group": "Page",
+      "value": "Unity"
+    },
+    {
+      "id": "e12",
+      "kind": "text",
+      "label": "LI: “Unreal Engine”",
+      "group": "Page",
+      "value": "Unreal Engine"
+    },
+    {
+      "id": "e13",
+      "kind": "text",
+      "label": "LI: “Git”",
+      "group": "Page",
+      "value": "Git"
+    },
+    {
+      "id": "e14",
+      "kind": "text",
+      "label": "LI: “Firebase”",
+      "group": "Page",
+      "value": "Firebase"
+    },
+    {
+      "id": "e15",
+      "kind": "text",
+      "label": "LI: “REST APIs”",
+      "group": "Page",
+      "value": "REST APIs"
+    },
+    {
+      "id": "e16",
+      "kind": "text",
+      "label": "H2: “Q&A”",
+      "group": "Page",
+      "value": "Q&A"
+    },
+    {
+      "id": "e17",
+      "kind": "html",
+      "label": "Button: “What first sparked your interest in pro…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">What first sparked your interest in programming?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e18",
+      "kind": "html",
+      "label": "Button: “Was there a moment when you realized th…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">Was there a moment when you realized this would be your long-term career path?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e19",
+      "kind": "html",
+      "label": "Button: “How do you prefer to spend your days of…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">How do you prefer to spend your days off?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e20",
+      "kind": "html",
+      "label": "Button: “Favorite quote?”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">Favorite quote?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e21",
+      "kind": "html",
+      "label": "Button: “Top three life highlights?”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">Top three life highlights?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e22",
+      "kind": "html",
+      "label": "Button: “How did your academic journey influence…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">How did your academic journey influence your technical mindset?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e23",
+      "kind": "html",
+      "label": "Button: “Were there key projects or research are…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">Were there key projects or research areas that shaped your coding style?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e24",
+      "kind": "html",
+      "label": "Button: “How do you approach writing maintainabl…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">How do you approach writing maintainable and scalable code?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e25",
+      "kind": "html",
+      "label": "Button: “What’s your method for testing and debu…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">What’s your method for testing and debugging new features?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e26",
+      "kind": "html",
+      "label": "Button: “How do you stay updated with evolving t…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">How do you stay updated with evolving technologies in game development?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e27",
+      "kind": "html",
+      "label": "Button: “What’s the most challenging bug you’ve …”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">What’s the most challenging bug you’ve encountered?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e28",
+      "kind": "html",
+      "label": "Button: “How do you collaborate within cross-fun…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">How do you collaborate within cross-functional teams?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e29",
+      "kind": "html",
+      "label": "Button: “What’s one technical skill every develo…”",
+      "group": "Page",
+      "value": "<span class=\"team-qa-question\">What’s one technical skill every developer should constantly refine?</span> <span class=\"team-qa-icon\"></span>"
+    },
+    {
+      "id": "e30",
+      "kind": "text",
+      "label": "Button: “Login”",
+      "group": "Page",
+      "value": "Login"
+    },
+    {
+      "id": "e31",
+      "kind": "html",
+      "label": "LI: “oox menu”",
+      "group": "Page",
+      "value": "<span>oox menu</span>"
+    },
+    {
+      "id": "e32",
+      "kind": "image",
+      "label": "Image: PIKULA",
+      "group": "Page",
+      "value": "/wp-content/uploads/2026/03/DSC06305p-scaled.webp"
+    },
+    {
+      "id": "e33",
+      "kind": "imageAlt",
+      "label": "Alt for PIKULA",
+      "group": "Page",
+      "value": "PIKULA"
+    }
+  ]
+}
