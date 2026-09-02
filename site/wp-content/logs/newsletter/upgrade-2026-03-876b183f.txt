@@ -1,0 +1,38 @@
+23-03-2026 12:35:58 - INFO  - 9.1.7 - 19.6 MB/512 MB - janbazik@live.com > Start upgrade from 0.0.0
+23-03-2026 12:35:58 - INFO  - 9.1.7 - 19.4 MB/512 MB - janbazik@live.com > Array
+(
+    [wp_newsletter_emails] => Created table `wp_newsletter_emails`
+)
+
+23-03-2026 12:35:58 - INFO  - 9.1.7 - 19.4 MB/512 MB - janbazik@live.com > Array
+(
+    [wp_newsletter_sent] => Created table `wp_newsletter_sent`
+)
+
+23-03-2026 12:35:58 - INFO  - 9.1.7 - 19.5 MB/512 MB - janbazik@live.com > Array
+(
+    [wp_newsletter] => Created table `wp_newsletter`
+)
+
+23-03-2026 12:35:58 - INFO  - 9.1.7 - 19.4 MB/512 MB - janbazik@live.com > Array
+(
+    [wp_newsletter_user_logs] => Created table `wp_newsletter_user_logs`
+)
+
+23-03-2026 12:35:58 - INFO  - 9.1.7 - 19.4 MB/512 MB - janbazik@live.com > Array
+(
+    [wp_newsletter_user_meta] => Created table `wp_newsletter_user_meta`
+)
+
+23-03-2026 12:35:58 - INFO  - 9.1.7 - 19.4 MB/512 MB - janbazik@live.com > Array
+(
+    [wp_newsletter_stats] => Created table `wp_newsletter_stats`
+)
+
+23-03-2026 12:35:58 - INFO  - 9.1.7 - 19.4 MB/512 MB - janbazik@live.com > Array
+(
+    [wp_newsletter_logs] => Created table `wp_newsletter_logs`
+)
+
+23-03-2026 12:35:58 - INFO  - 9.1.7 - 19.4 MB/512 MB - janbazik@live.com > Backing up options of 0.0.0
+23-03-2026 12:35:58 - INFO  - 9.1.7 - 19.4 MB/512 MB - janbazik@live.com > End

@@ -1,0 +1,28 @@
+# --- Secrets: never commit. See CLAUDE.md "Secrets and host access". ---
+/.env
+/_hostinger-original/
+
+# --- Database: content, not code. Obtained out of band; see README. ---
+/db/
+
+# --- Host state that deploys must preserve, never overwrite ---
+site/wp-content/uploads/
+
+# --- Plugin scratch space. One file here held a full copy of the
+#     production wp-config.php, under an opaque name. Never track it. ---
+site/wp-content/plugins/file-manager-advanced/application/library/php/.tmp/
+
+# --- Runtime noise ---
+site/wp-content/debug.log
+site/wp-content/cache/
+site/wp-content/litespeed/
+site/wp-content/upgrade/
+site/wp-content/upgrade-temp-backup/
+site/wp-content/wflogs/
+site/.tmb/
+
+# --- Stray site archives that were left in the docroot ---
+Archive.zip
+Archive*.zip
+
+.DS_Store

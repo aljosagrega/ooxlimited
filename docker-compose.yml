@@ -1,0 +1,28 @@
+services:
+  db:
+    image: mariadb:11.8
+    restart: unless-stopped
+    environment:
+      MARIADB_ROOT_PASSWORD: root
+      MARIADB_DATABASE: ooxlimited
+      MARIADB_USER: wp
+      MARIADB_PASSWORD: wp
+    command: --max_allowed_packet=256M --innodb-buffer-pool-size=512M
+    volumes:
+      - dbdata:/var/lib/mysql
+      - ./db:/docker-entrypoint-initdb.d:ro
+    ports:
+      - "3307:3306"
+
+  wp:
+    build: ./docker
+    restart: unless-stopped
+    depends_on:
+      - db
+    ports:
+      - "8080:80"
+    volumes:
+      - ./site:/var/www/html
+
+volumes:
+  dbdata:

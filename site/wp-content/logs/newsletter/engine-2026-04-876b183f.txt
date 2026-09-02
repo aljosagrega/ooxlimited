@@ -1,0 +1,1 @@
+29-04-2026 06:20:19 - FATAL - 9.1.7 - 11.9 MB/512 MB - [cron] > Delivery engine lock already set: can be due to concurrent executions or fatal error during delivery

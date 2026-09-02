@@ -1,0 +1,32 @@
+04-06-2026 12:39:33 - INFO  - 9.2.7 - 8751 - 115.0 MB/512 MB - [cron] > Start upgrade from 9.2.6
+04-06-2026 12:39:33 - INFO  - 9.2.7 - 8751 - 119.7 MB/512 MB - [cron] > Array
+(
+)
+
+04-06-2026 12:39:33 - INFO  - 9.2.7 - 8751 - 119.8 MB/512 MB - [cron] > Array
+(
+)
+
+04-06-2026 12:39:33 - INFO  - 9.2.7 - 8751 - 119.8 MB/512 MB - [cron] > Array
+(
+)
+
+04-06-2026 12:39:33 - INFO  - 9.2.7 - 8751 - 119.7 MB/512 MB - [cron] > Array
+(
+)
+
+04-06-2026 12:39:33 - INFO  - 9.2.7 - 8751 - 119.7 MB/512 MB - [cron] > Array
+(
+)
+
+04-06-2026 12:39:33 - INFO  - 9.2.7 - 8751 - 119.8 MB/512 MB - [cron] > Array
+(
+)
+
+04-06-2026 12:39:33 - INFO  - 9.2.7 - 8751 - 119.7 MB/512 MB - [cron] > Array
+(
+    [wp_newsletter_logs.status] => Changed type of wp_newsletter_logs.status from int(11) to int
+)
+
+04-06-2026 12:39:33 - INFO  - 9.2.7 - 8751 - 119.7 MB/512 MB - [cron] > Backing up options of 9.2.6
+04-06-2026 12:39:33 - INFO  - 9.2.7 - 8751 - 120.0 MB/512 MB - [cron] > End
