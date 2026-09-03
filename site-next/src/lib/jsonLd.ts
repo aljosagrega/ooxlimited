@@ -1,6 +1,7 @@
 import "server-only";
 import {
   getSiteSettings, getPageByPath, getPost, getService, getTeamMember,
+  getTeam, getServices, getAllPosts,
 } from "./content";
 
 /**
@@ -35,6 +36,8 @@ export function renderJsonLd(data: unknown): string {
 
 export function organizationJsonLd() {
   const s = getSiteSettings();
+  const services = getServices();
+  const teamSize = getTeam().length;
   return {
     "@context": "https://schema.org",
     "@type": "Organization",
@@ -49,7 +52,24 @@ export function organizationJsonLd() {
     },
     image: abs("/og-default.png"),
     description: s.tagline,
+    slogan: s.tagline,
     email: s.contactEmail,
+    ...(teamSize ? { numberOfEmployees: teamSize } : {}),
+    // What the studio does — helps entity understanding in AI/answer engines.
+    knowsAbout: [
+      "Mobile game development",
+      "Game prototyping",
+      "App development",
+      "Unity development",
+      ...services.map((svc) => svc.title),
+    ],
+    contactPoint: {
+      "@type": "ContactPoint",
+      contactType: "customer support",
+      email: s.contactEmail,
+      url: `${SITE_URL}/contact-us/`,
+      availableLanguage: ["English"],
+    },
     sameAs: s.socialLinks.map((l) => l.href).filter(Boolean),
   };
 }
@@ -99,6 +119,16 @@ export function pageJsonLd(path: string): unknown[] {
   const postSlug = path.replace(/^\/|\/$/g, "");
   const post = postSlug && !postSlug.includes("/") ? getPost(postSlug) : null;
   if (post) {
+    const words = post.bodyHtml
+      ? post.bodyHtml.replace(/<[^>]+>/g, " ").split(/\s+/).filter(Boolean).length
+      : 0;
+    const image = post.featuredImage?.url
+      ? {
+          "@type": "ImageObject",
+          url: abs(post.featuredImage.url),
+          ...(post.featuredImage.alt ? { caption: post.featuredImage.alt } : {}),
+        }
+      : abs("/og-default.png");
     out.push({
       "@context": "https://schema.org",
       "@type": "BlogPosting",
@@ -111,7 +141,12 @@ export function pageJsonLd(path: string): unknown[] {
       dateModified: post.modified || post.date || undefined,
       author: { "@type": "Organization", "@id": ORG_ID, name: getSiteSettings().title },
       publisher: { "@id": ORG_ID },
-      image: post.featuredImage?.url ? abs(post.featuredImage.url) : abs("/og-default.png"),
+      image,
+      ...(words ? { wordCount: words } : {}),
+      ...(post.categories?.length
+        ? { articleSection: post.categories.map((c) => c.name) }
+        : {}),
+      ...(post.tags?.length ? { keywords: post.tags.map((t) => t.name).join(", ") } : {}),
       inLanguage: "en-US",
     });
     out.push(breadcrumbJsonLd([
@@ -152,14 +187,26 @@ export function pageJsonLd(path: string): unknown[] {
   if (teamMatch) {
     const member = getTeamMember(teamMatch[1]);
     if (member) {
+      // team.json still carries omero-theme demo data on some fields
+      // (info@example.com, facebook.com/themelexus). Emit a field only when
+      // it's real, so the graph never asserts a placeholder as fact.
+      const realEmail =
+        member.email && !/@example\.(com|org)$/i.test(member.email) ? member.email : undefined;
+      const social = Object.values(member.socials || {}).filter(
+        (u): u is string =>
+          typeof u === "string" && /^https?:\/\//.test(u) && !/themelexus/i.test(u),
+      );
       out.push({
         "@context": "https://schema.org",
         "@type": "Person",
         "@id": `${url}#person`,
         name: member.name,
-        jobTitle: member.position || undefined,
+        jobTitle: member.position || member.job || undefined,
         worksFor: { "@id": ORG_ID },
         image: member.photo?.url ? abs(member.photo.url) : undefined,
+        ...(realEmail ? { email: realEmail } : {}),
+        ...(member.skills?.length ? { knowsAbout: member.skills } : {}),
+        ...(social.length ? { sameAs: social } : {}),
         url,
       });
       out.push(breadcrumbJsonLd([
@@ -171,8 +218,37 @@ export function pageJsonLd(path: string): unknown[] {
     return out;
   }
 
-  // Marketing pages: breadcrumb only (Home > Page), skip the front page.
+  // Blog listing: a Blog node linking its posts, plus a breadcrumb.
   const page = getPageByPath(path);
+  if (page && (page.isBlog || page.path === "/blog/")) {
+    const posts = getAllPosts()
+      .filter((p) => !p.noindex)
+      .sort((a, b) => (b.date || "").localeCompare(a.date || ""));
+    out.push({
+      "@context": "https://schema.org",
+      "@type": "Blog",
+      "@id": `${url}#blog`,
+      name: page.title,
+      url,
+      isPartOf: { "@id": WEBSITE_ID },
+      publisher: { "@id": ORG_ID },
+      inLanguage: "en-US",
+      blogPost: posts.slice(0, 20).map((p) => ({
+        "@type": "BlogPosting",
+        "@id": `${SITE_URL}/${p.slug}/#article`,
+        headline: p.title,
+        url: `${SITE_URL}/${p.slug}/`,
+        datePublished: p.date || undefined,
+      })),
+    });
+    out.push(breadcrumbJsonLd([
+      { name: "Home", path: "/" },
+      { name: page.title, path },
+    ]));
+    return out;
+  }
+
+  // Marketing pages: breadcrumb only (Home > Page), skip the front page.
   if (page && !page.isFront) {
     out.push(breadcrumbJsonLd([
       { name: "Home", path: "/" },

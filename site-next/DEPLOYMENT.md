@@ -116,6 +116,23 @@ The app owns its own icons — Next serves `/icon.png` and `/apple-icon.png` fro
 directory — so the proxy must not alias `/favicon.ico`: there is no such file in a release,
 and an alias would shadow the app if one were ever added.
 
+**Compression.** The app sets `compress: true`, so the Node server gzips the proxied
+HTML — the frozen Elementor pages are 100–400 KB of markup uncompressed. That is the
+floor. nginx compresses *its own* static responses only when the `http` block has
+`gzip on` (and does not touch proxied responses at all without `gzip_proxied`). For the
+static asset locations above, add once:
+
+```nginx
+gzip on;
+gzip_proxied any;
+gzip_comp_level 5;
+gzip_types text/css application/javascript application/json image/svg+xml text/plain;
+```
+
+With that, drop `compress: true` back to `false` if you want nginx to own it exclusively
+and save the Node CPU — but leaving both on is harmless (nginx will not double-compress
+an already-gzipped upstream response).
+
 `/wp-content/` matters twice over: it carries both the committed theme/plugin assets and,
 through the `uploads` symlink, the whole media library — so nginx serves those hundreds of
 megabytes rather than Node. `/media/` is not optional either: Next standalone will not

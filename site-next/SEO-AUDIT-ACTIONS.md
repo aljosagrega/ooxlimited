@@ -183,6 +183,35 @@ Also strip the 4 `PASTE-…` refs in the `hybrid-casual` bodyHtml.
 
 ---
 
+## Round 2 — score follow-ups (commit `36635885`)
+
+Code-only improvements after the client took the content items:
+
+- **Compression on** — `compress: true` in `next.config.ts` (was `false` with no
+  reason given, behind an nginx proxy that doesn't gzip proxied responses without
+  `gzip_proxied`). Frozen pages are 100–400 KB uncompressed. `DEPLOYMENT.md` §5
+  now documents the nginx-side option too.
+- **Headers** — added `Strict-Transport-Security` (1y, includeSubDomains),
+  `X-DNS-Prefetch-Control: on`, `Permissions-Policy` (camera/mic/geo/topics off).
+- **JSON-LD enrichment** (`jsonLd.ts`):
+  - Organization: `slogan`, `numberOfEmployees`, `knowsAbout`, `contactPoint`.
+  - BlogPosting: `wordCount`, `articleSection`, `keywords`, `image` as ImageObject.
+  - Person: `knowsAbout` from `skills`; **placeholder demo data filtered** —
+    `@example.com` emails and `facebook.com/themelexus` socials are dropped, not
+    asserted.
+  - New `Blog` node on `/blog/` listing up to 20 posts.
+
+**Estimated score:** 56 → **82**, ~89 once the open content items + a page-speed
+CSS/JS-trim pass land.
+
+### Data-quality issues surfaced (client / content)
+
+- `team.json`: all 13 bios are one paragraph with the name swapped; every
+  `email` is `info@example.com`; every `socials` block is the omero theme's demo
+  account (`themelexus`). Schema now hides these, but the team pages still render
+  thin/near-duplicate — individualise or `noindex`.
+- `team.json` has a member with slug `debela` — looks like a test row; confirm and remove.
+
 ## Not in the audit but worth doing during the rebuild
 
 - JSON-LD is already broad in `jsonLd.ts` (`Organization`, `WebSite`, `BlogPosting`, `Service`, `Person`, `BreadcrumbList`) and `/og-default.png` exists — no action, just validate with Google's Rich Results Test after deploy.
