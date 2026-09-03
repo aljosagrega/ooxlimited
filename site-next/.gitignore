@@ -44,3 +44,6 @@ scratchpad/
 
 # Debug logs
 npm-debug.log*
+
+# CI release staging dir (assembled by .github/workflows/deploy.yml)
+deploy/
