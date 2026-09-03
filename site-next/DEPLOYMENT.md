@@ -10,8 +10,9 @@ database. Content is flat JSON in `src/data/*.json`, edited live via `/admin`.
 | App server | `node server.js` from `next build`'s `standalone` output — one process (systemd / pm2), listens on `127.0.0.1:3000` |
 | Reverse proxy / TLS | nginx → `proxy_pass http://127.0.0.1:3000` |
 | Static assets | nginx serves `public/` and `.next/static` **directly** — the standalone server does not serve `public/` reliably |
-| Frozen theme/plugin assets | `public/wp-content/` + `public/wp-includes/` — rsynced from the old WP docroot at deploy (see §4) |
-| Content | `src/data/*.json`, symlinked to persistent `shared/` state so admin edits survive redeploys |
+| Theme / plugin assets | `public/wp-content/` + `public/wp-includes/` — **committed** to the repo (24 MB, `npm run collect-assets`). Nothing to fetch at deploy. |
+| Media library | `public/wp-content/uploads/` — the **only** thing rsynced from the old server at deploy (see §4). Client host state; not in git. |
+| Content | `src/data/*.json` (frozen page markup + JSON store), symlinked to persistent `shared/` state so admin edits survive redeploys |
 | Email | Resend (contact form); Mailchimp API (newsletter) |
 
 ## 2. Requirements
@@ -21,8 +22,8 @@ database. Content is flat JSON in `src/data/*.json`, edited live via `/admin`.
   `cheerio`'s `undici`). Build on a Linux x64 runner or the box itself.
 - Outbound HTTPS to `api.resend.com` and `*.api.mailchimp.com`.
 - Persistent disk for `shared/` (JSON content + `adminAuth.json` + `submissions.json`).
-- ~500 MB for `node_modules` + build, plus the size of `public/wp-content` (the
-  media library — hundreds of MB).
+- ~500 MB for `node_modules` + build; +24 MB committed asset mirror; + the media
+  library (`wp-content/uploads/`, hundreds of MB) rsynced once into `shared/`.
 
 ## 3. Environment
 
@@ -43,19 +44,24 @@ in the app root — not committed). Template: `.env.example`.
 
 ```bash
 npm ci
-npm run migrate          # only if refreshing content from a WP DB dump
-npm run freeze           # only if the frozen HTML needs regenerating (needs WP running)
 SITE_URL=https://ooxlimited.com npm run build
 
-# assemble the release dir:
+# assemble the release dir (everything except uploads is already in the repo):
 cp -r .next/standalone   release/
 cp -r .next/static        release/.next/static
 cp -r public              release/public
-rsync -a --delete /path/to/old-wp-docroot/wp-content/  release/public/wp-content/
-rsync -a --delete /path/to/old-wp-docroot/wp-includes/ release/public/wp-includes/
+
+# the ONE thing pulled from the old server — the media library:
+rsync -a /path/to/old-wp-docroot/wp-content/uploads/  /srv/ooxlimited/shared/uploads/
+ln -sfn /srv/ooxlimited/shared/uploads  release/public/wp-content/uploads
+
 # symlink the live content store so edits persist across releases:
 ln -sfn /srv/ooxlimited/shared/data release/src/data
 ```
+
+`npm run migrate` / `npm run snapshot` are only for **re-capturing** from a
+running WordPress copy (content refresh, design tweak) — not part of a normal
+deploy. Their output is committed.
 
 Run: `cd release && NODE_ENV=production PORT=3000 HOSTNAME=127.0.0.1 node server.js`
 
@@ -71,7 +77,7 @@ root /srv/ooxlimited/release/public;
 location = /robots.txt  { try_files /robots.txt =404; expires 1h; }
 location = /favicon.ico { try_files /favicon.ico =404; expires 30d; }
 location /_next/static/  { alias /srv/ooxlimited/release/.next/static/; expires 1y; access_log off; }
-location /wp-content/    { try_files $uri =404; expires 1y; access_log off; }
+location /wp-content/    { try_files $uri =404; expires 1y; access_log off; }  # committed assets + uploads symlink
 location /wp-includes/   { try_files $uri =404; expires 1y; access_log off; }
 
 location / { proxy_pass http://127.0.0.1:3000; proxy_set_header Host $host; proxy_set_header X-Forwarded-Proto $scheme; }
@@ -90,6 +96,7 @@ those (`trailingSlash: true`, `src/middleware.ts`).
 2. Run the parity screenshots (README §"Verifying design parity") against staging.
 3. Point DNS / the vhost at the Node app.
 4. Keep the WordPress install reachable internally for one release cycle so
-   `npm run freeze` / `npm run migrate` can be re-run if something was missed.
-5. `wp-content/uploads/` (media) is host state — the deploy rsync in §4 must
-   preserve it; never ship the repo's copy over a newer live one.
+   `npm run snapshot` / `npm run migrate` can be re-run if something was missed.
+5. `wp-content/uploads/` (media) is host state — rsync it into `shared/uploads/`
+   and symlink it in (§4). It is never in the repo; never overwrite a newer live
+   copy with an older one.

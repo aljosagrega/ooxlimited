@@ -1,0 +1,287 @@
+/* Omero Blog Archive: featured + 3-column grid */
+
+
+
+/* Ensure the container is the reference point for positioning */
+.omero-baf__thumb-shape {
+    position: relative;
+    display: inline-block; /* Or block, depending on your layout */
+    overflow: visible; 
+}
+
+/* Base styles for both decorative elements */
+.omero-baf__thumb-shape::before,
+.omero-baf__thumb-shape::after {
+    content: "";
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+/* Top Right Element */
+.omero-baf__featured-media .omero-baf__thumb-shape::before {
+    top: 0;
+    right: 0;
+    width: 23.24%;
+    aspect-ratio: 99 / 94; /* Keeps height proportional to width */
+    background-image: url('https://ooxlimited.com/wp-content/uploads/2026/03/topr.png');
+}
+
+/* Bottom Left Element */
+.omero-baf__featured-media .omero-baf__thumb-shape::after {
+    bottom: 0;
+    left: 0;
+    width: 37.08%;
+    aspect-ratio: 158 / 99; /* Keeps height proportional to width */
+    background-image: url('https://ooxlimited.com/wp-content/uploads/2026/03/bottl.png');
+}
+
+/* Top Right Element */
+.omero-baf__card .omero-baf__thumb-shape::before {
+    top: 0;
+    left: 0;
+    width: 35.31%;
+    aspect-ratio: 107 / 83;
+    background-image: url('https://ooxlimited.com/wp-content/uploads/2026/03/cardTL.png');
+}
+
+/* Bottom Left Element */
+.omero-baf__card .omero-baf__thumb-shape::after {
+    bottom: -1px;
+    right: 0;
+    width: 47.19%;
+    aspect-ratio: 143 / 77; /* Keeps height proportional to width */
+    background-image: url('https://ooxlimited.com/wp-content/uploads/2026/03/cardBR.png');
+}
+
+.omero-baf {
+    display: flex;
+    flex-direction: column;
+    gap: 160px;
+}
+
+article.omero-baf__featured {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    position: relative;
+}
+
+.omero-baf__featured-media {
+    width: 426px;
+    height: 426px;
+    /* aspect-ratio: 1/1; */
+}
+
+.omero-baf__featured-body {
+    max-width: 588px;
+    display: flex;
+    flex-direction: column;
+}
+
+.omero-baf__thumb-shape img {
+    object-fit: cover;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.omero-baf__thumb-shape {
+    aspect-ratio: 1 / 1;
+}
+
+.omero-baf__featured-head {
+    display: flex;
+	flex-wrap: wrap;
+    gap: 18px;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+ul.omero-baf__tags {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    gap: 18px;
+    align-items: center;
+}
+
+li.omero-baf__tag {
+    background: #7B5CFF;
+    padding: 10px 20px;
+    border-radius: 14px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: lowercase;
+    
+    color: #EEF3FA;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+li.omero-baf__tag a{
+    color: #EEF3FA;
+}
+
+.omero-baf__meta {
+    /* January 15, 2026 By admin */
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+/* or 125% */
+    display: flex;
+    align-items: center;
+    text-transform: lowercase;
+    gap: 4px;
+    color: #606060;
+}
+
+.omero-baf__meta > a {
+    color: #7B5CFF;
+    text-transform: none;
+}
+
+h2.omero-baf__title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: -0.03em;
+    color: #0F1118;
+    text-transform: none;
+    margin-bottom: 12px;
+}
+
+.omero-baf__excerpt {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: justify;
+    color: #0F1118;
+    margin-bottom: 31px;
+}
+
+a.omero-baf__more {font-family: 'Poppins';font-style: normal;font-weight: 800;font-size: 15px;line-height: 24px;display: flex;align-items: center;text-transform: uppercase;color: #0F1118;}
+
+.omero-baf__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 303px);
+    justify-content: space-between;
+    gap: 40px 20px; 
+    width: 100%;
+}
+
+h3.omero-baf__title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 129%;    
+    color: #0F1118;
+    margin: 5px 0;
+    text-transform: none;
+}
+
+article.omero-baf__card .omero-baf__meta {
+    line-height: 41px;
+}
+
+img.baf-featured-building {
+    position: absolute;
+    width: 416px;
+    bottom: -150px;
+    z-index: 99;
+    left: 17%;
+}
+
+@media (max-width: 1150px) {
+    .omero-baf__grid {
+        grid-template-columns: repeat(2, 303px);
+        justify-content: center; /* Center them if there's extra space */
+        gap: 20px;
+    }
+    
+    img.baf-featured-building{
+    	left: 0;
+    }
+}
+
+@media (max-width: 770px) {
+    article.omero-baf__featured {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .omero-baf__featured-body {
+        max-width: 100%;
+        order: -1;
+        /* border-right-style: dashed; */
+    }
+
+    .omero-baf__featured-head {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 7px;
+        margin-bottom: 10px;
+    }
+
+    .omero-baf__meta {
+        font-size: 13px;
+    }
+
+    h2.omero-baf__title {
+        font-size: 24px;
+        line-height: 130%;
+    }
+
+    .omero-baf__excerpt {
+        font-size: 12px;
+        line-height: 130%;
+        margin-bottom: 15px;
+        font-size: 13px;
+        line-height: 100%;
+    }
+
+    .omero-baf__featured-media {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1;
+    }
+
+    img.baf-featured-building {
+        width: 291px;
+        aspect-ratio: 1;
+        height: auto;
+        left: -20%;
+    }
+
+    .omero-baf {
+        gap: 200px;
+    }
+
+    .omero-baf__grid {
+        grid-template-columns: unset;
+        gap: 36px;
+    }
+
+    .omero-baf__card .omero-baf__thumb-shape::after {
+        right: -2px;
+    }
+    
+}
