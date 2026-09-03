@@ -10,495 +10,411 @@
     {
       "id": "e2",
       "kind": "text",
-      "label": "H2: “Recent posts”",
-      "group": "Recent posts",
-      "value": "Recent posts"
-    },
-    {
-      "id": "e3",
-      "kind": "html",
-      "label": "H3: “Rapid Prototyping in Game Development: A Studio’s Guide”",
-      "group": "Recent posts",
-      "value": "<a href=\"/rapid-prototyping-game-development-2/\">Rapid Prototyping in Game Development: A Studio’s Guide</a>"
-    },
-    {
-      "id": "e4",
-      "kind": "html",
-      "label": "H3: “Mobile Game Prototype Cost”",
-      "group": "Recent posts",
-      "value": "<a href=\"/how-much-does-a-mobile-game-prototype-cost-2-2/\">Mobile Game Prototype Cost</a>"
-    },
-    {
-      "id": "e5",
-      "kind": "html",
-      "label": "H3: “2025 in Review: A Defining Year for Our Game & App Developm…”",
-      "group": "Recent posts",
-      "value": "<a href=\"/2025-in-review-a-defining-year-for-our-game-app-development-studio/\">2025 in Review: A Defining Year for Our Game &amp; App Development Studio</a>"
-    },
-    {
-      "id": "e6",
-      "kind": "text",
       "label": "H1: “From Idea to Playable: What a Game Prototyping Studio Actua…”",
       "group": "From Idea to Playable: What a Game Prot…",
       "value": "From Idea to Playable: What a Game Prototyping Studio Actually Delivers"
     },
     {
-      "id": "e7",
+      "id": "e3",
       "kind": "html",
       "label": "P: “Eighty-three percent of launched mobile games fail within t…”",
       "group": "From Idea to Playable: What a Game Prot…",
       "value": "Eighty-three percent of launched mobile games fail within three years of launch. Forty-three percent are cancelled during development and never reach a launch date at all. This data, from a <a href=\"https://superscale.com/blog/83-of-mobile-games-fail-within-three-years/\">SuperScale / Atomik Research survey of 500 developers across the UK and US</a>, describes an industry in which the default outcome is failure."
     },
     {
-      "id": "e8",
+      "id": "e4",
       "kind": "text",
       "label": "P: “The cause is rarely a lack of talent. In most cases, teams …”",
       "group": "From Idea to Playable: What a Game Prot…",
       "value": "The cause is rarely a lack of talent. In most cases, teams commit to full production - art, progression systems, monetisation, live-ops infrastructure - around a core loop that has never been tested with a single real player. Months of work go into an idea that, at its centre, has never been validated. By the time the problem becomes visible, the sunk cost makes it difficult to walk away."
     },
     {
-      "id": "e9",
+      "id": "e5",
       "kind": "text",
       "label": "P: “A game prototyping studio exists to answer one question bef…”",
       "group": "From Idea to Playable: What a Game Prot…",
       "value": "A game prototyping studio exists to answer one question before that money is spent: should we keep building this?"
     },
     {
-      "id": "e10",
+      "id": "e6",
       "kind": "text",
       "label": "H2: “What a Game Prototyping Studio Actually Does”",
       "group": "From Idea to Playable: What a Game Prot…",
       "value": "What a Game Prototyping Studio Actually Does"
     },
     {
-      "id": "e11",
+      "id": "e7",
       "kind": "text",
       "label": "P: “A game prototyping studio builds a functional, testable ver…”",
       "group": "From Idea to Playable: What a Game Prot…",
       "value": "A game prototyping studio builds a functional, testable version of your core game idea - deliberately stripped of everything that does not directly contribute to answering whether the idea is worth building."
     },
     {
-      "id": "e12",
+      "id": "e8",
       "kind": "text",
       "label": "P: “It is not a smaller version of the final game. It is not a …”",
       "group": "From Idea to Playable: What a Game Prot…",
       "value": "It is not a smaller version of the final game. It is not a vertical slice. A vertical slice is a near-final-quality segment used to secure publisher funding or demonstrate production capability. A prototype uses placeholder art, greybox environments, and basic functional UI."
     },
     {
-      "id": "e13",
+      "id": "e9",
       "kind": "text",
       "label": "P: “Consequently, as the OOX prototyping guide puts it: “The go…”",
       "group": "From Idea to Playable: What a Game Prot…",
       "value": "Consequently, as the OOX prototyping guide puts it: “The goal of a prototype is not polish. The goal is learning whether the idea is worth building.” Testing a concept with real behavioral metrics early on is the single most efficient way to manage modern scaling and user acquisition complexities."
     },
     {
-      "id": "e14",
+      "id": "e10",
       "kind": "text",
       "label": "P: “A dedicated game prototyping studio like OOX’s rapid protot…”",
       "group": "From Idea to Playable: What a Game Prot…",
       "value": "A dedicated game prototyping studio like OOX’s rapid prototyping service typically delivers within 2 to 6 weeks, depending on scope and complexity. Therefore, the final output provides a clear, actionable set of answers:"
     },
     {
-      "id": "e15",
+      "id": "e11",
       "kind": "html",
       "label": "LI: “Playable interactive build - functional, testable, and shar…”",
       "group": "From Idea to Playable: What a Game Prot…",
       "value": "<strong>Playable interactive build</strong> - functional, testable, and shareable with stakeholders or early testers"
     },
     {
-      "id": "e16",
+      "id": "e12",
       "kind": "html",
       "label": "LI: “Structured validation insights - what works, what does not,…”",
       "group": "From Idea to Playable: What a Game Prot…",
       "value": "<strong>Structured validation insights</strong> - what works, what does not, what should be removed"
     },
     {
-      "id": "e17",
+      "id": "e13",
       "kind": "html",
       "label": "LI: “Technical feasibility findings - performance baselines, arc…”",
       "group": "From Idea to Playable: What a Game Prot…",
       "value": "<strong>Technical feasibility findings</strong> - performance baselines, architecture risks, integration concerns"
     },
     {
-      "id": "e18",
+      "id": "e14",
       "kind": "html",
       "label": "LI: “Clean, engine-ready project files in Unity or Unreal - modu…”",
       "group": "From Idea to Playable: What a Game Prot…",
       "value": "<strong>Clean, engine-ready project files in Unity or Unreal</strong> - modular code that carries forward into production"
     },
     {
-      "id": "e19",
+      "id": "e15",
       "kind": "html",
       "label": "LI: “A clear recommendation - build, refine, or kill”",
       "group": "From Idea to Playable: What a Game Prot…",
       "value": "<strong>A clear recommendation</strong> - build, refine, or kill"
     },
     {
-      "id": "e20",
+      "id": "e16",
       "kind": "text",
       "label": "P: “What a prototype does not include: final-quality art, monet…”",
       "group": "From Idea to Playable: What a Game Prot…",
       "value": "What a prototype does not include: final-quality art, monetisation systems, full progression, backend infrastructure, or polished UI. These elements do not answer the core question. They are production-stage concerns, and adding them at the prototype stage inflates scope without improving the quality of the decision."
     },
     {
-      "id": "e21",
+      "id": "e17",
       "kind": "text",
       "label": "H2: “Why Studios and Founders Invest in Prototyping First”",
       "group": "From Idea to Playable: What a Game Prot…",
       "value": "Why Studios and Founders Invest in Prototyping First"
     },
     {
-      "id": "e22",
+      "id": "e18",
       "kind": "html",
       "label": "P: “Building without validating is the most expensive way to le…”",
       "group": "From Idea to Playable: What a Game Prot…",
       "value": "Building without validating is the most expensive way to learn that an idea does not work. Mobile publishers like <a href=\"https://voodoo.io/\">Voodoo</a> and <a href=\"https://kwalee.com/\">Kwalee</a> built entire hyper-casual and hybrid business models on this exact principle, testing hundreds of raw prototypes a year to find the few that actually retain players."
     },
     {
-      "id": "e23",
+      "id": "e19",
       "kind": "text",
       "label": "P: “A separate analysis by AppMagic and PlayHero in 2025 report…”",
       "group": "From Idea to Playable: What a Game Prot…",
       "value": "A separate analysis by AppMagic and PlayHero in 2025 reported that 97% of mobile games released in the preceding three years failed to achieve meaningful commercial traction. It is widely estimated that around 90% of digital products fail commercially - and the common denominator across these failures is premature investment in unvalidated assumptions."
     },
     {
-      "id": "e24",
+      "id": "e20",
       "kind": "text",
       "label": "P: “Meanwhile, the underlying economics remain completely strai…”",
       "group": "From Idea to Playable: What a Game Prot…",
       "value": "Meanwhile, the underlying economics remain completely straightforward. A 2-to-6-week prototype costs a fraction of full production and prevents months of work on an unvalidated core loop. This initial step provides a baseline that protects both capital and focus."
     },
     {
-      "id": "e25",
+      "id": "e21",
       "kind": "text",
       "label": "P: “A dedicated studio with a cross-discipline strike team - Un…”",
       "group": "From Idea to Playable: What a Game Prot…",
       "value": "A dedicated studio with a cross-discipline strike team - Unity and Unreal developers, UI/UX designers, technical artists, and product specialists - can deliver a playable build in weeks, not months. The same build attempted in-house typically takes far longer when the team is also managing live products and competing priorities. And the prototype’s code carries forward: nothing is wasted if the decision is “go.”"
     },
     {
-      "id": "e26",
+      "id": "e22",
       "kind": "text",
       "label": "P: “The speed advantage is not about rushing. It is about short…”",
       "group": "From Idea to Playable: What a Game Prot…",
       "value": "The speed advantage is not about rushing. It is about shortening the distance between an idea and the data that tells you whether it is viable. In a market where 83% of launched games fail, every month spent building without validation is a month spent betting that your intuition is correct."
     },
     {
-      "id": "e27",
+      "id": "e23",
       "kind": "text",
       "label": "H2: “The Prototyping Engagement: Step by Step”",
       "group": "From Idea to Playable: What a Game Prot…",
       "value": "The Prototyping Engagement: Step by Step"
     },
     {
-      "id": "e28",
+      "id": "e24",
       "kind": "text",
       "label": "P: “A prototyping engagement is a structured process designed t…”",
       "group": "From Idea to Playable: What a Game Prot…",
       "value": "A prototyping engagement is a structured process designed to extract the maximum amount of decision-quality information in the minimum amount of time."
     },
     {
-      "id": "e29",
+      "id": "e25",
       "kind": "text",
       "label": "H3: “Step 1: The Brief - What the Studio Needs From You”",
       "group": "From Idea to Playable: What a Game Prot…",
       "value": "Step 1: The Brief - What the Studio Needs From You"
     },
     {
-      "id": "e30",
+      "id": "e26",
       "kind": "text",
       "label": "P: “The engagement begins before any code is written - with a s…”",
       "group": "From Idea to Playable: What a Game Prot…",
       "value": "The engagement begins before any code is written - with a structured discovery conversation. You bring the core concept (one sentence describing the experience, not the feature list), the target player persona, platform targets, constraints, and your definition of success."
     },
     {
-      "id": "e31",
+      "id": "e27",
       "kind": "text",
       "label": "P: “The studio assesses technical feasibility, analyses referen…”",
       "group": "From Idea to Playable: What a Game Prot…",
       "value": "The studio assesses technical feasibility, analyses reference products and competitors, identifies risks, and aligns on objectives - commercial validation, investor demonstration, or internal decision-making. The output is a shared understanding. A short conversation is usually enough to clarify scope and priorities. By the end of discovery, both sides agree on the single most important thing the prototype must prove."
     },
     {
-      "id": "e32",
+      "id": "e28",
       "kind": "text",
       "label": "H3: “Step 2: The Scope - Defining Exactly What Gets Built (and W…”",
       "group": "From Idea to Playable: What a Game Prot…",
       "value": "Step 2: The Scope - Defining Exactly What Gets Built (and What Does Not)"
     },
     {
-      "id": "e33",
+      "id": "e29",
       "kind": "text",
       "label": "P: “The most important decision in a prototyping engagement is …”",
       "group": "From Idea to Playable: What a Game Prot…",
       "value": "The most important decision in a prototyping engagement is what to leave out. Core mechanic isolation is the first and most consequential exercise. The studio works with you to identify the atomic unit of your game’s fun - the core gameplay loop."
     },
     {
-      "id": "e34",
+      "id": "e30",
       "kind": "text",
       "label": "P: “In a shooter: aim, shoot, reload, repeat. In an RPG: explor…”",
       "group": "From Idea to Playable: What a Game Prot…",
       "value": "In a shooter: aim, shoot, reload, repeat. In an RPG: explore, encounter, fight, collect, level up, explore again. Everything else is stripped away: final-quality art, monetisation, full progression, multiple modes, backend infrastructure, polished UI."
     },
     {
-      "id": "e35",
+      "id": "e31",
       "kind": "text",
       "label": "P: “A good prototyping studio produces a clear scope document: …”",
       "group": "From Idea to Playable: What a Game Prot…",
       "value": "A good prototyping studio produces a clear scope document: the specific mechanics to build, acceptance criteria per milestone, sprint cadence, and deliverables schedule. Scope changes are handled as formal requests - not scope creep by stealth. At this stage, “playable” means: a greybox build running the core mechanic in a testable state, with zero polish, delivered within the first 1 to 2 weeks. It is rough, and it is supposed to be."
     },
     {
-      "id": "e36",
+      "id": "e32",
       "kind": "text",
       "label": "H3: “Step 3: The Core Loop - Building Something You Can Actually…”",
       "group": "From Idea to Playable: What a Game Prot…",
       "value": "Step 3: The Core Loop - Building Something You Can Actually Test"
     },
     {
-      "id": "e37",
+      "id": "e33",
       "kind": "text",
       "label": "P: “The core loop prototype is where assumptions meet reality. …”",
       "group": "From Idea to Playable: What a Game Prot…",
       "value": "The core loop prototype is where assumptions meet reality. Using placeholder graphics and a simplified UI, the studio produces an interactive build focused on a single question: does this feel compelling when someone actually plays it? The build runs on the target platform or a close proxy and is stable enough to put in front of testers."
     },
     {
-      "id": "e38",
+      "id": "e34",
       "kind": "text",
       "label": "P: “The sprint rhythm is weekly or bi-weekly playable builds, d…”",
       "group": "From Idea to Playable: What a Game Prot…",
       "value": "The sprint rhythm is weekly or bi-weekly playable builds, delivered at the end of each sprint. You play, provide structured feedback, and the next sprint incorporates those findings. The studio produces a functional build that can be tested internally, shared with stakeholders, or used for early market validation."
     },
     {
-      "id": "e39",
+      "id": "e35",
       "kind": "text",
       "label": "P: “What the studio needs from you during this stage: timely fe…”",
       "group": "From Idea to Playable: What a Game Prot…",
       "value": "What the studio needs from you during this stage: timely feedback after each delivery, decisions on which mechanic variations to pursue or drop, and honesty about what feels right - and what does not. The deliverables: iterative playable builds, sprint review notes documenting changes, and early technical validation."
     },
     {
-      "id": "e40",
+      "id": "e36",
       "kind": "text",
       "label": "H3: “Step 4: Playable to Go/No-Go - The Decision That Saves or C…”",
       "group": "From Idea to Playable: What a Game Prot…",
       "value": "Step 4: Playable to Go/No-Go - The Decision That Saves or Costs Millions"
     },
     {
-      "id": "e41",
+      "id": "e37",
       "kind": "text",
       "label": "P: “The end of a prototyping engagement is not a finished produ…”",
       "group": "From Idea to Playable: What a Game Prot…",
       "value": "The end of a prototyping engagement is not a finished product. It is a decision. Once the core loop is stable, the studio helps you test it beyond the internal team. The OOX prototyping process uses paid user acquisition campaigns to measure CPI (Cost Per Install), Day 1 Retention, and average session length."
     },
     {
-      "id": "e42",
+      "id": "e38",
       "kind": "text",
       "label": "P: “The goal is behavioural data - what players actually do - n…”",
       "group": "From Idea to Playable: What a Game Prot…",
       "value": "The goal is behavioural data - what players actually do - not opinions. The evaluation centres on four areas:"
     },
     {
-      "id": "e43",
+      "id": "e39",
       "kind": "html",
       "label": "LI: “Retention signals: Day 1 retention above roughly 40% is typ…”",
       "group": "From Idea to Playable: What a Game Prot…",
       "value": "<strong>Retention signals:</strong> Day 1 retention above roughly 40% is typically considered a strong early indicator that the core mechanic is working"
     },
     {
-      "id": "e44",
+      "id": "e40",
       "kind": "html",
       "label": "LI: “CPI viability: can users be acquired at a cost that leaves …”",
       "group": "From Idea to Playable: What a Game Prot…",
       "value": "<strong>CPI viability:</strong> can users be acquired at a cost that leaves room for a sustainable business?"
     },
     {
-      "id": "e45",
+      "id": "e41",
       "kind": "html",
       "label": "LI: “Session behaviour: are players engaging as designed, or fin…”",
       "group": "From Idea to Playable: What a Game Prot…",
       "value": "<strong>Session behaviour:</strong> are players engaging as designed, or finding unintended friction?"
     },
     {
-      "id": "e46",
+      "id": "e42",
       "kind": "html",
       "label": "LI: “Technical feasibility: did the prototype surface risks that…”",
       "group": "From Idea to Playable: What a Game Prot…",
       "value": "<strong>Technical feasibility:</strong> did the prototype surface risks that would make full production disproportionately expensive?"
     },
     {
-      "id": "e47",
+      "id": "e43",
       "kind": "text",
       "label": "P: “The output is a recommendation, not a commitment. Strong si…”",
       "group": "From Idea to Playable: What a Game Prot…",
       "value": "The output is a recommendation, not a commitment. Strong signals suggest moving to full production or to a vertical slice for publisher conversations. Conversely, weak signals suggest killing the project, recycling the modular engine-ready code, and applying the learnings to the next idea. The prototype code is not throwaway. It is clean, documented, and structured for a production team to continue if the decision is “go.”"
     },
     {
-      "id": "e48",
+      "id": "e44",
       "kind": "text",
       "label": "H2: “How Prototyping Saves Time, Money, and Wrong Turns”",
       "group": "From Idea to Playable: What a Game Prot…",
       "value": "How Prototyping Saves Time, Money, and Wrong Turns"
     },
     {
-      "id": "e49",
+      "id": "e45",
       "kind": "text",
       "label": "P: “The smartest investment early on is not “how much can we bu…”",
       "group": "From Idea to Playable: What a Game Prot…",
       "value": "The smartest investment early on is not “how much can we build?” It is “how quickly can we learn what deserves scaling?” A prototyping engagement replaces assumptions with measurable insights, reduces development risk, and helps teams make confident product decisions before committing to full production."
     },
     {
-      "id": "e50",
+      "id": "e46",
       "kind": "text",
       "label": "P: “Killing a weak idea at the prototype stage preserves capita…”",
       "group": "From Idea to Playable: What a Game Prot…",
       "value": "Killing a weak idea at the prototype stage preserves capital, team morale, and reusable code assets for the next project. If the decision is “go,” the prototype’s architecture and code carry forward - nothing is wasted. The industry numbers tell a clear story: 43% of games never launch."
     },
     {
-      "id": "e51",
+      "id": "e47",
       "kind": "text",
       "label": "P: “Most of those cancellations happen after significant produc…”",
       "group": "From Idea to Playable: What a Game Prot…",
       "value": "Most of those cancellations happen after significant production investment. A prototype, by design, forces the kill-or-scale conversation early - when the cost of walking away is measured in weeks, not years. A prototype should not answer: “Can we build this?” Almost anything can be built with enough time and money. It should answer: “Should we keep building this?” That is a completely different question - and the one a prototyping studio is designed to answer."
     },
     {
-      "id": "e52",
+      "id": "e48",
       "kind": "text",
       "label": "H2: “Final Thoughts”",
       "group": "From Idea to Playable: What a Game Prot…",
       "value": "Final Thoughts"
     },
     {
-      "id": "e53",
+      "id": "e49",
       "kind": "text",
       "label": "P: “The difference between a studio that ships and a studio tha…”",
       "group": "From Idea to Playable: What a Game Prot…",
       "value": "The difference between a studio that ships and a studio that runs out of money is rarely talent. It is the willingness to test the core assumption early - before art, before scale, before the sunk cost makes it impossible to walk away. A game prototyping studio does not build your game. It builds the evidence you need to decide whether the game is worth building at all."
     },
     {
-      "id": "e54",
+      "id": "e50",
       "kind": "text",
       "label": "H2: “Ready to Validate Your Game Idea?”",
       "group": "Ready to Validate Your Game Idea?",
       "value": "Ready to Validate Your Game Idea?"
     },
     {
-      "id": "e55",
+      "id": "e51",
       "kind": "text",
       "label": "P: “OOX Limited can help you move from concept to a playable, t…”",
       "group": "Ready to Validate Your Game Idea?",
       "value": "OOX Limited can help you move from concept to a playable, testable prototype in weeks - not months. If you have a game idea you want to validate before committing to full production, we should talk."
     },
     {
-      "id": "e56",
+      "id": "e52",
       "kind": "text",
       "label": "P: “Let us discuss your project.”",
       "group": "Ready to Validate Your Game Idea?",
       "value": "Let us discuss your project."
     },
     {
-      "id": "e57",
+      "id": "e53",
       "kind": "html",
       "label": "P: “Explore our validation solutions:”",
       "group": "Ready to Validate Your Game Idea?",
       "value": "<strong>Explore our validation solutions:</strong>"
     },
     {
-      "id": "e58",
+      "id": "e54",
       "kind": "html",
       "label": "LI: “Rapid Prototyping Services”",
       "group": "Ready to Validate Your Game Idea?",
       "value": "<a href=\"/service/rapid-prototyping/\">Rapid Prototyping Services</a>"
     },
     {
-      "id": "e59",
+      "id": "e55",
       "kind": "html",
       "label": "LI: “Mobile Game Production”",
       "group": "Ready to Validate Your Game Idea?",
       "value": "<a href=\"/service/mobile-game-development/\">Mobile Game Production</a>"
     },
     {
-      "id": "e60",
+      "id": "e56",
       "kind": "html",
       "label": "LI: “Co-Development Partnerships”",
       "group": "Ready to Validate Your Game Idea?",
       "value": "<a href=\"/service/co-development/\">Co-Development Partnerships</a>"
     },
     {
-      "id": "e61",
-      "kind": "image",
-      "label": "Image: mobile game development team",
-      "group": "Recent posts",
-      "value": "/wp-content/uploads/2026/07/DSC06489-768x1152.jpg"
-    },
-    {
-      "id": "e62",
-      "kind": "imageAlt",
-      "label": "Alt for mobile game development team",
-      "group": "Recent posts",
-      "value": "mobile game development team"
-    },
-    {
-      "id": "e63",
-      "kind": "image",
-      "label": "Image: Read more",
-      "group": "Recent posts",
-      "value": "/wp-content/uploads/2026/03/arrowr.png"
-    },
-    {
-      "id": "e64",
-      "kind": "imageAlt",
-      "label": "Alt for Read more",
-      "group": "Recent posts",
-      "value": "Read more"
-    },
-    {
-      "id": "e65",
-      "kind": "image",
-      "label": "Image: Mobile Game Prototype Cost",
-      "group": "Recent posts",
-      "value": "/wp-content/uploads/2026/05/20260226-DSC06230-768x512.jpg"
-    },
-    {
-      "id": "e66",
-      "kind": "imageAlt",
-      "label": "Alt for Mobile Game Prototype Cost",
-      "group": "Recent posts",
-      "value": "Mobile Game Prototype Cost"
-    },
-    {
-      "id": "e67",
-      "kind": "image",
-      "label": "Image: 2025-recap",
-      "group": "Recent posts",
-      "value": "/wp-content/uploads/2026/04/2025-recap-768x400.webp"
-    },
-    {
-      "id": "e68",
-      "kind": "imageAlt",
-      "label": "Alt for 2025-recap",
-      "group": "Recent posts",
-      "value": "2025-recap"
-    },
-    {
-      "id": "e69",
+      "id": "e57",
       "kind": "image",
       "label": "Image: Mobile game wireframes and user interfa…",
       "group": "From Idea to Playable: What a Game Prot…",
       "value": "https://images.unsplash.com/photo-1551650975-87deedd944c3?q=80&w=1200&auto=format&fit=crop"
     },
     {
-      "id": "e70",
+      "id": "e58",
       "kind": "imageAlt",
       "label": "Alt for Mobile game wireframes and us…",
       "group": "From Idea to Playable: What a Game Prot…",
       "value": "Mobile game wireframes and user interface layouts within a development pipeline"
     },
     {
-      "id": "e71",
+      "id": "e59",
       "kind": "image",
       "label": "Image: Testing mobile gameplay loop mechanics …",
       "group": "From Idea to Playable: What a Game Prot…",
       "value": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=1200&auto=format&fit=crop"
     },
     {
-      "id": "e72",
+      "id": "e60",
       "kind": "imageAlt",
       "label": "Alt for Testing mobile gameplay loop …",
       "group": "From Idea to Playable: What a Game Prot…",

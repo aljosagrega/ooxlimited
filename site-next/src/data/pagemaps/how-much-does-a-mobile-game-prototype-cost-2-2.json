@@ -10,1402 +10,1318 @@
     {
       "id": "e2",
       "kind": "text",
-      "label": "H2: “Recent posts”",
-      "group": "Recent posts",
-      "value": "Recent posts"
-    },
-    {
-      "id": "e3",
-      "kind": "html",
-      "label": "H3: “Rapid Prototyping in Game Development: A Studio’s Guide”",
-      "group": "Recent posts",
-      "value": "<a href=\"/rapid-prototyping-game-development-2/\">Rapid Prototyping in Game Development: A Studio’s Guide</a>"
-    },
-    {
-      "id": "e4",
-      "kind": "html",
-      "label": "H3: “From Idea to Playable: What a Game Prototyping Studio Actua…”",
-      "group": "Recent posts",
-      "value": "<a href=\"/game-prototyping-studio-deliverables/\">From Idea to Playable: What a Game Prototyping Studio Actually Delivers</a>"
-    },
-    {
-      "id": "e5",
-      "kind": "html",
-      "label": "H3: “2025 in Review: A Defining Year for Our Game & App Developm…”",
-      "group": "Recent posts",
-      "value": "<a href=\"/2025-in-review-a-defining-year-for-our-game-app-development-studio/\">2025 in Review: A Defining Year for Our Game &amp; App Development Studio</a>"
-    },
-    {
-      "id": "e6",
-      "kind": "text",
       "label": "H1: “How Much Does a Mobile Game Prototype Cost?”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "How Much Does a Mobile Game Prototype Cost?"
     },
     {
-      "id": "e7",
+      "id": "e3",
       "kind": "text",
       "label": "P: “Most founders ask the wrong question when budgeting a mobil…”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "Most founders ask the wrong question when budgeting a mobile game prototype."
     },
     {
-      "id": "e8",
+      "id": "e4",
       "kind": "text",
       "label": "P: “They ask:”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "They ask:"
     },
     {
-      "id": "e9",
+      "id": "e5",
       "kind": "text",
       "label": "P: “\"How many features can we fit into the budget?\"”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "\"How many features can we fit into the budget?\""
     },
     {
-      "id": "e10",
+      "id": "e6",
       "kind": "text",
       "label": "P: “The better question is:”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "The better question is:"
     },
     {
-      "id": "e11",
+      "id": "e7",
       "kind": "text",
       "label": "P: “\"What does the prototype actually need to prove?\"”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "\"What does the prototype actually need to prove?\""
     },
     {
-      "id": "e12",
+      "id": "e8",
       "kind": "text",
       "label": "P: “A prototype is not a smaller version of the final game.”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "A prototype is not a smaller version of the final game."
     },
     {
-      "id": "e13",
+      "id": "e9",
       "kind": "text",
       "label": "P: “Its purpose is to reduce uncertainty before you commit seri…”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "Its purpose is to reduce uncertainty before you commit serious production time and budget."
     },
     {
-      "id": "e14",
+      "id": "e10",
       "kind": "text",
       "label": "P: “At OOX Limited, we scope prototypes around validation:”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "At OOX Limited, we scope prototypes around validation:"
     },
     {
-      "id": "e15",
+      "id": "e11",
       "kind": "text",
       "label": "LI: “testing the core loop”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "testing the core loop"
     },
     {
-      "id": "e16",
+      "id": "e12",
       "kind": "text",
       "label": "LI: “measuring player behavior”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "measuring player behavior"
     },
     {
-      "id": "e17",
+      "id": "e13",
       "kind": "text",
       "label": "LI: “validating CPI potential”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "validating CPI potential"
     },
     {
-      "id": "e18",
+      "id": "e14",
       "kind": "text",
       "label": "LI: “identifying whether a concept deserves further investment”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "identifying whether a concept deserves further investment"
     },
     {
-      "id": "e19",
+      "id": "e15",
       "kind": "text",
       "label": "P: “The goal is not building more.”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "The goal is not building more."
     },
     {
-      "id": "e20",
+      "id": "e16",
       "kind": "text",
       "label": "P: “The goal is learning faster.”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "The goal is learning faster."
     },
     {
-      "id": "e21",
+      "id": "e17",
       "kind": "text",
       "label": "H2: “What Actually Determines Prototype Cost?”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "What Actually Determines Prototype Cost?"
     },
     {
-      "id": "e22",
+      "id": "e18",
       "kind": "text",
       "label": "P: “Prototype cost depends on:”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "Prototype cost depends on:"
     },
     {
-      "id": "e23",
+      "id": "e19",
       "kind": "text",
       "label": "LI: “gameplay complexity”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "gameplay complexity"
     },
     {
-      "id": "e24",
+      "id": "e20",
       "kind": "text",
       "label": "LI: “art direction”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "art direction"
     },
     {
-      "id": "e25",
+      "id": "e21",
       "kind": "text",
       "label": "LI: “platform requirements”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "platform requirements"
     },
     {
-      "id": "e26",
+      "id": "e22",
       "kind": "text",
       "label": "LI: “testing goals”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "testing goals"
     },
     {
-      "id": "e27",
+      "id": "e23",
       "kind": "text",
       "label": "LI: “technical systems”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "technical systems"
     },
     {
-      "id": "e28",
+      "id": "e24",
       "kind": "text",
       "label": "LI: “production speed”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "production speed"
     },
     {
-      "id": "e29",
+      "id": "e25",
       "kind": "text",
       "label": "P: “A simple 2D mechanic can be validated relatively quickly.”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "A simple 2D mechanic can be validated relatively quickly."
     },
     {
-      "id": "e30",
+      "id": "e26",
       "kind": "text",
       "label": "P: “A multiplayer-heavy 3D game with backend systems, progressi…”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "A multiplayer-heavy 3D game with backend systems, progression, and monetization naturally requires more scope."
     },
     {
-      "id": "e31",
+      "id": "e27",
       "kind": "text",
       "label": "P: “But the biggest factor is usually:”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "But the biggest factor is usually:"
     },
     {
-      "id": "e32",
+      "id": "e28",
       "kind": "text",
       "label": "P: “what question the prototype is trying to answer.”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "what question the prototype is trying to answer."
     },
     {
-      "id": "e33",
+      "id": "e29",
       "kind": "html",
       "label": "P: “Related reading: How to Choose the Right Mobile Game Develo…”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "<strong>Related reading:</strong><br> <a href=\"/how-to-choose-the-right-mobile-game-development-partner-in-2026-oox/\">How to Choose the Right Mobile Game Development Partner in 2026</a>"
     },
     {
-      "id": "e34",
+      "id": "e30",
       "kind": "text",
       "label": "H2: “The Biggest Mistake Teams Make”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "The Biggest Mistake Teams Make"
     },
     {
-      "id": "e35",
+      "id": "e31",
       "kind": "text",
       "label": "P: “Many teams accidentally start building the final game inste…”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "Many teams accidentally start building the final game instead of a prototype."
     },
     {
-      "id": "e36",
+      "id": "e32",
       "kind": "text",
       "label": "P: “They add:”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "They add:"
     },
     {
-      "id": "e37",
+      "id": "e33",
       "kind": "text",
       "label": "LI: “progression systems”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "progression systems"
     },
     {
-      "id": "e38",
+      "id": "e34",
       "kind": "text",
       "label": "LI: “shops”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "shops"
     },
     {
-      "id": "e39",
+      "id": "e35",
       "kind": "text",
       "label": "LI: “multiple game modes”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "multiple game modes"
     },
     {
-      "id": "e40",
+      "id": "e36",
       "kind": "text",
       "label": "LI: “monetization”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "monetization"
     },
     {
-      "id": "e41",
+      "id": "e37",
       "kind": "text",
       "label": "LI: “polished UI”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "polished UI"
     },
     {
-      "id": "e42",
+      "id": "e38",
       "kind": "text",
       "label": "LI: “backend features”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "backend features"
     },
     {
-      "id": "e43",
+      "id": "e39",
       "kind": "text",
       "label": "LI: “advanced content pipelines”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "advanced content pipelines"
     },
     {
-      "id": "e44",
+      "id": "e40",
       "kind": "text",
       "label": "P: “before validating whether players even enjoy the core inter…”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "before validating whether players even enjoy the core interaction."
     },
     {
-      "id": "e45",
+      "id": "e41",
       "kind": "text",
       "label": "P: “That dramatically increases cost while reducing learning sp…”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "That dramatically increases cost while reducing learning speed."
     },
     {
-      "id": "e46",
+      "id": "e42",
       "kind": "text",
       "label": "P: “If the core loop fails, none of those systems matter.”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "If the core loop fails, none of those systems matter."
     },
     {
-      "id": "e47",
+      "id": "e43",
       "kind": "text",
       "label": "H2: “Start With the Riskiest Assumption”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "Start With the Riskiest Assumption"
     },
     {
-      "id": "e48",
+      "id": "e44",
       "kind": "text",
       "label": "P: “Every prototype should begin with one question:”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "Every prototype should begin with one question:"
     },
     {
-      "id": "e49",
+      "id": "e45",
       "kind": "text",
       "label": "P: “\"What assumption would make this project fail if it turns o…”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "\"What assumption would make this project fail if it turns out to be wrong?\""
     },
     {
-      "id": "e50",
+      "id": "e46",
       "kind": "text",
       "label": "P: “Usually, that assumption is:”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "Usually, that assumption is:"
     },
     {
-      "id": "e51",
+      "id": "e47",
       "kind": "text",
       "label": "LI: “the core gameplay loop”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "the core gameplay loop"
     },
     {
-      "id": "e52",
+      "id": "e48",
       "kind": "text",
       "label": "LI: “retention potential”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "retention potential"
     },
     {
-      "id": "e53",
+      "id": "e49",
       "kind": "text",
       "label": "LI: “CPI competitiveness”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "CPI competitiveness"
     },
     {
-      "id": "e54",
+      "id": "e50",
       "kind": "text",
       "label": "LI: “first-session engagement”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "first-session engagement"
     },
     {
-      "id": "e55",
+      "id": "e51",
       "kind": "text",
       "label": "LI: “visual appeal”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "visual appeal"
     },
     {
-      "id": "e56",
+      "id": "e52",
       "kind": "text",
       "label": "LI: “or overall player interest”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "or overall player interest"
     },
     {
-      "id": "e57",
+      "id": "e53",
       "kind": "text",
       "label": "P: “Once that question is clear, the prototype scope becomes mu…”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "Once that question is clear, the prototype scope becomes much simpler."
     },
     {
-      "id": "e58",
+      "id": "e54",
       "kind": "text",
       "label": "H2: “What Early Prototypes Actually Need”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "What Early Prototypes Actually Need"
     },
     {
-      "id": "e59",
+      "id": "e55",
       "kind": "text",
       "label": "P: “In most mobile games, the first prototype only needs to val…”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "In most mobile games, the first prototype only needs to validate:"
     },
     {
-      "id": "e60",
+      "id": "e56",
       "kind": "text",
       "label": "LI: “the core mechanic”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "the core mechanic"
     },
     {
-      "id": "e61",
+      "id": "e57",
       "kind": "text",
       "label": "LI: “the game feel”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "the game feel"
     },
     {
-      "id": "e62",
+      "id": "e58",
       "kind": "text",
       "label": "LI: “basic visual direction”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "basic visual direction"
     },
     {
-      "id": "e63",
+      "id": "e59",
       "kind": "text",
       "label": "LI: “early player retention”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "early player retention"
     },
     {
-      "id": "e64",
+      "id": "e60",
       "kind": "text",
       "label": "P: “That means:”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "That means:"
     },
     {
-      "id": "e65",
+      "id": "e61",
       "kind": "text",
       "label": "LI: “placeholder art is often enough”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "placeholder art is often enough"
     },
     {
-      "id": "e66",
+      "id": "e62",
       "kind": "text",
       "label": "LI: “monetization can usually wait”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "monetization can usually wait"
     },
     {
-      "id": "e67",
+      "id": "e63",
       "kind": "text",
       "label": "LI: “large content pipelines are unnecessary”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "large content pipelines are unnecessary"
     },
     {
-      "id": "e68",
+      "id": "e64",
       "kind": "text",
       "label": "LI: “advanced progression systems are rarely needed”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "advanced progression systems are rarely needed"
     },
     {
-      "id": "e69",
+      "id": "e65",
       "kind": "text",
       "label": "P: “The prototype exists to answer:”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "The prototype exists to answer:"
     },
     {
-      "id": "e70",
+      "id": "e66",
       "kind": "text",
       "label": "P: “\"Would real users want to keep playing this?\"”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "\"Would real users want to keep playing this?\""
     },
     {
-      "id": "e71",
+      "id": "e67",
       "kind": "text",
       "label": "P: “Nothing else matters yet.”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "Nothing else matters yet."
     },
     {
-      "id": "e72",
+      "id": "e68",
       "kind": "text",
       "label": "H2: “Prototype Types Require Different Budgets”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "Prototype Types Require Different Budgets"
     },
     {
-      "id": "e73",
+      "id": "e69",
       "kind": "text",
       "label": "P: “Not every prototype has the same purpose.”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "Not every prototype has the same purpose."
     },
     {
-      "id": "e74",
+      "id": "e70",
       "kind": "text",
       "label": "H3: “Early Validation Prototype”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "Early Validation Prototype"
     },
     {
-      "id": "e75",
+      "id": "e71",
       "kind": "text",
       "label": "P: “Focused purely on:”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "Focused purely on:"
     },
     {
-      "id": "e76",
+      "id": "e72",
       "kind": "text",
       "label": "LI: “core loop”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "core loop"
     },
     {
-      "id": "e77",
+      "id": "e73",
       "kind": "text",
       "label": "LI: “retention”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "retention"
     },
     {
-      "id": "e78",
+      "id": "e74",
       "kind": "text",
       "label": "LI: “CPI testing”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "CPI testing"
     },
     {
-      "id": "e79",
+      "id": "e75",
       "kind": "text",
       "label": "LI: “playtime”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "playtime"
     },
     {
-      "id": "e80",
+      "id": "e76",
       "kind": "text",
       "label": "P: “Usually the fastest and leanest approach.”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "Usually the fastest and leanest approach."
     },
     {
-      "id": "e81",
+      "id": "e77",
       "kind": "text",
       "label": "H3: “Market-Test Prototype”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "Market-Test Prototype"
     },
     {
-      "id": "e82",
+      "id": "e78",
       "kind": "text",
       "label": "P: “Used when entering a proven genre.”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "Used when entering a proven genre."
     },
     {
-      "id": "e83",
+      "id": "e79",
       "kind": "text",
       "label": "P: “May include:”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "May include:"
     },
     {
-      "id": "e84",
+      "id": "e80",
       "kind": "text",
       "label": "LI: “progression”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "progression"
     },
     {
-      "id": "e85",
+      "id": "e81",
       "kind": "text",
       "label": "LI: “ads”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "ads"
     },
     {
-      "id": "e86",
+      "id": "e82",
       "kind": "text",
       "label": "LI: “meta systems”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "meta systems"
     },
     {
-      "id": "e87",
+      "id": "e83",
       "kind": "text",
       "label": "LI: “deeper retention mechanics”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "deeper retention mechanics"
     },
     {
-      "id": "e88",
+      "id": "e84",
       "kind": "text",
       "label": "P: “At this stage, teams often measure:”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "At this stage, teams often measure:"
     },
     {
-      "id": "e89",
+      "id": "e85",
       "kind": "text",
       "label": "LI: “Day 1”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "Day 1"
     },
     {
-      "id": "e90",
+      "id": "e86",
       "kind": "text",
       "label": "LI: “Day 7”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "Day 7"
     },
     {
-      "id": "e91",
+      "id": "e87",
       "kind": "text",
       "label": "LI: “ROAS”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "ROAS"
     },
     {
-      "id": "e92",
+      "id": "e88",
       "kind": "text",
       "label": "LI: “scalability”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "scalability"
     },
     {
-      "id": "e93",
+      "id": "e89",
       "kind": "text",
       "label": "H3: “Creative Testing Prototype”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "Creative Testing Prototype"
     },
     {
-      "id": "e94",
+      "id": "e90",
       "kind": "text",
       "label": "P: “Focused primarily on:”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "Focused primarily on:"
     },
     {
-      "id": "e95",
+      "id": "e91",
       "kind": "text",
       "label": "LI: “art style”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "art style"
     },
     {
-      "id": "e96",
+      "id": "e92",
       "kind": "text",
       "label": "LI: “creative performance”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "creative performance"
     },
     {
-      "id": "e97",
+      "id": "e93",
       "kind": "text",
       "label": "LI: “CPI optimization”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "CPI optimization"
     },
     {
-      "id": "e98",
+      "id": "e94",
       "kind": "text",
       "label": "P: “Sometimes the mechanic already works, but the presentation …”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "Sometimes the mechanic already works, but the presentation changes everything."
     },
     {
-      "id": "e99",
+      "id": "e95",
       "kind": "html",
       "label": "P: “Related reading: Mobile Game Development Outsourcing: Benef…”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "<strong>Related reading:</strong><br> <a href=\"/mobile-game-development-outsourcing/\">Mobile Game Development Outsourcing: Benefits, Risks, and Smarter Alternatives</a>"
     },
     {
-      "id": "e100",
+      "id": "e96",
       "kind": "text",
       "label": "H2: “Why Speed Matters”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "Why Speed Matters"
     },
     {
-      "id": "e101",
+      "id": "e97",
       "kind": "text",
       "label": "P: “In mobile gaming, slow validation is expensive.”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "In mobile gaming, slow validation is expensive."
     },
     {
-      "id": "e102",
+      "id": "e98",
       "kind": "text",
       "label": "P: “A team that spends six months building the wrong prototype …”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "A team that spends six months building the wrong prototype loses more than money:"
     },
     {
-      "id": "e103",
+      "id": "e99",
       "kind": "text",
       "label": "LI: “market timing”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "market timing"
     },
     {
-      "id": "e104",
+      "id": "e100",
       "kind": "text",
       "label": "LI: “iteration cycles”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "iteration cycles"
     },
     {
-      "id": "e105",
+      "id": "e101",
       "kind": "text",
       "label": "LI: “testing opportunities”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "testing opportunities"
     },
     {
-      "id": "e106",
+      "id": "e102",
       "kind": "text",
       "label": "LI: “creative momentum”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "creative momentum"
     },
     {
-      "id": "e107",
+      "id": "e103",
       "kind": "text",
       "label": "P: “At OOX, we optimize for fast feedback loops.”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "At OOX, we optimize for fast feedback loops."
     },
     {
-      "id": "e108",
+      "id": "e104",
       "kind": "text",
       "label": "P: “Most playable prototypes should exist within:”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "Most playable prototypes should exist within:"
     },
     {
-      "id": "e109",
+      "id": "e105",
       "kind": "text",
       "label": "P: “approximately 2–4 weeks.”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "approximately 2–4 weeks."
     },
     {
-      "id": "e110",
+      "id": "e106",
       "kind": "text",
       "label": "P: “The goal is not polish.”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "The goal is not polish."
     },
     {
-      "id": "e111",
+      "id": "e107",
       "kind": "text",
       "label": "P: “The goal is obtaining reliable market signals quickly enoug…”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "The goal is obtaining reliable market signals quickly enough to make better decisions."
     },
     {
-      "id": "e112",
+      "id": "e108",
       "kind": "text",
       "label": "H2: “What Happens After the Prototype?”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "What Happens After the Prototype?"
     },
     {
-      "id": "e113",
+      "id": "e109",
       "kind": "text",
       "label": "P: “Once the prototype is playable, the real work starts:”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "Once the prototype is playable, the real work starts:"
     },
     {
-      "id": "e114",
+      "id": "e110",
       "kind": "text",
       "label": "LI: “testing”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "testing"
     },
     {
-      "id": "e115",
+      "id": "e111",
       "kind": "text",
       "label": "LI: “traffic acquisition”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "traffic acquisition"
     },
     {
-      "id": "e116",
+      "id": "e112",
       "kind": "text",
       "label": "LI: “retention analysis”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "retention analysis"
     },
     {
-      "id": "e117",
+      "id": "e113",
       "kind": "text",
       "label": "LI: “iteration”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "iteration"
     },
     {
-      "id": "e118",
+      "id": "e114",
       "kind": "text",
       "label": "LI: “kill-or-scale decisions”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "kill-or-scale decisions"
     },
     {
-      "id": "e119",
+      "id": "e115",
       "kind": "text",
       "label": "P: “This is where metrics matter more than opinions.”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "This is where metrics matter more than opinions."
     },
     {
-      "id": "e120",
+      "id": "e116",
       "kind": "text",
       "label": "P: “Strong early indicators often include:”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "Strong early indicators often include:"
     },
     {
-      "id": "e121",
+      "id": "e117",
       "kind": "text",
       "label": "LI: “Day 1 retention above ~40%”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "Day 1 retention above ~40%"
     },
     {
-      "id": "e122",
+      "id": "e118",
       "kind": "text",
       "label": "LI: “competitive CPI”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "competitive CPI"
     },
     {
-      "id": "e123",
+      "id": "e119",
       "kind": "text",
       "label": "LI: “strong session length”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "strong session length"
     },
     {
-      "id": "e124",
+      "id": "e120",
       "kind": "text",
       "label": "LI: “scalable creative performance”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "scalable creative performance"
     },
     {
-      "id": "e125",
+      "id": "e121",
       "kind": "text",
       "label": "P: “Weak metrics usually do not improve through polish alone.”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "Weak metrics usually do not improve through polish alone."
     },
     {
-      "id": "e126",
+      "id": "e122",
       "kind": "text",
       "label": "P: “In our experience, the strongest games reveal their potenti…”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "In our experience, the strongest games reveal their potential early."
     },
     {
-      "id": "e127",
+      "id": "e123",
       "kind": "text",
       "label": "H2: “Explore More”",
       "group": "Explore More",
       "value": "Explore More"
     },
     {
-      "id": "e128",
+      "id": "e124",
       "kind": "html",
       "label": "LI: “How to Choose the Right Mobile Game Development Partner in …”",
       "group": "Explore More",
       "value": "<a href=\"/how-to-choose-the-right-mobile-game-development-partner-in-2026-oox/\">How to Choose the Right Mobile Game Development Partner in 2026</a>"
     },
     {
-      "id": "e129",
+      "id": "e125",
       "kind": "html",
       "label": "LI: “Mobile Game Development Outsourcing: Benefits, Risks, and S…”",
       "group": "Explore More",
       "value": "<a href=\"/mobile-game-development-outsourcing/\">Mobile Game Development Outsourcing: Benefits, Risks, and Smarter Alternatives</a>"
     },
     {
-      "id": "e130",
+      "id": "e126",
       "kind": "html",
       "label": "LI: “Mobile Game Market Stats — Pocket Gamer”",
       "group": "Explore More",
       "value": "<a href=\"https://www.pocketgamer.biz/metrics/app-store-stats/mobile-games/\" target=\"_blank\" rel=\"noopener\">Mobile Game Market Stats — Pocket Gamer</a>"
     },
     {
-      "id": "e131",
+      "id": "e127",
       "kind": "text",
       "label": "H2: “How OOX Approaches Prototyping”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "How OOX Approaches Prototyping"
     },
     {
-      "id": "e132",
+      "id": "e128",
       "kind": "text",
       "label": "P: “OOX Limited scopes prototypes around validation — not featu…”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "OOX Limited scopes prototypes around validation — not feature volume."
     },
     {
-      "id": "e133",
+      "id": "e129",
       "kind": "text",
       "label": "P: “We focus on:”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "We focus on:"
     },
     {
-      "id": "e134",
+      "id": "e130",
       "kind": "text",
       "label": "LI: “identifying the core hypothesis”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "identifying the core hypothesis"
     },
     {
-      "id": "e135",
+      "id": "e131",
       "kind": "text",
       "label": "LI: “building the smallest meaningful version”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "building the smallest meaningful version"
     },
     {
-      "id": "e136",
+      "id": "e132",
       "kind": "text",
       "label": "LI: “testing with real users”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "testing with real users"
     },
     {
-      "id": "e137",
+      "id": "e133",
       "kind": "text",
       "label": "LI: “analyzing data quickly”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "analyzing data quickly"
     },
     {
-      "id": "e138",
+      "id": "e134",
       "kind": "text",
       "label": "LI: “iterating only where it matters”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "iterating only where it matters"
     },
     {
-      "id": "e139",
+      "id": "e135",
       "kind": "text",
       "label": "P: “Because our team handles:”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "Because our team handles:"
     },
     {
-      "id": "e140",
+      "id": "e136",
       "kind": "text",
       "label": "LI: “game design”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "game design"
     },
     {
-      "id": "e141",
+      "id": "e137",
       "kind": "text",
       "label": "LI: “development”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "development"
     },
     {
-      "id": "e142",
+      "id": "e138",
       "kind": "text",
       "label": "LI: “art”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "art"
     },
     {
-      "id": "e143",
+      "id": "e139",
       "kind": "text",
       "label": "LI: “animation”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "animation"
     },
     {
-      "id": "e144",
+      "id": "e140",
       "kind": "text",
       "label": "LI: “UX/UI”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "UX/UI"
     },
     {
-      "id": "e145",
+      "id": "e141",
       "kind": "text",
       "label": "LI: “technical implementation”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "technical implementation"
     },
     {
-      "id": "e146",
+      "id": "e142",
       "kind": "text",
       "label": "LI: “user acquisition”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "user acquisition"
     },
     {
-      "id": "e147",
+      "id": "e143",
       "kind": "text",
       "label": "P: “fully in-house, we can move from concept to testable build …”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "fully in-house, we can move from concept to testable build rapidly while keeping production aligned."
     },
     {
-      "id": "e148",
+      "id": "e144",
       "kind": "html",
       "label": "P: “Learn more: Mobile game co-development services”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "<strong>Learn more:</strong><br> <a href=\"/service/co-development/\">Mobile game co-development services</a>"
     },
     {
-      "id": "e149",
+      "id": "e145",
       "kind": "text",
       "label": "H2: “FAQ”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "FAQ"
     },
     {
-      "id": "e150",
+      "id": "e146",
       "kind": "text",
       "label": "H3: “How much should a mobile game prototype cost?”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "How much should a mobile game prototype cost?"
     },
     {
-      "id": "e151",
+      "id": "e147",
       "kind": "text",
       "label": "P: “There is no universal number.”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "There is no universal number."
     },
     {
-      "id": "e152",
+      "id": "e148",
       "kind": "text",
       "label": "P: “The correct budget depends on:”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "The correct budget depends on:"
     },
     {
-      "id": "e153",
+      "id": "e149",
       "kind": "text",
       "label": "LI: “the complexity of the idea”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "the complexity of the idea"
     },
     {
-      "id": "e154",
+      "id": "e150",
       "kind": "text",
       "label": "LI: “the testing goal”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "the testing goal"
     },
     {
-      "id": "e155",
+      "id": "e151",
       "kind": "text",
       "label": "LI: “the required visual quality”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "the required visual quality"
     },
     {
-      "id": "e156",
+      "id": "e152",
       "kind": "text",
       "label": "LI: “and how much uncertainty the prototype needs to reduce.”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "and how much uncertainty the prototype needs to reduce."
     },
     {
-      "id": "e157",
+      "id": "e153",
       "kind": "text",
       "label": "H3: “Can placeholder art work for testing?”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "Can placeholder art work for testing?"
     },
     {
-      "id": "e158",
+      "id": "e154",
       "kind": "text",
       "label": "P: “Yes.”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "Yes."
     },
     {
-      "id": "e159",
+      "id": "e155",
       "kind": "text",
       "label": "P: “For many prototypes, mechanics matter more than visuals.”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "For many prototypes, mechanics matter more than visuals."
     },
     {
-      "id": "e160",
+      "id": "e156",
       "kind": "text",
       "label": "P: “However, some genres rely heavily on:”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "However, some genres rely heavily on:"
     },
     {
-      "id": "e161",
+      "id": "e157",
       "kind": "text",
       "label": "LI: “atmosphere”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "atmosphere"
     },
     {
-      "id": "e162",
+      "id": "e158",
       "kind": "text",
       "label": "LI: “character appeal”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "character appeal"
     },
     {
-      "id": "e163",
+      "id": "e159",
       "kind": "text",
       "label": "LI: “visual identity”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "visual identity"
     },
     {
-      "id": "e164",
+      "id": "e160",
       "kind": "text",
       "label": "LI: “first impression”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "first impression"
     },
     {
-      "id": "e165",
+      "id": "e161",
       "kind": "text",
       "label": "P: “In those cases, stronger visuals may become part of the val…”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "In those cases, stronger visuals may become part of the validation process."
     },
     {
-      "id": "e166",
+      "id": "e162",
       "kind": "text",
       "label": "H3: “Should monetization be included immediately?”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "Should monetization be included immediately?"
     },
     {
-      "id": "e167",
+      "id": "e163",
       "kind": "text",
       "label": "P: “Usually not.”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "Usually not."
     },
     {
-      "id": "e168",
+      "id": "e164",
       "kind": "text",
       "label": "P: “Most teams get better signals by validating:”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "Most teams get better signals by validating:"
     },
     {
-      "id": "e169",
+      "id": "e165",
       "kind": "text",
       "label": "LI: “engagement”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "engagement"
     },
     {
-      "id": "e170",
+      "id": "e166",
       "kind": "text",
       "label": "LI: “core interaction”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "core interaction"
     },
     {
-      "id": "e171",
+      "id": "e167",
       "kind": "text",
       "label": "P: “before introducing monetization systems.”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "before introducing monetization systems."
     },
     {
-      "id": "e172",
+      "id": "e168",
       "kind": "text",
       "label": "H3: “What happens if the prototype performs well?”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "What happens if the prototype performs well?"
     },
     {
-      "id": "e173",
+      "id": "e169",
       "kind": "text",
       "label": "P: “Once validation metrics become strong, teams typically:”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "Once validation metrics become strong, teams typically:"
     },
     {
-      "id": "e174",
+      "id": "e170",
       "kind": "text",
       "label": "LI: “iterate further”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "iterate further"
     },
     {
-      "id": "e175",
+      "id": "e171",
       "kind": "text",
       "label": "LI: “scale testing”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "scale testing"
     },
     {
-      "id": "e176",
+      "id": "e172",
       "kind": "text",
       "label": "LI: “approach publishers”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "approach publishers"
     },
     {
-      "id": "e177",
+      "id": "e173",
       "kind": "text",
       "label": "LI: “or move into full production.”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "or move into full production."
     },
     {
-      "id": "e178",
+      "id": "e174",
       "kind": "text",
       "label": "H2: “Final Thought”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "Final Thought"
     },
     {
-      "id": "e179",
+      "id": "e175",
       "kind": "text",
       "label": "P: “A prototype should not answer:”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "A prototype should not answer:"
     },
     {
-      "id": "e180",
+      "id": "e176",
       "kind": "text",
       "label": "P: “\"Can we build this?\"”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "\"Can we build this?\""
     },
     {
-      "id": "e181",
+      "id": "e177",
       "kind": "text",
       "label": "P: “It should answer:”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "It should answer:"
     },
     {
-      "id": "e182",
+      "id": "e178",
       "kind": "text",
       "label": "P: “\"Should we keep building this?\"”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "\"Should we keep building this?\""
     },
     {
-      "id": "e183",
+      "id": "e179",
       "kind": "text",
       "label": "P: “That distinction saves months of unnecessary production.”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "That distinction saves months of unnecessary production."
     },
     {
-      "id": "e184",
+      "id": "e180",
       "kind": "html",
       "label": "P: “Want to know what prototyping would cost for your specific …”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "Want to know what prototyping would cost for your specific project? Check out our <a href=\"/service/rapid-prototyping/\">game prototyping services</a> or get in touch directly."
     },
     {
-      "id": "e185",
+      "id": "e181",
       "kind": "text",
       "label": "H2: “Ready to Validate Your Idea?”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "Ready to Validate Your Idea?"
     },
     {
-      "id": "e186",
+      "id": "e182",
       "kind": "text",
       "label": "P: “If you're exploring a mobile game concept and want to under…”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "If you're exploring a mobile game concept and want to understand:"
     },
     {
-      "id": "e187",
+      "id": "e183",
       "kind": "text",
       "label": "LI: “scope”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "scope"
     },
     {
-      "id": "e188",
+      "id": "e184",
       "kind": "text",
       "label": "LI: “production timelines”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "production timelines"
     },
     {
-      "id": "e189",
+      "id": "e185",
       "kind": "text",
       "label": "LI: “testing strategy”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "testing strategy"
     },
     {
-      "id": "e190",
+      "id": "e186",
       "kind": "text",
       "label": "LI: “validation goals”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "validation goals"
     },
     {
-      "id": "e191",
+      "id": "e187",
       "kind": "text",
       "label": "LI: “or prototype costs”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "or prototype costs"
     },
     {
-      "id": "e192",
+      "id": "e188",
       "kind": "text",
       "label": "P: “OOX can help you structure the fastest path from idea to re…”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "OOX can help you structure the fastest path from idea to real market feedback."
     },
     {
-      "id": "e193",
+      "id": "e189",
       "kind": "html",
       "label": "P: “OOX Limited”",
       "group": "How Much Does a Mobile Game Prototype C…",
       "value": "<a href=\"/service/co-development/\">OOX Limited</a>"
-    },
-    {
-      "id": "e194",
-      "kind": "image",
-      "label": "Image: mobile game development team",
-      "group": "Recent posts",
-      "value": "/wp-content/uploads/2026/07/DSC06489-768x1152.jpg"
-    },
-    {
-      "id": "e195",
-      "kind": "imageAlt",
-      "label": "Alt for mobile game development team",
-      "group": "Recent posts",
-      "value": "mobile game development team"
-    },
-    {
-      "id": "e196",
-      "kind": "image",
-      "label": "Image: Read more",
-      "group": "Recent posts",
-      "value": "/wp-content/uploads/2026/03/arrowr.png"
-    },
-    {
-      "id": "e197",
-      "kind": "imageAlt",
-      "label": "Alt for Read more",
-      "group": "Recent posts",
-      "value": "Read more"
-    },
-    {
-      "id": "e198",
-      "kind": "image",
-      "label": "Image: Office Photos OOX Limited",
-      "group": "Recent posts",
-      "value": "/wp-content/uploads/2026/03/c7f806ba5aa0b941cf5c248e564b0d3d12a19406-768x512.jpg"
-    },
-    {
-      "id": "e199",
-      "kind": "imageAlt",
-      "label": "Alt for Office Photos OOX Limited",
-      "group": "Recent posts",
-      "value": "Office Photos OOX Limited"
-    },
-    {
-      "id": "e200",
-      "kind": "image",
-      "label": "Image: 2025-recap",
-      "group": "Recent posts",
-      "value": "/wp-content/uploads/2026/04/2025-recap-768x400.webp"
-    },
-    {
-      "id": "e201",
-      "kind": "imageAlt",
-      "label": "Alt for 2025-recap",
-      "group": "Recent posts",
-      "value": "2025-recap"
     }
   ]
 }

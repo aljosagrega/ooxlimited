@@ -53,7 +53,10 @@ const CHROME_SEL =
   ".elementor-widget-omero-nav-menu, .omero-menu-canvas, .breadcrumbs, .lexus-breadcrumb, " +
   ".hfe-scroll-to-top-wrap, .elementor-widget-omero-menu-canvas, " +
   ".omero-mobile-nav, .menu-scroll-mobile, .mobile-nav-tabs, .search-popup, " +
-  ".omero-login-form-ajax, .elementor-widget-omero-login, form.omero-login-form-ajax";
+  ".omero-login-form-ajax, .elementor-widget-omero-login, form.omero-login-form-ajax, " +
+  // "Recent posts" / related-articles block — generated from the Blog module,
+  // on every service page and blog post. Not editable here.
+  ".omero-related-posts, .elementor-widget-omero-related-posts, .elementor-widget-omero-blog-related";
 
 /** Content pulled from another module (Blog posts / Team) — the article and
  *  profile lists themselves. Their surrounding copy on the index pages stays

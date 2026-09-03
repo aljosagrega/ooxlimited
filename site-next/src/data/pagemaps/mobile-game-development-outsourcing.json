@@ -10,1003 +10,919 @@
     {
       "id": "e2",
       "kind": "text",
-      "label": "H2: “Recent posts”",
-      "group": "Recent posts",
-      "value": "Recent posts"
-    },
-    {
-      "id": "e3",
-      "kind": "html",
-      "label": "H3: “What a Mobile Game Vertical Slice Should Prove Before Produ…”",
-      "group": "Recent posts",
-      "value": "<a href=\"/mobile-game-vertical-slice-prove-before-production-2/\">What a Mobile Game Vertical Slice Should Prove Before Production</a>"
-    },
-    {
-      "id": "e4",
-      "kind": "html",
-      "label": "H3: “The Prototyping-First Studio: Why Validation Comes Before”",
-      "group": "Recent posts",
-      "value": "<a href=\"/prototyping-first-studio-validation-before-building-2026/\">The Prototyping-First Studio: Why Validation Comes Before</a>"
-    },
-    {
-      "id": "e5",
-      "kind": "html",
-      "label": "H3: “Mobile Game Vertical Slice: What to Prove Before Production”",
-      "group": "Recent posts",
-      "value": "<a href=\"/mobile-game-vertical-slice-prove-before-production/\">Mobile Game Vertical Slice: What to Prove Before Production</a>"
-    },
-    {
-      "id": "e6",
-      "kind": "text",
       "label": "H1: “Mobile Game Development Outsourcing: Benefits, Risks, and S…”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "Mobile Game Development Outsourcing: Benefits, Risks, and Smarter Alternatives"
     },
     {
-      "id": "e7",
+      "id": "e3",
       "kind": "text",
       "label": "P: “Building a mobile game internally is not always the best de…”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "Building a mobile game internally is not always the best decision."
     },
     {
-      "id": "e8",
+      "id": "e4",
       "kind": "text",
       "label": "LI: “Hiring takes time.”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "Hiring takes time."
     },
     {
-      "id": "e9",
+      "id": "e5",
       "kind": "text",
       "label": "LI: “Scaling teams is expensive.”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "Scaling teams is expensive."
     },
     {
-      "id": "e10",
+      "id": "e6",
       "kind": "text",
       "label": "LI: “And committing heavily to an unvalidated product creates un…”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "And committing heavily to an unvalidated product creates unnecessary risk."
     },
     {
-      "id": "e11",
+      "id": "e7",
       "kind": "text",
       "label": "P: “That is why many founders, studios, and publishers choose e…”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "That is why many founders, studios, and publishers choose external development partners."
     },
     {
-      "id": "e12",
+      "id": "e8",
       "kind": "text",
       "label": "P: “But once you decide to outsource or co-develop, another imp…”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "But once you decide to outsource or co-develop, another important question appears:"
     },
     {
-      "id": "e13",
+      "id": "e9",
       "kind": "text",
       "label": "P: “how do you know the team — and the production process — are…”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "how do you know the team — and the production process — are actually the right fit?"
     },
     {
-      "id": "e14",
+      "id": "e10",
       "kind": "text",
       "label": "P: “One of the smartest ways to reduce this risk is by validati…”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "One of the smartest ways to reduce this risk is by validating both:"
     },
     {
-      "id": "e15",
+      "id": "e11",
       "kind": "text",
       "label": "LI: “the game idea”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "the game idea"
     },
     {
-      "id": "e16",
+      "id": "e12",
       "kind": "text",
       "label": "LI: “and the partnership itself”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "and the partnership itself"
     },
     {
-      "id": "e17",
+      "id": "e13",
       "kind": "text",
       "label": "P: “through rapid prototyping before large-scale production beg…”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "through rapid prototyping before large-scale production begins."
     },
     {
-      "id": "e18",
+      "id": "e14",
       "kind": "text",
       "label": "P: “Instead of immediately committing months of development and…”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "Instead of immediately committing months of development and large budgets, strong teams first focus on:"
     },
     {
-      "id": "e19",
+      "id": "e15",
       "kind": "text",
       "label": "LI: “testing gameplay assumptions”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "testing gameplay assumptions"
     },
     {
-      "id": "e20",
+      "id": "e16",
       "kind": "text",
       "label": "LI: “validating workflows”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "validating workflows"
     },
     {
-      "id": "e21",
+      "id": "e17",
       "kind": "text",
       "label": "LI: “improving communication”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "improving communication"
     },
     {
-      "id": "e22",
+      "id": "e18",
       "kind": "text",
       "label": "LI: “evaluating iteration speed”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "evaluating iteration speed"
     },
     {
-      "id": "e23",
+      "id": "e19",
       "kind": "text",
       "label": "LI: “and understanding whether the collaboration scales properly…”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "and understanding whether the collaboration scales properly long-term."
     },
     {
-      "id": "e24",
+      "id": "e20",
       "kind": "text",
       "label": "P: “This approach dramatically reduces production risk for ever…”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "This approach dramatically reduces production risk for everyone involved."
     },
     {
-      "id": "e25",
+      "id": "e21",
       "kind": "html",
       "label": "P: “Related reading: How to Choose the Right Mobile Game Develo…”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "<strong>Related reading:</strong><br> <a href=\"/how-to-choose-the-right-mobile-game-development-partner-in-2026-oox/\">How to Choose the Right Mobile Game Development Partner in 2026</a>"
     },
     {
-      "id": "e26",
+      "id": "e22",
       "kind": "text",
       "label": "H2: “Why Early Prototyping Matters”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "Why Early Prototyping Matters"
     },
     {
-      "id": "e27",
+      "id": "e23",
       "kind": "text",
       "label": "P: “A prototype should not only validate the game.”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "A prototype should not only validate the game."
     },
     {
-      "id": "e28",
+      "id": "e24",
       "kind": "text",
       "label": "P: “It should also validate:”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "It should also validate:"
     },
     {
-      "id": "e29",
+      "id": "e25",
       "kind": "text",
       "label": "LI: “the production pipeline”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "the production pipeline"
     },
     {
-      "id": "e30",
+      "id": "e26",
       "kind": "text",
       "label": "LI: “communication quality”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "communication quality"
     },
     {
-      "id": "e31",
+      "id": "e27",
       "kind": "text",
       "label": "LI: “technical workflows”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "technical workflows"
     },
     {
-      "id": "e32",
+      "id": "e28",
       "kind": "text",
       "label": "LI: “iteration speed”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "iteration speed"
     },
     {
-      "id": "e33",
+      "id": "e29",
       "kind": "text",
       "label": "LI: “decision-making”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "decision-making"
     },
     {
-      "id": "e34",
+      "id": "e30",
       "kind": "text",
       "label": "LI: “and overall team compatibility.”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "and overall team compatibility."
     },
     {
-      "id": "e35",
+      "id": "e31",
       "kind": "text",
       "label": "P: “This is especially important when working with external tea…”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "This is especially important when working with external teams."
     },
     {
-      "id": "e36",
+      "id": "e32",
       "kind": "text",
       "label": "P: “A strong prototype phase reveals very quickly:”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "A strong prototype phase reveals very quickly:"
     },
     {
-      "id": "e37",
+      "id": "e33",
       "kind": "text",
       "label": "LI: “how efficiently the team moves”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "how efficiently the team moves"
     },
     {
-      "id": "e38",
+      "id": "e34",
       "kind": "text",
       "label": "LI: “whether the workflow feels modular”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "whether the workflow feels modular"
     },
     {
-      "id": "e39",
+      "id": "e35",
       "kind": "text",
       "label": "LI: “how feedback is handled”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "how feedback is handled"
     },
     {
-      "id": "e40",
+      "id": "e36",
       "kind": "text",
       "label": "LI: “how scalable the architecture is”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "how scalable the architecture is"
     },
     {
-      "id": "e41",
+      "id": "e37",
       "kind": "text",
       "label": "LI: “and whether the collaboration actually feels sustainable.”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "and whether the collaboration actually feels sustainable."
     },
     {
-      "id": "e42",
+      "id": "e38",
       "kind": "html",
       "label": "P: “Related reading: How Much Does a Mobile Game Prototype Cost?”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "<strong>Related reading:</strong><br> <a href=\"/how-much-does-a-mobile-game-prototype-cost-2-2/\">How Much Does a Mobile Game Prototype Cost?</a>"
     },
     {
-      "id": "e43",
+      "id": "e39",
       "kind": "text",
       "label": "H2: “Why Modular Development Matters”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "Why Modular Development Matters"
     },
     {
-      "id": "e44",
+      "id": "e40",
       "kind": "text",
       "label": "P: “One of the biggest indicators of a strong development partn…”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "One of the biggest indicators of a strong development partner is modular thinking."
     },
     {
-      "id": "e45",
+      "id": "e41",
       "kind": "text",
       "label": "P: “Mobile games change constantly during production:”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "Mobile games change constantly during production:"
     },
     {
-      "id": "e46",
+      "id": "e42",
       "kind": "text",
       "label": "LI: “mechanics evolve”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "mechanics evolve"
     },
     {
-      "id": "e47",
+      "id": "e43",
       "kind": "text",
       "label": "LI: “progression changes”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "progression changes"
     },
     {
-      "id": "e48",
+      "id": "e44",
       "kind": "text",
       "label": "LI: “monetization shifts”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "monetization shifts"
     },
     {
-      "id": "e49",
+      "id": "e45",
       "kind": "text",
       "label": "LI: “features get removed”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "features get removed"
     },
     {
-      "id": "e50",
+      "id": "e46",
       "kind": "text",
       "label": "LI: “retention systems get redesigned”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "retention systems get redesigned"
     },
     {
-      "id": "e51",
+      "id": "e47",
       "kind": "text",
       "label": "P: “If the project is not structured modularly from the start, …”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "If the project is not structured modularly from the start, iteration becomes slower and significantly more expensive later."
     },
     {
-      "id": "e52",
+      "id": "e48",
       "kind": "text",
       "label": "P: “Strong development partners build systems that:”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "Strong development partners build systems that:"
     },
     {
-      "id": "e53",
+      "id": "e49",
       "kind": "text",
       "label": "LI: “evolve quickly”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "evolve quickly"
     },
     {
-      "id": "e54",
+      "id": "e50",
       "kind": "text",
       "label": "LI: “support experimentation”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "support experimentation"
     },
     {
-      "id": "e55",
+      "id": "e51",
       "kind": "text",
       "label": "LI: “reduce rebuilds”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "reduce rebuilds"
     },
     {
-      "id": "e56",
+      "id": "e52",
       "kind": "text",
       "label": "LI: “and allow fast pivots after testing.”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "and allow fast pivots after testing."
     },
     {
-      "id": "e57",
+      "id": "e53",
       "kind": "text",
       "label": "P: “This becomes critical during validation.”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "This becomes critical during validation."
     },
     {
-      "id": "e58",
+      "id": "e54",
       "kind": "text",
       "label": "H2: “Don't Validate Only the Prototype — Validate the Team”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "Don't Validate Only the Prototype — Validate the Team"
     },
     {
-      "id": "e59",
+      "id": "e55",
       "kind": "text",
       "label": "P: “Many founders focus entirely on:”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "Many founders focus entirely on:"
     },
     {
-      "id": "e60",
+      "id": "e56",
       "kind": "text",
       "label": "P: “\"Does the prototype work?\"”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "\"Does the prototype work?\""
     },
     {
-      "id": "e61",
+      "id": "e57",
       "kind": "text",
       "label": "P: “But equally important is:”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "But equally important is:"
     },
     {
-      "id": "e62",
+      "id": "e58",
       "kind": "text",
       "label": "P: “\"Can this team support the project long-term if the prototy…”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "\"Can this team support the project long-term if the prototype succeeds?\""
     },
     {
-      "id": "e63",
+      "id": "e59",
       "kind": "text",
       "label": "P: “Switching development teams after successful validation oft…”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "Switching development teams after successful validation often creates:"
     },
     {
-      "id": "e64",
+      "id": "e60",
       "kind": "text",
       "label": "LI: “production delays”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "production delays"
     },
     {
-      "id": "e65",
+      "id": "e61",
       "kind": "text",
       "label": "LI: “onboarding losses”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "onboarding losses"
     },
     {
-      "id": "e66",
+      "id": "e62",
       "kind": "text",
       "label": "LI: “technical inconsistency”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "technical inconsistency"
     },
     {
-      "id": "e67",
+      "id": "e63",
       "kind": "text",
       "label": "LI: “communication problems”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "communication problems"
     },
     {
-      "id": "e68",
+      "id": "e64",
       "kind": "text",
       "label": "LI: “architecture issues”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "architecture issues"
     },
     {
-      "id": "e69",
+      "id": "e65",
       "kind": "text",
       "label": "LI: “slower iteration cycles”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "slower iteration cycles"
     },
     {
-      "id": "e70",
+      "id": "e66",
       "kind": "text",
       "label": "P: “That is why it is valuable when a partner can support:”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "That is why it is valuable when a partner can support:"
     },
     {
-      "id": "e71",
+      "id": "e67",
       "kind": "text",
       "label": "LI: “rapid prototyping”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "rapid prototyping"
     },
     {
-      "id": "e72",
+      "id": "e68",
       "kind": "text",
       "label": "LI: “validation”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "validation"
     },
     {
-      "id": "e73",
+      "id": "e69",
       "kind": "text",
       "label": "LI: “iteration”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "iteration"
     },
     {
-      "id": "e74",
+      "id": "e70",
       "kind": "text",
       "label": "LI: “and full-scale production”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "and full-scale production"
     },
     {
-      "id": "e75",
+      "id": "e71",
       "kind": "text",
       "label": "P: “inside the same workflow.”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "inside the same workflow."
     },
     {
-      "id": "e76",
+      "id": "e72",
       "kind": "text",
       "label": "H2: “The Best Partnerships Start Small”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "The Best Partnerships Start Small"
     },
     {
-      "id": "e77",
+      "id": "e73",
       "kind": "text",
       "label": "P: “The strongest production relationships usually do not begin…”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "The strongest production relationships usually do not begin with:"
     },
     {
-      "id": "e78",
+      "id": "e74",
       "kind": "text",
       "label": "LI: “massive scopes”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "massive scopes"
     },
     {
-      "id": "e79",
+      "id": "e75",
       "kind": "text",
       "label": "LI: “long contracts”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "long contracts"
     },
     {
-      "id": "e80",
+      "id": "e76",
       "kind": "text",
       "label": "LI: “or full-scale commitments.”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "or full-scale commitments."
     },
     {
-      "id": "e81",
+      "id": "e77",
       "kind": "text",
       "label": "P: “They begin with:”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "They begin with:"
     },
     {
-      "id": "e82",
+      "id": "e78",
       "kind": "text",
       "label": "LI: “small prototype phases”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "small prototype phases"
     },
     {
-      "id": "e83",
+      "id": "e79",
       "kind": "text",
       "label": "LI: “rapid testing”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "rapid testing"
     },
     {
-      "id": "e84",
+      "id": "e80",
       "kind": "text",
       "label": "LI: “clear goals”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "clear goals"
     },
     {
-      "id": "e85",
+      "id": "e81",
       "kind": "text",
       "label": "LI: “and measurable outcomes.”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "and measurable outcomes."
     },
     {
-      "id": "e86",
+      "id": "e82",
       "kind": "text",
       "label": "P: “This gives both sides the opportunity to evaluate:”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "This gives both sides the opportunity to evaluate:"
     },
     {
-      "id": "e87",
+      "id": "e83",
       "kind": "text",
       "label": "LI: “communication”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "communication"
     },
     {
-      "id": "e88",
+      "id": "e84",
       "kind": "text",
       "label": "LI: “production quality”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "production quality"
     },
     {
-      "id": "e89",
+      "id": "e85",
       "kind": "text",
       "label": "LI: “technical direction”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "technical direction"
     },
     {
-      "id": "e90",
+      "id": "e86",
       "kind": "text",
       "label": "LI: “and overall compatibility”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "and overall compatibility"
     },
     {
-      "id": "e91",
+      "id": "e87",
       "kind": "text",
       "label": "P: “before scaling further.”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "before scaling further."
     },
     {
-      "id": "e92",
+      "id": "e88",
       "kind": "text",
       "label": "H2: “Explore More”",
       "group": "Explore More",
       "value": "Explore More"
     },
     {
-      "id": "e93",
+      "id": "e89",
       "kind": "html",
       "label": "LI: “How to Choose the Right Mobile Game Development Partner in …”",
       "group": "Explore More",
       "value": "<a href=\"/how-to-choose-the-right-mobile-game-development-partner-in-2026-oox/\">How to Choose the Right Mobile Game Development Partner in 2026</a>"
     },
     {
-      "id": "e94",
+      "id": "e90",
       "kind": "html",
       "label": "LI: “How Much Does a Mobile Game Prototype Cost?”",
       "group": "Explore More",
       "value": "<a href=\"/how-much-does-a-mobile-game-prototype-cost-2-2/\">How Much Does a Mobile Game Prototype Cost?</a>"
     },
     {
-      "id": "e95",
+      "id": "e91",
       "kind": "html",
       "label": "LI: “Mobile Game Market Stats — Pocket Gamer”",
       "group": "Explore More",
       "value": "<a href=\"https://www.pocketgamer.biz/metrics/app-store-stats/mobile-games/\" target=\"_blank\" rel=\"noopener\">Mobile Game Market Stats — Pocket Gamer</a>"
     },
     {
-      "id": "e96",
+      "id": "e92",
       "kind": "text",
       "label": "H2: “How OOX Approaches Co-Development”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "How OOX Approaches Co-Development"
     },
     {
-      "id": "e97",
+      "id": "e93",
       "kind": "text",
       "label": "P: “At OOX Limited, we approach projects through:”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "At OOX Limited, we approach projects through:"
     },
     {
-      "id": "e98",
+      "id": "e94",
       "kind": "text",
       "label": "LI: “validation-first production”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "validation-first production"
     },
     {
-      "id": "e99",
+      "id": "e95",
       "kind": "text",
       "label": "LI: “modular systems”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "modular systems"
     },
     {
-      "id": "e100",
+      "id": "e96",
       "kind": "text",
       "label": "LI: “fast iteration”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "fast iteration"
     },
     {
-      "id": "e101",
+      "id": "e97",
       "kind": "text",
       "label": "LI: “integrated co-development”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "integrated co-development"
     },
     {
-      "id": "e102",
+      "id": "e98",
       "kind": "text",
       "label": "P: “We help teams:”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "We help teams:"
     },
     {
-      "id": "e103",
+      "id": "e99",
       "kind": "text",
       "label": "LI: “validate gameplay ideas”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "validate gameplay ideas"
     },
     {
-      "id": "e104",
+      "id": "e100",
       "kind": "text",
       "label": "LI: “test quickly”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "test quickly"
     },
     {
-      "id": "e105",
+      "id": "e101",
       "kind": "text",
       "label": "LI: “reduce production risk”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "reduce production risk"
     },
     {
-      "id": "e106",
+      "id": "e102",
       "kind": "text",
       "label": "LI: “and scale successful concepts further.”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "and scale successful concepts further."
     },
     {
-      "id": "e107",
+      "id": "e103",
       "kind": "text",
       "label": "P: “Because our pipeline is fully in-house — covering:”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "Because our pipeline is fully in-house — covering:"
     },
     {
-      "id": "e108",
+      "id": "e104",
       "kind": "text",
       "label": "LI: “game design”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "game design"
     },
     {
-      "id": "e109",
+      "id": "e105",
       "kind": "text",
       "label": "LI: “development”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "development"
     },
     {
-      "id": "e110",
+      "id": "e106",
       "kind": "text",
       "label": "LI: “art”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "art"
     },
     {
-      "id": "e111",
+      "id": "e107",
       "kind": "text",
       "label": "LI: “animation”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "animation"
     },
     {
-      "id": "e112",
+      "id": "e108",
       "kind": "text",
       "label": "LI: “UI/UX”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "UI/UX"
     },
     {
-      "id": "e113",
+      "id": "e109",
       "kind": "text",
       "label": "LI: “technical implementation”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "technical implementation"
     },
     {
-      "id": "e114",
+      "id": "e110",
       "kind": "text",
       "label": "LI: “and user acquisition”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "and user acquisition"
     },
     {
-      "id": "e115",
+      "id": "e111",
       "kind": "text",
       "label": "P: “we can support projects from:”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "we can support projects from:"
     },
     {
-      "id": "e116",
+      "id": "e112",
       "kind": "text",
       "label": "P: “concept → prototype → validation → full production”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "concept → prototype → validation → full production"
     },
     {
-      "id": "e117",
+      "id": "e113",
       "kind": "text",
       "label": "P: “without forcing teams to restart production with new partne…”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "without forcing teams to restart production with new partners later."
     },
     {
-      "id": "e118",
+      "id": "e114",
       "kind": "html",
       "label": "P: “Learn more: Mobile game co-development services”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "<strong>Learn more:</strong><br> <a href=\"/service/co-development/\">Mobile game co-development services</a>"
     },
     {
-      "id": "e119",
+      "id": "e115",
       "kind": "text",
       "label": "H2: “Final Thought”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "Final Thought"
     },
     {
-      "id": "e120",
+      "id": "e116",
       "kind": "text",
       "label": "P: “The goal of outsourcing should not simply be:”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "The goal of outsourcing should not simply be:"
     },
     {
-      "id": "e121",
+      "id": "e117",
       "kind": "text",
       "label": "P: “\"building cheaper.\"”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "\"building cheaper.\""
     },
     {
-      "id": "e122",
+      "id": "e118",
       "kind": "text",
       "label": "P: “The real value comes from:”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "The real value comes from:"
     },
     {
-      "id": "e123",
+      "id": "e119",
       "kind": "text",
       "label": "LI: “validating faster”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "validating faster"
     },
     {
-      "id": "e124",
+      "id": "e120",
       "kind": "text",
       "label": "LI: “reducing risk earlier”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "reducing risk earlier"
     },
     {
-      "id": "e125",
+      "id": "e121",
       "kind": "text",
       "label": "LI: “improving iteration speed”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "improving iteration speed"
     },
     {
-      "id": "e126",
+      "id": "e122",
       "kind": "text",
       "label": "LI: “and increasing the probability of building something worth …”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "and increasing the probability of building something worth scaling."
     },
     {
-      "id": "e127",
+      "id": "e123",
       "kind": "text",
       "label": "P: “The best development partnerships are not transactional.”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "The best development partnerships are not transactional."
     },
     {
-      "id": "e128",
+      "id": "e124",
       "kind": "text",
       "label": "P: “They become extensions of the production process itself.”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "They become extensions of the production process itself."
     },
     {
-      "id": "e129",
+      "id": "e125",
       "kind": "text",
       "label": "H2: “Looking for a Mobile Game Development Partner?”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "Looking for a Mobile Game Development Partner?"
     },
     {
-      "id": "e130",
+      "id": "e126",
       "kind": "text",
       "label": "P: “If you're exploring:”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "If you're exploring:"
     },
     {
-      "id": "e131",
+      "id": "e127",
       "kind": "text",
       "label": "LI: “co-development”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "co-development"
     },
     {
-      "id": "e132",
+      "id": "e128",
       "kind": "text",
       "label": "LI: “gameplay validation”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "gameplay validation"
     },
     {
-      "id": "e133",
+      "id": "e129",
       "kind": "text",
       "label": "LI: “modular production”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "modular production"
     },
     {
-      "id": "e134",
+      "id": "e130",
       "kind": "text",
       "label": "LI: “or full-cycle mobile development”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "or full-cycle mobile development"
     },
     {
-      "id": "e135",
+      "id": "e131",
       "kind": "text",
       "label": "P: “OOX Limited can help you move from idea to scalable product…”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "OOX Limited can help you move from idea to scalable production faster."
     },
     {
-      "id": "e136",
+      "id": "e132",
       "kind": "html",
       "label": "P: “OOX Limited”",
       "group": "Mobile Game Development Outsourcing: Be…",
       "value": "<a href=\"/service/co-development/\">OOX Limited</a>"
-    },
-    {
-      "id": "e137",
-      "kind": "image",
-      "label": "Image: mobile game vertical slice",
-      "group": "Recent posts",
-      "value": "/wp-content/uploads/2026/08/DSC06517-768x1152.jpg"
-    },
-    {
-      "id": "e138",
-      "kind": "imageAlt",
-      "label": "Alt for mobile game vertical slice",
-      "group": "Recent posts",
-      "value": "mobile game vertical slice"
-    },
-    {
-      "id": "e139",
-      "kind": "image",
-      "label": "Image: Read more",
-      "group": "Recent posts",
-      "value": "/wp-content/uploads/2026/03/arrowr.png"
-    },
-    {
-      "id": "e140",
-      "kind": "imageAlt",
-      "label": "Alt for Read more",
-      "group": "Recent posts",
-      "value": "Read more"
-    },
-    {
-      "id": "e141",
-      "kind": "image",
-      "label": "Image: Office Photos OOX Limited",
-      "group": "Recent posts",
-      "value": "/wp-content/uploads/2026/03/d8d70c6789c6b5f6ea12d48bc4006f64f8be8019-768x512.jpg"
-    },
-    {
-      "id": "e142",
-      "kind": "imageAlt",
-      "label": "Alt for Office Photos OOX Limited",
-      "group": "Recent posts",
-      "value": "Office Photos OOX Limited"
-    },
-    {
-      "id": "e143",
-      "kind": "image",
-      "label": "Image: mobile game vertical slice",
-      "group": "Recent posts",
-      "value": "/wp-content/uploads/2026/07/20260226-DSC06235-768x512.jpg"
-    },
-    {
-      "id": "e144",
-      "kind": "imageAlt",
-      "label": "Alt for mobile game vertical slice",
-      "group": "Recent posts",
-      "value": "mobile game vertical slice"
     }
   ]
 }
