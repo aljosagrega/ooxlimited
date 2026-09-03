@@ -28,6 +28,16 @@ const PUBLIC = path.join(ROOT, "public");
  * history images "disappear"). Fetch every CSS a frozen page links, and any
  * that carries an absolute origin gets a rewritten copy under `public/_css/`
  * with the frozen `<link href>` repointed.
+ *
+ * Elementor's per-page compiled CSS lives under
+ * `/wp-content/uploads/elementor/css/` — the same tree as the media library,
+ * which `collect-assets` deliberately does NOT bundle (it's host state, rsynced
+ * at deploy). But `post-<id>.css` / `custom-widget-*.css` are generated BUILD
+ * output, not media, and the deploy's rsynced `uploads/` only happens to carry
+ * whatever the live WordPress last compiled — so most `post-*.css` 404 there and
+ * the page's layout collapses. Force every `uploads/elementor/css/*` stylesheet
+ * a frozen page links into `public/_css/` too, regardless of absolute origins,
+ * so the bundle is genuinely self-contained.
  */
 // The WordPress docroot that Docker serves (repo-root `site/`), or an override.
 const WP_DOCROOT = process.env.OOX_WP_DOCROOT || path.join(ROOT, "../site");
@@ -44,6 +54,9 @@ function cssDiskPath(sitePath: string): string | null {
 
 const rewrittenCss = new Map<string, string>(); // original site path -> "/_css/..." path
 
+/** Elementor per-page/per-widget compiled CSS — build output, not media. */
+const ELEMENTOR_GENERATED_CSS = /^\/wp-content\/uploads\/elementor\/css\//;
+
 function rewriteCssFile(sitePath: string) {
   const clean = sitePath.split("?")[0];
   if (rewrittenCss.has(clean)) return;
@@ -51,7 +64,10 @@ function rewriteCssFile(sitePath: string) {
   if (!disk || !fs.existsSync(disk)) return;
 
   let css = fs.readFileSync(disk, "utf-8");
-  if (!/(https?:\/\/localhost:8080|https?:\/\/(?:www\.)?ooxlimited\.com)/.test(css)) return;
+  const hasAbsoluteOrigin = /(https?:\/\/localhost:8080|https?:\/\/(?:www\.)?ooxlimited\.com)/.test(css);
+  // Absolute-origin CSS must be rewritten; Elementor's generated CSS must be
+  // bundled even when clean, because the deploy's `uploads/` won't carry it.
+  if (!hasAbsoluteOrigin && !ELEMENTOR_GENERATED_CSS.test(clean)) return;
 
   css = css
     .replace(/https?:\/\/localhost:8080/g, "")

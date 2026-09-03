@@ -11,6 +11,7 @@ database. Content is flat JSON in `src/data/*.json`, edited live via `/admin`.
 | Reverse proxy / TLS | nginx → `proxy_pass http://127.0.0.1:3000` |
 | Static assets | nginx serves `public/` and `.next/static` **directly** — the standalone server does not serve `public/` reliably |
 | Theme / plugin assets | `public/wp-content/` + `public/wp-includes/` — **committed** to the repo (24 MB, `npm run collect-assets`). Nothing to fetch at deploy. |
+| Elementor compiled CSS | `public/_css/wp-content/uploads/elementor/css/` — **committed**. Elementor writes `post-<id>.css` into the media tree, but it is build output, not media: `freeze` copies it here and repoints the `<link>`. Do **not** rely on the rsynced `uploads/` carrying it. |
 | Media library | `public/wp-content/uploads/` — the **only** thing rsynced from the old server at deploy (see §4). Client host state; not in git. |
 | Content | `src/data/*.json` (frozen page markup + JSON store), symlinked to persistent `shared/` state so admin edits survive redeploys |
 | Email | Resend (contact form); Mailchimp API (newsletter) |
