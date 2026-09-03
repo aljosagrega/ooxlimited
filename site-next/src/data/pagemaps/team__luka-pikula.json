@@ -205,27 +205,13 @@
     },
     {
       "id": "e30",
-      "kind": "text",
-      "label": "Button: “Login”",
-      "group": "Page",
-      "value": "Login"
-    },
-    {
-      "id": "e31",
-      "kind": "html",
-      "label": "LI: “oox menu”",
-      "group": "Page",
-      "value": "<span>oox menu</span>"
-    },
-    {
-      "id": "e32",
       "kind": "image",
       "label": "Image: PIKULA",
       "group": "Page",
       "value": "/wp-content/uploads/2026/03/DSC06305p-scaled.webp"
     },
     {
-      "id": "e33",
+      "id": "e31",
       "kind": "imageAlt",
       "label": "Alt for PIKULA",
       "group": "Page",

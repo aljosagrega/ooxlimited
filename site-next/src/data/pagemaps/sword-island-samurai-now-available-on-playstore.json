@@ -254,125 +254,111 @@
     },
     {
       "id": "e37",
-      "kind": "text",
-      "label": "Button: “Login”",
-      "group": "Page",
-      "value": "Login"
-    },
-    {
-      "id": "e38",
-      "kind": "html",
-      "label": "LI: “oox menu”",
-      "group": "Page",
-      "value": "<span>oox menu</span>"
-    },
-    {
-      "id": "e39",
       "kind": "image",
       "label": "Image: mobile game development team",
       "group": "Recent posts",
       "value": "/wp-content/uploads/2026/07/DSC06489-768x1152.jpg"
     },
     {
-      "id": "e40",
+      "id": "e38",
       "kind": "imageAlt",
       "label": "Alt for mobile game development team",
       "group": "Recent posts",
       "value": "mobile game development team"
     },
     {
-      "id": "e41",
+      "id": "e39",
       "kind": "image",
       "label": "Image: Read more",
       "group": "Recent posts",
       "value": "/wp-content/uploads/2026/03/arrowr.png"
     },
     {
-      "id": "e42",
+      "id": "e40",
       "kind": "imageAlt",
       "label": "Alt for Read more",
       "group": "Recent posts",
       "value": "Read more"
     },
     {
-      "id": "e43",
+      "id": "e41",
       "kind": "image",
       "label": "Image: Office Photos OOX Limited",
       "group": "Recent posts",
       "value": "/wp-content/uploads/2026/03/c7f806ba5aa0b941cf5c248e564b0d3d12a19406-768x512.jpg"
     },
     {
-      "id": "e44",
+      "id": "e42",
       "kind": "imageAlt",
       "label": "Alt for Office Photos OOX Limited",
       "group": "Recent posts",
       "value": "Office Photos OOX Limited"
     },
     {
-      "id": "e45",
+      "id": "e43",
       "kind": "image",
       "label": "Image: Mobile Game Prototype Cost",
       "group": "Recent posts",
       "value": "/wp-content/uploads/2026/05/20260226-DSC06230-768x512.jpg"
     },
     {
-      "id": "e46",
+      "id": "e44",
       "kind": "imageAlt",
       "label": "Alt for Mobile Game Prototype Cost",
       "group": "Recent posts",
       "value": "Mobile Game Prototype Cost"
     },
     {
-      "id": "e47",
+      "id": "e45",
       "kind": "image",
       "label": "Image: Sword Island Samurai mobile game hero a…",
       "group": "Sword Island: Samurai Is Now Available …",
       "value": "/wp-content/uploads/2024/04/Sword-island-samurai-sajt-57.webp"
     },
     {
-      "id": "e48",
+      "id": "e46",
       "kind": "imageAlt",
       "label": "Alt for Sword Island Samurai mobile g…",
       "group": "Sword Island: Samurai Is Now Available …",
       "value": "Sword Island Samurai mobile game hero artwork by OOX Limited"
     },
     {
-      "id": "e49",
+      "id": "e47",
       "kind": "image",
       "label": "Image: Sword Island Samurai dynamic combat gam…",
       "group": "Built Around Fast, Satisfying Combat",
       "value": "/wp-content/uploads/2026/04/Samurai_Island_Store1.webp"
     },
     {
-      "id": "e50",
+      "id": "e48",
       "kind": "imageAlt",
       "label": "Alt for Sword Island Samurai dynamic …",
       "group": "Built Around Fast, Satisfying Combat",
       "value": "Sword Island Samurai dynamic combat gameplay on mobile"
     },
     {
-      "id": "e51",
+      "id": "e49",
       "kind": "image",
       "label": "Image: Sword Island Samurai weapon selection a…",
       "group": "50+ Weapons for Different Play Styles",
       "value": "/wp-content/uploads/2026/04/Samurai_Island_Store3.webp"
     },
     {
-      "id": "e52",
+      "id": "e50",
       "kind": "imageAlt",
       "label": "Alt for Sword Island Samurai weapon s…",
       "group": "50+ Weapons for Different Play Styles",
       "value": "Sword Island Samurai weapon selection and upgrade system"
     },
     {
-      "id": "e53",
+      "id": "e51",
       "kind": "image",
       "label": "Image: Sword Island Samurai mobile game level …",
       "group": "Progression That Keeps the Game Moving",
       "value": "/wp-content/uploads/2026/04/Samurai_Island_Store4.webp"
     },
     {
-      "id": "e54",
+      "id": "e52",
       "kind": "imageAlt",
       "label": "Alt for Sword Island Samurai mobile g…",
       "group": "Progression That Keeps the Game Moving",

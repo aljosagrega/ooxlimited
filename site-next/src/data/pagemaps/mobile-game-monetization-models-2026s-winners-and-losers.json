@@ -527,83 +527,69 @@
     },
     {
       "id": "e76",
-      "kind": "text",
-      "label": "Button: “Login”",
-      "group": "Page",
-      "value": "Login"
-    },
-    {
-      "id": "e77",
-      "kind": "html",
-      "label": "LI: “oox menu”",
-      "group": "Page",
-      "value": "<span>oox menu</span>"
-    },
-    {
-      "id": "e78",
       "kind": "image",
       "label": "Image: mobile game vertical slice",
       "group": "Recent posts",
       "value": "/wp-content/uploads/2026/08/DSC06517-768x1152.jpg"
     },
     {
-      "id": "e79",
+      "id": "e77",
       "kind": "imageAlt",
       "label": "Alt for mobile game vertical slice",
       "group": "Recent posts",
       "value": "mobile game vertical slice"
     },
     {
-      "id": "e80",
+      "id": "e78",
       "kind": "image",
       "label": "Image: Read more",
       "group": "Recent posts",
       "value": "/wp-content/uploads/2026/03/arrowr.png"
     },
     {
-      "id": "e81",
+      "id": "e79",
       "kind": "imageAlt",
       "label": "Alt for Read more",
       "group": "Recent posts",
       "value": "Read more"
     },
     {
-      "id": "e82",
+      "id": "e80",
       "kind": "image",
       "label": "Image: Office Photos OOX Limited",
       "group": "Recent posts",
       "value": "/wp-content/uploads/2026/03/d8d70c6789c6b5f6ea12d48bc4006f64f8be8019-768x512.jpg"
     },
     {
-      "id": "e83",
+      "id": "e81",
       "kind": "imageAlt",
       "label": "Alt for Office Photos OOX Limited",
       "group": "Recent posts",
       "value": "Office Photos OOX Limited"
     },
     {
-      "id": "e84",
+      "id": "e82",
       "kind": "image",
       "label": "Image: mobile game vertical slice",
       "group": "Recent posts",
       "value": "/wp-content/uploads/2026/07/20260226-DSC06235-768x512.jpg"
     },
     {
-      "id": "e85",
+      "id": "e83",
       "kind": "imageAlt",
       "label": "Alt for mobile game vertical slice",
       "group": "Recent posts",
       "value": "mobile game vertical slice"
     },
     {
-      "id": "e86",
+      "id": "e84",
       "kind": "image",
       "label": "Image: Analyzing modern mobile game monetizati…",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "/wp-content/uploads/2026/03/4637c07d7a255be12fbe8b43735222eee22a9b4e.jpg"
     },
     {
-      "id": "e87",
+      "id": "e85",
       "kind": "imageAlt",
       "label": "Alt for Analyzing modern mobile game …",
       "group": "The Mobile Game Monetization Models Tha…",

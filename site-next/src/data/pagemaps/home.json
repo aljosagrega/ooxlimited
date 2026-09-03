@@ -513,66 +513,66 @@
     },
     {
       "id": "e74",
-      "kind": "text",
-      "label": "Button: “Login”",
-      "group": "Page",
-      "value": "Login"
-    },
-    {
-      "id": "e75",
-      "kind": "html",
-      "label": "LI: “oox menu”",
-      "group": "Page",
-      "value": "<span>oox menu</span>"
-    },
-    {
-      "id": "e76",
       "kind": "image",
       "label": "Image: game prototyping studio",
       "group": "PROTOTYPING",
       "value": "/wp-content/uploads/2026/01/targets.png"
     },
     {
-      "id": "e77",
+      "id": "e75",
       "kind": "imageAlt",
       "label": "Alt for game prototyping studio",
       "group": "PROTOTYPING",
       "value": "game prototyping studio"
     },
     {
-      "id": "e78",
+      "id": "e76",
       "kind": "image",
       "label": "Image: game prototyping studio",
       "group": "Page",
       "value": "/wp-content/uploads/2026/06/mob1.png"
     },
     {
-      "id": "e79",
+      "id": "e77",
       "kind": "imageAlt",
       "label": "Alt for game prototyping studio",
       "group": "Page",
       "value": "game prototyping studio"
     },
     {
-      "id": "e80",
+      "id": "e78",
       "kind": "image",
       "label": "Image: mobile game development",
       "group": "Page",
       "value": "/wp-content/uploads/2026/06/Ellipse-13.png"
     },
     {
-      "id": "e81",
+      "id": "e79",
       "kind": "imageAlt",
       "label": "Alt for mobile game development",
       "group": "Page",
       "value": "mobile game development"
     },
     {
-      "id": "e82",
+      "id": "e80",
       "kind": "image",
       "label": "Image: game prototyping studio",
       "group": "Page",
       "value": "/wp-content/uploads/2026/06/mob2.png"
+    },
+    {
+      "id": "e81",
+      "kind": "imageAlt",
+      "label": "Alt for game prototyping studio",
+      "group": "Page",
+      "value": "game prototyping studio"
+    },
+    {
+      "id": "e82",
+      "kind": "image",
+      "label": "Image: game prototyping studio",
+      "group": "Page",
+      "value": "/wp-content/uploads/2026/06/mob3.png"
     },
     {
       "id": "e83",
@@ -584,23 +584,23 @@
     {
       "id": "e84",
       "kind": "image",
-      "label": "Image: game prototyping studio",
-      "group": "Page",
-      "value": "/wp-content/uploads/2026/06/mob3.png"
+      "label": "Image: Shape for Frame OOX Limited",
+      "group": "Prototype-First Thinking",
+      "value": "/wp-content/uploads/2026/03/box1-1024x598.png"
     },
     {
       "id": "e85",
       "kind": "imageAlt",
-      "label": "Alt for game prototyping studio",
-      "group": "Page",
-      "value": "game prototyping studio"
+      "label": "Alt for Shape for Frame OOX Limited",
+      "group": "Prototype-First Thinking",
+      "value": "Shape for Frame OOX Limited"
     },
     {
       "id": "e86",
       "kind": "image",
       "label": "Image: Shape for Frame OOX Limited",
       "group": "Prototype-First Thinking",
-      "value": "/wp-content/uploads/2026/03/box1-1024x598.png"
+      "value": "/wp-content/uploads/2026/03/box2-1024x926.png"
     },
     {
       "id": "e87",
@@ -614,7 +614,7 @@
       "kind": "image",
       "label": "Image: Shape for Frame OOX Limited",
       "group": "Prototype-First Thinking",
-      "value": "/wp-content/uploads/2026/03/box2-1024x926.png"
+      "value": "/wp-content/uploads/2026/03/lbulb.svg"
     },
     {
       "id": "e89",
@@ -626,180 +626,166 @@
     {
       "id": "e90",
       "kind": "image",
-      "label": "Image: Shape for Frame OOX Limited",
-      "group": "Prototype-First Thinking",
-      "value": "/wp-content/uploads/2026/03/lbulb.svg"
-    },
-    {
-      "id": "e91",
-      "kind": "imageAlt",
-      "label": "Alt for Shape for Frame OOX Limited",
-      "group": "Prototype-First Thinking",
-      "value": "Shape for Frame OOX Limited"
-    },
-    {
-      "id": "e92",
-      "kind": "image",
       "label": "Image: ooxlogo",
       "group": "Structured Experimentation, Not Random …",
       "value": "/wp-content/uploads/2026/03/lab.png"
     },
     {
-      "id": "e93",
+      "id": "e91",
       "kind": "imageAlt",
       "label": "Alt for ooxlogo",
       "group": "Structured Experimentation, Not Random …",
       "value": "ooxlogo"
     },
     {
-      "id": "e94",
+      "id": "e92",
       "kind": "image",
       "label": "Image: ooxlogo",
       "group": "Clear Scope and Fast Decisions",
       "value": "/wp-content/uploads/2026/03/rev.png"
     },
     {
-      "id": "e95",
+      "id": "e93",
       "kind": "imageAlt",
       "label": "Alt for ooxlogo",
       "group": "Clear Scope and Fast Decisions",
       "value": "ooxlogo"
     },
     {
-      "id": "e96",
+      "id": "e94",
       "kind": "image",
       "label": "Image: ooxlogo",
       "group": "From Prototype to Full-Cycle Development",
       "value": "/wp-content/uploads/2026/03/cogs.png"
     },
     {
-      "id": "e97",
+      "id": "e95",
       "kind": "imageAlt",
       "label": "Alt for ooxlogo",
       "group": "From Prototype to Full-Cycle Development",
       "value": "ooxlogo"
     },
     {
-      "id": "e98",
+      "id": "e96",
       "kind": "image",
       "label": "Image: game prototyping studio",
       "group": "Sophie Bennett",
       "value": "/wp-content/uploads/2026/03/Mask-group.png"
     },
     {
-      "id": "e99",
+      "id": "e97",
       "kind": "imageAlt",
       "label": "Alt for game prototyping studio",
       "group": "Sophie Bennett",
       "value": "game prototyping studio"
     },
     {
-      "id": "e100",
+      "id": "e98",
       "kind": "image",
       "label": "Image: game prototyping studio",
       "group": "Daniel Carter",
       "value": "/wp-content/uploads/2026/03/Mask-group-1.png"
     },
     {
-      "id": "e101",
+      "id": "e99",
       "kind": "imageAlt",
       "label": "Alt for game prototyping studio",
       "group": "Daniel Carter",
       "value": "game prototyping studio"
     },
     {
-      "id": "e102",
+      "id": "e100",
       "kind": "image",
       "label": "Image: game prototyping studio",
       "group": "Alex Morgan",
       "value": "/wp-content/uploads/2026/03/Mask-group-2.png"
     },
     {
-      "id": "e103",
+      "id": "e101",
       "kind": "imageAlt",
       "label": "Alt for game prototyping studio",
       "group": "Alex Morgan",
       "value": "game prototyping studio"
     },
     {
-      "id": "e104",
+      "id": "e102",
       "kind": "image",
       "label": "Image: Marko Štrba",
       "group": "Our Team",
       "value": "/wp-content/uploads/2026/03/1ae0674b6b580c7dba0bb88ce3450fb326b67324.jpg"
     },
     {
-      "id": "e105",
+      "id": "e103",
       "kind": "imageAlt",
       "label": "Alt for Marko Štrba",
       "group": "Our Team",
       "value": "Marko Štrba"
     },
     {
-      "id": "e106",
+      "id": "e104",
       "kind": "image",
       "label": "Image: Vukašin Despotović",
       "group": "Our Team",
       "value": "/wp-content/uploads/2026/03/ChatGPT-Image-14.-мај-2026.-15_19_50.png"
     },
     {
-      "id": "e107",
+      "id": "e105",
       "kind": "imageAlt",
       "label": "Alt for Vukašin Despotović",
       "group": "Our Team",
       "value": "Vukašin Despotović"
     },
     {
-      "id": "e108",
+      "id": "e106",
       "kind": "image",
       "label": "Image: Konstantin Đuričković",
       "group": "Our Team",
       "value": "/wp-content/uploads/2026/03/DSC06574k-scaled.webp"
     },
     {
-      "id": "e109",
+      "id": "e107",
       "kind": "imageAlt",
       "label": "Alt for Konstantin Đuričković",
       "group": "Our Team",
       "value": "Konstantin Đuričković"
     },
     {
-      "id": "e110",
+      "id": "e108",
       "kind": "image",
       "label": "Image: Luka Miljuš",
       "group": "Our Team",
       "value": "/wp-content/uploads/2026/01/0314e21573a5d458249630664716e2ea54d22e21-2.jpg"
     },
     {
-      "id": "e111",
+      "id": "e109",
       "kind": "imageAlt",
       "label": "Alt for Luka Miljuš",
       "group": "Our Team",
       "value": "Luka Miljuš"
     },
     {
-      "id": "e112",
+      "id": "e110",
       "kind": "image",
       "label": "Image: PIKULA",
       "group": "Our Team",
       "value": "/wp-content/uploads/2026/03/DSC06305p-scaled.webp"
     },
     {
-      "id": "e113",
+      "id": "e111",
       "kind": "imageAlt",
       "label": "Alt for PIKULA",
       "group": "Our Team",
       "value": "PIKULA"
     },
     {
-      "id": "e114",
+      "id": "e112",
       "kind": "image",
       "label": "Image: game prototyping studio",
       "group": "Page",
       "value": "/wp-content/uploads/2026/03/arrowr.png"
     },
     {
-      "id": "e115",
+      "id": "e113",
       "kind": "imageAlt",
       "label": "Alt for game prototyping studio",
       "group": "Page",

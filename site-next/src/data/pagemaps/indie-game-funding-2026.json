@@ -387,69 +387,55 @@
     },
     {
       "id": "e56",
-      "kind": "text",
-      "label": "Button: “Login”",
-      "group": "Page",
-      "value": "Login"
-    },
-    {
-      "id": "e57",
-      "kind": "html",
-      "label": "LI: “oox menu”",
-      "group": "Page",
-      "value": "<span>oox menu</span>"
-    },
-    {
-      "id": "e58",
       "kind": "image",
       "label": "Image: rapid prototyping game development",
       "group": "Recent posts",
       "value": "/wp-content/uploads/2026/06/20260226-DSC06259-768x512.jpg"
     },
     {
-      "id": "e59",
+      "id": "e57",
       "kind": "imageAlt",
       "label": "Alt for rapid prototyping game develo…",
       "group": "Recent posts",
       "value": "rapid prototyping game development"
     },
     {
-      "id": "e60",
+      "id": "e58",
       "kind": "image",
       "label": "Image: Read more",
       "group": "Recent posts",
       "value": "/wp-content/uploads/2026/03/arrowr.png"
     },
     {
-      "id": "e61",
+      "id": "e59",
       "kind": "imageAlt",
       "label": "Alt for Read more",
       "group": "Recent posts",
       "value": "Read more"
     },
     {
-      "id": "e62",
+      "id": "e60",
       "kind": "image",
       "label": "Image: Game studio developers assessing grant …",
       "group": "Game Studio Funding in 2026: Revenue-Sh…",
       "value": "https://images.unsplash.com/photo-1563986768609-322da13575f3?q=80&w=1200&auto=format&fit=crop"
     },
     {
-      "id": "e63",
+      "id": "e61",
       "kind": "imageAlt",
       "label": "Alt for Game studio developers assess…",
       "group": "Game Studio Funding in 2026: Revenue-Sh…",
       "value": "Game studio developers assessing grant proposals and non-dilutive indie game funding metrics"
     },
     {
-      "id": "e64",
+      "id": "e62",
       "kind": "image",
       "label": "Image: Mobile game developer testing a gamepla…",
       "group": "Game Studio Funding in 2026: Revenue-Sh…",
       "value": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=1200&auto=format&fit=crop"
     },
     {
-      "id": "e65",
+      "id": "e63",
       "kind": "imageAlt",
       "label": "Alt for Mobile game developer testing…",
       "group": "Game Studio Funding in 2026: Revenue-Sh…",

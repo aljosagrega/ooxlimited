@@ -51,18 +51,41 @@ const CHROME_SEL =
   "header, footer, nav, .elementor-location-header, .elementor-location-footer, " +
   ".site-header, .site-footer, .hfe-nav-menu, . elementor-widget-nav-menu, " +
   ".elementor-widget-omero-nav-menu, .omero-menu-canvas, .breadcrumbs, .lexus-breadcrumb, " +
-  ".hfe-scroll-to-top-wrap, .elementor-widget-omero-menu-canvas";
+  ".hfe-scroll-to-top-wrap, .elementor-widget-omero-menu-canvas, " +
+  ".omero-mobile-nav, .menu-scroll-mobile, .mobile-nav-tabs, .search-popup, " +
+  ".omero-login-form-ajax, .elementor-widget-omero-login, form.omero-login-form-ajax";
+
+/** Content pulled from another module (Blog posts / Team) — the article and
+ *  profile lists themselves. Their surrounding copy on the index pages stays
+ *  editable; the generated rows do not. Keyed by route key. */
+const MODULE_LOOP_SEL: Record<string, string> = {
+  blog:
+    ".elementor-widget-omero-blog-archive-featured-grid, .elementor-widget-omero-blog-archive, " +
+    ".elementor-widget-omero-blog-grid, .elementor-widget-posts, .elementor-posts-container, " +
+    "[class*='elementor-widget-omero-blog'], .elementor-pagination, nav.pagination",
+  blog__page__2: "same-as-blog",
+  "game-development-team":
+    ".elementor-widget-omero-teams-list, .elementor-widget-omero-teams-accordion, " +
+    ".elementor-widget-omero-team, .omero-team, [class*='elementor-widget-omero-team']",
+};
+MODULE_LOOP_SEL.blog__page__2 = MODULE_LOOP_SEL.blog;
 
 function buildPagemap(key: string) {
   const htmlPath = path.join(FROZEN, `${key}.html`);
   if (!fs.existsSync(htmlPath)) return null;
-  const $ = cheerio.load(fs.readFileSync(htmlPath, "utf-8"), {}, false);
+  // Start from a clean slate so the map is deterministic across re-runs even
+  // when the frozen HTML wasn't regenerated (skip selectors changed, etc.).
+  const raw = fs
+    .readFileSync(htmlPath, "utf-8")
+    .replace(/ data-oox-e(?:-alt)?="[^"]*"/g, "");
+  const $ = cheerio.load(raw, {}, false);
 
   const entries: Entry[] = [];
   let n = 0;
   const id = () => `e${++n}`;
   const seenValues = new Set<string>();
-  const inChrome = (el: cheerio.Cheerio<never>) => el.closest(CHROME_SEL).length > 0;
+  const skipSel = MODULE_LOOP_SEL[key] ? `${CHROME_SEL}, ${MODULE_LOOP_SEL[key]}` : CHROME_SEL;
+  const inChrome = (el: cheerio.Cheerio<never>) => el.closest(skipSel).length > 0;
 
   // Track the current section label from the nearest preceding heading.
   const groupFor = (el: cheerio.Cheerio<never>): string => {

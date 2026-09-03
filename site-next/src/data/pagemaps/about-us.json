@@ -275,52 +275,52 @@
     },
     {
       "id": "e40",
-      "kind": "text",
-      "label": "Button: “Login”",
-      "group": "Page",
-      "value": "Login"
-    },
-    {
-      "id": "e41",
-      "kind": "html",
-      "label": "LI: “oox menu”",
-      "group": "Page",
-      "value": "<span>oox menu</span>"
-    },
-    {
-      "id": "e42",
       "kind": "image",
       "label": "Image: Office Photos OOX Limited",
       "group": "Page",
       "value": "/wp-content/uploads/2026/03/fa37ce89e41f51f24bafe2ba1b832e6c8cf9cf30.jpg"
     },
     {
-      "id": "e43",
+      "id": "e41",
       "kind": "imageAlt",
       "label": "Alt for Office Photos OOX Limited",
       "group": "Page",
       "value": "Office Photos OOX Limited"
     },
     {
-      "id": "e44",
+      "id": "e42",
       "kind": "image",
       "label": "Image: OOX Limited Building",
       "group": "Page",
       "value": "/wp-content/uploads/2026/03/zgrada.png"
     },
     {
-      "id": "e45",
+      "id": "e43",
       "kind": "imageAlt",
       "label": "Alt for OOX Limited Building",
       "group": "Page",
       "value": "OOX Limited Building"
     },
     {
-      "id": "e46",
+      "id": "e44",
       "kind": "image",
       "label": "Image: Shape for Frame OOX Limited",
       "group": "Prototype-First Thinking",
       "value": "/wp-content/uploads/2026/03/box1-1024x598.png"
+    },
+    {
+      "id": "e45",
+      "kind": "imageAlt",
+      "label": "Alt for Shape for Frame OOX Limited",
+      "group": "Prototype-First Thinking",
+      "value": "Shape for Frame OOX Limited"
+    },
+    {
+      "id": "e46",
+      "kind": "image",
+      "label": "Image: Shape for Frame OOX Limited",
+      "group": "Prototype-First Thinking",
+      "value": "/wp-content/uploads/2026/03/box2-1024x926.png"
     },
     {
       "id": "e47",
@@ -334,7 +334,7 @@
       "kind": "image",
       "label": "Image: Shape for Frame OOX Limited",
       "group": "Prototype-First Thinking",
-      "value": "/wp-content/uploads/2026/03/box2-1024x926.png"
+      "value": "/wp-content/uploads/2026/03/lbulb.svg"
     },
     {
       "id": "e49",
@@ -346,155 +346,155 @@
     {
       "id": "e50",
       "kind": "image",
-      "label": "Image: Shape for Frame OOX Limited",
-      "group": "Prototype-First Thinking",
-      "value": "/wp-content/uploads/2026/03/lbulb.svg"
-    },
-    {
-      "id": "e51",
-      "kind": "imageAlt",
-      "label": "Alt for Shape for Frame OOX Limited",
-      "group": "Prototype-First Thinking",
-      "value": "Shape for Frame OOX Limited"
-    },
-    {
-      "id": "e52",
-      "kind": "image",
       "label": "Image: ooxlogo",
       "group": "Structured Experimentation, Not Random …",
       "value": "/wp-content/uploads/2026/03/lab.png"
     },
     {
-      "id": "e53",
+      "id": "e51",
       "kind": "imageAlt",
       "label": "Alt for ooxlogo",
       "group": "Structured Experimentation, Not Random …",
       "value": "ooxlogo"
     },
     {
-      "id": "e54",
+      "id": "e52",
       "kind": "image",
       "label": "Image: ooxlogo",
       "group": "Clear Scope and Fast Decisions",
       "value": "/wp-content/uploads/2026/03/rev.png"
     },
     {
-      "id": "e55",
+      "id": "e53",
       "kind": "imageAlt",
       "label": "Alt for ooxlogo",
       "group": "Clear Scope and Fast Decisions",
       "value": "ooxlogo"
     },
     {
-      "id": "e56",
+      "id": "e54",
       "kind": "image",
       "label": "Image: ooxlogo",
       "group": "From Prototype to Full-Cycle Development",
       "value": "/wp-content/uploads/2026/03/cogs.png"
     },
     {
-      "id": "e57",
+      "id": "e55",
       "kind": "imageAlt",
       "label": "Alt for ooxlogo",
       "group": "From Prototype to Full-Cycle Development",
       "value": "ooxlogo"
     },
     {
-      "id": "e58",
+      "id": "e56",
       "kind": "image",
       "label": "Image: History Photos OOX Limited",
       "group": "2020",
       "value": "/wp-content/uploads/2026/03/dcba8529aed5fff4f7155351f7577812ede42633.png"
     },
     {
-      "id": "e59",
+      "id": "e57",
       "kind": "imageAlt",
       "label": "Alt for History Photos OOX Limited",
       "group": "2020",
       "value": "History Photos OOX Limited"
     },
     {
-      "id": "e60",
+      "id": "e58",
       "kind": "image",
       "label": "Image: History Photos OOX Limited",
       "group": "2021",
       "value": "/wp-content/uploads/2026/03/e4a9157e7bfbeb9acce57caaa53c25940fca9d8a.png"
     },
     {
-      "id": "e61",
+      "id": "e59",
       "kind": "imageAlt",
       "label": "Alt for History Photos OOX Limited",
       "group": "2021",
       "value": "History Photos OOX Limited"
     },
     {
-      "id": "e62",
+      "id": "e60",
       "kind": "image",
       "label": "Image: History Photos OOX Limited",
       "group": "2022",
       "value": "/wp-content/uploads/2026/03/1f05a115102608013e614c88fd08e7cc3e84816e.png"
     },
     {
-      "id": "e63",
+      "id": "e61",
       "kind": "imageAlt",
       "label": "Alt for History Photos OOX Limited",
       "group": "2022",
       "value": "History Photos OOX Limited"
     },
     {
-      "id": "e64",
+      "id": "e62",
       "kind": "image",
       "label": "Image: History Photos OOX Limited",
       "group": "2023",
       "value": "/wp-content/uploads/2026/03/5257a849cf9705b097debe6aa22a8c6cecf72ae0-scaled.jpg"
     },
     {
-      "id": "e65",
+      "id": "e63",
       "kind": "imageAlt",
       "label": "Alt for History Photos OOX Limited",
       "group": "2023",
       "value": "History Photos OOX Limited"
     },
     {
-      "id": "e66",
+      "id": "e64",
       "kind": "image",
       "label": "Image: History Photos OOX Limited",
       "group": "2024",
       "value": "/wp-content/uploads/2026/03/f526ac9c668cca6d76fff17c27e2854e8f403eb1-scaled.jpg"
     },
     {
-      "id": "e67",
+      "id": "e65",
       "kind": "imageAlt",
       "label": "Alt for History Photos OOX Limited",
       "group": "2024",
       "value": "History Photos OOX Limited"
     },
     {
-      "id": "e68",
+      "id": "e66",
       "kind": "image",
       "label": "Image: History Photos OOX Limited",
       "group": "2025",
       "value": "/wp-content/uploads/2026/03/f31b384c5e111f5165e09c69b0c50617f5ecabf0.jpg"
     },
     {
-      "id": "e69",
+      "id": "e67",
       "kind": "imageAlt",
       "label": "Alt for History Photos OOX Limited",
       "group": "2025",
       "value": "History Photos OOX Limited"
     },
     {
-      "id": "e70",
+      "id": "e68",
       "kind": "image",
       "label": "Image: Office Photos OOX Limited",
       "group": "Today",
       "value": "/wp-content/uploads/2026/03/e2f6ac9beaadda3300a0200a61aa97bcdbb4803d.jpg"
     },
     {
-      "id": "e71",
+      "id": "e69",
       "kind": "imageAlt",
       "label": "Alt for Office Photos OOX Limited",
       "group": "Today",
+      "value": "Office Photos OOX Limited"
+    },
+    {
+      "id": "e70",
+      "kind": "image",
+      "label": "Image: Office Photos OOX Limited",
+      "group": "Page",
+      "value": "/wp-content/uploads/2026/03/f4d0bdfe35d94fca0d2362c0d4f4d429ddbb7c1c-scaled.jpg"
+    },
+    {
+      "id": "e71",
+      "kind": "imageAlt",
+      "label": "Alt for Office Photos OOX Limited",
+      "group": "Page",
       "value": "Office Photos OOX Limited"
     },
     {
@@ -502,7 +502,7 @@
       "kind": "image",
       "label": "Image: Office Photos OOX Limited",
       "group": "Page",
-      "value": "/wp-content/uploads/2026/03/f4d0bdfe35d94fca0d2362c0d4f4d429ddbb7c1c-scaled.jpg"
+      "value": "/wp-content/uploads/2026/03/4637c07d7a255be12fbe8b43735222eee22a9b4e.jpg"
     },
     {
       "id": "e73",
@@ -516,7 +516,7 @@
       "kind": "image",
       "label": "Image: Office Photos OOX Limited",
       "group": "Page",
-      "value": "/wp-content/uploads/2026/03/4637c07d7a255be12fbe8b43735222eee22a9b4e.jpg"
+      "value": "/wp-content/uploads/2026/03/c7f806ba5aa0b941cf5c248e564b0d3d12a19406.jpg"
     },
     {
       "id": "e75",
@@ -530,7 +530,7 @@
       "kind": "image",
       "label": "Image: Office Photos OOX Limited",
       "group": "Page",
-      "value": "/wp-content/uploads/2026/03/c7f806ba5aa0b941cf5c248e564b0d3d12a19406.jpg"
+      "value": "/wp-content/uploads/2026/03/e2f6ac9beaadda3300a0200a61aa97bcdbb4803d-1.jpg"
     },
     {
       "id": "e77",
@@ -544,7 +544,7 @@
       "kind": "image",
       "label": "Image: Office Photos OOX Limited",
       "group": "Page",
-      "value": "/wp-content/uploads/2026/03/e2f6ac9beaadda3300a0200a61aa97bcdbb4803d-1.jpg"
+      "value": "/wp-content/uploads/2026/03/216b79027cc7e8fa9c4521274c5c4dbeb51670d0.jpg"
     },
     {
       "id": "e79",
@@ -558,7 +558,7 @@
       "kind": "image",
       "label": "Image: Office Photos OOX Limited",
       "group": "Page",
-      "value": "/wp-content/uploads/2026/03/216b79027cc7e8fa9c4521274c5c4dbeb51670d0.jpg"
+      "value": "/wp-content/uploads/2026/03/d8d70c6789c6b5f6ea12d48bc4006f64f8be8019.jpg"
     },
     {
       "id": "e81",
@@ -572,7 +572,7 @@
       "kind": "image",
       "label": "Image: Office Photos OOX Limited",
       "group": "Page",
-      "value": "/wp-content/uploads/2026/03/d8d70c6789c6b5f6ea12d48bc4006f64f8be8019.jpg"
+      "value": "/wp-content/uploads/2026/03/bfa6f23673d0bc0b4256350d112cc0dc34cb1595.jpg"
     },
     {
       "id": "e83",
@@ -586,7 +586,7 @@
       "kind": "image",
       "label": "Image: Office Photos OOX Limited",
       "group": "Page",
-      "value": "/wp-content/uploads/2026/03/bfa6f23673d0bc0b4256350d112cc0dc34cb1595.jpg"
+      "value": "/wp-content/uploads/2026/03/b362a45c39fc195034f2ab8c2aa20e616361e210.jpg"
     },
     {
       "id": "e85",
@@ -600,7 +600,7 @@
       "kind": "image",
       "label": "Image: Office Photos OOX Limited",
       "group": "Page",
-      "value": "/wp-content/uploads/2026/03/b362a45c39fc195034f2ab8c2aa20e616361e210.jpg"
+      "value": "/wp-content/uploads/2026/03/2e1c47dbaff30e97e9ce2805680aded83fd7c1c3.jpg"
     },
     {
       "id": "e87",
@@ -614,7 +614,7 @@
       "kind": "image",
       "label": "Image: Office Photos OOX Limited",
       "group": "Page",
-      "value": "/wp-content/uploads/2026/03/2e1c47dbaff30e97e9ce2805680aded83fd7c1c3.jpg"
+      "value": "/wp-content/uploads/2026/03/d6d71c6353cced4487ab6479f6fd13b4e188519d-scaled.jpg"
     },
     {
       "id": "e89",
@@ -626,54 +626,40 @@
     {
       "id": "e90",
       "kind": "image",
-      "label": "Image: Office Photos OOX Limited",
-      "group": "Page",
-      "value": "/wp-content/uploads/2026/03/d6d71c6353cced4487ab6479f6fd13b4e188519d-scaled.jpg"
-    },
-    {
-      "id": "e91",
-      "kind": "imageAlt",
-      "label": "Alt for Office Photos OOX Limited",
-      "group": "Page",
-      "value": "Office Photos OOX Limited"
-    },
-    {
-      "id": "e92",
-      "kind": "image",
       "label": "Image: game prototyping studio",
       "group": "What Our Clients Say",
       "value": "/wp-content/uploads/2026/03/Mask-group-3.png"
     },
     {
-      "id": "e93",
+      "id": "e91",
       "kind": "imageAlt",
       "label": "Alt for game prototyping studio",
       "group": "What Our Clients Say",
       "value": "game prototyping studio"
     },
     {
-      "id": "e94",
+      "id": "e92",
       "kind": "image",
       "label": "Image: Mask group (4)",
       "group": "What Our Clients Say",
       "value": "/wp-content/uploads/2026/03/Mask-group-4.png"
     },
     {
-      "id": "e95",
+      "id": "e93",
       "kind": "imageAlt",
       "label": "Alt for Mask group (4)",
       "group": "What Our Clients Say",
       "value": "Mask group (4)"
     },
     {
-      "id": "e96",
+      "id": "e94",
       "kind": "image",
       "label": "Image: Mask group (4)",
       "group": "What Our Clients Say",
       "value": "/wp-content/uploads/2026/03/Mask-group-5.png"
     },
     {
-      "id": "e97",
+      "id": "e95",
       "kind": "imageAlt",
       "label": "Alt for Mask group (4)",
       "group": "What Our Clients Say",

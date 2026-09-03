@@ -548,97 +548,83 @@
     },
     {
       "id": "e79",
-      "kind": "text",
-      "label": "Button: “Login”",
-      "group": "Page",
-      "value": "Login"
-    },
-    {
-      "id": "e80",
-      "kind": "html",
-      "label": "LI: “oox menu”",
-      "group": "Page",
-      "value": "<span>oox menu</span>"
-    },
-    {
-      "id": "e81",
       "kind": "image",
       "label": "Image: mobile game vertical slice",
       "group": "Recent posts",
       "value": "/wp-content/uploads/2026/08/DSC06517-768x1152.jpg"
     },
     {
-      "id": "e82",
+      "id": "e80",
       "kind": "imageAlt",
       "label": "Alt for mobile game vertical slice",
       "group": "Recent posts",
       "value": "mobile game vertical slice"
     },
     {
-      "id": "e83",
+      "id": "e81",
       "kind": "image",
       "label": "Image: Read more",
       "group": "Recent posts",
       "value": "/wp-content/uploads/2026/03/arrowr.png"
     },
     {
-      "id": "e84",
+      "id": "e82",
       "kind": "imageAlt",
       "label": "Alt for Read more",
       "group": "Recent posts",
       "value": "Read more"
     },
     {
-      "id": "e85",
+      "id": "e83",
       "kind": "image",
       "label": "Image: Office Photos OOX Limited",
       "group": "Recent posts",
       "value": "/wp-content/uploads/2026/03/d8d70c6789c6b5f6ea12d48bc4006f64f8be8019-768x512.jpg"
     },
     {
-      "id": "e86",
+      "id": "e84",
       "kind": "imageAlt",
       "label": "Alt for Office Photos OOX Limited",
       "group": "Recent posts",
       "value": "Office Photos OOX Limited"
     },
     {
-      "id": "e87",
+      "id": "e85",
       "kind": "image",
       "label": "Image: mobile game development team",
       "group": "Recent posts",
       "value": "/wp-content/uploads/2026/07/DSC06489-768x1152.jpg"
     },
     {
-      "id": "e88",
+      "id": "e86",
       "kind": "imageAlt",
       "label": "Alt for mobile game development team",
       "group": "Recent posts",
       "value": "mobile game development team"
     },
     {
-      "id": "e89",
+      "id": "e87",
       "kind": "image",
       "label": "Image: Two developers collaborating at a desk …",
       "group": "What a Mobile Game Vertical Slice Shoul…",
       "value": "https://images.unsplash.com/photo-1551434678-e076c223a692?ixid=M3w5OTQwMTJ8MHwxfHNlYXJjaHwxfHxzb2Z0d2FyZSUyMGRldmVsb3BlciUyMHdvcmtpbmclMjB0ZWFtJTIwbGFwdG9wJTIwb2ZmaWNlfGVufDF8MHx8fDE3ODQwNjQwMzl8MA&ixlib=rb-4.1.0&w=1200&auto=format&fit=crop"
     },
     {
-      "id": "e90",
+      "id": "e88",
       "kind": "imageAlt",
       "label": "Alt for Two developers collaborating …",
       "group": "What a Mobile Game Vertical Slice Shoul…",
       "value": "Two developers collaborating at a desk in a modern office - one at a laptop, a smartphone on the desk beside a small figurine, natural light from a large window with greenery outside"
     },
     {
-      "id": "e91",
+      "id": "e89",
       "kind": "image",
       "label": "Image: A person holding a smartphone horizonta…",
       "group": "What a Mobile Game Vertical Slice Shoul…",
       "value": "https://images.unsplash.com/photo-1592890288564-76628a30a657?ixid=M3w5OTQwMTJ8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjB0ZXN0aW5nJTIwc21hcnRwaG9uZSUyMG9uZSUyMGhhbmR8ZW58MXwwfHx8MTc4NDA2NDEzMXww&ixlib=rb-4.1.0&w=1200&auto=format&fit=crop"
     },
     {
-      "id": "e92",
+      "id": "e90",
       "kind": "imageAlt",
       "label": "Alt for A person holding a smartphone…",
       "group": "What a Mobile Game Vertical Slice Shoul…",

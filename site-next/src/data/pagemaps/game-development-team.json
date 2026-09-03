@@ -37,325 +37,38 @@
     },
     {
       "id": "e6",
-      "kind": "html",
-      "label": "H5: “Marko Štrba”",
-      "group": "Page",
-      "value": "<a href=\"/team/team-marko-strba/\">Marko Štrba</a>"
-    },
-    {
-      "id": "e7",
-      "kind": "html",
-      "label": "H5: “Konstantin Đuričković”",
-      "group": "Page",
-      "value": "<a href=\"/team/konstantin-durickovic/\">Konstantin Đuričković</a>"
-    },
-    {
-      "id": "e8",
-      "kind": "html",
-      "label": "H5: “Vukašin Despotović”",
-      "group": "Page",
-      "value": "<a href=\"/team/vukasin-despotovic/\">Vukašin Despotović</a>"
-    },
-    {
-      "id": "e9",
-      "kind": "html",
-      "label": "H5: “Luka Miljuš”",
-      "group": "Page",
-      "value": "<a href=\"/team/luka-miljus/\">Luka Miljuš</a>"
-    },
-    {
-      "id": "e10",
-      "kind": "html",
-      "label": "H5: “Luka Pikula”",
-      "group": "Page",
-      "value": "<a href=\"/team/luka-pikula/\">Luka Pikula</a>"
-    },
-    {
-      "id": "e11",
-      "kind": "html",
-      "label": "H5: “Anđela Stupar”",
-      "group": "Page",
-      "value": "<a href=\"/team/andela-stupar-2/\">Anđela Stupar</a>"
-    },
-    {
-      "id": "e12",
-      "kind": "html",
-      "label": "H5: “Nemanja Havlović”",
-      "group": "Page",
-      "value": "<a href=\"/team/nemanja-havlovic/\">Nemanja Havlović</a>"
-    },
-    {
-      "id": "e13",
-      "kind": "html",
-      "label": "H5: “Aleksandra Bulajić”",
-      "group": "Page",
-      "value": "<a href=\"/team/aleksandra-bulajic/\">Aleksandra Bulajić</a>"
-    },
-    {
-      "id": "e14",
-      "kind": "html",
-      "label": "H5: “Srđan Radujko”",
-      "group": "Page",
-      "value": "<a href=\"/team/srdan-radujko/\">Srđan Radujko</a>"
-    },
-    {
-      "id": "e15",
-      "kind": "html",
-      "label": "H5: “Bojan Marjanović”",
-      "group": "Page",
-      "value": "<a href=\"/team/bojan-marjanovic/\">Bojan Marjanović</a>"
-    },
-    {
-      "id": "e16",
-      "kind": "html",
-      "label": "H5: “Milica Raketić”",
-      "group": "Page",
-      "value": "<a href=\"/team/milica-raketic/\">Milica Raketić</a>"
-    },
-    {
-      "id": "e17",
-      "kind": "html",
-      "label": "H5: “Ozren Kolaić”",
-      "group": "Page",
-      "value": "<a href=\"/team/ozren-kolaic/\">Ozren Kolaić</a>"
-    },
-    {
-      "id": "e18",
-      "kind": "html",
-      "label": "H5: “Debela”",
-      "group": "Page",
-      "value": "<a href=\"/team/debela/\">Debela</a>"
-    },
-    {
-      "id": "e19",
       "kind": "text",
       "label": "P: “Our game development team is made up of designers, develope…”",
       "group": "Page",
       "value": "Our game development team is made up of designers, developers, artists, and producers who specialize in different parts of the development process."
     },
     {
-      "id": "e20",
+      "id": "e7",
       "kind": "text",
       "label": "P: “Our mobile game developers focus on building stable and sca…”",
       "group": "Page",
       "value": "Our mobile game developers focus on building stable and scalable systems, while our game design team defines gameplay, mechanics, and player experience. Artists and art directors ensure visual consistency, and producers keep everything aligned with timelines and business goals."
     },
     {
-      "id": "e21",
+      "id": "e8",
       "kind": "text",
       "label": "P: “We work as a single unit, not separate roles. This allows u…”",
       "group": "Page",
       "value": "We work as a single unit, not separate roles. This allows us to move faster, adapt quickly, and deliver products that are both functional and engaging."
     },
     {
-      "id": "e22",
-      "kind": "text",
-      "label": "Button: “Login”",
-      "group": "Page",
-      "value": "Login"
-    },
-    {
-      "id": "e23",
-      "kind": "html",
-      "label": "LI: “oox menu”",
-      "group": "Page",
-      "value": "<span>oox menu</span>"
-    },
-    {
-      "id": "e24",
+      "id": "e9",
       "kind": "image",
       "label": "Image: sword characters game art",
       "group": "Page",
       "value": "/wp-content/uploads/2026/06/swords_teampage.png"
     },
     {
-      "id": "e25",
+      "id": "e10",
       "kind": "imageAlt",
       "label": "Alt for sword characters game art",
       "group": "Page",
       "value": "sword characters game art"
-    },
-    {
-      "id": "e26",
-      "kind": "image",
-      "label": "Image: Marko Štrba",
-      "group": "Page",
-      "value": "/wp-content/uploads/2026/03/1ae0674b6b580c7dba0bb88ce3450fb326b67324.jpg"
-    },
-    {
-      "id": "e27",
-      "kind": "imageAlt",
-      "label": "Alt for Marko Štrba",
-      "group": "Page",
-      "value": "Marko Štrba"
-    },
-    {
-      "id": "e28",
-      "kind": "image",
-      "label": "Image: Konstantin Đuričković",
-      "group": "Page",
-      "value": "/wp-content/uploads/2026/03/DSC06574k-scaled.webp"
-    },
-    {
-      "id": "e29",
-      "kind": "imageAlt",
-      "label": "Alt for Konstantin Đuričković",
-      "group": "Page",
-      "value": "Konstantin Đuričković"
-    },
-    {
-      "id": "e30",
-      "kind": "image",
-      "label": "Image: Vukašin Despotović",
-      "group": "Page",
-      "value": "/wp-content/uploads/2026/03/ChatGPT-Image-14.-мај-2026.-15_19_50.png"
-    },
-    {
-      "id": "e31",
-      "kind": "imageAlt",
-      "label": "Alt for Vukašin Despotović",
-      "group": "Page",
-      "value": "Vukašin Despotović"
-    },
-    {
-      "id": "e32",
-      "kind": "image",
-      "label": "Image: Luka Miljuš",
-      "group": "Page",
-      "value": "/wp-content/uploads/2026/01/0314e21573a5d458249630664716e2ea54d22e21-2.jpg"
-    },
-    {
-      "id": "e33",
-      "kind": "imageAlt",
-      "label": "Alt for Luka Miljuš",
-      "group": "Page",
-      "value": "Luka Miljuš"
-    },
-    {
-      "id": "e34",
-      "kind": "image",
-      "label": "Image: Luka Pikula",
-      "group": "Page",
-      "value": "/wp-content/uploads/2026/03/DSC06305p-scaled.webp"
-    },
-    {
-      "id": "e35",
-      "kind": "imageAlt",
-      "label": "Alt for Luka Pikula",
-      "group": "Page",
-      "value": "Luka Pikula"
-    },
-    {
-      "id": "e36",
-      "kind": "image",
-      "label": "Image: Anđela Stupar",
-      "group": "Page",
-      "value": "/wp-content/uploads/2026/04/DSC06325-scaled.webp"
-    },
-    {
-      "id": "e37",
-      "kind": "imageAlt",
-      "label": "Alt for Anđela Stupar",
-      "group": "Page",
-      "value": "Anđela Stupar"
-    },
-    {
-      "id": "e38",
-      "kind": "image",
-      "label": "Image: Nemanja Havlović",
-      "group": "Page",
-      "value": "/wp-content/uploads/2026/04/Havla.webp"
-    },
-    {
-      "id": "e39",
-      "kind": "imageAlt",
-      "label": "Alt for Nemanja Havlović",
-      "group": "Page",
-      "value": "Nemanja Havlović"
-    },
-    {
-      "id": "e40",
-      "kind": "image",
-      "label": "Image: Aleksandra Bulajić",
-      "group": "Page",
-      "value": "/wp-content/uploads/2026/03/Saja-1.webp"
-    },
-    {
-      "id": "e41",
-      "kind": "imageAlt",
-      "label": "Alt for Aleksandra Bulajić",
-      "group": "Page",
-      "value": "Aleksandra Bulajić"
-    },
-    {
-      "id": "e42",
-      "kind": "image",
-      "label": "Image: Srđan Radujko",
-      "group": "Page",
-      "value": "/wp-content/uploads/2026/03/DSC06380-scaled.jpg"
-    },
-    {
-      "id": "e43",
-      "kind": "imageAlt",
-      "label": "Alt for Srđan Radujko",
-      "group": "Page",
-      "value": "Srđan Radujko"
-    },
-    {
-      "id": "e44",
-      "kind": "image",
-      "label": "Image: Bojan Marjanović",
-      "group": "Page",
-      "value": "/wp-content/uploads/2026/04/DSC06354-scaled.webp"
-    },
-    {
-      "id": "e45",
-      "kind": "imageAlt",
-      "label": "Alt for Bojan Marjanović",
-      "group": "Page",
-      "value": "Bojan Marjanović"
-    },
-    {
-      "id": "e46",
-      "kind": "image",
-      "label": "Image: Milica Raketić",
-      "group": "Page",
-      "value": "/wp-content/uploads/2026/03/DSC06480-1-scaled.jpg"
-    },
-    {
-      "id": "e47",
-      "kind": "imageAlt",
-      "label": "Alt for Milica Raketić",
-      "group": "Page",
-      "value": "Milica Raketić"
-    },
-    {
-      "id": "e48",
-      "kind": "image",
-      "label": "Image: Ozren Kolaić",
-      "group": "Page",
-      "value": "/wp-content/uploads/2026/04/DSC065362-1-scaled.jpg"
-    },
-    {
-      "id": "e49",
-      "kind": "imageAlt",
-      "label": "Alt for Ozren Kolaić",
-      "group": "Page",
-      "value": "Ozren Kolaić"
-    },
-    {
-      "id": "e50",
-      "kind": "image",
-      "label": "Image: Debela",
-      "group": "Page",
-      "value": "/wp-content/uploads/2026/04/DSC06494-scaled.webp"
-    },
-    {
-      "id": "e51",
-      "kind": "imageAlt",
-      "label": "Alt for Debela",
-      "group": "Page",
-      "value": "Debela"
     }
   ]
 }

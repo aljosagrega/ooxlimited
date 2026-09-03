@@ -107,27 +107,13 @@
     },
     {
       "id": "e16",
-      "kind": "text",
-      "label": "Button: “Login”",
-      "group": "Page",
-      "value": "Login"
-    },
-    {
-      "id": "e17",
-      "kind": "html",
-      "label": "LI: “oox menu”",
-      "group": "Page",
-      "value": "<span>oox menu</span>"
-    },
-    {
-      "id": "e18",
       "kind": "image",
       "label": "Image: Vukašin Despotović",
       "group": "Page",
       "value": "/wp-content/uploads/2026/03/ChatGPT-Image-14.-мај-2026.-15_19_50.png"
     },
     {
-      "id": "e19",
+      "id": "e17",
       "kind": "imageAlt",
       "label": "Alt for Vukašin Despotović",
       "group": "Page",

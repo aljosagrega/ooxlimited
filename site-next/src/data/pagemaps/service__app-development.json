@@ -345,101 +345,101 @@
     },
     {
       "id": "e50",
-      "kind": "text",
-      "label": "Button: “Login”",
-      "group": "Page",
-      "value": "Login"
-    },
-    {
-      "id": "e51",
-      "kind": "html",
-      "label": "LI: “oox menu”",
-      "group": "Page",
-      "value": "<span>oox menu</span>"
-    },
-    {
-      "id": "e52",
       "kind": "image",
       "label": "Image (ser-game-6.png)",
       "group": "Page",
       "value": "/wp-content/uploads/2026/01/ser-game-6.png"
     },
     {
-      "id": "e53",
+      "id": "e51",
       "kind": "image",
       "label": "Image: mobile game vertical slice",
       "group": "Recent posts",
       "value": "/wp-content/uploads/2026/08/DSC06517-768x1152.jpg"
     },
     {
-      "id": "e54",
+      "id": "e52",
       "kind": "imageAlt",
       "label": "Alt for mobile game vertical slice",
       "group": "Recent posts",
       "value": "mobile game vertical slice"
     },
     {
-      "id": "e55",
+      "id": "e53",
       "kind": "image",
       "label": "Image: Read more",
       "group": "Recent posts",
       "value": "/wp-content/uploads/2026/03/arrowr.png"
     },
     {
-      "id": "e56",
+      "id": "e54",
       "kind": "imageAlt",
       "label": "Alt for Read more",
       "group": "Recent posts",
       "value": "Read more"
     },
     {
-      "id": "e57",
+      "id": "e55",
       "kind": "image",
       "label": "Image: mobile game development team",
       "group": "Recent posts",
       "value": "/wp-content/uploads/2026/07/DSC06489-768x1152.jpg"
     },
     {
-      "id": "e58",
+      "id": "e56",
       "kind": "imageAlt",
       "label": "Alt for mobile game development team",
       "group": "Recent posts",
       "value": "mobile game development team"
     },
     {
-      "id": "e59",
+      "id": "e57",
       "kind": "image",
       "label": "Image: Office Photos OOX Limited",
       "group": "Recent posts",
       "value": "/wp-content/uploads/2026/03/d8d70c6789c6b5f6ea12d48bc4006f64f8be8019-768x512.jpg"
     },
     {
-      "id": "e60",
+      "id": "e58",
       "kind": "imageAlt",
       "label": "Alt for Office Photos OOX Limited",
       "group": "Recent posts",
       "value": "Office Photos OOX Limited"
     },
     {
-      "id": "e61",
+      "id": "e59",
       "kind": "image",
       "label": "Image: building factory oox limited",
       "group": "Types of App Development We Offer",
       "value": "/wp-content/uploads/2026/01/factory.png"
     },
     {
-      "id": "e62",
+      "id": "e60",
       "kind": "imageAlt",
       "label": "Alt for building factory oox limited",
       "group": "Types of App Development We Offer",
       "value": "building factory oox limited"
     },
     {
-      "id": "e63",
+      "id": "e61",
       "kind": "image",
       "label": "Image: image",
       "group": "Page",
       "value": "/wp-content/uploads/2026/01/targets.png"
+    },
+    {
+      "id": "e62",
+      "kind": "imageAlt",
+      "label": "Alt for image",
+      "group": "Page",
+      "value": "image"
+    },
+    {
+      "id": "e63",
+      "kind": "image",
+      "label": "Image: image",
+      "group": "Page",
+      "value": "/wp-content/uploads/2026/01/mine.png"
     },
     {
       "id": "e64",
@@ -453,7 +453,7 @@
       "kind": "image",
       "label": "Image: image",
       "group": "Page",
-      "value": "/wp-content/uploads/2026/01/mine.png"
+      "value": "/wp-content/uploads/2026/01/rocks.png"
     },
     {
       "id": "e66",
@@ -465,54 +465,40 @@
     {
       "id": "e67",
       "kind": "image",
-      "label": "Image: image",
-      "group": "Page",
-      "value": "/wp-content/uploads/2026/01/rocks.png"
-    },
-    {
-      "id": "e68",
-      "kind": "imageAlt",
-      "label": "Alt for image",
-      "group": "Page",
-      "value": "image"
-    },
-    {
-      "id": "e69",
-      "kind": "image",
       "label": "Image: game prototyping studio",
       "group": "iOS Mobile Applications",
       "value": "/wp-content/uploads/2026/01/apple.png"
     },
     {
-      "id": "e70",
+      "id": "e68",
       "kind": "imageAlt",
       "label": "Alt for game prototyping studio",
       "group": "iOS Mobile Applications",
       "value": "game prototyping studio"
     },
     {
-      "id": "e71",
+      "id": "e69",
       "kind": "image",
       "label": "Image: game prototyping studio",
       "group": "Android Mobile Applications",
       "value": "/wp-content/uploads/2026/01/android.png"
     },
     {
-      "id": "e72",
+      "id": "e70",
       "kind": "imageAlt",
       "label": "Alt for game prototyping studio",
       "group": "Android Mobile Applications",
       "value": "game prototyping studio"
     },
     {
-      "id": "e73",
+      "id": "e71",
       "kind": "image",
       "label": "Image: game prototyping studio",
       "group": "Cross-Platform Interactive Products",
       "value": "/wp-content/uploads/2026/01/layers.png"
     },
     {
-      "id": "e74",
+      "id": "e72",
       "kind": "imageAlt",
       "label": "Alt for game prototyping studio",
       "group": "Cross-Platform Interactive Products",

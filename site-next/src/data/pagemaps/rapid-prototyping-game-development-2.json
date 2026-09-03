@@ -499,97 +499,83 @@
     },
     {
       "id": "e72",
-      "kind": "text",
-      "label": "Button: “Login”",
-      "group": "Page",
-      "value": "Login"
-    },
-    {
-      "id": "e73",
-      "kind": "html",
-      "label": "LI: “oox menu”",
-      "group": "Page",
-      "value": "<span>oox menu</span>"
-    },
-    {
-      "id": "e74",
       "kind": "image",
       "label": "Image: Office Photos OOX Limited",
       "group": "Recent posts",
       "value": "/wp-content/uploads/2026/03/c7f806ba5aa0b941cf5c248e564b0d3d12a19406-768x512.jpg"
     },
     {
-      "id": "e75",
+      "id": "e73",
       "kind": "imageAlt",
       "label": "Alt for Office Photos OOX Limited",
       "group": "Recent posts",
       "value": "Office Photos OOX Limited"
     },
     {
-      "id": "e76",
+      "id": "e74",
       "kind": "image",
       "label": "Image: Read more",
       "group": "Recent posts",
       "value": "/wp-content/uploads/2026/03/arrowr.png"
     },
     {
-      "id": "e77",
+      "id": "e75",
       "kind": "imageAlt",
       "label": "Alt for Read more",
       "group": "Recent posts",
       "value": "Read more"
     },
     {
-      "id": "e78",
+      "id": "e76",
       "kind": "image",
       "label": "Image: Mobile Game Prototype Cost",
       "group": "Recent posts",
       "value": "/wp-content/uploads/2026/05/20260226-DSC06230-768x512.jpg"
     },
     {
-      "id": "e79",
+      "id": "e77",
       "kind": "imageAlt",
       "label": "Alt for Mobile Game Prototype Cost",
       "group": "Recent posts",
       "value": "Mobile Game Prototype Cost"
     },
     {
-      "id": "e80",
+      "id": "e78",
       "kind": "image",
       "label": "Image: 2025-recap",
       "group": "Recent posts",
       "value": "/wp-content/uploads/2026/04/2025-recap-768x400.webp"
     },
     {
-      "id": "e81",
+      "id": "e79",
       "kind": "imageAlt",
       "label": "Alt for 2025-recap",
       "group": "Recent posts",
       "value": "2025-recap"
     },
     {
-      "id": "e82",
+      "id": "e80",
       "kind": "image",
       "label": "Image: Game developer at a standing desk with …",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "https://lh3.googleusercontent.com/d/11d9gInIKjDc7vgJ0Y3YQRyyoeKd6vxhP=w1200"
     },
     {
-      "id": "e83",
+      "id": "e81",
       "kind": "imageAlt",
       "label": "Alt for Game developer at a standing …",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "Game developer at a standing desk with Unity Editor showing greybox prototype scene, a notebook open to a hand-drawn core loop diagram, in a bright modern studio."
     },
     {
-      "id": "e84",
+      "id": "e82",
       "kind": "image",
       "label": "Image: Over-the-shoulder view of a developer t…",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "https://lh3.googleusercontent.com/d/1RkxStMA7b69uBNk1UYGOQaho0ArcR_a5=w1200"
     },
     {
-      "id": "e85",
+      "id": "e83",
       "kind": "imageAlt",
       "label": "Alt for Over-the-shoulder view of a d…",
       "group": "What Is Rapid Prototyping in Game Devel…",

@@ -422,97 +422,83 @@
     },
     {
       "id": "e61",
-      "kind": "text",
-      "label": "Button: “Login”",
-      "group": "Page",
-      "value": "Login"
-    },
-    {
-      "id": "e62",
-      "kind": "html",
-      "label": "LI: “oox menu”",
-      "group": "Page",
-      "value": "<span>oox menu</span>"
-    },
-    {
-      "id": "e63",
       "kind": "image",
       "label": "Image: mobile game development team",
       "group": "Recent posts",
       "value": "/wp-content/uploads/2026/07/DSC06489-768x1152.jpg"
     },
     {
-      "id": "e64",
+      "id": "e62",
       "kind": "imageAlt",
       "label": "Alt for mobile game development team",
       "group": "Recent posts",
       "value": "mobile game development team"
     },
     {
-      "id": "e65",
+      "id": "e63",
       "kind": "image",
       "label": "Image: Read more",
       "group": "Recent posts",
       "value": "/wp-content/uploads/2026/03/arrowr.png"
     },
     {
-      "id": "e66",
+      "id": "e64",
       "kind": "imageAlt",
       "label": "Alt for Read more",
       "group": "Recent posts",
       "value": "Read more"
     },
     {
-      "id": "e67",
+      "id": "e65",
       "kind": "image",
       "label": "Image: Mobile Game Prototype Cost",
       "group": "Recent posts",
       "value": "/wp-content/uploads/2026/05/20260226-DSC06230-768x512.jpg"
     },
     {
-      "id": "e68",
+      "id": "e66",
       "kind": "imageAlt",
       "label": "Alt for Mobile Game Prototype Cost",
       "group": "Recent posts",
       "value": "Mobile Game Prototype Cost"
     },
     {
-      "id": "e69",
+      "id": "e67",
       "kind": "image",
       "label": "Image: 2025-recap",
       "group": "Recent posts",
       "value": "/wp-content/uploads/2026/04/2025-recap-768x400.webp"
     },
     {
-      "id": "e70",
+      "id": "e68",
       "kind": "imageAlt",
       "label": "Alt for 2025-recap",
       "group": "Recent posts",
       "value": "2025-recap"
     },
     {
-      "id": "e71",
+      "id": "e69",
       "kind": "image",
       "label": "Image: Mobile game wireframes and user interfa…",
       "group": "From Idea to Playable: What a Game Prot…",
       "value": "https://images.unsplash.com/photo-1551650975-87deedd944c3?q=80&w=1200&auto=format&fit=crop"
     },
     {
-      "id": "e72",
+      "id": "e70",
       "kind": "imageAlt",
       "label": "Alt for Mobile game wireframes and us…",
       "group": "From Idea to Playable: What a Game Prot…",
       "value": "Mobile game wireframes and user interface layouts within a development pipeline"
     },
     {
-      "id": "e73",
+      "id": "e71",
       "kind": "image",
       "label": "Image: Testing mobile gameplay loop mechanics …",
       "group": "From Idea to Playable: What a Game Prot…",
       "value": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=1200&auto=format&fit=crop"
     },
     {
-      "id": "e74",
+      "id": "e72",
       "kind": "imageAlt",
       "label": "Alt for Testing mobile gameplay loop …",
       "group": "From Idea to Playable: What a Game Prot…",

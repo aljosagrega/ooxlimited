@@ -534,97 +534,83 @@
     },
     {
       "id": "e77",
-      "kind": "text",
-      "label": "Button: “Login”",
-      "group": "Page",
-      "value": "Login"
-    },
-    {
-      "id": "e78",
-      "kind": "html",
-      "label": "LI: “oox menu”",
-      "group": "Page",
-      "value": "<span>oox menu</span>"
-    },
-    {
-      "id": "e79",
       "kind": "image",
       "label": "Image: mobile game vertical slice",
       "group": "Recent posts",
       "value": "/wp-content/uploads/2026/08/DSC06517-768x1152.jpg"
     },
     {
-      "id": "e80",
+      "id": "e78",
       "kind": "imageAlt",
       "label": "Alt for mobile game vertical slice",
       "group": "Recent posts",
       "value": "mobile game vertical slice"
     },
     {
-      "id": "e81",
+      "id": "e79",
       "kind": "image",
       "label": "Image: Read more",
       "group": "Recent posts",
       "value": "/wp-content/uploads/2026/03/arrowr.png"
     },
     {
-      "id": "e82",
+      "id": "e80",
       "kind": "imageAlt",
       "label": "Alt for Read more",
       "group": "Recent posts",
       "value": "Read more"
     },
     {
-      "id": "e83",
+      "id": "e81",
       "kind": "image",
       "label": "Image: Office Photos OOX Limited",
       "group": "Recent posts",
       "value": "/wp-content/uploads/2026/03/d8d70c6789c6b5f6ea12d48bc4006f64f8be8019-768x512.jpg"
     },
     {
-      "id": "e84",
+      "id": "e82",
       "kind": "imageAlt",
       "label": "Alt for Office Photos OOX Limited",
       "group": "Recent posts",
       "value": "Office Photos OOX Limited"
     },
     {
-      "id": "e85",
+      "id": "e83",
       "kind": "image",
       "label": "Image: mobile game vertical slice",
       "group": "Recent posts",
       "value": "/wp-content/uploads/2026/07/20260226-DSC06235-768x512.jpg"
     },
     {
-      "id": "e86",
+      "id": "e84",
       "kind": "imageAlt",
       "label": "Alt for mobile game vertical slice",
       "group": "Recent posts",
       "value": "mobile game vertical slice"
     },
     {
-      "id": "e87",
+      "id": "e85",
       "kind": "image",
       "label": "Image: Two developers at a workspace - one wit…",
       "group": "How a Mobile Game Development Team Work…",
       "value": "https://images.unsplash.com/photo-1551434678-e076c223a692?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5OTQwMTJ8MHwxfHNlYXJjaHwzfHxzb2Z0d2FyZSUyMGRldmVsb3BtZW50JTIwdGVhbSUyMG9mZmljZXxlbnwxfDB8fHwxNzgzNDM4NDY4fDA&ixlib=rb-4.1.0&q=80&w=1200&auto=format&fit=crop"
     },
     {
-      "id": "e88",
+      "id": "e86",
       "kind": "imageAlt",
       "label": "Alt for Two developers at a workspace…",
       "group": "How a Mobile Game Development Team Work…",
       "value": "Two developers at a workspace - one with glasses coding at a monitor, natural light from a window, a small figurine and plant on the desk"
     },
     {
-      "id": "e89",
+      "id": "e87",
       "kind": "image",
       "label": "Image: Three team members collaborating around…",
       "group": "How a Mobile Game Development Team Work…",
       "value": "https://images.unsplash.com/photo-1556761175-b413da4baf72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5OTQwMTJ8MHwxfHNlYXJjaHw0fHxwcm9kdWN0JTIwdGVhbSUyMGxhcHRvcCUyMG9mZmljZXxlbnwxfDB8fHwxNzgzNDM4NjA4fDA&ixlib=rb-4.1.0&q=80&w=1200&auto=format&fit=crop"
     },
     {
-      "id": "e90",
+      "id": "e88",
       "kind": "imageAlt",
       "label": "Alt for Three team members collaborat…",
       "group": "How a Mobile Game Development Team Work…",

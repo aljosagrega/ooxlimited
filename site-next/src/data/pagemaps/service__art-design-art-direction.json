@@ -296,101 +296,101 @@
     },
     {
       "id": "e43",
-      "kind": "text",
-      "label": "Button: “Login”",
-      "group": "Page",
-      "value": "Login"
-    },
-    {
-      "id": "e44",
-      "kind": "html",
-      "label": "LI: “oox menu”",
-      "group": "Page",
-      "value": "<span>oox menu</span>"
-    },
-    {
-      "id": "e45",
       "kind": "image",
       "label": "Image (ser-game-6.png)",
       "group": "Page",
       "value": "/wp-content/uploads/2026/01/ser-game-6.png"
     },
     {
-      "id": "e46",
+      "id": "e44",
       "kind": "image",
       "label": "Image: mobile game vertical slice",
       "group": "Recent posts",
       "value": "/wp-content/uploads/2026/08/DSC06517-768x1152.jpg"
     },
     {
-      "id": "e47",
+      "id": "e45",
       "kind": "imageAlt",
       "label": "Alt for mobile game vertical slice",
       "group": "Recent posts",
       "value": "mobile game vertical slice"
     },
     {
-      "id": "e48",
+      "id": "e46",
       "kind": "image",
       "label": "Image: Read more",
       "group": "Recent posts",
       "value": "/wp-content/uploads/2026/03/arrowr.png"
     },
     {
-      "id": "e49",
+      "id": "e47",
       "kind": "imageAlt",
       "label": "Alt for Read more",
       "group": "Recent posts",
       "value": "Read more"
     },
     {
-      "id": "e50",
+      "id": "e48",
       "kind": "image",
       "label": "Image: mobile game development team",
       "group": "Recent posts",
       "value": "/wp-content/uploads/2026/07/DSC06489-768x1152.jpg"
     },
     {
-      "id": "e51",
+      "id": "e49",
       "kind": "imageAlt",
       "label": "Alt for mobile game development team",
       "group": "Recent posts",
       "value": "mobile game development team"
     },
     {
-      "id": "e52",
+      "id": "e50",
       "kind": "image",
       "label": "Image: Office Photos OOX Limited",
       "group": "Recent posts",
       "value": "/wp-content/uploads/2026/03/d8d70c6789c6b5f6ea12d48bc4006f64f8be8019-768x512.jpg"
     },
     {
-      "id": "e53",
+      "id": "e51",
       "kind": "imageAlt",
       "label": "Alt for Office Photos OOX Limited",
       "group": "Recent posts",
       "value": "Office Photos OOX Limited"
     },
     {
-      "id": "e54",
+      "id": "e52",
       "kind": "image",
       "label": "Image: building factory oox limited",
       "group": "Types of Game Art Design & Art Directio…",
       "value": "/wp-content/uploads/2026/01/factory.png"
     },
     {
-      "id": "e55",
+      "id": "e53",
       "kind": "imageAlt",
       "label": "Alt for building factory oox limited",
       "group": "Types of Game Art Design & Art Directio…",
       "value": "building factory oox limited"
     },
     {
-      "id": "e56",
+      "id": "e54",
       "kind": "image",
       "label": "Image: image",
       "group": "Page",
       "value": "/wp-content/uploads/2026/01/targets.png"
+    },
+    {
+      "id": "e55",
+      "kind": "imageAlt",
+      "label": "Alt for image",
+      "group": "Page",
+      "value": "image"
+    },
+    {
+      "id": "e56",
+      "kind": "image",
+      "label": "Image: image",
+      "group": "Page",
+      "value": "/wp-content/uploads/2026/01/mine.png"
     },
     {
       "id": "e57",
@@ -404,24 +404,10 @@
       "kind": "image",
       "label": "Image: image",
       "group": "Page",
-      "value": "/wp-content/uploads/2026/01/mine.png"
-    },
-    {
-      "id": "e59",
-      "kind": "imageAlt",
-      "label": "Alt for image",
-      "group": "Page",
-      "value": "image"
-    },
-    {
-      "id": "e60",
-      "kind": "image",
-      "label": "Image: image",
-      "group": "Page",
       "value": "/wp-content/uploads/2026/01/rocks.png"
     },
     {
-      "id": "e61",
+      "id": "e59",
       "kind": "imageAlt",
       "label": "Alt for image",
       "group": "Page",

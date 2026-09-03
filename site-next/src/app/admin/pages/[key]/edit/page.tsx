@@ -11,18 +11,21 @@ export default async function EditPage({ params }: { params: Promise<{ key: stri
   if (!user) redirect("/admin/login");
 
   const { key } = await params;
+  // Only marketing + service pages are edited here; blog articles and team
+  // profiles live in their own sections.
+  const meta = listEditablePages().find((p) => p.key === key);
+  if (!meta) notFound();
+
   const pagemap = getPagemap(key);
   if (!pagemap.length) notFound();
-
-  const meta = listEditablePages().find((p) => p.key === key);
   const edits = getPageEdits(key);
 
   return (
     <AdminShell>
       <PageEditor
         routeKey={key}
-        routePath={meta?.routePath ?? "/"}
-        title={meta?.title ?? key}
+        routePath={meta.routePath}
+        title={meta.title}
         pagemap={pagemap}
         edits={edits}
       />

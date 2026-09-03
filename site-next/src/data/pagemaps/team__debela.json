@@ -163,27 +163,13 @@
     },
     {
       "id": "e24",
-      "kind": "text",
-      "label": "Button: “Login”",
-      "group": "Page",
-      "value": "Login"
-    },
-    {
-      "id": "e25",
-      "kind": "html",
-      "label": "LI: “oox menu”",
-      "group": "Page",
-      "value": "<span>oox menu</span>"
-    },
-    {
-      "id": "e26",
       "kind": "image",
       "label": "Image: Debela",
       "group": "Page",
       "value": "/wp-content/uploads/2026/04/DSC06494-scaled.webp"
     },
     {
-      "id": "e27",
+      "id": "e25",
       "kind": "imageAlt",
       "label": "Alt for Debela",
       "group": "Page",

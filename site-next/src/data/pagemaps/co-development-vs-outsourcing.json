@@ -457,97 +457,83 @@
     },
     {
       "id": "e66",
-      "kind": "text",
-      "label": "Button: “Login”",
-      "group": "Page",
-      "value": "Login"
-    },
-    {
-      "id": "e67",
-      "kind": "html",
-      "label": "LI: “oox menu”",
-      "group": "Page",
-      "value": "<span>oox menu</span>"
-    },
-    {
-      "id": "e68",
       "kind": "image",
       "label": "Image: mobile game vertical slice",
       "group": "Recent posts",
       "value": "/wp-content/uploads/2026/08/DSC06517-768x1152.jpg"
     },
     {
-      "id": "e69",
+      "id": "e67",
       "kind": "imageAlt",
       "label": "Alt for mobile game vertical slice",
       "group": "Recent posts",
       "value": "mobile game vertical slice"
     },
     {
-      "id": "e70",
+      "id": "e68",
       "kind": "image",
       "label": "Image: Read more",
       "group": "Recent posts",
       "value": "/wp-content/uploads/2026/03/arrowr.png"
     },
     {
-      "id": "e71",
+      "id": "e69",
       "kind": "imageAlt",
       "label": "Alt for Read more",
       "group": "Recent posts",
       "value": "Read more"
     },
     {
-      "id": "e72",
+      "id": "e70",
       "kind": "image",
       "label": "Image: Office Photos OOX Limited",
       "group": "Recent posts",
       "value": "/wp-content/uploads/2026/03/d8d70c6789c6b5f6ea12d48bc4006f64f8be8019-768x512.jpg"
     },
     {
-      "id": "e73",
+      "id": "e71",
       "kind": "imageAlt",
       "label": "Alt for Office Photos OOX Limited",
       "group": "Recent posts",
       "value": "Office Photos OOX Limited"
     },
     {
-      "id": "e74",
+      "id": "e72",
       "kind": "image",
       "label": "Image: mobile game vertical slice",
       "group": "Recent posts",
       "value": "/wp-content/uploads/2026/07/20260226-DSC06235-768x512.jpg"
     },
     {
-      "id": "e75",
+      "id": "e73",
       "kind": "imageAlt",
       "label": "Alt for mobile game vertical slice",
       "group": "Recent posts",
       "value": "mobile game vertical slice"
     },
     {
-      "id": "e76",
+      "id": "e74",
       "kind": "image",
       "label": "Image: Outsourcing game development vs co-deve…",
       "group": "Co-Development vs. Outsourcing Game Dev…",
       "value": "/wp-content/uploads/2026/03/b362a45c39fc195034f2ab8c2aa20e616361e210.jpg"
     },
     {
-      "id": "e77",
+      "id": "e75",
       "kind": "imageAlt",
       "label": "Alt for Outsourcing game development …",
       "group": "Co-Development vs. Outsourcing Game Dev…",
       "value": "Outsourcing game development vs co-development studio pipeline"
     },
     {
-      "id": "e78",
+      "id": "e76",
       "kind": "image",
       "label": "Image: Game development team analyzing product…",
       "group": "Co-Development vs. Outsourcing Game Dev…",
       "value": "/wp-content/uploads/2026/03/2e1c47dbaff30e97e9ce2805680aded83fd7c1c3.jpg"
     },
     {
-      "id": "e79",
+      "id": "e77",
       "kind": "imageAlt",
       "label": "Alt for Game development team analyzi…",
       "group": "Co-Development vs. Outsourcing Game Dev…",

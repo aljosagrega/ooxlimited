@@ -198,27 +198,13 @@
     },
     {
       "id": "e29",
-      "kind": "text",
-      "label": "Button: “Login”",
-      "group": "Page",
-      "value": "Login"
-    },
-    {
-      "id": "e30",
-      "kind": "html",
-      "label": "LI: “oox menu”",
-      "group": "Page",
-      "value": "<span>oox menu</span>"
-    },
-    {
-      "id": "e31",
       "kind": "image",
       "label": "Image: Srđan Radujko",
       "group": "Page",
       "value": "/wp-content/uploads/2026/03/DSC06380-scaled.jpg"
     },
     {
-      "id": "e32",
+      "id": "e30",
       "kind": "imageAlt",
       "label": "Alt for Srđan Radujko",
       "group": "Page",

@@ -1,18 +1,3 @@
 {
-  "entries": [
-    {
-      "id": "e1",
-      "kind": "text",
-      "label": "Button: “Login”",
-      "group": "Page",
-      "value": "Login"
-    },
-    {
-      "id": "e2",
-      "kind": "html",
-      "label": "LI: “oox menu”",
-      "group": "Page",
-      "value": "<span>oox menu</span>"
-    }
-  ]
+  "entries": []
 }

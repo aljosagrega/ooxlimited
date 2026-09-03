@@ -408,97 +408,83 @@
     },
     {
       "id": "e59",
-      "kind": "text",
-      "label": "Button: “Login”",
-      "group": "Page",
-      "value": "Login"
-    },
-    {
-      "id": "e60",
-      "kind": "html",
-      "label": "LI: “oox menu”",
-      "group": "Page",
-      "value": "<span>oox menu</span>"
-    },
-    {
-      "id": "e61",
       "kind": "image",
       "label": "Image: mobile game vertical slice",
       "group": "Recent posts",
       "value": "/wp-content/uploads/2026/08/DSC06517-768x1152.jpg"
     },
     {
-      "id": "e62",
+      "id": "e60",
       "kind": "imageAlt",
       "label": "Alt for mobile game vertical slice",
       "group": "Recent posts",
       "value": "mobile game vertical slice"
     },
     {
-      "id": "e63",
+      "id": "e61",
       "kind": "image",
       "label": "Image: Read more",
       "group": "Recent posts",
       "value": "/wp-content/uploads/2026/03/arrowr.png"
     },
     {
-      "id": "e64",
+      "id": "e62",
       "kind": "imageAlt",
       "label": "Alt for Read more",
       "group": "Recent posts",
       "value": "Read more"
     },
     {
-      "id": "e65",
+      "id": "e63",
       "kind": "image",
       "label": "Image: mobile game vertical slice",
       "group": "Recent posts",
       "value": "/wp-content/uploads/2026/07/20260226-DSC06235-768x512.jpg"
     },
     {
-      "id": "e66",
+      "id": "e64",
       "kind": "imageAlt",
       "label": "Alt for mobile game vertical slice",
       "group": "Recent posts",
       "value": "mobile game vertical slice"
     },
     {
-      "id": "e67",
+      "id": "e65",
       "kind": "image",
       "label": "Image: mobile game development team",
       "group": "Recent posts",
       "value": "/wp-content/uploads/2026/07/DSC06489-768x1152.jpg"
     },
     {
-      "id": "e68",
+      "id": "e66",
       "kind": "imageAlt",
       "label": "Alt for mobile game development team",
       "group": "Recent posts",
       "value": "mobile game development team"
     },
     {
-      "id": "e69",
+      "id": "e67",
       "kind": "image",
       "label": "Image: Three game developers reviewing a greyb…",
       "group": "The Prototyping-First Studio: Why Valid…",
       "value": "https://lh3.googleusercontent.com/d/1clfFXv_0EdTKWUWoaFaSYiMqs90MCVcb=w1200"
     },
     {
-      "id": "e70",
+      "id": "e68",
       "kind": "imageAlt",
       "label": "Alt for Three game developers reviewi…",
       "group": "The Prototyping-First Studio: Why Valid…",
       "value": "Three game developers reviewing a greybox prototype with debug overlays and retention metrics on dual monitors in a modern studio with natural window light."
     },
     {
-      "id": "e71",
+      "id": "e69",
       "kind": "image",
       "label": "Image: Close-up of hands holding a smartphone …",
       "group": "The Prototyping-First Studio: Why Valid…",
       "value": "https://lh3.googleusercontent.com/d/13f2MhQyOlnjoaEFU0h39OAKvfPn6AXWn=w1200"
     },
     {
-      "id": "e72",
+      "id": "e70",
       "kind": "imageAlt",
       "label": "Alt for Close-up of hands holding a s…",
       "group": "The Prototyping-First Studio: Why Valid…",
