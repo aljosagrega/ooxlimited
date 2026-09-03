@@ -1,17 +1,20 @@
 # ooxlimited
 
-> Git state: **remote** — a private GitHub repo, owned by a collaborator's account rather
-> than ours. Anyone granted clone access reads everything tracked here, so the usual rule
-> applies without exception: no credentials, no host addresses, no references to unrelated
-> projects or to anyone's local directory layout, in code, docs or commit messages.
+> Git state: **remote, public** — a public GitHub repo, owned by a collaborator's account
+> rather than ours. Everything tracked here, history included, is readable by anyone at all,
+> so the usual rule applies without exception and with no clone-access boundary to soften it:
+> no credentials, no host addresses or hostnames, no references to unrelated projects or to
+> anyone's local directory layout, in code, docs or commit messages.
 
 A local, runnable copy of the `ooxlimited.com` WordPress site: the docroot plus a Docker
 setup that stands it up on `localhost:8080`. `README.md` is the operating manual — how to
 start it, the layout, how a local copy is obtained and how it differs from the live site.
 
-Intended to grow into the source of record for the site, and eventually to deploy back to
-its host through CI. It is not there yet: today the live site is upstream and this is a
-copy of it.
+`site-next/` is the Next.js rebuild that replaces that install — a standalone app with a
+flat-JSON content store and an admin CMS, deployed from CI by `.github/workflows/deploy.yml`
+(see `site-next/DEPLOYMENT.md`). It ships to a gated review deployment for client approval;
+the `ooxlimited.com` apex is still the WordPress site, which remains upstream for
+`npm run snapshot` / `npm run migrate` until the cutover.
 
 ## What is deliberately not in this repo
 
