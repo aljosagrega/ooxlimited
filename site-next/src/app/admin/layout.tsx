@@ -72,9 +72,11 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
             --at-font-body: var(--font-inter);
           }
           html, body { background: var(--at-bg); }
-          /* keep the scrollbar gutter reserved so a short skeleton -> tall page
-             swap never nudges the layout sideways */
-          html { scrollbar-gutter: stable; }
+          /* always show the scrollbar track so a short skeleton -> tall page
+             swap can't nudge the layout sideways (no scrollbar-gutter quirks) */
+          html { overflow-y: scroll; }
+          .admin-content-pad { width: 100%; }
+          @media (max-width: 767px) { .admin-content-pad { padding: 0 !important; } }
           .admin-shell, .admin-shell *, .admin-shell *::before, .admin-shell *::after { box-sizing: border-box; }
           .admin-shell { font-family: var(--at-font-body), system-ui, sans-serif; -webkit-font-smoothing: antialiased; color: var(--at-text); }
           .admin-shell button, .admin-shell input, .admin-shell textarea, .admin-shell select { font-family: inherit; }

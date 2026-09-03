@@ -45,13 +45,15 @@ function localInputToIso(v: string): string {
   return Number.isNaN(d.getTime()) ? "" : d.toISOString();
 }
 
-export default function SchemaForm({ schema, record, locales, refOptions = {} }: {
+export default function SchemaForm({ schema, record, locales, refOptions = {}, embedded = false }: {
   schema: CollectionSchema;
   record?: Row;
   /** editable locale codes (from languages.json); falls back to EDIT_LOCALES */
   locales?: string[];
   /** option lists for `ref` / `refList` fields, keyed by field key */
   refOptions?: Record<string, RefOption[]>;
+  /** rendered inside another editor — drop the page heading + outer padding */
+  embedded?: boolean;
 }) {
   const router = useRouter();
   const isEdit = !!record;
@@ -378,11 +380,13 @@ export default function SchemaForm({ schema, record, locales, refOptions = {} }:
       />
     )}
     <form onSubmit={handleSubmit} style={{ display: "flex", flexDirection: "column", gap: 20, maxWidth: 860 }}>
-      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap", gap: 12 }}>
-        <h1 style={{ fontSize: 20, fontWeight: 600, color: "var(--at-text)", margin: 0 }}>
-          {heading}
-          {isEdit && data[schema.titleField] ? <span style={{ color: "var(--at-faint)", fontWeight: 400 }}> — {String(data[schema.titleField])}</span> : null}
-        </h1>
+      <div style={{ display: "flex", alignItems: "center", justifyContent: embedded ? "flex-end" : "space-between", flexWrap: "wrap", gap: 12 }}>
+        {!embedded && (
+          <h1 style={{ fontSize: 20, fontWeight: 600, color: "var(--at-text)", margin: 0 }}>
+            {heading}
+            {isEdit && data[schema.titleField] ? <span style={{ color: "var(--at-faint)", fontWeight: 400 }}> — {String(data[schema.titleField])}</span> : null}
+          </h1>
+        )}
         <button type="button" onClick={() => { setShowJson((s) => !s); setJsonText(JSON.stringify(data, null, 2)); setJsonError(""); if (showPreview) closePreview(); }} className="btn btn-secondary btn-sm">
           {showJson ? "Form view" : "Edit raw JSON"}
         </button>

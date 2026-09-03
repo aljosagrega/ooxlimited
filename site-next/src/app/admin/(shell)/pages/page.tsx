@@ -3,7 +3,7 @@ import Link from "next/link";
 import { requireAuth } from "@/lib/session";
 import { listEditablePages, type EditablePage } from "@/lib/pageList";import { ExternalLink } from "lucide-react";
 
-const GROUP_ORDER: EditablePage["group"][] = ["Marketing", "Service pages"];
+const GROUP_ORDER: EditablePage["group"][] = ["Marketing"];
 
 export default async function AdminPagesList() {
   const user = await requireAuth();
@@ -17,7 +17,7 @@ export default async function AdminPagesList() {
         <div>
           <h1 style={{ fontSize: 22, fontWeight: 600, color: "var(--at-text)", margin: 0 }}>Pages</h1>
           <p style={{ fontSize: 13, color: "var(--at-muted)", marginTop: 4 }}>
-            Every public page. Edit its text and images field by field — the layout stays fixed.
+            The Home, Services, Our Team, About, Contact and Blog pages — edit the text and images around the parts generated from Blog, Team and Services. Layout stays fixed.
           </p>
         </div>
 
