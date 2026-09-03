@@ -204,6 +204,22 @@ Code-only improvements after the client took the content items:
 **Estimated score:** 56 → **82**, ~89 once the open content items + a page-speed
 CSS/JS-trim pass land.
 
+### Font loading (commit `e17bfb66`)
+
+The frozen head requested Poppins + Plus Jakarta Sans + Saira Semi Condensed
+each at all 18 weight/italic variants, omero added a 2nd Saira request, and
+`&#038;` separators stranded `display=swap` in a fragment (FOIT everywhere).
+Worse, `dedupe()` keyed stylesheets on the path — shared by every Google Fonts
+URL — so only the first family loaded and **Plus Jakarta Sans (blog body font,
+172 rules) silently fell back**. Fixed in `frozen.ts`:
+
+- `dedupe()` keys Google Fonts by `family=` → all three load again
+- weights trimmed to `300–900` + `400italic` (CSS never uses 100/200/other italics)
+- `&#038;` → `&`; omero's duplicate Saira dropped; `preconnect` to fonts.gstatic.com
+
+Verified via screenshots (home / blog list / article) — no visual regression;
+Plus Jakarta Sans now resolves as the CSS intends.
+
 ### Data-quality issues surfaced (client / content)
 
 - `team.json`: all 13 bios are one paragraph with the name swapped; every
