@@ -24,7 +24,10 @@ export default function PublicLayout({ children }: { children: React.ReactNode }
   const s = getSiteSettings();
   return (
     <html lang="en-US">
-      <body>
+      {/* <FrozenBodyClass> sets the frozen page's class list on <body> via a
+          synchronous inline script before first paint; that runs ahead of
+          hydration, so the class is on <body> when React reconciles it. */}
+      <body suppressHydrationWarning>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: renderJsonLd(organizationJsonLd()) }}

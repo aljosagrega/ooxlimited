@@ -69,9 +69,15 @@ export function getFrozenAssets(routePath: string): FrozenAssets | null {
     const tag = m[0];
     const rel = /rel=["']([^"']+)["']/i.exec(tag)?.[1] ?? "";
     const href = /href=["']([^"']+)["']/i.exec(tag)?.[1] ?? "";
-    if (rel.includes("stylesheet") && href) stylesheets.push(href);
-    else if (/preconnect|dns-prefetch|preload/i.test(rel)) headLinks.push(tag);
+    if (rel.includes("stylesheet") && href) {
+      const trimmed = trimFontHref(href);
+      if (trimmed) stylesheets.push(trimmed);
+    } else if (/preconnect|dns-prefetch|preload/i.test(rel)) headLinks.push(tag);
   }
+  // Elementor enqueues every Google font at all 18 weight/italic variants and
+  // omero adds a second Saira request. Preconnect once so the (trimmed) font
+  // fetches don't wait on a cold connection.
+  headLinks.unshift('<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />');
   for (const m of page.headHtml.matchAll(/<style\b[^>]*>([\s\S]*?)<\/style>/gi)) {
     styles.push(m[1]);
   }
@@ -100,10 +106,51 @@ export function getFrozenAssets(routePath: string): FrozenAssets | null {
   return { stylesheets: dedupe(stylesheets), headLinks, styles, scripts: dedupedScripts, bodyHtml, bodyClass: page.bodyClass, lang: page.lang };
 }
 
+/**
+ * Google Fonts cleanup. The frozen Elementor markup requests Poppins, Plus
+ * Jakarta Sans and Saira Semi Condensed each at every weight 100-900 plus every
+ * italic (`css?family=Poppins:100,100italic,…,900,900italic`), omero adds a
+ * second Saira request via the `css2` API, and the query separators are
+ * HTML-encoded as `&#038;` — so `display=swap` ends up stranded in a fragment
+ * and never applies (fonts load with FOIT, not swap).
+ *
+ * This keeps only the weights the site's CSS actually uses (300-900 and a few
+ * `400italic` rules — 100/200 and other italics are never referenced), fixes
+ * the separator, and drops omero's duplicate Saira request. Legacy `css?`
+ * syntax is kept rather than migrated to `css2` because an unavailable weight
+ * there is ignored, where `css2` 400s the whole stylesheet.
+ */
+export function trimFontHref(href: string): string | null {
+  if (!/fonts\.googleapis\.com/i.test(href)) return href;
+  href = href.replace(/&(?:#0*38;|amp;)/g, "&");
+
+  // omero's `css2` Saira duplicates the elementor legacy Saira request.
+  if (/\/css2\?family=Saira/i.test(href)) return null;
+
+  const legacy = href.match(/^(.*\/css\?family=)([^:&]+):([^&]+)(.*)$/i);
+  if (!legacy) return href;
+  const [, prefix, family, weightList, rest] = legacy;
+  const kept = weightList
+    .split(",")
+    .map((w) => w.trim())
+    .filter((w) => w === "400italic" || /^(300|400|500|600|700|800|900)$/.test(w));
+  if (!kept.length) return href;
+  return `${prefix}${family}:${kept.join(",")}${rest}`;
+}
+
+/** Stylesheet dedupe key. Google Fonts requests all share the `/css` path and
+ *  differ only by `?family=`, so key those on the family — otherwise the first
+ *  font wins and the rest (Plus Jakarta Sans, Saira) are silently dropped. */
+function stylesheetKey(href: string): string {
+  const fam = /fonts\.googleapis\.com/i.test(href) && href.match(/[?&]family=([^:&]+)/i);
+  if (fam) return `gfont:${decodeURIComponent(fam[1]).replace(/\+/g, " ").toLowerCase()}`;
+  return href.split("?")[0];
+}
+
 function dedupe(arr: string[]): string[] {
   const seen = new Set<string>();
   return arr.filter((x) => {
-    const k = x.split("?")[0];
+    const k = stylesheetKey(x);
     if (seen.has(k)) return false;
     seen.add(k);
     return true;
