@@ -1,9 +1,7 @@
 import { redirect } from "next/navigation";
 import Link from "next/link";
 import { requireAuth } from "@/lib/session";
-import { listEditablePages, type EditablePage } from "@/lib/pageList";
-import AdminShell from "@/components/admin/AdminShell";
-import { ExternalLink } from "lucide-react";
+import { listEditablePages, type EditablePage } from "@/lib/pageList";import { ExternalLink } from "lucide-react";
 
 const GROUP_ORDER: EditablePage["group"][] = ["Marketing", "Service pages"];
 
@@ -15,8 +13,7 @@ export default async function AdminPagesList() {
   const groups = GROUP_ORDER.map((g) => [g, pages.filter((p) => p.group === g)] as const).filter(([, l]) => l.length);
 
   return (
-    <AdminShell>
-      <div className="admin-content-pad" style={{ maxWidth: 900, display: "flex", flexDirection: "column", gap: 24 }}>
+          <div className="admin-content-pad" style={{ maxWidth: 900, display: "flex", flexDirection: "column", gap: 24 }}>
         <div>
           <h1 style={{ fontSize: 22, fontWeight: 600, color: "var(--at-text)", margin: 0 }}>Pages</h1>
           <p style={{ fontSize: 13, color: "var(--at-muted)", marginTop: 4 }}>
@@ -60,6 +57,5 @@ export default async function AdminPagesList() {
           </div>
         ))}
       </div>
-    </AdminShell>
   );
 }

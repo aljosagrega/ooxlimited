@@ -1,9 +1,7 @@
 import { redirect, notFound } from "next/navigation";
 import { requireAuth } from "@/lib/session";
 import { getSchema } from "@/lib/adminSchema";
-import { listRowsForView } from "@/lib/adminCollections";
-import AdminShell from "@/components/admin/AdminShell";
-import CollectionList from "@/components/admin/CollectionList";
+import { listRowsForView } from "@/lib/adminCollections";import CollectionList from "@/components/admin/CollectionList";
 
 export default async function CollectionListPage({ params }: { params: Promise<{ collection: string }> }) {
   const user = await requireAuth();
@@ -14,8 +12,6 @@ export default async function CollectionListPage({ params }: { params: Promise<{
   if (!schema) notFound();
 
   return (
-    <AdminShell>
-      <CollectionList schema={schema} rows={listRowsForView(schema)} />
-    </AdminShell>
+          <CollectionList schema={schema} rows={listRowsForView(schema)} />
   );
 }

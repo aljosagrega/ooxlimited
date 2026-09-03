@@ -72,6 +72,9 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
             --at-font-body: var(--font-inter);
           }
           html, body { background: var(--at-bg); }
+          /* keep the scrollbar gutter reserved so a short skeleton -> tall page
+             swap never nudges the layout sideways */
+          html { scrollbar-gutter: stable; }
           .admin-shell, .admin-shell *, .admin-shell *::before, .admin-shell *::after { box-sizing: border-box; }
           .admin-shell { font-family: var(--at-font-body), system-ui, sans-serif; -webkit-font-smoothing: antialiased; color: var(--at-text); }
           .admin-shell button, .admin-shell input, .admin-shell textarea, .admin-shell select { font-family: inherit; }
@@ -167,6 +170,8 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
           suppressHydrationWarning
         >
           <Script id="admin-theme-boot" strategy="beforeInteractive" dangerouslySetInnerHTML={{ __html: blockingScript }} />
+          {/* The sidebar shell is in admin/(shell)/layout.tsx — login sits
+              outside it. This layer only owns the theme + fonts + <html>/<body>. */}
           <AdminThemeProvider>{children}</AdminThemeProvider>
         </div>
       </body>

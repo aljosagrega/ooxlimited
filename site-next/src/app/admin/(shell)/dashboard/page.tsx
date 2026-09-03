@@ -4,9 +4,7 @@ import { requireAuth } from "@/lib/session";
 import { collectionCounts } from "@/lib/adminCollections";
 import { getDashboardStats } from "@/lib/adminStats";
 import { listEditablePages } from "@/lib/pageList";
-import { SCHEMAS } from "@/lib/adminSchema";
-import AdminShell from "@/components/admin/AdminShell";
-import {
+import { SCHEMAS } from "@/lib/adminSchema";import {
   ChartCard, BarChart, SegmentedBar, HBars, StatList, CountCard, SectionLabel,
 } from "@/components/admin/charts";
 import { STATUS } from "@/lib/chartPalette";
@@ -28,8 +26,7 @@ export default async function AdminDashboardPage() {
   const pagesEdited = editablePages.filter((p) => p.edited > 0).length;
 
   return (
-    <AdminShell>
-      <div className="admin-content-pad" style={{ display: "flex", flexDirection: "column", gap: 28 }}>
+          <div className="admin-content-pad" style={{ display: "flex", flexDirection: "column", gap: 28 }}>
         <div>
           <h1 style={{ fontSize: 24, fontWeight: 600, color: "var(--at-text)", margin: 0, letterSpacing: "-0.02em" }}>
             Welcome back, {user.username}
@@ -119,6 +116,5 @@ export default async function AdminDashboardPage() {
           </div>
         </div>
       </div>
-    </AdminShell>
   );
 }
