@@ -1,0 +1,197 @@
+name: Deploy site-next
+
+# Push to main deploys the Next rebuild to the review host. The WordPress copy
+# under site/ is not deployed by anything — it is upstream, not a build target.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'site-next/**'
+      - '.github/workflows/deploy.yml'
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-review
+  cancel-in-progress: false
+
+defaults:
+  run:
+    working-directory: site-next
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    env:
+      # Distinct per run, not per commit: a workflow_dispatch re-run of an
+      # unchanged main would otherwise rsync into the directory `current`
+      # already points at, mutating the live release while it serves, and
+      # leave the rollback step with no earlier release to fall back to.
+      RELEASE: ${{ github.sha }}-${{ github.run_number }}
+      SSH_USER: ${{ vars.SSH_USER }}
+      SSH_HOST: ${{ vars.SSH_HOST }}
+      SSH_PORT: ${{ vars.SSH_PORT }}
+      BASE: ${{ vars.DEPLOY_PATH }}
+      SERVICE_NAME: ${{ vars.SERVICE_NAME }}
+      APP_PORT: ${{ vars.APP_PORT }}
+      SITE_URL: ${{ vars.SITE_URL }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+          cache-dependency-path: site-next/package-lock.json
+
+      - run: npm ci
+
+      # SITE_URL is read at build time as well as at runtime: sitemap.ts bakes it
+      # into the generated /sitemap.xml, so the value here decides the canonical
+      # host of this release. Changing it needs a rebuild, not just a restart.
+      - run: npm run build
+
+      # `output: "standalone"` emits a minimal server but NOT .next/static or the
+      # full public/ tree — stitch those back in.
+      #
+      # public/ is merged by contents (public/.) rather than copied as a directory:
+      # standalone can emit a partial public/ for the upload route, and a plain
+      # `cp -r public deploy/public` would nest everything at public/public/.
+      #
+      # src/data is NOT copied: next.config.ts's outputFileTracingIncludes already
+      # puts the whole tree into standalone. Copying it again would nest it at
+      # src/data/data/ and the server (which reads process.cwd()/src/data) would
+      # serve the seed instead of live content.
+      - name: Assemble bundle
+        run: |
+          set -euo pipefail
+          mkdir -p deploy
+          cp -r .next/standalone/. deploy/
+          mkdir -p deploy/.next
+          cp -r .next/static deploy/.next/static
+          mkdir -p deploy/public
+          cp -r public/. deploy/public/
+          test -d deploy/src/data/frozen || { echo "::error::standalone did not emit src/data/frozen — next.config.ts outputFileTracingIncludes assumption broken"; exit 1; }
+          test ! -d deploy/src/data/data || { echo "::error::src/data is nested — the copy step regressed"; exit 1; }
+
+      - uses: webfactory/ssh-agent@v0.10.0
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+      - name: Trust host key
+        run: |
+          mkdir -p ~/.ssh
+          ssh-keyscan -T 5 -p "$SSH_PORT" -H "$SSH_HOST" >> ~/.ssh/known_hosts
+
+      # Releases-symlink: rsync into a per-SHA dir, then flip `current` atomically.
+      # No --delete against a live tree.
+      - name: Upload release
+        run: |
+          set -euo pipefail
+          SSH_OPTS="-p $SSH_PORT -o BatchMode=yes"
+          REMOTE="$SSH_USER@$SSH_HOST"
+          ssh $SSH_OPTS "$REMOTE" "mkdir -p $BASE/releases $BASE/shared/data/pending $BASE/shared/media/uploads $BASE/shared/uploads"
+          rsync -rltz --no-owner --no-group --no-perms \
+            -e "ssh $SSH_OPTS" \
+            deploy/ "$REMOTE:$BASE/releases/$RELEASE/"
+
+      # Runtime-writable state lives in $BASE/shared so it survives redeploys:
+      # content JSON, the bcrypt admin credentials, form submissions, admin
+      # uploads, and the client's WordPress media library.
+      - name: Activate release
+        run: |
+          set -euo pipefail
+          SSH_OPTS="-p $SSH_PORT -o BatchMode=yes"
+          REMOTE="$SSH_USER@$SSH_HOST"
+          ssh $SSH_OPTS "$REMOTE" bash -s <<EOF
+            set -euo pipefail
+            cd "$BASE"
+            REL="releases/$RELEASE"
+
+            [ -f shared/.env ] && ln -sfn "$BASE/shared/.env" "\$REL/.env"
+
+            # Every content JSON the release ships: seed shared once, then symlink.
+            # Looping over the release (not a hardcoded list) means a content type
+            # added in a future release is picked up without editing this file.
+            # Consequence worth knowing: once seeded, shared wins — a release that
+            # re-freezes these files does NOT take effect. See DEPLOYMENT.md.
+            for f in "\$REL"/src/data/*.json; do
+              # Skip anything that does not resolve to a real file: an unmatched glob,
+              # or a DANGLING symlink. The second loop below deliberately links
+              # runtime-only files (submissions.json has no target until the first form
+              # submission), and re-deploying the same SHA rsyncs into a directory that
+              # already holds those links — so this glob can and does see them.
+              [ -e "\$f" ] || continue
+              b=\$(basename "\$f")
+              [ -f "shared/data/\$b" ] || cp -L "\$f" "shared/data/\$b"
+              ln -sfn "$BASE/shared/data/\$b" "\$REL/src/data/\$b"
+            done
+
+            # Runtime-only files: never ship in a release, created on first use.
+            # adminAuth.json is deliberately a dangling link until the app bootstraps
+            # it from ADMIN_USERNAME/ADMIN_PASSWORD.
+            for b in adminAuth.json submissions.json; do
+              ln -sfn "$BASE/shared/data/\$b" "\$REL/src/data/\$b"
+            done
+
+            rm -rf "\$REL/src/data/pending" && ln -sfn "$BASE/shared/data/pending" "\$REL/src/data/pending"
+
+            # public/media/ is not in the repo and standalone does not emit one, so
+            # the parent has to exist or the symlink fails with ENOENT.
+            mkdir -p "\$REL/public/media"
+            rm -rf "\$REL/public/media/uploads" && ln -sfn "$BASE/shared/media/uploads" "\$REL/public/media/uploads"
+
+            # The client's WordPress media library (~618 MB): host state, in no
+            # repo, seeded by hand. nginx serves it off disk via the /wp-content/
+            # alias, which follows this symlink through current/.
+            mkdir -p "\$REL/public/wp-content"
+            rm -rf "\$REL/public/wp-content/uploads" && ln -sfn "$BASE/shared/uploads" "\$REL/public/wp-content/uploads"
+
+            ln -sfn "\$REL" current
+            sudo systemctl restart $SERVICE_NAME
+          EOF
+
+      # Checked from inside the box against the app port, NOT the public URL: the
+      # review host sits behind nginx basic auth, so a public curl returns 401,
+      # would fail this step, trip the rollback, and then fail again with "no
+      # previous release" on a first deploy. It also tests the app, not the proxy.
+      - name: Health check
+        id: healthcheck
+        run: |
+          set -euo pipefail
+          SSH_OPTS="-p $SSH_PORT -o BatchMode=yes"
+          REMOTE="$SSH_USER@$SSH_HOST"
+          sleep 3
+          ssh $SSH_OPTS "$REMOTE" \
+            "curl --fail --silent --show-error --retry 5 --retry-delay 2 --retry-all-errors \
+               -o /dev/null http://127.0.0.1:$APP_PORT/"
+
+      - name: Rollback
+        if: failure() && steps.healthcheck.outcome == 'failure'
+        run: |
+          set -euo pipefail
+          SSH_OPTS="-p $SSH_PORT -o BatchMode=yes"
+          REMOTE="$SSH_USER@$SSH_HOST"
+          ssh $SSH_OPTS "$REMOTE" bash -s <<EOF
+            set -euo pipefail
+            cd "$BASE"
+            PREV=\$(ls -1dt releases/*/ | grep -v "$RELEASE" | head -1 || true)
+            if [ -z "\$PREV" ]; then
+              echo "no previous release to roll back to" >&2
+              exit 1
+            fi
+            ln -sfn "\${PREV%/}" current
+            sudo systemctl restart $SERVICE_NAME
+            echo "rolled back to \$PREV"
+          EOF
+
+      - name: Prune old releases
+        if: success()
+        run: |
+          set -euo pipefail
+          SSH_OPTS="-p $SSH_PORT -o BatchMode=yes"
+          REMOTE="$SSH_USER@$SSH_HOST"
+          ssh $SSH_OPTS "$REMOTE" \
+            "cd $BASE/releases && ls -1dt */ | tail -n +6 | xargs -r rm -rf"
