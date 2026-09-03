@@ -240,27 +240,13 @@
     },
     {
       "id": "e35",
-      "kind": "text",
-      "label": "Button: “Login”",
-      "group": "Page",
-      "value": "Login"
-    },
-    {
-      "id": "e36",
-      "kind": "html",
-      "label": "LI: “oox menu”",
-      "group": "Page",
-      "value": "<span>oox menu</span>"
-    },
-    {
-      "id": "e37",
       "kind": "image",
       "label": "Image: Ozren Kolaic",
       "group": "Page",
       "value": "/wp-content/uploads/2026/04/DSC065362-1-scaled.jpg"
     },
     {
-      "id": "e38",
+      "id": "e36",
       "kind": "imageAlt",
       "label": "Alt for Ozren Kolaic",
       "group": "Page",

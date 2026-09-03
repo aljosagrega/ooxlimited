@@ -212,27 +212,13 @@
     },
     {
       "id": "e31",
-      "kind": "text",
-      "label": "Button: “Login”",
-      "group": "Page",
-      "value": "Login"
-    },
-    {
-      "id": "e32",
-      "kind": "html",
-      "label": "LI: “oox menu”",
-      "group": "Page",
-      "value": "<span>oox menu</span>"
-    },
-    {
-      "id": "e33",
       "kind": "image",
       "label": "Image: Bojan Marjanović",
       "group": "Page",
       "value": "/wp-content/uploads/2026/04/DSC06354-scaled.webp"
     },
     {
-      "id": "e34",
+      "id": "e32",
       "kind": "imageAlt",
       "label": "Alt for Bojan Marjanović",
       "group": "Page",

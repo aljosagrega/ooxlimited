@@ -76,20 +76,6 @@
       "label": "P: “Whether you want to validate a game idea, scope a mobile ap…”",
       "group": "Let’s Discuss Your Game or App Developm…",
       "value": "Whether you want to validate a game idea, scope a mobile app, continue an existing build, or move from prototype to full production, our team can help define the next step clearly. We focus on practical planning, fast iteration, and development workflows that reduce risk before larger investment."
-    },
-    {
-      "id": "e12",
-      "kind": "text",
-      "label": "Button: “Login”",
-      "group": "Page",
-      "value": "Login"
-    },
-    {
-      "id": "e13",
-      "kind": "html",
-      "label": "LI: “oox menu”",
-      "group": "Page",
-      "value": "<span>oox menu</span>"
     }
   ]
 }

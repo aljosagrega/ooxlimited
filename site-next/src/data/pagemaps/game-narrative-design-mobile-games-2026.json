@@ -268,97 +268,83 @@
     },
     {
       "id": "e39",
-      "kind": "text",
-      "label": "Button: “Login”",
-      "group": "Page",
-      "value": "Login"
-    },
-    {
-      "id": "e40",
-      "kind": "html",
-      "label": "LI: “oox menu”",
-      "group": "Page",
-      "value": "<span>oox menu</span>"
-    },
-    {
-      "id": "e41",
       "kind": "image",
       "label": "Image: mobile game vertical slice",
       "group": "Recent posts",
       "value": "/wp-content/uploads/2026/08/DSC06517-768x1152.jpg"
     },
     {
-      "id": "e42",
+      "id": "e40",
       "kind": "imageAlt",
       "label": "Alt for mobile game vertical slice",
       "group": "Recent posts",
       "value": "mobile game vertical slice"
     },
     {
-      "id": "e43",
+      "id": "e41",
       "kind": "image",
       "label": "Image: Read more",
       "group": "Recent posts",
       "value": "/wp-content/uploads/2026/03/arrowr.png"
     },
     {
-      "id": "e44",
+      "id": "e42",
       "kind": "imageAlt",
       "label": "Alt for Read more",
       "group": "Recent posts",
       "value": "Read more"
     },
     {
-      "id": "e45",
+      "id": "e43",
       "kind": "image",
       "label": "Image: Office Photos OOX Limited",
       "group": "Recent posts",
       "value": "/wp-content/uploads/2026/03/d8d70c6789c6b5f6ea12d48bc4006f64f8be8019-768x512.jpg"
     },
     {
-      "id": "e46",
+      "id": "e44",
       "kind": "imageAlt",
       "label": "Alt for Office Photos OOX Limited",
       "group": "Recent posts",
       "value": "Office Photos OOX Limited"
     },
     {
-      "id": "e47",
+      "id": "e45",
       "kind": "image",
       "label": "Image: mobile game vertical slice",
       "group": "Recent posts",
       "value": "/wp-content/uploads/2026/07/20260226-DSC06235-768x512.jpg"
     },
     {
-      "id": "e48",
+      "id": "e46",
       "kind": "imageAlt",
       "label": "Alt for mobile game vertical slice",
       "group": "Recent posts",
       "value": "mobile game vertical slice"
     },
     {
-      "id": "e49",
+      "id": "e47",
       "kind": "image",
       "label": "Image: A game narrative designer at a wooden s…",
       "group": "Narrative Design for Mobile Games — Tel…",
       "value": "/wp-content/uploads/2026/07/1.jpg"
     },
     {
-      "id": "e50",
+      "id": "e48",
       "kind": "imageAlt",
       "label": "Alt for A game narrative designer at …",
       "group": "Narrative Design for Mobile Games — Tel…",
       "value": "A game narrative designer at a wooden studio desk sketches story-structure diagrams in a physical notebook, bathed in soft window light, with coffee mug, color swatches, and sticky notes across a lived-in creative workspace"
     },
     {
-      "id": "e51",
+      "id": "e49",
       "kind": "image",
       "label": "Image: Three game developers gathered around a…",
       "group": "Narrative Design for Mobile Games — Tel…",
       "value": "/wp-content/uploads/2026/07/2.jpg"
     },
     {
-      "id": "e52",
+      "id": "e50",
       "kind": "imageAlt",
       "label": "Alt for Three game developers gathere…",
       "group": "Narrative Design for Mobile Games — Tel…",

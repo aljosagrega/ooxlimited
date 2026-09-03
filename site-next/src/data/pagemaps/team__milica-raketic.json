@@ -254,27 +254,13 @@
     },
     {
       "id": "e37",
-      "kind": "text",
-      "label": "Button: “Login”",
-      "group": "Page",
-      "value": "Login"
-    },
-    {
-      "id": "e38",
-      "kind": "html",
-      "label": "LI: “oox menu”",
-      "group": "Page",
-      "value": "<span>oox menu</span>"
-    },
-    {
-      "id": "e39",
       "kind": "image",
       "label": "Image: Milica Raketić",
       "group": "Page",
       "value": "/wp-content/uploads/2026/03/DSC06480-1-scaled.jpg"
     },
     {
-      "id": "e40",
+      "id": "e38",
       "kind": "imageAlt",
       "label": "Alt for Milica Raketić",
       "group": "Page",

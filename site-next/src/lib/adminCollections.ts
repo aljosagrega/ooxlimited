@@ -107,6 +107,9 @@ export function updateRow(slug: string, id: number, data: Row): Row | null {
   // A saved post's body now drives the live page (see singleContent.ts) —
   // before this it renders the exact frozen markup.
   if (slug === "posts" && typeof data.bodyHtml === "string") merged.bodyDirty = true;
+  // Once a team profile is edited in the admin, its frozen page is rebuilt from
+  // team.json on every render (see singleContent.ts). Until then it stays frozen.
+  if (slug === "team") merged.teamDirty = true;
   rows[idx] = merged;
   cfg.save(rows);
   return merged;

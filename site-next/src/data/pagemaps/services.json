@@ -107,69 +107,55 @@
     },
     {
       "id": "e16",
-      "kind": "text",
-      "label": "Button: “Login”",
-      "group": "Page",
-      "value": "Login"
-    },
-    {
-      "id": "e17",
-      "kind": "html",
-      "label": "LI: “oox menu”",
-      "group": "Page",
-      "value": "<span>oox menu</span>"
-    },
-    {
-      "id": "e18",
       "kind": "image",
       "label": "Image (arrowr.png)",
       "group": "From Idea to Production, We Cover Every…",
       "value": "/wp-content/uploads/2026/03/arrowr.png"
     },
     {
-      "id": "e19",
+      "id": "e17",
       "kind": "image",
       "label": "Image (Group-6361.png)",
       "group": "From Idea to Production, We Cover Every…",
       "value": "/wp-content/uploads/2026/01/Group-6361.png"
     },
     {
-      "id": "e20",
+      "id": "e18",
       "kind": "image",
       "label": "Image (oktopod0004.png)",
       "group": "From Idea to Production, We Cover Every…",
       "value": "/wp-content/uploads/2026/06/oktopod0004.png"
     },
     {
-      "id": "e21",
+      "id": "e19",
       "kind": "image",
       "label": "Image (croco0004.png)",
       "group": "From Idea to Production, We Cover Every…",
       "value": "/wp-content/uploads/2026/06/croco0004.png"
     },
     {
-      "id": "e22",
+      "id": "e20",
       "kind": "image",
       "label": "Image (kit0004.png)",
       "group": "From Idea to Production, We Cover Every…",
       "value": "/wp-content/uploads/2026/06/kit0004.png"
     },
     {
-      "id": "e23",
+      "id": "e21",
       "kind": "image",
       "label": "Image (medjed0004.png)",
       "group": "From Idea to Production, We Cover Every…",
       "value": "/wp-content/uploads/2026/06/medjed0004.png"
     },
     {
-      "id": "e24",
+      "id": "e22",
       "kind": "image",
       "label": "Image (carobnjak-render.png)",
       "group": "From Idea to Production, We Cover Every…",
       "value": "/wp-content/uploads/2026/06/carobnjak-render.png"
     },
     {
-      "id": "e25",
+      "id": "e23",
       "kind": "image",
       "label": "Image (malivitezrender.png)",
       "group": "From Idea to Production, We Cover Every…",

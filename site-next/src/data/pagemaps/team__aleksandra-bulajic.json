@@ -170,27 +170,13 @@
     },
     {
       "id": "e25",
-      "kind": "text",
-      "label": "Button: “Login”",
-      "group": "Page",
-      "value": "Login"
-    },
-    {
-      "id": "e26",
-      "kind": "html",
-      "label": "LI: “oox menu”",
-      "group": "Page",
-      "value": "<span>oox menu</span>"
-    },
-    {
-      "id": "e27",
       "kind": "image",
       "label": "Image: Aleksandra Bulajić",
       "group": "Page",
       "value": "/wp-content/uploads/2026/03/Saja-1.webp"
     },
     {
-      "id": "e28",
+      "id": "e26",
       "kind": "imageAlt",
       "label": "Alt for Aleksandra Bulajić",
       "group": "Page",

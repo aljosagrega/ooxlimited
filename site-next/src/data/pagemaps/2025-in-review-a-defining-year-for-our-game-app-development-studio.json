@@ -380,111 +380,97 @@
     },
     {
       "id": "e55",
-      "kind": "text",
-      "label": "Button: “Login”",
-      "group": "Page",
-      "value": "Login"
-    },
-    {
-      "id": "e56",
-      "kind": "html",
-      "label": "LI: “oox menu”",
-      "group": "Page",
-      "value": "<span>oox menu</span>"
-    },
-    {
-      "id": "e57",
       "kind": "image",
       "label": "Image: mobile game development team",
       "group": "Recent posts",
       "value": "/wp-content/uploads/2026/07/DSC06489-768x1152.jpg"
     },
     {
-      "id": "e58",
+      "id": "e56",
       "kind": "imageAlt",
       "label": "Alt for mobile game development team",
       "group": "Recent posts",
       "value": "mobile game development team"
     },
     {
-      "id": "e59",
+      "id": "e57",
       "kind": "image",
       "label": "Image: Read more",
       "group": "Recent posts",
       "value": "/wp-content/uploads/2026/03/arrowr.png"
     },
     {
-      "id": "e60",
+      "id": "e58",
       "kind": "imageAlt",
       "label": "Alt for Read more",
       "group": "Recent posts",
       "value": "Read more"
     },
     {
-      "id": "e61",
+      "id": "e59",
       "kind": "image",
       "label": "Image: Office Photos OOX Limited",
       "group": "Recent posts",
       "value": "/wp-content/uploads/2026/03/c7f806ba5aa0b941cf5c248e564b0d3d12a19406-768x512.jpg"
     },
     {
-      "id": "e62",
+      "id": "e60",
       "kind": "imageAlt",
       "label": "Alt for Office Photos OOX Limited",
       "group": "Recent posts",
       "value": "Office Photos OOX Limited"
     },
     {
-      "id": "e63",
+      "id": "e61",
       "kind": "image",
       "label": "Image: Mobile Game Prototype Cost",
       "group": "Recent posts",
       "value": "/wp-content/uploads/2026/05/20260226-DSC06230-768x512.jpg"
     },
     {
-      "id": "e64",
+      "id": "e62",
       "kind": "imageAlt",
       "label": "Alt for Mobile Game Prototype Cost",
       "group": "Recent posts",
       "value": "Mobile Game Prototype Cost"
     },
     {
-      "id": "e65",
+      "id": "e63",
       "kind": "image",
       "label": "Image: OOX mobile game development team playin…",
       "group": "Mid-Year Reset",
       "value": "/wp-content/uploads/2026/01/216b79027cc7e8fa9c4521274c5c4dbeb51670d0.jpg"
     },
     {
-      "id": "e66",
+      "id": "e64",
       "kind": "imageAlt",
       "label": "Alt for OOX mobile game development t…",
       "group": "Mid-Year Reset",
       "value": "OOX mobile game development team playing arcade games during a mid-year reset"
     },
     {
-      "id": "e67",
+      "id": "e65",
       "kind": "image",
       "label": "Image: OOX team at Creative Bridge Korea and S…",
       "group": "Recharged and Back on the Road",
       "value": "/wp-content/uploads/2026/04/image.png"
     },
     {
-      "id": "e68",
+      "id": "e66",
       "kind": "imageAlt",
       "label": "Alt for OOX team at Creative Bridge K…",
       "group": "Recharged and Back on the Road",
       "value": "OOX team at Creative Bridge Korea and Serbia business event in Belgrade"
     },
     {
-      "id": "e69",
+      "id": "e67",
       "kind": "image",
       "label": "Image: Marko Štrba speaking at GameDev Rev pro…",
       "group": "Sharing Expertise at GameDev Rev",
       "value": "/wp-content/uploads/2026/04/image23.png"
     },
     {
-      "id": "e70",
+      "id": "e68",
       "kind": "imageAlt",
       "label": "Alt for Marko Štrba speaking at GameD…",
       "group": "Sharing Expertise at GameDev Rev",

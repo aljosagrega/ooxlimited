@@ -184,27 +184,13 @@
     },
     {
       "id": "e27",
-      "kind": "text",
-      "label": "Button: “Login”",
-      "group": "Page",
-      "value": "Login"
-    },
-    {
-      "id": "e28",
-      "kind": "html",
-      "label": "LI: “oox menu”",
-      "group": "Page",
-      "value": "<span>oox menu</span>"
-    },
-    {
-      "id": "e29",
       "kind": "image",
       "label": "Image: Luka Miljuš",
       "group": "Page",
       "value": "/wp-content/uploads/2026/01/0314e21573a5d458249630664716e2ea54d22e21-2.jpg"
     },
     {
-      "id": "e30",
+      "id": "e28",
       "kind": "imageAlt",
       "label": "Alt for Luka Miljuš",
       "group": "Page",

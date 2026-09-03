@@ -156,27 +156,13 @@
     },
     {
       "id": "e23",
-      "kind": "text",
-      "label": "Button: “Login”",
-      "group": "Page",
-      "value": "Login"
-    },
-    {
-      "id": "e24",
-      "kind": "html",
-      "label": "LI: “oox menu”",
-      "group": "Page",
-      "value": "<span>oox menu</span>"
-    },
-    {
-      "id": "e25",
       "kind": "image",
       "label": "Image: Marko Štrba",
       "group": "Page",
       "value": "/wp-content/uploads/2026/03/1ae0674b6b580c7dba0bb88ce3450fb326b67324.jpg"
     },
     {
-      "id": "e26",
+      "id": "e24",
       "kind": "imageAlt",
       "label": "Alt for Marko Štrba",
       "group": "Page",

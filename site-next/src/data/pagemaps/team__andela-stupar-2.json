@@ -233,27 +233,13 @@
     },
     {
       "id": "e34",
-      "kind": "text",
-      "label": "Button: “Login”",
-      "group": "Page",
-      "value": "Login"
-    },
-    {
-      "id": "e35",
-      "kind": "html",
-      "label": "LI: “oox menu”",
-      "group": "Page",
-      "value": "<span>oox menu</span>"
-    },
-    {
-      "id": "e36",
       "kind": "image",
       "label": "Image: Anđela Stupar",
       "group": "Page",
       "value": "/wp-content/uploads/2026/04/DSC06325-scaled.webp"
     },
     {
-      "id": "e37",
+      "id": "e35",
       "kind": "imageAlt",
       "label": "Alt for Anđela Stupar",
       "group": "Page",

@@ -366,125 +366,111 @@
     },
     {
       "id": "e53",
-      "kind": "text",
-      "label": "Button: “Login”",
-      "group": "Page",
-      "value": "Login"
-    },
-    {
-      "id": "e54",
-      "kind": "html",
-      "label": "LI: “oox menu”",
-      "group": "Page",
-      "value": "<span>oox menu</span>"
-    },
-    {
-      "id": "e55",
       "kind": "image",
       "label": "Image: mobile game development team",
       "group": "Recent posts",
       "value": "/wp-content/uploads/2026/07/DSC06489-768x1152.jpg"
     },
     {
-      "id": "e56",
+      "id": "e54",
       "kind": "imageAlt",
       "label": "Alt for mobile game development team",
       "group": "Recent posts",
       "value": "mobile game development team"
     },
     {
-      "id": "e57",
+      "id": "e55",
       "kind": "image",
       "label": "Image: Read more",
       "group": "Recent posts",
       "value": "/wp-content/uploads/2026/03/arrowr.png"
     },
     {
-      "id": "e58",
+      "id": "e56",
       "kind": "imageAlt",
       "label": "Alt for Read more",
       "group": "Recent posts",
       "value": "Read more"
     },
     {
-      "id": "e59",
+      "id": "e57",
       "kind": "image",
       "label": "Image: Office Photos OOX Limited",
       "group": "Recent posts",
       "value": "/wp-content/uploads/2026/03/c7f806ba5aa0b941cf5c248e564b0d3d12a19406-768x512.jpg"
     },
     {
-      "id": "e60",
+      "id": "e58",
       "kind": "imageAlt",
       "label": "Alt for Office Photos OOX Limited",
       "group": "Recent posts",
       "value": "Office Photos OOX Limited"
     },
     {
-      "id": "e61",
+      "id": "e59",
       "kind": "image",
       "label": "Image: Mobile Game Prototype Cost",
       "group": "Recent posts",
       "value": "/wp-content/uploads/2026/05/20260226-DSC06230-768x512.jpg"
     },
     {
-      "id": "e62",
+      "id": "e60",
       "kind": "imageAlt",
       "label": "Alt for Mobile Game Prototype Cost",
       "group": "Recent posts",
       "value": "Mobile Game Prototype Cost"
     },
     {
-      "id": "e63",
+      "id": "e61",
       "kind": "image",
       "label": "Image: Hybrid casual mobile game development b…",
       "group": "Hybrid Casual Gaming: Why Mobile Studio…",
       "value": "PASTE-HERO-IMAGE-URL-HERE"
     },
     {
-      "id": "e64",
+      "id": "e62",
       "kind": "imageAlt",
       "label": "Alt for Hybrid casual mobile game dev…",
       "group": "Hybrid Casual Gaming: Why Mobile Studio…",
       "value": "Hybrid casual mobile game development by OOX Limited"
     },
     {
-      "id": "e65",
+      "id": "e63",
       "kind": "image",
       "label": "Image: Idle Hooligans hybrid casual mobile gam…",
       "group": "Idle Hooligans",
       "value": "PASTE-IDLE-HOOLIGANS-IMAGE-URL-HERE"
     },
     {
-      "id": "e66",
+      "id": "e64",
       "kind": "imageAlt",
       "label": "Alt for Idle Hooligans hybrid casual …",
       "group": "Idle Hooligans",
       "value": "Idle Hooligans hybrid casual mobile game with city building and RPG elements"
     },
     {
-      "id": "e67",
+      "id": "e65",
       "kind": "image",
       "label": "Image: Snare Lair mobile game featuring strate…",
       "group": "Snare Lair",
       "value": "PASTE-SNARE-LAIR-IMAGE-URL-HERE"
     },
     {
-      "id": "e68",
+      "id": "e66",
       "kind": "imageAlt",
       "label": "Alt for Snare Lair mobile game featur…",
       "group": "Snare Lair",
       "value": "Snare Lair mobile game featuring strategy, traps, and real-time gameplay"
     },
     {
-      "id": "e69",
+      "id": "e67",
       "kind": "image",
       "label": "Image: Taxi Garage mobile game with car custom…",
       "group": "Taxi Garage",
       "value": "PASTE-TAXI-GARAGE-IMAGE-URL-HERE"
     },
     {
-      "id": "e70",
+      "id": "e68",
       "kind": "imageAlt",
       "label": "Alt for Taxi Garage mobile game with …",
       "group": "Taxi Garage",

@@ -5,7 +5,7 @@ import { listEditablePages, type EditablePage } from "@/lib/pageList";
 import AdminShell from "@/components/admin/AdminShell";
 import { ExternalLink } from "lucide-react";
 
-const GROUP_ORDER: EditablePage["group"][] = ["Marketing", "Service pages", "Team profiles", "Blog posts"];
+const GROUP_ORDER: EditablePage["group"][] = ["Marketing", "Service pages"];
 
 export default async function AdminPagesList() {
   const user = await requireAuth();

@@ -156,27 +156,13 @@
     },
     {
       "id": "e23",
-      "kind": "text",
-      "label": "Button: “Login”",
-      "group": "Page",
-      "value": "Login"
-    },
-    {
-      "id": "e24",
-      "kind": "html",
-      "label": "LI: “oox menu”",
-      "group": "Page",
-      "value": "<span>oox menu</span>"
-    },
-    {
-      "id": "e25",
       "kind": "image",
       "label": "Image: Nemanja Havlović",
       "group": "Page",
       "value": "/wp-content/uploads/2026/04/Havla.webp"
     },
     {
-      "id": "e26",
+      "id": "e24",
       "kind": "imageAlt",
       "label": "Alt for Nemanja Havlović",
       "group": "Page",

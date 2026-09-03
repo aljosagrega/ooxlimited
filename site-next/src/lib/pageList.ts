@@ -1,14 +1,14 @@
 import "server-only";
 import fs from "fs";
 import path from "path";
-import { getAllPages, getAllPosts, getServices, getTeam } from "./content";
+import { getAllPages, getServices } from "./content";
 import { getAllPageEdits } from "./pageEdits";
 
 export interface EditablePage {
   key: string;        // pagemap key / route key
   routePath: string;  // "/about-us/"
   title: string;
-  group: "Marketing" | "Blog posts" | "Team profiles" | "Service pages";
+  group: "Marketing" | "Service pages";
   fields: number;     // pagemap field count
   edited: number;     // how many have overrides
 }
@@ -27,6 +27,12 @@ function routeKey(p: string): string {
   return p.replace(/^\/|\/$/g, "").replace(/\//g, "__") || "home";
 }
 
+/**
+ * Pages editable under /admin/pages = the marketing pages + the service pages —
+ * the surrounding copy that isn't produced by another section. Blog articles and
+ * team profiles are edited in the Blog posts / Team sections and swapped into
+ * their frozen pages by singleContent.ts.
+ */
 export function listEditablePages(): EditablePage[] {
   const edits = getAllPageEdits();
   const editedCount = (k: string) =>
@@ -41,8 +47,6 @@ export function listEditablePages(): EditablePage[] {
   };
 
   for (const p of getAllPages()) push(p.path, p.title, "Marketing");
-  for (const p of getAllPosts()) push(`/${p.slug}/`, p.title, "Blog posts");
-  for (const t of getTeam()) push(`/team/${t.slug}/`, t.name, "Team profiles");
   for (const s of getServices()) push(`/service/${s.slug}/`, s.title, "Service pages");
 
   return out;
