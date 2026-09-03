@@ -21,6 +21,15 @@ interface Fixup {
 
 const FIXUPS: Fixup[] = [
   {
+    // Every /service/ page embeds this decorative image at a full-size URL that
+    // was never generated on the media host — only the 300×300 thumbnail
+    // exists. Point at the size that resolves. alt="" so no copy is lost.
+    path: null,
+    find: 'src="/wp-content/uploads/2026/01/ser-game-6.png"',
+    replace: 'src="/wp-content/uploads/2026/01/ser-game-6-300x300.png"',
+    reason: "full-size ser-game-6.png 404s; the -300x300 variant is the only one on disk",
+  },
+  {
     // Every other /service/ hero uses <h1> for the page title; this one was
     // authored as <h2>, leaving the page with no H1. The Elementor heading
     // widget sets all typography by class, so h1/h2 render identically here

@@ -26,7 +26,7 @@
   },
   {
     "from": "/elementor-8398",
-    "to": "rapid-prototyping-game-development",
+    "to": "rapid-prototyping-game-development-2",
     "type": 301
   },
   {
@@ -47,6 +47,61 @@
   {
     "from": "/elementor-8660",
     "to": "mobile-game-vertical-slice-prove-before-production-2",
+    "type": 301
+  },
+  {
+    "from": "/author/ooxadmin",
+    "to": "game-development-team",
+    "type": 301
+  },
+  {
+    "from": "/category/game-development",
+    "to": "blog",
+    "type": 301
+  },
+  {
+    "from": "/category/game-tips",
+    "to": "blog",
+    "type": 301
+  },
+  {
+    "from": "/category/mobile-gaming",
+    "to": "blog",
+    "type": 301
+  },
+  {
+    "from": "/app-development",
+    "to": "service/app-development",
+    "type": 301
+  },
+  {
+    "from": "/mobile-game-development",
+    "to": "service/mobile-game-development",
+    "type": 301
+  },
+  {
+    "from": "/rapid-prototyping",
+    "to": "service/rapid-prototyping",
+    "type": 301
+  },
+  {
+    "from": "/full-cycle-development",
+    "to": "service/full-cycle-development",
+    "type": 301
+  },
+  {
+    "from": "/co-development-vs-outsourcing-game-development",
+    "to": "co-development-vs-outsourcing",
+    "type": 301
+  },
+  {
+    "from": "/hybrid-casual-gaming",
+    "to": "hybrid-casual-gaming-with-oox-limited",
+    "type": 301
+  },
+  {
+    "from": "/contact",
+    "to": "contact-us",
     "type": 301
   }
 ]

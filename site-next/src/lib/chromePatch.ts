@@ -16,12 +16,28 @@ export function applyChromePatch(bodyHtml: string): string {
   const settings = getSiteSettings();
   const menus = getMenus();
 
-  // Cheap bail-out: only load cheerio if there's something to sync.
-  if (!settings.socialLinks.length && !menus.main.length && !menus.footer.length) {
+  // The omero theme bakes a hidden "Sign in" modal into every page (see below).
+  const hasLoginWidget = bodyHtml.includes('class="account-wrap');
+
+  // Cheap bail-out: only load cheerio if there's something to change.
+  if (
+    !hasLoginWidget &&
+    !settings.socialLinks.length &&
+    !menus.main.length &&
+    !menus.footer.length
+  ) {
     return bodyHtml;
   }
 
   const $ = cheerio.load(bodyHtml, {}, false);
+
+  /* ---- dead WordPress login widget ------------------------------------- */
+  // `.account-wrap` is a hidden username/password <form> posting to the
+  // non-existent /wp-login.php, plus register / lost-password links whose
+  // `redirect_to` param still carries the local dev origin
+  // (http://localhost:8080/...). No trigger for it survives — the omero-login
+  // script is dropped at freeze time. Remove it outright.
+  if (hasLoginWidget) $(".account-wrap").remove();
 
   /* ---- footer social icons ------------------------------------------------ */
   // Elementor renders each as a.elementor-social-icon-<slug> in document order.
