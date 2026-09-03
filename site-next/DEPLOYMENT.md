@@ -50,7 +50,7 @@ The server holds no working tree. `$BASE` (a repo variable, `DEPLOY_PATH`) conta
 only:
 
 ```
-$BASE/releases/<sha>/   one assembled build per deploy, pruned to the last 5
+$BASE/releases/<sha>-<run>/  one assembled build per deploy, pruned to the last 5
 $BASE/current           symlink to the live release
 $BASE/shared/           persistent state — never shipped, never overwritten
 ```
@@ -70,6 +70,10 @@ stitched back in. `src/data` is **not** copied separately: `outputFileTracingInc
 in `next.config.ts` already places the whole tree inside standalone, and copying it
 again nests it at `src/data/data/`, where the server (which reads
 `process.cwd()/src/data`) silently serves the seed instead of live content.
+
+A release directory is named for the commit **and the run**, so re-running a deploy on an
+unchanged `main` stages a new directory rather than rsyncing into the one that is currently
+serving, and the rollback step always has a distinct earlier release to fall back to.
 
 Then it flips `current`, restarts the service over a passwordless `systemctl restart`,
 health-checks the app **on its own port from inside the box**, rolls back to the previous
@@ -100,7 +104,6 @@ serve `public/` reliably. Each rule aliases through `current`, so it tracks ever
 without editing:
 
 ```nginx
-location = /favicon.ico { alias $BASE/current/public/favicon.ico; expires 30d; access_log off; }
 location /_next/static/ { alias $BASE/current/.next/static/;      expires 1y;  access_log off; }
 location /wp-content/   { alias $BASE/current/public/wp-content/; expires 1y;  access_log off; try_files $uri =404; }
 location /wp-includes/  { alias $BASE/current/public/wp-includes/; expires 1y; access_log off; try_files $uri =404; }
@@ -108,6 +111,10 @@ location /media/        { alias $BASE/current/public/media/;      expires 7d;  a
 
 location / { proxy_pass http://127.0.0.1:<port>; proxy_set_header Host $host; proxy_set_header X-Forwarded-Proto $scheme; }
 ```
+
+The app owns its own icons — Next serves `/icon.png` and `/apple-icon.png` from the app
+directory — so the proxy must not alias `/favicon.ico`: there is no such file in a release,
+and an alias would shadow the app if one were ever added.
 
 `/wp-content/` matters twice over: it carries both the committed theme/plugin assets and,
 through the `uploads` symlink, the whole media library — so nginx serves those hundreds of

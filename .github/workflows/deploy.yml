@@ -24,7 +24,11 @@ jobs:
     timeout-minutes: 20
 
     env:
-      RELEASE: ${{ github.sha }}
+      # Distinct per run, not per commit: a workflow_dispatch re-run of an
+      # unchanged main would otherwise rsync into the directory `current`
+      # already points at, mutating the live release while it serves, and
+      # leave the rollback step with no earlier release to fall back to.
+      RELEASE: ${{ github.sha }}-${{ github.run_number }}
       SSH_USER: ${{ vars.SSH_USER }}
       SSH_HOST: ${{ vars.SSH_HOST }}
       SSH_PORT: ${{ vars.SSH_PORT }}
