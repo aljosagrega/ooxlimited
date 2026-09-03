@@ -1,5 +1,5 @@
 import AdminPageSkeleton from "@/components/admin/AdminPageSkeleton";
 
 export default function Loading() {
-  return <AdminPageSkeleton variant="list" />;
+  return <AdminPageSkeleton variant="pages" />;
 }
