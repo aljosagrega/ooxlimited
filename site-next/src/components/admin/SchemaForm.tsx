@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import dynamic from "next/dynamic";
 import { toast } from "sonner";
@@ -88,25 +88,37 @@ export default function SchemaForm({ schema, record, locales, refOptions = {}, e
     setTimeout(() => { setShowPreview(false); setPanelClosing(false); }, 260);
   }, []);
 
-  // Push the editor left while the preview panel is open
+  // Push the editor left while the preview panel is open. `<main>` lives in the
+  // persistent admin layout, so we must restore its ORIGINAL padding-right on
+  // cleanup — setting it to "" would clear the value the shell set (browsers
+  // decompose the `padding` shorthand once a longhand is touched) and the
+  // padding would stay gone after navigating away.
+  const mainPadRef = useRef<string>("");
   useEffect(() => {
+    if (!hasPreview) return;
     const main = document.querySelector(".admin-shell main") as HTMLElement | null;
     if (!main) return;
-    const EASE = "padding-right 0.28s cubic-bezier(0.4,0,0.2,1)";
-    if (showPreview && !panelClosing) {
-      main.style.transition = EASE;
-      main.style.paddingRight = `${Math.min(window.innerWidth * 0.46, 620) + 48}px`;
-      return;
+    if (!mainPadRef.current) {
+      const p = getComputedStyle(main).paddingRight;
+      mainPadRef.current = p && p !== "0px" ? p : "48px";
     }
+    const orig = mainPadRef.current;
+    const EASE = "padding-right 0.28s cubic-bezier(0.4,0,0.2,1)";
     main.style.transition = EASE;
-    main.style.paddingRight = "";
+    main.style.paddingRight =
+      showPreview && !panelClosing
+        ? `${Math.min(window.innerWidth * 0.46, 620) + 48}px`
+        : orig;
     const t = setTimeout(() => { main.style.transition = ""; }, 320);
     return () => clearTimeout(t);
   }, [showPreview, panelClosing]);
 
   useEffect(() => () => {
     const main = document.querySelector(".admin-shell main") as HTMLElement | null;
-    if (main) { main.style.paddingRight = ""; main.style.transition = ""; }
+    if (main) {
+      main.style.paddingRight = mainPadRef.current || "48px";
+      main.style.transition = "";
+    }
   }, []);
 
   const translations = useMemo(

@@ -9,48 +9,6 @@
  * reduced-motion pulse fallback.
  */
 
-const CSS = `
-  @keyframes sk-wave { 0% { transform: translateX(-100%); } 100% { transform: translateX(300%); } }
-  @keyframes sk-pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.45; } }
-
-  .skb {
-    position: relative;
-    overflow: hidden;
-    border-radius: 5px;
-    flex-shrink: 0;
-    background: color-mix(in srgb, var(--at-text) 9%, transparent);
-  }
-  @media (prefers-reduced-motion: no-preference) {
-    .skb::after {
-      content: '';
-      position: absolute;
-      inset: 0;
-      transform: translateX(-100%);
-      background: linear-gradient(90deg,
-        transparent 0%,
-        color-mix(in srgb, var(--at-text) 6%, transparent) 35%,
-        color-mix(in srgb, var(--at-text) 11%, transparent) 50%,
-        color-mix(in srgb, var(--at-text) 6%, transparent) 65%,
-        transparent 100%);
-      animation: sk-wave 1.8s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-    }
-  }
-  @media (prefers-reduced-motion: reduce) {
-    .skb { animation: sk-pulse 2s ease-in-out infinite; }
-  }
-
-  .sk-r1 .skb::after { animation-delay: 0s; }
-  .sk-r2 .skb::after { animation-delay: 0.08s; }
-  .sk-r3 .skb::after { animation-delay: 0.16s; }
-  .sk-r4 .skb::after { animation-delay: 0.24s; }
-  .sk-r5 .skb::after { animation-delay: 0.32s; }
-  .sk-r6 .skb::after { animation-delay: 0.4s; }
-  .sk-r7 .skb::after { animation-delay: 0.48s; }
-  .sk-r8 .skb::after { animation-delay: 0.56s; }
-
-  .sk-card { background: var(--at-card); border: 1px solid var(--at-border); border-radius: 14px; overflow: hidden; }
-`;
-
 function B({ w = "100%", h, r = 5, style, className }: {
   w?: number | string;
   h: number;
@@ -348,7 +306,6 @@ export default function AdminPageSkeleton({ variant = "generic" }: {
 }) {
   return (
     <>
-      <style>{CSS}</style>
       {variant === "dashboard" ? <DashboardSkeleton />
         : variant === "list" ? <ListSkeleton />
         : variant === "form" ? <FormSkeleton />
