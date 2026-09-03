@@ -10,341 +10,257 @@
     {
       "id": "e2",
       "kind": "text",
-      "label": "H2: “Recent posts”",
-      "group": "Recent posts",
-      "value": "Recent posts"
-    },
-    {
-      "id": "e3",
-      "kind": "html",
-      "label": "H3: “What a Mobile Game Vertical Slice Should Prove Before Produ…”",
-      "group": "Recent posts",
-      "value": "<a href=\"/mobile-game-vertical-slice-prove-before-production-2/\">What a Mobile Game Vertical Slice Should Prove Before Production</a>"
-    },
-    {
-      "id": "e4",
-      "kind": "html",
-      "label": "H3: “The Prototyping-First Studio: Why Validation Comes Before”",
-      "group": "Recent posts",
-      "value": "<a href=\"/prototyping-first-studio-validation-before-building-2026/\">The Prototyping-First Studio: Why Validation Comes Before</a>"
-    },
-    {
-      "id": "e5",
-      "kind": "html",
-      "label": "H3: “Mobile Game Vertical Slice: What to Prove Before Production”",
-      "group": "Recent posts",
-      "value": "<a href=\"/mobile-game-vertical-slice-prove-before-production/\">Mobile Game Vertical Slice: What to Prove Before Production</a>"
-    },
-    {
-      "id": "e6",
-      "kind": "text",
       "label": "H1: “Narrative Design for Mobile Games — Telling Stories When Pl…”",
       "group": "Narrative Design for Mobile Games — Tel…",
       "value": "Narrative Design for Mobile Games — Telling Stories When Players Have 47 Seconds of Attention"
     },
     {
-      "id": "e7",
+      "id": "e3",
       "kind": "text",
       "label": "P: “Most mobile games treat story as an afterthought - text box…”",
       "group": "Narrative Design for Mobile Games — Tel…",
       "value": "Most mobile games treat story as an afterthought - text boxes bolted onto a core loop nobody designed with narrative intent. The real cost is not skipped dialogue; it is missed retention. Nexon devCAT crystallised this problem at NDC26 with a single counter-intuitive principle: the skip button is not a failure state - it is the design brief. This article maps the shift from text-as-story to story-as-experience and what that means for studios building mobile games in 2026."
     },
     {
-      "id": "e8",
+      "id": "e4",
       "kind": "text",
       "label": "FIGCAPTION: “A game narrative designer at a wooden studio desk sketches …”",
       "group": "Narrative Design for Mobile Games — Tel…",
       "value": "A game narrative designer at a wooden studio desk sketches story-structure diagrams in a physical notebook, bathed in soft window light, with coffee mug, color swatches, and sticky notes across a lived-in creative workspace."
     },
     {
-      "id": "e9",
+      "id": "e5",
       "kind": "text",
       "label": "H2: “Why the old model of mobile game narrative lost ground”",
       "group": "Narrative Design for Mobile Games — Tel…",
       "value": "Why the old model of mobile game narrative lost ground"
     },
     {
-      "id": "e10",
+      "id": "e6",
       "kind": "text",
       "label": "P: “The old model rested on one assumption: story means reading…”",
       "group": "Narrative Design for Mobile Games — Tel…",
       "value": "The old model rested on one assumption: story means reading. Lore dumps in the first five minutes, dialogue trees longer than the average session, cutscenes that presume a stationary, undistracted player. Build the systems, then hire a writer to layer narrative on top."
     },
     {
-      "id": "e11",
+      "id": "e7",
       "kind": "text",
       "label": "P: “The skip button is not a failure state — it is the design b…”",
       "group": "Narrative Design for Mobile Games — Tel…",
       "value": "The skip button is not a failure state — it is the design brief."
     },
     {
-      "id": "e12",
+      "id": "e8",
       "kind": "text",
       "label": "P: “This assumption no longer holds. The average human attentio…”",
       "group": "Narrative Design for Mobile Games — Tel…",
       "value": "This assumption no longer holds. The average human attention span on a single screen has dropped to 47 seconds - a threefold decline over 20 years, per NDC26 data. Short-form content is now the behavioural default, and the player’s phone is a battlefield of competing stimuli, not a dedicated gaming device."
     },
     {
-      "id": "e13",
+      "id": "e9",
       "kind": "text",
       "label": "P: “The structural mismatch runs deeper. Mobile sessions fragme…”",
       "group": "Narrative Design for Mobile Games — Tel…",
       "value": "The structural mismatch runs deeper. Mobile sessions fragment by design - a player might open the game eight times a day for 90 seconds each. A three-minute dialogue sequence written for a single sitting breaks across three sessions, and by the third the player has lost the thread. As devCAT’s Jo Seol-bin put it: “Mobile has high accessibility but low retention, so stories often pass by like a fleeting glance.”"
     },
     {
-      "id": "e14",
+      "id": "e10",
       "kind": "text",
       "label": "P: “The old model assumed four things, each disproven by the da…”",
       "group": "Narrative Design for Mobile Games — Tel…",
       "value": "The old model assumed four things, each disproven by the data: that players will read if the writing is good enough; that longer narratives signal deeper experiences; that the skip button measures story failure; and that narrative is a post-production layer added after the core loop ships. That last assumption costs the most: it commits a full production cycle before anyone tests whether the story survives contact with a real player session."
     },
     {
-      "id": "e15",
+      "id": "e11",
       "kind": "text",
       "label": "H2: “The new model - compressing story into experience”",
       "group": "Narrative Design for Mobile Games — Tel…",
       "value": "The new model - compressing story into experience"
     },
     {
-      "id": "e16",
+      "id": "e12",
       "kind": "text",
       "label": "P: “The counter-intuitive core of devCAT’s NDC26 approach: “To …”",
       "group": "Narrative Design for Mobile Games — Tel…",
       "value": "The counter-intuitive core of devCAT’s NDC26 approach: “To make people not want to skip, you must first support skipping.” Making the skip button prominent reduces psychological burden - when a player knows they can bypass content, they engage more willingly with what interests them. That goal shifts from “make them read everything” to “create moments they do not want to skip.”"
     },
     {
-      "id": "e17",
+      "id": "e13",
       "kind": "text",
       "label": "P: “This distinction requires a fundamental rethinking of stori…”",
       "group": "Narrative Design for Mobile Games — Tel…",
       "value": "This distinction requires a fundamental rethinking of stories players read and stories they experience. The latter treats gameplay itself as narrative. A choice prompt is story. An environmental detail that changes between visits is story. A character who reacts differently because of something you did two chapters ago is story. None of it demands that the player stop playing and start reading."
     },
     {
-      "id": "e18",
+      "id": "e14",
       "kind": "html",
       "label": "P: “The business case has moved beyond theory. Narrative-driven…”",
       "group": "Narrative Design for Mobile Games — Tel…",
       "value": "The business case has moved beyond theory. Narrative-driven casual games - Gossip Harbor, Travel Town, Seaside Escape - are growing faster year-over-year than pure-mechanics titles when Royal Match is excluded, per a February 2025 Deconstructor of Fun analysis cited <a href=\"https://www.pocketgamer.biz/why-stories-sell-the-emotional-trigger-for-mobile-game-players/\">in PocketGamer.biz</a>. Story now functions as a retention moat across the entire casual spectrum."
     },
     {
-      "id": "e19",
+      "id": "e15",
       "kind": "text",
       "label": "P: “What the new model assumes is the inverse of the old: playe…”",
       "group": "Narrative Design for Mobile Games — Tel…",
       "value": "What the new model assumes is the inverse of the old: players may skip, so design for that; shorter and experiential beats longer; the skip button is a play style, not a failure; and you must bake narrative into systems at the concept phase."
     },
     {
-      "id": "e20",
+      "id": "e16",
       "kind": "text",
       "label": "H2: “Design principles for mobile-first narrative”",
       "group": "Narrative Design for Mobile Games — Tel…",
       "value": "Design principles for mobile-first narrative"
     },
     {
-      "id": "e21",
+      "id": "e17",
       "kind": "html",
       "label": "P: “Ruthless text compression. In Mabinogi Mobile, NPC dialogue…”",
       "group": "Narrative Design for Mobile Games — Tel…",
       "value": "<strong>Ruthless text compression.</strong> In Mabinogi Mobile, NPC dialogue bubbles average 18 characters and never exceed two lines. Each bubble completes one topic, so an interrupted player can resume from the next bubble. One image with a short caption replaces paragraphs of scene-setting prose. This approach is not dumbing down - it is designing for how people actually consume mobile games."
     },
     {
-      "id": "e22",
+      "id": "e18",
       "kind": "html",
       "label": "P: “Terminology simplification. devCAT replaced esoteric proper…”",
       "group": "Narrative Design for Mobile Games — Tel…",
       "value": "<strong>Terminology simplification.</strong> devCAT replaced esoteric proper nouns with intuitive alternatives: ‘Fomor’ became ‘Asmodian,’ ‘Lia Fail’ became ‘Ancient Wisdom,’ ‘Adamantium’ became ‘Unbreakable Ore.’ A name requiring no prior knowledge is onboarding, not compromise. The player spends cognitive budget on emotion rather than memorising a glossary."
     },
     {
-      "id": "e23",
+      "id": "e19",
       "kind": "html",
       "label": "P: “Decide the vessel size first. devCAT reversed their process…”",
       "group": "Narrative Design for Mobile Games — Tel…",
       "value": "<strong>Decide the vessel size first.</strong> devCAT reversed their process: define chapter length constraints up front, then design densely within them. The team grades every play sequence by direction scale, production difficulty, and estimated time before producing a single asset. This reduced variance in experience quality across chapters."
     },
     {
-      "id": "e24",
+      "id": "e20",
       "kind": "html",
       "label": "P: “Visual and audio carry the story. NPC expressions, voice di…”",
       "group": "Narrative Design for Mobile Games — Tel…",
       "value": "<strong>Visual and audio carry the story.</strong> NPC expressions, voice direction, cutscene framing, and background music convey emotional information without text. For studios building in 2026, this means art direction and narrative design function as the same discipline, integrated from the concept phase. <a href=\"/service/art-design-art-direction/\">OOX’s art design and art direction team</a> operates on this principle: visual identity carries narrative weight from day one, not as a decorative layer added after layouts lock."
     },
     {
-      "id": "e25",
+      "id": "e21",
       "kind": "text",
       "label": "P: “The same principles hold across genres. CherryWorm’s idle R…”",
       "group": "Narrative Design for Mobile Games — Tel…",
       "value": "The same principles hold across genres. CherryWorm’s idle RPG High On Knights generates story through autonomous NPC behaviour; Scopely’s Monopoly Go, at over $6 billion in lifetime revenue, carries its entire narrative through a single character’s tone and seasonal theming. The lesson: every game needs a coherent narrative posture the player can feel."
     },
     {
-      "id": "e26",
+      "id": "e22",
       "kind": "html",
       "label": "LI: “Mobile Game Monetization Models — 2026's Winners and Losers”",
       "group": "Narrative Design for Mobile Games — Tel…",
       "value": "<a href=\"/mobile-game-monetization-models-2026s-winners-and-losers/\">Mobile Game Monetization Models — 2026's Winners and Losers</a>"
     },
     {
-      "id": "e27",
+      "id": "e23",
       "kind": "html",
       "label": "LI: “What a Game Prototyping Studio Actually Delivers”",
       "group": "Narrative Design for Mobile Games — Tel…",
       "value": "<a href=\"/game-prototyping-studio-deliverables/\">What a Game Prototyping Studio Actually Delivers</a>"
     },
     {
-      "id": "e28",
+      "id": "e24",
       "kind": "text",
       "label": "H2: “How OOX approaches narrative in mobile game development”",
       "group": "Narrative Design for Mobile Games — Tel…",
       "value": "How OOX approaches narrative in mobile game development"
     },
     {
-      "id": "e29",
+      "id": "e25",
       "kind": "text",
       "label": "P: “Our prototyping-first model aligns naturally with the narra…”",
       "group": "Narrative Design for Mobile Games — Tel…",
       "value": "Our prototyping-first model aligns naturally with the narrative philosophy devCAT described. A 2-to-6-week prototype cycle forces the same discipline: define the vessel size first, test what earns attention, cut what does not. When a studio cannot afford six months to discover the narrative premise fails the skip-button test, the prototype becomes the vehicle for narrative validation - not just mechanical."
     },
     {
-      "id": "e30",
+      "id": "e26",
       "kind": "text",
       "label": "P: “We integrate narrative thinking from the concept phase rath…”",
       "group": "Narrative Design for Mobile Games — Tel…",
       "value": "We integrate narrative thinking from the concept phase rather than hiring it in after the core loop ships. Reversing a narrative assumption mid-production costs far more than reversing a tuning variable - a character introduced as a lore dump cannot easily become an experiential sequence after the team has built the levels around that original assumption."
     },
     {
-      "id": "e31",
+      "id": "e27",
       "kind": "html",
       "label": "P: “The practical question for a studio lead is not “do we have…”",
       "group": "Narrative Design for Mobile Games — Tel…",
       "value": "The practical question for a studio lead is not “do we have a good writer?” It is “did we validate the narrative loop the same way we validated the core gameplay loop?” Narrative design is a production problem, not a writing problem. The same prototype cycle that tests whether a mechanic is fun can test whether a narrative concept survives the skip button. For a practical overview of what that process looks like, <a href=\"/game-prototyping-studio-deliverables/\">understanding what a prototyping studio actually delivers</a> provides a concrete starting point."
     },
     {
-      "id": "e32",
+      "id": "e28",
       "kind": "text",
       "label": "FIGCAPTION: “Three game developers — two women and a man — gathered arou…”",
       "group": "Narrative Design for Mobile Games — Tel…",
       "value": "Three game developers — two women and a man — gathered around a whiteboard covered in hand-drawn game-design flowcharts and sticky notes in a sunlit studio, mid-discussion with the man gesturing toward a diagram while the others lean in."
     },
     {
-      "id": "e33",
+      "id": "e29",
       "kind": "text",
       "label": "H2: “What the narrative design shift means for studios building …”",
       "group": "Narrative Design for Mobile Games — Tel…",
       "value": "What the narrative design shift means for studios building in 2026"
     },
     {
-      "id": "e34",
+      "id": "e30",
       "kind": "html",
       "label": "P: “Narrative as a UA differentiator. Failure-to-success narrat…”",
       "group": "Narrative Design for Mobile Games — Tel…",
       "value": "<strong>Narrative as a UA differentiator.</strong> Failure-to-success narrative arcs in mobile game ads drive 78% higher installs per mille while receiving 40% less ad spend, per AppsFlyer’s 2025 State of Creative Optimization report. The story the ad tells sets emotional expectations - if the game does not deliver, the install becomes churn. This mismatch is a production problem, not a marketing one."
     },
     {
-      "id": "e35",
+      "id": "e31",
       "kind": "html",
       "label": "P: “Narrative as retention infrastructure. Chapter-based story …”",
       "group": "Narrative Design for Mobile Games — Tel…",
       "value": "<strong>Narrative as retention infrastructure.</strong> Chapter-based story chunking, the model Archero popularised, gives players milestones past D30 that are narrative rather than mechanical. Google Play’s retention research found that approximately 33% of long-term players at 150-plus levels actively follow the narrative - in a puzzle game, not a story-driven RPG. Story is a mass-retention mechanism most studios do not yet measure as a KPI."
     },
     {
-      "id": "e36",
+      "id": "e32",
       "kind": "text",
       "label": "H2: “Ready to Validate Your Idea?”",
       "group": "Ready to Validate Your Idea?",
       "value": "Ready to Validate Your Idea?"
     },
     {
-      "id": "e37",
+      "id": "e33",
       "kind": "text",
       "label": "P: “Narrative design is a production problem, not a writing pro…”",
       "group": "Ready to Validate Your Idea?",
       "value": "Narrative design is a production problem, not a writing problem. The same prototype cycle that tests whether a mechanic is fun can test whether your story survives the skip button. Let's build it together."
     },
     {
-      "id": "e38",
+      "id": "e34",
       "kind": "html",
       "label": "P: “Contact OOX to discuss your project”",
       "group": "Ready to Validate Your Idea?",
       "value": "<a href=\"/contact-us/\">Contact OOX to discuss your project</a>"
     },
     {
-      "id": "e39",
-      "kind": "image",
-      "label": "Image: mobile game vertical slice",
-      "group": "Recent posts",
-      "value": "/wp-content/uploads/2026/08/DSC06517-768x1152.jpg"
-    },
-    {
-      "id": "e40",
-      "kind": "imageAlt",
-      "label": "Alt for mobile game vertical slice",
-      "group": "Recent posts",
-      "value": "mobile game vertical slice"
-    },
-    {
-      "id": "e41",
-      "kind": "image",
-      "label": "Image: Read more",
-      "group": "Recent posts",
-      "value": "/wp-content/uploads/2026/03/arrowr.png"
-    },
-    {
-      "id": "e42",
-      "kind": "imageAlt",
-      "label": "Alt for Read more",
-      "group": "Recent posts",
-      "value": "Read more"
-    },
-    {
-      "id": "e43",
-      "kind": "image",
-      "label": "Image: Office Photos OOX Limited",
-      "group": "Recent posts",
-      "value": "/wp-content/uploads/2026/03/d8d70c6789c6b5f6ea12d48bc4006f64f8be8019-768x512.jpg"
-    },
-    {
-      "id": "e44",
-      "kind": "imageAlt",
-      "label": "Alt for Office Photos OOX Limited",
-      "group": "Recent posts",
-      "value": "Office Photos OOX Limited"
-    },
-    {
-      "id": "e45",
-      "kind": "image",
-      "label": "Image: mobile game vertical slice",
-      "group": "Recent posts",
-      "value": "/wp-content/uploads/2026/07/20260226-DSC06235-768x512.jpg"
-    },
-    {
-      "id": "e46",
-      "kind": "imageAlt",
-      "label": "Alt for mobile game vertical slice",
-      "group": "Recent posts",
-      "value": "mobile game vertical slice"
-    },
-    {
-      "id": "e47",
+      "id": "e35",
       "kind": "image",
       "label": "Image: A game narrative designer at a wooden s…",
       "group": "Narrative Design for Mobile Games — Tel…",
       "value": "/wp-content/uploads/2026/07/1.jpg"
     },
     {
-      "id": "e48",
+      "id": "e36",
       "kind": "imageAlt",
       "label": "Alt for A game narrative designer at …",
       "group": "Narrative Design for Mobile Games — Tel…",
       "value": "A game narrative designer at a wooden studio desk sketches story-structure diagrams in a physical notebook, bathed in soft window light, with coffee mug, color swatches, and sticky notes across a lived-in creative workspace"
     },
     {
-      "id": "e49",
+      "id": "e37",
       "kind": "image",
       "label": "Image: Three game developers gathered around a…",
       "group": "Narrative Design for Mobile Games — Tel…",
       "value": "/wp-content/uploads/2026/07/2.jpg"
     },
     {
-      "id": "e50",
+      "id": "e38",
       "kind": "imageAlt",
       "label": "Alt for Three game developers gathere…",
       "group": "Narrative Design for Mobile Games — Tel…",

@@ -10,586 +10,502 @@
     {
       "id": "e2",
       "kind": "text",
-      "label": "H2: “Recent posts”",
-      "group": "Recent posts",
-      "value": "Recent posts"
-    },
-    {
-      "id": "e3",
-      "kind": "html",
-      "label": "H3: “What a Mobile Game Vertical Slice Should Prove Before Produ…”",
-      "group": "Recent posts",
-      "value": "<a href=\"/mobile-game-vertical-slice-prove-before-production-2/\">What a Mobile Game Vertical Slice Should Prove Before Production</a>"
-    },
-    {
-      "id": "e4",
-      "kind": "html",
-      "label": "H3: “The Prototyping-First Studio: Why Validation Comes Before”",
-      "group": "Recent posts",
-      "value": "<a href=\"/prototyping-first-studio-validation-before-building-2026/\">The Prototyping-First Studio: Why Validation Comes Before</a>"
-    },
-    {
-      "id": "e5",
-      "kind": "html",
-      "label": "H3: “Mobile Game Vertical Slice: What to Prove Before Production”",
-      "group": "Recent posts",
-      "value": "<a href=\"/mobile-game-vertical-slice-prove-before-production/\">Mobile Game Vertical Slice: What to Prove Before Production</a>"
-    },
-    {
-      "id": "e6",
-      "kind": "text",
       "label": "H1: “The Mobile Game Monetization Models That Still Work in 2026…”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "The Mobile Game Monetization Models That Still Work in 2026 – and the Ones That Do Not"
     },
     {
-      "id": "e7",
+      "id": "e3",
       "kind": "html",
       "label": "P: “Most mobile games fail long before launch. Crucially, optim…”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "Most mobile games fail long before launch. Crucially, optimizing your <strong>mobile game monetization</strong> strategy early determines whether your project survives or collapses financially. Most development teams fail not because they cannot build the software, but because the underlying business design was wrong before engineers wrote the first line of code."
     },
     {
-      "id": "e8",
+      "id": "e4",
       "kind": "text",
       "label": "P: “Because the monetization model was wrong before the first l…”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "Because the monetization model was wrong before the first line of code was written."
     },
     {
-      "id": "e9",
+      "id": "e5",
       "kind": "html",
       "label": "P: “In 2026, standard framework setups have completely bifurcat…”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "In 2026, standard framework setups have completely bifurcated. Hybrid systems combining <strong>IAP (In-App Purchases)</strong> and <strong>IAA (In-App Advertising)</strong> are now the structural default. Therefore, relying on a single transactional setup is no longer mathematically viable for scaling studios."
     },
     {
-      "id": "e10",
+      "id": "e6",
       "kind": "html",
       "label": "P: “At the same time, D2C (Direct-to-Consumer) web shops are ne…”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "At the same time, <strong>D2C (Direct-to-Consumer) web shops</strong> are near-universal among top-grossing titles. Furthermore, contextual offers triggered by real-time player behaviour significantly outperform old storefronts. Consequently, some developers report massive conversion uplifts of <strong>two to three times</strong>."
     },
     {
-      "id": "e11",
+      "id": "e7",
       "kind": "html",
       "label": "P: “Meanwhile, single-revenue-stream games and one-size-fits-al…”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "Meanwhile, single-revenue-stream games and one-size-fits-all storefronts are compressing under market pressures. The cost to acquire a player (CAC) now consistently exceeds what a one-dimensional model can extract. However, successful studios overcome this compression by validating the core gameplay loop alongside their economy setup <strong>during prototyping</strong>."
     },
     {
-      "id": "e12",
+      "id": "e8",
       "kind": "text",
       "label": "H2: “Why the Old Approach to Mobile Game Monetization Lost Ground”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "Why the Old Approach to Mobile Game Monetization Lost Ground"
     },
     {
-      "id": "e13",
+      "id": "e9",
       "kind": "text",
       "label": "P: “The single-revenue-stream approach is no longer a viable bu…”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "The single-revenue-stream approach is no longer a viable business framework. For years, studios picked either IAP or IAA, then optimised that single pipeline. This binary choice made perfect sense when CPI was low, attribution provided clean signal, and platform fees represented a predictable cost of doing business."
     },
     {
-      "id": "e14",
+      "id": "e10",
       "kind": "text",
       "label": "P: “The old framework is a bet against player attention — and a…”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "The old framework is a bet against player attention — and attention got significantly more expensive."
     },
     {
-      "id": "e15",
+      "id": "e11",
       "kind": "text",
       "label": "P: “However, ATT-driven signal loss has severely degraded targe…”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "However, ATT-driven signal loss has severely degraded targeting precision across modern ad networks. Industry observers at PocketGamer.biz have noted that the traditional platform commission model is nearing its logical end. This shift was heavily accelerated by the Epic-Apple ruling in April 2025 and the Epic-Google verdict in October 2025, which opened alternative payment flows."
     },
     {
-      "id": "e16",
+      "id": "e12",
       "kind": "text",
       "label": "P: “In September 2025, non-gaming apps surpassed mobile games i…”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "In September 2025, non-gaming apps surpassed mobile games in IAP revenue for the first time ($4.8 billion to $4.5 billion, per Sensor Tower). Consequently, the old playbook, as Beamable’s analysis puts it, is caving due to severe compression. Therefore, traditional frameworks require an immediate structural overhaul."
     },
     {
-      "id": "e17",
+      "id": "e13",
       "kind": "text",
       "label": "H3: “Models in Structural Decline”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "Models in Structural Decline"
     },
     {
-      "id": "e18",
+      "id": "e14",
       "kind": "html",
       "label": "LI: “The gacha and ARPG treadmill: Content production costs are …”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "<strong>The gacha and ARPG treadmill:</strong> Content production costs are outrunning recurring revenue, meaning player acquisition costs no longer close at scale."
     },
     {
-      "id": "e19",
+      "id": "e15",
       "kind": "html",
       "label": "LI: “Pay-to-win economies: Player retention craters when non-spe…”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "<strong>Pay-to-win economies:</strong> Player retention craters when non-spenders conclude they can no longer compete."
     },
     {
-      "id": "e20",
+      "id": "e16",
       "kind": "html",
       "label": "LI: “Web3 and play-to-earn: Speculation-driven engagement has ev…”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "<strong>Web3 and play-to-earn:</strong> Speculation-driven engagement has evaporated because without a core game loop that players value independently of tokens, retention is non-existent."
     },
     {
-      "id": "e21",
+      "id": "e17",
       "kind": "html",
       "label": "LI: “One-size-fits-all storefronts: Presenting identical offers …”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "<strong>One-size-fits-all storefronts:</strong> Presenting identical offers regardless of a player's spending history or progression stage no longer converts."
     },
     {
-      "id": "e22",
+      "id": "e18",
       "kind": "html",
       "label": "P: “At GDC 2026, PocketGamer.biz reported dual monetisation amo…”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "At GDC 2026, PocketGamer.biz reported dual monetisation among the top five trending topics. Simultaneously, analysts flagged a serious <strong>“volume over viability”</strong> risk, where studios ship more games faster without validating the economic assumptions inside each one."
     },
     {
-      "id": "e23",
+      "id": "e19",
       "kind": "text",
       "label": "P: “Volume over viability is becoming one of the biggest threat…”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "Volume over viability is becoming one of the biggest threats to studio economics."
     },
     {
-      "id": "e24",
+      "id": "e20",
       "kind": "text",
       "label": "H2: “Why Modern Mobile Game Monetization Systems Work”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "Why Modern Mobile Game Monetization Systems Work"
     },
     {
-      "id": "e25",
+      "id": "e21",
       "kind": "html",
       "label": "P: “Hybrid monetization is not a passing trend. Instead, it rep…”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "Hybrid monetization is not a passing trend. Instead, it represents a direct structural response to a market where no single revenue stream carries a game past Day 90. Per Sensor Tower data, <strong>83% of the top 100 grossing mobile games</strong> now operate five to seven monetization mechanisms simultaneously."
     },
     {
-      "id": "e26",
+      "id": "e22",
       "kind": "html",
       "label": "P: “These mechanics include rewarded ads feeding IAP-currency e…”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "These mechanics include rewarded ads feeding IAP-currency economies, battle passes alongside seasonal offers, and web-shop bundles complementing in-app storefronts. Furthermore, these top 100 titles are projected to generate approximately <strong>$53 billion in 2026</strong>, accounting for 58% of total market revenue."
     },
     {
-      "id": "e27",
+      "id": "e23",
       "kind": "text",
       "label": "P: “Concurrently, hybrid casual IAP surged 37% in recent years …”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "Concurrently, hybrid casual IAP surged 37% in recent years while total mobile gaming IAP grew only 4%, according to Airflux. Today, hybrid casual operates at a highly effective 60/40 IAP-to-IAA split."
     },
     {
-      "id": "e28",
+      "id": "e24",
       "kind": "text",
       "label": "H3: “The Rise of Direct-to-Consumer (D2C) Web Shops”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "The Rise of Direct-to-Consumer (D2C) Web Shops"
     },
     {
-      "id": "e29",
+      "id": "e25",
       "kind": "text",
       "label": "P: “D2C web shops represent the biggest structural shift since …”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "D2C web shops represent the biggest structural shift since in-app purchases first arrived. Over 72% of top-grossing games now operate external web shops, recapturing 25-30% of platform margins. Thus, studios bypass traditional toll booths."
     },
     {
-      "id": "e30",
+      "id": "e26",
       "kind": "text",
       "label": "P: “Moreover, the economics run deeper than mere fee avoidance.…”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "Moreover, the economics run deeper than mere fee avoidance. According to FastSpring, 90% or more of web store purchases come from customers who bought D2C within the last 30 days. This metric proves the web shop functions as a powerful retention tool, rather than operating merely as a discount channel."
     },
     {
-      "id": "e31",
+      "id": "e27",
       "kind": "text",
       "label": "P: “The web shop is a retention tool, not merely a discount cha…”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "The web shop is a retention tool, not merely a discount channel."
     },
     {
-      "id": "e32",
+      "id": "e28",
       "kind": "text",
       "label": "H3: “Genre Divergence Means No Single Playbook Works”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "Genre Divergence Means No Single Playbook Works"
     },
     {
-      "id": "e33",
+      "id": "e29",
       "kind": "html",
       "label": "LI: “Strategy and 4X: Near-pure IAP, deep progression trees, and…”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "<strong>Strategy and 4X:</strong> Near-pure IAP, deep progression trees, and multi-year live ops frameworks."
     },
     {
-      "id": "e34",
+      "id": "e30",
       "kind": "html",
       "label": "LI: “Hybrid casual: Roughly a 60/40 IAP-to-IAA split, converting…”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "<strong>Hybrid casual:</strong> Roughly a 60/40 IAP-to-IAA split, converting ad-watchers into spenders through meta-progression loops."
     },
     {
-      "id": "e35",
+      "id": "e31",
       "kind": "html",
       "label": "LI: “Casual: Ad-driven core with currency bundles and subscripti…”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "<strong>Casual:</strong> Ad-driven core with currency bundles and subscription-based ad removal options."
     },
     {
-      "id": "e36",
+      "id": "e32",
       "kind": "html",
       "label": "LI: “Hyper-casual: Near-100% IAA, but the window continues to na…”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "<strong>Hyper-casual:</strong> Near-100% IAA, but the window continues to narrow as CPM compression tightens."
     },
     {
-      "id": "e37",
+      "id": "e33",
       "kind": "text",
       "label": "H2: “The Design Shift”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "The Design Shift"
     },
     {
-      "id": "e38",
+      "id": "e34",
       "kind": "html",
       "label": "P: “Effective mobile game monetization design is no longer just…”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "Effective <strong>mobile game monetization</strong> design is no longer just a static menu of prices. Paradoxically, many studios still build storefronts that treat all users identically. Modern success requires a system of incentives shaped dynamically by live player behaviour."
     },
     {
-      "id": "e39",
+      "id": "e35",
       "kind": "html",
       "label": "P: “The defining shift is from rigid storefronts to contextual …”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "The defining shift is from rigid storefronts to <strong>contextual monetization offers</strong> — timing-aware, segmentation-driven, and outcome-focused. A contextual offer notices when a player is stuck, calculates the time-value equation, and presents a specific, immediate solution."
     },
     {
-      "id": "e40",
+      "id": "e36",
       "kind": "text",
       "label": "P: “The conversion difference is massive, with developers repor…”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "The conversion difference is massive, with developers reporting 2x to 3x higher performance compared to an undifferentiated storefront. Therefore, timing and context outweigh simple price changes."
     },
     {
-      "id": "e41",
+      "id": "e37",
       "kind": "text",
       "label": "P: “While battle passes appear in 60% of top-grossing mobile ti…”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "While battle passes appear in 60% of top-grossing mobile titles and drive 22% of all IAP revenue, baseline completion rates have dropped significantly. This clear decay has forced the rise of Battle Pass 3.0 setups."
     },
     {
-      "id": "e42",
+      "id": "e38",
       "kind": "text",
       "label": "P: “This new iteration personalises reward tracks, paces unlock…”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "This new iteration personalises reward tracks, paces unlocks using AI-driven engagement data, and activates around specific in-game events rather than fixed calendar months. The prerequisites for success here are strict: a D30 retention rate at 15% or higher, completion rates of 40-60%, and a currency return of 50-70% of the purchase price."
     },
     {
-      "id": "e43",
+      "id": "e39",
       "kind": "text",
       "label": "P: “A battle pass bolted onto a game with 8% D30 is not monetiz…”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "A battle pass bolted onto a game with 8% D30 is not monetization. It is a churn accelerator."
     },
     {
-      "id": "e44",
+      "id": "e40",
       "kind": "html",
       "label": "P: “Ultimately, building a stable base of mid-tier spenders — s…”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "Ultimately, building a stable base of mid-tier spenders — such as 200,000 players at $10 per month — is far more scalable than relying solely on 2,000 volatile whales. <strong>Retention is monetization.</strong>"
     },
     {
-      "id": "e45",
+      "id": "e41",
       "kind": "text",
       "label": "P: “The metric that matters most today is Day 90 ROAS, not init…”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "The metric that matters most today is Day 90 ROAS, not initial CPI. Every design decision that improves D90 retention is, at its core, a revenue decision. Therefore, sustainable economies rely on system depth."
     },
     {
-      "id": "e46",
+      "id": "e42",
       "kind": "text",
       "label": "H2: “How OOX Approaches Modern Mobile Game Monetization”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "How OOX Approaches Modern Mobile Game Monetization"
     },
     {
-      "id": "e47",
+      "id": "e43",
       "kind": "text",
       "label": "P: “We validate the economy alongside the core loop. Rather tha…”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "We validate the economy alongside the core loop. Rather than analyzing telemetry data in a static spreadsheet, we observe player spending habits in a live, playable prototype. The default industry approach treats design frameworks as a marketing layer added after engineers fully build the software."
     },
     {
-      "id": "e48",
+      "id": "e44",
       "kind": "text",
       "label": "P: “That after-the-fact approach is exactly why so many games l…”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "That after-the-fact approach is exactly why so many games launch with unit economics that simply do not close."
     },
     {
-      "id": "e49",
+      "id": "e45",
       "kind": "text",
       "label": "P: “A game can test beautifully in isolated playtests and still…”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "A game can test beautifully in isolated playtests and still fail commercially because reward pacing encourages over-saving, the purchase flow introduces friction, or the economy leaks currency faster than spenders can consume it. Consequently, structural validation must happen early."
     },
     {
-      "id": "e50",
+      "id": "e46",
       "kind": "text",
       "label": "P: “During our rapid prototyping phase — which typically lasts …”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "During our rapid prototyping phase — which typically lasts two to six weeks — we test the core loop, retention mechanics, and monetization systems simultaneously. Economy design, purchase flow, reward pacing, and offer segmentation are never treated as post-launch optimisations. They are core prototyping deliverables."
     },
     {
-      "id": "e51",
+      "id": "e47",
       "kind": "text",
       "label": "P: “Our modular architecture makes this highly practical. Build…”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "Our modular architecture makes this highly practical. Building monetization as decoupled modules means the development team can pivot immediately after validation without rebuilding core infrastructure. A prototype revealing weak IAP conversion does not demand a full rewrite — it simply requires a different offer structure, tested inside the very same validation window."
     },
     {
-      "id": "e52",
+      "id": "e48",
       "kind": "text",
       "label": "P: “The same discipline extends to our full-cycle mobile game d…”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "The same discipline extends to our full-cycle mobile game development. Monetization is never a post-launch feature ticket; it is a system designed, tested, and hardened alongside every other core mechanic before the game ever ships."
     },
     {
-      "id": "e53",
+      "id": "e49",
       "kind": "text",
       "label": "H2: “Case Studies: Monetization in Practice”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "Case Studies: Monetization in Practice"
     },
     {
-      "id": "e54",
+      "id": "e50",
       "kind": "text",
       "label": "H3: “Sword Island: Samurai”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "Sword Island: Samurai"
     },
     {
-      "id": "e55",
+      "id": "e51",
       "kind": "text",
       "label": "P: “Developers layered IAP, rewarded ads, and targeted loot box…”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "Developers layered IAP, rewarded ads, and targeted loot boxes within this free-to-play action game. Diamond bundles range from $0.99 to $14.99. Additionally, cosmetic items like hats carry strategic damage boosts, making visual customisation mechanically meaningful. Ad-removal options and companion purchases round out the offer set. Meanwhile, leaderboard competition creates natural moments where spending converts stalled progression into competitive advantage."
     },
     {
-      "id": "e56",
+      "id": "e52",
       "kind": "text",
       "label": "H3: “Idle Hooligans: Club Fights”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "Idle Hooligans: Club Fights"
     },
     {
-      "id": "e57",
+      "id": "e53",
       "kind": "text",
       "label": "P: “This specific idle RPG and city builder features an IAP loo…”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "This specific idle RPG and city builder features an IAP loop spanning weapons, armour, and critical business upgrades. Consequently, the monetization engine here functions in an inherently social way. Alliance mechanics create competitive environments where spending happens within a clan context. Therefore, a player who wouldn't spend to advance alone will gladly spend to keep up with their alliance. This shifts the focus to monetization as participation rather than a sterile transaction."
     },
     {
-      "id": "e58",
+      "id": "e54",
       "kind": "text",
       "label": "H3: “Taxi Garage”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "Taxi Garage"
     },
     {
-      "id": "e59",
+      "id": "e55",
       "kind": "text",
       "label": "P: “Management simulation titles often build on a pure, satisfy…”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "Management simulation titles often build on a pure, satisfying IAP upgrade loop. To illustrate, garage expansions and high-tier tool purchases accelerate customer throughput, directly funding the next stage of progression. Within this modern framework, spending elegantly shortens the core loop. However, it does not artificially create it."
     },
     {
-      "id": "e60",
+      "id": "e56",
       "kind": "text",
       "label": "H2: “What 2026’s Market Realities Mean for Studio Leads”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "What 2026’s Market Realities Mean for Studio Leads"
     },
     {
-      "id": "e61",
+      "id": "e57",
       "kind": "html",
       "label": "P: “The core question is no longer “which model do we pick?” In…”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "The core question is no longer “which model do we pick?” Instead, studio leaders must ask: “what do we need to validate before we commit capital?” Studios treating <strong>mobile game monetization</strong> as a mere strategy deck exercise — checking off options from a generic menu — are repeating historical mistakes."
     },
     {
-      "id": "e62",
+      "id": "e58",
       "kind": "text",
       "label": "P: “They mistakenly assume the model represents a simple design…”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "They mistakenly assume the model represents a simple design choice rather than a set of volatile financial assumptions that must be tested. For example, a battle pass that converts beautifully for a match-three title with 20% D30 will completely fail for an idle game with 8% D30, no matter how sleek the UI looks."
     },
     {
-      "id": "e63",
+      "id": "e59",
       "kind": "text",
       "label": "P: “The teams shipping sustainable unit economics all share one…”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "The teams shipping sustainable unit economics all share one trait: they test economy design alongside core gameplay during the initial validation window."
     },
     {
-      "id": "e64",
+      "id": "e60",
       "kind": "text",
       "label": "LI: “Not in a presentation deck.”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "Not in a presentation deck."
     },
     {
-      "id": "e65",
+      "id": "e61",
       "kind": "text",
       "label": "LI: “Not in an isolated spreadsheet.”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "Not in an isolated spreadsheet."
     },
     {
-      "id": "e66",
+      "id": "e62",
       "kind": "text",
       "label": "LI: “Not in a panicked post-launch hotfix.”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "Not in a panicked post-launch hotfix."
     },
     {
-      "id": "e67",
+      "id": "e63",
       "kind": "text",
       "label": "P: “They build playable prototypes where the economic model can…”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "They build playable prototypes where the economic model can be observed, measured, and adjusted before production scale locks those assumptions in place. Consequently, validation eliminates waste."
     },
     {
-      "id": "e68",
+      "id": "e64",
       "kind": "text",
       "label": "P: “At GDC 2026, co-development ranked among the top five indus…”",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "At GDC 2026, co-development ranked among the top five industry topics because modern studios realize they need specialized monetization design expertise, not just raw production capacity. “Volume over viability” remains the single largest risk to studio economics today. Mobile game monetization models are not menu items you select — they are assumptions you must validate."
     },
     {
-      "id": "e69",
+      "id": "e65",
       "kind": "text",
       "label": "H2: “Looking for a Partner Who Validates Monetization Alongside …”",
       "group": "Looking for a Partner Who Validates Mon…",
       "value": "Looking for a Partner Who Validates Monetization Alongside Gameplay?"
     },
     {
-      "id": "e70",
+      "id": "e66",
       "kind": "text",
       "label": "P: “OOX prototypes monetization systems alongside core loops. I…”",
       "group": "Looking for a Partner Who Validates Mon…",
       "value": "OOX prototypes monetization systems alongside core loops. In just two to six weeks, you will know whether your economic model holds weight, not just whether the game runs."
     },
     {
-      "id": "e71",
+      "id": "e67",
       "kind": "text",
       "label": "P: “Let us discuss your project.”",
       "group": "Looking for a Partner Who Validates Mon…",
       "value": "Let us discuss your project."
     },
     {
-      "id": "e72",
+      "id": "e68",
       "kind": "html",
       "label": "P: “Learn more:”",
       "group": "Looking for a Partner Who Validates Mon…",
       "value": "<strong>Learn more:</strong>"
     },
     {
-      "id": "e73",
+      "id": "e69",
       "kind": "html",
       "label": "LI: “Rapid Prototyping”",
       "group": "Looking for a Partner Who Validates Mon…",
       "value": "<a href=\"/service/rapid-prototyping/\">Rapid Prototyping</a>"
     },
     {
-      "id": "e74",
+      "id": "e70",
       "kind": "html",
       "label": "LI: “Mobile Game Development”",
       "group": "Looking for a Partner Who Validates Mon…",
       "value": "<a href=\"/service/mobile-game-development/\">Mobile Game Development</a>"
     },
     {
-      "id": "e75",
+      "id": "e71",
       "kind": "html",
       "label": "LI: “Co-Development”",
       "group": "Looking for a Partner Who Validates Mon…",
       "value": "<a href=\"/service/co-development/\">Co-Development</a>"
     },
     {
-      "id": "e76",
-      "kind": "image",
-      "label": "Image: mobile game vertical slice",
-      "group": "Recent posts",
-      "value": "/wp-content/uploads/2026/08/DSC06517-768x1152.jpg"
-    },
-    {
-      "id": "e77",
-      "kind": "imageAlt",
-      "label": "Alt for mobile game vertical slice",
-      "group": "Recent posts",
-      "value": "mobile game vertical slice"
-    },
-    {
-      "id": "e78",
-      "kind": "image",
-      "label": "Image: Read more",
-      "group": "Recent posts",
-      "value": "/wp-content/uploads/2026/03/arrowr.png"
-    },
-    {
-      "id": "e79",
-      "kind": "imageAlt",
-      "label": "Alt for Read more",
-      "group": "Recent posts",
-      "value": "Read more"
-    },
-    {
-      "id": "e80",
-      "kind": "image",
-      "label": "Image: Office Photos OOX Limited",
-      "group": "Recent posts",
-      "value": "/wp-content/uploads/2026/03/d8d70c6789c6b5f6ea12d48bc4006f64f8be8019-768x512.jpg"
-    },
-    {
-      "id": "e81",
-      "kind": "imageAlt",
-      "label": "Alt for Office Photos OOX Limited",
-      "group": "Recent posts",
-      "value": "Office Photos OOX Limited"
-    },
-    {
-      "id": "e82",
-      "kind": "image",
-      "label": "Image: mobile game vertical slice",
-      "group": "Recent posts",
-      "value": "/wp-content/uploads/2026/07/20260226-DSC06235-768x512.jpg"
-    },
-    {
-      "id": "e83",
-      "kind": "imageAlt",
-      "label": "Alt for mobile game vertical slice",
-      "group": "Recent posts",
-      "value": "mobile game vertical slice"
-    },
-    {
-      "id": "e84",
+      "id": "e72",
       "kind": "image",
       "label": "Image: Analyzing modern mobile game monetizati…",
       "group": "The Mobile Game Monetization Models Tha…",
       "value": "/wp-content/uploads/2026/03/4637c07d7a255be12fbe8b43735222eee22a9b4e.jpg"
     },
     {
-      "id": "e85",
+      "id": "e73",
       "kind": "imageAlt",
       "label": "Alt for Analyzing modern mobile game …",
       "group": "The Mobile Game Monetization Models Tha…",

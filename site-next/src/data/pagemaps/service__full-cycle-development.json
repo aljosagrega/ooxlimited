@@ -17,488 +17,404 @@
     {
       "id": "e3",
       "kind": "text",
-      "label": "H2: “Recent posts”",
-      "group": "Recent posts",
-      "value": "Recent posts"
-    },
-    {
-      "id": "e4",
-      "kind": "html",
-      "label": "H3: “What a Mobile Game Vertical Slice Should Prove Before Produ…”",
-      "group": "Recent posts",
-      "value": "<a href=\"/mobile-game-vertical-slice-prove-before-production-2/\">What a Mobile Game Vertical Slice Should Prove Before Production</a>"
-    },
-    {
-      "id": "e5",
-      "kind": "html",
-      "label": "H3: “Rapid Prototyping in Game Development: A Studio’s Guide”",
-      "group": "Recent posts",
-      "value": "<a href=\"/rapid-prototyping-game-development-2/\">Rapid Prototyping in Game Development: A Studio’s Guide</a>"
-    },
-    {
-      "id": "e6",
-      "kind": "html",
-      "label": "H3: “The Prototyping-First Studio: Why Validation Comes Before”",
-      "group": "Recent posts",
-      "value": "<a href=\"/prototyping-first-studio-validation-before-building-2026/\">The Prototyping-First Studio: Why Validation Comes Before</a>"
-    },
-    {
-      "id": "e7",
-      "kind": "text",
       "label": "H1: “Full Cycle Development”",
       "group": "Full Cycle Development",
       "value": "Full Cycle Development"
     },
     {
-      "id": "e8",
+      "id": "e4",
       "kind": "text",
       "label": "P: “Full-cycle game development covers every stage of the proce…”",
       "group": "Full Cycle Development",
       "value": "Full-cycle game development covers every stage of the process, from initial planning to launch and ongoing support. Instead of working with multiple vendors, you get one team that understands the product from the start, and as a result, delivers consistent results."
     },
     {
-      "id": "e9",
+      "id": "e5",
       "kind": "text",
       "label": "P: “As a game development company, we help teams move from vali…”",
       "group": "Full Cycle Development",
       "value": "As a game development company, we help teams move from validated ideas into scalable production. At the same time, our approach ensures that gameplay, engineering, and design stay aligned throughout the entire development lifecycle."
     },
     {
-      "id": "e10",
+      "id": "e6",
       "kind": "text",
       "label": "P: “As a game development company, we help teams move from vali…”",
       "group": "Types of Full Cycle Development We Offer",
       "value": "As a game development company, we help teams move from validated ideas into scalable production. At the same time, our approach ensures that gameplay, engineering, and design stay aligned throughout the entire development lifecycle. This way, teams can move forward with more clarity, while reducing unnecessary delays and rework."
     },
     {
-      "id": "e11",
+      "id": "e7",
       "kind": "html",
       "label": "H2: “Types of Full Cycle Development We Offer”",
       "group": "Types of Full Cycle Development We Offer",
       "value": "Types of <span class=\"text-gradient-oox\">Full Cycle Development</span> We Offer"
     },
     {
-      "id": "e12",
+      "id": "e8",
       "kind": "text",
       "label": "H2: “Mobile Game Development”",
       "group": "Mobile Game Development",
       "value": "Mobile Game Development"
     },
     {
-      "id": "e13",
+      "id": "e9",
       "kind": "html",
       "label": "P: “We build mobile games from concept to launch. Covering ever…”",
       "group": "Mobile Game Development",
       "value": "We build mobile games from concept to launch. Covering every aspect of the development, from ideation and game design, to production pipelines, game art, design and general visual direction based on market research on current trends. With a dedicated QA team we ensure bug-free experiences with device stability and optimization. We specialize in end-to-end mobile game validation through prototyping, and are basing all of our pipelines on articulating the idea or an existing game design document to get the fastest playable vertical slice possible.&nbsp;<br><br>"
     },
     {
-      "id": "e14",
+      "id": "e10",
       "kind": "text",
       "label": "H2: “Cross-Platform Game Development”",
       "group": "Cross-Platform Game Development",
       "value": "Cross-Platform Game Development"
     },
     {
-      "id": "e15",
+      "id": "e11",
       "kind": "html",
       "label": "P: “We develop games that can scale across multiple platforms, …”",
       "group": "Cross-Platform Game Development",
       "value": "We develop games that can scale across multiple platforms, ensuring consistent performance and experience. At the same time, we align systems and optimization strategies across devices, so the product remains stable as it grows.<br><br>"
     },
     {
-      "id": "e16",
+      "id": "e12",
       "kind": "text",
       "label": "H2: “Live Operations & Support”",
       "group": "Live Operations & Support",
       "value": "Live Operations & Support"
     },
     {
-      "id": "e17",
+      "id": "e13",
       "kind": "html",
       "label": "P: “We provide post-launch support that includes updates, impro…”",
       "group": "Live Operations & Support",
       "value": "We provide post-launch support that includes updates, improvements, bug fixing, and performance optimization. Over time, we continue refining the product, so it remains stable, efficient, and aligned with user needs.<br><br>"
     },
     {
-      "id": "e18",
+      "id": "e14",
       "kind": "text",
       "label": "H2: “Game Production & Planning”",
       "group": "Game Production & Planning",
       "value": "Game Production & Planning"
     },
     {
-      "id": "e19",
+      "id": "e15",
       "kind": "html",
       "label": "P: “We define realistic roadmaps, milestones, and workflows to …”",
       "group": "Game Production & Planning",
       "value": "We define realistic roadmaps, milestones, and workflows to ensure efficient and predictable delivery. At the same time, we align priorities and timelines early on, so teams can move forward with clarity and avoid unnecessary delays.<br><br>"
     },
     {
-      "id": "e20",
+      "id": "e16",
       "kind": "text",
       "label": "H2: “What Will You Get”",
       "group": "What Will You Get",
       "value": "What Will You Get"
     },
     {
-      "id": "e21",
+      "id": "e17",
       "kind": "html",
       "label": "H4: “End-to-End Development”",
       "group": "Page",
       "value": "<span class=\"accordion-image-wrapper-title\">End-to-End Development </span>"
     },
     {
-      "id": "e22",
+      "id": "e18",
       "kind": "text",
       "label": "P: “We cover the complete development process, including planni…”",
       "group": "Page",
       "value": "We cover the complete development process, including planning, engineering, art production, and final delivery. Throughout each stage, we keep everything aligned, so the product moves forward smoothly from concept to release."
     },
     {
-      "id": "e23",
+      "id": "e19",
       "kind": "html",
       "label": "H4: “Production-Ready Quality”",
       "group": "Page",
       "value": "<span class=\"accordion-image-wrapper-title\">Production-Ready Quality </span>"
     },
     {
-      "id": "e24",
+      "id": "e20",
       "kind": "text",
       "label": "P: “We build stable, scalable systems that are ready for launch…”",
       "group": "Page",
       "value": "We build stable, scalable systems that are ready for launch and future growth. From the start, we structure them to support expansion, so teams can add features and scale the product without major rework."
     },
     {
-      "id": "e25",
+      "id": "e21",
       "kind": "html",
       "label": "H4: “Consistent Communication”",
       "group": "Page",
       "value": "<span class=\"accordion-image-wrapper-title\">Consistent Communication </span>"
     },
     {
-      "id": "e26",
+      "id": "e22",
       "kind": "text",
       "label": "H2: “We Develop For”",
       "group": "We Develop For",
       "value": "We Develop For"
     },
     {
-      "id": "e27",
+      "id": "e23",
       "kind": "text",
       "label": "H2: “iOS Mobile Applications”",
       "group": "iOS Mobile Applications",
       "value": "iOS Mobile Applications"
     },
     {
-      "id": "e28",
+      "id": "e24",
       "kind": "html",
       "label": "P: “Optimized development for iOS devices with a focus on perfo…”",
       "group": "iOS Mobile Applications",
       "value": "<span style=\"font-weight: 400;\">Optimized development for iOS devices with a focus on performance and user experience.<br><br></span>"
     },
     {
-      "id": "e29",
+      "id": "e25",
       "kind": "text",
       "label": "H2: “Android Mobile Applications”",
       "group": "Android Mobile Applications",
       "value": "Android Mobile Applications"
     },
     {
-      "id": "e30",
+      "id": "e26",
       "kind": "html",
       "label": "P: “Reliable builds across a wide range of Android devices and …”",
       "group": "Android Mobile Applications",
       "value": "<span style=\"font-weight: 400;\">Reliable builds across a wide range of Android devices and environments.</span>"
     },
     {
-      "id": "e31",
+      "id": "e27",
       "kind": "text",
       "label": "H2: “Cross-Platform Interactive Products”",
       "group": "Cross-Platform Interactive Products",
       "value": "Cross-Platform Interactive Products"
     },
     {
-      "id": "e32",
+      "id": "e28",
       "kind": "html",
       "label": "P: “Scalable solutions that support multiple platforms and long…”",
       "group": "Cross-Platform Interactive Products",
       "value": "<span style=\"font-weight: 400;\">Scalable solutions that support multiple platforms and long-term product growth.</span>"
     },
     {
-      "id": "e33",
+      "id": "e29",
       "kind": "text",
       "label": "H2: “Our Team”",
       "group": "Our Team",
       "value": "Our Team"
     },
     {
-      "id": "e34",
+      "id": "e30",
       "kind": "html",
       "label": "P: “Our full-cycle development team includes game developers, b…”",
       "group": "Our Team",
       "value": "<span style=\"font-weight: 400;\">Our</span><span style=\"font-weight: 400;\"> full-cycle development </span><span style=\"font-weight: 400;\">team includes game developers, backend engineers, UI/UX designers, game artists, and producers.<br></span><span style=\"font-weight: 400;\"><br></span><span style=\"font-weight: 400;\"> We work as a unified team to ensure consistency, quality, and smooth delivery across all stages of development.</span>"
     },
     {
-      "id": "e35",
+      "id": "e31",
       "kind": "text",
       "label": "H2: “Frequently Asked Questions”",
       "group": "Frequently Asked Questions",
       "value": "Frequently Asked Questions"
     },
     {
-      "id": "e36",
+      "id": "e32",
       "kind": "text",
       "label": "P: “Full-cycle game development covers all stages of game creat…”",
       "group": "Page",
       "value": "Full-cycle game development covers all stages of game creation, including planning, design, development, testing, and launch. From the beginning, this approach keeps every part of the product aligned, so teams can reduce miscommunication and avoid common production issues."
     },
     {
-      "id": "e37",
+      "id": "e33",
       "kind": "text",
       "label": "P: “As part of our full-cycle game development services, we gui…”",
       "group": "Page",
       "value": "As part of our full-cycle game development services, we guide projects from the initial concept to a fully functional, launch-ready product. Throughout the process, we maintain consistency, quality, and efficiency, so the entire development lifecycle stays structured and predictable."
     },
     {
-      "id": "e38",
+      "id": "e34",
       "kind": "text",
       "label": "P: “Full-cycle development means one team handles the entire pr…”",
       "group": "Page",
       "value": "Full-cycle development means one team handles the entire project, ensuring consistency, better communication, and fewer risks compared to working with multiple vendors. As a result, teams remove gaps between design, development, and production stages."
     },
     {
-      "id": "e39",
+      "id": "e35",
       "kind": "text",
       "label": "P: “When working with a full-cycle game development company, te…”",
       "group": "Page",
       "value": "When working with a full-cycle game development company, teams make decisions faster and maintain more efficient workflows, while keeping the final product cohesive. This approach becomes especially valuable for complex projects that require strong coordination across multiple disciplines."
     },
     {
-      "id": "e40",
+      "id": "e36",
       "kind": "text",
       "label": "P: “Yes, our full-cycle game development services include game …”",
       "group": "Page",
       "value": "Yes, our full-cycle game development services include game design, engineering, art, UI, and production planning. This way, we bring together all key disciplines needed to build a complete product."
     },
     {
-      "id": "e41",
+      "id": "e37",
       "kind": "text",
       "label": "P: “By handling both design and development, we ensure that gam…”",
       "group": "Page",
       "value": "By handling both design and development, we ensure that gameplay ideas stay technically feasible and aligned with production constraints. As a result, teams move through development more smoothly and reduce the need for major revisions."
     },
     {
-      "id": "e42",
+      "id": "e38",
       "kind": "text",
       "label": "P: “Yes, we can join ongoing projects, analyze the current stat…”",
       "group": "Page",
       "value": "Yes, we can join ongoing projects, analyze the current state, and continue development based on your needs. At the start, we evaluate code quality, architecture, and production workflows, so we can move forward with a clear plan."
     },
     {
-      "id": "e43",
+      "id": "e39",
       "kind": "text",
       "label": "P: “Our goal is to stabilize the project, improve efficiency, a…”",
       "group": "Page",
       "value": "Our goal is to stabilize the project, improve efficiency, and align it with your business goals. As a result, full-cycle development remains a strong option even for projects that are already in progress."
     },
     {
-      "id": "e44",
+      "id": "e40",
       "kind": "html",
       "label": "P: “Yes, we provide live operations, updates, optimization, and…”",
       "group": "Page",
       "value": "<span style=\"font-weight: 400;\">Yes, we provide live operations, updates, optimization, and long-term support after release. This includes bug fixing, performance improvements, and feature updates.</span>"
     },
     {
-      "id": "e45",
+      "id": "e41",
       "kind": "html",
       "label": "P: “Post-launch support is a critical part of full-cycle game d…”",
       "group": "Page",
       "value": "<span style=\"font-weight: 400;\">Post-launch support is a critical part of</span><span style=\"font-weight: 400;\"> full-cycle game development, </span><span style=\"font-weight: 400;\">as it ensures that the product continues to perform well and evolve based on user feedback and data.</span>"
     },
     {
-      "id": "e46",
+      "id": "e42",
       "kind": "html",
       "label": "P: “We support iOS, Android, and cross-platform game developmen…”",
       "group": "Page",
       "value": "<span style=\"font-weight: 400;\">We support iOS, Android, and </span><span style=\"font-weight: 400;\">cross-platform game development</span><span style=\"font-weight: 400;\"> depending on project requirements. Our team ensures that the game performs well across different devices and environments.</span>"
     },
     {
-      "id": "e47",
+      "id": "e43",
       "kind": "html",
       "label": "P: “We adapt development pipelines and optimization strategies …”",
       "group": "Page",
       "value": "<span style=\"font-weight: 400;\">We adapt development pipelines and optimization strategies to match each platform, ensuring consistent quality and performance for end users.</span>"
     },
     {
-      "id": "e48",
+      "id": "e44",
       "kind": "html",
       "label": "P: “The timeline depends on the scope, complexity, and features…”",
       "group": "Page",
       "value": "<span style=\"font-weight: 400;\">The timeline depends on the scope, complexity, and features of the project. Smaller projects may take a few months, while larger productions require longer timelines.</span>"
     },
     {
-      "id": "e49",
+      "id": "e45",
       "kind": "html",
       "label": "P: “We define clear milestones and delivery phases to keep deve…”",
       "group": "Page",
       "value": "<span style=\"font-weight: 400;\">We define clear milestones and delivery phases to keep development structured and predictable. This helps teams track progress and make informed decisions throughout the process.</span>"
     },
     {
-      "id": "e50",
+      "id": "e46",
       "kind": "image",
       "label": "Image (ser-game-6.png)",
       "group": "Page",
       "value": "/wp-content/uploads/2026/01/ser-game-6.png"
     },
     {
-      "id": "e51",
-      "kind": "image",
-      "label": "Image: mobile game vertical slice",
-      "group": "Recent posts",
-      "value": "/wp-content/uploads/2026/08/DSC06517-768x1152.jpg"
-    },
-    {
-      "id": "e52",
-      "kind": "imageAlt",
-      "label": "Alt for mobile game vertical slice",
-      "group": "Recent posts",
-      "value": "mobile game vertical slice"
-    },
-    {
-      "id": "e53",
-      "kind": "image",
-      "label": "Image: Read more",
-      "group": "Recent posts",
-      "value": "/wp-content/uploads/2026/03/arrowr.png"
-    },
-    {
-      "id": "e54",
-      "kind": "imageAlt",
-      "label": "Alt for Read more",
-      "group": "Recent posts",
-      "value": "Read more"
-    },
-    {
-      "id": "e55",
-      "kind": "image",
-      "label": "Image: mobile game development team",
-      "group": "Recent posts",
-      "value": "/wp-content/uploads/2026/07/DSC06489-768x1152.jpg"
-    },
-    {
-      "id": "e56",
-      "kind": "imageAlt",
-      "label": "Alt for mobile game development team",
-      "group": "Recent posts",
-      "value": "mobile game development team"
-    },
-    {
-      "id": "e57",
-      "kind": "image",
-      "label": "Image: Office Photos OOX Limited",
-      "group": "Recent posts",
-      "value": "/wp-content/uploads/2026/03/d8d70c6789c6b5f6ea12d48bc4006f64f8be8019-768x512.jpg"
-    },
-    {
-      "id": "e58",
-      "kind": "imageAlt",
-      "label": "Alt for Office Photos OOX Limited",
-      "group": "Recent posts",
-      "value": "Office Photos OOX Limited"
-    },
-    {
-      "id": "e59",
+      "id": "e47",
       "kind": "image",
       "label": "Image: building factory oox limited",
       "group": "Types of Full Cycle Development We Offer",
       "value": "/wp-content/uploads/2026/01/factory.png"
     },
     {
-      "id": "e60",
+      "id": "e48",
       "kind": "imageAlt",
       "label": "Alt for building factory oox limited",
       "group": "Types of Full Cycle Development We Offer",
       "value": "building factory oox limited"
     },
     {
-      "id": "e61",
+      "id": "e49",
       "kind": "image",
       "label": "Image: image",
       "group": "Page",
       "value": "/wp-content/uploads/2026/01/targets.png"
     },
     {
-      "id": "e62",
+      "id": "e50",
       "kind": "imageAlt",
       "label": "Alt for image",
       "group": "Page",
       "value": "image"
     },
     {
-      "id": "e63",
+      "id": "e51",
       "kind": "image",
       "label": "Image: image",
       "group": "Page",
       "value": "/wp-content/uploads/2026/01/mine.png"
     },
     {
-      "id": "e64",
+      "id": "e52",
       "kind": "imageAlt",
       "label": "Alt for image",
       "group": "Page",
       "value": "image"
     },
     {
-      "id": "e65",
+      "id": "e53",
       "kind": "image",
       "label": "Image: image",
       "group": "Page",
       "value": "/wp-content/uploads/2026/01/rocks.png"
     },
     {
-      "id": "e66",
+      "id": "e54",
       "kind": "imageAlt",
       "label": "Alt for image",
       "group": "Page",
       "value": "image"
     },
     {
-      "id": "e67",
+      "id": "e55",
       "kind": "image",
       "label": "Image: game prototyping studio",
       "group": "iOS Mobile Applications",
       "value": "/wp-content/uploads/2026/01/apple.png"
     },
     {
-      "id": "e68",
+      "id": "e56",
       "kind": "imageAlt",
       "label": "Alt for game prototyping studio",
       "group": "iOS Mobile Applications",
       "value": "game prototyping studio"
     },
     {
-      "id": "e69",
+      "id": "e57",
       "kind": "image",
       "label": "Image: game prototyping studio",
       "group": "Android Mobile Applications",
       "value": "/wp-content/uploads/2026/01/android.png"
     },
     {
-      "id": "e70",
+      "id": "e58",
       "kind": "imageAlt",
       "label": "Alt for game prototyping studio",
       "group": "Android Mobile Applications",
       "value": "game prototyping studio"
     },
     {
-      "id": "e71",
+      "id": "e59",
       "kind": "image",
       "label": "Image: game prototyping studio",
       "group": "Cross-Platform Interactive Products",
       "value": "/wp-content/uploads/2026/01/layers.png"
     },
     {
-      "id": "e72",
+      "id": "e60",
       "kind": "imageAlt",
       "label": "Alt for game prototyping studio",
       "group": "Cross-Platform Interactive Products",

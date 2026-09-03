@@ -10,572 +10,488 @@
     {
       "id": "e2",
       "kind": "text",
-      "label": "H2: “Recent posts”",
-      "group": "Recent posts",
-      "value": "Recent posts"
-    },
-    {
-      "id": "e3",
-      "kind": "html",
-      "label": "H3: “From Idea to Playable: What a Game Prototyping Studio Actua…”",
-      "group": "Recent posts",
-      "value": "<a href=\"/game-prototyping-studio-deliverables/\">From Idea to Playable: What a Game Prototyping Studio Actually Delivers</a>"
-    },
-    {
-      "id": "e4",
-      "kind": "html",
-      "label": "H3: “Mobile Game Prototype Cost”",
-      "group": "Recent posts",
-      "value": "<a href=\"/how-much-does-a-mobile-game-prototype-cost-2-2/\">Mobile Game Prototype Cost</a>"
-    },
-    {
-      "id": "e5",
-      "kind": "html",
-      "label": "H3: “2025 in Review: A Defining Year for Our Game & App Developm…”",
-      "group": "Recent posts",
-      "value": "<a href=\"/2025-in-review-a-defining-year-for-our-game-app-development-studio/\">2025 in Review: A Defining Year for Our Game &amp; App Development Studio</a>"
-    },
-    {
-      "id": "e6",
-      "kind": "text",
       "label": "H1: “What Is Rapid Prototyping in Game Development? A Studio's A…”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "What Is Rapid Prototyping in Game Development? A Studio's Answer"
     },
     {
-      "id": "e7",
+      "id": "e3",
       "kind": "text",
       "label": "P: “by OOX Limited”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "by OOX Limited"
     },
     {
-      "id": "e8",
+      "id": "e4",
       "kind": "text",
       "label": "H2: “Introduction: Why Most Game Ideas Fail”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "Introduction: Why Most Game Ideas Fail"
     },
     {
-      "id": "e9",
+      "id": "e5",
       "kind": "text",
       "label": "P: “Most game ideas never reach a player. Not because the team …”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "Most game ideas never reach a player. Not because the team lacked talent. Not because the budget was too small. They fail because studios commit to building before they learn whether the idea actually works."
     },
     {
-      "id": "e10",
+      "id": "e6",
       "kind": "text",
       "label": "P: “A design flaw caught during the first two weeks of prototyp…”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "A design flaw caught during the first two weeks of prototyping costs almost nothing to fix. That same flaw discovered six months into production costs months of engineering, art, and design work. That same flaw at launch can kill a studio."
     },
     {
-      "id": "e11",
+      "id": "e7",
       "kind": "text",
       "label": "P: “The root cause is not execution. Most game teams can build.…”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "The root cause is not execution. Most game teams can build. The problem is that teams rarely ask the right question early enough. The wrong question is \"can we build this?\" The right question is \"should we keep building this?\" And that question demands a methodology designed to answer it."
     },
     {
-      "id": "e12",
+      "id": "e8",
       "kind": "text",
       "label": "P: “That methodology is rapid prototyping in game development -…”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "That methodology is rapid prototyping in game development - not a rough draft of the game, but a structured validation instrument: a focused, disposable build that tests whether an idea deserves to move forward before the studio commits months of runway to producing it."
     },
     {
-      "id": "e13",
+      "id": "e9",
       "kind": "text",
       "label": "H2: “What Is Rapid Prototyping in Game Development?”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "What Is Rapid Prototyping in Game Development?"
     },
     {
-      "id": "e14",
+      "id": "e10",
       "kind": "text",
       "label": "P: “Rapid prototyping is structured validation. It is a methodo…”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "Rapid prototyping is structured validation. It is a methodology that answers one question: should this idea move forward?"
     },
     {
-      "id": "e15",
+      "id": "e11",
       "kind": "text",
       "label": "P: “In practice, game prototype development means building the …”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "In practice, game prototype development means building the simplest possible interactive version of a game's core idea. It isolates the single repeating cycle of actions at the centre of the experience - the core loop - and tests only that loop. For an RPG, the core loop is explore → fight → upgrade. For a hyper-casual mobile game, it is tap → score → retry. For a shooter, move → aim → shoot. Everything else - narrative, progression, monetisation, visual polish - is deliberately omitted."
     },
     {
-      "id": "e16",
+      "id": "e12",
       "kind": "html",
       "label": "P: “If the core loop is not fun, nothing layered on top of it w…”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "If the core loop is not fun, nothing layered on top of it will save the game - not art, not narrative, not live-ops infrastructure. As <a href=\"https://www.gamedeveloper.com/design/how-supporting-core-loops-and-early-prototyping-are-key-to-your-game-s-success\">Game Developer puts it</a>: if your core loop is not fun, neither is your game."
     },
     {
-      "id": "e17",
+      "id": "e13",
       "kind": "text",
       "label": "P: “A prototype serves as a navigation instrument. It tells the…”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "A prototype serves as a navigation instrument. It tells the team where they are and whether they are heading toward something players want. It does not tell them whether the game is polished. Polish comes later - or never, if the core loop fails."
     },
     {
-      "id": "e18",
+      "id": "e14",
       "kind": "text",
       "label": "P: “What a prototype includes is deliberately narrow:”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "What a prototype includes is deliberately narrow:"
     },
     {
-      "id": "e19",
+      "id": "e15",
       "kind": "text",
       "label": "LI: “The core mechanic and nothing more”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "The core mechanic and nothing more"
     },
     {
-      "id": "e20",
+      "id": "e16",
       "kind": "text",
       "label": "LI: “Placeholder art - grey boxes, untextured geometry, basic sp…”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "Placeholder art - grey boxes, untextured geometry, basic sprites"
     },
     {
-      "id": "e21",
+      "id": "e17",
       "kind": "text",
       "label": "LI: “Simplified UI sufficient for testing”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "Simplified UI sufficient for testing"
     },
     {
-      "id": "e22",
+      "id": "e18",
       "kind": "text",
       "label": "LI: “One environment, one primary interaction”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "One environment, one primary interaction"
     },
     {
-      "id": "e23",
+      "id": "e19",
       "kind": "text",
       "label": "P: “What a prototype answers is equally narrow: Is the core loo…”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "What a prototype answers is equally narrow: Is the core loop understandable in seconds? Does the moment-to-moment interaction feel satisfying? Do testers replay voluntarily?"
     },
     {
-      "id": "e24",
+      "id": "e20",
       "kind": "text",
       "label": "P: “A prototype is designed to produce a decision - and then it…”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "A prototype is designed to produce a decision - and then it is discarded. The entire exercise serves game idea validation, not production readiness."
     },
     {
-      "id": "e25",
+      "id": "e21",
       "kind": "text",
       "label": "H2: “What Rapid Prototyping Is Not”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "What Rapid Prototyping Is Not"
     },
     {
-      "id": "e26",
+      "id": "e22",
       "kind": "text",
       "label": "P: “A rapid prototype is not an MVP, not an alpha, not a vertic…”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "A rapid prototype is not an MVP, not an alpha, not a vertical slice, and not a rough draft of the finished game. Confusing these terms is one of the most expensive mistakes a studio can make."
     },
     {
-      "id": "e27",
+      "id": "e23",
       "kind": "text",
       "label": "P: “A prototype is not an MVP. An MVP is a shippable product - …”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "A prototype is not an MVP. An MVP is a shippable product - feature-minimal but market-ready. A prototype is disposable. It exists to be tested and discarded. Building an MVP before validating the core loop means shipping features attached to a broken foundation."
     },
     {
-      "id": "e28",
+      "id": "e24",
       "kind": "text",
       "label": "P: “A prototype is not an alpha. An alpha is a feature-complete…”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "A prototype is not an alpha. An alpha is a feature-complete internal build - every system, every screen, at first-pass quality. A prototype contains one feature: the core loop. The alpha asks \"are all the pieces here?\" The prototype asks \"does the one piece that matters actually work?\""
     },
     {
-      "id": "e29",
+      "id": "e25",
       "kind": "text",
       "label": "P: “A prototype is not a vertical slice. A vertical slice demon…”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "A prototype is not a vertical slice. A vertical slice demonstrates every production layer - final-quality art, sound, UI, full feature stack - in one polished segment. A prototype shows what the core mechanic plays like with grey boxes and placeholder text."
     },
     {
-      "id": "e30",
+      "id": "e26",
       "kind": "text",
       "label": "P: “A prototype is not production code. The single most common …”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "A prototype is not production code. The single most common mistake teams make is treating prototype code as the foundation for the final product. Prototype code is written to be thrown away. Keeping it means carrying early assumptions - including the wrong ones - into production."
     },
     {
-      "id": "e31",
+      "id": "e27",
       "kind": "text",
       "label": "P: “A prototype is not a demo or pitch deck substitute. A proto…”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "A prototype is not a demo or pitch deck substitute. A prototype validates internally - it answers the team's own question about whether to proceed. It is not designed to sell."
     },
     {
-      "id": "e32",
+      "id": "e28",
       "kind": "text",
       "label": "P: “The negative-space definition matters. Once you understand …”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "The negative-space definition matters. Once you understand what rapid prototyping is not, the positive definition - structured validation of the core loop, built to be thrown away - becomes clear."
     },
     {
-      "id": "e33",
+      "id": "e29",
       "kind": "text",
       "label": "P: “A two-week prototype that kills a bad idea saves the six mo…”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "A two-week prototype that kills a bad idea saves the six months of production that idea would have consumed."
     },
     {
-      "id": "e34",
+      "id": "e30",
       "kind": "text",
       "label": "H2: “Why Studios Use Rapid Prototyping”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "Why Studios Use Rapid Prototyping"
     },
     {
-      "id": "e35",
+      "id": "e31",
       "kind": "text",
       "label": "P: “Studios use rapid prototyping because the cost of being wro…”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "Studios use rapid prototyping because the cost of being wrong increases with every week of production."
     },
     {
-      "id": "e36",
+      "id": "e32",
       "kind": "text",
       "label": "P: “The biggest unknown in any game project is whether the core…”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "The biggest unknown in any game project is whether the core idea is fun. Every other variable - scope, cost, schedule - is derivative of that question. Prototyping answers the biggest unknown first, before it compounds into a financial problem."
     },
     {
-      "id": "e37",
+      "id": "e33",
       "kind": "text",
       "label": "P: “Without prototyping, a studio picks one idea on intuition a…”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "Without prototyping, a studio picks one idea on intuition and discovers whether it works six months later - after the budget is spent. With prototyping, a studio can test three core loop variations in six weeks, kill the two that fail, and scale what survives."
     },
     {
-      "id": "e38",
+      "id": "e34",
       "kind": "html",
       "label": "P: “According to the Unity 2026 Game Development Report, 46% of…”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "According to the <a href=\"https://www.gamesmarket.global/2026-unity-game-development-report-released/\">Unity 2026 Game Development Report</a>, 46% of studios now spend one to three months on prototyping, and 21% spend less than a month. More telling: 48% have become more selective about which prototypes advance, and 52% now prioritise smaller projects as a deliberate risk-reduction strategy."
     },
     {
-      "id": "e39",
+      "id": "e35",
       "kind": "text",
       "label": "P: “The core loop drives this entire approach. Every system add…”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "The core loop drives this entire approach. Every system added later - narrative, progression, monetisation, live ops - must support the core loop. If the loop fails, those systems represent wasted effort. A rapid game prototype that tests the core loop first prevents a studio from building scaffolding around a broken foundation."
     },
     {
-      "id": "e40",
+      "id": "e36",
       "kind": "text",
       "label": "P: “For a startup or indie studio with limited runway, prototyp…”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "For a startup or indie studio with limited runway, prototyping is not a luxury. It is survival. The difference between burning 12 months on the wrong game and spending four weeks confirming the right one is the difference between shipping and shutting down. The prototype is the gate: Concept → Prototype → Validate → Build-or-Kill. It is a decision instrument, not a development phase."
     },
     {
-      "id": "e41",
+      "id": "e37",
       "kind": "text",
       "label": "H2: “The Rapid Prototyping Process”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "The Rapid Prototyping Process"
     },
     {
-      "id": "e42",
+      "id": "e38",
       "kind": "text",
       "label": "P: “The prototyping process is a structured loop, not a creativ…”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "The prototyping process is a structured loop, not a creative free-for-all. Every prototype begins with a question and ends with a decision."
     },
     {
-      "id": "e43",
+      "id": "e39",
       "kind": "text",
       "label": "H3: “Step 1 - Define the Core Question”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "Step 1 - Define the Core Question"
     },
     {
-      "id": "e44",
+      "id": "e40",
       "kind": "text",
       "label": "P: “Every prototype must answer one specific question. For a ga…”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "Every prototype must answer one specific question. For a gameplay prototype: \"is the core loop fun?\" For a technical prototype: \"can this architecture support the interaction we need?\" For a retention prototype: \"do testers come back for a third session?\""
     },
     {
-      "id": "e45",
+      "id": "e41",
       "kind": "text",
       "label": "P: “A prototype that tries to answer three questions answers no…”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "A prototype that tries to answer three questions answers none of them. Scoping the question scopes the prototype. The starting point is defining the core loop in one sentence - what repeating action cycle does the player experience?"
     },
     {
-      "id": "e46",
+      "id": "e42",
       "kind": "text",
       "label": "H3: “Step 2 - Build the Minimum Testable Version”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "Step 2 - Build the Minimum Testable Version"
     },
     {
-      "id": "e47",
+      "id": "e43",
       "kind": "text",
       "label": "P: “Build only what is needed to test the question. Placeholder…”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "Build only what is needed to test the question. Placeholder art, simplified UI, one environment, one mechanic. Nothing else."
     },
     {
-      "id": "e48",
+      "id": "e44",
       "kind": "html",
       "label": "P: “For paper prototypes, this can take hours. For a simple dig…”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "For paper prototypes, this can take hours. For a simple digital spike, days. For an interactive build with playable mechanics and basic technical architecture, the typical timeline is two to six weeks. The work is deliberately not polished. The <a href=\"/service/rapid-prototyping/\">deliverable is a playable interactive prototype</a> that can be tested internally, shared with stakeholders, or used for early market validation."
     },
     {
-      "id": "e49",
+      "id": "e45",
       "kind": "text",
       "label": "P: “The operative discipline: build nothing that does not direc…”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "The operative discipline: build nothing that does not directly serve the question defined in step one."
     },
     {
-      "id": "e50",
+      "id": "e46",
       "kind": "text",
       "label": "H3: “Step 3 - Test and Measure”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "Step 3 - Test and Measure"
     },
     {
-      "id": "e51",
+      "id": "e47",
       "kind": "text",
       "label": "P: “Put the prototype in front of people who were not on the bu…”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "Put the prototype in front of people who were not on the build team. Observe - do not explain. Capture where they hesitate, where they engage, where they stop."
     },
     {
-      "id": "e52",
+      "id": "e48",
       "kind": "text",
       "label": "P: “For mobile games: measure CPI, Day 1 retention, playtime, a…”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "For mobile games: measure CPI, Day 1 retention, playtime, and replay rate. For other platforms: measure comprehension speed, voluntary replay, and frustration points. The data answers the question - not intuition, not conviction. A prototype the team is certain will succeed might test terribly; one nobody believed in might test beautifully."
     },
     {
-      "id": "e53",
+      "id": "e49",
       "kind": "text",
       "label": "H3: “Step 4 - Decide: Build, Pivot, or Kill”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "Step 4 - Decide: Build, Pivot, or Kill"
     },
     {
-      "id": "e54",
+      "id": "e50",
       "kind": "text",
       "label": "P: “If the core loop shows retention and voluntary replay - bui…”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "If the core loop shows retention and voluntary replay - build. The idea is worth scaling."
     },
     {
-      "id": "e55",
+      "id": "e51",
       "kind": "text",
       "label": "P: “If the loop shows promise but needs rework - pivot and prot…”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "If the loop shows promise but needs rework - pivot and prototype again."
     },
     {
-      "id": "e56",
+      "id": "e52",
       "kind": "text",
       "label": "P: “If the loop fails - kill it. Killing a bad idea after two w…”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "If the loop fails - kill it. Killing a bad idea after two weeks is a win, not a failure. The money and time saved is the return. The prototype's job ends here. The code is not carried forward. The learning is."
     },
     {
-      "id": "e57",
+      "id": "e53",
       "kind": "text",
       "label": "H2: “How Rapid Prototyping Saves Time and Money”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "How Rapid Prototyping Saves Time and Money"
     },
     {
-      "id": "e58",
+      "id": "e54",
       "kind": "text",
       "label": "P: “The math is straightforward.”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "The math is straightforward."
     },
     {
-      "id": "e59",
+      "id": "e55",
       "kind": "text",
       "label": "P: “Consider a studio with a 12-month runway. Studio A tests fi…”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "Consider a studio with a 12-month runway. Studio A tests five core loops over three months, picks the strongest, and builds for nine months. Studio B picks one idea on intuition and builds for 12 months, hoping it works. Studio A has four dead ideas it did not waste months building - and data confirming the fifth is worth scaling. Studio B has one idea and no data. The difference is not philosophical. It is financial."
     },
     {
-      "id": "e60",
+      "id": "e56",
       "kind": "text",
       "label": "P: “The cost-of-failure curve makes the case: a correction duri…”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "The cost-of-failure curve makes the case: a correction during prototyping costs almost nothing; during production, it costs engineering hours and restructured systems; at release, it costs player trust and studio reputation. The ratio - 1 in prototyping, 2,000 in production, 10,000 or more at release - is an established reality."
     },
     {
-      "id": "e61",
+      "id": "e57",
       "kind": "text",
       "label": "P: “There is a secondary benefit: intellectual property recycli…”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "There is a secondary benefit: intellectual property recycling. Killing a prototype does not mean losing everything. The design learnings, technical spikes, and asset experiments inform the next prototype. A studio that prototypes regularly builds institutional knowledge about what kinds of core loops work for its audience. Every cycle makes the next cycle faster."
     },
     {
-      "id": "e62",
+      "id": "e58",
       "kind": "text",
       "label": "H2: “Final Thoughts”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "Final Thoughts"
     },
     {
-      "id": "e63",
+      "id": "e59",
       "kind": "text",
       "label": "P: “A prototype should not answer: \"Can we build this?\" It shou…”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "A prototype should not answer: \"Can we build this?\" It should answer: \"Should we keep building this?\""
     },
     {
-      "id": "e64",
+      "id": "e60",
       "kind": "text",
       "label": "P: “The distinction changes everything. Building is easier than…”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "The distinction changes everything. Building is easier than it has ever been - engines are more accessible, AI accelerates execution, the barrier to producing a game has never been lower. But building the wrong game is as expensive as it ever was, arguably more so as competition for player attention rises and discovery costs climb."
     },
     {
-      "id": "e65",
+      "id": "e61",
       "kind": "text",
       "label": "P: “The hard part of game development is not production. It is …”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "The hard part of game development is not production. It is knowing what deserves to be produced. That is what rapid prototyping delivers: evidence, not intuition. Data, not conviction. A decision, not a guess."
     },
     {
-      "id": "e66",
+      "id": "e62",
       "kind": "html",
       "label": "LI: “Rapid Prototyping in Game Development: From Concept to Play…”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "<a href=\"/rapid-prototyping-game-development/\">Rapid Prototyping in Game Development: From Concept to Playable Build</a>"
     },
     {
-      "id": "e67",
+      "id": "e63",
       "kind": "html",
       "label": "LI: “OOX Rapid Prototyping Service: Core Mechanics to Interactiv…”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "<a href=\"/service/rapid-prototyping/\">OOX Rapid Prototyping Service: Core Mechanics to Interactive Builds</a>"
     },
     {
-      "id": "e68",
+      "id": "e64",
       "kind": "html",
       "label": "LI: “How Much Does a Mobile Game Prototype Cost?”",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "<a href=\"/how-much-does-a-mobile-game-prototype-cost-2-2/\">How Much Does a Mobile Game Prototype Cost?</a>"
     },
     {
-      "id": "e69",
+      "id": "e65",
       "kind": "text",
       "label": "H2: “Ready to Validate Your Game Idea?”",
       "group": "Ready to Validate Your Game Idea?",
       "value": "Ready to Validate Your Game Idea?"
     },
     {
-      "id": "e70",
+      "id": "e66",
       "kind": "text",
       "label": "P: “If you are exploring a game concept, OOX can help you move …”",
       "group": "Ready to Validate Your Game Idea?",
       "value": "If you are exploring a game concept, OOX can help you move from idea to validated prototype in weeks -- not months. A short conversation is usually enough to clarify scope, priorities, and the fastest path forward."
     },
     {
-      "id": "e71",
+      "id": "e67",
       "kind": "html",
       "label": "P: “Contact OOX”",
       "group": "Ready to Validate Your Game Idea?",
       "value": "<a href=\"/contact-us/\">Contact OOX</a>"
     },
     {
-      "id": "e72",
-      "kind": "image",
-      "label": "Image: Office Photos OOX Limited",
-      "group": "Recent posts",
-      "value": "/wp-content/uploads/2026/03/c7f806ba5aa0b941cf5c248e564b0d3d12a19406-768x512.jpg"
-    },
-    {
-      "id": "e73",
-      "kind": "imageAlt",
-      "label": "Alt for Office Photos OOX Limited",
-      "group": "Recent posts",
-      "value": "Office Photos OOX Limited"
-    },
-    {
-      "id": "e74",
-      "kind": "image",
-      "label": "Image: Read more",
-      "group": "Recent posts",
-      "value": "/wp-content/uploads/2026/03/arrowr.png"
-    },
-    {
-      "id": "e75",
-      "kind": "imageAlt",
-      "label": "Alt for Read more",
-      "group": "Recent posts",
-      "value": "Read more"
-    },
-    {
-      "id": "e76",
-      "kind": "image",
-      "label": "Image: Mobile Game Prototype Cost",
-      "group": "Recent posts",
-      "value": "/wp-content/uploads/2026/05/20260226-DSC06230-768x512.jpg"
-    },
-    {
-      "id": "e77",
-      "kind": "imageAlt",
-      "label": "Alt for Mobile Game Prototype Cost",
-      "group": "Recent posts",
-      "value": "Mobile Game Prototype Cost"
-    },
-    {
-      "id": "e78",
-      "kind": "image",
-      "label": "Image: 2025-recap",
-      "group": "Recent posts",
-      "value": "/wp-content/uploads/2026/04/2025-recap-768x400.webp"
-    },
-    {
-      "id": "e79",
-      "kind": "imageAlt",
-      "label": "Alt for 2025-recap",
-      "group": "Recent posts",
-      "value": "2025-recap"
-    },
-    {
-      "id": "e80",
+      "id": "e68",
       "kind": "image",
       "label": "Image: Game developer at a standing desk with …",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "https://lh3.googleusercontent.com/d/11d9gInIKjDc7vgJ0Y3YQRyyoeKd6vxhP=w1200"
     },
     {
-      "id": "e81",
+      "id": "e69",
       "kind": "imageAlt",
       "label": "Alt for Game developer at a standing …",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "Game developer at a standing desk with Unity Editor showing greybox prototype scene, a notebook open to a hand-drawn core loop diagram, in a bright modern studio."
     },
     {
-      "id": "e82",
+      "id": "e70",
       "kind": "image",
       "label": "Image: Over-the-shoulder view of a developer t…",
       "group": "What Is Rapid Prototyping in Game Devel…",
       "value": "https://lh3.googleusercontent.com/d/1RkxStMA7b69uBNk1UYGOQaho0ArcR_a5=w1200"
     },
     {
-      "id": "e83",
+      "id": "e71",
       "kind": "imageAlt",
       "label": "Alt for Over-the-shoulder view of a d…",
       "group": "What Is Rapid Prototyping in Game Devel…",
