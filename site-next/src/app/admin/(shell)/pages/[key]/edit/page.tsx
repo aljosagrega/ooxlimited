@@ -2,9 +2,7 @@ import { redirect, notFound } from "next/navigation";
 import { requireAuth } from "@/lib/session";
 import { getPagemap } from "@/lib/fieldMap";
 import { getPageEdits } from "@/lib/pageEdits";
-import { listEditablePages } from "@/lib/pageList";
-import AdminShell from "@/components/admin/AdminShell";
-import PageEditor from "@/components/admin/PageEditor";
+import { listEditablePages } from "@/lib/pageList";import PageEditor from "@/components/admin/PageEditor";
 
 export default async function EditPage({ params }: { params: Promise<{ key: string }> }) {
   const user = await requireAuth();
@@ -21,14 +19,12 @@ export default async function EditPage({ params }: { params: Promise<{ key: stri
   const edits = getPageEdits(key);
 
   return (
-    <AdminShell>
-      <PageEditor
+          <PageEditor
         routeKey={key}
         routePath={meta.routePath}
         title={meta.title}
         pagemap={pagemap}
         edits={edits}
       />
-    </AdminShell>
   );
 }

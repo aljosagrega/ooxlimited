@@ -1,15 +1,12 @@
-import AdminShell from "./AdminShell";
-
 /**
  * Route-level loading state for /admin. Every admin page is dynamic (session
- * cookie) and some do real per-request work (SEO scoring, the 5.7 MB wikibrain
- * parse), so without this a link click freezes the current page until the
- * response lands. Rendered inside <AdminShell> so the sidebar stays put and only
- * the content area shimmers — no layout shift when the real page swaps in.
+ * cookie) and some do real per-request work (SEO scoring), so without this a
+ * link click freezes the current page until the response lands. The sidebar
+ * lives in admin/layout.tsx and never unmounts — only this content shimmers in
+ * its place, so nothing in the nav shifts on navigation.
  *
- * Ported from paynura-front's AdminPageSkeleton: a wave sweep across
- * color-mix-derived bars, staggered per row, with a reduced-motion pulse
- * fallback.
+ * A wave sweep across color-mix-derived bars, staggered per row, with a
+ * reduced-motion pulse fallback.
  */
 
 const CSS = `
@@ -350,7 +347,7 @@ export default function AdminPageSkeleton({ variant = "generic" }: {
   variant?: "generic" | "dashboard" | "list" | "form" | "translations" | "settings" | "sync" | "seo";
 }) {
   return (
-    <AdminShell>
+    <>
       <style>{CSS}</style>
       {variant === "dashboard" ? <DashboardSkeleton />
         : variant === "list" ? <ListSkeleton />
@@ -360,6 +357,6 @@ export default function AdminPageSkeleton({ variant = "generic" }: {
         : variant === "sync" ? <StatsListSkeleton statCards={2} maxWidth={860} />
         : variant === "seo" ? <StatsListSkeleton statCards={3} maxWidth={1000} />
         : <GenericSkeleton />}
-    </AdminShell>
+    </>
   );
 }
