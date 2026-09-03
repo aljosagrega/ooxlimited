@@ -1,0 +1,6 @@
+# Vendored WordPress theme/plugin assets + frozen page captures — store byte-for-byte,
+# never normalise line endings (they mirror what the server sends).
+public/wp-content/**   -text
+public/wp-includes/**  -text
+public/_css/**         -text
+src/data/frozen/**     -text

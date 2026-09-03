@@ -9,6 +9,9 @@
     "lint": "eslint",
     "migrate": "tsx scripts/migrate/migrate.ts",
     "freeze": "tsx scripts/snapshot/freeze.ts",
+    "build:maps": "tsx scripts/snapshot/build-pagemaps.ts",
+    "collect-assets": "node scripts/snapshot/collect-assets.mjs",
+    "snapshot": "npm run freeze && npm run build:maps && npm run collect-assets",
     "verify-urls": "tsx scripts/migrate/verify-urls.ts"
   },
   "dependencies": {

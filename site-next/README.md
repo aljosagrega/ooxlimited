@@ -14,8 +14,9 @@ site-next/   ← this app
 
 | Piece | What |
 |---|---|
-| `src/data/frozen/<key>.{html,head.html,meta.json}` | the rendered `<body>` + `<head>` resource stack per route, captured from the local WordPress by `npm run freeze` |
-| `public/wp-content`, `public/wp-includes` | **symlinks** to `../site/…` so every frozen `/wp-content/*` asset ref resolves. In production these are real rsynced directories (see DEPLOYMENT.md) |
+| `src/data/frozen/<key>.{html,head.html,meta.json}` | the rendered `<body>` + `<head>` resource stack per route, captured from the local WordPress by `npm run freeze`. **Committed** — the app carries its own content. |
+| `public/wp-content`, `public/wp-includes` | the exact theme/plugin asset files the frozen pages load (24 MB), copied from the WP docroot by `npm run collect-assets`. **Committed** — the deploy is self-contained. Only `public/wp-content/uploads/` (the media library) stays out: a local symlink, rsynced by the server. |
+| `src/data/pagemaps/<key>.json` | per-page list of editable text/image fields (`npm run build:maps`), driving the `/admin/pages` editor. Committed. |
 | `src/components/FrozenView.tsx` | server component: hoists the frozen stylesheet stack into `<head>`, renders the frozen body, mounts the script replayer |
 | `src/components/FrozenScripts.tsx` | client: replays the frozen `<script>` stack in order, then kicks Elementor / GSAP so carousels, galleries and scroll reveals attach |
 | `src/components/FrozenForms.tsx` | client: rebinds the frozen contact + newsletter forms to the API routes |
@@ -26,20 +27,31 @@ site-next/   ← this app
 
 ## Local setup
 
-Needs the WordPress copy running first (`cd .. && docker compose up -d` → `localhost:8080`).
+Everything except the media library is committed, so a plain clone runs:
 
 ```bash
 cd site-next
 npm install
-npm run migrate     # WP DB (localhost:3307) -> src/data/*.json
-npm run freeze      # localhost:8080 rendered HTML -> src/data/frozen/
-ln -s ../site/wp-content  public/wp-content     # once
-ln -s ../site/wp-includes public/wp-includes    # once
-cp .env.example .env.local && edit              # ADMIN_*, SESSION_SECRET at minimum
+ln -s ../../site/wp-content/uploads public/wp-content/uploads   # once — media library (gitignored)
+cp .env.example .env.local && edit                              # ADMIN_*, SESSION_SECRET at minimum
 npm run dev         # http://localhost:3000  (admin at /admin, admin / ooxlimited-dev)
 ```
 
-Re-run `npm run migrate` / `npm run freeze` whenever the WordPress copy changes.
+If you don't have the WordPress `site/` copy locally, point the uploads symlink
+at wherever the media lives, or set `UPLOADS_ORIGIN` in `.env.local` to proxy
+them from the live domain.
+
+### Re-capturing from WordPress
+
+Only when the design or content in the WP copy changes. Needs it running
+(`cd .. && docker compose up -d` → `localhost:8080`, DB on `:3307`):
+
+```bash
+npm run migrate         # WP DB  -> src/data/*.json  (content)
+npm run snapshot         # WP HTML -> src/data/frozen/ + pagemaps + public/wp-content
+```
+
+`npm run snapshot` = `freeze` + `build:maps` + `collect-assets`. Commit the result.
 
 ## Verifying design parity
 
