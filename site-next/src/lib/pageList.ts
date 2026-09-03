@@ -1,14 +1,14 @@
 import "server-only";
 import fs from "fs";
 import path from "path";
-import { getAllPages, getServices } from "./content";
+import { getAllPages } from "./content";
 import { getAllPageEdits } from "./pageEdits";
 
 export interface EditablePage {
   key: string;        // pagemap key / route key
   routePath: string;  // "/about-us/"
   title: string;
-  group: "Marketing" | "Service pages";
+  group: "Marketing";
   fields: number;     // pagemap field count
   edited: number;     // how many have overrides
 }
@@ -28,10 +28,12 @@ function routeKey(p: string): string {
 }
 
 /**
- * Pages editable under /admin/pages = the marketing pages + the service pages —
- * the surrounding copy that isn't produced by another section. Blog articles and
- * team profiles are edited in the Blog posts / Team sections and swapped into
- * their frozen pages by singleContent.ts.
+ * Pages editable under /admin/pages = the marketing pages only. Everything else
+ * has its own section:
+ *   - service page copy  -> Services  (structured fields + Page content tab)
+ *   - blog article bodies -> Blog posts
+ *   - team profiles       -> Team
+ * — swapped into the frozen pages by singleContent.ts / the service editor.
  */
 export function listEditablePages(): EditablePage[] {
   const edits = getAllPageEdits();
@@ -39,15 +41,11 @@ export function listEditablePages(): EditablePage[] {
     Object.keys(edits[k] ?? {}).filter((id) => !id.startsWith("__seo")).length;
 
   const out: EditablePage[] = [];
-  const push = (routePath: string, title: string, group: EditablePage["group"]) => {
-    const key = routeKey(routePath);
+  for (const p of getAllPages()) {
+    const key = routeKey(p.path);
     const fields = fieldCount(key);
-    if (fields === 0) return;
-    out.push({ key, routePath, title, group, fields, edited: editedCount(key) });
-  };
-
-  for (const p of getAllPages()) push(p.path, p.title, "Marketing");
-  for (const s of getServices()) push(`/service/${s.slug}/`, s.title, "Service pages");
-
+    if (fields === 0) continue;
+    out.push({ key, routePath: p.path, title: p.title, group: "Marketing", fields, edited: editedCount(key) });
+  }
   return out;
 }

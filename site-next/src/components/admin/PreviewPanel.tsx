@@ -77,7 +77,7 @@ export default function PreviewPanel({
           background: "var(--at-card)", borderLeft: "1px solid var(--at-border)",
           display: "flex", flexDirection: "column",
           animation: `${closing ? "oox-pp-out" : "oox-pp-in"} 0.28s cubic-bezier(0.4,0,0.2,1) both`,
-          boxShadow: "-30px 0 60px -20px rgba(0,0,0,0.35)",
+          boxShadow: "-16px 0 40px -28px rgba(0,0,0,0.22)",
         }}
       >
         <div style={{ display: "flex", alignItems: "center", gap: 10, padding: "12px 14px", borderBottom: "1px solid var(--at-border)", flexShrink: 0 }}>

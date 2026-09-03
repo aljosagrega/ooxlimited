@@ -17,12 +17,18 @@ export default function PageEditor({
   title,
   pagemap,
   edits: initialEdits,
+  hideSeo = false,
+  hideHeader = false,
 }: {
   routeKey: string;
   routePath: string;
   title: string;
   pagemap: PagemapEntry[];
   edits: Record<string, string>;
+  /** hide the "Search appearance" tab — for hosts that own SEO themselves (Services) */
+  hideSeo?: boolean;
+  /** hide the title / "View page" row — for when it sits inside another editor */
+  hideHeader?: boolean;
 }) {
   const contentEdits0 = Object.fromEntries(
     Object.entries(initialEdits).filter(([k]) => !k.startsWith("__seo")),
@@ -90,28 +96,32 @@ export default function PageEditor({
   const changedCount = Object.keys(edits).length;
 
   return (
-    <form onSubmit={save} className="admin-content-pad" style={{ maxWidth: 780, display: "flex", flexDirection: "column", gap: 18 }}>
-      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap", gap: 12 }}>
-        <div>
-          <h1 style={{ fontSize: 20, fontWeight: 600, color: "var(--at-text)", margin: 0 }}>
-            {title}
-            <span style={{ color: "var(--at-faint)", fontWeight: 400, fontSize: 13 }}> — {routePath}</span>
-          </h1>
-          <p style={{ fontSize: 12.5, color: "var(--at-muted)", marginTop: 4 }}>
-            {pagemap.length} editable text &amp; image fields. Layout is fixed; only content changes.
-          </p>
+    <form onSubmit={save} className={hideHeader ? "" : "admin-content-pad"} style={{ maxWidth: 780, display: "flex", flexDirection: "column", gap: 18 }}>
+      {!hideHeader && (
+        <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap", gap: 12 }}>
+          <div>
+            <h1 style={{ fontSize: 20, fontWeight: 600, color: "var(--at-text)", margin: 0 }}>
+              {title}
+              <span style={{ color: "var(--at-faint)", fontWeight: 400, fontSize: 13 }}> — {routePath}</span>
+            </h1>
+            <p style={{ fontSize: 12.5, color: "var(--at-muted)", marginTop: 4 }}>
+              {pagemap.length} editable text &amp; image fields. Layout is fixed; only content changes.
+            </p>
+          </div>
+          <a href={routePath} target="_blank" rel="noreferrer" className="btn btn-secondary btn-sm">
+            <ExternalLink size={13} /> View page
+          </a>
         </div>
-        <a href={routePath} target="_blank" rel="noreferrer" className="btn btn-secondary btn-sm">
-          <ExternalLink size={13} /> View page
-        </a>
-      </div>
+      )}
 
-      <div className="at-tabs">
-        <button type="button" className={`at-tab${tab === "content" ? " active" : ""}`} onClick={() => setTab("content")}>Content</button>
-        <button type="button" className={`at-tab${tab === "seo" ? " active" : ""}`} onClick={() => setTab("seo")}>Search appearance</button>
-      </div>
+      {!hideSeo && (
+        <div className="at-tabs">
+          <button type="button" className={`at-tab${tab === "content" ? " active" : ""}`} onClick={() => setTab("content")}>Content</button>
+          <button type="button" className={`at-tab${tab === "seo" ? " active" : ""}`} onClick={() => setTab("seo")}>Search appearance</button>
+        </div>
+      )}
 
-      {tab === "seo" ? (
+      {!hideSeo && tab === "seo" ? (
         <div className="at-card" style={{ display: "flex", flexDirection: "column", gap: 16 }}>
           <Field label="Meta title"><FocusInput value={meta.metaTitle} onChange={(v) => setMeta({ ...meta, metaTitle: v })} placeholder={title} /></Field>
           <Field label="Meta description"><FocusTextarea value={meta.metaDescription} onChange={(v) => setMeta({ ...meta, metaDescription: v })} rows={2} /></Field>
