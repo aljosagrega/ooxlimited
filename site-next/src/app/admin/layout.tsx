@@ -43,7 +43,7 @@ const LIGHT_PROPS: [string, string][] = [
 
 const lightScript = LIGHT_PROPS.map(([k, v]) => `r.setProperty('${k}','${v}');`).join("");
 const fontScript = `var fm={'inter':'var(--font-inter)','poppins':'var(--font-poppins)','jakarta':'var(--font-jakarta)','space-grotesk':'var(--font-space-grotesk)','outfit':'var(--font-outfit)'};var af=localStorage.getItem('oox-admin-font')||'inter';var el=document.getElementById('admin-shell');if(el)el.style.setProperty('--at-font-body',fm[af]||fm['inter']);`;
-const blockingScript = `(function(){try{var el=document.getElementById('admin-shell');var t=localStorage.getItem('oox-admin-theme')||'dark';var h=new Date().getHours();if(t==='auto')t=(h>=7&&h<19)?'light':'dark';if(t==='light'&&el){var r=el.style;${lightScript}}${fontScript}}catch(e){}})();`;
+const blockingScript = `(function(){try{var el=document.getElementById('admin-shell');var t=localStorage.getItem('oox-admin-theme')||'dark';var h=new Date().getHours();if(t==='auto')t=(h>=7&&h<19)?'light':'dark';if(el)el.style.colorScheme=t;if(t==='light'&&el){var r=el.style;${lightScript}}${fontScript}}catch(e){}})();`;
 
 export default function AdminLayout({ children }: { children: React.ReactNode }) {
   return (

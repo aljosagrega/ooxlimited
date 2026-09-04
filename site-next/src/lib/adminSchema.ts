@@ -90,6 +90,8 @@ export const SCHEMAS: Record<string, CollectionSchema> = {
     titleField: "title",
     newestFirst: true,
     preview: true,
+    publishedField: "published",
+    statusLabels: ["Live", "Draft"],
     columns: [{ key: "date", label: "Published" }],
     seo: {
       titleField: "title", descriptionField: "metaDescription", descriptionFallbackField: "excerpt",
@@ -98,9 +100,10 @@ export const SCHEMAS: Record<string, CollectionSchema> = {
     },
     fields: [
       { key: "title", label: "Title", type: "text" },
+      { key: "published", label: "Published", type: "boolean", help: "Off = draft. Drafts are hidden from the public site." },
       { key: "slug", label: "Slug", type: "text", help: "URL segment; the post lives at /<slug>/" },
-      { key: "date", label: "Published date", type: "date" },
-      { key: "author", label: "Author", type: "text" },
+      { key: "date", label: "Published date", type: "date", help: "Defaults to now when left blank on a new post" },
+      { key: "authorId", label: "Author", type: "ref", ref: { collection: "authors", labelField: "name" }, help: "Manage the list under Authors" },
       { key: "excerpt", label: "Excerpt", type: "textarea", rows: 3, full: true },
       { key: "featuredImage", label: "Featured image", type: "imageObject" },
       { key: "bodyHtml", label: "Body", type: "html", full: true },
@@ -158,6 +161,24 @@ export const SCHEMAS: Record<string, CollectionSchema> = {
       ...SEO_FIELDS,
     ],
     columns: [],
+  },
+
+  authors: {
+    slug: "authors",
+    file: "authors",
+    label: "Authors",
+    singular: "author",
+    icon: "PenLine",
+    titleField: "name",
+    columns: [{ key: "role", label: "Role" }],
+    fields: [
+      { key: "name", label: "Name", type: "text" },
+      { key: "slug", label: "Slug", type: "text", help: "URL-safe identifier" },
+      { key: "role", label: "Role / title", type: "text" },
+      { key: "email", label: "Email", type: "text" },
+      { key: "photo", label: "Photo", type: "imageObject" },
+      { key: "bio", label: "Bio", type: "textarea", rows: 5, full: true },
+    ],
   },
 
   // "pages" is NOT a generic collection — the frozen public pages (marketing,

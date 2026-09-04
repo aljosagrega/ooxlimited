@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import {
   LayoutDashboard, LogOut, Sun, Moon, Monitor, Settings, Search,
-  FileText, Users, Layers, Inbox, PanelsTopLeft, ListTree,
+  FileText, Users, Layers, Inbox, PanelsTopLeft, ListTree, PenLine,
   ChevronLeft, ChevronRight, Menu, X,
 } from "lucide-react";
 import { useAdminTheme, type AdminTheme } from "./AdminThemeProvider";
@@ -17,6 +17,7 @@ const NAV_SECTIONS = [
     label: "Content",
     items: [
       { href: "/admin/posts", label: "Blog posts", icon: FileText },
+      { href: "/admin/authors", label: "Authors", icon: PenLine },
       { href: "/admin/team", label: "Team", icon: Users },
       { href: "/admin/services", label: "Services", icon: Layers },
       { href: "/admin/pages", label: "Pages", icon: PanelsTopLeft },

@@ -35,11 +35,21 @@ export function routeKey(routePath: string): string {
 }
 
 export function hasFrozen(routePath: string): boolean {
-  return fs.existsSync(path.join(DIR, `${routeKey(routePath)}.html`));
+  return hasFrozenKey(routeKey(routePath));
+}
+
+export function hasFrozenKey(key: string): boolean {
+  return fs.existsSync(path.join(DIR, `${key}.html`));
 }
 
 export function getFrozen(routePath: string): FrozenPage | null {
-  const key = routeKey(routePath);
+  return getFrozenByKey(routeKey(routePath), routePath);
+}
+
+/** Load a frozen page by its file key directly. `routePath` is only stamped on
+ *  the returned record (defaults to the key) — used when a route borrows a
+ *  shared shell, e.g. `_post-template` for CMS posts without their own snapshot. */
+export function getFrozenByKey(key: string, routePath: string = key): FrozenPage | null {
   const htmlPath = path.join(DIR, `${key}.html`);
   if (!fs.existsSync(htmlPath)) return null;
   const bodyHtml = fs.readFileSync(htmlPath, "utf-8");
@@ -57,7 +67,11 @@ export function getFrozen(routePath: string): FrozenPage | null {
 
 /** Parse a frozen page into the pieces the renderer needs. */
 export function getFrozenAssets(routePath: string): FrozenAssets | null {
-  const page = getFrozen(routePath);
+  return getFrozenAssetsByKey(routeKey(routePath));
+}
+
+export function getFrozenAssetsByKey(key: string): FrozenAssets | null {
+  const page = getFrozenByKey(key);
   if (!page) return null;
 
   const stylesheets: string[] = [];

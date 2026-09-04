@@ -101,6 +101,7 @@ export default function AdminThemeProvider({ children }: { children: React.React
     const vars = resolved === "dark" ? DARK_VARS : LIGHT_VARS;
     const root = document.getElementById("admin-shell");
     if (!root) return;
+    root.style.colorScheme = resolved;
     vars.split(";").forEach((decl) => {
       const idx = decl.indexOf(":");
       if (idx === -1) return;
