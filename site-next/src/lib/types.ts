@@ -29,10 +29,25 @@ export interface Post extends SeoFields {
   bodyHtml: string;
   date: string;
   modified: string;
+  /** legacy author name; the byline is resolved from `authorId` when set */
   author: string;
+  /** references an Author record (see authors.json) */
+  authorId?: number;
+  /** false = draft (hidden from the public site). Absent is treated as live. */
+  published?: boolean;
   featuredImage: ImageRef | null;
   categories: TermRef[];
   tags: TermRef[];
+}
+
+export interface Author {
+  id: number;
+  name: string;
+  slug: string;
+  role: string;
+  bio: string;
+  email: string;
+  photo: ImageRef | null;
 }
 
 export interface TeamMember {

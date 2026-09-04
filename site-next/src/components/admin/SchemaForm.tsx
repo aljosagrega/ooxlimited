@@ -59,7 +59,17 @@ export default function SchemaForm({ schema, record, locales, refOptions = {}, e
   const isEdit = !!record;
   const editLocales = locales && locales.length ? locales : (EDIT_LOCALES as readonly string[]);
 
-  const [data, setData] = useState<Row>(() => ({ ...(record ?? {}) }));
+  const [data, setData] = useState<Row>(() => {
+    const init: Row = { ...(record ?? {}) };
+    // New record: prefill any empty date field with "now" so the editor sees the
+    // value that would otherwise be filled in server-side on save.
+    if (!record) {
+      for (const f of schema.fields) {
+        if (f.type === "date" && !init[f.key]) init[f.key] = new Date().toISOString();
+      }
+    }
+    return init;
+  });
   const [locale, setLocale] = useState<string>("en");
   // Keep the slug in sync with the title until the user edits the slug by hand
   // (or on an existing record, where the slug is already meaningful).

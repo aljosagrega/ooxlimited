@@ -18,6 +18,7 @@ interface CollectionConfig {
 
 const CONFIG: Record<string, CollectionConfig> = {
   posts: { file: "posts", save: saver(content.savePosts), htmlFields: ["bodyHtml"] },
+  authors: { file: "authors", save: saver(content.saveAuthors), htmlFields: [] },
   team: { file: "team", save: saver(content.saveTeam), htmlFields: [] },
   services: { file: "services", save: saver(content.saveServices), htmlFields: [] },
   submissions: { file: "submissions", save: saver(content.saveSubmissions), htmlFields: [] },
@@ -86,12 +87,24 @@ function sanitizeRow(slug: string, row: Row): Row {
   return out;
 }
 
+/** Per-collection defaults applied only on create, when the field is left blank. */
+function withCreateDefaults(slug: string, data: Row): Row {
+  if (slug !== "posts") return data;
+  const out: Row = { ...data };
+  // A new article always gets a publish date — the client shouldn't have to
+  // remember to set one.
+  if (!out.date) out.date = new Date().toISOString();
+  // New articles start as drafts; the editor flips "Published" on when ready.
+  if (out.published === undefined) out.published = false;
+  return out;
+}
+
 export function createRow(slug: string, data: Row): Row {
   const cfg = CONFIG[slug];
   if (!cfg) throw new Error(`Unknown collection: ${slug}`);
   const rows = listRows(slug);
   const id = nextId(rows);
-  const row = sanitizeRow(slug, { ...data, id });
+  const row = sanitizeRow(slug, { ...withCreateDefaults(slug, data), id });
   rows.push(row);
   cfg.save(rows);
   return row;

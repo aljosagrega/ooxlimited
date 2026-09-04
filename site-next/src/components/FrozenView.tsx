@@ -1,4 +1,4 @@
-import { getFrozenAssets } from "@/lib/frozen";
+import { getFrozenAssetsByKey } from "@/lib/frozen";
 import FrozenScripts from "./FrozenScripts";
 import FrozenForms from "./FrozenForms";
 
@@ -11,13 +11,14 @@ import FrozenForms from "./FrozenForms";
  * applied server-side). Otherwise the untouched frozen markup is used.
  */
 export default function FrozenView({
-  routePath,
+  frozenKey,
   patchedBody,
 }: {
-  routePath: string;
+  /** frozen file key — the route key, or a shared shell like `_post-template` */
+  frozenKey: string;
   patchedBody?: string;
 }) {
-  const a = getFrozenAssets(routePath);
+  const a = getFrozenAssetsByKey(frozenKey);
   if (!a) return null;
 
   // Scripts are replayed by <FrozenScripts> in order. Any <script> left in the

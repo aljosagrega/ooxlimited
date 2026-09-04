@@ -1,13 +1,21 @@
 import "server-only";
 import { readArray, readObject, writeData } from "./jsonStore";
 import type {
-  Menus, Page, Post, Redirect, Service, SiteSettings, TeamMember,
+  Author, Menus, Page, Post, Redirect, Service, SiteSettings, TeamMember,
 } from "./types";
 
 /* --------------------------------------------------------------- posts ---- */
 
-export function getAllPosts(): Post[] {
-  return readArray<Post>("posts").sort((a, b) => +new Date(b.date) - +new Date(a.date));
+/** A post is public unless explicitly unpublished. Migrated posts carry no
+ *  `published` field and are treated as live. */
+export function isPostLive(p: Post): boolean {
+  return p.published !== false;
+}
+
+/** Public post list. Drafts (`published: false`) are excluded unless asked for. */
+export function getAllPosts(includeDrafts = false): Post[] {
+  const rows = readArray<Post>("posts").sort((a, b) => +new Date(b.date) - +new Date(a.date));
+  return includeDrafts ? rows : rows.filter(isPostLive);
 }
 export function getPost(slug: string): Post | null {
   return getAllPosts().find((p) => p.slug === slug) ?? null;
@@ -17,6 +25,24 @@ export function getPostByOldSlug(slug: string): Post | null {
 }
 export function savePosts(rows: Post[]): void {
   writeData("posts", rows);
+}
+
+/** Display byline for a post: the linked Author record, else the legacy name. */
+export function postAuthorName(p: Post): string {
+  if (p.authorId) return getAuthor(p.authorId)?.name || p.author || "";
+  return p.author || "";
+}
+
+/* ------------------------------------------------------------- authors ---- */
+
+export function getAuthors(): Author[] {
+  return readArray<Author>("authors");
+}
+export function getAuthor(id: number): Author | null {
+  return getAuthors().find((a) => Number(a.id) === Number(id)) ?? null;
+}
+export function saveAuthors(rows: Author[]): void {
+  writeData("authors", rows);
 }
 
 /* ---------------------------------------------------------------- team ---- */

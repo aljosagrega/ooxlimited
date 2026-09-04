@@ -2,16 +2,17 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import FrozenView from "@/components/FrozenView";
 import FrozenBodyClass from "@/components/FrozenBodyClass";
-import { hasFrozen, getFrozen, routeKey } from "@/lib/frozen";
+import { hasFrozen, hasFrozenKey, getFrozenByKey, routeKey } from "@/lib/frozen";
 import { applyPageEdits, getPagemap } from "@/lib/fieldMap";
 import { getPageEdits } from "@/lib/pageEdits";
 import { applyChromePatch } from "@/lib/chromePatch";
 import { applySingleContent } from "@/lib/singleContent";
+import { POST_TEMPLATE_KEY, renderTemplatedPost, applyBlogIndex, blogPageCount } from "@/lib/blogRender";
 import { applyImageAlt } from "@/lib/imageAlt";
 import { applyFrozenFixups } from "@/lib/frozenFixups";
 import {
   getAllPages, getAllPosts, getServices, getTeam, getPageByPath, getPost,
-  getService, getTeamMember, getSiteSettings,
+  getService, getTeamMember, getSiteSettings, postAuthorName,
 } from "@/lib/content";
 import { pageJsonLd, renderJsonLd } from "@/lib/jsonLd";
 import type { SeoFields } from "@/lib/types";
@@ -28,13 +29,22 @@ function pathFromSlug(slug?: string[]): string {
 export function generateStaticParams() {
   const routes = new Set<string>(["/"]);
   for (const p of getAllPages()) routes.add(p.path);
-  for (const p of getAllPosts()) routes.add(`/${p.slug}/`);
   for (const s of getServices()) routes.add(`/service/${s.slug}/`);
   for (const t of getTeam()) routes.add(`/team/${t.slug}/`);
-  routes.add("/blog/page/2/");
+
+  // Every non-draft post gets a route — from its own frozen snapshot, or the
+  // shared `_post-template` shell for posts created in the admin CMS.
+  const postRoutes = new Set(getAllPosts().map((p) => `/${p.slug}/`));
+  for (const r of postRoutes) routes.add(r);
+
+  // One blog archive page per BLOG_PAGE_SIZE posts; page ≥3 borrows the page-2
+  // shell (see CatchAll).
+  const blogRoutes = new Set<string>();
+  for (let i = 2; i <= blogPageCount(); i++) blogRoutes.add(`/blog/page/${i}/`);
+  for (const r of blogRoutes) routes.add(r);
 
   return [...routes]
-    .filter((r) => hasFrozen(r))
+    .filter((r) => hasFrozen(r) || postRoutes.has(r) || blogRoutes.has(r))
     .map((r) => ({ slug: r === "/" ? [] : r.replace(/^\/|\/$/g, "").split("/") }));
 }
 
@@ -125,7 +135,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         ? {
             publishedTime: post.date || undefined,
             modifiedTime: post.modified || post.date || undefined,
-            authors: [post.author || settings.title],
+            authors: [postAuthorName(post) || settings.title],
           }
         : {}),
     },
@@ -140,17 +150,37 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function CatchAll({ params }: Props) {
   const path = pathFromSlug((await params).slug);
-  if (!hasFrozen(path)) notFound();
-
-  const frozen = getFrozen(path)!;
   const key = routeKey(path);
+  const slug = path.replace(/^\/|\/$/g, "");
+
+  // A bare /slug/ with no frozen snapshot of its own, but a matching post row,
+  // is a CMS-created article — render it into the shared post shell.
+  const cmsPost = !hasFrozenKey(key) && slug && !slug.includes("/") ? getPost(slug) : null;
+
+  let renderKey = key;
+  if (cmsPost) {
+    renderKey = POST_TEMPLATE_KEY;
+  } else if (/^\/blog\/page\/\d+\/$/.test(path) && !hasFrozenKey(key)) {
+    // page 3+ has no snapshot of its own — reuse the page-2 archive shell
+    renderKey = "blog__page__2";
+  }
+  if (!hasFrozenKey(renderKey)) notFound();
+
+  const frozen = getFrozenByKey(renderKey, path)!;
   let body = applyChromePatch(frozen.bodyHtml);
-  body = applySingleContent(path, body);
+  if (cmsPost) {
+    body = renderTemplatedPost(body, cmsPost);
+  } else {
+    body = applySingleContent(path, body);
+    body = applyBlogIndex(path, body);
+  }
   body = applyFrozenFixups(path, body);
   body = applyImageAlt(body);
-  const edits = getPageEdits(key);
-  if (Object.keys(edits).length) {
-    body = applyPageEdits(body, getPagemap(key), edits);
+  if (!cmsPost) {
+    const edits = getPageEdits(key);
+    if (Object.keys(edits).length) {
+      body = applyPageEdits(body, getPagemap(key), edits);
+    }
   }
   const patched = body === frozen.bodyHtml ? undefined : body;
 
@@ -164,7 +194,7 @@ export default async function CatchAll({ params }: Props) {
           dangerouslySetInnerHTML={{ __html: renderJsonLd(node) }}
         />
       ))}
-      <FrozenView routePath={path} patchedBody={patched} />
+      <FrozenView frozenKey={renderKey} patchedBody={patched} />
     </>
   );
 }
