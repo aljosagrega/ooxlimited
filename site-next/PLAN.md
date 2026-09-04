@@ -18,7 +18,7 @@ editable in the admin.**
 | `scripts/snapshot/build-pagemaps.ts` | tags every editable text node + image in the frozen marketing pages with `data-oox-e="<id>"` (written back into the frozen HTML) and emits `src/data/pagemaps/<key>.json` = `[{id,kind,label,group,value}]`. Chrome (header/footer/nav) is excluded. Run AFTER freeze. |
 | `public/wp-content`, `public/wp-includes` | symlinks to `../site/…` so frozen asset refs resolve. `public/_css/` + `src/data/frozen/` + `src/data/pagemaps/` are build products (gitignored). |
 | `src/app/(public)/[[...slug]]/page.tsx` | serves the frozen page: `applyChromePatch` (nav/social/contact from JSON) → `applySingleContent` / `applyBlogIndex` / `applyPageEdits` (pagemap edits from `pages.json`) → `<FrozenView>`. |
-| `src/lib/blogRender.ts` | blog is dynamic on top of the snapshot. `applyBlogIndex` rebuilds the `/blog/` + `/blog/page/N/` card grid from `posts.json` (8/page) and injects `.pagination` nav (theme already styles it); pages ≥3 borrow the `blog__page__2` shell. `renderTemplatedPost` fills the shared `_post-template` shell (an emptied copy of a frozen post) for CMS-created posts that have no snapshot of their own. Drafts (`published:false`) drop out of `getAllPosts()` → out of `generateStaticParams` → 404. |
+| `src/lib/blogRender.ts` | blog is dynamic on top of the snapshot. `applyBlogIndex` rebuilds the `/blog/` + `/blog/page/N/` card grid from `posts.json` (8/page) and injects `.pagination` nav (theme already styles it); pages ≥3 borrow the `blog__page__2` shell. `renderTemplatedPost` fills the shared `_post-template` shell (an emptied copy of a frozen post) for CMS-created posts that have no snapshot of their own. Drafts (`published:false`) drop out of `getAllPosts()` and are rejected by `resolveRoute()` → 404 (see "Why `dynamicParams` must stay `true`" below). |
 | `src/components/FrozenView.tsx` | server: hoists the frozen stylesheet stack, SSRs a `.elementor-invisible{visibility:visible!important}` style (kills FOUC), renders the body via dangerouslySetInnerHTML **with `<script>` stripped**. |
 | `src/components/FrozenScripts.tsx` | client: replays the frozen `<script>` stack **once** (`window.__frozenScriptsRun` guard), sequential, then `kickLegacyRuntime()` → `elementorFrontend.init()` + GSAP `ScrollTrigger.refresh()`. |
 | `src/lib/fieldMap.ts` | `getPagemap`, `applyPageEdits` (cheerio patch by `data-oox-e`). |
@@ -103,3 +103,20 @@ npm run build
 node scripts/snapshot/audit.mjs /about-us/ --w 1280        # WP|Next band-by-band tiles
 node scripts/snapshot/settled.mjs /game-development-team/   # settled full-page side-by-side
 ```
+
+## Why `dynamicParams` must stay `true` on `[[...slug]]`
+
+`generateStaticParams` knows every valid route, so `export const dynamicParams = false`
+looks correct — and it breaks the whole site.
+
+Every admin write calls `revalidatePath("/", "layout")`, which drops the prerendered
+pages for that whole segment. With `dynamicParams:false` there is no way to render them
+again on demand, so Next raises `Error: Internal: NoFallbackError` and **every public
+page 404s** until the next deploy re-prerenders them. Symptom: the site is fine after a
+deploy, then goes entirely 404 the moment anyone saves anything in `/admin`.
+
+Left at the default (`true`), an invalidated page simply re-renders on demand. The cost
+is that unknown paths reach the component, so `resolveRoute()` in the route owns every
+404 — including draft posts (whose frozen snapshots are still on disk) and archive pages
+past the last one with content. Bonus: posts created in the CMS go live immediately,
+no redeploy.

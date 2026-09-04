@@ -30,7 +30,14 @@ export function isCollection(slug: string): boolean {
 
 export function listRows(slug: string): Row[] {
   const cfg = CONFIG[slug];
-  return cfg ? readArray<Row>(cfg.file) : [];
+  if (!cfg) return [];
+  const rows = readArray<Row>(cfg.file);
+  if (slug !== "posts") return rows;
+  // Posts migrated from WordPress predate the `published` flag. The public site
+  // treats an absent flag as live (see content.isPostLive) — normalise here so
+  // the admin list, the status badge and the edit form agree, instead of
+  // showing every legacy post as a draft.
+  return rows.map((r) => (r.published === undefined ? { ...r, published: true } : r));
 }
 
 export function getRow(slug: string, id: number): Row | null {

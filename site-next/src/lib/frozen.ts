@@ -39,30 +39,51 @@ export function hasFrozen(routePath: string): boolean {
 }
 
 export function hasFrozenKey(key: string): boolean {
-  return fs.existsSync(path.join(DIR, `${key}.html`));
+  // A key we have already loaded once counts as present even if the file read
+  // now fails transiently (deploy symlink swap / fs blip). Frozen files are
+  // immutable build artifacts, so a cached hit is always valid.
+  return FROZEN_CACHE.has(key) || fs.existsSync(path.join(DIR, `${key}.html`));
 }
 
 export function getFrozen(routePath: string): FrozenPage | null {
   return getFrozenByKey(routeKey(routePath), routePath);
 }
 
+/**
+ * Immutable-for-the-process cache of parsed frozen pages, keyed by file key.
+ * Frozen files never change at runtime, so this is both a perf win (no fs read
+ * per request) and — critically — a resilience layer: if a later read throws
+ * because the release dir is being swapped or pruned underneath a running
+ * server, we return the last good copy instead of a null that would turn into a
+ * cached 404 for the whole site.
+ */
+const FROZEN_CACHE = new Map<string, Omit<FrozenPage, "routePath">>();
+
 /** Load a frozen page by its file key directly. `routePath` is only stamped on
  *  the returned record (defaults to the key) — used when a route borrows a
  *  shared shell, e.g. `_post-template` for CMS posts without their own snapshot. */
 export function getFrozenByKey(key: string, routePath: string = key): FrozenPage | null {
-  const htmlPath = path.join(DIR, `${key}.html`);
-  if (!fs.existsSync(htmlPath)) return null;
-  const bodyHtml = fs.readFileSync(htmlPath, "utf-8");
-  const headHtml = readOptional(path.join(DIR, `${key}.head.html`));
-  const meta = readJson(path.join(DIR, `${key}.meta.json`));
-  return {
-    key,
-    routePath,
-    bodyHtml,
-    headHtml,
-    bodyClass: String(meta.bodyClass ?? ""),
-    lang: String(meta.lang ?? "en-US"),
-  };
+  const cached = FROZEN_CACHE.get(key);
+  if (cached) return { ...cached, routePath };
+
+  try {
+    const htmlPath = path.join(DIR, `${key}.html`);
+    if (!fs.existsSync(htmlPath)) return null;
+    const entry: Omit<FrozenPage, "routePath"> = {
+      key,
+      bodyHtml: fs.readFileSync(htmlPath, "utf-8"),
+      headHtml: readOptional(path.join(DIR, `${key}.head.html`)),
+      bodyClass: "",
+      lang: "en-US",
+    };
+    const meta = readJson(path.join(DIR, `${key}.meta.json`));
+    entry.bodyClass = String(meta.bodyClass ?? "");
+    entry.lang = String(meta.lang ?? "en-US");
+    FROZEN_CACHE.set(key, entry);
+    return { ...entry, routePath };
+  } catch {
+    return null;
+  }
 }
 
 /** Parse a frozen page into the pieces the renderer needs. */

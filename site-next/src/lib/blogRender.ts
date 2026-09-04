@@ -51,13 +51,17 @@ function fmtDate(iso: string): string {
 }
 
 function setThumb(img: any, post: Post) {
+  // The theme's thumb CSS is `object-fit:cover; height:100%` with no width, and
+  // relies on `img{max-width:100%}` clamping a >=container width down to a
+  // square. Without width/height attributes a portrait source collapses to a
+  // narrow strip — so force square attributes; the real crop is `object-fit`.
   img
     .attr("src", post.featuredImage?.url || FALLBACK_IMG)
     .attr("alt", post.featuredImage?.alt || post.title)
+    .attr("width", "1000")
+    .attr("height", "1000")
     .removeAttr("srcset")
-    .removeAttr("sizes")
-    .removeAttr("width")
-    .removeAttr("height");
+    .removeAttr("sizes");
 }
 
 /* ------------------------------------------------------------- blog index --- */
