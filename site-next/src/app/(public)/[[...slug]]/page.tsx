@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
 import FrozenView from "@/components/FrozenView";
 import FrozenBodyClass from "@/components/FrozenBodyClass";
+import { notFound } from "next/navigation";
 import { hasFrozen, hasFrozenKey, getFrozenByKey, routeKey } from "@/lib/frozen";
 import { applyPageEdits, getPagemap } from "@/lib/fieldMap";
 import { getPageEdits } from "@/lib/pageEdits";
@@ -12,8 +12,9 @@ import { applyImageAlt } from "@/lib/imageAlt";
 import { applyFrozenFixups } from "@/lib/frozenFixups";
 import {
   getAllPages, getAllPosts, getServices, getTeam, getPageByPath, getPost,
-  getService, getTeamMember, getSiteSettings, postAuthorName,
+  getService, getTeamMember, getSiteSettings, postAuthorName, isPostLive,
 } from "@/lib/content";
+import type { Post } from "@/lib/types";
 import { pageJsonLd, renderJsonLd } from "@/lib/jsonLd";
 import type { SeoFields } from "@/lib/types";
 
@@ -48,7 +49,59 @@ export function generateStaticParams() {
     .map((r) => ({ slug: r === "/" ? [] : r.replace(/^\/|\/$/g, "").split("/") }));
 }
 
-export const dynamicParams = false;
+// NOTE: `dynamicParams` is deliberately left at its default (true).
+//
+// Setting it to false looks right — generateStaticParams knows every valid route
+// — but it is incompatible with the admin. Every admin write calls
+// `revalidatePath("/", "layout")`, which drops the prerendered pages for this
+// whole segment; with dynamicParams:false there is no way to render them again,
+// so Next raises `NoFallbackError` and *every* page 404s until the next deploy.
+// Leaving it true lets an invalidated page re-render on demand. The cost is that
+// unknown paths now reach the component, so `resolveRoute` below owns the 404s.
+const BLOG_PAGE_SHELL_KEY = "blog__page__2";
+
+type Resolved = {
+  /** frozen file key to render from */
+  renderKey: string;
+  /** set when the route is a CMS post with no frozen snapshot of its own */
+  cmsPost: Post | null;
+};
+
+/**
+ * Decide what (if anything) a request path renders. Returns null for a 404.
+ * This is the sole gate on the public site, so it has to reject draft posts and
+ * out-of-range archive pages explicitly — a drafted post's frozen snapshot is
+ * still sitting on disk from the WordPress migration.
+ */
+function resolveRoute(path: string): Resolved | null {
+  const key = routeKey(path);
+  const slug = path.replace(/^\/|\/$/g, "");
+
+  // /blog/page/N/ — valid only while there are posts to fill it. Page 3+ has no
+  // snapshot of its own and borrows the page-2 archive shell.
+  const blogPage = path.match(/^\/blog\/page\/(\d+)\/$/);
+  if (blogPage) {
+    const n = Number(blogPage[1]);
+    if (n < 2 || n > blogPageCount()) return null;
+    return { renderKey: hasFrozenKey(key) ? key : BLOG_PAGE_SHELL_KEY, cmsPost: null };
+  }
+
+  // A bare /slug/ may be a post. getPost() already excludes drafts.
+  if (slug && !slug.includes("/")) {
+    const post = getPost(slug);
+    if (post) {
+      // Own snapshot when it has one, else the shared CMS post shell.
+      return hasFrozenKey(key)
+        ? { renderKey: key, cmsPost: null }
+        : { renderKey: POST_TEMPLATE_KEY, cmsPost: post };
+    }
+    // No live post owns this slug. If a draft does, the route is gone — even
+    // though its frozen file is still on disk.
+    if (getAllPosts(true).some((p) => p.slug === slug && !isPostLive(p))) return null;
+  }
+
+  return hasFrozenKey(key) ? { renderKey: key, cmsPost: null } : null;
+}
 
 function seoFor(path: string): { seo: SeoFields; title: string } | null {
   const page = getPageByPath(path);
@@ -151,22 +204,20 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function CatchAll({ params }: Props) {
   const path = pathFromSlug((await params).slug);
   const key = routeKey(path);
-  const slug = path.replace(/^\/|\/$/g, "");
 
-  // A bare /slug/ with no frozen snapshot of its own, but a matching post row,
-  // is a CMS-created article — render it into the shared post shell.
-  const cmsPost = !hasFrozenKey(key) && slug && !slug.includes("/") ? getPost(slug) : null;
+  const resolved = resolveRoute(path);
+  if (!resolved) notFound();
+  const { renderKey, cmsPost } = resolved;
 
-  let renderKey = key;
-  if (cmsPost) {
-    renderKey = POST_TEMPLATE_KEY;
-  } else if (/^\/blog\/page\/\d+\/$/.test(path) && !hasFrozenKey(key)) {
-    // page 3+ has no snapshot of its own — reuse the page-2 archive shell
-    renderKey = "blog__page__2";
+  const frozen = getFrozenByKey(renderKey, path);
+  if (!frozen) {
+    // resolveRoute only returns a key it has just seen on disk, so a miss here
+    // is a transient filesystem failure (release swap / prune under a running
+    // server). Throw rather than notFound(): a thrown render keeps serving the
+    // last good page and retries, where a notFound() would be cached as a 404.
+    throw new Error(`frozen shell "${renderKey}" unavailable for ${path}`);
   }
-  if (!hasFrozenKey(renderKey)) notFound();
 
-  const frozen = getFrozenByKey(renderKey, path)!;
   let body = applyChromePatch(frozen.bodyHtml);
   if (cmsPost) {
     body = renderTemplatedPost(body, cmsPost);

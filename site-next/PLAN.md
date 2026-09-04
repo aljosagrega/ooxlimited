@@ -103,3 +103,20 @@ npm run build
 node scripts/snapshot/audit.mjs /about-us/ --w 1280        # WP|Next band-by-band tiles
 node scripts/snapshot/settled.mjs /game-development-team/   # settled full-page side-by-side
 ```
+
+## Why `dynamicParams` must stay `true` on `[[...slug]]`
+
+`generateStaticParams` knows every valid route, so `export const dynamicParams = false`
+looks correct — and it breaks the whole site.
+
+Every admin write calls `revalidatePath("/", "layout")`, which drops the prerendered
+pages for that whole segment. With `dynamicParams:false` there is no way to render them
+again on demand, so Next raises `Error: Internal: NoFallbackError` and **every public
+page 404s** until the next deploy re-prerenders them. Symptom: the site is fine after a
+deploy, then goes entirely 404 the moment anyone saves anything in `/admin`.
+
+Left at the default (`true`), an invalidated page simply re-renders on demand. The cost
+is that unknown paths reach the component, so `resolveRoute()` in the route owns every
+404 — including draft posts (whose frozen snapshots are still on disk) and archive pages
+past the last one with content. Bonus: posts created in the CMS go live immediately,
+no redeploy.
