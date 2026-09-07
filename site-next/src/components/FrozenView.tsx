@@ -1,4 +1,5 @@
 import { getFrozenAssetsByKey } from "@/lib/frozen";
+import { FROZEN_OVERRIDES_CSS } from "@/lib/frozenOverrides";
 import FrozenScripts from "./FrozenScripts";
 import FrozenForms from "./FrozenForms";
 
@@ -53,6 +54,11 @@ export default function FrozenView({
         }}
       />
 
+
+      {/* Last style on the page: our deliberate corrections to the frozen
+          design (see frozenOverrides.ts). Must stay after the frozen stack so
+          it wins ties without escalating to !important. */}
+      <style dangerouslySetInnerHTML={{ __html: FROZEN_OVERRIDES_CSS }} />
 
       <div
         id="frozen-root"
