@@ -55,21 +55,6 @@
     "type": 301
   },
   {
-    "from": "/category/game-development",
-    "to": "blog",
-    "type": 301
-  },
-  {
-    "from": "/category/game-tips",
-    "to": "blog",
-    "type": 301
-  },
-  {
-    "from": "/category/mobile-gaming",
-    "to": "blog",
-    "type": 301
-  },
-  {
     "from": "/app-development",
     "to": "service/app-development",
     "type": 301
