@@ -655,4 +655,74 @@ ul.omero-baf__tags li.omero-baf__tag a:focus-visible {
 @media (prefers-reduced-motion: reduce) {
   .elementor-main-swiper .swiper-wrapper { transition-duration: 1ms !important; }
 }
+
+/* --------------------------------------------------------------------------
+ * iPad portrait (768-880px): give mobile-only widgets their inset back.
+ * Client: "when scaled to these weird sizes, the design really breaks".
+ *
+ * Elementor switches VISIBILITY and SPACING at different widths on this theme.
+ * A widget marked hidden-desktop/laptop/tablet_extra/tablet keeps showing until
+ * 880px, but the padding that positions it is inside a (max-width:767px) query.
+ * Between those two numbers the widget is on screen with no inset at all: on the
+ * service pages the intro paragraph sat flush against the left edge of the
+ * screen, 588px wide in an 834px viewport, while the heading above it was
+ * properly inset. Below 768 and above 880 the same page is fine, which is
+ * exactly the "weird sizes" band the client was hitting - an iPad in portrait.
+ *
+ * Restores the 20px inset the mobile rule uses, and centres the block so it sits
+ * under the heading instead of hugging the edge; at 834px that lands the text
+ * within ~40px of the heading's own inset and keeps the line length readable.
+ * ------------------------------------------------------------------------ */
+@media (min-width: 768px) and (max-width: 880px) {
+  .elementor-widget.elementor-hidden-desktop.elementor-hidden-tablet {
+    padding-inline: 20px;
+    margin-inline: auto;
+  }
+}
+
+/* --------------------------------------------------------------------------
+ * Carousel slides (768-1200px): stack the row instead of crushing the text.
+ * Client: "when scaled to these weird sizes, the design really breaks";
+ * reported again as "from 768 to 1200px site totally off".
+ *
+ * The reviews slide is a flex row: a portrait image at a fixed 486px with
+ * flex:1 0 auto (it may NOT shrink), a 127px gap, then the quote column at
+ * flex:0 1 auto (it absorbs every shortfall). Once the row is narrower than
+ * 486+127 the quote column is handed whatever is left - which at 834px is
+ * exactly 0px. A zero-width paragraph wraps one character per line, so the
+ * slide grew to 8,589px tall and the home page went from 9,148px to 16,236px.
+ * Measured: quote column 0px @834, 171px @1024, 347px @1200, 427px @1280.
+ *
+ * The fix is to let the row wrap, and to give the text a floor so it wraps
+ * rather than shrinks to nothing. Above 1200 nothing changes: the row fits, so
+ * wrap never triggers and the design is untouched. The smaller gap applies only
+ * in the band where the columns end up stacked, where 127px would be a chasm.
+ * ------------------------------------------------------------------------ */
+@media (max-width: 1200px) {
+  .elementor-widget-omero-nested-carousel .swiper-slide .e-con.e-flex {
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+  }
+  .elementor-widget-omero-nested-carousel .swiper-slide .e-con.e-flex > .e-con {
+    min-width: 260px;
+  }
+}
+
+/* --------------------------------------------------------------------------
+ * Stacked band (<=1200px): keep list markers with their text.
+ *
+ * Below the desktop breakpoint these sections stack and the theme centres the
+ * copy, but the lists keep list-style-position:outside. The marker is then laid
+ * against the far-left edge of a full-width block while the text it belongs to
+ * sits centred hundreds of pixels away - on the home page the bullets sat at
+ * x=63 with their text starting around x=380. Moving the marker inside keeps
+ * each bullet attached to its own line.
+ * ------------------------------------------------------------------------ */
+@media (max-width: 1200px) {
+  .elementor-widget-text-editor ul,
+  .elementor-widget-text-editor ol {
+    list-style-position: inside;
+  }
+}
 `;
