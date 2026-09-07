@@ -4,6 +4,7 @@ import { computeSeoScore, seoAdvice, seoBucket, wordCount, CONTENT_TARGET_PAGE, 
 import { getPagemap } from "./fieldMap";
 import { getAllPageEdits } from "./pageEdits";
 import { routeKey } from "./routeKey";
+import { trimmedPagemapIds } from "./pageTrims";
 import type { Page, Post, Service } from "./types";
 
 const SITE = "ooxlimited.com";
@@ -30,9 +31,12 @@ function seoInput(title: string, desc: string, slug: string, body: string, hasIm
  * and overridden per-field in pageEdits. Scoring them against `""` (as this
  * once did) reported every page as 0 words and permanently "thin".
  */
-function pageBodyText(key: string, edits: Record<string, string>): string {
+function pageBodyText(key: string, path: string, edits: Record<string, string>): string {
+  // Blocks removed by pageTrims are still in the frozen HTML and so still in the
+  // pagemap; counting them would score words the visitor never sees.
+  const trimmed = trimmedPagemapIds(key, path);
   return getPagemap(key)
-    .filter((e) => e.kind === "text" || e.kind === "html")
+    .filter((e) => (e.kind === "text" || e.kind === "html") && !trimmed.has(e.id))
     .map((e) => edits[e.id] ?? e.value)
     .join(" ");
 }
@@ -51,7 +55,7 @@ function pageInput(p: Page) {
     effectiveTitle: edits.__seoTitle || p.metaTitle || p.title || "",
     effectiveDescription: edits.__seoDesc || p.metaDescription || "",
     slug: p.slug || "",
-    bodyWordCount: wordCount(pageBodyText(key, edits)),
+    bodyWordCount: wordCount(pageBodyText(key, p.path, edits)),
     hasImage: undefined,
     contentTarget: CONTENT_TARGET_PAGE,
   };

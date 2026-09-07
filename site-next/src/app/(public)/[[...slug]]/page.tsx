@@ -11,6 +11,7 @@ import { POST_TEMPLATE_KEY, renderTemplatedPost, applyBlogIndex, blogPageCount }
 import { applyBlogSidebar } from "@/lib/archiveRender";
 import { applyImageAlt } from "@/lib/imageAlt";
 import { applyFrozenFixups } from "@/lib/frozenFixups";
+import { applyPageTrims } from "@/lib/pageTrims";
 import {
   getAllPages, getAllPosts, getServices, getTeam, getPageByPath, getPost,
   getService, getTeamMember, getSiteSettings, postAuthorName, isPostLive,
@@ -234,6 +235,7 @@ export default async function CatchAll({ params }: Props) {
     body = applyBlogSidebar(path, body);
   }
   body = applyFrozenFixups(path, body);
+  body = applyPageTrims(path, body);
   body = applyImageAlt(body);
   if (!cmsPost) {
     const edits = getPageEdits(key);

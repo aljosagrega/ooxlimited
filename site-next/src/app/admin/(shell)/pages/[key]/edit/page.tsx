@@ -1,6 +1,7 @@
 import { redirect, notFound } from "next/navigation";
 import { requireAuth } from "@/lib/session";
 import { getPagemap } from "@/lib/fieldMap";
+import { trimmedPagemapIds } from "@/lib/pageTrims";
 import { getPageEdits } from "@/lib/pageEdits";
 import { listEditablePages } from "@/lib/pageList";import PageEditor from "@/components/admin/PageEditor";
 
@@ -14,7 +15,10 @@ export default async function EditPage({ params }: { params: Promise<{ key: stri
   const meta = listEditablePages().find((p) => p.key === key);
   if (!meta) notFound();
 
-  const pagemap = getPagemap(key);
+  // Fields inside a block removed by pageTrims are dropped: the block is not on
+  // the page any more, so offering them would be editing text nobody can see.
+  const trimmed = trimmedPagemapIds(key, meta.routePath);
+  const pagemap = getPagemap(key).filter((e) => !trimmed.has(e.id));
   if (!pagemap.length) notFound();
   const edits = getPageEdits(key);
 
