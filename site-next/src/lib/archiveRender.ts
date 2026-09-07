@@ -39,8 +39,13 @@ function thumbFor(p: Post): { src: string; alt: string } {
 
 /* ------------------------------------------------------------------ list --- */
 
+/* A post can carry five or six categories; the theme's chip row is a single
+ * non-wrapping flex line, so the surplus used to spill past the container and
+ * over the sidebar. Rows show the first few and wrap what is left. */
+const MAX_CHIPS = 3;
+
 function chipList(p: Post): string {
-  const cats = postCategories(p);
+  const cats = postCategories(p).slice(0, MAX_CHIPS);
   if (!cats.length) return "";
   return (
     `<ul class="omero-baf__tags oox-arch__tags">` +
