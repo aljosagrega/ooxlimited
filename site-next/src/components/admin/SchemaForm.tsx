@@ -12,6 +12,7 @@ import ColorField from "./fields/ColorField";
 import StringListField from "./fields/StringListField";
 import { SeoChecklist, SerpPreview, wordCount } from "./fields/SeoPanel";
 import { youtubeId, mediaUrl } from "@/lib/media";
+import { dotGet } from "@/lib/dotGet";
 import PreviewPanel from "./PreviewPanel";
 import { EDIT_LOCALES, type CollectionSchema, type FieldDef } from "@/lib/adminSchema";
 
@@ -194,7 +195,7 @@ export default function SchemaForm({ schema, record, locales, refOptions = {}, e
   const localized = useCallback((key?: string): string => {
     if (!key) return "";
     if (locale !== "en" && translations[locale]?.[key]) return translations[locale][key];
-    const v = data[key];
+    const v = dotGet(data, key);
     return v == null ? "" : String(v);
   }, [locale, translations, data]);
 
@@ -458,7 +459,14 @@ export default function SchemaForm({ schema, record, locales, refOptions = {}, e
 
       {!showJson && schema.seo && (() => {
         const s = schema.seo!;
-        const str = (k?: string) => (k && data[k] != null ? String(data[k]) : "");
+        // seo.imageField is a dotted path into a nested record
+        // ("featuredImage.url"); a flat lookup returns undefined for every post,
+        // so the checklist reported "Featured image" missing even when one was
+        // set — no post could ever reach 5/5.
+        const str = (k?: string) => {
+          const v = k ? dotGet(data, k) : undefined;
+          return v == null ? "" : String(v);
+        };
         const title = str(s.titleField);
         const metaTitle = str("metaTitle") || title;
         const desc = str(s.descriptionField) || str(s.descriptionFallbackField);

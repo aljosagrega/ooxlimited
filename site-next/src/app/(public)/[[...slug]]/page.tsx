@@ -8,6 +8,7 @@ import { getPageEdits } from "@/lib/pageEdits";
 import { applyChromePatch } from "@/lib/chromePatch";
 import { applySingleContent } from "@/lib/singleContent";
 import { POST_TEMPLATE_KEY, renderTemplatedPost, applyBlogIndex, blogPageCount } from "@/lib/blogRender";
+import { applyBlogSidebar } from "@/lib/archiveRender";
 import { applyImageAlt } from "@/lib/imageAlt";
 import { applyFrozenFixups } from "@/lib/frozenFixups";
 import {
@@ -58,6 +59,12 @@ export function generateStaticParams() {
 // so Next raises `NoFallbackError` and *every* page 404s until the next deploy.
 // Leaving it true lets an invalidated page re-render on demand. The cost is that
 // unknown paths now reach the component, so `resolveRoute` below owns the 404s.
+// Scheduled posts (published, future-dated — see content.isPostLive) have no
+// event to push them live: nothing runs at their date. Re-rendering on an
+// interval means a scheduled post appears within 5 minutes of its time without
+// a deploy or an admin save. Admin writes still revalidate instantly on top.
+export const revalidate = 300;
+
 const BLOG_PAGE_SHELL_KEY = "blog__page__2";
 
 type Resolved = {
@@ -224,6 +231,7 @@ export default async function CatchAll({ params }: Props) {
   } else {
     body = applySingleContent(path, body);
     body = applyBlogIndex(path, body);
+    body = applyBlogSidebar(path, body);
   }
   body = applyFrozenFixups(path, body);
   body = applyImageAlt(body);

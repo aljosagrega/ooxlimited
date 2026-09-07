@@ -4,6 +4,7 @@ import { sanitizeBodyHtml } from "./sanitize";
 import { wordCount } from "./seoScore";
 import * as content from "./content";
 import { SCHEMAS, type CollectionSchema } from "./adminSchema";
+import { dotGet } from "./dotGet";
 
 type Row = Record<string, unknown>;
 type Saver = (rows: Row[]) => void;
@@ -45,9 +46,6 @@ export function getRow(slug: string, id: number): Row | null {
 }
 
 export const VIEW_WORD_COUNT = "__wordCount";
-
-const dotGet = (row: Row, key: string): unknown =>
-  key.split(".").reduce<unknown>((acc, k) => (acc && typeof acc === "object" ? (acc as Row)[k] : undefined), row);
 
 export function listRowsForView(schema: CollectionSchema): Row[] {
   const keep = new Set<string>(["id", schema.titleField]);

@@ -2,6 +2,7 @@ import "server-only";
 import * as cheerio from "cheerio";
 import { sanitizeBodyHtml } from "./sanitize";
 import { getAllPosts, postAuthorName } from "./content";
+import { categoryHref } from "./taxonomy";
 import type { Post } from "./types";
 
 /**
@@ -36,6 +37,14 @@ const AUTHOR_HREF = "/game-development-team/";
 const FALLBACK_IMG = "/og-default.png";
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
+
+/** Anchor id in the same shape the frozen posts use for their headings. */
+function slugifyHeading(s: string): string {
+  return String(s ?? "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+}
 
 function esc(s: unknown): string {
   return String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c] as string));
@@ -93,14 +102,23 @@ function fillBafCard($: any, card: any, post: Post, kind: "featured" | "card") {
   if (kind === "featured") {
     const ex = card.find(".omero-baf__excerpt").first();
     if (ex.length) ex.text(post.excerpt || "");
-    const tags = card.find(".omero-baf__tags").first();
-    if (tags.length) {
-      const cats = (post.categories || []).filter((c) => c && c.name);
-      if (cats.length) {
-        tags.html(cats.map((c) => `<li class="omero-baf__tag"><a href="/blog/">${esc(c.name)}</a></li>`).join(""));
-      } else {
-        tags.remove();
-      }
+  }
+
+  // Category chips. These were rendered pointing at /blog/ — a link back to the
+  // page you are already on, which is what the client reported as "when you
+  // click on these tags they should lead to the page we designed". They now go
+  // to that category's archive.
+  const tags = card.find(".omero-baf__tags").first();
+  if (tags.length) {
+    const cats = (post.categories || []).filter((c) => c && c.name && c.slug);
+    if (cats.length) {
+      tags.html(
+        cats
+          .map((c) => `<li class="omero-baf__tag"><a href="${categoryHref(c.slug)}">${esc(c.name)}</a></li>`)
+          .join(""),
+      );
+    } else {
+      tags.remove();
     }
   }
 }
@@ -126,15 +144,32 @@ function pageWindow(current: number, total: number): number[] {
   return out;
 }
 
+/** Triangle in the same idiom as the theme's "READ MORE" marker. */
+const ARROW = (dir: "prev" | "next") =>
+  `<svg viewBox="0 0 10 12" width="10" height="12" aria-hidden="true" focusable="false">` +
+  `<polygon points="${dir === "next" ? "0,0 10,6 0,12" : "10,0 0,6 10,12"}" fill="currentColor"/></svg>`;
+
 /**
- * Standard WordPress `paginate_links()` markup — the omero theme already ships
- * `.pagination` / `.page-numbers` styles, so no new CSS is needed.
+ * Standard WordPress `paginate_links()` markup. The theme ships bare
+ * `.pagination` / `.page-numbers` rules; the pill styling that matches the
+ * Figma blog frame lives in frozenOverrides.ts.
+ *
+ * Prev/next are arrows rather than the words "Previous"/"Next", per that design
+ * — the client could not tell there was any way to reach page 2. The word stays
+ * in an .screen-reader-text span so the control still announces itself.
  */
-function paginationHtml(current: number, total: number): string {
+export function paginationHtml(
+  current: number,
+  total: number,
+  href: (n: number) => string = blogPageHref,
+): string {
   if (total <= 1) return "";
   const parts: string[] = [];
   if (current > 1) {
-    parts.push(`<a class="prev page-numbers" href="${blogPageHref(current - 1)}">Previous</a>`);
+    parts.push(
+      `<a class="prev page-numbers" href="${href(current - 1)}" rel="prev" aria-label="Previous page">` +
+      `${ARROW("prev")}<span class="screen-reader-text">Previous</span></a>`,
+    );
   }
   for (const n of pageWindow(current, total)) {
     if (n === 0) {
@@ -142,11 +177,14 @@ function paginationHtml(current: number, total: number): string {
     } else if (n === current) {
       parts.push(`<span aria-current="page" class="page-numbers current">${n}</span>`);
     } else {
-      parts.push(`<a class="page-numbers" href="${blogPageHref(n)}">${n}</a>`);
+      parts.push(`<a class="page-numbers" href="${href(n)}">${n}</a>`);
     }
   }
   if (current < total) {
-    parts.push(`<a class="next page-numbers" href="${blogPageHref(current + 1)}">Next</a>`);
+    parts.push(
+      `<a class="next page-numbers" href="${href(current + 1)}" rel="next" aria-label="Next page">` +
+      `${ARROW("next")}<span class="screen-reader-text">Next</span></a>`,
+    );
   }
   // `.pagination` / `.page-numbers` styling is theme-provided; the theme only
   // flex-centres it via a `.blog-style-grid + .pagination` sibling rule that
@@ -179,6 +217,10 @@ export function applyBlogIndex(routePath: string, body: string): string {
   if (!baf.length || !featured.length || !grid.length || !cardProto.length) return body;
 
   fillBafCard($, featured, slice[0], "featured");
+  // Decorative building (zgrada.png) that the WordPress template floats over the
+  // featured photo. Removed at the client's request; dropping it here rather than
+  // from the frozen HTML means `npm run freeze` can't bring it back.
+  featured.find(".baf-featured-building").remove();
 
   const proto = cardProto.clone();
   grid.empty();
@@ -242,6 +284,21 @@ export function renderTemplatedPost(shellBody: string, post: Post): string {
   const art = $("article.oox-blog-article").first();
   if (!art.length) return shellBody;
   art.html(sanitizeBodyHtml(post.bodyHtml || ""));
+
+  // The migrated posts carry their <h1> and "by <author>" line as the first two
+  // nodes INSIDE this article — WordPress never had a separate title widget on
+  // this template. Emptying the article to fill it with a CMS body therefore
+  // dropped both: every CMS-authored post rendered with no visible title and no
+  // H1 at all. Restore them, unless the author already wrote a heading of their
+  // own at the top of the body. The article's own <style> block styles a bare
+  // <h1> / <p><strong>, so no inline styles are needed for parity.
+  const firstEl = art.children().first();
+  if (!firstEl.is("h1")) {
+    const author = postAuthorName(post);
+    const parts = [`<h1 id="${esc(slugifyHeading(post.title))}">${esc(post.title)}</h1>`];
+    if (author) parts.push(`<p><strong>by ${esc(author)}</strong></p>`);
+    art.prepend(parts.join(""));
+  }
 
   const outer = $('article[id^="post-"]').first();
   if (outer.length) {

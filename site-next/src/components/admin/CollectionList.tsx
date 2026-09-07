@@ -44,6 +44,24 @@ function isPublished(schema: CollectionSchema, row: Row): boolean | null {
   return schema.publishedField === "hidden" ? !row[schema.publishedField] : !!row[schema.publishedField];
 }
 
+/**
+ * Status pill. A published row dated in the future is scheduled, not live —
+ * mirrors content.isPostLive, which keeps it off the public site until then.
+ */
+function statusOf(schema: CollectionSchema, row: Row): { label: string; tone: "live" | "muted" | "pending" } | null {
+  const pub = isPublished(schema, row);
+  if (pub === null) return null;
+  if (pub && schema.scheduleField) {
+    const raw = row[schema.scheduleField];
+    const t = raw ? +new Date(String(raw)) : NaN;
+    if (Number.isFinite(t) && t > Date.now()) return { label: "Scheduled", tone: "pending" };
+  }
+  const labels = schema.statusLabels;
+  return pub
+    ? { label: labels ? labels[0] : "Live", tone: "live" }
+    : { label: labels ? labels[1] : "Hidden", tone: "muted" };
+}
+
 export default function CollectionList({ schema, rows }: { schema: CollectionSchema; rows: Row[] }) {
   const router = useRouter();
   const confirm = useConfirm();
@@ -83,12 +101,17 @@ export default function CollectionList({ schema, rows }: { schema: CollectionSch
   const gridCols = `1fr ${cols.map(() => "120px").join(" ")} ${seo ? "64px" : ""} ${schema.publishedField ? "90px" : ""} 90px`;
 
   function seoInput(r: Row) {
+    // listRowsForView flattens dotted seo keys ("featuredImage.url") onto the
+    // view row under that literal key, so a plain lookup is correct here.
     const str = (k?: string) => (k && r[k] != null ? String(r[k]) : "");
     // The list page ships a precomputed word count (VIEW_WORD_COUNT) so the
     // large html body never reaches the client; fall back to counting locally.
     const wc = r.__wordCount;
     return {
-      effectiveTitle: str(seo!.titleField),
+      // Must match the editor's checklist (SchemaForm), which scores the meta
+      // title with the item title as fallback — scoring the raw title here gave
+      // the same post two different scores in the list and in the editor.
+      effectiveTitle: str("metaTitle") || str(seo!.titleField),
       effectiveDescription: str(seo!.descriptionField) || str(seo!.descriptionFallbackField),
       slug: str(seo!.slugField),
       bodyWordCount: typeof wc === "number" ? wc : wordCount(str(seo!.bodyField)),
@@ -161,7 +184,7 @@ export default function CollectionList({ schema, rows }: { schema: CollectionSch
           <div style={{ padding: 40, textAlign: "center", color: "var(--at-muted)", fontSize: 13 }}>Nothing found.</div>
         )}
         {pageItems.map((r) => {
-          const pub = isPublished(schema, r);
+          const status = statusOf(schema, r);
           return (
             <div key={String(r.id)} className="news-tbl-row" style={{ display: "grid", gridTemplateColumns: gridCols, gap: 12, padding: "12px 16px", borderBottom: "1px solid var(--at-border-row)", alignItems: "center" }}>
               <span className="news-col-title" title={String(r[schema.titleField] ?? "")} style={{ fontSize: 13, fontWeight: 500, color: "var(--at-text)", overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
@@ -174,10 +197,17 @@ export default function CollectionList({ schema, rows }: { schema: CollectionSch
                 </span>
               ))}
               {seo && <span className="news-col-cat"><SeoScoreBadge {...seoInput(r)} /></span>}
-              {schema.publishedField && (
+              {status && (
                 <span>
-                  <span style={{ fontSize: 11, fontWeight: 600, padding: "2px 8px", borderRadius: 20, background: pub ? "var(--at-ok-bg)" : "var(--at-input)", color: pub ? "var(--at-ok)" : "var(--at-muted)" }}>
-                    {schema.statusLabels ? schema.statusLabels[pub ? 0 : 1] : pub ? "Live" : "Hidden"}
+                  <span
+                    style={{
+                      fontSize: 11, fontWeight: 600, padding: "2px 8px", borderRadius: 20,
+                      background: status.tone === "live" ? "var(--at-ok-bg)" : status.tone === "pending" ? "rgba(245,158,11,0.12)" : "var(--at-input)",
+                      color: status.tone === "live" ? "var(--at-ok)" : status.tone === "pending" ? "#f59e0b" : "var(--at-muted)",
+                    }}
+                    title={status.tone === "pending" && schema.scheduleField ? `Publishes ${new Date(String(r[schema.scheduleField])).toLocaleString()}` : undefined}
+                  >
+                    {status.label}
                   </span>
                 </span>
               )}
