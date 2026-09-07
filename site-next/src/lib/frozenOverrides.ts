@@ -528,21 +528,13 @@ html body[class] {
 }
 
 /* --------------------------------------------------------------------------
- * Blog + archive: widen the content container.
+ * Blog + archive: make room for the sidebar inside the theme's own width.
  *
- * The theme caps containers at 1410px. That was sized for a single column of
- * cards; with the design's 300px sidebar beside it the reading column drops to
- * ~850px, which squeezes the rows. Widening these two page types restores the
- * proportions.
- *
- * Scoped with :has() so it applies only to containers that actually hold the
- * archive or the blog top block. Every other page keeps the theme's 1410px;
- * making the whole site fluid is a separate piece of work.
+ * The container stays at the theme's 1410px. What the sidebar needed was the
+ * 105px side padding the blog widget carries: with the sidebar taking 348px,
+ * that gutter left only an 852px reading column, which squeezed the rows.
+ * Trimming the gutter recovers the space without widening the site.
  * ------------------------------------------------------------------------ */
-.e-con:has(.oox-arch),
-.e-con:has(.oox-blogtop) {
-  --container-max-width: 1560px;
-}
 /* The 1200px the blog widget actually gets is its container's 105px side
  * padding, not a width or max-width — that gutter, minus the sidebar's 348px,
  * is what squeezed the featured row. Trim the gutter where the sidebar is
@@ -591,5 +583,23 @@ html body[class] {
 }
 @media (prefers-reduced-motion: reduce) {
   .oox-service-btn { transition: none; }
+}
+
+
+/* --------------------------------------------------------------------------
+ * Reviews slider: soften the slide transition.
+ * Client: "could these transitions be more smooth? I dont know how..."
+ *
+ * The slider is a Swiper running a 500ms slide with the browser default easing,
+ * which starts and stops abruptly. Only the timing function is changed, to the
+ * same curve the site's buttons already use — the duration is left alone
+ * because Swiper writes it inline per gesture (including 0ms while dragging),
+ * and overriding that would make dragging feel broken.
+ * ------------------------------------------------------------------------ */
+.elementor-main-swiper .swiper-wrapper {
+  transition-timing-function: cubic-bezier(0.25, 1, 0.5, 1);
+}
+@media (prefers-reduced-motion: reduce) {
+  .elementor-main-swiper .swiper-wrapper { transition-duration: 1ms !important; }
 }
 `;

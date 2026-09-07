@@ -30,8 +30,10 @@ import type { Post } from "./types";
  */
 export const POST_TEMPLATE_KEY = "_post-template";
 
-/** posts per blog archive page — matches the frozen omero widget */
-export const BLOG_PAGE_SIZE = 8;
+/** Posts per blog archive page: one featured post plus a 3-column grid.
+ *  13 = the featured item plus four complete rows of three; the frozen widget
+ *  shipped 8, which left a final row holding a single card. */
+export const BLOG_PAGE_SIZE = 13;
 
 const AUTHOR_HREF = "/game-development-team/";
 const FALLBACK_IMG = "/og-default.png";
