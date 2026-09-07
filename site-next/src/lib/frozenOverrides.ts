@@ -121,56 +121,6 @@ html body[class] {
 }
 
 /* --------------------------------------------------------------------------
- * Header "services" dropdown: restore the hover / selected state.
- * Client: "this hover is not working properly, it should be like this" (Figma).
- *
- * The theme ships the dropdown with a transition but no hover rule at all —
- * :hover matches and nothing changes, at any width. The panel is #EEF3FA and
- * the theme already marks the current menu item in #7B5CFF, so the pill uses
- * the next step down the same ramp (#DDE6F5) and that same purple for text —
- * no new colours enter the design.
- *
- * The pill is painted by a ::before inset behind the label rather than by
- * padding on the anchor: padding would resize every row and shift the frozen
- * dropdown. Keyboard focus gets the same treatment (the theme had no visible
- * focus state either), and the fade is skipped under reduced-motion.
- * ------------------------------------------------------------------------ */
-.primary-navigation ul.sub-menu > li.menu-item > a {
-  position: relative;
-  z-index: 0;
-  transition: color 200ms ease-out;
-}
-.primary-navigation ul.sub-menu > li.menu-item > a::before {
-  content: "";
-  position: absolute;
-  inset: -6px -12px;
-  border-radius: 8px;
-  background: #DDE6F5;
-  opacity: 0;
-  z-index: -1;
-  transition: opacity 200ms ease-out;
-}
-.primary-navigation ul.sub-menu > li.menu-item:hover > a::before,
-.primary-navigation ul.sub-menu > li.menu-item > a:focus-visible::before {
-  opacity: 1;
-}
-.primary-navigation ul.sub-menu > li.menu-item:hover > a,
-.primary-navigation ul.sub-menu > li.menu-item:hover > a .menu-title,
-.primary-navigation ul.sub-menu > li.menu-item > a:focus-visible,
-.primary-navigation ul.sub-menu > li.menu-item > a:focus-visible .menu-title {
-  color: #7B5CFF;
-}
-.primary-navigation ul.sub-menu > li.menu-item > a:focus-visible {
-  outline: 2px solid #7B5CFF;
-  outline-offset: 4px;
-}
-@media (prefers-reduced-motion: reduce) {
-  .primary-navigation ul.sub-menu > li.menu-item > a,
-  .primary-navigation ul.sub-menu > li.menu-item > a::before { transition: none; }
-}
-
-
-/* --------------------------------------------------------------------------
  * 404 page (see notFoundRender.ts). Matches the "404" frame in the OOX Website
  * Figma: gradient numerals with the game asset in the middle zero, heading,
  * one line of copy, and the theme's own button.
@@ -304,6 +254,7 @@ html body[class] {
   font-weight: 600;
   line-height: 1;
   text-decoration: none;
+  border: 0;
   box-shadow: rgba(0, 0, 0, 0.25) 3px 4px 0 0;
   transition: box-shadow 0.4s cubic-bezier(0.25, 1, 0.5, 1), background-color 200ms ease-out, color 200ms ease-out;
 }
@@ -311,10 +262,20 @@ html body[class] {
   background: #7B5CFF;
   color: #EEF3FA;
 }
+/* The theme's own :hover turns the text white and adds a coloured border —
+ * white on this near-white pill is unreadable, and the border is not in the
+ * design. Both are overridden here; !important because the theme rule is keyed
+ * to the widget id and outranks a class selector. */
 .pagination a.page-numbers:hover,
 .pagination a.page-numbers:focus-visible {
   background: #EEF3FA;
+  color: #7B5CFF !important;
+  border: 0 !important;
   box-shadow: rgba(0, 0, 0, 0.25) 1px 2px 0 0;
+}
+.pagination .page-numbers.current,
+.pagination .page-numbers.current:hover {
+  border: 0 !important;
 }
 .pagination a.page-numbers:focus-visible {
   outline: 2px solid #7B5CFF;
@@ -571,9 +532,8 @@ html body[class] {
  *
  * The theme caps containers at 1410px. That was sized for a single column of
  * cards; with the design's 300px sidebar beside it the reading column drops to
- * ~850px, which squeezes the rows and — because the decorative building on the
- * featured post is positioned at left:17% OF THAT COLUMN — drags the building
- * out of place. Widening these two page types restores the proportions.
+ * ~850px, which squeezes the rows. Widening these two page types restores the
+ * proportions.
  *
  * Scoped with :has() so it applies only to containers that actually hold the
  * archive or the blog top block. Every other page keeps the theme's 1410px;
@@ -598,20 +558,38 @@ html body[class] {
   padding-right: 30px !important;
 }
 
-/* The decorative building on the featured post (baf-featured-building) is
- * positioned at left:17% / width:416px of the featured row. That was tuned for
- * a 1200px row where the text column was wide enough to clear it; with the
- * design's sidebar the row is ~1000px, the title wraps one line further, and the
- * building lands on top of the headline (measured: it spans 170-586 while the
- * text starts at 414).
+/* --------------------------------------------------------------------------
+ * Home "what we offer": hover the whole service button, not a box inside it.
+ * Client: "this hover is not working properly, it should be like this" (Figma).
  *
- * Re-anchor it to the photo it is meant to sit on, in proportional units so the
- * relationship holds at any width. The Figma blog frame has no building at all;
- * this keeps the decoration the live site has, clear of the copy.
- */
-.oox-blogtop .baf-featured-building {
-  left: 4%;
-  width: 34%;
-  max-width: 416px;
+ * Each service is an Elementor button widget (.oox-service-btn) that carries the
+ * dark translucent pill — 229x78, 16px padding, 16px radius — with the <a>
+ * inside it at 197x46 and transparent. The theme puts the hover background on
+ * that inner anchor, so hovering paints a 197x46 panel inside the 229x78 pill:
+ * a box in a box, with the padding showing as a frame around it.
+ *
+ * Move the hover to the wrapper so the whole pill fills, and keep the anchor
+ * transparent. Same colour the theme already used, so nothing new enters the
+ * design; :focus-within gives keyboard users the same feedback.
+ * ------------------------------------------------------------------------ */
+.oox-service-btn {
+  transition: background-color 240ms cubic-bezier(0.25, 1, 0.5, 1);
+}
+.oox-service-btn:hover,
+.oox-service-btn:focus-within {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+/* !important: the inner hover comes from an Elementor per-element rule keyed to
+ * this widget's generated id, which outranks any class selector. Without it the
+ * anchor keeps painting its own 40% white ON TOP of the wrapper's 40% — the two
+ * translucent layers compose to ~64% and the inner box reappears. */
+.oox-service-btn:hover .elementor-button,
+.oox-service-btn:focus-within .elementor-button,
+.oox-service-btn .elementor-button:hover,
+.oox-service-btn .elementor-button:focus {
+  background-color: transparent !important;
+}
+@media (prefers-reduced-motion: reduce) {
+  .oox-service-btn { transition: none; }
 }
 `;
