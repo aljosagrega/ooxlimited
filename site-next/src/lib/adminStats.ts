@@ -1,6 +1,9 @@
 import "server-only";
 import { readArray } from "./jsonStore";
-import { computeSeoScore, seoBucket, wordCount } from "./seoScore";
+import { computeSeoScore, seoAdvice, seoBucket, wordCount, CONTENT_TARGET_PAGE, type SeoScoreInput } from "./seoScore";
+import { getPagemap } from "./fieldMap";
+import { getAllPageEdits } from "./pageEdits";
+import { routeKey } from "./routeKey";
 import type { Page, Post, Service } from "./types";
 
 const SITE = "ooxlimited.com";
@@ -21,8 +24,42 @@ function seoInput(title: string, desc: string, slug: string, body: string, hasIm
   };
 }
 
+/**
+ * A marketing page's visible copy, for the content-length check. Pages have no
+ * body field — their text lives in the frozen HTML, catalogued by the pagemap
+ * and overridden per-field in pageEdits. Scoring them against `""` (as this
+ * once did) reported every page as 0 words and permanently "thin".
+ */
+function pageBodyText(key: string, edits: Record<string, string>): string {
+  return getPagemap(key)
+    .filter((e) => e.kind === "text" || e.kind === "html")
+    .map((e) => edits[e.id] ?? e.value)
+    .join(" ");
+}
+
+/**
+ * Page SEO lives in pageEdits under `__seo*` (written by <PageEditor>, read by
+ * the public route), NOT on the pages.json record — reading `p.metaTitle` here
+ * reported "Add a meta description" for pages that have one.
+ * Pages have no social-image field in the editor, so `hasImage` stays undefined
+ * and they are scored out of 4 rather than docked for something unsettable.
+ */
 function pageInput(p: Page) {
-  return seoInput(p.metaTitle || p.title, p.metaDescription || "", p.slug, "", !!p.ogImage);
+  const key = routeKey(p.path);
+  const edits = getAllPageEdits()[key] ?? {};
+  return {
+    effectiveTitle: edits.__seoTitle || p.metaTitle || p.title || "",
+    effectiveDescription: edits.__seoDesc || p.metaDescription || "",
+    slug: p.slug || "",
+    bodyWordCount: wordCount(pageBodyText(key, edits)),
+    hasImage: undefined,
+    contentTarget: CONTENT_TARGET_PAGE,
+  };
+}
+
+/** Pages carry noindex in pageEdits too. */
+function pageNoindex(p: Page): boolean {
+  return (getAllPageEdits()[routeKey(p.path)] ?? {}).__seoNoindex === "1" || !!p.noindex;
 }
 function postInput(p: Post) {
   return seoInput(p.metaTitle || p.title, p.metaDescription || stripTags(p.excerpt || ""), p.slug, p.bodyHtml, !!p.featuredImage?.url);
@@ -118,6 +155,8 @@ export interface SeoRow {
   words: number;
   hasDescription: boolean;
   hasTitle: boolean;
+  /** the fix list, derived from the same checks as the score (see seoAdvice) */
+  advice: string[];
 }
 
 export function getSeoOverview(): SeoRow[] {
@@ -125,11 +164,12 @@ export function getSeoOverview(): SeoRow[] {
   const posts = readArray<Post>("posts");
   const services = readArray<Service>("services");
 
-  const row = (id: number, kind: Kind, title: string, url: string, noindex: boolean, inp: ReturnType<typeof seoInput>): SeoRow => {
+  const row = (id: number, kind: Kind, title: string, url: string, noindex: boolean, inp: SeoScoreInput): SeoRow => {
     const sc = computeSeoScore(inp);
     return {
       id, kind, title, url,
       good: sc.good, total: sc.total, issues: sc.issues, noindex,
+      advice: seoAdvice(inp),
       words: inp.bodyWordCount,
       hasDescription: inp.effectiveDescription.length > 0,
       hasTitle: inp.effectiveTitle.length > 0,
@@ -137,7 +177,7 @@ export function getSeoOverview(): SeoRow[] {
   };
 
   const rows: SeoRow[] = [
-    ...pages.map((p) => row(p.id, "page", p.title, p.path, !!p.noindex, pageInput(p))),
+    ...pages.map((p) => row(p.id, "page", p.title, p.path, pageNoindex(p), pageInput(p))),
     ...posts.map((p) => row(p.id, "post", p.title, `/${p.slug}/`, !!p.noindex, postInput(p))),
     ...services.map((s) => row(s.id, "service", s.title, `/service/${s.slug}/`, !!s.noindex, serviceInput(s))),
   ];

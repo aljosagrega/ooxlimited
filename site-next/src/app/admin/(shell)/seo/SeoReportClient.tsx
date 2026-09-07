@@ -28,14 +28,6 @@ function editHref(r: SeoRow) {
   return `/admin/${r.kind === "post" ? "posts" : "services"}/${r.id}/edit`;
 }
 
-function recommendations(r: SeoRow): string[] {
-  const out: string[] = [];
-  if (!r.hasTitle) out.push("Add a title");
-  if (!r.hasDescription) out.push(r.kind === "page" ? "Add a meta description" : "Add an excerpt / meta description");
-  if (r.words === 0 && r.kind === "post") out.push("Write the body");
-  else if (r.words < 600 && r.kind === "post") out.push(`Expand the body (${r.words} words → aim 800+)`);
-  return out;
-}
 
 export default function SeoReportClient({ rows }: { rows: SeoRow[] }) {
   const [filter, setFilter] = useState<Filter>("all");
@@ -130,7 +122,7 @@ export default function SeoReportClient({ rows }: { rows: SeoRow[] }) {
         {view.length === 0 && <div style={{ padding: 40, textAlign: "center", color: "var(--at-muted)", fontSize: 13 }}>Nothing matches.</div>}
         {pageItems.map((r) => {
           const color = seoScoreColor(r.good, r.total);
-          const recs = recommendations(r);
+          const recs = r.advice;
           return (
             <div key={`${r.kind}-${r.id}`} className="news-tbl-row" style={{ display: "grid", gridTemplateColumns: "1fr 60px 70px 1.2fr 80px", gap: 12, padding: "12px 16px", borderBottom: "1px solid var(--at-border-row)", alignItems: "center" }}>
               <div className="news-col-title" style={{ minWidth: 0 }}>
