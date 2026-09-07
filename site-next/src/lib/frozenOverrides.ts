@@ -291,6 +291,42 @@ html body[class] {
   .pagination .page-numbers { transition: none; }
 }
 
+/* The theme's chip row is a single non-wrapping flex line, fine for the two
+ * categories the demo content had and not for the five a real post carries.
+ * Cards cap the list at three (blogRender.ts); this lets what is left wrap
+ * instead of running out of the card. */
+ul.omero-baf__tags {
+  flex-wrap: wrap;
+}
+/* The chip's padding sat on the <li>, so only the text run inside it was a
+ * link: on a 112px-wide chip the outer 40px did nothing and showed no pointer.
+ * The anchor fills the chip now, and a transparent ::after pad brings the tap
+ * area to 44px without changing how the chip looks. The 18px gap between chips
+ * leaves 8px clear between neighbouring hit areas. */
+/* Selectors carry the <ul> as well: React hoists the frozen stylesheet links
+ * into <head>, and the theme's own li.omero-baf__tag rule ends up winning the
+ * tie on document order, so a bare match here would lose. */
+ul.omero-baf__tags li.omero-baf__tag {
+  position: relative;
+  padding: 0;
+}
+ul.omero-baf__tags li.omero-baf__tag a {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 14px;
+  text-decoration: none;
+}
+ul.omero-baf__tags li.omero-baf__tag a::after {
+  content: "";
+  position: absolute;
+  inset: -5px;
+}
+ul.omero-baf__tags li.omero-baf__tag a:focus-visible {
+  outline: 2px solid #0F1118;
+  outline-offset: 3px;
+}
+
 /* --------------------------------------------------------------------------
  * Category archive + blog sidebar (archiveRender.ts) — the two "Blog" frames in
  * the Nove stranice na sajtu Figma.
@@ -336,14 +372,18 @@ html body[class] {
   object-fit: cover;
 }
 .oox-arch__recent-thumb .omero-baf__thumb-shape { width: 76px; }
+/* Chips on their own line, the date/author line always under them — a row that
+ * flowed both onto one line read as a single run-on strip of metadata. */
 .oox-arch__head {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 10px 14px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
   margin-bottom: 14px;
 }
-.oox-arch__tags { margin: 0; padding: 0; }
+/* The theme's chip row does not wrap; here it must, or a post with several
+ * categories runs out of the column and under the sidebar. */
+.oox-arch__tags { margin: 0; padding: 0; flex-wrap: wrap; }
 .oox-arch__title {
   font-family: "Poppins", sans-serif;
   font-weight: 800;
@@ -354,6 +394,12 @@ html body[class] {
 }
 .oox-arch__title a { color: #0F1118; text-decoration: none; }
 .oox-arch__title a:hover { color: #7B5CFF; }
+.oox-arch__title a:focus-visible,
+.oox-arch__more:focus-visible,
+.oox-arch__recent-title a:focus-visible {
+  outline: 2px solid #7B5CFF;
+  outline-offset: 3px;
+}
 .oox-arch__excerpt {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 16px;
@@ -437,7 +483,14 @@ html body[class] {
   transition: background-color 200ms ease-out;
 }
 .oox-arch__pill:hover { background: #6B46C1; color: #FFFFFF; }
-.oox-arch__pill.is-active { background: #FF8A5B; }
+.oox-arch__pill:focus-visible {
+  outline: 2px solid #0F1118;
+  outline-offset: 3px;
+}
+/* White on this orange is 2.3:1 — unreadable. The ink the rest of the page uses
+ * reads 8.1:1 on it and keeps the orange the design asks for. */
+.oox-arch__pill.is-active,
+.oox-arch__pill.is-active:hover { background: #FF8A5B; color: #0F1118; }
 
 .oox-arch__recent { list-style: none; margin: 0; padding: 0; }
 .oox-arch__recent-item {

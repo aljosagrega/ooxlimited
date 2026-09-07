@@ -112,7 +112,9 @@ function fillBafCard($: any, card: any, post: Post, kind: "featured" | "card") {
   // to that category's archive.
   const tags = card.find(".omero-baf__tags").first();
   if (tags.length) {
-    const cats = (post.categories || []).filter((c) => c && c.name && c.slug);
+    // Capped at three: the chip row is one non-wrapping flex line, so a post
+    // with five categories pushed them out past the card.
+    const cats = (post.categories || []).filter((c) => c && c.name && c.slug).slice(0, 3);
     if (cats.length) {
       tags.html(
         cats
