@@ -7,15 +7,32 @@ import type {
 /* --------------------------------------------------------------- posts ---- */
 
 /** A post is public unless explicitly unpublished. Migrated posts carry no
- *  `published` field and are treated as live. */
-export function isPostLive(p: Post): boolean {
-  return p.published !== false;
+ *  `published` field and are treated as live.
+ *
+ *  A published post dated in the future is *scheduled*: it stays off the public
+ *  site until its date passes. Nothing pushes it live at that moment — the
+ *  catch-all route revalidates on an interval (see its `revalidate` export), so
+ *  a scheduled post appears within one revalidation window of its date. */
+export function isPostLive(p: Post, now: Date = new Date()): boolean {
+  if (p.published === false) return false;
+  return !isScheduled(p, now);
 }
 
-/** Public post list. Drafts (`published: false`) are excluded unless asked for. */
+/** Published, but dated in the future — not public yet. */
+export function isScheduled(p: Post, now: Date = new Date()): boolean {
+  if (p.published === false || !p.date) return false;
+  const t = +new Date(p.date);
+  return Number.isFinite(t) && t > +now;
+}
+
+/** Public post list. Drafts and not-yet-due scheduled posts are excluded
+ *  unless asked for. */
 export function getAllPosts(includeDrafts = false): Post[] {
   const rows = readArray<Post>("posts").sort((a, b) => +new Date(b.date) - +new Date(a.date));
-  return includeDrafts ? rows : rows.filter(isPostLive);
+  // NOT `rows.filter(isPostLive)`: filter passes the index as the second
+  // argument, which would land in `now` and treat every dated post as scheduled.
+  const now = new Date();
+  return includeDrafts ? rows : rows.filter((p) => isPostLive(p, now));
 }
 export function getPost(slug: string): Post | null {
   return getAllPosts().find((p) => p.slug === slug) ?? null;
