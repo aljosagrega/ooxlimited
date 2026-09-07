@@ -217,6 +217,10 @@ export function applyBlogIndex(routePath: string, body: string): string {
   if (!baf.length || !featured.length || !grid.length || !cardProto.length) return body;
 
   fillBafCard($, featured, slice[0], "featured");
+  // Decorative building (zgrada.png) that the WordPress template floats over the
+  // featured photo. Removed at the client's request; dropping it here rather than
+  // from the frozen HTML means `npm run freeze` can't bring it back.
+  featured.find(".baf-featured-building").remove();
 
   const proto = cardProto.clone();
   grid.empty();
