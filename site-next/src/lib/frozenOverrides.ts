@@ -976,18 +976,92 @@ ul.omero-baf__tags li.omero-baf__tag a:focus-visible {
  * with a 300x300 photo at 930px, and a 496x701 card with a 196x196 photo at
  * 1194px. That is where the tall blank area under the photo comes from.
  *
- * Releasing the forced square and letting the photo take the card's width at
- * its own aspect ratio makes it both larger and undistorted, and the card
- * collapses to the height it actually needs. The mask that cuts the notch is
- * on the img and follows its new size. Above 1200 the row layout is untouched.
+ * Releasing the forced square and letting each photo take the card's full
+ * width makes them larger and undistorted, and the cards collapse to the
+ * height they actually need. The mask that cuts the notch is on the img and
+ * follows the new size. Above 1200 the row layout is untouched.
+ *
+ * Scoped to the timeline column rather than to one widget id: every card has
+ * its own image widget (058d8b0, 16205ce, c68ecc5, 9bc44d8, 3e28200, 5df1aed
+ * alongside db8287b), and an id-specific rule fixed exactly one of the seven
+ * while the rest stayed 196x196 in a 413px card. A shared 16/9 box with
+ * object-fit: cover keeps the row rhythm even, since the sources run from
+ * 1035x464 landscape to 383x692 portrait and letting each keep its own ratio
+ * would make the portraits nearly twice the card's width in height.
  * ------------------------------------------------------------------------ */
 @media (max-width: 1200px) {
-  .elementor .elementor-element.elementor-element-db8287b {
+  .elementor .elementor-element-c278db6 .elementor-widget-image {
     aspect-ratio: auto;
   }
-  .elementor .elementor-element.elementor-element-db8287b img {
+  .elementor .elementor-element-c278db6 .elementor-widget-image img {
     width: 100%;
     height: auto;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+  }
+}
+
+/* --------------------------------------------------------------------------
+ * about-us 1025-1219px: stop pinning the intro while the cards scroll past it.
+ *
+ * The story section is meant to be two columns: the intro pins on the left
+ * (b4481b3 is an elementor-sticky widget) while the year cards scroll up the
+ * right. Elementor pins it by writing 'position: fixed; width: ...; top: 100px'
+ * inline once the widget scrolls in.
+ *
+ * That only works while the two are actually side by side. The wrapper switches
+ * from --flex-direction: row to column at 1200/1201, and the pinned intro then
+ * takes the full content width with the card column centred inside it: at
+ * 1100px the pinned block spans x120-980 and the cards x326-774, so every card
+ * passes straight through the pinned heading and paragraph. Both carry
+ * z-index: 3 and the cards come later in the markup, so they paint on top -
+ * the heading and its paragraph end up sliced by opaque white cards.
+ *
+ * Below 1025 Elementor already leaves the widget unpinned (measured
+ * position: relative), and from 1201 up the row layout separates the columns
+ * cleanly, so this is scoped to the band in between. The upper bound has to
+ * stop at 1200 exactly: by 1219 the wrapper is already a row, and unpinning
+ * there stretches the widget to 2231px instead of its 590px column. The spacer Elementor
+ * inserts to reserve the pinned element's height has to go with it, or it
+ * leaves an empty gap where the intro used to be. !important is required
+ * because the values it overrides are inline styles written by Elementor's
+ * sticky script.
+ * ------------------------------------------------------------------------ */
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .elementor .elementor-element.elementor-element-b4481b3.elementor-sticky {
+    position: relative !important;
+    top: auto !important;
+    width: auto !important;
+    inset-inline-start: auto !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  .elementor-element-b4481b3.elementor-sticky__spacer {
+    display: none !important;
+  }
+}
+
+/* --------------------------------------------------------------------------
+ * about-us 768-1200px: run the timeline two cards across.
+ *
+ * In the stacked layout the card column keeps the width it has in the desktop
+ * two-column design - measured 413px inside a ~1000px content area - so the
+ * timeline reads as a narrow ribbon with a wide empty margin either side and
+ * runs to seven full-height cards. Two across uses the width that is already
+ * there and halves the scroll.
+ *
+ * The column is a flex column by default; a two-track grid reflows the cards
+ * without touching their internal markup. align-items: start keeps each card
+ * its own natural height instead of stretching the shorter one in a pair.
+ * ------------------------------------------------------------------------ */
+@media (min-width: 768px) and (max-width: 1200px) {
+  .elementor .elementor-element.elementor-element-c278db6 {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: start;
+    gap: 32px;
+    width: 100%;
+    max-width: none;
   }
 }
 `;
