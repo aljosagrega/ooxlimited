@@ -567,7 +567,13 @@ ul.omero-baf__tags li.omero-baf__tag a:focus-visible {
   cursor: pointer;
 }
 
-@media (max-width: 1024px) {
+/* The stack point is 1200, not 1024. Between those two the sidebar still took
+ * its fixed 300px plus the 48px gap while a row kept its 300px thumb, leaving
+ * the title roughly 330px: long headlines broke mid-word ("Developm / ent",
+ * "Outsourci / ng") and the whole archive read as compacted. Stacking the
+ * sidebar and narrowing the thumb through the whole tablet band gives the
+ * title the full measure back. */
+@media (max-width: 1280px) {
   .oox-arch,
   .oox-blogtop { grid-template-columns: minmax(0, 1fr); gap: 32px; }
   .oox-arch__row { grid-template-columns: 200px minmax(0, 1fr); gap: 20px; }
