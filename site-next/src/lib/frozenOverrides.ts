@@ -725,4 +725,219 @@ ul.omero-baf__tags li.omero-baf__tag a:focus-visible {
     list-style-position: inside;
   }
 }
+
+/* --------------------------------------------------------------------------
+ * Stacked band (<=1200px): the "about us" button had no alignment class.
+ *
+ * NOTE for anyone re-measuring this: there are two "about us" links on the
+ * home page. The one in the header nav measures 72x40 at y=56 and is always
+ * fine - measuring that one is why this was previously written off as "not
+ * reproducible". The broken one is the section CTA, a 182x56 button.
+ *
+ * The widget carries 'elementor-align-right' plus
+ * 'elementor-tablet_extra-align-center'. Elementor implements both as plain
+ * text-align, which only bites once the widget has width to align inside. As a
+ * flex item this widget shrink-wraps to the button's own 182px, so text-align
+ * has nothing to work with and it sits at the container's start edge: measured
+ * x=15 at 1194px, hard against the viewport edge.
+ *
+ * The fix is width, not display. An earlier version of this block used
+ * 'display: flex; justify-content: center', which quietly broke the hero:
+ * Elementor hides responsive widgets with '.elementor .elementor-hidden-tablet
+ * { display: none }' - specificity 0,2,0, exactly the same as
+ * '.oox-btn.elementor-align-right'. Because this sheet loads last to win ties,
+ * the 'display: flex' beat 'display: none' and un-hid the mobile-only "get in
+ * touch" button across 881-1200, where it collided with the targets.png
+ * artwork that is visible from 881 up. Never set 'display' in a rule matching
+ * a widget that carries an elementor-hidden-* class.
+ * ------------------------------------------------------------------------ */
+@media (max-width: 1200px) {
+  .oox-btn.elementor-align-right {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* --------------------------------------------------------------------------
+ * 1060-1366px: the 'about us' button was clipped by the section below it.
+ *
+ * The purple 'what we offer' section (e05a78d) is pulled up over the tail of
+ * the white section with margin-top: -235px - that negative pull is what cuts
+ * the notch silhouette, and it is the same at every width. What changes is how
+ * much room the white section leaves below the button, and across 1060-1366 it
+ * leaves too little: measured button bottom 1528 against a purple top of 1509
+ * at 1194px, so the lower third of the button was painted over. Below 1060 and
+ * at 1440+ there is a natural 30-61px of clearance and nothing is wrong.
+ *
+ * Scoped to the button's own widget id so the header 'get in touch' button,
+ * which shares the .oox-btn.elementor-align-right selector, is not moved.
+ *
+ * The doubled class is not a typo. Elementor's generated post CSS carries
+ * '.elementor-22 .elementor-element.elementor-element-7538fbc { margin: 30px 0
+ * calc(...) 0 }' - three classes, and a shorthand, so a single-class rule here
+ * is outranked and silently loses the bottom margin. Matching its 0,3,0
+ * specificity lets this sheet's later position win the tie.
+ * ------------------------------------------------------------------------ */
+@media (min-width: 1060px) and (max-width: 1366px) {
+  .elementor .elementor-element.elementor-element-7538fbc {
+    margin-bottom: 56px;
+  }
+}
+
+/* The same collision recurs at 768-880px, where the stacked layout leaves the
+ * button 10px inside the notch (measured button bottom 1585 against a purple
+ * top of 1575 at 768px). 40px of clearance here lands it on the same 30px gap
+ * the untouched widths already have. 881-1059 needs nothing: it clears by 30px
+ * on its own. */
+@media (min-width: 768px) and (max-width: 880px) {
+  .elementor .elementor-element.elementor-element-7538fbc {
+    margin-bottom: 40px;
+  }
+}
+
+/* --------------------------------------------------------------------------
+ * Wrapped carousel slide (<=1200px): align the stack, cap the measure.
+ *
+ * The wrap fix above stopped the quote column collapsing to 0px, but left the
+ * result visually off: 'justify-content: center' centres the 486px portrait on
+ * its own line while the quote below it stays hard against the column's left
+ * padding edge (measured image x=358, text x=122 at 1194px), so the two halves
+ * of one testimonial share no edge and a wide band of dead space opens to the
+ * right of the text.
+ *
+ * Aligning the wrapped line to the start gives the portrait and the quote the
+ * same left edge, and the measure cap keeps the quote from running the full
+ * column width once it is no longer being squeezed. Both are scoped to the
+ * same band as the wrap, so the desktop row is untouched.
+ * ------------------------------------------------------------------------ */
+@media (max-width: 1200px) {
+  .elementor-widget-omero-nested-carousel .swiper-slide .e-con.e-flex {
+    justify-content: flex-start;
+  }
+  .elementor-widget-omero-nested-carousel .swiper-slide .e-con.e-flex > .e-con p {
+    max-width: 65ch;
+  }
+}
+
+/* --------------------------------------------------------------------------
+ * 881-1200px: centre the hero 'targets' artwork and drop it clear of the notch.
+ *
+ * The widget is absolutely positioned and anchored to the right edge
+ * (right: 97px; bottom: 137px). That reads correctly on desktop, where a much
+ * larger 853px render deliberately bleeds off the left edge, but in this band
+ * the image is capped at 560px and the right anchor parks it hard against the
+ * container's right side - measured x=522 in a 1164px container at 1194px,
+ * with a wide dead area to its left and its top tucked under the purple notch.
+ *
+ * Centring is done by solving the right offset rather than with a transform:
+ * this widget carries an Elementor motion_fx translateX scroll effect, which
+ * writes to 'transform' from JS on every scroll frame, so a translateX(-50%)
+ * used for layout would be overwritten as soon as the page moves. For a 560px
+ * widget, right: calc(50% - 280px) puts the box dead centre at any container
+ * width and leaves 'transform' free for the scroll effect.
+ *
+ * Both selectors mirror the specificity of the generated rules they override -
+ * Elementor anchors the offset from 'body:not(.rtl) .elementor-22
+ * .elementor-element.elementor-element-d77da91', so a weaker selector here is
+ * ignored outright.
+ * ------------------------------------------------------------------------ */
+@media (min-width: 881px) and (max-width: 1200px) {
+  body:not(.rtl) .elementor .elementor-element.elementor-element-d77da91 {
+    right: calc(50% - 280px);
+  }
+  .elementor .elementor-element.elementor-element-d77da91 {
+    bottom: 27px;
+  }
+  /* The motion_fx translateX effect drifts the widget sideways as the page
+   * scrolls, so the centred box above is only centred at one scroll offset -
+   * the artwork visibly sits right of centre by the time it is in view. Motion
+   * fx writes transform as an inline style, so !important is the only way to
+   * hold it. This trades the parallax drift for staying centred, in this band
+   * only; desktop keeps the effect. */
+  .elementor .elementor-element.elementor-element-d77da91 {
+    transform: none !important;
+  }
+}
+
+/* --------------------------------------------------------------------------
+ * 881-1200px: line the review quote up with the portrait above it.
+ *
+ * Inside a review slide the portrait is a constant 486px and is centred by the
+ * column (at 1024px: a 784px slide, so the image starts 149px in). The name
+ * below it stretches the full 784px and the quote widget carries its own
+ * width-initial setting that resolves to 386px pinned to the slide's left
+ * edge. The result is three different left edges in one card, with the quote
+ * starting well to the left of the portrait and wrapping long before its right
+ * edge.
+ *
+ * Constraining the text column to the portrait's width and centring it gives
+ * the portrait, the name and the quote one shared left and right edge. 486px
+ * is the portrait's rendered width at every width in this band, so it holds
+ * across the whole range rather than at one measurement point.
+ * ------------------------------------------------------------------------ */
+@media (min-width: 768px) and (max-width: 1200px) {
+  .elementor .elementor-element.elementor-element-ec1f036 {
+    max-width: 486px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .elementor .elementor-element.elementor-element-366b5f0 {
+    width: 100%;
+  }
+}
+
+/* --------------------------------------------------------------------------
+ * 881-1200px: drop the role column from the team list so the names fit.
+ *
+ * Each row is 'NN | name | role' inside a 634px column. In this band neither
+ * the name nor the role fits on one line, so both wrap to two lines and each
+ * wraps independently while the row centres them separately - 'Vukašin
+ * Despotovic' breaking after the first word next to a 'Business Developer,
+ * Co-Founder' breaking after the comma, with the row number still centred
+ * against the pair. Five rows of that is what reads as scattered.
+ *
+ * Reclaiming the role column's width lets every name sit on one line, which
+ * puts the numbers back on a regular baseline. The roles are still on the team
+ * page itself; only this homepage summary list drops them, and only in the
+ * band where they do not fit.
+ * ------------------------------------------------------------------------ */
+@media (min-width: 881px) and (max-width: 1200px) {
+  .omero-team-list-titles .team-position {
+    display: none;
+  }
+  .omero-team-list-titles .team-button {
+    width: 100%;
+  }
+}
+
+/* --------------------------------------------------------------------------
+ * Newsletter: keep the wizard and the chest off the copy.
+ *
+ * Both decorations are elementor-absolute widgets sitting in a section only
+ * 319px tall - the chest is a 400x400 Lottie player (5565060) and the wizard a
+ * 308x308 hosted video (3a1ea38). Both declare z-index: 1, and so do the
+ * heading and paragraph they sit over. A tie in z-index falls back to document
+ * order, and the decorations come later in the markup, so they paint on top of
+ * the copy rather than behind it. Dropping them one layer restores the
+ * stacking the text's own z-index: 1 was always asking for.
+ *
+ * They overlap the text at every width, but how much matters: at 1440px the
+ * art clips roughly 120px off each end of a 622px measure, while at 1024px the
+ * chest covers 201-492 and the wizard 562-823 of a 201-823 text - close to
+ * half the paragraph behind opaque artwork, which is what makes it unreadable
+ * rather than merely busy. So the band that already hides both on mobile and
+ * mobile_extra is extended up through tablet and tablet_extra, and the wider
+ * viewports keep the art with the corrected stacking.
+ * ------------------------------------------------------------------------ */
+.elementor .elementor-element.elementor-element-5565060,
+.elementor .elementor-element.elementor-element-3a1ea38 {
+  z-index: 0;
+}
+
+@media (min-width: 881px) and (max-width: 1200px) {
+  .elementor .elementor-element.elementor-element-5565060,
+  .elementor .elementor-element.elementor-element-3a1ea38 {
+    display: none;
+  }
+}
 `;
