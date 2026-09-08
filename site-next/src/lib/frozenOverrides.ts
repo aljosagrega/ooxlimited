@@ -759,15 +759,18 @@ ul.omero-baf__tags li.omero-baf__tag a:focus-visible {
 }
 
 /* --------------------------------------------------------------------------
- * 1060-1366px: the 'about us' button was clipped by the section below it.
+ * 1025-1366px: the 'about us' button was clipped by the section below it.
  *
  * The purple 'what we offer' section (e05a78d) is pulled up over the tail of
  * the white section with margin-top: -235px - that negative pull is what cuts
  * the notch silhouette, and it is the same at every width. What changes is how
  * much room the white section leaves below the button, and across 1060-1366 it
  * leaves too little: measured button bottom 1528 against a purple top of 1509
- * at 1194px, so the lower third of the button was painted over. Below 1060 and
- * at 1440+ there is a natural 30-61px of clearance and nothing is wrong.
+ * at 1194px, so the lower third of the button was painted over. The band edge
+ * is 1025 rather than a rounder number because that is Elementor's
+ * tablet_extra breakpoint, where this section's padding changes: 1024px
+ * clears by 30px, 1025px overlaps by 19px. Below 1025 and at 1440+ there is a
+ * natural 30-61px of clearance and nothing is wrong.
  *
  * Scoped to the button's own widget id so the header 'get in touch' button,
  * which shares the .oox-btn.elementor-align-right selector, is not moved.
@@ -778,7 +781,7 @@ ul.omero-baf__tags li.omero-baf__tag a:focus-visible {
  * is outranked and silently loses the bottom margin. Matching its 0,3,0
  * specificity lets this sheet's later position win the tie.
  * ------------------------------------------------------------------------ */
-@media (min-width: 1060px) and (max-width: 1366px) {
+@media (min-width: 1025px) and (max-width: 1366px) {
   .elementor .elementor-element.elementor-element-7538fbc {
     margin-bottom: 56px;
   }
@@ -787,7 +790,7 @@ ul.omero-baf__tags li.omero-baf__tag a:focus-visible {
 /* The same collision recurs at 768-880px, where the stacked layout leaves the
  * button 10px inside the notch (measured button bottom 1585 against a purple
  * top of 1575 at 768px). 40px of clearance here lands it on the same 30px gap
- * the untouched widths already have. 881-1059 needs nothing: it clears by 30px
+ * the untouched widths already have. 881-1024 needs nothing: it clears by 30px
  * on its own. */
 @media (min-width: 768px) and (max-width: 880px) {
   .elementor .elementor-element.elementor-element-7538fbc {
