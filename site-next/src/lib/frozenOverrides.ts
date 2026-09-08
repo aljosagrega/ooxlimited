@@ -887,21 +887,34 @@ ul.omero-baf__tags li.omero-baf__tag a:focus-visible {
 }
 
 /* --------------------------------------------------------------------------
- * 881-1200px: drop the role column from the team list so the names fit.
+ * Team list: three tiers, because the row needs width the band does not have.
  *
- * Each row is 'NN | name | role' inside a 634px column. In this band neither
- * the name nor the role fits on one line, so both wrap to two lines and each
- * wraps independently while the row centres them separately - 'Vukašin
- * Despotovic' breaking after the first word next to a 'Business Developer,
- * Co-Founder' breaking after the comma, with the row number still centred
- * against the pair. Five rows of that is what reads as scattered.
+ * A row is 'NN | name | role' on one line. Below roughly 1466px the column is
+ * too narrow for both the name and the role to stay unwrapped, and they wrap
+ * independently while the row centres them separately - 'Vukasin Despotovic'
+ * breaking after the first word beside a 'Business Developer, Co-Founder'
+ * breaking after the comma, the number centred against the pair. Narrower
+ * still and even the name alone will not fit.
  *
- * Reclaiming the role column's width lets every name sit on one line, which
- * puts the numbers back on a regular baseline. The roles are still on the team
- * page itself; only this homepage summary list drops them, and only in the
- * band where they do not fit.
+ *   <=1000px      heading, intro and the 'see all' link only. Elementor
+ *                 already hides the list at <=880 via its mobile_extra and
+ *                 mobile classes; this carries that same fallback up to 1000.
+ *   1001-1465px   the list, names only. Dropping the role column gives every
+ *                 name a single line, which puts the numbers back on a regular
+ *                 baseline.
+ *   >=1466px      untouched - the full row, role column included, has the
+ *                 width it was designed for.
+ *
+ * Nothing is lost at the narrower tiers: the 'see all' link leads to the team
+ * page, which carries every name and role in full.
  * ------------------------------------------------------------------------ */
-@media (min-width: 881px) and (max-width: 1200px) {
+@media (max-width: 1000px) {
+  .elementor .elementor-element.elementor-element-9dd5326 {
+    display: none;
+  }
+}
+
+@media (min-width: 1001px) and (max-width: 1465px) {
   .omero-team-list-titles .team-position {
     display: none;
   }
@@ -938,6 +951,34 @@ ul.omero-baf__tags li.omero-baf__tag a:focus-visible {
   .elementor .elementor-element.elementor-element-5565060,
   .elementor .elementor-element.elementor-element-3a1ea38 {
     display: none;
+  }
+}
+
+/* --------------------------------------------------------------------------
+ * about-us <=1200px: let the timeline photo fill the card.
+ *
+ * The image widget carries 'aspect-ratio: 1' as Elementor custom CSS, and the
+ * img inside it is pinned to a fixed square - 196x196 at base, 300x300 below
+ * 1024 - with object-fit: cover over a wide landscape source (929x417 at
+ * 930px). That pairing works in the desktop row layout, but below 1200 the
+ * card switches to --flex-direction: column and the widget stretches to the
+ * card's full width. aspect-ratio: 1 then forces a box as tall as the card is
+ * wide, holding an image less than half that size: measured a 690x879 card
+ * with a 300x300 photo at 930px, and a 496x701 card with a 196x196 photo at
+ * 1194px. That is where the tall blank area under the photo comes from.
+ *
+ * Releasing the forced square and letting the photo take the card's width at
+ * its own aspect ratio makes it both larger and undistorted, and the card
+ * collapses to the height it actually needs. The mask that cuts the notch is
+ * on the img and follows its new size. Above 1200 the row layout is untouched.
+ * ------------------------------------------------------------------------ */
+@media (max-width: 1200px) {
+  .elementor .elementor-element.elementor-element-db8287b {
+    aspect-ratio: auto;
+  }
+  .elementor .elementor-element.elementor-element-db8287b img {
+    width: 100%;
+    height: auto;
   }
 }
 `;
