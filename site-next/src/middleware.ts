@@ -71,6 +71,7 @@ export function middleware(req: NextRequest) {
 export const config = {
   matcher: [
     "/robots.txt",
+    "/sitemap.xsl",
     "/((?!_next/|wp-content/|wp-includes/|api/|admin/).*\\.xml$)",
     "/((?!_next/|wp-content/|wp-includes/|api/|admin/|.*\\.[a-z0-9]+$).*)",
   ],

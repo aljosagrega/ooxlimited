@@ -88,5 +88,10 @@
     "from": "/contact",
     "to": "contact-us",
     "type": 301
+  },
+  {
+    "from": "/category/uncategorized",
+    "to": "blog",
+    "type": 301
   }
 ]
