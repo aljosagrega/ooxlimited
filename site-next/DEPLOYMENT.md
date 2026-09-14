@@ -166,11 +166,20 @@ first deploy creates `current/`.
 
 ## 7. Cutover
 
-1. Deploy to the review host and smoke-test there.
-2. Run the parity screenshots (README §"Verifying design parity") against it.
-3. Rebuild with `SITE_URL` set to the production host — the canonical tags and the
-   sitemap follow it, so this is a rebuild, not a restart — and point DNS at the app.
-4. Keep the WordPress install reachable internally for one release cycle so
-   `npm run snapshot` / `npm run migrate` can be re-run if something was missed.
-5. `wp-content/uploads/` (media) is host state. It is never in the repo; never overwrite
-   a newer live copy with an older one.
+**Done on 2026-09-15.** `ooxlimited.com` serves this app over a Let's Encrypt certificate
+covering the apex and `www`; `www` and plain http both 301 to the canonical apex. The
+review host is unchanged and still gated.
+
+What the cutover established, and what still holds:
+
+- `SITE_URL` is read at **build**, not only at runtime — `sitemap.ts` bakes it in — so
+  changing the public hostname is a rebuild, not a restart.
+- The WordPress install it replaced is **left running** for one release cycle, so
+  `npm run snapshot` / `npm run migrate` can be re-run if something turns out to be
+  missing. Now that DNS points here, it is reachable only at its own host's address with
+  a `Host: ooxlimited.com` header.
+- `wp-content/uploads/` (media) is host state. It is never in the repo; never overwrite a
+  newer live copy with an older one.
+- Eleven URLs from the old sitemap return **404 by design**: the `elementor-hf` and
+  `lexus-breadcrumb` entries are page-builder templates, not pages. Do not add redirects
+  for them — pointing template scaffolding at real pages only manufactures soft-404s.
