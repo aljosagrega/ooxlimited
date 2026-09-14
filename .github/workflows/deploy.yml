@@ -1,7 +1,8 @@
 name: Deploy site-next
 
-# Push to main deploys the Next rebuild to the review host. The WordPress copy
-# under site/ is not deployed by anything — it is upstream, not a build target.
+# Push to main deploys the Next rebuild to the review host; production is a
+# manual dispatch. The WordPress copy under site/ is not deployed by anything —
+# it is upstream, not a build target.
 on:
   push:
     branches: [main]
@@ -9,9 +10,15 @@ on:
       - 'site-next/**'
       - '.github/workflows/deploy.yml'
   workflow_dispatch:
+    inputs:
+      target:
+        description: 'Deploy target'
+        type: choice
+        options: [prod, review]
+        default: prod
 
 concurrency:
-  group: deploy-review
+  group: deploy-${{ github.event_name == 'push' && 'review' || inputs.target }}
   cancel-in-progress: false
 
 defaults:
@@ -29,16 +36,51 @@ jobs:
       # already points at, mutating the live release while it serves, and
       # leave the rollback step with no earlier release to fall back to.
       RELEASE: ${{ github.sha }}-${{ github.run_number }}
-      SSH_USER: ${{ vars.SSH_USER }}
       SSH_HOST: ${{ vars.SSH_HOST }}
       SSH_PORT: ${{ vars.SSH_PORT }}
-      BASE: ${{ vars.DEPLOY_PATH }}
-      SERVICE_NAME: ${{ vars.SERVICE_NAME }}
-      APP_PORT: ${{ vars.APP_PORT }}
-      SITE_URL: ${{ vars.SITE_URL }}
 
     steps:
       - uses: actions/checkout@v4
+
+      # Both targets share one box and one deploy key. Production uses the bare
+      # repo vars; the review host overlays the five that differ as REVIEW_*.
+      #   push -> review; manual -> the chosen target
+      #
+      # This runs BEFORE the build, unlike paynura's equivalent, because SITE_URL
+      # is baked into the sitemap at build time — it has to be resolved before
+      # `npm run build`, not just before the upload.
+      - name: Resolve target
+        env:
+          SSH_USER: ${{ vars.SSH_USER }}
+          DEPLOY_PATH: ${{ vars.DEPLOY_PATH }}
+          SERVICE_NAME: ${{ vars.SERVICE_NAME }}
+          APP_PORT: ${{ vars.APP_PORT }}
+          TARGET_SITE_URL: ${{ vars.SITE_URL }}
+          REVIEW_SSH_USER: ${{ vars.REVIEW_SSH_USER }}
+          REVIEW_DEPLOY_PATH: ${{ vars.REVIEW_DEPLOY_PATH }}
+          REVIEW_SERVICE_NAME: ${{ vars.REVIEW_SERVICE_NAME }}
+          REVIEW_APP_PORT: ${{ vars.REVIEW_APP_PORT }}
+          REVIEW_SITE_URL: ${{ vars.REVIEW_SITE_URL }}
+          TARGET: ${{ github.event_name == 'push' && 'review' || inputs.target }}
+        run: |
+          set -euo pipefail
+          case "$TARGET" in
+            prod)   u=$SSH_USER;        b=$DEPLOY_PATH;        s=$SERVICE_NAME;        p=$APP_PORT;        url=$TARGET_SITE_URL ;;
+            review) u=$REVIEW_SSH_USER; b=$REVIEW_DEPLOY_PATH; s=$REVIEW_SERVICE_NAME; p=$REVIEW_APP_PORT; url=$REVIEW_SITE_URL ;;
+            *) echo "::error::unknown target '$TARGET'"; exit 1 ;;
+          esac
+          for v in u b s p url; do
+            [ -n "${!v}" ] || { echo "::error::target '$TARGET' is missing a variable ($v) — check the repo vars"; exit 1; }
+          done
+          {
+            echo "TARGET=$TARGET"
+            echo "SSH_USER=$u"
+            echo "BASE=$b"
+            echo "SERVICE_NAME=$s"
+            echo "APP_PORT=$p"
+            echo "SITE_URL=$url"
+          } >> "$GITHUB_ENV"
+          echo "deploying to $TARGET: $u@$SSH_HOST:$b (port $p, $url)"
 
       - uses: actions/setup-node@v4
         with:

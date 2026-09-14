@@ -1,0 +1,5 @@
+# These are the client's own root-level files, copied byte-for-byte off the live
+# site: an ad-network manifest and a search/pinterest verification pair. They are
+# served as-is, so keep their CRLF endings and BOM rather than normalising them.
+/site-next/public/app-ads.txt -text
+/site-next/public/llms.txt -text
