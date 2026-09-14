@@ -1064,4 +1064,32 @@ ul.omero-baf__tags li.omero-baf__tag a:focus-visible {
     max-width: none;
   }
 }
+
+/* --------------------------------------------------------------------------
+ * home "Book your Appointment" heading, 1025-1200px: stop the mid-word break.
+ *
+ * Reported by the client as "weird scaling" with the word itself splitting,
+ * e.g. "Appointme-nt". In this band the widget's font-size steps UP to 60px
+ * (post-22.css) while its own width is a flex-shrunk value between 369.6px at
+ * 1025 and 407px at 1200 - narrower than the ~392px the word "Appointment"
+ * needs at that size for most of the band. The omero theme's body rule
+ * (style.css) sets word-wrap: break-word, inherited onto the heading, so the
+ * browser breaks the overrunning word at a character boundary instead of
+ * moving it to its own line: measured 3 line-heights tall (an "Appointmen" /
+ * "t" split) against 2 outside this band, confirmed by screenshot at
+ * 1200/1100/1060/1025.
+ *
+ * Setting overflow-wrap: normal on the heading overrides that inherited value (a
+ * value set directly on the element always wins over one it only inherited,
+ * so no specificity fight with the theme's body rule is needed) and restores
+ * ordinary word-boundary wrapping: "Appointment" now moves to its own line
+ * whole instead of splitting - the width band is otherwise untouched, so nothing
+ * outside 1025-1200px is affected.
+ * ------------------------------------------------------------------------ */
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .elementor .elementor-element.elementor-element-d394b4d .elementor-heading-title {
+    overflow-wrap: normal;
+    word-break: normal;
+  }
+}
 `;
