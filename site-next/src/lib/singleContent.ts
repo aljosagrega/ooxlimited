@@ -16,6 +16,11 @@ import type { TeamMember } from "./types";
  * Service single pages keep pagemap editing (their body is bespoke Elementor
  * content that isn't captured by the services collection).
  */
+
+/** Matches teamGridRender.ts's FALLBACK_PHOTO — kept as a separate local
+ *  constant, same as blogRender.ts's own FALLBACK_IMG, rather than a shared
+ *  import, so each renderer's fallback can diverge later without coupling. */
+const TEAM_FALLBACK_PHOTO = "/og-default.png";
 export function applySingleContent(routePath: string, bodyHtml: string): string {
   const teamMatch = routePath.match(/^\/team\/([^/]+)\/$/);
   if (teamMatch) return patchTeam(teamMatch[1], bodyHtml);
@@ -63,13 +68,20 @@ export function fillTeamMember($: cheerio.CheerioAPI, m: TeamMember) {
   setText($, ".single-team-hero .entry-title, h1.entry-title, h2.entry-title", m.name);
   setText($, ".team-position", m.position);
 
-  // photo
-  if (m.photo?.url) {
-    const img = $(".single-team-hero .post-thumbnail img, .single-team-hero img.wp-post-image").first();
-    if (img.length) {
-      img.attr("src", m.photo.url).removeAttr("srcset").removeAttr("sizes");
-      if (m.photo.alt) img.attr("alt", m.photo.alt);
-    }
+  // photo — always overwritten, even with no photo set. The old selector
+  // scoped both alternatives to `.single-team-hero`, but that element is an
+  // empty decorative wrapper (see _team-template.html) — the real photo sits
+  // in a sibling `.team-wrap-left .post-thumbnail img`, so the selector never
+  // matched anything and this has silently no-opped since before there was a
+  // form field to trigger it from. Caught via the client's report that a new
+  // hire's roster card and profile photo didn't match: the roster grid
+  // (teamGridRender.ts) reads the same field correctly and showed the right
+  // photo (or its fallback); the profile page kept whoever donated
+  // `_team-template` (Ozren)'s real photo under the new member's name.
+  const img = $(".post-thumbnail img.wp-post-image, .post-thumbnail img").first();
+  if (img.length) {
+    img.attr("src", m.photo?.url || TEAM_FALLBACK_PHOTO).removeAttr("srcset").removeAttr("sizes");
+    img.attr("alt", m.photo?.alt || m.name);
   }
 
   // bio — one <p> per blank-line-separated paragraph, reusing the frozen <p>
