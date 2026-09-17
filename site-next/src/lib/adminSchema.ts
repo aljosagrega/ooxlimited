@@ -14,9 +14,11 @@ export type FieldType =
   | "number"
   | "boolean"
   | "date"
+  | "postStatus"
   | "image"
   | "imageObject"
   | "stringList"
+  | "qaList"
   | "select"
   | "json"
   // accepted by the ported SchemaForm but unused in the ooxlimited schema
@@ -104,9 +106,15 @@ export const SCHEMAS: Record<string, CollectionSchema> = {
     },
     fields: [
       { key: "title", label: "Title", type: "text" },
-      { key: "published", label: "Published", type: "boolean", help: "Off = draft. Drafts are hidden from the public site." },
+      // Composite control over `published` + `date` together — see the
+      // `postStatus` case in SchemaForm. A lone "Published" checkbox plus a
+      // separately-set future date read, to a client, as two unrelated
+      // switches: someone set a future date expecting that alone to schedule
+      // the post, left "Published" off (it reads as "not yet", which is
+      // literally what they wanted), and the post silently never went out.
+      { key: "published", label: "Status", type: "postStatus", help: "Draft stays off the site. Scheduled goes live automatically at the date below. Published is live now." },
       { key: "slug", label: "Slug", type: "text", help: "URL segment; the post lives at /<slug>/" },
-      { key: "date", label: "Published date", type: "date", help: "Defaults to now when left blank on a new post. Set a future date to schedule it — the post stays off the site until then." },
+      { key: "date", label: "Publish date", type: "date", help: "Sets when Scheduled (above) goes live, and the post's sort order / byline date. Ignored while Status is Draft." },
       { key: "authorId", label: "Author", type: "ref", ref: { collection: "authors", labelField: "name" }, help: "Manage the list under Authors" },
       { key: "excerpt", label: "Excerpt", type: "textarea", rows: 3, full: true },
       { key: "featuredImage", label: "Featured image", type: "imageObject" },
@@ -139,7 +147,11 @@ export const SCHEMAS: Record<string, CollectionSchema> = {
       { key: "skills", label: "Skills", type: "stringList", full: true },
       { key: "programs", label: "Programs / tools", type: "stringList", full: true },
       { key: "socials", label: "Social links", type: "json", full: true, help: '{ "fb": "…", "x": "…", "ig": "…", "in": "…" }' },
-      { key: "qa", label: "Q&A", type: "json", full: true, help: "[{ question, answer }]" },
+      // Was `type: "json"` — that type is filtered out of the form entirely
+      // (SchemaForm only shows it via the advanced "raw JSON" toggle), which is
+      // what the client meant by "no section for questions and answers": the
+      // field existed, but never appeared. This renders an actual repeater.
+      { key: "qa", label: "Q&A", type: "qaList", full: true, help: "Shown as an accordion on the member's profile page." },
     ],
   },
 
