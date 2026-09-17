@@ -9,6 +9,7 @@ import { applyChromePatch } from "@/lib/chromePatch";
 import { applySingleContent } from "@/lib/singleContent";
 import { POST_TEMPLATE_KEY, renderTemplatedPost, applyBlogIndex, blogPageCount } from "@/lib/blogRender";
 import { applyBlogSidebar } from "@/lib/archiveRender";
+import { applyTeamGrid } from "@/lib/teamGridRender";
 import { applyImageAlt } from "@/lib/imageAlt";
 import { applyFrozenFixups } from "@/lib/frozenFixups";
 import { applyPageTrims } from "@/lib/pageTrims";
@@ -233,6 +234,7 @@ export default async function CatchAll({ params }: Props) {
     body = applySingleContent(path, body);
     body = applyBlogIndex(path, body);
     body = applyBlogSidebar(path, body);
+    body = applyTeamGrid(path, body);
   }
   body = applyFrozenFixups(path, body);
   body = applyPageTrims(path, body);
