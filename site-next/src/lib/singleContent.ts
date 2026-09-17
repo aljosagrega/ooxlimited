@@ -2,6 +2,7 @@ import "server-only";
 import * as cheerio from "cheerio";
 import { sanitizeBodyHtml, sanitizeInline } from "./sanitize";
 import { getPost, getTeamMember } from "./content";
+import type { TeamMember } from "./types";
 
 /**
  * The blog-post / team-member / service SINGLE pages are frozen and render
@@ -45,7 +46,19 @@ function patchTeam(slug: string, bodyHtml: string): string {
   if (!m?.teamDirty) return bodyHtml;
 
   const $ = cheerio.load(bodyHtml, {}, false);
+  fillTeamMember($, m);
+  return $.html();
+}
 
+/**
+ * Fill a team single page's frozen slots (name, photo, bio, skills, programs,
+ * Q&A) from a team.json record. Shared by patchTeam() above — an already-
+ * live member's own frozen snapshot, only once edited in the admin — and
+ * renderTemplatedTeamMember() in teamGridRender.ts, which fills the same
+ * slots on the shared `_team-template` shell for a member created purely in
+ * the CMS, with no snapshot of their own.
+ */
+export function fillTeamMember($: cheerio.CheerioAPI, m: TeamMember) {
   // name / role
   setText($, ".single-team-hero .entry-title, h1.entry-title, h2.entry-title", m.name);
   setText($, ".team-position", m.position);
@@ -59,10 +72,18 @@ function patchTeam(slug: string, bodyHtml: string): string {
     }
   }
 
-  // bio — one <p> per blank-line-separated paragraph, reusing the frozen <p> slots
+  // bio — one <p> per blank-line-separated paragraph, reusing the frozen <p>
+  // slots. The frozen markup carries TWO .team-content blocks — a hidden
+  // mobile-inline copy near the photo and the visible desktop copy in the
+  // main column, swapped by a breakpoint — each with its own <p> slots. A
+  // plain `.team-content p` selector pools both into one list, so filling 2
+  // paragraphs drains the FIRST block's slots and deletes the SECOND block's
+  // (frequently the visible one) as "surplus". Reflow each block separately.
   const bioParas = m.bio ? m.bio.split(/\n{2,}/).map((p) => p.trim()).filter(Boolean) : [];
-  reflowList($, ".team-content p", bioParas, (el, text) => {
-    el.html(`<span style="font-weight: 400;">${escapeHtml(text)}</span>`);
+  $(".team-content").each((_, container) => {
+    reflowNodes($, $(container).find("p").toArray(), bioParas, (el, text) => {
+      el.html(`<span style="font-weight: 400;">${escapeHtml(text)}</span>`);
+    });
   });
 
   // skills / programs
@@ -81,8 +102,6 @@ function patchTeam(slug: string, bodyHtml: string): string {
     const ans = $(li).find(".team-qa-answer").first();
     if (ans.length) ans.html(sanitizeInline(qa.answer));
   });
-
-  return $.html();
 }
 
 /* --------------------------------------------------------------- helpers ---- */
@@ -104,7 +123,18 @@ function reflowList(
   values: string[],
   apply: (el: any, text: string) => void,
 ) {
-  const nodes = $(sel).toArray();
+  reflowNodes($, $(sel).toArray(), values, apply);
+}
+
+/** Same as reflowList, but against an already-collected node array — for a
+ *  slot that must be reflowed once per duplicate container (see the bio
+ *  blocks in fillTeamMember) rather than pooled across all of them. */
+function reflowNodes(
+  $: cheerio.CheerioAPI,
+  nodes: any[],
+  values: string[],
+  apply: (el: any, text: string) => void,
+) {
   if (!nodes.length || !values.length) return;
   nodes.forEach((node, i) => {
     if (i < values.length) {

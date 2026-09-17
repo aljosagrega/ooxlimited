@@ -1,7 +1,28 @@
 import "server-only";
 import * as cheerio from "cheerio";
 import { getTeam } from "./content";
+import { fillTeamMember } from "./singleContent";
 import type { TeamMember } from "./types";
+
+/**
+ * frozen/<key>.html shell borrowed by a team member created purely in the
+ * admin CMS, with no frozen snapshot of its own — see renderTemplatedTeamMember()
+ * below. Modelled on POST_TEMPLATE_KEY (blogRender.ts): a copy of a real
+ * frozen team page (team-marko-strba's colleague Ozren, chosen for having the
+ * most Q&A / skill / programme slots of the thirteen, so a new member's data
+ * is least likely to overflow it). Every slot fillTeamMember() knows how to
+ * fill gets overwritten on every render, so nothing donor-specific survives;
+ * regenerate after a re-freeze the same way — copy a fresh single-team
+ * snapshot's `.html` / `.head.html` / `.meta.json`.
+ */
+export const TEAM_TEMPLATE_KEY = "_team-template";
+
+/** Fill the shared `_team-template` shell for a CMS-only team member. */
+export function renderTemplatedTeamMember(bodyHtml: string, m: TeamMember): string {
+  const $ = cheerio.load(bodyHtml, {}, false);
+  fillTeamMember($, m);
+  return $.html();
+}
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
