@@ -9,7 +9,7 @@ import { applyChromePatch } from "@/lib/chromePatch";
 import { applySingleContent } from "@/lib/singleContent";
 import { POST_TEMPLATE_KEY, renderTemplatedPost, applyBlogIndex, blogPageCount } from "@/lib/blogRender";
 import { applyBlogSidebar } from "@/lib/archiveRender";
-import { applyTeamGrid } from "@/lib/teamGridRender";
+import { applyTeamGrid, TEAM_TEMPLATE_KEY, renderTemplatedTeamMember } from "@/lib/teamGridRender";
 import { applyImageAlt } from "@/lib/imageAlt";
 import { applyFrozenFixups } from "@/lib/frozenFixups";
 import { applyPageTrims } from "@/lib/pageTrims";
@@ -17,7 +17,7 @@ import {
   getAllPages, getAllPosts, getServices, getTeam, getPageByPath, getPost,
   getService, getTeamMember, getSiteSettings, postAuthorName, isPostLive,
 } from "@/lib/content";
-import type { Post } from "@/lib/types";
+import type { Post, TeamMember } from "@/lib/types";
 import { pageJsonLd, renderJsonLd } from "@/lib/jsonLd";
 import type { SeoFields } from "@/lib/types";
 
@@ -34,7 +34,11 @@ export function generateStaticParams() {
   const routes = new Set<string>(["/"]);
   for (const p of getAllPages()) routes.add(p.path);
   for (const s of getServices()) routes.add(`/service/${s.slug}/`);
-  for (const t of getTeam()) routes.add(`/team/${t.slug}/`);
+
+  // Every team member gets a route — from their own frozen snapshot, or the
+  // shared `_team-template` shell for members added in the admin CMS.
+  const teamRoutes = new Set(getTeam().map((t) => `/team/${t.slug}/`));
+  for (const r of teamRoutes) routes.add(r);
 
   // Every non-draft post gets a route — from its own frozen snapshot, or the
   // shared `_post-template` shell for posts created in the admin CMS.
@@ -48,7 +52,7 @@ export function generateStaticParams() {
   for (const r of blogRoutes) routes.add(r);
 
   return [...routes]
-    .filter((r) => hasFrozen(r) || postRoutes.has(r) || blogRoutes.has(r))
+    .filter((r) => hasFrozen(r) || teamRoutes.has(r) || postRoutes.has(r) || blogRoutes.has(r))
     .map((r) => ({ slug: r === "/" ? [] : r.replace(/^\/|\/$/g, "").split("/") }));
 }
 
@@ -74,6 +78,8 @@ type Resolved = {
   renderKey: string;
   /** set when the route is a CMS post with no frozen snapshot of its own */
   cmsPost: Post | null;
+  /** set when the route is a CMS-only team member with no snapshot of its own */
+  cmsTeamMember: TeamMember | null;
 };
 
 /**
@@ -92,7 +98,21 @@ function resolveRoute(path: string): Resolved | null {
   if (blogPage) {
     const n = Number(blogPage[1]);
     if (n < 2 || n > blogPageCount()) return null;
-    return { renderKey: hasFrozenKey(key) ? key : BLOG_PAGE_SHELL_KEY, cmsPost: null };
+    return { renderKey: hasFrozenKey(key) ? key : BLOG_PAGE_SHELL_KEY, cmsPost: null, cmsTeamMember: null };
+  }
+
+  // /team/<slug>/ — gated on team.json the same way posts are gated on
+  // published state, so a removed member's old snapshot (still sitting on
+  // disk from the WordPress migration, or from before they were deleted in
+  // the admin) stops being reachable the moment they're gone from the roster.
+  const teamMatch = path.match(/^\/team\/([^/]+)\/$/);
+  if (teamMatch) {
+    const member = getTeamMember(teamMatch[1]);
+    if (!member) return null;
+    // Own snapshot when it has one, else the shared CMS team-member shell.
+    return hasFrozenKey(key)
+      ? { renderKey: key, cmsPost: null, cmsTeamMember: null }
+      : { renderKey: TEAM_TEMPLATE_KEY, cmsPost: null, cmsTeamMember: member };
   }
 
   // A bare /slug/ may be a post. getPost() already excludes drafts.
@@ -101,15 +121,15 @@ function resolveRoute(path: string): Resolved | null {
     if (post) {
       // Own snapshot when it has one, else the shared CMS post shell.
       return hasFrozenKey(key)
-        ? { renderKey: key, cmsPost: null }
-        : { renderKey: POST_TEMPLATE_KEY, cmsPost: post };
+        ? { renderKey: key, cmsPost: null, cmsTeamMember: null }
+        : { renderKey: POST_TEMPLATE_KEY, cmsPost: post, cmsTeamMember: null };
     }
     // No live post owns this slug. If a draft does, the route is gone — even
     // though its frozen file is still on disk.
     if (getAllPosts(true).some((p) => p.slug === slug && !isPostLive(p))) return null;
   }
 
-  return hasFrozenKey(key) ? { renderKey: key, cmsPost: null } : null;
+  return hasFrozenKey(key) ? { renderKey: key, cmsPost: null, cmsTeamMember: null } : null;
 }
 
 function seoFor(path: string): { seo: SeoFields; title: string } | null {
@@ -216,7 +236,7 @@ export default async function CatchAll({ params }: Props) {
 
   const resolved = resolveRoute(path);
   if (!resolved) notFound();
-  const { renderKey, cmsPost } = resolved;
+  const { renderKey, cmsPost, cmsTeamMember } = resolved;
 
   const frozen = getFrozenByKey(renderKey, path);
   if (!frozen) {
@@ -230,6 +250,8 @@ export default async function CatchAll({ params }: Props) {
   let body = applyChromePatch(frozen.bodyHtml);
   if (cmsPost) {
     body = renderTemplatedPost(body, cmsPost);
+  } else if (cmsTeamMember) {
+    body = renderTemplatedTeamMember(body, cmsTeamMember);
   } else {
     body = applySingleContent(path, body);
     body = applyBlogIndex(path, body);
@@ -239,7 +261,7 @@ export default async function CatchAll({ params }: Props) {
   body = applyFrozenFixups(path, body);
   body = applyPageTrims(path, body);
   body = applyImageAlt(body);
-  if (!cmsPost) {
+  if (!cmsPost && !cmsTeamMember) {
     const edits = getPageEdits(key);
     if (Object.keys(edits).length) {
       body = applyPageEdits(body, getPagemap(key), edits);
