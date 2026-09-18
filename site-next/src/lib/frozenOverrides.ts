@@ -376,6 +376,22 @@ article.omero-baf__card ul.omero-baf__tags {
   margin-bottom: 20px;
 }
 
+/* Grid card-to-card gap (client: "should be about 110px", confirmed at 111px
+ * in Figma dev mode). The theme's .omero-baf__grid sets justify-content:
+ * space-between with a fixed 303px column and only a 20px gap — with
+ * space-between, the browser ignores that 20px and stretches ALL the
+ * container's leftover width into the space between cards instead, which
+ * measured out to 140.5px at the 1190px content width this page actually
+ * renders at. Rather than fight space-between (removing it changes how the
+ * row behaves at every intermediate width, not just this one), widen the
+ * fixed column so less width is "leftover": 323px leaves a ~110.5px gap at
+ * that same 1190px container. The body ancestor is added only to outrank the
+ * theme's bare .omero-baf__grid on specificity (source-order quirk noted
+ * above the tags rule). */
+body .omero-baf__grid {
+  grid-template-columns: repeat(3, 323px);
+}
+
 /* --------------------------------------------------------------------------
  * Category archive + blog sidebar (archiveRender.ts) — the two "Blog" frames in
  * the Nove stranice na sajtu Figma.
