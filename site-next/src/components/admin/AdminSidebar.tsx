@@ -203,7 +203,7 @@ export default function AdminSidebar() {
         background: "linear-gradient(135deg, #7A2E8E 0%, #b06fc4 100%)",
         display: "flex", alignItems: "center", justifyContent: "center",
       }}>
-        <span style={{ color: "#fff", fontWeight: 700, fontSize: 13 }}>W</span>
+        <span style={{ color: "#fff", fontWeight: 700, fontSize: 13 }}>O</span>
       </div>
       {!collapsed && (
         <div style={{ overflow: "hidden" }}>
@@ -275,7 +275,7 @@ export default function AdminSidebar() {
             background: "linear-gradient(135deg, #7A2E8E 0%, #b06fc4 100%)",
             display: "flex", alignItems: "center", justifyContent: "center",
           }}>
-            <span style={{ color: "#fff", fontWeight: 700, fontSize: 11 }}>W</span>
+            <span style={{ color: "#fff", fontWeight: 700, fontSize: 11 }}>O</span>
           </div>
           <span style={{ fontSize: 13, fontWeight: 600, color: "var(--at-text)" }}>OOX Limited</span>
           <span style={{ fontSize: 10, color: "var(--at-faint)", textTransform: "uppercase", letterSpacing: "0.08em" }}>Admin</span>

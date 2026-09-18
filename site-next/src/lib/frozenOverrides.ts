@@ -1124,4 +1124,18 @@ ul.omero-baf__tags li.omero-baf__tag a:focus-visible {
 .oox-blog-intro-bottom .oox-blog-topics {
   display: none !important;
 }
+
+/* --------------------------------------------------------------------------
+ * Blog index: more breathing room between the hero's bottom curve and the
+ * featured post below it. The container already carries 70px of top padding
+ * (post-7189.css --padding-top), but that's the same padding Elementor gives
+ * every boxed section on the site - not enough of a gap under a shape divider
+ * this pronounced, and the Figma spec shows a visibly larger gap than the
+ * live site had. Added as margin on .omero-baf itself rather than fighting
+ * Elementor's --padding-top custom property, so it stacks cleanly with
+ * whatever that resolves to at any width instead of replacing it.
+ * ------------------------------------------------------------------------ */
+.omero-baf {
+  margin-top: 56px;
+}
 `;
