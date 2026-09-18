@@ -394,7 +394,10 @@ article.omero-baf__card ul.omero-baf__tags {
 body .omero-baf__grid {
   grid-template-columns: repeat(3, 1fr);
   justify-content: normal;
-  gap: 40px 112px;
+  /* Row-gap bumped from the theme's 40px — client: bigger gap needed between
+   * rows (a card's "continue reading" sat right on top of the next row's
+   * image). Column-gap is the 112px card-to-card value tuned above. */
+  gap: 80px 112px;
 }
 /* Hairline seam at the thumb-shape's corner cutout, on every card image. The
  * theme's .omero-baf__thumb-shape img rule sets height:100% but never width,
