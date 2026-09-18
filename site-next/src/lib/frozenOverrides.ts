@@ -395,6 +395,17 @@ body .omero-baf__grid {
   justify-content: normal;
   gap: 40px 110px;
 }
+/* Hairline seam at the thumb-shape's corner cutout, on every card image. The
+ * theme's .omero-baf__thumb-shape img rule sets height:100% but never width,
+ * so the browser sizes the img's width independently (via its own intrinsic
+ * ratio) rather than stretching it to the container's actual box — the two
+ * only coincide at pixel-exact widths. The 1fr grid above produces
+ * fractional widths (e.g. 386.65625px) at most viewport sizes, and the
+ * layout was already exposed to this any time a container wasn't a whole
+ * pixel, this just made it constant. Force both axes from the container. */
+body .omero-baf__thumb-shape img {
+  width: 100%;
+}
 
 /* --------------------------------------------------------------------------
  * Category archive + blog sidebar (archiveRender.ts) — the two "Blog" frames in
