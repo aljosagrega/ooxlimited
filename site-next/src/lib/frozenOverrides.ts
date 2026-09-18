@@ -377,7 +377,8 @@ article.omero-baf__card ul.omero-baf__tags {
 }
 
 /* Grid card-to-card gap (client: "should be about 110px", confirmed at 111px
- * in Figma dev mode). The theme's .omero-baf__grid sets justify-content:
+ * in Figma dev mode; bumped a few px further to 115px per follow-up
+ * feedback). The theme's .omero-baf__grid sets justify-content:
  * space-between with a fixed 303px column and only a 20px gap — with
  * space-between, the browser ignores that 20px and stretches ALL the
  * container's leftover width into the space between cards instead. That
@@ -393,7 +394,7 @@ article.omero-baf__card ul.omero-baf__tags {
 body .omero-baf__grid {
   grid-template-columns: repeat(3, 1fr);
   justify-content: normal;
-  gap: 40px 110px;
+  gap: 40px 115px;
 }
 /* Hairline seam at the thumb-shape's corner cutout, on every card image. The
  * theme's .omero-baf__thumb-shape img rule sets height:100% but never width,
