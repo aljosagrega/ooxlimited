@@ -9,7 +9,7 @@ import { applyChromePatch } from "@/lib/chromePatch";
 import { applySingleContent } from "@/lib/singleContent";
 import { POST_TEMPLATE_KEY, renderTemplatedPost, applyBlogIndex, blogPageCount } from "@/lib/blogRender";
 import { applyBlogSidebar } from "@/lib/archiveRender";
-import { applyTeamGrid, TEAM_TEMPLATE_KEY, renderTemplatedTeamMember } from "@/lib/teamGridRender";
+import { applyTeamGrid, TEAM_TEMPLATE_KEY, TEAM_ROSTER_PATH, renderTemplatedTeamMember } from "@/lib/teamGridRender";
 import { applyImageAlt } from "@/lib/imageAlt";
 import { applyFrozenFixups } from "@/lib/frozenFixups";
 import { applyPageTrims } from "@/lib/pageTrims";
@@ -53,6 +53,16 @@ export function generateStaticParams() {
 
   return [...routes]
     .filter((r) => hasFrozen(r) || teamRoutes.has(r) || postRoutes.has(r) || blogRoutes.has(r))
+    // Team routes are deliberately NOT prerendered. The roster is the one thing
+    // the client both adds to and deletes from, and a page baked at build time
+    // carries the CI runner's seed data — the server's live team.json is never
+    // visible to a build. Worse, those baked pages have not been picking up the
+    // revalidatePath("/", "layout") every admin write fires: a deleted member
+    // kept their page and their grid slot, while a member added after the last
+    // build (no baked page to fall back on) rendered correctly every time.
+    // Leaving them out means they always render on demand, off live data, which
+    // is the path that was already provably correct.
+    .filter((r) => !teamRoutes.has(r) && !r.startsWith("/team/") && r !== TEAM_ROSTER_PATH)
     .map((r) => ({ slug: r === "/" ? [] : r.replace(/^\/|\/$/g, "").split("/") }));
 }
 

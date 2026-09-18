@@ -45,7 +45,7 @@ export function renderTemplatedTeamMember(bodyHtml: string, m: TeamMember): stri
  * them) — see socials.in below.
  */
 
-const TEAM_ROSTER_PATH = "/game-development-team/";
+export const TEAM_ROSTER_PATH = "/game-development-team/";
 const FALLBACK_PHOTO = "/og-default.png";
 
 function esc(s: unknown): string {
