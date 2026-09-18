@@ -136,6 +136,11 @@ function fillBafCard($: any, card: any, post: Post, kind: "featured" | "card") {
           .map((c) => `<li class="omero-baf__tag"><a href="${categoryHref(c.slug)}">${esc(c.name)}</a></li>`)
           .join(""),
       );
+      // Client's Figma puts the date/author line above the tag row; the frozen
+      // markup (and the grid-card fallback above) both put tags first. Move
+      // the filled list to right after .omero-baf__meta rather than editing
+      // every frozen snapshot by hand.
+      if (meta.length) meta.after(tags);
     } else {
       tags.remove();
     }

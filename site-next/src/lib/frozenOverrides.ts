@@ -300,6 +300,13 @@ html body[class] {
  * archiveRender.ts), so a nowrap row no longer runs out of room. */
 ul.omero-baf__tags {
   flex-wrap: nowrap;
+}
+/* gap ties the theme's own ul.omero-baf__tags rule on specificity, and —
+ * despite this stylesheet rendering last in the React tree — the theme's
+ * blog-archive-featured-grid.css link actually lands deep in the body,
+ * after this style tag, so it wins bare ties. The body ancestor is a real
+ * one (this is always inside body), just added to outrank it. */
+body ul.omero-baf__tags {
   gap: 10px;
 }
 /* Selectors carry the <ul> as well: React hoists the frozen stylesheet links
@@ -337,6 +344,36 @@ ul.omero-baf__tags li.omero-baf__tag a::after {
 ul.omero-baf__tags li.omero-baf__tag a:focus-visible {
   outline: 2px solid #0F1118;
   outline-offset: 3px;
+}
+
+/* Client-annotated card spacing: the date/author line sits above the tag row
+ * (blogRender.ts now reorders the two to match), then 12px to the tags, 20px
+ * from tags to the title, 13px title to excerpt, 15px excerpt to the CTA.
+ * Featured post: meta+tags share a flex row (the "-head" div); stack it
+ * instead.
+ * Every selector below adds a body/element ancestor it doesn't strictly
+ * need, purely to outrank the theme's identically-specific rule (see the
+ * body ul.omero-baf__tags note above — same stylesheet-order quirk). */
+body .omero-baf__featured-head {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+body h2.omero-baf__title {
+  margin: 0 0 13px;
+}
+body div.omero-baf__excerpt {
+  margin-bottom: 15px;
+}
+/* Grid cards: meta and tags are plain siblings, not a flex row, so the same
+ * 12px/20px gaps are two ordinary margins instead. Both selectors already
+ * out-specify the theme (article + 2 classes), so no extra ancestor needed. */
+article.omero-baf__card .omero-baf__meta {
+  margin-bottom: 12px;
+}
+article.omero-baf__card ul.omero-baf__tags {
+  margin-bottom: 20px;
 }
 
 /* --------------------------------------------------------------------------
