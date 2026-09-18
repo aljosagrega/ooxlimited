@@ -5,7 +5,12 @@ import {
 
 const SITE_URL = process.env.SITE_URL || "https://ooxlimited.com";
 
-export const dynamic = "force-static";
+// `force-static` (the old setting here) prerenders once at build time using the
+// CI runner's checked-in seed data, then never re-runs — it can't see admin
+// edits at all, ever, not even after a deploy. Same revalidate window as the
+// catch-all page (see its comment) so a deleted/added team member or post
+// clears out within 5 minutes instead of staying wrong forever.
+export const revalidate = 300;
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const url = (p: string) => `${SITE_URL}${p.startsWith("/") ? p : `/${p}`}`;
