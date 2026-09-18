@@ -292,13 +292,15 @@ html body[class] {
 }
 
 /* The theme's chip is 14px text on 10px vertical padding — 34px tall, too
- * tall for two chips to sit on one line within a card. Figma sizes these
- * chips to a 19px-tall pill instead, which is what actually makes the
- * two-chip row fit on one line; shrink to match rather than letting the row
- * wrap to a second line. Cards already cap the list (three in blogRender.ts,
- * three in archiveRender.ts), so a nowrap row no longer runs out of room. */
+ * tall for two chips to sit on one line within a card. Figma's dev-mode
+ * inspector gives the real spec for this pill: 23px fixed height, 8px
+ * radius, 10px gap between chips, and 10px/600/100%-line-height Poppins
+ * text — shrink to that instead of letting the row wrap to a second line.
+ * Cards already cap the list (three in blogRender.ts, three in
+ * archiveRender.ts), so a nowrap row no longer runs out of room. */
 ul.omero-baf__tags {
   flex-wrap: nowrap;
+  gap: 10px;
 }
 /* Selectors carry the <ul> as well: React hoists the frozen stylesheet links
  * into <head>, and the theme's own li.omero-baf__tag rule ends up winning the
@@ -306,21 +308,24 @@ ul.omero-baf__tags {
 ul.omero-baf__tags li.omero-baf__tag {
   position: relative;
   padding: 0;
-  font-size: 12px;
+  font-size: 10px;
+  font-weight: 600;
   line-height: 100%;
 }
 /* The chip's padding sat on the <li>, so only the text run inside it was a
  * link: on a 112px-wide chip the outer 40px did nothing and showed no pointer.
  * The anchor fills the chip now, and a transparent ::after pad brings the tap
- * area to 44px without changing how the chip looks. The 18px gap between chips
- * leaves 8px clear between neighbouring hit areas.
- * Padding is 3px 14px: with the 12px/100% line-height above, that's a fixed
- * 18px-tall pill (max 19px), instead of the theme's 34px one. */
+ * area to 44px without changing how the chip looks.
+ * Height is fixed at 23px (the Figma spec) with the text centered inside,
+ * rather than derived from padding, so it matches exactly regardless of
+ * font metrics. */
 ul.omero-baf__tags li.omero-baf__tag a {
   display: flex;
   align-items: center;
-  padding: 3px 14px;
-  border-radius: 9px;
+  justify-content: center;
+  height: 23px;
+  padding: 0 10px;
+  border-radius: 8px;
   text-decoration: none;
   white-space: nowrap;
 }
