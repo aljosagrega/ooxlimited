@@ -1138,4 +1138,20 @@ ul.omero-baf__tags li.omero-baf__tag a:focus-visible {
 .omero-baf {
   margin-top: 56px;
 }
+
+/* --------------------------------------------------------------------------
+ * Blog index: the featured post's image sits right against its text column -
+ * blog-archive-featured-grid.css sets gap: 20px between
+ * .omero-baf__featured-media and .omero-baf__featured-body, tight enough
+ * that the tag chips and title visually collide with the photo's edge.
+ *
+ * !important because this selector's own rule (article.omero-baf__featured,
+ * same specificity) measured as winning the tie despite this file supposedly
+ * rendering last - the hoisted <link> stylesheet apparently doesn't land
+ * after this plain <style> tag in practice the way FrozenView's own comment
+ * assumes. Confirmed by measuring computed gap before/after.
+ * ------------------------------------------------------------------------ */
+article.omero-baf__featured {
+  gap: 48px !important;
+}
 `;
