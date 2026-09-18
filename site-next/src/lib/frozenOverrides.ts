@@ -291,31 +291,38 @@ html body[class] {
   .pagination .page-numbers { transition: none; }
 }
 
-/* The theme's chip row is a single non-wrapping flex line, fine for the two
- * categories the demo content had and not for the five a real post carries.
- * Cards cap the list at three (blogRender.ts); this lets what is left wrap
- * instead of running out of the card. */
+/* The theme's chip is 14px text on 10px vertical padding — 34px tall, too
+ * tall for two chips to sit on one line within a card. Figma sizes these
+ * chips to a 19px-tall pill instead, which is what actually makes the
+ * two-chip row fit on one line; shrink to match rather than letting the row
+ * wrap to a second line. Cards already cap the list (three in blogRender.ts,
+ * three in archiveRender.ts), so a nowrap row no longer runs out of room. */
 ul.omero-baf__tags {
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
-/* The chip's padding sat on the <li>, so only the text run inside it was a
- * link: on a 112px-wide chip the outer 40px did nothing and showed no pointer.
- * The anchor fills the chip now, and a transparent ::after pad brings the tap
- * area to 44px without changing how the chip looks. The 18px gap between chips
- * leaves 8px clear between neighbouring hit areas. */
 /* Selectors carry the <ul> as well: React hoists the frozen stylesheet links
  * into <head>, and the theme's own li.omero-baf__tag rule ends up winning the
  * tie on document order, so a bare match here would lose. */
 ul.omero-baf__tags li.omero-baf__tag {
   position: relative;
   padding: 0;
+  font-size: 12px;
+  line-height: 100%;
 }
+/* The chip's padding sat on the <li>, so only the text run inside it was a
+ * link: on a 112px-wide chip the outer 40px did nothing and showed no pointer.
+ * The anchor fills the chip now, and a transparent ::after pad brings the tap
+ * area to 44px without changing how the chip looks. The 18px gap between chips
+ * leaves 8px clear between neighbouring hit areas.
+ * Padding is 3px 14px: with the 12px/100% line-height above, that's a fixed
+ * 18px-tall pill (max 19px), instead of the theme's 34px one. */
 ul.omero-baf__tags li.omero-baf__tag a {
   display: flex;
   align-items: center;
-  padding: 10px 20px;
-  border-radius: 14px;
+  padding: 3px 14px;
+  border-radius: 9px;
   text-decoration: none;
+  white-space: nowrap;
 }
 ul.omero-baf__tags li.omero-baf__tag a::after {
   content: "";
@@ -381,9 +388,11 @@ ul.omero-baf__tags li.omero-baf__tag a:focus-visible {
   gap: 10px;
   margin-bottom: 14px;
 }
-/* The theme's chip row does not wrap; here it must, or a post with several
- * categories runs out of the column and under the sidebar. */
-.oox-arch__tags { margin: 0; padding: 0; flex-wrap: wrap; }
+/* Chips here are the same shrunk 19px-max pill as the card grid (see
+ * ul.omero-baf__tags above) and the row already caps at three
+ * (MAX_CHIPS, archiveRender.ts), so — as with the card grid — nowrap keeps
+ * the row on one line instead of wrapping. */
+.oox-arch__tags { margin: 0; padding: 0; flex-wrap: nowrap; }
 .oox-arch__title {
   font-family: "Poppins", sans-serif;
   font-weight: 800;
