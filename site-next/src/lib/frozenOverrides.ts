@@ -292,13 +292,22 @@ html body[class] {
 }
 
 /* The theme's chip is 14px text on 10px vertical padding — 34px tall, too
- * tall for two chips to sit on one line within a card. Figma sizes these
- * chips to a 19px-tall pill instead, which is what actually makes the
- * two-chip row fit on one line; shrink to match rather than letting the row
- * wrap to a second line. Cards already cap the list (three in blogRender.ts,
- * three in archiveRender.ts), so a nowrap row no longer runs out of room. */
+ * tall for two chips to sit on one line within a card. Figma's dev-mode
+ * inspector gives the real spec for this pill: 23px fixed height, 8px
+ * radius, 10px gap between chips, and 10px/600/100%-line-height Poppins
+ * text — shrink to that instead of letting the row wrap to a second line.
+ * Cards already cap the list (three in blogRender.ts, three in
+ * archiveRender.ts), so a nowrap row no longer runs out of room. */
 ul.omero-baf__tags {
   flex-wrap: nowrap;
+}
+/* gap ties the theme's own ul.omero-baf__tags rule on specificity, and —
+ * despite this stylesheet rendering last in the React tree — the theme's
+ * blog-archive-featured-grid.css link actually lands deep in the body,
+ * after this style tag, so it wins bare ties. The body ancestor is a real
+ * one (this is always inside body), just added to outrank it. */
+body ul.omero-baf__tags {
+  gap: 10px;
 }
 /* Selectors carry the <ul> as well: React hoists the frozen stylesheet links
  * into <head>, and the theme's own li.omero-baf__tag rule ends up winning the
@@ -306,21 +315,24 @@ ul.omero-baf__tags {
 ul.omero-baf__tags li.omero-baf__tag {
   position: relative;
   padding: 0;
-  font-size: 12px;
+  font-size: 10px;
+  font-weight: 600;
   line-height: 100%;
 }
 /* The chip's padding sat on the <li>, so only the text run inside it was a
  * link: on a 112px-wide chip the outer 40px did nothing and showed no pointer.
  * The anchor fills the chip now, and a transparent ::after pad brings the tap
- * area to 44px without changing how the chip looks. The 18px gap between chips
- * leaves 8px clear between neighbouring hit areas.
- * Padding is 3px 14px: with the 12px/100% line-height above, that's a fixed
- * 18px-tall pill (max 19px), instead of the theme's 34px one. */
+ * area to 44px without changing how the chip looks.
+ * Height is fixed at 23px (the Figma spec) with the text centered inside,
+ * rather than derived from padding, so it matches exactly regardless of
+ * font metrics. */
 ul.omero-baf__tags li.omero-baf__tag a {
   display: flex;
   align-items: center;
-  padding: 3px 14px;
-  border-radius: 9px;
+  justify-content: center;
+  height: 23px;
+  padding: 0 10px;
+  border-radius: 8px;
   text-decoration: none;
   white-space: nowrap;
 }
@@ -332,6 +344,68 @@ ul.omero-baf__tags li.omero-baf__tag a::after {
 ul.omero-baf__tags li.omero-baf__tag a:focus-visible {
   outline: 2px solid #0F1118;
   outline-offset: 3px;
+}
+
+/* Client-annotated card spacing: the date/author line sits above the tag row
+ * (blogRender.ts now reorders the two to match), then 12px to the tags, 20px
+ * from tags to the title, 13px title to excerpt, 15px excerpt to the CTA.
+ * Featured post: meta+tags share a flex row (the "-head" div); stack it
+ * instead.
+ * Every selector below adds a body/element ancestor it doesn't strictly
+ * need, purely to outrank the theme's identically-specific rule (see the
+ * body ul.omero-baf__tags note above — same stylesheet-order quirk). */
+body .omero-baf__featured-head {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+body h2.omero-baf__title {
+  margin: 0 0 13px;
+}
+body div.omero-baf__excerpt {
+  margin-bottom: 15px;
+}
+/* Grid cards: meta and tags are plain siblings, not a flex row, so the same
+ * 12px/20px gaps are two ordinary margins instead. Both selectors already
+ * out-specify the theme (article + 2 classes), so no extra ancestor needed. */
+article.omero-baf__card .omero-baf__meta {
+  margin-bottom: 12px;
+}
+article.omero-baf__card ul.omero-baf__tags {
+  margin-bottom: 20px;
+}
+
+/* Grid card-to-card gap (client: "should be about 110px", confirmed at 111px
+ * in Figma dev mode; settled at 112px after follow-up tweaks). The theme's
+ * .omero-baf__grid sets justify-content:
+ * space-between with a fixed 303px column and only a 20px gap — with
+ * space-between, the browser ignores that 20px and stretches ALL the
+ * container's leftover width into the space between cards instead. That
+ * leftover is however wide THIS viewport's content column happens to be, so
+ * a fixed replacement column width (tried 323px, tuned against a 1190px
+ * container) only produces ~110px at that one width — 200px at a wider one.
+ * Switch to fluid (1fr) columns with the gap set explicitly instead: with no
+ * leftover width for space-between to redistribute, the declared gap is the
+ * actual gap at any container width, and the columns share whatever's left.
+ * The body ancestor is added only to outrank the theme's bare
+ * .omero-baf__grid on specificity (source-order quirk noted above the tags
+ * rule). */
+body .omero-baf__grid {
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: normal;
+  gap: 40px 112px;
+}
+/* Hairline seam at the thumb-shape's corner cutout, on every card image. The
+ * theme's .omero-baf__thumb-shape img rule sets height:100% but never width,
+ * so the browser sizes the img's width independently (via its own intrinsic
+ * ratio) rather than stretching it to the container's actual box — the two
+ * only coincide at pixel-exact widths. The 1fr grid above produces
+ * fractional widths (e.g. 386.65625px) at most viewport sizes, and the
+ * layout was already exposed to this any time a container wasn't a whole
+ * pixel, this just made it constant. Force both axes from the container. */
+body .omero-baf__thumb-shape img {
+  width: 100%;
 }
 
 /* --------------------------------------------------------------------------
