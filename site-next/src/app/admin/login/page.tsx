@@ -51,9 +51,9 @@ export default function AdminLoginPage() {
               width: 32, height: 32, borderRadius: 8, display: "flex", alignItems: "center", justifyContent: "center",
               background: "rgba(122,46,142,0.15)", border: "1px solid rgba(122,46,142,0.35)",
             }}>
-              <span style={{ color: "#b06fc4", fontWeight: 700, fontSize: 14 }}>W</span>
+              <span style={{ color: "#b06fc4", fontWeight: 700, fontSize: 14 }}>O</span>
             </div>
-            <span style={{ color: "var(--at-text)", fontWeight: 600, letterSpacing: "-0.02em" }}>Wikiwallet Admin</span>
+            <span style={{ color: "var(--at-text)", fontWeight: 600, letterSpacing: "-0.02em" }}>OOX Limited Admin</span>
           </div>
         </div>
 
