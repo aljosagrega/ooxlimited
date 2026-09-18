@@ -19,6 +19,7 @@ export type FieldType =
   | "imageObject"
   | "stringList"
   | "qaList"
+  | "tagList"
   | "select"
   | "json"
   // accepted by the ported SchemaForm but unused in the ooxlimited schema
@@ -119,7 +120,14 @@ export const SCHEMAS: Record<string, CollectionSchema> = {
       { key: "excerpt", label: "Excerpt", type: "textarea", rows: 3, full: true },
       { key: "featuredImage", label: "Featured image", type: "imageObject" },
       { key: "bodyHtml", label: "Body", type: "html", full: true },
-      { key: "categories", label: "Categories", type: "json", full: true, help: "[{ id, name, slug }]" },
+      // Was `type: "json"` — filtered out of the form entirely (SchemaForm
+      // only shows it via the advanced "raw JSON" toggle), which is what the
+      // client meant by "no option to select tags for a blog post": the
+      // theme calls categories "tags" on the cards and in "Popular tags";
+      // see taxonomy.ts. Typed names are resolved against the existing set
+      // on save (adminCollections.ts resolveCategories), so reusing a name
+      // reuses that tag rather than splintering into a near-duplicate.
+      { key: "categories", label: "Tags", type: "tagList", full: true, help: "Reuses an existing tag if the name matches one (case-insensitive); otherwise creates a new one." },
       ...SEO_FIELDS,
     ],
   },

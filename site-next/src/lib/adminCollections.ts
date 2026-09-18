@@ -5,6 +5,9 @@ import { wordCount } from "./seoScore";
 import * as content from "./content";
 import { SCHEMAS, type CollectionSchema } from "./adminSchema";
 import { dotGet } from "./dotGet";
+import { listCategories } from "./taxonomy";
+import { slugify } from "./slug";
+import type { TermRef } from "./types";
 
 type Row = Record<string, unknown>;
 type Saver = (rows: Row[]) => void;
@@ -78,12 +81,55 @@ function nextId(rows: Row[]): number {
   return rows.reduce((max, r) => Math.max(max, Number(r.id) || 0), 0) + 1;
 }
 
+/**
+ * The admin's "Tags" field (adminSchema `categories`, type `tagList`) edits
+ * plain names through StringListField — categories are a shared vocabulary
+ * (the same 6-or-so names reused across posts; see taxonomy.ts), not free
+ * text per post, so a typed name is resolved against the existing set rather
+ * than minted fresh every time: matching case-insensitively on name reuses
+ * that category's id/slug, keeping /category/<slug>/ and the "Popular tags"
+ * counts pointing at one term instead of splintering into near-duplicates.
+ * An entry that arrives already shaped as {id,name,slug} (the raw-JSON editor,
+ * or a row round-tripping unedited) passes through as-is.
+ */
+function resolveCategories(input: unknown): TermRef[] {
+  if (!Array.isArray(input)) return [];
+  const existing = listCategories();
+  const byName = new Map(existing.map((c) => [c.name.toLowerCase(), c] as const));
+  let nextCatId = existing.reduce((max, c) => Math.max(max, c.id), 0);
+  const seenSlugs = new Set<string>();
+  const out: TermRef[] = [];
+  for (const raw of input) {
+    let term: TermRef | null = null;
+    if (raw && typeof raw === "object" && "slug" in raw && "name" in raw) {
+      const c = raw as TermRef;
+      if (c.slug && c.name) term = { id: Number(c.id) || 0, name: c.name, slug: c.slug };
+    } else {
+      const name = String(raw ?? "").trim();
+      if (name) {
+        const match = byName.get(name.toLowerCase());
+        // listCategories() returns CategoryTerm (TermRef + a `count`) — strip
+        // it back down rather than let it leak into the stored post record.
+        term = match ? { id: match.id, name: match.name, slug: match.slug } : { id: ++nextCatId, name, slug: slugify(name) };
+      }
+    }
+    if (term && !seenSlugs.has(term.slug)) {
+      seenSlugs.add(term.slug);
+      out.push(term);
+    }
+  }
+  return out;
+}
+
 function sanitizeRow(slug: string, row: Row): Row {
   const cfg = CONFIG[slug];
   if (!cfg) return row;
   const out: Row = { ...row };
   for (const field of cfg.htmlFields) {
     if (typeof out[field] === "string") out[field] = sanitizeBodyHtml(out[field] as string);
+  }
+  if (slug === "posts" && "categories" in out) {
+    out.categories = resolveCategories(out.categories);
   }
   for (const k of ["metaTitle", "canonicalUrl", "ogImage", "metaDescription"] as const) {
     if (out[k] === "" || out[k] == null) delete out[k];

@@ -1092,4 +1092,36 @@ ul.omero-baf__tags li.omero-baf__tag a:focus-visible {
     word-break: normal;
   }
 }
+
+/* --------------------------------------------------------------------------
+ * Blog index: the intro block below the listing ("Insights on game
+ * prototyping...") never had matching CSS. It's a raw HTML widget
+ * (.oox-blog-intro-bottom, see blog.html) authored straight into the page
+ * with no styling of its own, so it fell back to plain block markup - left-
+ * aligned, full width - while the Figma spec has it centred in a narrower
+ * column. Client: "the heading and paragraphs are centered and contained to
+ * a narrower column; on the live site it's left-aligned and full width."
+ *
+ * The topic-chip row (.oox-blog-topics) at the bottom of that same block
+ * isn't in the design at all - client: "There's also a row of tag chips at
+ * the bottom that isn't in the design" - so it's hidden rather than styled.
+ * Not deleted from the frozen HTML: this file survives a re-freeze
+ * (npm run freeze), hand-edited frozen markup does not.
+ *
+ * .oox-blog-topics carries its own display: flex !important in the page's
+ * generated Elementor CSS (post-7189.css) - an !important beats any plain
+ * declaration regardless of specificity, so hiding it needs one too.
+ * ------------------------------------------------------------------------ */
+.oox-blog-intro-bottom {
+  text-align: center;
+}
+.oox-blog-intro-bottom h2,
+.oox-blog-intro-bottom p {
+  max-width: 60ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+.oox-blog-intro-bottom .oox-blog-topics {
+  display: none !important;
+}
 `;

@@ -364,7 +364,7 @@ export default function SchemaForm({ schema, record, locales, refOptions = {}, e
     : `New ${schema.singular}`;
 
   function renderField(f: FieldDef) {
-    const wide = f.full || f.type === "html" || f.type === "textarea" || f.type === "stringList" || f.type === "qaList" || f.type === "image" || f.type === "imageObject" || f.type === "refList";
+    const wide = f.full || f.type === "html" || f.type === "textarea" || f.type === "stringList" || f.type === "qaList" || f.type === "tagList" || f.type === "image" || f.type === "imageObject" || f.type === "refList";
     return (
       <div key={f.key} style={{ gridColumn: wide ? "1 / -1" : undefined }}>
         <Field label={f.i18n && locale !== "en" ? `${f.label} (${locale.toUpperCase()})` : f.label}>
@@ -471,6 +471,20 @@ export default function SchemaForm({ schema, record, locales, refOptions = {}, e
               value={Array.isArray(data[f.key]) ? (data[f.key] as unknown[]).map(String) : []}
               onChange={(v) => onFieldChange(f, v)}
               placeholder={f.placeholder}
+            />
+          ) : f.type === "tagList" ? (
+            // Entries are TermRef objects ({id,name,slug}) on disk; edited here as
+            // plain names (StringListField), resolved back to terms on save
+            // (adminCollections.ts resolveCategories) so a name matching an
+            // existing tag reuses it instead of minting a near-duplicate.
+            <StringListField
+              value={
+                Array.isArray(data[f.key])
+                  ? (data[f.key] as unknown[]).map((c) => (c && typeof c === "object" && "name" in c ? String((c as { name: unknown }).name) : String(c)))
+                  : []
+              }
+              onChange={(v) => setBase(f.key, v)}
+              placeholder="Tag name"
             />
           ) : f.type === "qaList" ? (
             <QaListField
