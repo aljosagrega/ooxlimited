@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import redirectsJson from "@/data/redirects.json";
 import postsJson from "@/data/posts.json";
+import { isProbePath } from "@/lib/probePaths";
 
 type Redirect = { from: string; to: string; type: number };
 
@@ -65,6 +66,16 @@ export function middleware(req: NextRequest) {
     return NextResponse.redirect(dest, hit.type);
   }
 
+  // Scanner probes are answered here rather than at the catch-all. `[[...slug]]` runs
+  // with `revalidate` and `dynamicParams: true` (see the note on that export), so every
+  // unique path it 404s is written to the on-disk ISR cache and never evicted. That is
+  // unbounded in the size of the probe space, not the route space: 296k entries, 96% of
+  // them numbered `.htm` probes, filled the disk and took the site down on 2026-09-17.
+  // Terminating in middleware means no cache entry is minted.
+  if (isProbePath(pathname)) {
+    return new NextResponse(null, { status: 404 });
+  }
+
   return NextResponse.next();
 }
 
@@ -72,7 +83,10 @@ export const config = {
   matcher: [
     "/robots.txt",
     "/sitemap.xsl",
-    "/((?!_next/|wp-content/|wp-includes/|api/|admin/).*\\.xml$)",
+    // Any extensioned path, so a probe is refused above before it can reach the
+    // catch-all and mint an ISR entry. Subsumes the legacy-sitemap `.xml` rule.
+    // `_css/` is excluded only to keep middleware off the hottest static prefix.
+    "/((?!_next/|wp-content/|wp-includes/|api/|admin/|_css/).*\\.[a-z0-9]+$)",
     "/((?!_next/|wp-content/|wp-includes/|api/|admin/|.*\\.[a-z0-9]+$).*)",
   ],
 };
