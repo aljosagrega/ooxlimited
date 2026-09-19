@@ -31,9 +31,13 @@ import type { Post } from "./types";
 export const POST_TEMPLATE_KEY = "_post-template";
 
 /** Posts per blog archive page: one featured post plus a 3-column grid.
- *  13 = the featured item plus four complete rows of three; the frozen widget
- *  shipped 8, which left a final row holding a single card. */
-export const BLOG_PAGE_SIZE = 13;
+ *  7 = the featured item plus two complete rows of three, matching the
+ *  Figma spec exactly (client: "should show 6 posts in the grid, 7 including
+ *  the featured one, and then paginate"). Previously 13 (four rows) to avoid
+ *  the frozen widget's shipped 8 leaving an orphaned single-card row — 7
+ *  doesn't have that problem since it's already a multiple of 3 plus the
+ *  featured slot. */
+export const BLOG_PAGE_SIZE = 7;
 
 const AUTHOR_HREF = "/game-development-team/";
 const FALLBACK_IMG = "/og-default.png";
@@ -110,17 +114,33 @@ function fillBafCard($: any, card: any, post: Post, kind: "featured" | "card") {
   // page you are already on, which is what the client reported as "when you
   // click on these tags they should lead to the page we designed". They now go
   // to that category's archive.
-  const tags = card.find(".omero-baf__tags").first();
+  //
+  // The frozen markup only ever gave the FEATURED slot a .omero-baf__tags list
+  // — the grid card template never had one, so every grid card silently
+  // dropped its tags regardless of how many categories the post had. Client:
+  // "the listed posts show tags above the title (two per card)... right now
+  // our cards don't show any". Grid cards cap at two per the Figma spec
+  // quoted there; the featured slot keeps its existing cap of three (that
+  // one's about the chip row's own width, a separate fix).
+  let tags = card.find(".omero-baf__tags").first();
+  if (!tags.length && kind === "card") {
+    tags = $('<ul class="omero-baf__tags"></ul>');
+    card.find(".omero-baf__meta").first().before(tags);
+  }
   if (tags.length) {
-    // Capped at three: the chip row is one non-wrapping flex line, so a post
-    // with five categories pushed them out past the card.
-    const cats = (post.categories || []).filter((c) => c && c.name && c.slug).slice(0, 3);
+    const maxTags = kind === "featured" ? 3 : 2;
+    const cats = (post.categories || []).filter((c) => c && c.name && c.slug).slice(0, maxTags);
     if (cats.length) {
       tags.html(
         cats
           .map((c) => `<li class="omero-baf__tag"><a href="${categoryHref(c.slug)}">${esc(c.name)}</a></li>`)
           .join(""),
       );
+      // Client's Figma puts the date/author line above the tag row; the frozen
+      // markup (and the grid-card fallback above) both put tags first. Move
+      // the filled list to right after .omero-baf__meta rather than editing
+      // every frozen snapshot by hand.
+      if (meta.length) meta.after(tags);
     } else {
       tags.remove();
     }

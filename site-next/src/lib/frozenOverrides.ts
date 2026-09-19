@@ -291,31 +291,50 @@ html body[class] {
   .pagination .page-numbers { transition: none; }
 }
 
-/* The theme's chip row is a single non-wrapping flex line, fine for the two
- * categories the demo content had and not for the five a real post carries.
- * Cards cap the list at three (blogRender.ts); this lets what is left wrap
- * instead of running out of the card. */
+/* The theme's chip is 14px text on 10px vertical padding — 34px tall, too
+ * tall for two chips to sit on one line within a card. Figma's dev-mode
+ * inspector gives the real spec for this pill: 23px fixed height, 8px
+ * radius, 10px gap between chips, and 10px/600/100%-line-height Poppins
+ * text — shrink to that instead of letting the row wrap to a second line.
+ * Cards already cap the list (three in blogRender.ts, three in
+ * archiveRender.ts), so a nowrap row no longer runs out of room. */
 ul.omero-baf__tags {
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
-/* The chip's padding sat on the <li>, so only the text run inside it was a
- * link: on a 112px-wide chip the outer 40px did nothing and showed no pointer.
- * The anchor fills the chip now, and a transparent ::after pad brings the tap
- * area to 44px without changing how the chip looks. The 18px gap between chips
- * leaves 8px clear between neighbouring hit areas. */
+/* gap ties the theme's own ul.omero-baf__tags rule on specificity, and —
+ * despite this stylesheet rendering last in the React tree — the theme's
+ * blog-archive-featured-grid.css link actually lands deep in the body,
+ * after this style tag, so it wins bare ties. The body ancestor is a real
+ * one (this is always inside body), just added to outrank it. */
+body ul.omero-baf__tags {
+  gap: 10px;
+}
 /* Selectors carry the <ul> as well: React hoists the frozen stylesheet links
  * into <head>, and the theme's own li.omero-baf__tag rule ends up winning the
  * tie on document order, so a bare match here would lose. */
 ul.omero-baf__tags li.omero-baf__tag {
   position: relative;
   padding: 0;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 100%;
 }
+/* The chip's padding sat on the <li>, so only the text run inside it was a
+ * link: on a 112px-wide chip the outer 40px did nothing and showed no pointer.
+ * The anchor fills the chip now, and a transparent ::after pad brings the tap
+ * area to 44px without changing how the chip looks.
+ * Height is fixed at 23px (the Figma spec) with the text centered inside,
+ * rather than derived from padding, so it matches exactly regardless of
+ * font metrics. */
 ul.omero-baf__tags li.omero-baf__tag a {
   display: flex;
   align-items: center;
-  padding: 10px 20px;
-  border-radius: 14px;
+  justify-content: center;
+  height: 23px;
+  padding: 0 10px;
+  border-radius: 8px;
   text-decoration: none;
+  white-space: nowrap;
 }
 ul.omero-baf__tags li.omero-baf__tag a::after {
   content: "";
@@ -325,6 +344,71 @@ ul.omero-baf__tags li.omero-baf__tag a::after {
 ul.omero-baf__tags li.omero-baf__tag a:focus-visible {
   outline: 2px solid #0F1118;
   outline-offset: 3px;
+}
+
+/* Client-annotated card spacing: the date/author line sits above the tag row
+ * (blogRender.ts now reorders the two to match), then 12px to the tags, 20px
+ * from tags to the title, 13px title to excerpt, 15px excerpt to the CTA.
+ * Featured post: meta+tags share a flex row (the "-head" div); stack it
+ * instead.
+ * Every selector below adds a body/element ancestor it doesn't strictly
+ * need, purely to outrank the theme's identically-specific rule (see the
+ * body ul.omero-baf__tags note above — same stylesheet-order quirk). */
+body .omero-baf__featured-head {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+body h2.omero-baf__title {
+  margin: 0 0 13px;
+}
+body div.omero-baf__excerpt {
+  margin-bottom: 15px;
+}
+/* Grid cards: meta and tags are plain siblings, not a flex row, so the same
+ * 12px/20px gaps are two ordinary margins instead. Both selectors already
+ * out-specify the theme (article + 2 classes), so no extra ancestor needed. */
+article.omero-baf__card .omero-baf__meta {
+  margin-bottom: 12px;
+}
+article.omero-baf__card ul.omero-baf__tags {
+  margin-bottom: 20px;
+}
+
+/* Grid card-to-card gap (client: "should be about 110px", confirmed at 111px
+ * in Figma dev mode; settled at 112px after follow-up tweaks). The theme's
+ * .omero-baf__grid sets justify-content:
+ * space-between with a fixed 303px column and only a 20px gap — with
+ * space-between, the browser ignores that 20px and stretches ALL the
+ * container's leftover width into the space between cards instead. That
+ * leftover is however wide THIS viewport's content column happens to be, so
+ * a fixed replacement column width (tried 323px, tuned against a 1190px
+ * container) only produces ~110px at that one width — 200px at a wider one.
+ * Switch to fluid (1fr) columns with the gap set explicitly instead: with no
+ * leftover width for space-between to redistribute, the declared gap is the
+ * actual gap at any container width, and the columns share whatever's left.
+ * The body ancestor is added only to outrank the theme's bare
+ * .omero-baf__grid on specificity (source-order quirk noted above the tags
+ * rule). */
+body .omero-baf__grid {
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: normal;
+  /* Row-gap bumped from the theme's 40px — client: bigger gap needed between
+   * rows (a card's "continue reading" sat right on top of the next row's
+   * image). Column-gap is the 112px card-to-card value tuned above. */
+  gap: 80px 112px;
+}
+/* Hairline seam at the thumb-shape's corner cutout, on every card image. The
+ * theme's .omero-baf__thumb-shape img rule sets height:100% but never width,
+ * so the browser sizes the img's width independently (via its own intrinsic
+ * ratio) rather than stretching it to the container's actual box — the two
+ * only coincide at pixel-exact widths. The 1fr grid above produces
+ * fractional widths (e.g. 386.65625px) at most viewport sizes, and the
+ * layout was already exposed to this any time a container wasn't a whole
+ * pixel, this just made it constant. Force both axes from the container. */
+body .omero-baf__thumb-shape img {
+  width: 100%;
 }
 
 /* --------------------------------------------------------------------------
@@ -381,9 +465,11 @@ ul.omero-baf__tags li.omero-baf__tag a:focus-visible {
   gap: 10px;
   margin-bottom: 14px;
 }
-/* The theme's chip row does not wrap; here it must, or a post with several
- * categories runs out of the column and under the sidebar. */
-.oox-arch__tags { margin: 0; padding: 0; flex-wrap: wrap; }
+/* Chips here are the same shrunk 19px-max pill as the card grid (see
+ * ul.omero-baf__tags above) and the row already caps at three
+ * (MAX_CHIPS, archiveRender.ts), so — as with the card grid — nowrap keeps
+ * the row on one line instead of wrapping. */
+.oox-arch__tags { margin: 0; padding: 0; flex-wrap: nowrap; }
 .oox-arch__title {
   font-family: "Poppins", sans-serif;
   font-weight: 800;
@@ -1091,5 +1177,67 @@ ul.omero-baf__tags li.omero-baf__tag a:focus-visible {
     overflow-wrap: normal;
     word-break: normal;
   }
+}
+
+/* --------------------------------------------------------------------------
+ * Blog index: the intro block below the listing ("Insights on game
+ * prototyping...") never had matching CSS. It's a raw HTML widget
+ * (.oox-blog-intro-bottom, see blog.html) authored straight into the page
+ * with no styling of its own, so it fell back to plain block markup - left-
+ * aligned, full width - while the Figma spec has it centred in a narrower
+ * column. Client: "the heading and paragraphs are centered and contained to
+ * a narrower column; on the live site it's left-aligned and full width."
+ *
+ * The topic-chip row (.oox-blog-topics) at the bottom of that same block
+ * isn't in the design at all - client: "There's also a row of tag chips at
+ * the bottom that isn't in the design" - so it's hidden rather than styled.
+ * Not deleted from the frozen HTML: this file survives a re-freeze
+ * (npm run freeze), hand-edited frozen markup does not.
+ *
+ * .oox-blog-topics carries its own display: flex !important in the page's
+ * generated Elementor CSS (post-7189.css) - an !important beats any plain
+ * declaration regardless of specificity, so hiding it needs one too.
+ * ------------------------------------------------------------------------ */
+.oox-blog-intro-bottom {
+  text-align: center;
+}
+.oox-blog-intro-bottom h2,
+.oox-blog-intro-bottom p {
+  max-width: 60ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+.oox-blog-intro-bottom .oox-blog-topics {
+  display: none !important;
+}
+
+/* --------------------------------------------------------------------------
+ * Blog index: more breathing room between the hero's bottom curve and the
+ * featured post below it. The container already carries 70px of top padding
+ * (post-7189.css --padding-top), but that's the same padding Elementor gives
+ * every boxed section on the site - not enough of a gap under a shape divider
+ * this pronounced, and the Figma spec shows a visibly larger gap than the
+ * live site had. Added as margin on .omero-baf itself rather than fighting
+ * Elementor's --padding-top custom property, so it stacks cleanly with
+ * whatever that resolves to at any width instead of replacing it.
+ * ------------------------------------------------------------------------ */
+.omero-baf {
+  margin-top: 56px;
+}
+
+/* --------------------------------------------------------------------------
+ * Blog index: the featured post's image sits right against its text column -
+ * blog-archive-featured-grid.css sets gap: 20px between
+ * .omero-baf__featured-media and .omero-baf__featured-body, tight enough
+ * that the tag chips and title visually collide with the photo's edge.
+ *
+ * !important because this selector's own rule (article.omero-baf__featured,
+ * same specificity) measured as winning the tie despite this file supposedly
+ * rendering last - the hoisted <link> stylesheet apparently doesn't land
+ * after this plain <style> tag in practice the way FrozenView's own comment
+ * assumes. Confirmed by measuring computed gap before/after.
+ * ------------------------------------------------------------------------ */
+article.omero-baf__featured {
+  gap: 48px !important;
 }
 `;

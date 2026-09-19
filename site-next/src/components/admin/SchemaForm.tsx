@@ -10,6 +10,7 @@ import Select from "./fields/Select";
 import ImageUploadField from "./fields/ImageUploadField";
 import ColorField from "./fields/ColorField";
 import StringListField from "./fields/StringListField";
+import QaListField, { type QaEntry } from "./fields/QaListField";
 import { SeoChecklist, SerpPreview, wordCount } from "./fields/SeoPanel";
 import { youtubeId, mediaUrl } from "@/lib/media";
 import { dotGet } from "@/lib/dotGet";
@@ -44,6 +45,98 @@ function localInputToIso(v: string): string {
   if (!v) return "";
   const d = new Date(v);
   return Number.isNaN(d.getTime()) ? "" : d.toISOString();
+}
+
+type PostStatus = "draft" | "scheduled" | "published";
+
+/** Plain helpers, not components — keep the wall-clock reads out of
+ *  PostStatusField's render body (react-hooks/purity), same as statusOf()
+ *  in CollectionList.tsx does for the identical live-vs-scheduled check. */
+function isFutureIso(iso: string): boolean {
+  const ms = iso ? +new Date(iso) : NaN;
+  return Number.isFinite(ms) && ms > Date.now();
+}
+
+/** [published, date] to write for picking `next`, given whether the current
+ *  date is already in the future. `date` is undefined where the existing
+ *  value should be left alone. */
+function statusChange(next: PostStatus, isFuture: boolean): [boolean, string | undefined] {
+  if (next === "draft") return [false, undefined];
+  if (next === "published") return [true, isFuture ? new Date().toISOString() : undefined];
+  // "scheduled" — only set a date if it isn't already a future one, so
+  // picking Scheduled doesn't clobber a time already set below.
+  return [true, isFuture ? undefined : new Date(Date.now() + 60 * 60 * 1000).toISOString()];
+}
+
+/**
+ * Draft / Scheduled / Published, in one control. Replaces a lone "Published"
+ * checkbox next to an unrelated date field — the pair a client read as "set a
+ * future date, leave Published off, that's how I schedule it", which instead
+ * kept the post a permanent draft. Same three states, same colours, as the
+ * status pill in the collection list (see CollectionList.tsx statusOf).
+ */
+function PostStatusField({
+  published,
+  date,
+  onChange,
+}: {
+  published: boolean;
+  date: string;
+  onChange: (published: boolean, date?: string) => void;
+}) {
+  const isFuture = isFutureIso(date);
+  const status: PostStatus = !published ? "draft" : isFuture ? "scheduled" : "published";
+
+  function setStatus(next: PostStatus) {
+    onChange(...statusChange(next, isFuture));
+  }
+
+  const OPTIONS: { value: PostStatus; label: string; tone: "muted" | "pending" | "live" }[] = [
+    { value: "draft", label: "Draft", tone: "muted" },
+    { value: "scheduled", label: "Scheduled", tone: "pending" },
+    { value: "published", label: "Published", tone: "live" },
+  ];
+  const toneColor = (tone: "muted" | "pending" | "live", active: boolean) => {
+    if (!active) return { bg: "var(--at-input)", fg: "var(--at-muted)", border: "var(--at-border-input)" };
+    if (tone === "live") return { bg: "var(--at-ok-bg)", fg: "var(--at-ok)", border: "var(--at-ok)" };
+    if (tone === "pending") return { bg: "rgba(245,158,11,0.12)", fg: "#f59e0b", border: "#f59e0b" };
+    return { bg: "var(--at-input)", fg: "var(--at-muted)", border: "var(--at-border-input)" };
+  };
+
+  return (
+    <div>
+      <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
+        {OPTIONS.map((o) => {
+          const active = status === o.value;
+          const c = toneColor(o.tone, active);
+          return (
+            <button
+              key={o.value}
+              type="button"
+              onClick={() => setStatus(o.value)}
+              style={{
+                padding: "6px 14px",
+                borderRadius: 20,
+                border: `1px solid ${c.border}`,
+                background: c.bg,
+                color: c.fg,
+                fontSize: 12.5,
+                fontWeight: 600,
+                cursor: "pointer",
+              }}
+            >
+              {o.label}
+            </button>
+          );
+        })}
+      </div>
+      <p style={{ fontSize: 12, color: "var(--at-muted)", margin: "8px 0 0" }}>
+        {status === "draft" && "Hidden from the site. The publish date below is ignored until you pick Scheduled or Published."}
+        {status === "scheduled" && "Goes live on its own at the date below — set the time you want down there."}
+        {status === "published" && "Live on the site now."}
+      </p>
+    </div>
+  );
 }
 
 export default function SchemaForm({ schema, record, locales, refOptions = {}, embedded = false }: {
@@ -271,7 +364,7 @@ export default function SchemaForm({ schema, record, locales, refOptions = {}, e
     : `New ${schema.singular}`;
 
   function renderField(f: FieldDef) {
-    const wide = f.full || f.type === "html" || f.type === "textarea" || f.type === "stringList" || f.type === "image" || f.type === "imageObject" || f.type === "refList";
+    const wide = f.full || f.type === "html" || f.type === "textarea" || f.type === "stringList" || f.type === "qaList" || f.type === "tagList" || f.type === "image" || f.type === "imageObject" || f.type === "refList";
     return (
       <div key={f.key} style={{ gridColumn: wide ? "1 / -1" : undefined }}>
         <Field label={f.i18n && locale !== "en" ? `${f.label} (${locale.toUpperCase()})` : f.label}>
@@ -284,6 +377,15 @@ export default function SchemaForm({ schema, record, locales, refOptions = {}, e
               <input type="checkbox" checked={!!data[f.key]} onChange={(e) => onFieldChange(f, e.target.checked)} style={{ width: 16, height: 16 }} />
               <span style={{ fontSize: 13, color: "var(--at-text)" }}>{data[f.key] ? "Yes" : "No"}</span>
             </label>
+          ) : f.type === "postStatus" ? (
+            <PostStatusField
+              published={!!data[f.key]}
+              date={String(data.date ?? "")}
+              onChange={(published, date) => {
+                setBase(f.key, published);
+                if (date !== undefined) setBase("date", date);
+              }}
+            />
           ) : f.type === "date" ? (
             <input
               type="datetime-local"
@@ -369,6 +471,25 @@ export default function SchemaForm({ schema, record, locales, refOptions = {}, e
               value={Array.isArray(data[f.key]) ? (data[f.key] as unknown[]).map(String) : []}
               onChange={(v) => onFieldChange(f, v)}
               placeholder={f.placeholder}
+            />
+          ) : f.type === "tagList" ? (
+            // Entries are TermRef objects ({id,name,slug}) on disk; edited here as
+            // plain names (StringListField), resolved back to terms on save
+            // (adminCollections.ts resolveCategories) so a name matching an
+            // existing tag reuses it instead of minting a near-duplicate.
+            <StringListField
+              value={
+                Array.isArray(data[f.key])
+                  ? (data[f.key] as unknown[]).map((c) => (c && typeof c === "object" && "name" in c ? String((c as { name: unknown }).name) : String(c)))
+                  : []
+              }
+              onChange={(v) => setBase(f.key, v)}
+              placeholder="Tag name"
+            />
+          ) : f.type === "qaList" ? (
+            <QaListField
+              value={Array.isArray(data[f.key]) ? (data[f.key] as QaEntry[]) : []}
+              onChange={(v) => setBase(f.key, v)}
             />
           ) : f.type === "select" ? (
             <Select

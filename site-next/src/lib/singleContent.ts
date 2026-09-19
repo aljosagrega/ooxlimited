@@ -2,6 +2,7 @@ import "server-only";
 import * as cheerio from "cheerio";
 import { sanitizeBodyHtml, sanitizeInline } from "./sanitize";
 import { getPost, getTeamMember } from "./content";
+import type { TeamMember } from "./types";
 
 /**
  * The blog-post / team-member / service SINGLE pages are frozen and render
@@ -15,6 +16,11 @@ import { getPost, getTeamMember } from "./content";
  * Service single pages keep pagemap editing (their body is bespoke Elementor
  * content that isn't captured by the services collection).
  */
+
+/** Matches teamGridRender.ts's FALLBACK_PHOTO — kept as a separate local
+ *  constant, same as blogRender.ts's own FALLBACK_IMG, rather than a shared
+ *  import, so each renderer's fallback can diverge later without coupling. */
+const TEAM_FALLBACK_PHOTO = "/og-default.png";
 export function applySingleContent(routePath: string, bodyHtml: string): string {
   const teamMatch = routePath.match(/^\/team\/([^/]+)\/$/);
   if (teamMatch) return patchTeam(teamMatch[1], bodyHtml);
@@ -45,24 +51,51 @@ function patchTeam(slug: string, bodyHtml: string): string {
   if (!m?.teamDirty) return bodyHtml;
 
   const $ = cheerio.load(bodyHtml, {}, false);
+  fillTeamMember($, m);
+  return $.html();
+}
 
+/**
+ * Fill a team single page's frozen slots (name, photo, bio, skills, programs,
+ * Q&A) from a team.json record. Shared by patchTeam() above — an already-
+ * live member's own frozen snapshot, only once edited in the admin — and
+ * renderTemplatedTeamMember() in teamGridRender.ts, which fills the same
+ * slots on the shared `_team-template` shell for a member created purely in
+ * the CMS, with no snapshot of their own.
+ */
+export function fillTeamMember($: cheerio.CheerioAPI, m: TeamMember) {
   // name / role
   setText($, ".single-team-hero .entry-title, h1.entry-title, h2.entry-title", m.name);
   setText($, ".team-position", m.position);
 
-  // photo
-  if (m.photo?.url) {
-    const img = $(".single-team-hero .post-thumbnail img, .single-team-hero img.wp-post-image").first();
-    if (img.length) {
-      img.attr("src", m.photo.url).removeAttr("srcset").removeAttr("sizes");
-      if (m.photo.alt) img.attr("alt", m.photo.alt);
-    }
+  // photo — always overwritten, even with no photo set. The old selector
+  // scoped both alternatives to `.single-team-hero`, but that element is an
+  // empty decorative wrapper (see _team-template.html) — the real photo sits
+  // in a sibling `.team-wrap-left .post-thumbnail img`, so the selector never
+  // matched anything and this has silently no-opped since before there was a
+  // form field to trigger it from. Caught via the client's report that a new
+  // hire's roster card and profile photo didn't match: the roster grid
+  // (teamGridRender.ts) reads the same field correctly and showed the right
+  // photo (or its fallback); the profile page kept whoever donated
+  // `_team-template` (Ozren)'s real photo under the new member's name.
+  const img = $(".post-thumbnail img.wp-post-image, .post-thumbnail img").first();
+  if (img.length) {
+    img.attr("src", m.photo?.url || TEAM_FALLBACK_PHOTO).removeAttr("srcset").removeAttr("sizes");
+    img.attr("alt", m.photo?.alt || m.name);
   }
 
-  // bio — one <p> per blank-line-separated paragraph, reusing the frozen <p> slots
+  // bio — one <p> per blank-line-separated paragraph, reusing the frozen <p>
+  // slots. The frozen markup carries TWO .team-content blocks — a hidden
+  // mobile-inline copy near the photo and the visible desktop copy in the
+  // main column, swapped by a breakpoint — each with its own <p> slots. A
+  // plain `.team-content p` selector pools both into one list, so filling 2
+  // paragraphs drains the FIRST block's slots and deletes the SECOND block's
+  // (frequently the visible one) as "surplus". Reflow each block separately.
   const bioParas = m.bio ? m.bio.split(/\n{2,}/).map((p) => p.trim()).filter(Boolean) : [];
-  reflowList($, ".team-content p", bioParas, (el, text) => {
-    el.html(`<span style="font-weight: 400;">${escapeHtml(text)}</span>`);
+  $(".team-content").each((_, container) => {
+    reflowNodes($, $(container).find("p").toArray(), bioParas, (el, text) => {
+      el.html(`<span style="font-weight: 400;">${escapeHtml(text)}</span>`);
+    });
   });
 
   // skills / programs
@@ -81,8 +114,6 @@ function patchTeam(slug: string, bodyHtml: string): string {
     const ans = $(li).find(".team-qa-answer").first();
     if (ans.length) ans.html(sanitizeInline(qa.answer));
   });
-
-  return $.html();
 }
 
 /* --------------------------------------------------------------- helpers ---- */
@@ -104,7 +135,18 @@ function reflowList(
   values: string[],
   apply: (el: any, text: string) => void,
 ) {
-  const nodes = $(sel).toArray();
+  reflowNodes($, $(sel).toArray(), values, apply);
+}
+
+/** Same as reflowList, but against an already-collected node array — for a
+ *  slot that must be reflowed once per duplicate container (see the bio
+ *  blocks in fillTeamMember) rather than pooled across all of them. */
+function reflowNodes(
+  $: cheerio.CheerioAPI,
+  nodes: any[],
+  values: string[],
+  apply: (el: any, text: string) => void,
+) {
   if (!nodes.length || !values.length) return;
   nodes.forEach((node, i) => {
     if (i < values.length) {
