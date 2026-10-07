@@ -1240,4 +1240,122 @@ body .omero-baf__thumb-shape img {
 article.omero-baf__featured {
   gap: 48px !important;
 }
+/* --------------------------------------------------------------------------
+ * Legal pages: /privacy/ and /terms-of-service/ (see legalRender.ts). A plain
+ * reading column on white, in the site's type (Poppins headings, Plus Jakarta
+ * Sans body) and its purple accent for links. The header is darkened by the
+ * .oox-404-shell rules above, which renderLegal also applies.
+ * ------------------------------------------------------------------------ */
+.oox-legal {
+  max-width: 860px;
+  margin: 0 auto;
+  /* The theme's header floats over the content region; clear it. */
+  padding: clamp(150px, 16vw, 200px) 24px clamp(64px, 9vw, 120px);
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #3A3D4A;
+  overflow-wrap: break-word;
+}
+.oox-legal__header {
+  border-bottom: 1px solid #E4E6EF;
+  padding-bottom: 24px;
+  margin-bottom: 32px;
+}
+.oox-legal__title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: clamp(34px, 5vw, 56px);
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  color: #111111;
+  margin: 0;
+}
+.oox-legal__updated {
+  margin: 12px 0 0;
+  font-size: 14px;
+  color: #6B6F80;
+}
+.oox-legal h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: clamp(21px, 2.4vw, 26px);
+  line-height: 1.3;
+  color: #111111;
+  margin: 48px 0 14px;
+  scroll-margin-top: 120px;
+}
+.oox-legal h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.4;
+  color: #111111;
+  margin: 28px 0 10px;
+}
+.oox-legal p,
+.oox-legal ul,
+.oox-legal ol { margin: 0 0 16px; }
+.oox-legal ul,
+.oox-legal ol { padding-left: 1.4em; }
+.oox-legal li { margin-bottom: 6px; }
+.oox-legal strong { color: #111111; font-weight: 600; }
+.oox-legal a { color: #7B5CFF; text-decoration: underline; text-underline-offset: 2px; }
+.oox-legal a:hover { color: #5B8CFF; }
+.oox-legal code {
+  background: #F2EFFE;
+  border-radius: 6px;
+  padding: 1px 6px;
+  font-size: 0.9em;
+}
+.oox-legal__table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 8px 0 24px;
+}
+.oox-legal table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+  line-height: 1.55;
+}
+.oox-legal th,
+.oox-legal td {
+  text-align: left;
+  vertical-align: top;
+  padding: 10px 12px;
+  border: 1px solid #E4E6EF;
+}
+.oox-legal th {
+  background: #F6F4FF;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #111111;
+}
+
+/* Footer legal links row, appended inside the footer's dark closing strip on
+ * every page by chromePatch.ts. */
+.oox-legal-links {
+  flex-basis: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 28px;
+  padding: 4px 24px 24px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: rgba(238, 243, 250, 0.7);
+}
+.oox-legal-links a {
+  color: rgba(238, 243, 250, 0.85);
+  text-decoration: none;
+}
+.oox-legal-links a:hover,
+.oox-legal-links a:focus-visible {
+  color: #FFFFFF;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
 `;

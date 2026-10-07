@@ -36,5 +36,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.6,
     });
   }
+  // Legal pages are dedicated routes, not pages.json records.
+  for (const p of ["/privacy/", "/terms-of-service/"]) {
+    out.push({ url: url(p), changeFrequency: "yearly", priority: 0.3 });
+  }
   return out;
 }
