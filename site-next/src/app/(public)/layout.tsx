@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import Script from "next/script";
 import "./globals.css";
 import { getSiteSettings } from "@/lib/content";
 import { organizationJsonLd, websiteJsonLd, renderJsonLd } from "@/lib/jsonLd";
 import ExtraScripts from "@/components/ExtraScripts";
+import CookieConsent from "@/components/CookieConsent";
 
 const settings = getSiteSettings();
 
@@ -38,17 +38,8 @@ export default function PublicLayout({ children }: { children: React.ReactNode }
         />
         {children}
 
-        {s.gaId && (
-          <Script id="ga4" strategy="afterInteractive">{`
-            setTimeout(function(){
-              window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
-              gtag('js',new Date());gtag('config','${s.gaId}');
-              var el=document.createElement('script');
-              el.src='https://www.googletagmanager.com/gtag/js?id=${s.gaId}';el.async=true;
-              document.head.appendChild(el);
-            },2000);
-          `}</Script>
-        )}
+        {/* Loads Google Analytics only after the visitor accepts cookies. */}
+        <CookieConsent gaId={s.gaId || undefined} />
 
         {s.headScripts?.trim() && <ExtraScripts html={s.headScripts} />}
       </body>

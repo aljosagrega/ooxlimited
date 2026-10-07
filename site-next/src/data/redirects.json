@@ -93,5 +93,25 @@
     "from": "/category/uncategorized",
     "to": "blog",
     "type": 301
+  },
+  {
+    "from": "/privacy-policy",
+    "to": "privacy",
+    "type": 301
+  },
+  {
+    "from": "/terms",
+    "to": "terms-of-service",
+    "type": 301
+  },
+  {
+    "from": "/terms-and-conditions",
+    "to": "terms-of-service",
+    "type": 301
+  },
+  {
+    "from": "/terms-of-use",
+    "to": "terms-of-service",
+    "type": 301
   }
 ]

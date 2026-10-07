@@ -9,8 +9,8 @@ import type { MenuItem } from "./types";
  * the JSON store, so `/admin` edits take effect without re-freezing. Layout,
  * classes and styling are never touched.
  *
- * Runs on every route (see the catch-all page). If nothing in the store differs
- * from what's frozen, the output is byte-identical.
+ * Runs on every route (see the catch-all page). Besides the store-driven edits
+ * it always appends the footer's legal links row; nothing else is added.
  */
 export function applyChromePatch(bodyHtml: string): string {
   const settings = getSiteSettings();
@@ -18,10 +18,13 @@ export function applyChromePatch(bodyHtml: string): string {
 
   // The omero theme bakes a hidden "Sign in" modal into every page (see below).
   const hasLoginWidget = bodyHtml.includes('class="account-wrap');
+  // The footer gets the legal links row appended (see below).
+  const hasFooter = bodyHtml.includes('id="colophon"');
 
   // Cheap bail-out: only load cheerio if there's something to change.
   if (
     !hasLoginWidget &&
+    !hasFooter &&
     !settings.socialLinks.length &&
     !menus.main.length &&
     !menus.footer.length
@@ -63,6 +66,27 @@ export function applyChromePatch(bodyHtml: string): string {
     menus.main,
   );
   patchMenus($, ".elementor-location-footer .menu, footer .menu, .site-footer .menu", menus.footer);
+
+  /* ---- footer legal links ----------------------------------------------- */
+  // The WordPress footer never linked a privacy policy or terms. Both are the
+  // URLs given to the App Store and Google Play and must be reachable from
+  // every page, so a row is appended inside the footer's closing strip (the
+  // container of its last heading, "Building better games…"), which carries
+  // the dark background; styled in frozenOverrides.ts under .oox-legal-links.
+  const footer = $("footer#colophon").first();
+  const strip = footer.find(".elementor-widget-heading").last().parent();
+  const target = strip.length ? strip : footer.find(".footer-width-fixer").first();
+  if (hasFooter && target.length && !footer.find(".oox-legal-links").length) {
+    target.append(
+      `<nav class="oox-legal-links" aria-label="Legal">` +
+        `<span>&copy; ${new Date().getFullYear()} OOX Limited</span>` +
+        `<a href="/privacy/">Privacy Policy</a>` +
+        `<a href="/terms-of-service/">Terms of Service</a>` +
+        // Reopens the consent banner (handled by components/CookieConsent.tsx).
+        `<button type="button" data-oox-cookie-settings>Cookie settings</button>` +
+        `</nav>`,
+    );
+  }
 
   // NOTE: footer contact email is left as frozen — the studio's footer address
   // (admin@ooxcit.com) differs from the form recipient and isn't an admin field.
