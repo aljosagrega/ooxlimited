@@ -82,6 +82,8 @@ export function applyChromePatch(bodyHtml: string): string {
         `<span>&copy; ${new Date().getFullYear()} OOX Limited</span>` +
         `<a href="/privacy/">Privacy Policy</a>` +
         `<a href="/terms-of-service/">Terms of Service</a>` +
+        // Reopens the consent banner (handled by components/CookieConsent.tsx).
+        `<button type="button" data-oox-cookie-settings>Cookie settings</button>` +
         `</nav>`,
     );
   }

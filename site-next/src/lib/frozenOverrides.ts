@@ -1348,12 +1348,31 @@ article.omero-baf__featured {
   line-height: 1.5;
   color: rgba(238, 243, 250, 0.7);
 }
-.oox-legal-links a {
+.oox-legal-links a,
+.oox-legal-links button {
   color: rgba(238, 243, 250, 0.85);
   text-decoration: none;
 }
+/* "Cookie settings" is a button (it opens the banner, it isn't a page), so
+ * strip the theme's button styling to make it read as one of the links. */
+.oox-legal-links button {
+  appearance: none;
+  background: none;
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  line-height: inherit;
+  letter-spacing: normal;
+  text-transform: none;
+  box-shadow: none;
+  cursor: pointer;
+}
 .oox-legal-links a:hover,
-.oox-legal-links a:focus-visible {
+.oox-legal-links a:focus-visible,
+.oox-legal-links button:hover,
+.oox-legal-links button:focus-visible {
   color: #FFFFFF;
   text-decoration: underline;
   text-underline-offset: 3px;

@@ -24,7 +24,7 @@ export type LegalDoc = {
 const COMPANY = "OOX Limited";
 const ADDRESS = "77 Lower Camden Street, Suite 7, Dublin 2, D02 XE80, Ireland";
 const REG_NO = "719529";
-const EMAIL = "info@ooxlimited.com";
+const EMAIL = "admin@ooxcit.com";
 const mail = `<a href="mailto:${EMAIL}">${EMAIL}</a>`;
 const ext = (href: string, label: string) =>
   `<a href="${href}" target="_blank" rel="noopener noreferrer">${label}</a>`;
@@ -82,7 +82,7 @@ export const PRIVACY: LegalDoc = {
 <h3>2.2 When you visit our Website</h3>
 <ul>
   <li><strong>Technical data</strong> &ndash; IP address, browser and device type, pages visited, referring page and timestamps, recorded in server logs for security and operation.</li>
-  <li><strong>Analytics</strong> &ndash; we use Google Analytics to understand how the Website is used (see section 8 on cookies).</li>
+  <li><strong>Analytics</strong> &ndash; only if you accept analytics cookies, we use Google Analytics to understand how the Website is used (see section 8).</li>
 </ul>
 
 <h3>2.3 When you contact us or subscribe</h3>
@@ -101,7 +101,8 @@ export const PRIVACY: LegalDoc = {
     <tr><td>Providing the Apps and Website, saving your progress, delivering purchased items</td><td>Performance of a contract (our Terms of Service)</td></tr>
     <tr><td>Showing <strong>personalised</strong> ads and measuring ad performance (EEA, UK and Switzerland)</td><td>Your consent, which you can withdraw at any time</td></tr>
     <tr><td>Showing non-personalised (contextual) ads that fund free Apps</td><td>Legitimate interests in offering the Apps free of charge</td></tr>
-    <tr><td>Analytics, crash reporting, fixing bugs and improving our games</td><td>Legitimate interests in running and improving our Services; consent where the law requires it for access to your device</td></tr>
+    <tr><td>Website analytics (Google Analytics)</td><td>Your consent, given through the cookie banner and withdrawable at any time</td></tr>
+    <tr><td>App analytics, crash reporting, fixing bugs and improving our games</td><td>Legitimate interests in running and improving our Services; consent where the law requires it for access to your device</td></tr>
     <tr><td>Preventing fraud, cheating, abuse and security incidents</td><td>Legitimate interests in protecting our Services and users</td></tr>
     <tr><td>Answering your messages and providing support</td><td>Legitimate interests, or steps taken at your request before entering into a contract</td></tr>
     <tr><td>Sending our newsletter</td><td>Your consent (double opt-in); you can unsubscribe at any time</td></tr>
@@ -131,14 +132,16 @@ export const PRIVACY: LegalDoc = {
 <h3>5.2 Service providers (processors)</h3>
 <p>We use carefully selected providers that process data only on our instructions and under a data-processing agreement, including:</p>
 <ul>
-  <li><strong>Analytics and crash reporting</strong> &ndash; Google Firebase (Google Analytics for Firebase, Crashlytics) and Unity Analytics, where used in an App (${ext("https://firebase.google.com/support/privacy", "Firebase privacy")});</li>
-  <li><strong>Website analytics</strong> &ndash; Google Analytics (${ext("https://policies.google.com/privacy", "Google privacy policy")});</li>
+  <li><strong>App analytics and crash reporting</strong> &ndash; Google Firebase (Google Analytics for Firebase and Firebase Crashlytics) (${ext("https://firebase.google.com/support/privacy", "Firebase privacy")});</li>
+  <li><strong>Website analytics</strong> &ndash; Google Analytics, only with your consent (${ext("https://policies.google.com/privacy", "Google privacy policy")});</li>
   <li><strong>Email and newsletter</strong> &ndash; Mailchimp (Intuit) (${ext("https://mailchimp.com/legal/privacy/", "Mailchimp privacy")}) and our email provider;</li>
   <li><strong>Hosting and infrastructure</strong> &ndash; the providers that host our Website and back-end services.</li>
 </ul>
 <h3>5.3 Platforms</h3>
 <p>Apple and Google operate the App Store and Google Play and process your purchases and downloads under their own privacy policies.</p>
-<h3>5.4 Other disclosures</h3>
+<h3>5.4 Third-party publishers</h3>
+<p>Our games are built with the Unity engine. Some of them are released in partnership with third-party publishers, who may operate the store listing and add their own analytics, attribution or advertising tools. For those games the publisher is an independent controller of the data its tools collect, and its own privacy policy, linked from the store listing or inside the game, also applies. Where OOX is the publisher, only the services described in this policy are used.</p>
+<h3>5.5 Other disclosures</h3>
 <p>We may disclose data where required by law or a valid request from a public authority; to protect the rights, property or safety of OOX, our users or others; or to a buyer or successor if all or part of our business is sold, merged or reorganised. In that case this policy will continue to protect your data.</p>
 
 <h2 id="transfers">6. International transfers</h2>
@@ -156,7 +159,15 @@ export const PRIVACY: LegalDoc = {
 <p>Advertising partners keep the data they receive according to their own policies.</p>
 
 <h2 id="cookies">8. Cookies and similar technologies</h2>
-<p>The Website uses a small number of cookies. Strictly necessary cookies keep the site working and secure. Google Analytics cookies (<code>_ga</code>, <code>_ga_*</code>, kept for up to 2 years) help us understand how visitors use the site; you can block them in your browser settings or with the ${ext("https://tools.google.com/dlpage/gaoptout", "Google Analytics opt-out add-on")}. Inside the Apps, SDKs use device identifiers and local storage rather than browser cookies, as described in sections 2.1 and 4.</p>
+<p>When you first visit the Website, a banner asks whether you accept analytics cookies. <strong>Nothing other than strictly necessary storage is used until you choose</strong>, and rejecting is as easy as accepting. You can change your choice at any time with the &ldquo;Cookie settings&rdquo; link in the footer of every page.</p>
+<div class="oox-legal__table-wrap"><table>
+  <thead><tr><th>Name</th><th>Type</th><th>Purpose</th><th>Duration</th></tr></thead>
+  <tbody>
+    <tr><td><code>oox_cookie_consent</code></td><td>Strictly necessary (browser storage)</td><td>Remembers your cookie choice so we do not ask again</td><td>12 months</td></tr>
+    <tr><td><code>_ga</code>, <code>_ga_*</code></td><td>Analytics (Google Analytics) &ndash; only with consent</td><td>Distinguishes visitors and sessions so we can measure how the Website is used</td><td>Up to 2 years</td></tr>
+  </tbody>
+</table></div>
+<p>If you withdraw consent, Google Analytics stops loading and we delete its cookies from our domain. You can also block cookies in your browser settings or use the ${ext("https://tools.google.com/dlpage/gaoptout", "Google Analytics opt-out add-on")}. Inside the Apps, SDKs use device identifiers and local storage rather than browser cookies, as described in sections 2.1 and 4.</p>
 
 <h2 id="your-rights">9. Your rights</h2>
 <p>If you are in the EEA, UK or Switzerland, you have the right to:</p>
