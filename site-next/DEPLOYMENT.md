@@ -17,7 +17,7 @@ database. Content is flat JSON in `src/data/*.json`, edited live via `/admin`.
 
 ## 2. Requirements
 
-- Node.js 20.9+ or 22 LTS.
+- Node.js 22.23.4+ or 24.22.1+ (older 22.x/24.x and all of 20.x carry the Oct 2026 Brotli RCE, CVE-2026-111497).
 - `npm ci` on a platform matching the target (native deps: `sharp`, `@swc/core`,
   `cheerio`'s `undici`). Build on a Linux x64 runner — **not** on the server (§4).
 - Outbound HTTPS to `api.resend.com` and `*.api.mailchimp.com`.
