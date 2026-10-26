@@ -34,7 +34,7 @@ workflow symlinks into each release. Never committed. Template: `.env.example`.
 |---|---|---|
 | `SESSION_SECRET` | yes | ≥32 chars, `openssl rand -hex 32`. Signs the admin cookie. |
 | `ADMIN_USERNAME` / `ADMIN_PASSWORD` | yes (first boot) | Bootstraps `src/data/adminAuth.json`. Change from the dev defaults. |
-| `SITE_URL` | yes | Canonical URLs, sitemap, OG — `https://ooxlimited.com` in production. Also a CI variable, because it is baked into the sitemap at build: **rebuild after changing**, a restart is not enough. |
+| `SITE_URL` | yes | Canonical URLs, sitemap, OG — `https://ooxlimited.com` in production. Also a CI variable, because the prerendered pages bake it into their canonical and OG URLs at build: **rebuild after changing**, a restart is not enough. |
 | `RESEND_API_KEY` | for contact email | Blank = submissions stored, no email sent. |
 | `RESEND_FROM_EMAIL` | for contact email | `OOX Limited <hello@ooxlimited.com>` — domain verified in Resend. |
 | `MAILCHIMP_API_KEY` | for newsletter | `xxxxxxxx-usXX`. Blank = signups stored only. |
@@ -96,7 +96,7 @@ committed.
 ## 5. nginx
 
 The app runs behind a reverse proxy. `SITE_URL` is read at **build** time as well as at
-runtime — `sitemap.ts` bakes it into `/sitemap.xml` — so changing the canonical host needs
+runtime — the prerendered pages bake it into their canonical URLs — so changing the canonical host needs
 a rebuild, not just a restart.
 
 Static files are served straight off disk, because the standalone Node server does not
@@ -172,7 +172,7 @@ review host is unchanged and still gated.
 
 What the cutover established, and what still holds:
 
-- `SITE_URL` is read at **build**, not only at runtime — `sitemap.ts` bakes it in — so
+- `SITE_URL` is read at **build**, not only at runtime — the prerendered pages bake it in — so
   changing the public hostname is a rebuild, not a restart.
 - The WordPress install it replaced is **left running** for one release cycle, so
   `npm run snapshot` / `npm run migrate` can be re-run if something turns out to be

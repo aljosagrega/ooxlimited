@@ -5,12 +5,12 @@ import {
 
 const SITE_URL = process.env.SITE_URL || "https://ooxlimited.com";
 
-// `force-static` (the old setting here) prerenders once at build time using the
-// CI runner's checked-in seed data, then never re-runs — it can't see admin
-// edits at all, ever, not even after a deploy. Same revalidate window as the
-// catch-all page (see its comment) so a deleted/added team member or post
-// clears out within 5 minutes instead of staying wrong forever.
-export const revalidate = 300;
+// Rendered on every request, off the server's live content files. A prerender
+// — `force-static`, or `revalidate` — is built on the CI runner from the repo's
+// seed data, and serves those paths until it first regenerates: after a deploy
+// it listed members deleted in the admin, whose pages 404. The render is a few
+// small JSON reads.
+export const dynamic = "force-dynamic";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const url = (p: string) => `${SITE_URL}${p.startsWith("/") ? p : `/${p}`}`;
