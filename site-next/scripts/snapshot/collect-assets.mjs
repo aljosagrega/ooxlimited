@@ -6,8 +6,8 @@
  *   - every /wp-content/* and /wp-includes/* file referenced by a frozen page
  *     (src/data/frozen/*.{html,head.html})
  *   - everything those CSS files pull in via url() / @import (fonts, mask SVGs…)
- *   - the Elementor JS runtime + its widget chunks (webpack loads these by
- *     hashed name at render time — they never appear in the HTML)
+ *   - the Elementor JS runtime, its widget chunks and conditional CSS (loaded by
+ *     name at render time — they never appear in the HTML)
  *
  * NOT copied: wp-content/uploads/ (the media library — client host state, large,
  * rsynced by the server; see DEPLOYMENT.md). It stays a symlink locally.
@@ -91,6 +91,11 @@ for (const sub of ["js", "lib"]) {
       want.add("/" + path.relative(WP_DOCROOT, f).split(path.sep).join("/"));
     }
   }
+}
+// The runtime injects its conditional stylesheets (dialog, lightbox…) the same
+// way, by name, so take every minified one.
+for (const f of walk(path.join(WP_DOCROOT, "wp-content/plugins/elementor/assets/css/conditionals"))) {
+  if (/\.min\.css$/.test(f)) addCss("/" + path.relative(WP_DOCROOT, f).split(path.sep).join("/"));
 }
 
 // ---- 3. copy ------------------------------------------------------------

@@ -1,12 +1,15 @@
 {
-  "generatedAt": "2026-09-03T05:37:16.969Z",
-  "count": 314,
-  "bytes": 24663611,
+  "generatedAt": "2026-10-26T22:19:39.849Z",
+  "count": 317,
+  "bytes": 24698157,
   "files": [
     "/wp-content/plugins/contact-form-7/includes/css/styles.css",
     "/wp-content/plugins/contact-form-7/includes/js/index.js",
     "/wp-content/plugins/contact-form-7/includes/swv/js/index.js",
+    "/wp-content/plugins/elementor/assets/css/conditionals/apple-webkit.min.css",
+    "/wp-content/plugins/elementor/assets/css/conditionals/dialog.min.css",
     "/wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css",
+    "/wp-content/plugins/elementor/assets/css/conditionals/lightbox.min.css",
     "/wp-content/plugins/elementor/assets/css/conditionals/shapes.min.css",
     "/wp-content/plugins/elementor/assets/css/widget-divider.min.css",
     "/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
