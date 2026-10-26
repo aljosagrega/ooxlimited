@@ -1,34 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
-import redirectsJson from "@/data/redirects.json";
-import postsJson from "@/data/posts.json";
 import { isProbePath } from "@/lib/probePaths";
-
-type Redirect = { from: string; to: string; type: number };
-
-const normalize = (p: string) => {
-  if (!p) return "/";
-  let out = p.startsWith("/") ? p : `/${p}`;
-  out = out.replace(/\/{2,}/g, "/");
-  if (!out.endsWith("/") && !/\.[a-z0-9]+$/i.test(out)) out += "/";
-  return out;
-};
-
-// Explicit redirect table (Yoast Premium export + slug changes), keyed by
-// normalized source path.
-const TABLE = new Map<string, { to: string; type: number }>();
-for (const r of redirectsJson as Redirect[]) {
-  TABLE.set(normalize(r.from), {
-    to: r.to.startsWith("http") ? r.to : normalize(r.to),
-    type: r.type === 302 || r.type === 307 ? 307 : 308,
-  });
-}
-
-// Every post's historical slugs -> its current canonical URL.
-for (const p of postsJson as { slug: string; oldSlugs?: string[] }[]) {
-  for (const old of p.oldSlugs ?? []) {
-    TABLE.set(normalize(old), { to: `/${p.slug}/`, type: 308 });
-  }
-}
+import { redirectFor } from "@/lib/redirectTable";
 
 const SITE_URL = process.env.SITE_URL || "https://ooxlimited.com";
 const ROBOTS_TXT = `User-agent: *
@@ -60,7 +32,7 @@ export function middleware(req: NextRequest) {
     return NextResponse.redirect(new URL("/sitemap.xml", req.url), 308);
   }
 
-  const hit = TABLE.get(normalize(pathname));
+  const hit = redirectFor(pathname);
   if (hit) {
     const dest = hit.to.startsWith("http") ? hit.to : new URL(hit.to, req.url);
     return NextResponse.redirect(dest, hit.type);

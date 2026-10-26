@@ -10,7 +10,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "test": "tsx --test \"src/**/*.test.ts\"",
+    "test": "tsx --conditions=react-server --test \"src/**/*.test.ts\"",
     "migrate": "tsx scripts/migrate/migrate.ts",
     "freeze": "tsx scripts/snapshot/freeze.ts",
     "build:maps": "tsx scripts/snapshot/build-pagemaps.ts",

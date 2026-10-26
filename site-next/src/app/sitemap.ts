@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import {
   getAllPages, getAllPosts, getServices, getTeam,
 } from "@/lib/content";
+import { redirectFor } from "@/lib/redirectTable";
 
 const SITE_URL = process.env.SITE_URL || "https://ooxlimited.com";
 
@@ -40,5 +41,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const p of ["/privacy/", "/terms-of-service/"]) {
     out.push({ url: url(p), changeFrequency: "yearly", priority: 0.3 });
   }
-  return out;
+  // A path the middleware redirects never reaches its page, so it isn't one.
+  return out.filter((e) => !redirectFor(new URL(e.url).pathname));
 }
