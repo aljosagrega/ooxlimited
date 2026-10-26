@@ -153,9 +153,9 @@ those (`trailingSlash: true`, `src/middleware.ts`).
 `workflow_dispatch`. It reads repo **variables** `SSH_USER`, `SSH_HOST`, `SSH_PORT`,
 `DEPLOY_PATH`, `SERVICE_NAME`, `APP_PORT`, `SITE_URL`, and the secret `SSH_PRIVATE_KEY`.
 
-Set `SSH_HOST` to the server's IP rather than the site's hostname, so CI's SSH is
-independent of the site's DNS and certificate state and the first deploy can run before
-either exists.
+Set `SSH_HOST` to the server's own DNS-only hostname rather than the site's hostname: a
+site behind a proxy never reaches the SSH port, and CI's SSH stays independent of the
+site's DNS and certificate state, so the first deploy can run before either exists.
 
 The host must provide: the system user and its `$BASE`, the four `shared/` trees owned by
 that user, a systemd unit running `node server.js` from `$BASE/current` with
